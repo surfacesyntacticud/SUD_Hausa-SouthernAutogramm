@@ -10,7 +10,7 @@
 3	gàː	gàː	PART	_	_	1	comp:obj	_	AlignBegin=717|AlignEnd=956|GE=COP4|Gloss=COP4|nWord=4|RX=PTCL.SYNT
 4	tà	shì	AUX	_	Aspect=.Hab|Person=3	1	conj:coord	_	AlignBegin=956|AlignEnd=1195|GE=3SG.F|Gloss=3Fem|nWord=5|RX=PRO.OBJ
 5	nan	nan	VERB	_	_	4	comp:aux	_	AlignBegin=1195|AlignEnd=1315|GE=Def|Gloss=Def|nWord=6|RX=ADV.DEICT
-6	=ku	=ku	PRON	_	PronType=Prs	5	comp:obj	_	AlignBegin=1315|AlignEnd=1434|GE=2.Plur|Gloss=2.Plur|nWord=6|RX=PRO.POS
+6	=ku	=ku	PRON	_	PronType=Prs	5	comp:obj	_	AlignBegin=1315|AlignEnd=1434|GE=2.PL|Gloss=2.PL|nWord=6|RX=PRO.POS
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1434|AlignEnd=1670|Gloss=PUNCT|nWord=7
 
 # sent_id = HAUZ_BC_NARR_02_SP1_002-002
@@ -21,11 +21,11 @@
 # text = àkwai gizò neː // dà ƙoːƙì //
 # text_en =  It's the story of Gizo And Koki.
 1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=6570|AlignEnd=6911|GE=COP3|Gloss=COP3|nWord=1|RX=PTCL.SYNT
-2	gizò	gizò	NOUN	_	_	1	comp:pred	_	AlignBegin=6911|AlignEnd=7252|GE=Spider|Gloss=Spider|nWord=2|RX=N.P
+2	gizò	gizò	PROPN	_	_	1	comp:pred	_	AlignBegin=6911|AlignEnd=7252|GE=Spider|Gloss=Spider|nWord=2|RX=N.P
 3	nèː	neː	PART	_	_	1	comp:pred	_	AlignBegin=7252|AlignEnd=7593|GE=COP1|Gloss=Ident/Foc|nWord=3|RX=PTCL.SYNT
 4	//	//	PUNCT	_	_	5	punct	_	AlignBegin=7593|AlignEnd=7934|Gloss=PUNCT|nWord=4
 5	dà	dà	ADP	_	_	1	conj:dicto	_	AlignBegin=7934|AlignEnd=8275|GE=and|Gloss=and|nWord=5|RX=CONJ/HOM
-6	ƙoːƙì	ƙoːƙì	NOUN	_	_	5	comp:obj	_	AlignBegin=8275|AlignEnd=8616|GE=Manta|Gloss=Manta|nWord=6|RX=N.P
+6	ƙoːƙì	ƙoːƙì	PROPN	_	_	5	comp:obj	_	AlignBegin=8275|AlignEnd=8616|GE=Manta|Gloss=Manta|nWord=6|RX=N.P
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=8616|AlignEnd=8960|Gloss=PUNCT|nWord=7
 
 # sent_id = HAUZ_BC_NARR_02_SP1_003-003
@@ -62,7 +62,7 @@
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=13612|AlignEnd=13913|GE=say|Gloss=say|nWord=3|RX=V0
 4	/	/	PUNCT	_	_	5	punct	_	AlignBegin=13913|AlignEnd=14215|Gloss=PUNCT|nWord=4
 5	mà	mà	ADP	_	_	3	comp:obl	_	AlignBegin=14215|AlignEnd=14656|GE=Dat|Gloss=Dat|nWord=5|RX=PTCL.SYNT
-6	ƙoːƙì	ƙoːƙì	VERB	_	_	5	comp:obj	_	AlignBegin=14656|AlignEnd=15097|GE=Manta|Gloss=Manta|nWord=6|RX=N.P
+6	ƙoːƙì	ƙoːƙì	PROPN	_	_	5	comp:obj	_	AlignBegin=14656|AlignEnd=15097|GE=Manta|Gloss=Manta|nWord=6|RX=N.P
 7	/	/	PUNCT	_	_	5	punct	_	AlignBegin=15097|AlignEnd=15538|Gloss=PUNCT|nWord=7
 8	inàː	nàː	AUX	_	Aspect=Imp|Number=Sing|Person=1	2	conj:dicto	_	AlignBegin=15538|AlignEnd=15979|GE=1SG.Imp|Gloss=1Sing.Imp|nWord=8|RX=PNG.TAM
 9	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	8	comp:aux	_	AlignBegin=15979|AlignEnd=16199|GE=wanting|Gloss=want.Vnoun.Cons|nWord=9|RX=N.V*|wordform=sôː
@@ -104,24 +104,23 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_02.WAV
 # sent_timecode = 20468, 23160
 # phonetic_text = sai ta cêː tòː / ita kòː / ìnaː nèː zaː -tà saːmoː wânnan ramàː //
-# text = sai ta cêː tòː / ita kòː / ìnaː nèː zaːtà saːmoː wânnan ramàː //
+# text = sai ta cêː tòː < ita kòː < ìnaː nèː zaːtà saːmoː wânnan ramàː //
 # text_en =  then she said well she, where will she go to find that hemp ?
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=20468|AlignEnd=20573|GE=then|Gloss=then|nWord=1|RX=CONJ/HOM
 2	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	0	root	_	AlignBegin=20573|AlignEnd=20678|GE=3SG.F.Perf.Bkg|Gloss=3Fem.Perf.Bck|nWord=2|RX=PNG.TAM
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=20678|AlignEnd=20783|GE=say|Gloss=say|nWord=3|RX=V*
-4	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=20783|AlignEnd=20888|GE=well|Gloss=well|nWord=4|RX=DM
-5	/	/	PUNCT	_	_	4	punct	_	AlignBegin=20888|AlignEnd=20994|Gloss=PUNCT|nWord=5
-6	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=20994|AlignEnd=21085|GE=3SG.F|Gloss=3Fem|nWord=6|RX=PRO.IDP
+4	tòː	tòː	INTJ	_	_	10	discourse	_	AlignBegin=20783|AlignEnd=20888|GE=well|Gloss=well|nWord=4|RX=DM
+5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=20888|AlignEnd=20994|Gloss=PUNCT|nWord=5
+6	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	10	dislocated@subj	_	AlignBegin=20994|AlignEnd=21085|GE=3SG.F|Gloss=3Fem.Nom|nWord=6|RX=PRO.IDP
 7	kòː	kòː	PART	_	_	6	mod	_	AlignBegin=21085|AlignEnd=21176|GE=as_for|Gloss=as_for|nWord=7|RX=PTCL.TOP
-8	/	/	PUNCT	_	_	6	punct	_	AlignBegin=21176|AlignEnd=21267|Gloss=PUNCT|nWord=8
-9	ìnaː	ìnaː	ADV	_	_	6	mod	_	AlignBegin=21267|AlignEnd=21537|GE=where|Gloss=where|nWord=9|RX=ADV.Q
-10	nèː	neː	PART	_	_	9	conj:coord	_	AlignBegin=21537|AlignEnd=21807|GE=COP1|Gloss=Ident/Foc|nWord=10|RX=PTCL.SYNT
-11	zaː	zaː	AUX	_	_	10	comp:cleft	_	AlignBegin=21807|AlignEnd=21942|GE=zaː|Gloss=zaː|nWord=11|RX=HESIT
-12	=tà	=ta	PRON	_	Aspect=.Hab|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=21942|AlignEnd=22077|GE=3SG.F|Gloss=3Fem|nWord=11|RX=PRO.POS
-13	saːmoː	saːm-	VERB	_	_	11	comp:aux	_	AlignBegin=22077|AlignEnd=22347|GE=get.DIR|Gloss=get.DIR|nWord=12|RX=V6
-14	wânnan	wânnan	DET	_	Definite=Cons	13	mod	_	AlignBegin=22347|AlignEnd=22617|GE=Def|Gloss=Def|nWord=13|RX=PRO.DEICT
-15	ramàː	ramàː	NOUN	_	_	11	mod	_	AlignBegin=22617|AlignEnd=22887|GE=hemp|Gloss=hemp|nWord=14|RX=N
-16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=22887|AlignEnd=23160|Gloss=PUNCT|nWord=15
+8	<	<	PUNCT	_	_	6	punct	_	AlignBegin=21176|AlignEnd=21267|Gloss=PUNCT|nWord=8
+9	ìnaː	ìnaː	ADV	_	_	10	comp:pred	_	AlignBegin=21267|AlignEnd=21537|GE=where|Gloss=where|nWord=9|RX=ADV.Q
+10	nèː	neː	PART	_	_	3	comp:obj	_	AlignBegin=21537|AlignEnd=21807|GE=COP1|Gloss=Ident/Foc|nWord=10|RX=PTCL.SYNT
+11	zaːtà	zaː	AUX	_	_	10	comp:cleft	_	AlignBegin=21807|AlignEnd=21942|GE=zaː|Gloss=3Fem.Fut|nWord=11|RX=HESIT
+12	saːmoː	saːm-	VERB	_	_	11	comp:aux	_	AlignBegin=22077|AlignEnd=22347|GE=get.DIR|Gloss=get.DIR|nWord=12|RX=V6
+13	wânnan	wânnan	DET	_	Definite=Cons	14	det	_	AlignBegin=22347|AlignEnd=22617|GE=Def|Gloss=Def|nWord=13|RX=PRO.DEICT
+14	ramàː	ramàː	NOUN	_	_	12	comp:obj	_	AlignBegin=22617|AlignEnd=22887|GE=hemp|Gloss=hemp|nWord=14|RX=N
+15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=22887|AlignEnd=23160|Gloss=PUNCT|nWord=15
 
 # sent_id = HAUZ_BC_NARR_02_SP1_011-011
 # speaker_id = SP1
@@ -267,7 +266,7 @@
 7	cêː	cêː	VERB	_	_	6	comp:aux	_	AlignBegin=44871|AlignEnd=44991|GE=say|Gloss=say|nWord=7|RX=V*
 8	/	/	PUNCT	_	_	10	punct	_	AlignBegin=44991|AlignEnd=45110|Gloss=PUNCT|nWord=8
 9	tôː	tôː	INTJ	_	_	10	discourse	_	AlignBegin=45110|AlignEnd=45318|GE=well|Gloss=well|nWord=9|RX=PTCL.TOP
-10	gizò	gizò	NOUN	_	_	12	comp:pred	_	AlignBegin=45318|AlignEnd=45526|GE=Spider|Gloss=Spider|nWord=10|RX=N.P
+10	gizò	gizò	PROPN	_	_	12	comp:pred	_	AlignBegin=45318|AlignEnd=45526|GE=Spider|Gloss=Spider|nWord=10|RX=N.P
 11	/	/	PUNCT	_	_	10	punct	_	AlignBegin=45526|AlignEnd=45735|Gloss=PUNCT|nWord=11
 12	àbîn	àbː	NOUN	_	Definite=Def	0	root	_	AlignBegin=46401|AlignEnd=46521|GE=thing|Gloss=thing.Def|nWord=12|RX=N
 13	fa	fa	VERB	_	_	12	comp:aux	_	AlignBegin=46641|AlignEnd=46881|GE=indeed|Gloss=indeed|nWord=13|RX=PTCL.TOP
@@ -316,7 +315,7 @@
 # phonetic_text = ƙoːƙì ya cêː na'àm &// ki -n saːmù //
 # text = ƙoːƙì ya cêː na'àm kin saːmù ?//
 # text_en =  Koki said, I.. did you get some?
-1	ƙoːƙì	ƙoːƙì	NOUN	_	_	2	mod	_	AlignBegin=52456|AlignEnd=52676|GE=Manta|Gloss=Manta|nWord=1|RX=N.P
+1	ƙoːƙì	ƙoːƙì	PROPN	_	_	2	mod	_	AlignBegin=52456|AlignEnd=52676|GE=Manta|Gloss=Manta|nWord=1|RX=N.P
 2	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=52676|AlignEnd=52896|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=2|RX=PNG.TAM
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=52896|AlignEnd=53116|GE=say|Gloss=say|nWord=3|RX=V*
 4	na'àm	na'àm	INTJ	_	_	5	discourse	_	AlignBegin=53116|AlignEnd=53336|GE=na'àm|Gloss=yes|nWord=4|RX=INTJ
@@ -334,7 +333,7 @@
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=54322|AlignEnd=54519|GE=1SG.Perf|Gloss=1Sing.Perf|nWord=1|RX=PNG.TAM
 2	saːmù	saːmù	VERB	_	_	1	comp:aux	_	AlignBegin=54519|AlignEnd=54716|GE=get|Gloss=get|nWord=2|RX=V2
 3	//	//	PUNCT	_	_	4	punct	_	AlignBegin=54716|AlignEnd=54912|Gloss=PUNCT|nWord=3
-4	gizò	gizò	NOUN	_	_	1	comp:pred	_	AlignBegin=55396|AlignEnd=55573|GE=Spider|Gloss=Spider|nWord=4|RX=N.P
+4	gizò	gizò	PROPN	_	_	1	comp:pred	_	AlignBegin=55396|AlignEnd=55573|GE=Spider|Gloss=Spider|nWord=4|RX=N.P
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=55573|AlignEnd=55750|Gloss=PUNCT|nWord=5
 
 # sent_id = HAUZ_BC_NARR_02_SP2_03-03
@@ -367,7 +366,7 @@
 11	//	//	PUNCT	_	_	14	punct	_	AlignBegin=58026|AlignEnd=58248|Gloss=PUNCT|nWord=11
 12	mː	mː	INTJ	_	_	8	discourse	_	AlignBegin=58854|AlignEnd=58984|GE=BKL|Gloss=BKL|nWord=12|RX=BKL
 13	/	/	PUNCT	_	_	12	punct	_	AlignBegin=58984|AlignEnd=59115|Gloss=PUNCT|nWord=13
-14	ƙoːƙì	ƙoːƙì	ADV	_	_	8	comp:pred	_	AlignBegin=59115|AlignEnd=59407|GE=Manta|Gloss=Manta|nWord=14|RX=N.P
+14	ƙoːƙì	ƙoːƙì	PROPN	_	_	8	comp:pred	_	AlignBegin=59115|AlignEnd=59407|GE=Manta|Gloss=Manta|nWord=14|RX=N.P
 15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=59407|AlignEnd=59700|Gloss=PUNCT|nWord=15
 
 # sent_id = HAUZ_BC_NARR_02_SP1_035-035
@@ -458,7 +457,7 @@
 # text_en =  What we are looking for. He gave her the money.
 1	àbù	àbù	NOUN	_	Definite=Def	0	root	_	AlignBegin=68736|AlignEnd=68846|GE=thing|Gloss=Def|nWord=1|RX=N
 2	dà	dà	ADP	_	_	1	comp:obl	_	AlignBegin=68955|AlignEnd=69174|GE=REL|Gloss=REL|nWord=2|RX=CONJ/HOM
-3	zaː'à	zaː'-	NOUN	_	_	2	comp:obj	_	AlignBegin=69174|AlignEnd=69393|GE=FUT.4|Gloss=FUT.4|nWord=3|RX=TAM.PNG
+3	zaː'à	zaː	AUX	_	_	2	comp:obj	_	AlignBegin=69174|AlignEnd=69393|GE=FUT.4|Gloss=FUT.4|nWord=3|RX=TAM.PNG
 4	neːmoː	neːmoː	NOUN	_	_	3	mod	_	AlignBegin=69393|AlignEnd=69612|GE=look_for.DIR|Gloss=look_for.DIR|nWord=4|RX=V6
 5	//	//	PUNCT	_	_	7	punct	_	AlignBegin=69612|AlignEnd=69832|Gloss=PUNCT|nWord=5
 6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=70572|AlignEnd=70781|GE=then|Gloss=then|nWord=6|RX=CONJ/HOM
@@ -486,9 +485,9 @@
 6	/	/	PUNCT	_	_	7	punct	_	AlignBegin=73425|AlignEnd=73618|Gloss=PUNCT|nWord=6
 7	mahaɗin	mahaɗiː	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=74135|AlignEnd=74220|GE=gather|Gloss=accompaniment.Cons|nWord=7|RX=V1
 8	dà	dà	ADP	_	_	7	mod:obl@relcl	_	AlignBegin=74306|AlignEnd=74562|GE=with|Gloss=with|nWord=8|RX=PREP/HOM
-9	zaːtà	zaːtː	AUX	_	Number=Plur	8	comp:obj	_	AlignBegin=74562|AlignEnd=74818|GE=FUT.3SG.F|Gloss=FUT.3SG.F|nWord=9|RX=TAM.PNG
+9	zaːtà	zaː	AUX	_	Number=Plur	8	comp:obj	_	AlignBegin=74562|AlignEnd=74818|GE=FUT.3SG.F|Gloss=FUT.3SG.F|nWord=9|RX=TAM.PNG
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=74818|AlignEnd=75074|Gloss=PUNCT|nWord=10
-11	zaːʔà	zaːoː	AUX	_	_	9	conj:coord	_	AlignBegin=75074|AlignEnd=75262|GE=4.FUT|Gloss=4.FUT|nWord=11|RX=PNG.TAM
+11	zaːʔà	zaː	AUX	_	_	9	conj:coord	_	AlignBegin=75074|AlignEnd=75262|GE=4.FUT|Gloss=4.FUT|nWord=11|RX=PNG.TAM
 12	ci	ci	VERB	_	_	11	comp:aux	_	AlignBegin=75262|AlignEnd=75450|GE=eat|Gloss=eat|nWord=12|RX=V0
 13	wânnan	wânnan	DET	_	Definite=Cons	14	det	_	AlignBegin=75450|AlignEnd=75638|GE=Def|Gloss=Def|nWord=13|RX=PRO.DEICT
 14	ramàn	ramàː	NOUN	_	Definite=Def	12	comp:obj@relcl	_	AlignBegin=75638|AlignEnd=75732|GE=hemp|Gloss=hemp.Def|nWord=14|RX=N
@@ -598,7 +597,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_02.WAV
 # sent_timecode = 89478, 90780
-# phonetic_text = sai ya cêː tòː ìnaː yaːròː \Plur //
+# phonetic_text = sai ya cêː tòː ìnaː yaːròː \PL //
 # text = sai ya cêː tòː ìnaː yâːraː //
 # text_en =  Then he said well, where are the children?
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=89478|AlignEnd=89664|GE=then|Gloss=then|nWord=1|RX=CONJ/HOM
@@ -613,7 +612,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_02.WAV
 # sent_timecode = 91986, 92875
-# phonetic_text = à kiraː yaːròː \Plur //
+# phonetic_text = à kiraː yaːròː \PL //
 # text = à kiraː yâːraː //
 # text_en =  Let them call the children.
 1	à	à	AUX	_	_	0	root	_	AlignBegin=91986|AlignEnd=92208|GE=4.Aor|Gloss=4.Aor|nWord=1|RX=PNG.TAM
@@ -660,7 +659,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_02.WAV
 # sent_timecode = 96090, 97170
-# phonetic_text = akà kiraː ƴaː \Plur -n -sù //
+# phonetic_text = akà kiraː ƴaː \PL -n -sù //
 # text = akà kiraː ƴaːƴan =sù //
 # text_en =  They called their children.
 1	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	0	root	_	AlignBegin=96090|AlignEnd=96360|GE=4.Perf.Bkg|Gloss=4.Imp.Bck|nWord=1|RX=PNG.TAM
@@ -673,7 +672,7 @@
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_02.WAV
 # sent_timecode = 97944, 99110
-# phonetic_text = ƴaː \Plur -n -sù gùdaː bìyar̃ //
+# phonetic_text = ƴaː \PL -n -sù gùdaː bìyar̃ //
 # text = ƴaːƴan -sù gùdaː bìyar̃ //
 # text_en =  They have five children.
 1	ƴaːƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	0	root	_	AlignBegin=97944|AlignEnd=98017|GE=daughter|Gloss=child.Plur.Cons|nWord=1|RX=N
@@ -735,7 +734,7 @@
 1	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	4	mod	_	AlignBegin=107700|AlignEnd=107829|GE=3SG.F|Gloss=3Fem|nWord=1|RX=PRO.OBJ
 2	fa	fa	PART	_	_	1	mod	_	AlignBegin=107829|AlignEnd=107958|GE=indeed|Gloss=indeed|nWord=2|RX=PTCL.TOP
 3	bà	bà	PART	_	Polarity=Neg	2	mod	_	AlignBegin=107958|AlignEnd=108087|GE=NEG1a|Gloss=NEG1a|nWord=3|RX=PTCL.NEG
-4	zâi	zâi	VERB	_	_	0	root	_	AlignBegin=108087|AlignEnd=108216|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=4|RX=TAM.PNG
+4	zâi	zaː	AUX	_	_	0	root	_	AlignBegin=108087|AlignEnd=108216|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=4|RX=TAM.PNG
 5	barìː	barìː	VERB	_	_	4	comp:obj	_	AlignBegin=108216|AlignEnd=108345|GE=leave|Gloss=leave|nWord=5|RX=V*
 6	tà	shì	AUX	_	Aspect=.Hab|Person=3	4	comp:obj	_	AlignBegin=108345|AlignEnd=108474|GE=3SG.F|Gloss=3Fem|nWord=6|RX=PRO.OBJ
 7	tà	shì	AUX	_	Aspect=.Hab|Person=3	6	comp:aux	_	AlignBegin=108474|AlignEnd=108603|GE=3SG.F.Aor|Gloss=3SG.F.Aor|nWord=7|RX=PNG.TAM
@@ -811,7 +810,7 @@
 # text = tsìyaː zâi taːshì //
 # text_en =  they will quarrel.
 1	tsìyaː	tsìyaː	NOUN	_	_	2	mod	_	AlignBegin=115985|AlignEnd=116192|GE=quarelling|Gloss=quarelling|nWord=1|RX=N
-2	zâi	zâi	VERB	_	_	0	root	_	AlignBegin=116192|AlignEnd=116399|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=2|RX=TAM.PNG
+2	zâi	zaː	AUX	_	_	0	root	_	AlignBegin=116192|AlignEnd=116399|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=2|RX=TAM.PNG
 3	taːshì	taːshì	VERB	_	_	2	comp:aux	_	AlignBegin=116399|AlignEnd=116606|GE=rise|Gloss=rise|nWord=3|RX=V3B
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=116606|AlignEnd=116814|Gloss=PUNCT|nWord=4
 
@@ -896,7 +895,7 @@
 1	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	0	root	_	AlignBegin=128268|AlignEnd=128442|GE=3SG.F.Perf.Bkg|Gloss=3Fem.Perf.Bck|nWord=1|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=128442|AlignEnd=128616|GE=say|Gloss=say|nWord=2|RX=V*
 3	yàːyàː	yàːyàː	AUX	_	_	2	comp:obj	_	AlignBegin=128616|AlignEnd=128790|GE=how|Gloss=how|nWord=3|RX=ADV.Q
-4	zân	zân	VERB	_	_	3	comp:aux	_	AlignBegin=128790|AlignEnd=128964|GE=FUT.1SG|Gloss=FUT.1SG|nWord=4|RX=TAM.PNG
+4	zân	zaː	AUX	_	_	3	comp:aux	_	AlignBegin=128790|AlignEnd=128964|GE=FUT.1SG|Gloss=FUT.1SG|nWord=4|RX=TAM.PNG
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=128964|AlignEnd=129138|GE=do|Gloss=do|nWord=5|RX=V0
 6	//	//	PUNCT	_	_	7	punct	_	AlignBegin=129138|AlignEnd=129310|Gloss=PUNCT|nWord=6
 7	in	in	SCONJ	_	_	4	mod	_	AlignBegin=129858|AlignEnd=130031|GE=if|Gloss=if|nWord=7|RX=CONJ
@@ -905,7 +904,7 @@
 10	taɓàː	taɓàːː	VERB	_	_	8	comp:aux	_	AlignBegin=130376|AlignEnd=130671|GE=touch|Gloss=touch|nWord=10|RX=V1
 11	hankàlin	hankàliː	NOUN	_	Definite=Cons	10	comp:aux	_	AlignBegin=130671|AlignEnd=130769|GE=mind|Gloss=mind.Cons|nWord=11|RX=N|wordform=hankàliː
 12	=tà	=ta	PRON	_	Aspect=.Hab|Person=3|PronType=Prs	13	mod	_	AlignBegin=130867|AlignEnd=130966|GE=3SG.F|Gloss=3Fem|nWord=11|RX=PRO.POS
-13	zâi	zâk	VERB	_	_	11	comp:obj	_	AlignBegin=130966|AlignEnd=131261|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=12|RX=TAM.PNG
+13	zâi	zaː	AUX	_	_	11	comp:obj	_	AlignBegin=130966|AlignEnd=131261|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=12|RX=TAM.PNG
 14	ɓaːcì	ɓaːcì	NOUN	_	_	13	mod	_	AlignBegin=131261|AlignEnd=131556|GE=get_spoilt|Gloss=get_spoilt|nWord=13|RX=V3B
 15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=131556|AlignEnd=131850|Gloss=PUNCT|nWord=14
 
@@ -917,7 +916,7 @@
 # text = yàː zaːtà &//
 # text_en =  How will she..
 1	yàːyàː	yàːyàː	AUX	_	_	0	root@scrap	_	AlignBegin=133180|AlignEnd=133461|GE=how|Gloss=how|nWord=1|RX=ADV.Q
-2	zaːtà	zaː-	VERB	_	_	1	comp:aux	_	AlignBegin=133461|AlignEnd=133742|GE=FUT.3SG.F|Gloss=FUT.3SG.F|nWord=2|RX=TAM.PNG
+2	zaːtà	zaː	AUX	_	_	1	comp:aux	_	AlignBegin=133461|AlignEnd=133742|GE=FUT.3SG.F|Gloss=FUT.3SG.F|nWord=2|RX=TAM.PNG
 3	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=133742|AlignEnd=134022|Gloss=PUNCT|nWord=3
 
 # sent_id = HAUZ_BC_NARR_02_SP1_083-084
@@ -930,7 +929,7 @@
 1	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	0	root	_	AlignBegin=134022|AlignEnd=134227|GE=3SG.F.Perf.Bkg|Gloss=3Fem.Perf.Bck|nWord=1|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=134227|AlignEnd=134432|GE=say|Gloss=say|nWord=2|RX=V*
 3	yàːyàː	yàːyàː	AUX	_	_	2	comp:obj	_	AlignBegin=134432|AlignEnd=134637|GE=how|Gloss=how|nWord=3|RX=ADV.Q
-4	zân	zân	VERB	_	_	3	comp:aux	_	AlignBegin=134637|AlignEnd=134842|GE=FUT.1SG|Gloss=FUT.1SG|nWord=4|RX=TAM.PNG
+4	zân	zaː	AUX	_	_	3	comp:aux	_	AlignBegin=134637|AlignEnd=134842|GE=FUT.1SG|Gloss=FUT.1SG|nWord=4|RX=TAM.PNG
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=134842|AlignEnd=135047|GE=do|Gloss=do|nWord=5|RX=V0
 6	ìn	ìn	ADP	_	_	5	comp:obj	_	AlignBegin=135047|AlignEnd=135252|GE=1SG.Aor|Gloss=1SG.Aor|nWord=6|RX=PNG.TAM
 7	jeː	jeː	NOUN	_	_	6	comp:obj	_	AlignBegin=135252|AlignEnd=135457|GE=go|Gloss=go|nWord=7|RX=V0
@@ -947,7 +946,7 @@
 18	kà	shì	AUX	_	Aspect=.Hab|Person=2	10	conj:coord	_	AlignBegin=137651|AlignEnd=137792|GE=2SG.M.Aor|Gloss=2SG.M.Aor|nWord=17|RX=PNG.TAM
 19	cêː	cêː	VERB	_	_	18	comp:aux	_	AlignBegin=137792|AlignEnd=137933|GE=say|Gloss=say|nWord=18|RX=V*
 20	bà	bà	PART	_	Polarity=Neg	21	mod	_	AlignBegin=137933|AlignEnd=138074|GE=NEG1a|Gloss=NEG1a|nWord=19|RX=PTCL.NEG
-21	zân	zâː	ADV	_	_	19	comp:obj	_	AlignBegin=138074|AlignEnd=138215|GE=FUT.1SG|Gloss=FUT.1SG|nWord=20|RX=TAM.PNG
+21	zân	zaː	AUX	_	_	19	comp:obj	_	AlignBegin=138074|AlignEnd=138215|GE=FUT.1SG|Gloss=FUT.1SG|nWord=20|RX=TAM.PNG
 22	taɓàː	taɓàː	VERB	_	_	21	comp:aux	_	AlignBegin=138215|AlignEnd=138356|GE=touch|Gloss=touch|nWord=21|RX=V1
 23	ìn	ìn	NOUN	_	_	22	mod	_	AlignBegin=138356|AlignEnd=138497|GE=1SG.Aor|Gloss=1SG.Aor|nWord=22|RX=PNG.TAM
 24	ci	ci	PRON	_	_	23	comp:obj	_	AlignBegin=138497|AlignEnd=138638|GE=eat|Gloss=eat|nWord=23|RX=V0
@@ -962,7 +961,7 @@
 # text = bà zaːkì ci ba //
 # text_en =  (He said,) you will not eat.
 1	bà	bà	PART	_	Polarity=Neg	2	mod	_	AlignBegin=138918|AlignEnd=139039|GE=NEG1a|Gloss=NEG1a|nWord=1|RX=PTCL.NEG
-2	zaːkì	zaːkì	AUX	_	_	0	root	_	AlignBegin=139039|AlignEnd=139160|GE=FUT.2SG.F|Gloss=FUT.2SG.F|nWord=2|RX=TAM.PNG
+2	zaːkì	zaː	AUX	_	_	0	root	_	AlignBegin=139039|AlignEnd=139160|GE=FUT.2SG.F|Gloss=FUT.2SG.F|nWord=2|RX=TAM.PNG
 3	ci	ci	VERB	_	_	2	comp:aux	_	AlignBegin=139160|AlignEnd=139281|GE=eat|Gloss=eat|nWord=3|RX=V0
 4	ba	ba	PART	_	Polarity=Neg	2	mod	_	AlignBegin=139281|AlignEnd=139402|GE=NEGb|Gloss=NEGb|nWord=4|RX=PTCL.NEG
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=139402|AlignEnd=139524|Gloss=PUNCT|nWord=5
@@ -981,7 +980,7 @@
 5	/	/	PUNCT	_	_	6	punct	_	AlignBegin=141226|AlignEnd=141413|Gloss=PUNCT|nWord=5
 6	hankàlin	hankàliː	NOUN	_	Definite=Cons	3	conj:coord	_	AlignBegin=141961|AlignEnd=142074|GE=mind|Gloss=mind.Cons|nWord=6|RX=N|wordform=hankàliː
 7	=kì	=kì	PRON	_	PronType=Prs	6	mod@poss	_	AlignBegin=142187|AlignEnd=142300|GE=2SG.F|Gloss=2SG.F|nWord=6|RX=PRO.POS
-8	zâi	zâi	VERB	_	_	7	comp:obj	_	AlignBegin=142300|AlignEnd=142639|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=7|RX=TAM.PNG
+8	zâi	zaː	AUX	_	_	7	comp:obj	_	AlignBegin=142300|AlignEnd=142639|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=7|RX=TAM.PNG
 9	taːshì	taːshì	NOUN	_	_	8	comp:obj	_	AlignBegin=142639|AlignEnd=142978|GE=rise|Gloss=rise|nWord=8|RX=V3B
 10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=142978|AlignEnd=143316|Gloss=PUNCT|nWord=9
 
@@ -1125,7 +1124,7 @@
 2	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=160000|AlignEnd=160100|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=2|RX=PNG.TAM
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=160100|AlignEnd=160200|GE=say|Gloss=say|nWord=3|RX=V*
 4	/	/	PUNCT	_	_	5	punct	_	AlignBegin=160200|AlignEnd=160298|Gloss=PUNCT|nWord=4
-5	ƙoːƙì	ƙoːƙì	NOUN	_	_	3	comp:obj	_	AlignBegin=160298|AlignEnd=160527|GE=Manta|Gloss=Manta|nWord=5|RX=N.P
+5	ƙoːƙì	ƙoːƙì	PROPN	_	_	3	comp:obj	_	AlignBegin=160298|AlignEnd=160527|GE=Manta|Gloss=Manta|nWord=5|RX=N.P
 6	/	/	PUNCT	_	_	7	punct	_	AlignBegin=160527|AlignEnd=160756|Gloss=PUNCT|nWord=6
 7	àlhakin	àlhakiː	NOUN	_	Definite=Cons	5	conj:dicto	_	AlignBegin=161642|AlignEnd=161742|GE=sin|Gloss=sin.Cons|nWord=7|RX=N|wordform=àlhakiː
 8	=kì	=kì	PRON	_	PronType=Prs	9	subj	_	AlignBegin=161842|AlignEnd=161943|GE=2SG.F|Gloss=2SG.F|nWord=7|RX=PRO.POS
@@ -1217,10 +1216,10 @@
 # text_en =  I said I would eat, and you refused. I said I would eat, and you refused. you refused.
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=172795|AlignEnd=172935|GE=1SG.Perf|Gloss=1Sing.Perf|nWord=1|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=172935|AlignEnd=173075|GE=say|Gloss=say|nWord=2|RX=V*
-3	zân	zân	ADV	_	_	2	comp:obj	_	AlignBegin=173075|AlignEnd=173215|GE=FUT.1SG|Gloss=FUT.1SG|nWord=3|RX=TAM.PNG
+3	zân	zaː	AUX	_	_	2	comp:obj	_	AlignBegin=173075|AlignEnd=173215|GE=FUT.1SG|Gloss=FUT.1SG|nWord=3|RX=TAM.PNG
 4	ǹ	ǹ	PRON	_	_	3	comp:aux	_	AlignBegin=173215|AlignEnd=173355|GE=FS|Gloss=FS|nWord=4|RX=FS
 5	/	/	PUNCT	_	_	6	punct	_	AlignBegin=173355|AlignEnd=173496|Gloss=PUNCT|nWord=5
-6	zân	zân	AUX	_	_	3	conj:coord	_	AlignBegin=173496|AlignEnd=173606|GE=FUT.1SG|Gloss=FUT.1SG|nWord=6|RX=TAM.PNG
+6	zân	zaː	AUX	_	_	3	conj:coord	_	AlignBegin=173496|AlignEnd=173606|GE=FUT.1SG|Gloss=FUT.1SG|nWord=6|RX=TAM.PNG
 7	ci	ci	VERB	_	_	6	comp:aux	_	AlignBegin=173606|AlignEnd=173716|GE=eat|Gloss=eat|nWord=7|RX=V0
 8	/	/	PUNCT	_	_	9	punct	_	AlignBegin=173716|AlignEnd=173827|Gloss=PUNCT|nWord=8
 9	ka	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=2	6	mod	_	AlignBegin=173827|AlignEnd=173999|GE=2SG.M.Perf.Bkg|Gloss=2Masc.Perf.Bck|nWord=9|RX=PNG.TAM
@@ -1363,7 +1362,7 @@
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=61110|AlignEnd=61359|GE=then|Gloss=then|nWord=1|RX=CONJ/HOM
 2	à	shì	AUX	_	Aspect=.Hab|Person=4	0	root	_	AlignBegin=61359|AlignEnd=61608|GE=4.Aor|Gloss=4.Aor|nWord=2|RX=PNG.TAM
 3	ci	ci	VERB	_	_	2	comp:aux	_	AlignBegin=61608|AlignEnd=61857|GE=eat|Gloss=eat|nWord=3|RX=V0
-4	daːɗiː	daːɗiː	NOUN	_	_	3	comp:obj	_	AlignBegin=61857|AlignEnd=62106|GE=Dadi|Gloss=Dadi|nWord=4|RX=N.P
+4	daːɗiː	daːɗiː	PROPN	_	_	3	comp:obj	_	AlignBegin=61857|AlignEnd=62106|GE=Dadi|Gloss=Dadi|nWord=4|RX=N.P
 5	laːfiyàː	laːfiyàː	NOUN	_	_	4	compound	_	AlignBegin=62106|AlignEnd=62355|GE=happiness|Gloss=happiness|nWord=5|RX=N
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=62355|AlignEnd=62603|Gloss=PUNCT|nWord=6
 
@@ -1415,7 +1414,7 @@
 # phonetic_text = zâi matà tsìyaː kuma kùwa //
 # text = zâi matà tsìyaː kuma kùwa //
 # text_en =  Now he will prevent her from eating!
-1	zâi	zâi	ADV	_	_	0	root	_	AlignBegin=90780|AlignEnd=91019|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=1|RX=TAM.PNG
+1	zâi	zaː	AUX	_	_	0	root	_	AlignBegin=90780|AlignEnd=91019|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=1|RX=TAM.PNG
 2	matà	matà	AUX	_	_	1	subj	_	AlignBegin=91019|AlignEnd=91258|GE=3SG.F|Gloss=3Fem|nWord=2|RX=PRO.Dat
 3	tsìyaː	tsìyaː	NOUN	_	_	2	comp:aux	_	AlignBegin=91258|AlignEnd=91497|GE=quarelling|Gloss=quarelling|nWord=3|RX=N
 4	kuma	kuma	ADV	_	_	5	mod	_	AlignBegin=91497|AlignEnd=91736|GE=too|Gloss=also|nWord=4|RX=PTCL.TOP
@@ -1442,7 +1441,7 @@
 1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	4	discourse	_	AlignBegin=106506|AlignEnd=106639|GE=but|Gloss=but|nWord=1|RX=CONJ
 2	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	4	mod	_	AlignBegin=106639|AlignEnd=106772|GE=3SG.F|Gloss=3Fem|nWord=2|RX=PRO.OBJ
 3	bà	bà	PART	_	Polarity=Neg	4	mod	_	AlignBegin=106772|AlignEnd=106905|GE=NEG1a|Gloss=NEG1a|nWord=3|RX=PTCL.NEG
-4	zâi	zâk	VERB	_	_	0	root	_	AlignBegin=106905|AlignEnd=107038|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=4|RX=TAM.PNG
+4	zâi	zaː	AUX	_	_	0	root	_	AlignBegin=106905|AlignEnd=107038|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=4|RX=TAM.PNG
 5	barìː	barìː	VERB	_	_	4	comp:obj	_	AlignBegin=107038|AlignEnd=107171|GE=leave|Gloss=leave|nWord=5|RX=V*
 6	tà	shì	AUX	_	Aspect=.Hab|Person=3	4	comp:cleft	_	AlignBegin=107171|AlignEnd=107304|GE=3SG.F|Gloss=3Fem|nWord=6|RX=PRO.OBJ
 7	tà	shì	AUX	_	Aspect=.Hab|Person=3	6	comp:aux	_	AlignBegin=107304|AlignEnd=107437|GE=3SG.F.Aor|Gloss=3SG.F.Aor|nWord=7|RX=PNG.TAM
@@ -1516,7 +1515,7 @@
 3	taɓàː	taɓàː	VERB	_	_	2	comp:aux	_	AlignBegin=128866|AlignEnd=129168|GE=touch|Gloss=touch|nWord=3|RX=V1
 4	hankàlin	hankàliː	NOUN	_	Definite=Cons	3	comp:obj	_	AlignBegin=129168|AlignEnd=129269|GE=mind|Gloss=mind.Cons|nWord=4|RX=N|wordform=hankàliː
 5	=tà	=ta	PRON	_	Aspect=.Hab|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=129370|AlignEnd=129470|GE=3SG.F|Gloss=3Fem|nWord=4|RX=PRO.POS
-6	zâi	zâi	VERB	_	_	5	comp:aux	_	AlignBegin=129470|AlignEnd=129772|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=5|RX=TAM.PNG
+6	zâi	zaː	AUX	_	_	5	comp:aux	_	AlignBegin=129470|AlignEnd=129772|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=5|RX=TAM.PNG
 7	ɓaːcì	ɓaːcì	NOUN	_	_	6	comp:obj	_	AlignBegin=129772|AlignEnd=130074|GE=get_spoilt|Gloss=get_spoilt|nWord=6|RX=V3B
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=130074|AlignEnd=130374|Gloss=PUNCT|nWord=7
 
