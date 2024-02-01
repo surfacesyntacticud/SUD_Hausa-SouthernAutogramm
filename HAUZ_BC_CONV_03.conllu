@@ -446,7 +446,7 @@
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=93100|AlignEnd=93231|GE=then|Gloss=then|nWord=1|RX=CONJ
 2	mèː	mèː	PRON	_	PronType=Int	0	root	_	AlignBegin=93231|AlignEnd=93362|GE=what|Gloss=what|nWord=2|RX=PRO.Q
 3	nèː	neː	PART	_	_	2	comp:aux	_	AlignBegin=93362|AlignEnd=93493|GE=COP1|Gloss=Ident/Foc|nWord=3|RX=PTCL.SYNT
-4	kuma	kuma	ADV	_	_	3	mod	_	AlignBegin=93493|AlignEnd=93624|GE=too|Gloss=also|nWord=4|RX=PTCL.TOP
+4	kuma	kuma	PART	_	_	2	mod	_	AlignBegin=93493|AlignEnd=93624|GE=too|Gloss=also|nWord=4|RX=PTCL.TOP
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=93624|AlignEnd=93753|Gloss=PUNCT|nWord=5
 
 # sent_id = HAUZ_BC_CONV_03_SP2_04-04
@@ -595,11 +595,11 @@
 # text_en =  W. what did I do anyway?
 1	m~	m~	INTJ	_	_	0	root	_	AlignBegin=125659|AlignEnd=125773|GE=m~|Gloss=m~|nWord=1|RX=FS
 2	/	/	PUNCT	_	_	1	punct	_	AlignBegin=125773|AlignEnd=125887|Gloss=PUNCT|nWord=2
-3	mèː	mèː	PRON	_	PronType=Int	1	mod	_	AlignBegin=125887|AlignEnd=126035|GE=what|Gloss=what|nWord=3|RX=PRO.Q
-4	na	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=1	1	subj	_	AlignBegin=126035|AlignEnd=126183|GE=1SG.Perf.Bkg|Gloss=1Sing.Perf.Bck|number=Sing|nWord=4|RX=PNG.TAM
+3	mèː	mèː	PRON	_	PronType=Int	1	conj:dicto	_	AlignBegin=125887|AlignEnd=126035|GE=what|Gloss=what|nWord=3|RX=PRO.Q
+4	na	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=1	3	comp:cleft	_	AlignBegin=126035|AlignEnd=126183|GE=1SG.Perf.Bkg|Gloss=1Sing.Perf.Bck|number=Sing|nWord=4|RX=PNG.TAM
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=126183|AlignEnd=126331|GE=do|Gloss=do|nWord=5|RX=V0
-6	kuma	kuma	ADV	_	_	5	mod	_	AlignBegin=126331|AlignEnd=126479|GE=too|Gloss=also|nWord=6|RX=PTCL.TOP
-7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=126479|AlignEnd=126628|Gloss=PUNCT|nWord=7
+6	kuma	kuma	ADV	_	_	3	mod	_	AlignBegin=126331|AlignEnd=126479|GE=too|Gloss=also|nWord=6|RX=PTCL.TOP
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=126479|AlignEnd=126628|Gloss=PUNCT|nWord=7
 
 # sent_id = HAUZ_BC_CONV_03_SP1_051-051
 # speaker_id = SP1
@@ -1353,7 +1353,7 @@
 # text = ita kuma / ƴaːƴan sarkîn / dàyakèː tanàː sôn yaːrinyàn / kawài sai ta jeː ta faɗàː matà sai sukà ɓoːyèː //
 # text_en =  As for her, the chief's daughter? as she liked the girl, then she just went and told her, then they hid.
 1	ita	ita	PRON	_	Case=Nom|PronType=Prs	4	mod	_	AlignBegin=249382|AlignEnd=249608|GE=3SG.F|Gloss=3Fem.Nom|nWord=1|RX=PRO.IDP
-2	kuma	kuma	ADV	_	_	1	mod	_	AlignBegin=249608|AlignEnd=249834|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
+2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=249608|AlignEnd=249834|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	/	/	PUNCT	_	_	1	punct	_	AlignBegin=249834|AlignEnd=250059|Gloss=PUNCT|nWord=3
 4	ƴaːƴan	ƴaːƴaː	NOUN	_	Definite=Cons|PronType=Int	0	root	_	AlignBegin=250059|AlignEnd=250179|GE=child|Gloss=child.Plur.Cons|nWord=4|RX=N|TypeToken=stem
 5	sarkîn	sarkiː	NOUN	_	Definite=Def	4	mod	_	AlignBegin=250299|AlignEnd=250419|GE=king|Gloss=king.Def|nWord=5|RX=N
@@ -1383,7 +1383,7 @@
 # text = ita kuma yaːrinyàn dà ta kai r̃àhoːtòn / sai akà kai tà pr̃ison //
 # text_en =  She, the girl, when she went to report then she was put in prison.
 1	ita	ita	PRON	_	Case=Nom|PronType=Prs	3	mod	_	AlignBegin=255017|AlignEnd=255189|GE=3SG.F|Gloss=3Fem.Nom|nWord=1|RX=PRO.IDP
-2	kuma	kuma	ADV	_	_	1	mod	_	AlignBegin=255189|AlignEnd=255361|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
+2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=255189|AlignEnd=255361|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	yaːrinyàn	yaːrinyàː	NOUN	_	Definite=Def	0	root	_	AlignBegin=255361|AlignEnd=255447|GE=girl|Gloss=girl.Def|nWord=3|RX=N
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=255533|AlignEnd=255705|GE=as|Gloss=COMP|nWord=4|RX=CONJ
 5	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	4	comp:obj	_	AlignBegin=255705|AlignEnd=255877|GE=3SG.F.Perf.Bkg|Gloss=3Fem.Perf.Bck|nWord=5|RX=PNG.TAM
@@ -1404,7 +1404,7 @@
 # phonetic_text = kuma sukà saːmùː dai sukà / escaping hakà //
 # text = kuma sukà saːmùː dai sukà / escaping hakà //
 # text_en =  And they they managed indeed to escape like that.
-1	kuma	kuma	ADV	_	_	2	mod	_	AlignBegin=259434|AlignEnd=259622|GE=too|Gloss=also|nWord=1|RX=PTCL.TOP
+1	kuma	kuma	CCONJ	_	_	2	discourse	_	AlignBegin=259434|AlignEnd=259622|GE=too|Gloss=also|nWord=1|RX=PTCL.TOP
 2	sukà	kà	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	0	root	_	AlignBegin=259622|AlignEnd=259810|GE=3Plur.Perf.Bkg|Gloss=3Plur.Perf.Bck|nWord=2|RX=PNG.TAM
 3	saːmùː	saːmùː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=259810|AlignEnd=259998|GE=getting|Gloss=getting|nWord=3|RX=N.V2
 4	dai	dai	ADV	_	_	2	mod	_	AlignBegin=259998|AlignEnd=260186|GE=indeed|Gloss=indeed|nWord=4|RX=PTCL.TOP
@@ -1943,7 +1943,7 @@
 # phonetic_text = kuma in ta koːmàː ƙauyèː -ǹ zaːʼà kashèː ta //
 # text = kuma in ta koːmàː ƙauyèn zaːʼà kashèː ta //
 # text_en =  And if she went back to the village, they would kill her.
-1	kuma	kuma	ADV	_	_	2	mod	_	AlignBegin=327549|AlignEnd=327738|GE=too|Gloss=also|nWord=1|RX=PTCL.TOP
+1	kuma	kuma	CCONJ	_	_	2	discourse	_	AlignBegin=327549|AlignEnd=327738|GE=too|Gloss=also|nWord=1|RX=PTCL.TOP
 2	in	in	SCONJ	_	_	0	root	_	AlignBegin=327738|AlignEnd=327927|GE=if|Gloss=if|nWord=2|RX=CONJ
 3	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	2	comp:obj	_	AlignBegin=327927|AlignEnd=328116|GE=3SG.F.Perf.Bkg|Gloss=3Fem.Perf.Bck|nWord=3|RX=PNG.TAM
 4	koːmàː	koːm-	VERB	_	_	3	comp:aux	_	AlignBegin=328116|AlignEnd=328305|GE=go_back|Gloss=go_back|nWord=4|RX=V1
@@ -1983,7 +1983,7 @@
 2	gudù	gudù	VERB	_	_	1	comp:aux	_	AlignBegin=332673|AlignEnd=332940|GE=run|Gloss=run|nWord=2|RX=V3B
 3	/	/	PUNCT	_	_	1	punct	_	AlignBegin=332940|AlignEnd=333207|Gloss=PUNCT|nWord=3
 4	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	2	det	_	AlignBegin=333207|AlignEnd=333367|GE=3Masc.|Gloss=3Masc.Nom|nWord=4|RX=PRO.IDP
-5	kuma	kuma	ADV	_	_	6	mod	_	AlignBegin=333367|AlignEnd=333527|GE=too|Gloss=also|nWord=5|RX=PTCL.TOP
+5	kuma	kuma	PART	_	_	4	mod	_	AlignBegin=333367|AlignEnd=333527|GE=too|Gloss=also|nWord=5|RX=PTCL.TOP
 6	wân	wâː	NOUN	_	Definite=Cons	4	conj:coord	_	AlignBegin=333527|AlignEnd=333607|GE=elder_brother|Gloss=elder_brother.Cons|nWord=6|RX=N|wordform=wâː
 7	dà	dà	SCONJ	_	_	6	mod	_	AlignBegin=333687|AlignEnd=333847|GE=REL|Gloss=COMP|nWord=7|RX=PTCL.SYNT
 8	ya	ya	AUX	_	_	7	comp:obj	_	AlignBegin=333847|AlignEnd=334007|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bkg|nWord=8|RX=PNG.TAM
@@ -1997,7 +1997,7 @@
 16	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	15	comp:obj	_	AlignBegin=335918|AlignEnd=336145|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=16|RX=PNG.TAM
 17	canjàː	canjà-	VERB	_	_	16	comp:aux	_	AlignBegin=336145|AlignEnd=336372|GE=change|Gloss=change|nWord=17|RX=V1
 18	will	wilk	DET	_	_	17	det	_	AlignBegin=336372|AlignEnd=336599|GE=will|Gloss=will|Lang=en|nWord=18|RX=CSW.ENG
-19	ɗîn	ɗîː	NOUN	_	Definite=Cons	18	comp:obj	_	AlignBegin=336599|AlignEnd=336713|GE=POSL|Gloss=POSL|nWord=19|RX=PTCL.SYNT
+19	ɗîn	ɗîː	NOUN	_	Definite=Cons	18	comp:obj	_	AlignBegin=336599|AlignEnd=336713|GE=POSL|Gloss=Gen|nWord=19|RX=PTCL.SYNT
 20	=shì	=shì	PRON	_	PronType=Prs	19	comp:obj	_	AlignBegin=336713|AlignEnd=336826|GE=3Masc.|Gloss=3Masc.|nWord=19|RX=PRO.POS
 21	/	/	PUNCT	_	_	15	punct	_	AlignBegin=336826|AlignEnd=337052|Gloss=PUNCT|nWord=20
 
@@ -2204,7 +2204,7 @@
 # text = ita kuma yaːrinyàn / police sukà kaːmà ta //
 # text_en =  She, the girl, the police caught her.
 1	ita	ita	PRON	_	Case=Nom|PronType=Prs	3	mod	_	AlignBegin=361823|AlignEnd=362014|GE=3SG.F|Gloss=3Fem.Nom|nWord=1|RX=PRO.IDP
-2	kuma	kuma	ADV	_	_	3	mod	_	AlignBegin=362014|AlignEnd=362205|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
+2	kuma	kuma	PART	_	_	3	mod	_	AlignBegin=362014|AlignEnd=362205|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	yaːrinyàn	yaːrinyàː	NOUN	_	Definite=Def	0	root	_	AlignBegin=362205|AlignEnd=362301|GE=girl|Gloss=girl.Def|nWord=3|RX=N
 4	/	/	PUNCT	_	_	3	punct	_	AlignBegin=362396|AlignEnd=362587|Gloss=PUNCT|nWord=4
 5	police	police	NOUN	_	_	3	dislocated@subj	_	AlignBegin=362587|AlignEnd=362818|GE=police|Gloss=police|Lang=en|nWord=5|RX=CSW.ENG
@@ -2222,7 +2222,7 @@
 # text_en =  Well, as for the elder brother, he had a friend.
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=364604|AlignEnd=364744|GE=well|Gloss=well|nWord=1|RX=DM
 2	/	/	PUNCT	_	_	1	punct	_	AlignBegin=364744|AlignEnd=364884|Gloss=PUNCT|nWord=2
-3	kuma	kuma	ADV	_	_	4	mod	_	AlignBegin=364884|AlignEnd=365024|GE=too|Gloss=also|nWord=3|RX=PTCL.TOP
+3	kuma	kuma	CCONJ	_	_	4	discourse	_	AlignBegin=364884|AlignEnd=365024|GE=too|Gloss=also|nWord=3|RX=PTCL.TOP
 4	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=365024|AlignEnd=365164|GE=3Masc.|Gloss=3Masc.Nom|nWord=4|RX=PRO.IDP
 5	wân	wâː	NOUN	_	Definite=Def	4	comp:aux	_	AlignBegin=365164|AlignEnd=365234|GE=elder_brother|Gloss=elder_brother.Def|nWord=5|RX=N
 6	/	/	PUNCT	_	_	7	punct	_	AlignBegin=365304|AlignEnd=365441|Gloss=PUNCT|nWord=6
@@ -2496,7 +2496,7 @@
 # text = ita kuma yaːrinyàn dà police sukà kaːmàː ta / sun jeː sunàː matà tambayoːyiː /
 # text_en =  As for her, the girl, when the police caught her, they went and questioned her.
 1	ita	ita	PRON	_	Case=Nom|PronType=Prs	3	mod	_	AlignBegin=397344|AlignEnd=397546|GE=3SG.F|Gloss=3Fem.Nom|nWord=1|RX=PRO.IDP
-2	kuma	kuma	ADV	_	_	3	mod	_	AlignBegin=397546|AlignEnd=397748|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
+2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=397546|AlignEnd=397748|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	yaːrinyàn	yaːrinyàː	NOUN	_	Definite=Def	0	root	_	AlignBegin=397748|AlignEnd=397849|GE=girl|Gloss=girl.Def|nWord=3|RX=N
 4	dà	dà	ADP	_	_	3	mod	_	AlignBegin=397950|AlignEnd=398152|GE=as|Gloss=as|nWord=4|RX=CONJ
 5	police	police	NOUN	_	_	4	comp:obj	_	AlignBegin=398152|AlignEnd=398354|GE=police|Gloss=police|Lang=en|nWord=5|RX=CSW.ENG
@@ -2582,7 +2582,7 @@
 # text = shiː kuma àboːkîn dà ya taːshì / sai ya jeː ya kai ƙaːraː //
 # text_en =  As for the friend who left he went and filed a complaint.
 1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	9	discourse	_	AlignBegin=408591|AlignEnd=408756|GE=3Masc.|Gloss=3Masc.Nom|nWord=1|RX=PRO.IDP
-2	kuma	kuma	ADV	_	_	3	mod	_	AlignBegin=408756|AlignEnd=408921|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
+2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=408756|AlignEnd=408921|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	àboːkîn	àboːkiː	NOUN	_	Definite=Def	1	conj:appos	_	AlignBegin=408921|AlignEnd=409003|GE=friend|Gloss=friend.Def|nWord=3|RX=N
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=409086|AlignEnd=409251|GE=REL|Gloss=COMP|nWord=4|RX=PTCL.SYNT
 5	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	4	comp:obj	_	AlignBegin=409251|AlignEnd=409416|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=5|RX=PNG.TAM
@@ -2623,7 +2623,7 @@
 # phonetic_text = kuma gàː shi gàː shi sai ya sâː poison à àbinci //
 # text = kuma gàː shi gàː shi sai ya sâː poison à àbinci //
 # text_en =  And blah blah, he put poison in the food.
-1	kuma	kuma	ADV	_	_	7	mod	_	AlignBegin=413338|AlignEnd=413518|GE=too|Gloss=also|nWord=1|RX=PTCL.TOP
+1	kuma	kuma	CCONJ	_	_	2	discourse	_	AlignBegin=413338|AlignEnd=413518|GE=too|Gloss=also|nWord=1|RX=PTCL.TOP
 2	gàː	gàː	ADP	_	_	0	root	_	AlignBegin=413518|AlignEnd=413698|GE=COP4|Gloss=COP4|nWord=2|RX=PTCL.SYNT
 3	shi	shi	PRON	_	Person=1|PronType=Prs	2	subj	_	AlignBegin=413698|AlignEnd=413878|GE=3Masc.|Gloss=3Masc.|nWord=3|RX=PRO.OBJ
 4	gàː	gàː	PART	_	_	2	conj:coord	_	AlignBegin=413878|AlignEnd=414058|GE=COP4|Gloss=COP4|nWord=4|RX=PTCL.SYNT
@@ -2789,7 +2789,7 @@
 4	rigaː	rigaː	VERB	_	_	3	comp:aux	_	AlignBegin=430831|AlignEnd=431098|GE=already|Gloss=already|nWord=4|RX=V0.AUX
 5	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	3	conj:svc	_	AlignBegin=431098|AlignEnd=431365|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=5|RX=PNG.TAM
 6	haukàceː	haukàc-	VERB	_	_	5	comp:aux	_	AlignBegin=431365|AlignEnd=431632|GE=become_mad|Gloss=become_mad|nWord=6|RX=V4
-7	kuma	kuma	ADV	_	_	6	mod	_	AlignBegin=431632|AlignEnd=431899|GE=too|Gloss=also|nWord=7|RX=PTCL.TOP
+7	kuma	kuma	PART	_	_	6	mod	_	AlignBegin=431632|AlignEnd=431899|GE=too|Gloss=also|nWord=7|RX=PTCL.TOP
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=431899|AlignEnd=432165|Gloss=PUNCT|nWord=8
 
 # sent_id = HAUZ_BC_CONV_03_SP1_247-247
@@ -2945,7 +2945,7 @@
 # phonetic_text = kuma bàkì saːwoː sàːfaː ba //
 # text = kuma bàkì saːwoː sàːfaː ba //
 # text_en =  Because you did not wear socks.
-1	kuma	kuma	ADV	_	_	2	mod	_	AlignBegin=128330|AlignEnd=128582|GE=too|Gloss=also|nWord=1|RX=PTCL.TOP
+1	kuma	kuma	CCONJ	_	_	2	discourse	_	AlignBegin=128330|AlignEnd=128582|GE=too|Gloss=also|nWord=1|RX=PTCL.TOP
 2	bàkì	bài	AUX	_	Polarity=Neg	0	root	_	AlignBegin=128582|AlignEnd=128834|GE=NEG1a.2SG.F.Perf|Gloss=NEG1a.2SG.F.Perf|nWord=2|RX=PTCL.NEG.PNG.TAM
 3	saːwoː	saːwoː	VERB	_	_	2	comp:aux	_	AlignBegin=128834|AlignEnd=129086|GE=put.DIR|Gloss=put.DIR|nWord=3|RX=V6
 4	sàːfaː	sàːfaː	NOUN	_	_	3	comp:obj	_	AlignBegin=129086|AlignEnd=129338|GE=socks|Gloss=socks|nWord=4|RX=N
@@ -3006,7 +3006,7 @@
 # text = sànnan kuma gòːbe mun cêː zâː mu kàːsuwaː //
 # text_en =  Then tomorrow we said we'll go to market.
 1	sànnan	sànnan	ADV	_	_	4	mod	_	AlignBegin=145248|AlignEnd=145472|GE=then|Gloss=then|nWord=1|RX=ADV
-2	kuma	kuma	ADV	_	_	4	mod	_	AlignBegin=145472|AlignEnd=145696|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
+2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=145472|AlignEnd=145696|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	gòːbe	gòːbe	NOUN	_	_	4	mod	_	AlignBegin=145696|AlignEnd=145920|GE=tomorrow|Gloss=tomorrow|nWord=3|RX=ADV.DEICT
 4	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	AlignBegin=145920|AlignEnd=146144|GE=1Plur.Perf|Gloss=1Plur.Perf|nWord=4|RX=PNG.TAM
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=146144|AlignEnd=146368|GE=say|Gloss=say|nWord=5|RX=V*

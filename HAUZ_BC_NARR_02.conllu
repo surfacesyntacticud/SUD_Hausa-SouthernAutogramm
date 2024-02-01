@@ -786,7 +786,7 @@
 # text = in kuma ta ciː shì /
 # text_en =  If she eats, well, there will be a quarrel.
 1	in	in	SCONJ	_	_	0	root	_	AlignBegin=112277|AlignEnd=112427|GE=if|Gloss=if|nWord=1|RX=CONJ
-2	kuma	kuma	ADV	_	_	1	comp:obj	_	AlignBegin=112427|AlignEnd=112577|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
+2	kuma	kuma	ADV	_	_	1	mod	_	AlignBegin=112427|AlignEnd=112577|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=112577|AlignEnd=112727|GE=3SG.F.Perf.Bkg|Gloss=3Fem.Perf.Bck|nWord=3|RX=PNG.TAM
 4	ci	ci	VERB	_	_	3	comp:aux	_	AlignBegin=112727|AlignEnd=112877|GE=eat|Gloss=eat|nWord=4|RX=V0
 5	shi	shi	PRON	_	Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=112877|AlignEnd=113027|GE=3Masc.|Gloss=3Masc.|nWord=5|RX=PRO.OBJ
@@ -942,7 +942,7 @@
 14	/	/	PUNCT	_	_	15	punct	_	AlignBegin=136482|AlignEnd=136690|Gloss=PUNCT|nWord=13
 15	sa'àn	sa'àː	NOUN	_	Definite=Def	12	conj:coord	_	AlignBegin=137228|AlignEnd=137298|GE=time|Gloss=time.Def|nWord=14|RX=N
 16	nan	nan	ADV	_	_	15	comp:obj	_	AlignBegin=137369|AlignEnd=137510|GE=Def|Gloss=Def|nWord=15|RX=ADV.DEICT
-17	kuma	kuma	ADV	_	_	18	mod	_	AlignBegin=137510|AlignEnd=137651|GE=too|Gloss=also|nWord=16|RX=PTCL.TOP
+17	kuma	kuma	PART	_	_	18	mod	_	AlignBegin=137510|AlignEnd=137651|GE=too|Gloss=also|nWord=16|RX=PTCL.TOP
 18	kà	yà	AUX	_	Aspect=.Hab|Person=2	10	conj:coord	_	AlignBegin=137651|AlignEnd=137792|GE=2SG.M.Aor|Gloss=2SG.M.Aor|nWord=17|RX=PNG.TAM
 19	cêː	cêː	VERB	_	_	18	comp:aux	_	AlignBegin=137792|AlignEnd=137933|GE=say|Gloss=say|nWord=18|RX=V*
 20	bà	bà	PART	_	Polarity=Neg	21	mod	_	AlignBegin=137933|AlignEnd=138074|GE=NEG1a|Gloss=NEG1a|nWord=19|RX=PTCL.NEG
@@ -974,7 +974,7 @@
 # text = in kuma kin ci / hankàlin =kì zâi taːshì //
 # text_en =  And if you eat, you will become crazy.
 1	in	in	SCONJ	_	_	3	mod	_	AlignBegin=140478|AlignEnd=140665|GE=if|Gloss=if|nWord=1|RX=CONJ
-2	kuma	kuma	ADV	_	_	1	mod	_	AlignBegin=140665|AlignEnd=140852|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
+2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=140665|AlignEnd=140852|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	kin	kin	NOUN	_	Aspect=Perf	0	root	_	AlignBegin=140852|AlignEnd=140946|GE=ki|Gloss=2Fem.Perf|nWord=3|RX=HESIT
 4	ci	ci	VERB	_	_	3	comp:aux	_	AlignBegin=141039|AlignEnd=141226|GE=eat|Gloss=eat|nWord=4|RX=V0
 5	/	/	PUNCT	_	_	6	punct	_	AlignBegin=141226|AlignEnd=141413|Gloss=PUNCT|nWord=5
@@ -1041,7 +1041,7 @@
 # text = shiː kuma dà ya ci ya ci ya ci /
 # text_en =  As for him, he ate and ate and ate.
 1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	4	discourse	_	AlignBegin=151776|AlignEnd=151911|GE=3Masc.|Gloss=3Masc.Nom|nWord=1|RX=PRO.IDP
-2	kuma	kuma	ADV	_	_	1	mod	_	AlignBegin=151911|AlignEnd=152046|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
+2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=151911|AlignEnd=152046|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	dà	dà	SCONJ	_	_	4	mod	_	AlignBegin=152046|AlignEnd=152181|GE=as|Gloss=COMP|nWord=3|RX=CONJ/HOM
 4	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=152181|AlignEnd=152316|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=4|RX=PNG.TAM
 5	ci	ci	VERB	_	_	4	comp:aux	_	AlignBegin=152316|AlignEnd=152451|GE=eat|Gloss=eat|nWord=5|RX=V0
@@ -1235,7 +1235,7 @@
 # text = ita kuma / niː na jeː na saːmoː àbîn nan //
 # text_en =  As for her.. I am the one who went to get it.
 1	ita	ita	PRON	_	Case=Nom|PronType=Prs	5	mod	_	AlignBegin=176472|AlignEnd=176640|GE=3SG.F|Gloss=3Fem.Nom|nWord=1|RX=PRO.IDP
-2	kuma	kuma	ADV	_	_	1	mod	_	AlignBegin=176640|AlignEnd=176808|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
+2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=176640|AlignEnd=176808|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	/	/	PUNCT	_	_	1	punct	_	AlignBegin=176808|AlignEnd=176977|Gloss=PUNCT|nWord=3
 4	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	comp:pred	_	AlignBegin=176977|AlignEnd=177136|GE=1SG|Gloss=1Sing.Nom|nWord=4|RX=PRO.IDP
 5	na	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=1	0	root	_	AlignBegin=177136|AlignEnd=177295|GE=1SG.Perf.Bkg|Gloss=1Sing.Perf.Bck|number=Sing|nWord=5|RX=PNG.TAM
@@ -1277,7 +1277,7 @@
 # text = tòː kuma kaː cêː kaɗà ìn ci //
 # text_en =  Well and you said I should not eat it.
 1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=181706|AlignEnd=181851|GE=well|Gloss=well|nWord=1|RX=DM
-2	kuma	kuma	ADV	_	_	3	mod	_	AlignBegin=181851|AlignEnd=181996|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
+2	kuma	kuma	PART	_	_	3	mod	_	AlignBegin=181851|AlignEnd=181996|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=181996|AlignEnd=182141|GE=2SG.M.Perf|Gloss=2Masc.Perf|nWord=3|RX=PNG.TAM
 4	cêː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=182141|AlignEnd=182286|GE=say|Gloss=say|nWord=4|RX=V*
 5	kaɗà	kaɗà	VERB	_	PronType=Rel	4	comp:obl	_	AlignBegin=182286|AlignEnd=182431|GE=NEG5|Gloss=NEG5|nWord=5|RX=PTCL.NEG
@@ -1607,7 +1607,7 @@
 # text_en =  As for her, she got her own.
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=175436|AlignEnd=175624|GE=well|Gloss=well|nWord=1|RX=DM
 2	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	4	mod	_	AlignBegin=175624|AlignEnd=175812|GE=3SG.F|Gloss=3Fem.Nom|nWord=2|RX=PRO.IDP
-3	kuma	kuma	ADV	_	_	4	mod	_	AlignBegin=175812|AlignEnd=176000|GE=too|Gloss=also|nWord=3|RX=PTCL.TOP
+3	kuma	kuma	PART	_	_	2	mod	_	AlignBegin=175812|AlignEnd=176000|GE=too|Gloss=also|nWord=3|RX=PTCL.TOP
 4	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	0	root	_	AlignBegin=176000|AlignEnd=176188|GE=3SG.F.Perf.Bkg|Gloss=3Fem.Perf.Bck|nWord=4|RX=PNG.TAM
 5	saːmoː	saːm-	VERB	_	_	4	comp:aux	_	AlignBegin=176188|AlignEnd=176376|GE=get.DIR|Gloss=get.DIR|nWord=5|RX=V6
 6	àbîn	àbù	NOUN	_	Definite=Def	5	comp:obj	_	AlignBegin=176376|AlignEnd=176470|GE=thing|Gloss=thing.Def|nWord=6|RX=N
