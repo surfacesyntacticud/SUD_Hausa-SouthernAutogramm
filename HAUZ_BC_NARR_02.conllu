@@ -20,7 +20,7 @@
 # phonetic_text = àkwai gizò nèː // dà ƙoːƙì //
 # text = àkwai gizò neː // dà ƙoːƙì //
 # text_en =  It's the story of Gizo And Koki.
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=6570|AlignEnd=6911|GE=COP3|Gloss=COP3|nWord=1|RX=PTCL.SYNT
+1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=6570|AlignEnd=6911|GE=COP3|Gloss=there_is|nWord=1|RX=PTCL.SYNT
 2	gizò	gizò	PROPN	_	_	1	comp:pred	_	AlignBegin=6911|AlignEnd=7252|GE=Spider|Gloss=Spider|nWord=2|RX=N.P
 3	nèː	neː	PART	_	_	1	comp:pred	_	AlignBegin=7252|AlignEnd=7593|GE=COP1|Gloss=Ident/Foc|nWord=3|RX=PTCL.SYNT
 4	//	//	PUNCT	_	_	5	punct	_	AlignBegin=7593|AlignEnd=7934|Gloss=PUNCT|nWord=4
@@ -245,7 +245,7 @@
 # text = dà niː akèː yîː //
 # text_en =  I'm the one telling it.
 1	dà	dà	ADP	_	_	2	cc	_	AlignBegin=3070|AlignEnd=3232|GE=with|Gloss=with|nWord=1|RX=PREP/HOM
-2	niː	niː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=3232|AlignEnd=3394|GE=1SG|Gloss=1Sing|nWord=2|RX=PRO.IDP
+2	niː	niː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=3232|AlignEnd=3394|GE=1SG|Gloss=1Sing.Nom|nWord=2|RX=PRO.IDP
 3	akèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|Person=4	2	comp:cleft	_	AlignBegin=3394|AlignEnd=3556|GE=4.Imp.Bkg|Gloss=4.Imp.Bck|nWord=3|RX=PNG.TAM
 4	yîː	yîː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=3556|AlignEnd=3718|GE=doing|Gloss=doing|nWord=4|RX=N.V0
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=3718|AlignEnd=3881|Gloss=PUNCT|nWord=5
@@ -376,7 +376,7 @@
 # phonetic_text = shiː kèː nan //
 # text = shiː kèː nan //
 # text_en =  That's it!
-1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=61110|AlignEnd=61302|GE=3Masc.|Gloss=3Masc.|nWord=1|RX=PRO.IDP
+1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=61110|AlignEnd=61302|GE=3Masc.|Gloss=3Masc.Nom|nWord=1|RX=PRO.IDP
 2	kèː	kèː	PART	_	_	1	mod	_	AlignBegin=61302|AlignEnd=61494|GE=COP1.Bkg|Gloss=COP1.Bkg|nWord=2|RX=PTCL.SYNT
 3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	AlignBegin=61494|AlignEnd=61686|GE=Def|Gloss=Def|nWord=3|RX=ADV.DEICT
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=61686|AlignEnd=61878|Gloss=PUNCT|nWord=4
@@ -501,7 +501,7 @@
 # text = sai akà &// ta dakà: shi //
 # text_en =  then they.. she pounded it.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=76446|AlignEnd=76676|GE=then|Gloss=then|nWord=1|RX=CONJ/HOM
-2	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	0	root	_	AlignBegin=76676|AlignEnd=76906|GE=4.Perf.Bkg|Gloss=4.Imp.Bck|nWord=2|RX=PNG.TAM
+2	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	0	root	_	AlignBegin=76676|AlignEnd=76906|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=2|RX=PNG.TAM
 3	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=76906|AlignEnd=77136|Gloss=PUNCT|nWord=3
 4	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	2	mod	_	AlignBegin=77543|AlignEnd=77712|GE=3SG.F.Perf.Bkg|Gloss=3Fem.Perf.Bck|nWord=4|RX=PNG.TAM
 5	dakà:	dakà:	VERB	_	_	2	comp:aux	_	AlignBegin=77712|AlignEnd=77881|GE=pound|Gloss=pound|nWord=5|RX=V1
@@ -561,7 +561,7 @@
 3	mishì	mishì	NOUN	_	_	2	comp:obj	_	AlignBegin=84370|AlignEnd=84609|GE=3Masc.|Gloss=3Masc.|nWord=3|RX=PRO.Dat
 4	kwaːnòː	kwaːnòː	NOUN	_	_	2	comp:obj	_	AlignBegin=84609|AlignEnd=84848|GE=dish|Gloss=dish|nWord=4|RX=N
 5	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=84848|AlignEnd=85087|GE=with|Gloss=with|nWord=5|RX=PREP/HOM
-6	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=85087|AlignEnd=85326|GE=3Masc.|Gloss=3Masc.|nWord=6|RX=PRO.OBJ
+6	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=85087|AlignEnd=85326|GE=3Masc.|Gloss=3Masc.Nom|nWord=6|RX=PRO.OBJ
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=85326|AlignEnd=85566|Gloss=PUNCT|nWord=7
 
 # sent_id = HAUZ_BC_NARR_02_SP1_054-054
@@ -639,7 +639,7 @@
 # phonetic_text = suː maː sù ci //
 # text = suː maː sù ci //
 # text_en =  Let them eat too.
-1	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	root	_	AlignBegin=94945|AlignEnd=95105|GE=3Plur|Gloss=3Plur|nWord=1|RX=PRO.IDP
+1	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	root	_	AlignBegin=94945|AlignEnd=95105|GE=3Plur|Gloss=2Plur.Nom|nWord=1|RX=PRO.IDP
 2	maː	maː	ADV	_	_	1	mod	_	AlignBegin=95105|AlignEnd=95265|GE=even|Gloss=even|nWord=2|RX=PTCL.TOP
 3	sù	sù	AUX	_	_	1	comp:obj	_	AlignBegin=95265|AlignEnd=95425|GE=3Plur.Aor|Gloss=3Plur.Aor|nWord=3|RX=PNG.TAM
 4	ci	ci	VERB	_	_	3	comp:aux	_	AlignBegin=95425|AlignEnd=95585|GE=eat|Gloss=eat|nWord=4|RX=V0
@@ -662,7 +662,7 @@
 # phonetic_text = akà kiraː ƴaː \PL -n -sù //
 # text = akà kiraː ƴaːƴan =sù //
 # text_en =  They called their children.
-1	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	0	root	_	AlignBegin=96090|AlignEnd=96360|GE=4.Perf.Bkg|Gloss=4.Imp.Bck|nWord=1|RX=PNG.TAM
+1	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	0	root	_	AlignBegin=96090|AlignEnd=96360|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=1|RX=PNG.TAM
 2	kiraː	kir-	VERB	_	_	1	comp:aux	_	AlignBegin=96360|AlignEnd=96630|GE=call|Gloss=call|nWord=2|RX=V0
 3	ƴaːƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	2	comp:obj	_	AlignBegin=96630|AlignEnd=96698|GE=daughter|Gloss=child.Plur.Cons|nWord=3|RX=N
 4	=sù	=su	PRON	_	PronType=Prs	3	mod@poss	_	AlignBegin=96834|AlignEnd=96900|GE=3Plur|Gloss=3Plur|nWord=3|RX=PRO.POS
@@ -689,22 +689,22 @@
 # text = koːwaː akà sâː mishì / koːwaː akà sâː mishì / koːwaː akà sâː mishì / koːwa: akà cêː yà ci //
 # text_en =  They gave food to everyone, they gave food to everyone, they gave food to everyone, they told everyone to eat.
 1	koːwaː	koːwaː	PRON	_	_	2	dislocated@comp	_	AlignBegin=100422|AlignEnd=100506|GE=or|Gloss=anyone|nWord=1|RX=PRO
-2	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	0	root@relcl	_	AlignBegin=100590|AlignEnd=100758|GE=4.Perf.Bkg|Gloss=4.Imp.Bck|nWord=2|RX=PNG.TAM
+2	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	0	root@relcl	_	AlignBegin=100590|AlignEnd=100758|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=2|RX=PNG.TAM
 3	sâː	sâː	VERB	_	_	2	comp:aux	_	AlignBegin=100758|AlignEnd=100926|GE=put|Gloss=put|nWord=3|RX=V1
 4	mishì	mishì	NOUN	_	_	3	comp:obj	_	AlignBegin=100926|AlignEnd=101094|GE=3Masc.|Gloss=3Masc.|nWord=4|RX=PRO.Dat
 5	/	/	PUNCT	_	_	7	punct	_	AlignBegin=101094|AlignEnd=101264|Gloss=PUNCT|nWord=5
 6	koːwaː	koːwaː	PRON	_	_	2	mod	_	AlignBegin=101264|AlignEnd=101348|GE=anyone|Gloss=Vnoun|nWord=6|RX=PRO
-7	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	7	conj:coord	_	AlignBegin=101432|AlignEnd=101600|GE=4.Perf.Bkg|Gloss=4.Imp.Bck|nWord=7|RX=PNG.TAM
+7	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	7	conj:coord	_	AlignBegin=101432|AlignEnd=101600|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=7|RX=PNG.TAM
 8	sâː	sâː	VERB	_	_	7	comp:aux	_	AlignBegin=101600|AlignEnd=101768|GE=put|Gloss=put|nWord=8|RX=V1
 9	mishì	mishì	NOUN	_	_	8	comp:obj	_	AlignBegin=101768|AlignEnd=101936|GE=3Masc.|Gloss=3Masc.|nWord=9|RX=PRO.Dat
 10	/	/	PUNCT	_	_	12	punct	_	AlignBegin=101936|AlignEnd=102104|Gloss=PUNCT|nWord=10
 11	koːwaː	koːwaː	PRON	_	_	7	mod	_	AlignBegin=102104|AlignEnd=102189|GE=anyone|Gloss=anyone|nWord=11|RX=PRO
-12	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	12	mod@relcl	_	AlignBegin=102274|AlignEnd=102444|GE=4.Perf.Bkg|Gloss=4.Imp.Bck|nWord=12|RX=PNG.TAM
+12	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	12	mod@relcl	_	AlignBegin=102274|AlignEnd=102444|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=12|RX=PNG.TAM
 13	sâː	sâː	VERB	_	_	12	comp:aux	_	AlignBegin=102444|AlignEnd=102614|GE=put|Gloss=put|nWord=13|RX=V1
 14	mishì	mishì	PRON	_	_	13	comp:obj	_	AlignBegin=102614|AlignEnd=102784|GE=3Masc.|Gloss=3Masc.|nWord=14|RX=PRO.Dat
 15	/	/	PUNCT	_	_	17	punct	_	AlignBegin=102784|AlignEnd=102953|Gloss=PUNCT|nWord=15
 16	koːwa:	koːwaː	PRON	_	_	11	mod	_	AlignBegin=102953|AlignEnd=103047|GE=anyone|Gloss=anyone|nWord=16|RX=PRO
-17	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	17	mod@relcl	_	AlignBegin=103141|AlignEnd=103329|GE=4.Perf.Bkg|Gloss=4.Imp.Bck|nWord=17|RX=PNG.TAM
+17	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	17	mod@relcl	_	AlignBegin=103141|AlignEnd=103329|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=17|RX=PNG.TAM
 18	cêː	cêː	VERB	_	_	17	comp:aux	_	AlignBegin=103329|AlignEnd=103517|GE=say|Gloss=say|nWord=18|RX=V*
 19	yà	yà	AUX	_	_	18	comp:obj	_	AlignBegin=103517|AlignEnd=103705|GE=3Masc.Aor|Gloss=3Masc.Aor|nWord=19|RX=PNG.TAM
 20	ci	ci	VERB	_	_	19	comp:aux	_	AlignBegin=103705|AlignEnd=103893|GE=eat|Gloss=eat|nWord=20|RX=V0
@@ -731,7 +731,7 @@
 # phonetic_text = ita fa bà zâi barìː tà tà ci ba //
 # text = ita fa bà zâi bar̃ tà tà ci ba //
 # text_en =  As for her, he will not let her eat.
-1	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	4	mod	_	AlignBegin=107700|AlignEnd=107829|GE=3SG.F|Gloss=3Fem|nWord=1|RX=PRO.OBJ
+1	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	4	mod	_	AlignBegin=107700|AlignEnd=107829|GE=3SG.F|Gloss=3Fem.Nom|nWord=1|RX=PRO.OBJ
 2	fa	fa	PART	_	_	1	mod	_	AlignBegin=107829|AlignEnd=107958|GE=indeed|Gloss=indeed|nWord=2|RX=PTCL.TOP
 3	bà	bà	PART	_	Polarity=Neg	2	mod	_	AlignBegin=107958|AlignEnd=108087|GE=NEG1a|Gloss=NEG1a|nWord=3|RX=PTCL.NEG
 4	zâi	zaː	AUX	_	_	0	root	_	AlignBegin=108087|AlignEnd=108216|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=4|RX=TAM.PNG
@@ -856,7 +856,7 @@
 10	zaunàː	zaun-	VERB	_	_	9	comp:aux	_	AlignBegin=124275|AlignEnd=124454|GE=stay|Gloss=stay|nWord=10|RX=V1
 11	laːfiyàː	laːfiyàː	NOUN	_	_	10	mod	_	AlignBegin=124454|AlignEnd=124633|GE=happiness|Gloss=happiness|nWord=11|RX=N
 12	dà	dà	ADP	_	_	11	comp:obl	_	AlignBegin=124633|AlignEnd=124812|GE=with|Gloss=with|nWord=12|RX=PREP/HOM
-13	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=124812|AlignEnd=124991|GE=3Plur|Gloss=3Plur|nWord=13|RX=PRO.IDP
+13	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=124812|AlignEnd=124991|GE=3Plur|Gloss=2Plur.Nom|nWord=13|RX=PRO.IDP
 14	/	/	PUNCT	_	_	1	punct	_	AlignBegin=124991|AlignEnd=125171|Gloss=PUNCT|nWord=14
 
 # sent_id = HAUZ_BC_NARR_02_SP1_076-076
@@ -996,7 +996,7 @@
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=145138|AlignEnd=145254|GE=say|Gloss=say|nWord=3|RX=V*
 4	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=145254|AlignEnd=145370|GE=well|Gloss=well|nWord=4|RX=DM
 5	/	/	PUNCT	_	_	6	punct	_	AlignBegin=145370|AlignEnd=145485|Gloss=PUNCT|nWord=5
-6	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=145485|AlignEnd=145678|GE=3Masc.|Gloss=3Masc.|nWord=6|RX=PRO.IDP
+6	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=145485|AlignEnd=145678|GE=3Masc.|Gloss=3Masc.Nom|nWord=6|RX=PRO.IDP
 7	kèː	kèː	PART	_	_	6	mod	_	AlignBegin=145678|AlignEnd=145871|GE=COP1.Bkg|Gloss=COP1.Bkg|nWord=7|RX=PTCL.SYNT
 8	nan	nan	ADV	_	Definite=Def|PronType=Dem	7	comp:pred	_	AlignBegin=145871|AlignEnd=146064|GE=Def|Gloss=Def|nWord=8|RX=ADV.DEICT
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=146064|AlignEnd=146258|Gloss=PUNCT|nWord=9
@@ -1040,7 +1040,7 @@
 # phonetic_text = shiː kuma dà ya ci ya ci ya ci /
 # text = shiː kuma dà ya ci ya ci ya ci /
 # text_en =  As for him, he ate and ate and ate.
-1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	4	discourse	_	AlignBegin=151776|AlignEnd=151911|GE=3Masc.|Gloss=3Masc.|nWord=1|RX=PRO.IDP
+1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	4	discourse	_	AlignBegin=151776|AlignEnd=151911|GE=3Masc.|Gloss=3Masc.Nom|nWord=1|RX=PRO.IDP
 2	kuma	kuma	ADV	_	_	1	mod	_	AlignBegin=151911|AlignEnd=152046|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	dà	dà	SCONJ	_	_	4	mod	_	AlignBegin=152046|AlignEnd=152181|GE=as|Gloss=COMP|nWord=3|RX=CONJ/HOM
 4	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=152181|AlignEnd=152316|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=4|RX=PNG.TAM
@@ -1110,7 +1110,7 @@
 7	//	//	PUNCT	_	_	8	punct	_	AlignBegin=36197|AlignEnd=36336|Gloss=PUNCT|nWord=7
 8	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	5	subj	_	AlignBegin=40990|AlignEnd=41130|GE=3SG.F.Perf.Bkg|Gloss=3Fem.Perf.Bck|nWord=8|RX=PNG.TAM
 9	dafàː	dafàː	VERB	_	_	8	comp:aux	_	AlignBegin=41130|AlignEnd=41270|GE=cook|Gloss=cook|nWord=9|RX=V1
-10	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=41270|AlignEnd=41410|GE=3Masc.|Gloss=3Masc.|nWord=10|RX=PRO.IDP
+10	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=41270|AlignEnd=41410|GE=3Masc.|Gloss=3Masc.Nom|nWord=10|RX=PRO.IDP
 11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=41410|AlignEnd=41550|Gloss=PUNCT|nWord=11
 
 # sent_id = HAUZ_BC_NARR_02_SP1_098-100
@@ -1193,7 +1193,7 @@
 4	tôː	tôː	INTJ	_	_	3	discourse	_	AlignBegin=171232|AlignEnd=171389|GE=well|Gloss=well|nWord=4|RX=PTCL.TOP
 5	/	/	PUNCT	_	_	8	punct	_	AlignBegin=171389|AlignEnd=171548|Gloss=PUNCT|nWord=5
 6	ai	ai	PART	_	_	8	mod	_	AlignBegin=172049|AlignEnd=172189|GE=indeed|Gloss=indeed|nWord=6|RX=EXCL
-7	kai	kai	PRON	_	Case=Nom|PronType=Prs	4	mod	_	AlignBegin=172189|AlignEnd=172329|GE=2.SG.M|Gloss=2.SG.M|nWord=7|RX=PRO.IDP
+7	kai	kai	PRON	_	Case=Nom|PronType=Prs	4	mod	_	AlignBegin=172189|AlignEnd=172329|GE=2.SG.M|Gloss=2Masc.Nom|nWord=7|RX=PRO.IDP
 8	nèː	neː	PART	_	_	4	comp:pred	_	AlignBegin=172329|AlignEnd=172469|GE=COP1|Gloss=Ident/Foc|nWord=8|RX=PTCL.SYNT
 9	/	/	PUNCT	_	_	2	punct	_	AlignBegin=172469|AlignEnd=172608|Gloss=PUNCT|nWord=9
 
@@ -1234,10 +1234,10 @@
 # phonetic_text = ita kuma / niː na jeː na saːmoː àbù -ǹ nan //
 # text = ita kuma / niː na jeː na saːmoː àbîn nan //
 # text_en =  As for her.. I am the one who went to get it.
-1	ita	ita	PRON	_	Case=Nom|PronType=Prs	5	mod	_	AlignBegin=176472|AlignEnd=176640|GE=3SG.F|Gloss=3Fem|nWord=1|RX=PRO.IDP
+1	ita	ita	PRON	_	Case=Nom|PronType=Prs	5	mod	_	AlignBegin=176472|AlignEnd=176640|GE=3SG.F|Gloss=3Fem.Nom|nWord=1|RX=PRO.IDP
 2	kuma	kuma	ADV	_	_	1	mod	_	AlignBegin=176640|AlignEnd=176808|GE=too|Gloss=also|nWord=2|RX=PTCL.TOP
 3	/	/	PUNCT	_	_	1	punct	_	AlignBegin=176808|AlignEnd=176977|Gloss=PUNCT|nWord=3
-4	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	comp:pred	_	AlignBegin=176977|AlignEnd=177136|GE=1SG|Gloss=1Sing|nWord=4|RX=PRO.IDP
+4	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	comp:pred	_	AlignBegin=176977|AlignEnd=177136|GE=1SG|Gloss=1Sing.Nom|nWord=4|RX=PRO.IDP
 5	na	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=1	0	root	_	AlignBegin=177136|AlignEnd=177295|GE=1SG.Perf.Bkg|Gloss=1Sing.Perf.Bck|number=Sing|nWord=5|RX=PNG.TAM
 6	jeː	jeː	VERB	_	_	5	comp:aux	_	AlignBegin=177295|AlignEnd=177454|GE=go|Gloss=go|nWord=6|RX=V0
 7	na	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=1	5	conj:coord	_	AlignBegin=177454|AlignEnd=177613|GE=1SG.Perf.Bkg|Gloss=1Sing.Perf.Bck|number=Sing|nWord=7|RX=PNG.TAM
@@ -1309,7 +1309,7 @@
 # phonetic_text = shiː kèː nan sai ya kwântaː sai ya mutù //
 # text = shiː kèː nan sai ya kwântaː sai ya mutù //
 # text_en =  Then he lay down and died.
-1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=186180|AlignEnd=186347|GE=3Masc.|Gloss=3Masc.|nWord=1|RX=PRO.IDP
+1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=186180|AlignEnd=186347|GE=3Masc.|Gloss=3Masc.Nom|nWord=1|RX=PRO.IDP
 2	kèː	kèː	PART	_	_	1	mod	_	AlignBegin=186347|AlignEnd=186514|GE=COP1.Bkg|Gloss=COP1.Bkg|nWord=2|RX=PTCL.SYNT
 3	nan	nan	ADV	_	_	2	comp:pred	_	AlignBegin=186514|AlignEnd=186681|GE=Def|Gloss=Def|nWord=3|RX=ADV.DEICT
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=186681|AlignEnd=186848|GE=then|Gloss=then|nWord=4|RX=CONJ/HOM
@@ -1439,7 +1439,7 @@
 # text = àmmaː ita bà zâi bar̃ tà tà ci ba //
 # text_en =  But as for her, he will not let her eat.
 1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	4	discourse	_	AlignBegin=106506|AlignEnd=106639|GE=but|Gloss=but|nWord=1|RX=CONJ
-2	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	4	mod	_	AlignBegin=106639|AlignEnd=106772|GE=3SG.F|Gloss=3Fem|nWord=2|RX=PRO.OBJ
+2	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	4	mod	_	AlignBegin=106639|AlignEnd=106772|GE=3SG.F|Gloss=3Fem.Nom|nWord=2|RX=PRO.OBJ
 3	bà	bà	PART	_	Polarity=Neg	4	mod	_	AlignBegin=106772|AlignEnd=106905|GE=NEG1a|Gloss=NEG1a|nWord=3|RX=PTCL.NEG
 4	zâi	zaː	AUX	_	_	0	root	_	AlignBegin=106905|AlignEnd=107038|GE=FUT.3Masc.|Gloss=FUT.3Masc.|nWord=4|RX=TAM.PNG
 5	barìː	barìː	VERB	_	_	4	comp:obj	_	AlignBegin=107038|AlignEnd=107171|GE=leave|Gloss=leave|nWord=5|RX=V*
@@ -1606,7 +1606,7 @@
 # text = tòː ita kuma ta saːmoː àbîn //
 # text_en =  As for her, she got her own.
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=175436|AlignEnd=175624|GE=well|Gloss=well|nWord=1|RX=DM
-2	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	4	mod	_	AlignBegin=175624|AlignEnd=175812|GE=3SG.F|Gloss=3Fem|nWord=2|RX=PRO.IDP
+2	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	4	mod	_	AlignBegin=175624|AlignEnd=175812|GE=3SG.F|Gloss=3Fem.Nom|nWord=2|RX=PRO.IDP
 3	kuma	kuma	ADV	_	_	4	mod	_	AlignBegin=175812|AlignEnd=176000|GE=too|Gloss=also|nWord=3|RX=PTCL.TOP
 4	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	0	root	_	AlignBegin=176000|AlignEnd=176188|GE=3SG.F.Perf.Bkg|Gloss=3Fem.Perf.Bck|nWord=4|RX=PNG.TAM
 5	saːmoː	saːm-	VERB	_	_	4	comp:aux	_	AlignBegin=176188|AlignEnd=176376|GE=get.DIR|Gloss=get.DIR|nWord=5|RX=V6
@@ -1640,7 +1640,7 @@
 # phonetic_text = shiː kèː nan sai ya kwântaː sai ya mutù //
 # text = shiː kèː nan sai ya kwântaː sai ya mutù //
 # text_en =  Then he lay down and died.
-1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=185190|AlignEnd=185347|GE=3Masc.|Gloss=3Masc.|nWord=1|RX=PRO.IDP
+1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=185190|AlignEnd=185347|GE=3Masc.|Gloss=3Masc.Nom|nWord=1|RX=PRO.IDP
 2	kèː	kèː	PART	_	_	1	mod	_	AlignBegin=185347|AlignEnd=185504|GE=COP1.Bkg|Gloss=COP1.Bkg|nWord=2|RX=PTCL.SYNT
 3	nan	nan	ADV	_	_	2	comp:pred	_	AlignBegin=185504|AlignEnd=185661|GE=Def|Gloss=Def|nWord=3|RX=ADV.DEICT
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=185661|AlignEnd=185818|GE=then|Gloss=then|nWord=4|RX=CONJ/HOM
