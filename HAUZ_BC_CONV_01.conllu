@@ -590,7 +590,7 @@
 1	baːyan	baːyan	ADP	_	_	6	mod	_	AlignBegin=75021|AlignEnd=75241|GE=after|Gloss=after|nWord=1|RX=CONJ
 2	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	1	comp:obj	_	AlignBegin=75241|AlignEnd=75461|GE=1Plur.Perf|Gloss=1Plur.Perf|nWord=2|RX=PNG.TAM
 3	yiwoː	yi	VERB	_	_	2	comp:aux	_	AlignBegin=75461|AlignEnd=75681|GE=do.DIR|Gloss=do.DIR|nWord=3|RX=V6
-4	itàːcên	itàːceː	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=75681|AlignEnd=75791|GE=wood|Gloss=wood.Def|nWord=4|RX=N
+4	itàːcên	itàːceː	NOUN	_	Definite=Def	3	comp:obj@lvc	_	AlignBegin=75681|AlignEnd=75791|GE=wood|Gloss=wood.Def|nWord=4|RX=N
 5	nan	nan	DET	_	_	4	det	_	AlignBegin=75901|AlignEnd=76121|GE=Def|Gloss=Def|nWord=5|RX=ADV.DEICT
 6	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	AlignBegin=76121|AlignEnd=76341|GE=1Plur.Perf|Gloss=1Plur.Perf|nWord=6|RX=PNG.TAM
 7	daːwoː	daːwoː	VERB	_	_	6	comp:aux	_	AlignBegin=76341|AlignEnd=76561|GE=come_back|Gloss=come_back|nWord=7|RX=V6
@@ -1099,8 +1099,8 @@
 1	sunàː	nàː	AUX	_	Aspect=Imp|Case=Nom|Number=Plur|Person=3	0	root	_	AlignBegin=139142|AlignEnd=139333|GE=3Plur.Imp|Gloss=3Plur.Imp|nWord=1|RX=PNG.TAM
 2	ɗan	ɗan	ADV	_	_	1	mod	_	AlignBegin=139333|AlignEnd=139524|GE=DIM|Gloss=little|nWord=2|RX=ADV
 3	yîn	yi	VERB	_	Definite=Cons	1	comp:aux	_	AlignBegin=139524|AlignEnd=139620|GE=do|Gloss=do.Vnoun.Cons|nWord=3|RX=V0
-4	ɗaːkunàː	ɗaːkìː	NOUN	_	Definite=Cons|Number=Plur	3	comp:aux	_	AlignBegin=139715|AlignEnd=139811|GE=hut|Gloss=hut.Plur|nWord=4|RX=N
-5	hakà	hakà	ADV	_	_	1	mod	_	AlignBegin=139906|AlignEnd=140097|GE=like_this|Gloss=like_this|nWord=5|RX=ADV
+4	ɗaːkunàː	ɗaːkìː	NOUN	_	Definite=Cons|Number=Plur	3	comp:obj	_	AlignBegin=139715|AlignEnd=139811|GE=hut|Gloss=hut.Plur|nWord=4|RX=N
+5	hakà	hakà	ADV	_	_	4	mod	_	AlignBegin=139906|AlignEnd=140097|GE=like_this|Gloss=like_this|nWord=5|RX=ADV
 6	|a	|a	PUNCT	_	_	8	punct	_	AlignBegin=140097|AlignEnd=140288|Gloss=PUNCT|nWord=6
 7	ɗan	ɗan	ADJ	_	_	8	mod	_	AlignBegin=140288|AlignEnd=140479|GE=DIM|Gloss=little|nWord=7|RX=ADV
 8	ɗaːkìː	ɗaːkìː	NOUN	_	_	4	conj:appos	_	AlignBegin=140479|AlignEnd=140670|GE=hut|Gloss=hut|nWord=8|RX=N
@@ -1902,7 +1902,7 @@
 9	mù	mù	PART	_	_	2	conj:coord	_	AlignBegin=221410|AlignEnd=221588|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=4|RX=PNG.TAM
 10	ɗan	ɗan	ADV	_	_	9	mod	_	AlignBegin=221588|AlignEnd=221766|GE=DIM|Gloss=little|nWord=5|RX=ADV
 11	yiwoː	yi	VERB	_	_	9	comp:aux	_	AlignBegin=221766|AlignEnd=221944|GE=do.DIR|Gloss=do.DIR|nWord=6|RX=V6
-12	itàːceː	itàːceː	NOUN	_	_	11	comp:obj	_	AlignBegin=221944|AlignEnd=222122|GE=wood|Gloss=wood|nWord=7|RX=N
+12	itàːceː	itàːceː	NOUN	_	_	11	comp:obj@lvc	_	AlignBegin=221944|AlignEnd=222122|GE=wood|Gloss=wood|nWord=7|RX=N
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=222122|AlignEnd=222302|Gloss=PUNCT|nWord=8
 
 # sent_id = HAUZ_BC_CONV_01_SP2_087-089
@@ -2616,7 +2616,7 @@
 # text_en = It is .. like er.. guinea-corn like er.. maize like er.. beans and.. etc.
 1	yakàn	kàn	AUX	_	_	0	root	_	AlignBegin=310408|AlignEnd=310707|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=1|RX=PNG.TAM
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=310707|AlignEnd=311006|GE=do|Gloss=do|nWord=2|RX=V0
-3	irìn	irìː	NOUN	_	Definite=Def	2	comp:pred	_	AlignBegin=311305|AlignEnd=311455|GE=type|Gloss=type.Def|nWord=4|RX=N
+3	irìn	irìː	NOUN	_	Definite=Def	2	comp:obj@lvc	_	AlignBegin=311305|AlignEnd=311455|GE=type|Gloss=type.Def|nWord=4|RX=N
 4	na	na	ADP	_	_	3	mod	_	AlignBegin=311604|AlignEnd=311903|GE=POSL|Gloss=Gen|nWord=5|RX=PTCL.SYNT
 5	daːwàː	daːwàː	NOUN	_	_	4	comp:obj	_	AlignBegin=312202|AlignEnd=312501|GE=guinea_corn|Gloss=guinea-corn|nWord=7|RX=N
 6	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=312501|AlignEnd=312800|Gloss=PUNCT|nWord=8
