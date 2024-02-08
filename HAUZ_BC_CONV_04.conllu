@@ -19,13 +19,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 6939, 7782
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right!
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=6939|AlignEnd=7150|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=7150|AlignEnd=7361|GE=with|Gloss=with|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=7361|AlignEnd=7572|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=7572|AlignEnd=7782|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_0003-0005
 # speaker_id = SP1
@@ -321,7 +321,7 @@
 4	mài	mài	PRON	_	_	0	root	_	AlignBegin=37060|AlignEnd=37280|GE=ATTR|Gloss=ATTR|nWord=4|RX=PTCL.SYNT
 5	kwaːnaː	kwaːnaː	VERB	_	_	4	comp:aux	_	AlignBegin=37280|AlignEnd=37500|GE=night|Gloss=night|nWord=5|RX=N
 6	sìttin	sìttiː	NOUN	_	Definite=Cons	5	mod	_	AlignBegin=37500|AlignEnd=37720|GE=sixty|Gloss=sixty|nWord=6|RX=NUM
-7	ɗîn	ɗîn	ADV	_	_	5	mod	_	AlignBegin=37720|AlignEnd=37940|GE=Def|Gloss=Def|nWord=7|RX=PTCL
+7	ɗîn	ɗîn	ADP	_	_	5	mod	_	AlignBegin=37720|AlignEnd=37940|GE=Def|Gloss=of.Def|nWord=7|RX=PTCL
 8	//	//	PUNCT	_	_	9	punct	_	AlignBegin=37940|AlignEnd=38159|GE=//|Gloss=PUNCT|nWord=8
 9	tundà	tundà	ADV	_	_	4	mod	_	AlignBegin=39178|AlignEnd=39408|GE=since|Gloss=since|nWord=9|RX=CONJ
 10	takàn	kàn	AUX	_	_	9	comp:obj	_	AlignBegin=39408|AlignEnd=39638|GE=3F.SG.Hab|Gloss=3F.SG.Hab|nWord=10|RX=PNG.TAM
@@ -1306,7 +1306,7 @@
 2	kèː	kèː	PART	_	_	0	root	_	AlignBegin=152556|AlignEnd=152728|GE=COP1.FOC|Gloss=COP1.FOC|nWord=2|RX=PTCL.SYNT
 3	nan	nan	ADV	_	_	2	comp:pred	_	AlignBegin=152728|AlignEnd=152900|GE=Def|Gloss=Def|nWord=3|RX=ADV.DEICT
 4	kanàː	kanàː	AUX	_	_	2	conj:coord	_	AlignBegin=152900|AlignEnd=153072|GE=2SG.M.CONT.NFOC|Gloss=2SG.M.CONT.NFOC|nWord=4|RX=PNG.TAM
-5	zàune	zaun-	VERB	_	_	4	comp:aux	_	AlignBegin=153072|AlignEnd=153244|GE=staying|Gloss=staying|nWord=5|RX=STAT
+5	zàune	zaun-	VERB	_	_	4	comp:aux	_	AlignBegin=153072|AlignEnd=153244|GE=staying|Gloss=stay.Stat|nWord=5|RX=STAT
 6	sai	sai	ADV	_	_	4	mod	_	AlignBegin=153244|AlignEnd=153416|GE=then|Gloss=then|nWord=6|RX=CONJ/HOM
 7	kà	à	AUX	_	_	2	comp:cleft	_	AlignBegin=153416|AlignEnd=153588|GE=2SG.M.SBJV|Gloss=2SG.M.SBJV|nWord=7|RX=PNG.TAM
 8	sâː	sâː	VERB	_	_	7	comp:aux	_	AlignBegin=153588|AlignEnd=153760|GE=put|Gloss=put|nWord=8|RX=V1
@@ -2945,7 +2945,7 @@
 15	/	/	PUNCT	_	_	16	punct	_	AlignBegin=358219|AlignEnd=358508|GE=/|Gloss=PUNCT|nWord=15
 16	kwabòː	abòː	AUX	_	_	14	conj:coord	_	AlignBegin=358819|AlignEnd=359129|GE=kobo|Gloss=kobo|nWord=16|RX=N
 17	bìyar̃	bìyar̃	VERB	_	_	16	comp:aux	_	AlignBegin=359129|AlignEnd=359439|GE=five|Gloss=five|nWord=17|RX=NUM
-18	ɗîn	ɗîn	DET	_	_	17	mod	_	AlignBegin=359439|AlignEnd=359749|GE=Def|Gloss=Def|nWord=18|RX=PTCL
+18	ɗîn	ɗîn	ADP	_	_	17	mod	_	AlignBegin=359439|AlignEnd=359749|GE=Def|Gloss=of.Def|nWord=18|RX=PTCL
 19	dâː	dâː	ADV	_	_	18	mod	_	AlignBegin=359749|AlignEnd=360059|GE=formerly|Gloss=formerly|nWord=19|RX=ADV
 20	/	/	PUNCT	_	_	2	punct	_	AlignBegin=360059|AlignEnd=360368|GE=/|Gloss=PUNCT|nWord=20
 
@@ -2995,13 +2995,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 366140, 367085
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  That's quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=366140|AlignEnd=366376|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=366376|AlignEnd=366612|GE=with|Gloss=with|nWord=2|RX=PREP/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=366612|AlignEnd=366848|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=366848|AlignEnd=367085|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_0304-0304
 # speaker_id = SP1
@@ -4507,7 +4507,7 @@
 # text = inàː jînkà //
 # text_en =  I hear you.
 1	inàː	nàː	AUX	_	PronType=Int	0	root	_	AlignBegin=561783|AlignEnd=562030|GE=1SG.CONT.NFOC|Gloss=1SG.CONT.NFOC|nWord=1|RX=PNG.TAM
-2	jîː-n	ji	VERB	_	Definite=Cons	1	comp:aux	_	AlignBegin=562030|AlignEnd=562112|GE=feel.POSL|Gloss=feel.POSL|nWord=2|RX=N.V0|wordform=jîː
+2	jîn	ji	VERB	_	Definite=Cons	1	comp:aux	_	AlignBegin=562030|AlignEnd=562112|GE=feel.POSL|Gloss=feel.POSL|nWord=2|RX=N.V0|wordform=jîː
 3	=kà	=kà	PRON	_	_	2	comp:obj	_	AlignBegin=562194|AlignEnd=562277|GE=2SG.M|Gloss=2SG.M|nWord=2|RX=PRO.POS
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=562277|AlignEnd=562524|GE=//|Gloss=PUNCT|nWord=3
 
@@ -5003,13 +5003,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 623492, 624334
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=623492|AlignEnd=623702|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=623702|AlignEnd=623912|GE=with|Gloss=with|nWord=2|RX=PREP/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=623912|AlignEnd=624122|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=624122|AlignEnd=624334|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_0525-0526
 # speaker_id = SP1
@@ -5599,7 +5599,7 @@
 10	/	/	PUNCT	_	_	11	punct	_	AlignBegin=687585|AlignEnd=687742|GE=/|Gloss=PUNCT|nWord=9
 11	àbù-ǹ	àbù	NOUN	_	Definite=Def	7	comp:aux	_	AlignBegin=687742|AlignEnd=687886|GE=thing.DEF|Gloss=thing.DEF|nWord=10|RX=N|wordform=àbù
 12	nàn	nàn	DET	_	_	11	mod	_	AlignBegin=688031|AlignEnd=688320|GE=Def|Gloss=Def|nWord=11|RX=ADV.DEICT
-13	ɗîn	ɗîn	DET	_	_	12	mod	_	AlignBegin=688320|AlignEnd=688609|GE=Def|Gloss=Def|nWord=12|RX=PTCL
+13	ɗîn	ɗîn	ADP	_	_	12	mod	_	AlignBegin=688320|AlignEnd=688609|GE=Def|Gloss=of.Def|nWord=12|RX=PTCL
 14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=688609|AlignEnd=688899|GE=//|Gloss=PUNCT|nWord=13
 
 # sent_id = HAUZ_BC_CONV_04_0587-0587
@@ -5712,7 +5712,7 @@
 1	har̃	har̃	ADP	_	_	3	mod	_	AlignBegin=698479|AlignEnd=698635|GE=until|Gloss=until|nWord=1|RX=CONJ
 2	yànzu	yànzu	ADV	_	_	1	comp:obj	_	AlignBegin=698635|AlignEnd=698791|GE=now|Gloss=now|nWord=2|RX=ADV.DEICT
 3	inàː	inàː	AUX	_	_	0	root@scrap	_	AlignBegin=698791|AlignEnd=698947|GE=1SG.CONT.NFOC|Gloss=1SG.CONT.NFOC|nWord=3|RX=PNG.TAM
-4	jîː-n	ji	VERB	_	Definite=Cons	3	comp:aux	_	AlignBegin=698947|AlignEnd=699025|GE=feel.POSL|Gloss=feel.POSL|nWord=4|RX=N.V0|wordform=jîː
+4	jîn	ji	VERB	_	Definite=Cons	3	comp:aux	_	AlignBegin=698947|AlignEnd=699025|GE=feel.POSL|Gloss=feel.POSL|nWord=4|RX=N.V0|wordform=jîː
 5	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=699103|AlignEnd=699257|GE=&//|Gloss=PUNCT|nWord=5
 
 # sent_id = HAUZ_BC_CONV_04_0599-0600
@@ -6193,7 +6193,7 @@
 3	àbù	àbù	AUX	_	_	0	root	_	AlignBegin=762118|AlignEnd=762230|GE=thing|Gloss=thing|nWord=3|RX=N
 4	=uCaː\HL-n	ucaː\hl	AUX	_	Definite=Cons	3	comp:aux	_	AlignBegin=762230|AlignEnd=762342|GE=PL.POSL|Gloss=PL.POSL|nWord=3|RX=PL17|wordform=-uCaː\HL
 5	gar̃gajiya:	gar̃gajiya:	NOUN	_	_	3	mod	_	AlignBegin=762455|AlignEnd=762792|GE=olden_times|Gloss=olden_times|nWord=4|RX=N
-6	ɗîn	ɗîn	ADV	_	_	3	mod	_	AlignBegin=762792|AlignEnd=763129|GE=Def|Gloss=Def|nWord=5|RX=PTCL
+6	ɗîn	ɗîn	ADP	_	_	3	mod	_	AlignBegin=762792|AlignEnd=763129|GE=Def|Gloss=of.Def|nWord=5|RX=PTCL
 7	/	/	PUNCT	_	_	8	punct	_	AlignBegin=763129|AlignEnd=763467|GE=/|Gloss=PUNCT|nWord=6
 8	an	nàː	AUX	_	Aspect=Perf|Person=4	3	conj:coord	_	AlignBegin=763467|AlignEnd=763671|GE=4.PFV.NFOC|Gloss=4.PFV.NFOC|nWord=7|RX=PNG.TAM
 9	dankàfeː	dankàf-	VERB	_	_	8	comp:aux	_	AlignBegin=763671|AlignEnd=763875|GE=abandon|Gloss=abandon|nWord=8|RX=V4
@@ -6402,13 +6402,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 782251, 783176
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=782251|AlignEnd=782482|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=782482|AlignEnd=782713|GE=with|Gloss=with|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=782713|AlignEnd=782944|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=782944|AlignEnd=783176|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_0673-0674
 # speaker_id = SP1
@@ -6823,13 +6823,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 831934, 832893
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=831934|AlignEnd=832174|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=832174|AlignEnd=832414|GE=and|Gloss=and|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=832414|AlignEnd=832654|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=832654|AlignEnd=832893|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_0722-0724
 # speaker_id = SP1
@@ -8374,7 +8374,7 @@
 8	/	/	PUNCT	_	_	9	punct	_	AlignBegin=1.0056e+06|AlignEnd=1.00577e+06|GE=/|Gloss=PUNCT|nWord=8
 9	tsantsan	tsantsaː	NOUN	_	Definite=Cons	7	conj:appos	_	AlignBegin=1.00577e+06|AlignEnd=1.00603e+06|GE=tight|Gloss=tight|nWord=9|RX=IDEOPH
 10	wannàn	wannàn	DET	_	_	9	det	_	AlignBegin=1.00603e+06|AlignEnd=1.00628e+06|GE=PROX|Gloss=PROX|nWord=10|RX=PRO.DEICT
-11	ɗîn	ɗîn	NOUN	_	_	9	mod	_	AlignBegin=1.00628e+06|AlignEnd=1.00653e+06|GE=Def|Gloss=Def|nWord=11|RX=PTCL
+11	ɗîn	ɗîn	ADP	_	_	9	mod	_	AlignBegin=1.00628e+06|AlignEnd=1.00653e+06|GE=Def|Gloss=of.Def|nWord=11|RX=PTCL
 12	ba	ba	PART	_	Polarity=Neg	11	mod	_	AlignBegin=1.00653e+06|AlignEnd=1.00678e+06|GE=NEGb|Gloss=NEGb|nWord=12|RX=PTCL.NEG
 13	kèː	kèː	PART	_	_	12	comp:ben	_	AlignBegin=1.00678e+06|AlignEnd=1.00703e+06|GE=COP1.FOC|Gloss=COP1.FOC|nWord=13|RX=PTCL.SYNT
 14	nan	nan	ADV	_	_	13	comp:pred	_	AlignBegin=1.00703e+06|AlignEnd=1.00729e+06|GE=Def|Gloss=Def|nWord=14|RX=ADV.DEICT
@@ -8394,13 +8394,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1007539, 1008318
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=1.00754e+06|AlignEnd=1.00773e+06|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=1.00773e+06|AlignEnd=1.00793e+06|GE=and|Gloss=and|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=1.00793e+06|AlignEnd=1.00812e+06|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.00812e+06|AlignEnd=1.00832e+06|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_0902-0902
 # speaker_id = SP2
@@ -9002,13 +9002,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1079173, 1080009
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=1.07917e+06|AlignEnd=1.07938e+06|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=1.07938e+06|AlignEnd=1.07959e+06|GE=and|Gloss=and|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=1.07959e+06|AlignEnd=1.0798e+06|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.0798e+06|AlignEnd=1.08001e+06|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_0967-0968
 # speaker_id = SP1
@@ -9378,7 +9378,7 @@
 # text = inàː jînkà //
 # text_en =  I'm listening.
 1	inàː	nàː	AUX	_	PronType=Int	0	root	_	AlignBegin=1.12709e+06|AlignEnd=1.12727e+06|GE=1SG.CONT.NFOC|Gloss=1SG.CONT.NFOC|nWord=1|RX=PNG.TAM
-2	jîː-n	ji	VERB	_	Definite=Cons	1	comp:aux	_	AlignBegin=1.12727e+06|AlignEnd=1.12733e+06|GE=feel.POSL|Gloss=feel.POSL|nWord=2|RX=N.V0|wordform=jîː
+2	jîn	ji	VERB	_	Definite=Cons	1	comp:aux	_	AlignBegin=1.12727e+06|AlignEnd=1.12733e+06|GE=feel.POSL|Gloss=feel.POSL|nWord=2|RX=N.V0|wordform=jîː
 3	=kà	=kà	PRON	_	_	2	comp:obj	_	AlignBegin=1.12739e+06|AlignEnd=1.12745e+06|GE=2SG.M|Gloss=2SG.M|nWord=2|RX=PRO.POS
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.12745e+06|AlignEnd=1.12764e+06|GE=//|Gloss=PUNCT|nWord=3
 
@@ -9720,13 +9720,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1164524, 1165261
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=1.16452e+06|AlignEnd=1.16471e+06|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=1.16471e+06|AlignEnd=1.16489e+06|GE=and|Gloss=and|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=1.16489e+06|AlignEnd=1.16508e+06|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.16508e+06|AlignEnd=1.16526e+06|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_1045-1045
 # speaker_id = SP1
@@ -10430,7 +10430,7 @@
 9	na	na	ADP	_	_	6	mod	_	AlignBegin=1.2557e+06|AlignEnd=1.25584e+06|GE=1SG.PFV.FOC|Gloss=1SG.PFV.FOC|nWord=9|RX=PNG.TAM
 10	ji	ji	VERB	_	_	9	comp:obj	_	AlignBegin=1.25584e+06|AlignEnd=1.25598e+06|GE=feel|Gloss=feel|nWord=10|RX=V0
 11	inàː	inàː	AUX	_	PronType=Rel	10	comp:obj	_	AlignBegin=1.25598e+06|AlignEnd=1.25612e+06|GE=1SG.CONT.NFOC|Gloss=1SG.CONT.NFOC|nWord=11|RX=PNG.TAM
-12	jîː-n	ji	VERB	_	Definite=Cons	11	comp:aux	_	AlignBegin=1.25612e+06|AlignEnd=1.2562e+06|GE=feel.POSL|Gloss=feel.POSL|nWord=12|RX=N.V0|wordform=jîː
+12	jîn	ji	VERB	_	Definite=Cons	11	comp:aux	_	AlignBegin=1.25612e+06|AlignEnd=1.2562e+06|GE=feel.POSL|Gloss=feel.POSL|nWord=12|RX=N.V0|wordform=jîː
 13	cîː-n	ci	VERB	_	Definite=Cons	12	comp:obj	_	AlignBegin=1.25626e+06|AlignEnd=1.25631e+06|GE=eating.POSL|Gloss=eating.POSL|nWord=13|RX=N.V0|wordform=cîː
 14	=shì	=shì	PRON	_	_	13	comp:obj	_	AlignBegin=1.25636e+06|AlignEnd=1.2564e+06|GE=3SG.M|Gloss=3SG.M|nWord=13|RX=PRO.POS
 15	nèː	neː	PART	_	_	13	mod@emp	_	AlignBegin=1.2564e+06|AlignEnd=1.25654e+06|GE=COP1.NFOC|Gloss=COP1.NFOC|nWord=14|RX=PTCL.SYNT
@@ -10717,13 +10717,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1290313, 1291138
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=1.29031e+06|AlignEnd=1.29052e+06|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=1.29052e+06|AlignEnd=1.29072e+06|GE=and|Gloss=and|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=1.29072e+06|AlignEnd=1.29093e+06|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.29093e+06|AlignEnd=1.29114e+06|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_1156-1158
 # speaker_id = SP1
@@ -11011,13 +11011,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1323776, 1324536
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=1.32378e+06|AlignEnd=1.32397e+06|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=1.32397e+06|AlignEnd=1.32416e+06|GE=and|Gloss=and|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=1.32416e+06|AlignEnd=1.32435e+06|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.32435e+06|AlignEnd=1.32454e+06|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_1187-1187
 # speaker_id = SP1
@@ -11068,13 +11068,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1329932, 1330802
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=1.32993e+06|AlignEnd=1.33015e+06|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=1.33015e+06|AlignEnd=1.33037e+06|GE=and|Gloss=and|nWord=2|RX=PTCL.SYNT/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=1.33037e+06|AlignEnd=1.33059e+06|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.33059e+06|AlignEnd=1.3308e+06|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_1193-1193
 # speaker_id = SP2
@@ -11106,7 +11106,7 @@
 1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=1.33379e+06|AlignEnd=1.33397e+06|GE=well|Gloss=well|nWord=1|RX=DM
 2	yàːyàː	yàːyàː	ADV	_	_	0	root	_	AlignBegin=1.33397e+06|AlignEnd=1.33415e+06|GE=how|Gloss=how|nWord=2|RX=ADV.Q
 3	kakèː	kakèː	AUX	_	_	2	mod@relcl	_	AlignBegin=1.33415e+06|AlignEnd=1.33433e+06|GE=2SG.M.PFV.FOC|Gloss=2SG.M.PFV.FOC|nWord=3|RX=PNG.TAM
-4	jîː-n	ji	VERB	_	Definite=Cons	3	comp:aux	_	AlignBegin=1.33433e+06|AlignEnd=1.33442e+06|GE=feel.POSL|Gloss=feel.POSL|nWord=4|RX=N.V0|wordform=jîː
+4	jîn	ji	VERB	_	Definite=Cons	3	comp:aux	_	AlignBegin=1.33433e+06|AlignEnd=1.33442e+06|GE=feel.POSL|Gloss=feel.POSL|nWord=4|RX=N.V0|wordform=jîː
 5	làːbaːr̃ìː-n	làːbaːr̃ìː	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=1.33451e+06|AlignEnd=1.3346e+06|GE=news.POSL|Gloss=news.PUNCT|nWord=5|RX=N|wordform=làːbaːr̃ìː
 6	màːtaː	màːtaː	NOUN	_	_	4	comp:obj	_	AlignBegin=1.33469e+06|AlignEnd=1.33475e+06|GE=wife|Gloss=wife|nWord=6|RX=N
 7	=aː\H-n	=aː\h	NOUN	_	Definite=Cons	6	comp:obj	_	AlignBegin=1.33475e+06|AlignEnd=1.33481e+06|GE=PL.POSL|Gloss=PL.POSL|nWord=6|RX=PL*/ATO|wordform=-aː\H
@@ -11416,13 +11416,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1372819, 1373632
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=1.37282e+06|AlignEnd=1.37302e+06|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=1.37302e+06|AlignEnd=1.37322e+06|GE=and|Gloss=and|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=1.37322e+06|AlignEnd=1.37343e+06|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.37343e+06|AlignEnd=1.37363e+06|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_1232-1232
 # speaker_id = SP2
@@ -11535,13 +11535,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1385845, 1386726
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=1.38584e+06|AlignEnd=1.38606e+06|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=1.38606e+06|AlignEnd=1.38628e+06|GE=and|Gloss=and|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=1.38628e+06|AlignEnd=1.3865e+06|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.3865e+06|AlignEnd=1.38673e+06|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_1244-1247
 # speaker_id = SP1
@@ -12484,13 +12484,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1503619, 1504673
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=1.50362e+06|AlignEnd=1.50388e+06|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=1.50388e+06|AlignEnd=1.50415e+06|GE=and|Gloss=and|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=1.50415e+06|AlignEnd=1.50441e+06|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.50441e+06|AlignEnd=1.50467e+06|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_1356-1356
 # speaker_id = SP1
@@ -13250,13 +13250,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1602956, 1603551
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske /
+# text = ƙwar̃ai dà gàske /
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=1.60296e+06|AlignEnd=1.6031e+06|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=1.6031e+06|AlignEnd=1.60325e+06|GE=and|Gloss=and|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=1.60325e+06|AlignEnd=1.6034e+06|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	/	/	PUNCT	_	_	1	punct	_	AlignBegin=1.6034e+06|AlignEnd=1.60355e+06|GE=/|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_1436-1436
 # speaker_id = SP2
@@ -13379,13 +13379,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1614836, 1615809
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=1.61484e+06|AlignEnd=1.61508e+06|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=1.61508e+06|AlignEnd=1.61532e+06|GE=and|Gloss=and|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=1.61532e+06|AlignEnd=1.61556e+06|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.61556e+06|AlignEnd=1.61581e+06|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_1448-1448
 # speaker_id = SP1
@@ -13436,13 +13436,13 @@
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1618878, 1619934
-# phonetic_text = ƙwar̃ai dà gàske !//
-# text = ƙwar̃ai dà gàske !//
-# text_en =  That's true.
-1	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=121461|AlignEnd=121610|GE=quite|Gloss=quite|nWord=1|RX=ADV
-2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=121610|AlignEnd=121759|GE=with|Gloss=and|nWord=2|RX=PREP/HOM
-3	gàske	gàske	ADV	_	_	1	conj:coord	_	AlignBegin=121759|AlignEnd=121908|GE=truly|Gloss=truly|nWord=3|RX=ADV
-4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=121908|AlignEnd=122056|GE=//|Gloss=PUNCT|nWord=4
+# phonetic_text = ƙwar̃ai dà gàske //
+# text = ƙwar̃ai dà gàske //
+# text_en =  Quite right.
+1	ƙwar̃ai	ƙwar̃ai	NOUN	_	_	0	root	_	AlignBegin=1.61888e+06|AlignEnd=1.61914e+06|GE=quite|Gloss=quite|nWord=1|RX=ADV
+2	dà	dà	ADP	_	_	1	mod	_	AlignBegin=1.61914e+06|AlignEnd=1.61941e+06|GE=and|Gloss=and|nWord=2|RX=CONJ/HOM
+3	gàske	gàske	NOUN	_	_	2	comp:obj	_	AlignBegin=1.61941e+06|AlignEnd=1.61967e+06|GE=truly|Gloss=truly|nWord=3|RX=ADV
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.61967e+06|AlignEnd=1.61993e+06|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_1453-1453
 # speaker_id = SP1
