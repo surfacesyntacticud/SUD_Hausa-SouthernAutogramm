@@ -79,10 +79,10 @@
 # text = yaː baː mù àsaːmèn koː //
 # text_en =  Did he give us an assignment ?
 1	yaː	yaː	AUX	_	_	0	root	_	AlignBegin=11620|AlignEnd=11796|GE=3SG.M.PFV.NFOC|Gloss=3SG.M.PFV.NFOC|nWord=1|RX=PNG.TAM
-2	bâː	bâː	PART	_	_	1	comp:aux	_	AlignBegin=11796|AlignEnd=11972|GE=give|Gloss=give|nWord=2|RX=V*
+2	baː	baː	PART	_	_	1	comp:aux	_	AlignBegin=11796|AlignEnd=11972|GE=give|Gloss=give|nWord=2|RX=V*
 3	mù	yà	AUX	_	_	2	comp:ben	_	AlignBegin=11972|AlignEnd=12148|GE=1PL|Gloss=1PL|nWord=3|RX=PRO.OBJ
-4	àsaːmèn	àsaːmèː	NOUN	_	Definite=Def	3	comp:aux	_	AlignBegin=12148|AlignEnd=12324|GE=assignment|Gloss=assignment|nWord=4|RX=CSW.ENG
-5	koː	koː	CCONJ	_	_	3	discourse	_	AlignBegin=12324|AlignEnd=12500|GE=or|Gloss=or|nWord=5|RX=CONJ
+4	àsaːmèn	àsaːmèː	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=12148|AlignEnd=12324|GE=assignment|Gloss=assignment|nWord=4|RX=CSW.ENG
+5	koː	koː	CCONJ	_	_	1	discourse	_	AlignBegin=12324|AlignEnd=12500|GE=or|Gloss=or|nWord=5|RX=CONJ
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=12500|AlignEnd=12677|GE=//|Gloss=PUNCT|nWord=6
 
 # sent_id = HAUZ_BC_CONV_03_009-009
@@ -242,17 +242,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 30557, 32590
 # phonetic_text = sabòːdà / maːlàmiː piːsìː baː yàː nan koː //
-# text = sabòːdà / maːlàm piːsìː baː yàː nan koː //
+# text = sabòːdà / Maːlàmiː Piːsìː baːyàː nan koː ?//
 # text_en =  Because Mr. P.C. wasn't there, was he?
-1	sabòːdà	sabòːdà	ADV	_	_	0	root	_	AlignBegin=30557|AlignEnd=30870|GE=because|Gloss=because|nWord=1|RX=CONJ
+1	sabòːdà	sabòːdà	ADV	_	_	5	discourse	_	AlignBegin=30557|AlignEnd=30870|GE=because|Gloss=because|nWord=1|RX=CONJ
 2	/	/	PUNCT	_	_	1	punct	_	AlignBegin=30870|AlignEnd=31183|GE=/|Gloss=PUNCT|nWord=2
-3	maːlàmiː	maːlàmiː	NOUN	_	_	1	comp:obj	_	AlignBegin=31183|AlignEnd=31417|GE=teacher|Gloss=teacher|nWord=3|RX=N
-4	piːsìː	piːsìː	NOUN	_	_	3	mod	_	AlignBegin=31417|AlignEnd=31651|GE=P.C|Gloss=P.C|nWord=4|RX=N.P
-5	baː	baː	PART	_	Polarity=Neg	6	mod	_	AlignBegin=31651|AlignEnd=31768|GE=NEG2|Gloss=NEG2|nWord=5|RX=PTCL.NEG
-6	yàː	yàː	ADV	_	_	1	comp:obj	_	AlignBegin=31768|AlignEnd=31885|GE=3SG.M.CONT|Gloss=3SG.M.CONT|nWord=5|RX=PNG.TAM
-7	nan	nan	ADV	_	_	6	comp:obj	_	AlignBegin=31885|AlignEnd=32119|GE=Def|Gloss=Def|nWord=6|RX=ADV.DEICT
-8	koː	koː	CCONJ	_	_	6	mod	_	AlignBegin=32119|AlignEnd=32353|GE=or|Gloss=or|nWord=7|RX=CONJ
-9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=32353|AlignEnd=32590|GE=//|Gloss=PUNCT|nWord=8
+3	Maːlàmiː	Maːlàmiː	PROPN	_	_	5	dislocated:obj@subj	_	AlignBegin=31183|AlignEnd=31417|GE=Mr|Gloss=Mister|nWord=3|RX=N
+4	Piːsìː	Piːsìː	PROPN	_	_	3	flat:name	_	AlignBegin=31417|AlignEnd=31651|GE=P.C|Gloss=P.C|nWord=4|RX=N.P
+5	baːyàː	baːyàː	AUX	_	Polarity=Neg	0	root	_	AlignBegin=31651|AlignEnd=31768|GE=NEG2|Gloss=3Masc.Imp.Neg|nWord=5|RX=PTCL.NEG
+6	nan	nan	ADV	_	_	5	comp:pred	_	AlignBegin=31885|AlignEnd=32119|GE=Def|Gloss=Def|nWord=6|RX=ADV.DEICT
+7	koː	koː	CCONJ	_	_	5	discourse	_	AlignBegin=32119|AlignEnd=32353|GE=or|Gloss=or|nWord=7|RX=CONJ
+8	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=32353|AlignEnd=32590|GE=//|Gloss=PUNCT|nWord=8
 
 # sent_id = HAUZ_BC_CONV_03_023-023
 # speaker_id = SP2
@@ -291,7 +290,7 @@
 2	maː	maː	ADV	_	_	1	mod	_	AlignBegin=34851|AlignEnd=35082|GE=even|Gloss=even|nWord=2|RX=PTCL.TOP
 3	bàː	bàː	PART	_	_	6	mod	_	AlignBegin=35082|AlignEnd=35313|GE=NEG4a|Gloss=NEG4a|nWord=3|RX=PTCL.NEG
 4	dan	dan	ADV	_	_	6	mod	_	AlignBegin=35313|AlignEnd=35544|GE=because|Gloss=because|nWord=4|RX=CONJ
-5	allàː	allàː	ADV	_	_	6	mod	_	AlignBegin=35544|AlignEnd=35775|GE=God|Gloss=God|nWord=5|RX=N.P
+5	Allàː	Allàː	PROPN	_	_	6	mod	_	AlignBegin=35544|AlignEnd=35775|GE=God|Gloss=God|nWord=5|RX=N.P|wordform=allàː
 6	sukèː	kèː	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	0	root	_	AlignBegin=35775|AlignEnd=36006|GE=3PL.CONT.FOC|Gloss=3PL.CONT.FOC|nWord=6|RX=PNG.TAM
 7	yîː	yi	VERB	_	_	6	comp:aux	_	AlignBegin=36006|AlignEnd=36237|GE=doing|Gloss=doing|nWord=7|RX=N.V0
 8	ba	ba	PART	_	Polarity=Neg	6	mod	_	AlignBegin=36237|AlignEnd=36468|GE=NEGb|Gloss=NEGb|nWord=8|RX=PTCL.NEG
@@ -889,7 +888,7 @@
 7	/	/	PUNCT	_	_	8	punct	_	AlignBegin=122639|AlignEnd=122858|GE=/|Gloss=PUNCT|nWord=6
 8	hukuncìː	hukuncìː	NOUN	_	_	5	conj:appos	_	AlignBegin=123932|AlignEnd=124236|GE=punishment|Gloss=punishment|nWord=7|RX=N
 9	à	à	AUX	_	_	8	mod@relcl	_	AlignBegin=124236|AlignEnd=124540|GE=at|Gloss=at|nWord=8|RX=PREP
-10	kâi-n	kâi	PART	_	Definite=Cons	9	comp:obj	_	AlignBegin=124540|AlignEnd=124641|GE=head.POSL|Gloss=head.POSL|nWord=9|RX=N|wordform=kâi
+10	kân	kâi	PART	_	Definite=Cons	9	comp:obj	_	AlignBegin=124540|AlignEnd=124641|GE=head.POSL|Gloss=head.POSL|nWord=9|RX=N|wordform=kâi
 11	=kì	=kì	PRON	_	_	10	comp:pred	_	AlignBegin=124742|AlignEnd=124844|GE=2SG.F|Gloss=2SG.F|nWord=9|RX=PRO.POS
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=124844|AlignEnd=125149|GE=//|Gloss=PUNCT|nWord=10
 
@@ -917,7 +916,7 @@
 # text_en =  It's all because of that.
 1	dukà	dukà	ADV	_	_	5	comp:pred	_	AlignBegin=127201|AlignEnd=127389|GE=all|Gloss=all|nWord=1|RX=N
 2	na	na	AUX	_	_	1	comp:obj	_	AlignBegin=127389|AlignEnd=127577|GE=POSL|Gloss=POSL|nWord=2|RX=PTCL.SYNT
-3	kâi-n	kâi	VERB	_	Definite=Cons	2	comp:aux	_	AlignBegin=127577|AlignEnd=127671|GE=head.POSL|Gloss=head.POSL|nWord=3|RX=N|wordform=kâi
+3	kân	kâi	VERB	_	Definite=Cons	2	comp:aux	_	AlignBegin=127577|AlignEnd=127671|GE=head.POSL|Gloss=head.POSL|nWord=3|RX=N|wordform=kâi
 4	wànnan	wànnan	PRON	_	_	3	comp:obj	_	AlignBegin=127765|AlignEnd=127953|GE=Def|Gloss=Def|nWord=4|RX=PRO.DEICT
 5	nèː	neː	PART	_	_	0	root	_	AlignBegin=127953|AlignEnd=128141|GE=COP1.NFOC|Gloss=COP1.NFOC|nWord=5|RX=PTCL.SYNT
 6	/	/	PUNCT	_	_	5	punct	_	AlignBegin=128141|AlignEnd=128330|GE=/|Gloss=PUNCT|nWord=6
@@ -1429,7 +1428,7 @@
 # text = sunàː bâː alloːlinsù mùtûm //
 # text_en =  they give their boards to people.
 1	sunàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=193868|AlignEnd=194113|GE=3PL.CONT.NFOC|Gloss=3PL.CONT.NFOC|nWord=1|RX=PNG.TAM
-2	bâː	bâː	PART	_	Polarity=Neg	1	comp:aux	_	AlignBegin=194113|AlignEnd=194358|GE=give|Gloss=give|nWord=2|RX=V*
+2	bâː	baː	PART	_	Polarity=Neg	1	comp:aux	_	AlignBegin=194113|AlignEnd=194358|GE=give|Gloss=give|nWord=2|RX=V*
 3	àlloː	àlloː	NOUN	_	_	1	mod	_	AlignBegin=194358|AlignEnd=194419|GE=writing_board|Gloss=writing_board|nWord=3|RX=N
 4	=oːCiː-n	=oːciː	NOUN	_	Definite=Cons|Number=Plur	3	mod	_	AlignBegin=194419|AlignEnd=194480|GE=PL15.POSL|Gloss=PL15.POSL|nWord=3|RX=PL15|wordform=-oːCiː
 5	=sù	=sù	PRON	_	_	6	mod	_	AlignBegin=194541|AlignEnd=194603|GE=3PL|Gloss=3PL|nWord=3|RX=PRO.POS
@@ -1755,7 +1754,7 @@
 # text = ta baː sù àbinci //
 # text_en =  She gave them the food .
 1	ta	ta	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	2	subj	_	AlignBegin=234182|AlignEnd=234283|GE=3SG.F.PFV.FOC|Gloss=3SG.F.PFV.FOC|nWord=1|RX=PNG.TAM
-2	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=234283|AlignEnd=234384|GE=give|Gloss=give|nWord=2|RX=V*
+2	baː	baː	PART	_	_	0	root	_	AlignBegin=234283|AlignEnd=234384|GE=give|Gloss=give|nWord=2|RX=V*
 3	sù	sù	VERB	_	_	2	comp:aux	_	AlignBegin=234384|AlignEnd=234485|GE=3PL|Gloss=3PL|nWord=3|RX=PRO.OBJ
 4	àbinci	àbinci	NOUN	_	_	3	comp:obj	_	AlignBegin=234485|AlignEnd=234586|GE=food|Gloss=food|nWord=4|RX=N
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=234586|AlignEnd=234685|GE=//|Gloss=PUNCT|nWord=5
@@ -2608,17 +2607,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 337052, 338812
 # phonetic_text = ya cêː à bâː wâː -ǹ // gaːdòː -n shi //
-# text = ya cêː à bâː wân // gaːdòn shì //
+# text = ya cêː à bâː wâːn gaːdòn shi //
 # text_en =  he said the elder brother should get his inheritance.
 1	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=337052|AlignEnd=337173|GE=3SG.M.PFV.FOC|Gloss=3SG.M.PFV.FOC|nWord=1|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=337173|AlignEnd=337294|GE=say|Gloss=say|nWord=2|RX=V*
-3	à	à	ADP	_	_	2	comp:obj	_	AlignBegin=337294|AlignEnd=337415|GE=4.SBJV|Gloss=4.SBJV|nWord=3|RX=PNG.TAM
-4	bâː	bâː	PART	_	Polarity=Neg	3	comp:obj	_	AlignBegin=337415|AlignEnd=337536|GE=give|Gloss=give|nWord=4|RX=V*
-5	wâː-ǹ	wâː	VERB	_	Definite=Def	4	subj	_	AlignBegin=337536|AlignEnd=337596|GE=elder_brother.DEF|Gloss=elder_brother.DEF|nWord=5|RX=N|wordform=wâː
-6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=337657|AlignEnd=337777|GE=//|Gloss=PUNCT|nWord=6
-7	gaːdòː-n	gaːdòː	VERB	_	Definite=Cons	4	mod:num	_	AlignBegin=338105|AlignEnd=338223|GE=inheritance.POSL|Gloss=inheritance.POSL|nWord=7|RX=N|wordform=gaːdòː
-8	shi	shi	PRON	_	Case=Nom|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=338341|AlignEnd=338577|GE=3SG.M|Gloss=3SG.M|nWord=8|RX=PRO.OBJ
-9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=338577|AlignEnd=338812|GE=//|Gloss=PUNCT|nWord=9
+3	à	à	AUX	_	_	2	comp:obj	_	AlignBegin=337294|AlignEnd=337415|GE=4.SBJV|Gloss=4.SBJV|nWord=3|RX=PNG.TAM
+4	bâː	baː	VERB	_	Polarity=Neg	3	comp:aux	_	AlignBegin=337415|AlignEnd=337536|GE=give|Gloss=give|nWord=4|RX=V*
+5	wâːn	wâː	NOUN	_	Definite=Def	4	comp:ben	_	AlignBegin=337536|AlignEnd=337596|GE=elder_brother.DEF|Gloss=elder_brother.Def|nWord=5|RX=N|wordform=wâː
+6	gaːdòn	gaːdòː	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=338105|AlignEnd=338223|GE=inheritance.POSL|Gloss=inheritance.Cons|nWord=7|RX=N|wordform=gaːdòː
+7	shi	shi	PRON	_	Case=Nom|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=338341|AlignEnd=338577|GE=3SG.M|Gloss=3SG.M|nWord=8|RX=PRO.OBJ
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=338577|AlignEnd=338812|GE=//|Gloss=PUNCT|nWord=9
 
 # sent_id = HAUZ_BC_CONV_03_249-249
 # speaker_id = SP2
@@ -2903,7 +2901,7 @@
 14	/	/	PUNCT	_	_	20	punct	_	AlignBegin=372392|AlignEnd=372519|GE=/|Gloss=PUNCT|nWord=14
 15	tòː	tòː	INTJ	_	_	18	discourse	_	AlignBegin=372519|AlignEnd=372713|GE=well|Gloss=well|nWord=15|RX=DM
 16	dan	dan	ADV	_	_	18	mod	_	AlignBegin=372713|AlignEnd=372907|GE=because|Gloss=because|nWord=16|RX=CONJ
-17	allàː	allàː	NOUN	_	_	18	mod	_	AlignBegin=372907|AlignEnd=373101|GE=God|Gloss=God|nWord=17|RX=N.P
+17	Allàː	Allàː	PROPN	_	_	18	mod	_	AlignBegin=372907|AlignEnd=373101|GE=God|Gloss=God|nWord=17|RX=N.P|wordform=allàː
 18	wai	wai	PRON	_	_	20	mod	_	AlignBegin=373101|AlignEnd=373295|GE=EVD|Gloss=EVD|nWord=18|RX=PTCL
 19	/	/	PUNCT	_	_	20	punct	_	AlignBegin=373295|AlignEnd=373489|GE=/|Gloss=PUNCT|nWord=19
 20	yà	yà	AUX	_	_	11	conj:svc	_	AlignBegin=374774|AlignEnd=374961|GE=3SG.M.SBJV|Gloss=3SG.M.SBJV|nWord=20|RX=PNG.TAM
