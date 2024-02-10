@@ -1206,10 +1206,10 @@
 # phonetic_text = har̃ yà zuwàː yâu tanàː nan koː kùwa ?//
 # text = har̃ yà zuwàː yâu tanàː nan koː kùwa ?//
 # text_en = Up till now, she is still here, or else?
-1	har̃	har̃	ADP	_	_	6	mod	_	AlignBegin=149994|AlignEnd=150129|GE=until|Gloss=until|nWord=1|RX=CONJ
-2	yà	yà	ADP	_	_	1	comp:obj	_	AlignBegin=150129|AlignEnd=150264|GE=like|Gloss=like|nWord=2|RX=PREP
-3	zuwàː	zuwàː	ADP	_	_	2	comp:obj	_	AlignBegin=150264|AlignEnd=150399|GE=towards|Gloss=towards|nWord=3|RX=PREP
-4	yâu	yâu	ADV	_	_	3	comp:obj	_	AlignBegin=150399|AlignEnd=150534|GE=today|Gloss=today|nWord=4|RX=ADV.DEICT
+1	har̃	har̃	ADP	_	ExtPos=ADP	6	mod	_	AlignBegin=149994|AlignEnd=150129|GE=until|Gloss=until|Idiom=Yes|nWord=1|RX=CONJ
+2	yà	yà	ADP	_	_	1	comp:obj	_	AlignBegin=150129|AlignEnd=150264|GE=like|Gloss=like|InIdiom=Yes|nWord=2|RX=PREP
+3	zuwàː	zuwàː	ADP	_	_	2	comp:obj	_	AlignBegin=150264|AlignEnd=150399|GE=towards|Gloss=towards|InIdiom=Yes|nWord=3|RX=PREP
+4	yâu	yâu	ADV	_	_	1	comp:obj	_	AlignBegin=150399|AlignEnd=150534|GE=today|Gloss=today|nWord=4|RX=ADV.DEICT
 5	ta	ta	PRON	_	_	6	subj	_	AlignBegin=150534|AlignEnd=150669|GE=3SG.F.CONT.NFOC|Gloss=3Fem|nWord=5|RX=PNG.TAM
 6	nàː	nàː	PART	_	_	0	root	_	AlignBegin=150534|AlignEnd=150669|GE=COP|Gloss=Pred/Loc|nWord=5|RX=PNG.TAM
 7	nan	nan	ADV	_	_	6	comp:pred	_	AlignBegin=150669|AlignEnd=150804|GE=Def|Gloss=Def|nWord=6|RX=ADV.DEICT
@@ -1770,9 +1770,9 @@
 20	dà	dà	ADP	_	_	21	cc@relcl	_	AlignBegin=201838|AlignEnd=202044|GE=and|Gloss=and|nWord=8|RX=CONJ/HOM
 21	sauran	sauraː	NOUN	_	Definite=Cons	18	conj:coord	_	AlignBegin=202044|AlignEnd=202113|GE=remainder|Gloss=remainder|nWord=9|RX=N|wordform=sauraː
 22	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	21	comp:obj	_	AlignBegin=202182|AlignEnd=202250|GE=3Plur|Gloss=3Plur|nWord=9|RX=PRO.POS
-23	har̃	har̃	SCONJ	_	_	14	mod	_	AlignBegin=202716|AlignEnd=202853|GE=until|Gloss=until|nWord=1|RX=CONJ
+23	har̃	har̃	CCONJ	_	_	25	cc	_	AlignBegin=202716|AlignEnd=202853|GE=until|Gloss=until|nWord=1|RX=CONJ
 24	Allàː	Allàː	PROPN	_	_	25	subj	_	AlignBegin=202853|AlignEnd=202990|GE=God|Gloss=God|nWord=2|RX=N.P
-25	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	23	comp:obj	_	AlignBegin=202990|AlignEnd=203127|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=3|RX=PNG.TAM
+25	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	14	conj:coord	_	AlignBegin=202990|AlignEnd=203127|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=3|RX=PNG.TAM
 26	sâː	sâː	VERB	_	_	25	comp:aux	_	AlignBegin=203127|AlignEnd=203264|GE=put|Gloss=put|nWord=4|RX=V1
 27	na	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=1	26	comp:obj	_	AlignBegin=203264|AlignEnd=203401|GE=2SG.M.Perf.Bkg|Gloss=1Sing.Perf.Bck|number=Sing|nWord=5|RX=PNG.TAM
 28	gamà	gamàː	VERB	_	_	27	comp:aux	_	AlignBegin=203401|AlignEnd=203538|GE=finish|Gloss=finish|nWord=6|RX=V1
@@ -4296,18 +4296,18 @@
 # phonetic_text = ya wucèː / shiː nèː dai har̃ ya koːmàː kòːgiː -n saːbongàri //
 # text = ya wucèː < shiː nèː deː har̃ ya koːmàː kòːgin Saːbongàri //
 # text_en =  After that, that's the very one that becomes the river of Sabongari.
-1	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	5	mod	_	AlignBegin=539295|AlignEnd=539411|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=1|RX=PNG.TAM
+1	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=539295|AlignEnd=539411|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=1|RX=PNG.TAM
 2	wucèː	wucèː	VERB	_	_	1	comp:aux	_	AlignBegin=539411|AlignEnd=539527|GE=pass_by|Gloss=pass_by|nWord=2|RX=V4
-3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=539527|AlignEnd=539643|Gloss=PUNCT|nWord=3
+3	<	<	PUNCT	_	_	5	punct	_	AlignBegin=539527|AlignEnd=539643|Gloss=PUNCT|nWord=3
 4	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	5	comp:pred	_	AlignBegin=539643|AlignEnd=539858|GE=3Masc.|Gloss=3Masc.Nom|nWord=4|RX=PRO.IDP
-5	nèː	neː	PART	_	_	0	root	_	AlignBegin=539858|AlignEnd=540073|GE=COP1|Gloss=Ident/Foc|nWord=5|RX=PTCL.SYNT
+5	nèː	neː	PART	_	_	1	parataxis@parenth	_	AlignBegin=539858|AlignEnd=540073|GE=COP1|Gloss=Ident/Foc|nWord=5|RX=PTCL.SYNT
 6	dai	dai	PART	_	_	5	mod	_	AlignBegin=540073|AlignEnd=540288|GE=indeed|Gloss=indeed|nWord=6|RX=PTCL.TOP
-7	har̃	har̃	ADV	_	_	8	mod	_	AlignBegin=540288|AlignEnd=540503|GE=until|Gloss=even|nWord=7|RX=CONJ
-8	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	5	comp:cleft	_	AlignBegin=540503|AlignEnd=540718|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=8|RX=PNG.TAM
+7	har̃	har̃	CCONJ	_	_	8	cc	_	AlignBegin=540288|AlignEnd=540503|GE=until|Gloss=until|nWord=7|RX=CONJ
+8	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	1	conj:coord	_	AlignBegin=540503|AlignEnd=540718|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=8|RX=PNG.TAM
 9	koːmàː	koːm-	VERB	_	_	8	comp:aux	_	AlignBegin=540718|AlignEnd=540933|GE=become|Gloss=become|nWord=9|RX=V1
 10	kòːgin	kòːgiː	NOUN	_	Definite=Cons	9	comp:pred	_	AlignBegin=540933|AlignEnd=541041|GE=river|Gloss=river.Cons|nWord=10|RX=N
 11	Saːbongàri	Saːbongàri	PROPN	_	_	10	mod	_	AlignBegin=541148|AlignEnd=541363|GE=Sabon-Gari|Gloss=Sabon-Gari|nWord=11|RX=N.P
-12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=541363|AlignEnd=541579|Gloss=PUNCT|nWord=12
+12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=541363|AlignEnd=541579|Gloss=PUNCT|nWord=12
 
 # sent_id = HAUZ_BC_CONV_01_SP2_199-202
 # speaker_id = SP2
