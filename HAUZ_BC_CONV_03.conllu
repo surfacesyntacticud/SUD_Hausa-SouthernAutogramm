@@ -665,7 +665,7 @@
 2	kyâː	zaː	AUX	_	_	0	root	_	AlignBegin=80276|AlignEnd=80492|GE=2Fem.Fut.INDF|Gloss=2Fem.Fut.INDF|nWord=2|RX=PNG.TAM
 3	hàɗu	hàɗu	VERB	_	_	2	comp:aux	_	AlignBegin=80492|AlignEnd=80708|GE=gather|Gloss=gather|nWord=3|RX=V7
 4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=80708|AlignEnd=80924|GE=with|Gloss=with|nWord=4|RX=PREP
-5	maːlàmiː-ǹ	maːlàmiː	NOUN	_	Definite=Def	4	comp:obj	_	AlignBegin=80924|AlignEnd=81032|GE=teacher.Def|Gloss=teacher.Def|nWord=5|RX=N|wordform=maːlàmiː
+5	maːlàmîn	maːlàmiː	NOUN	_	Definite=Def	4	comp:obj	_	AlignBegin=80924|AlignEnd=81032|GE=teacher.Def|Gloss=teacher.Def|nWord=5|RX=N|wordform=maːlàmiː
 6	dai	dai	PART	_	_	2	mod	_	AlignBegin=81140|AlignEnd=81356|GE=indeed|Gloss=indeed|nWord=6|RX=PART.TOP
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=81356|AlignEnd=81570|GE=//|Gloss=PUNCT|nWord=7
 
@@ -676,16 +676,16 @@
 # phonetic_text = kì cêː an cêː ìn yi girkìː à gidaː //
 # text = kì cêː an cèː ìn yi girkìː à gidaː //
 # text_en =  Tell (him) that I had to cook at home.
-1	kì	kì	AUX	_	_	3	parataxis@discourse	_	AlignBegin=81440|AlignEnd=81618|GE=2Fem.Aor|Gloss=2Fem.Aor|nWord=1|RX=PNG.TAM
+1	kì	kì	AUX	_	_	0	root	_	AlignBegin=81440|AlignEnd=81618|GE=2Fem.Aor|Gloss=2Fem.Aor|nWord=1|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=81618|AlignEnd=81796|GE=say|Gloss=say|nWord=2|RX=V*
-3	an	nàː	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=81796|AlignEnd=81974|GE=4.Perf|Gloss=4.Perf|nWord=3|RX=PNG.TAM
+3	an	nàː	AUX	_	Aspect=Perf|Person=4	2	comp:obj	_	AlignBegin=81796|AlignEnd=81974|GE=4.Perf|Gloss=4.Perf|nWord=3|RX=PNG.TAM
 4	cêː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=81974|AlignEnd=82152|GE=say|Gloss=say|nWord=4|RX=V*
 5	ìn	ìn	ADV	_	_	4	comp:obj	_	AlignBegin=82152|AlignEnd=82330|GE=1Sing.Aor|Gloss=1Sing.Aor|nWord=5|RX=PNG.TAM
 6	yi	yi	VERB	_	_	5	comp:obj	_	AlignBegin=82330|AlignEnd=82508|GE=do|Gloss=do|nWord=6|RX=V0
-7	girkìː	girkìː	NOUN	_	_	6	comp:obj@lvc	_	AlignBegin=82508|AlignEnd=82686|GE=cooking|Gloss=cooking|nWord=7|RX=N
+7	girkìː	girk-	VERB	_	_	6	comp:obj@lvc	_	AlignBegin=82508|AlignEnd=82686|GE=cook.Vnoun|Gloss=cook.Vnoun|nWord=7|RX=N
 8	à	à	ADP	_	_	6	mod	_	AlignBegin=82686|AlignEnd=82864|GE=at|Gloss=at|nWord=8|RX=PREP
 9	gidaː	gidaː	NOUN	_	_	8	comp:obj	_	AlignBegin=82864|AlignEnd=83042|GE=home|Gloss=home|nWord=9|RX=N
-10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=83042|AlignEnd=83220|GE=//|Gloss=PUNCT|nWord=10
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=83042|AlignEnd=83220|GE=//|Gloss=PUNCT|nWord=10
 
 # sent_id = HAUZ_BC_CONV_03_062-062
 # speaker_id = SP2
@@ -704,49 +704,80 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 90832, 92170
 # phonetic_text = kin naɗèː hannuː mèː nèː nèː /
-# text = kin naɗè hannuː mèː neː nèː /
+# text = kin naɗè hannuː mèneːnèː ?//
 # text_en =  Did you go on strike or what?
 1	kin	kin	AUX	_	_	0	root	_	AlignBegin=90832|AlignEnd=91023|GE=2Fem.Perf|Gloss=2Fem.Perf|nWord=1|RX=PNG.TAM
-2	naɗèː	naɗèː	VERB	_	_	1	comp:aux	_	AlignBegin=91023|AlignEnd=91214|GE=fold|Gloss=fold|nWord=2|RX=V4
+2	naɗè	naɗ-	VERB	_	_	1	comp:aux	_	AlignBegin=91023|AlignEnd=91214|GE=fold|Gloss=fold|nWord=2|RX=V4
 3	hannuː	hannuː	NOUN	_	_	2	comp:obj	_	AlignBegin=91214|AlignEnd=91405|GE=arm|Gloss=arm|nWord=3|RX=N
-4	mèː	mèː	PRON	_	_	5	comp:pred	_	AlignBegin=91405|AlignEnd=91596|GE=what|Gloss=what|nWord=4|RX=PRO.Q
-5	nèː	neː	PART	_	_	1	mod@emp	_	AlignBegin=91596|AlignEnd=91787|GE=Ident/Foc|Gloss=Ident/Foc|nWord=5|RX=PART.SYNT
-6	nèː	neː	PART	_	_	5	conj:coord	_	AlignBegin=91787|AlignEnd=91978|GE=Ident/Foc|Gloss=Ident/Foc|nWord=6|RX=PART.SYNT
-7	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=91978|AlignEnd=92170|GE=/|Gloss=PUNCT|nWord=7|wordform=/
+4	mèneːnèː	mèneːnèː	PRON	_	PronType=Int	1	conj:coord	_	AlignBegin=91596|AlignEnd=91787|GE=Ident/Foc|Gloss=what|nWord=5|RX=PRON
+5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=91978|AlignEnd=92170|GE=/|Gloss=PUNCT|nWord=7|wordform=/
 
 # sent_id = HAUZ_BC_CONV_03_064-064
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 93100, 93753
 # phonetic_text = sai mèː nèː kuma //
-# text = sai mèː neː kuma //
+# text = sai mèː neː kuma ?//
 # text_en =  What's going on?
 1	sai	sai	ADV	_	_	3	mod	_	AlignBegin=93100|AlignEnd=93231|GE=then|Gloss=then|nWord=1|RX=CONJ
 2	mèː	mèː	PRON	_	_	3	comp:pred	_	AlignBegin=93231|AlignEnd=93362|GE=what|Gloss=what|nWord=2|RX=PRO.Q
 3	nèː	neː	PART	_	_	0	root	_	AlignBegin=93362|AlignEnd=93493|GE=Ident/Foc|Gloss=Ident/Foc|nWord=3|RX=PART.SYNT
-4	kuma	kuma	PART	_	_	3	comp:pred	_	AlignBegin=93493|AlignEnd=93624|GE=too|Gloss=too|nWord=4|RX=PART.TOP
-5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=93624|AlignEnd=93753|GE=//|Gloss=PUNCT|nWord=5
+4	kuma	kuma	PART	_	_	3	mod	_	AlignBegin=93493|AlignEnd=93624|GE=too|Gloss=too|nWord=4|RX=PART.TOP
+5	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=93624|AlignEnd=93753|GE=//|Gloss=PUNCT|nWord=5
 
-# sent_id = HAUZ_BC_CONV_03_066-069
+# sent_id = HAUZ_BC_CONV_03_065-074_split1_split1
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
+# sent_timecode = 94073, 108722
+# phonetic_text = tòː gòːbe fa ?// 
+# text = tòː gòːbe fa ?//
+# text_en =  Well what about tomorrow?
+1	tòː	tòː	PART	_	_	0	discourse	_	AlignBegin=94073|AlignEnd=94242|GE=well|Gloss=well|nWord=1|RX=DM
+2	gòːbe	gòːbe	NOUN	_	_	0	conj:appos	_	AlignBegin=94242|AlignEnd=94411|GE=tomorrow|Gloss=tomorrow|nWord=2|RX=ADV.DEICT
+3	fa	fa	PRON	_	_	2	mod	_	AlignBegin=94411|AlignEnd=94580|GE=indeed|Gloss=indeed|nWord=3|RX=PART.TOP
+4	?//	?//	PUNCT	_	_	0	punct	_	AlignBegin=94580|AlignEnd=94750|GE=?//|Gloss=PUNCT|nWord=4
+
+# sent_id = HAUZ_BC_CONV_03_066-069_split1
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 95125, 99396
-# phonetic_text = gòːbe à ìnaː // àː / kin sanìː gòːbe bâː fa shiː //
-# text = gòːbe à ìnaː // àː / kin san gòːbe bâː fa shiː //
-# text_en =  What about tomorrow? Ah, you know tomorrow there isn't any.
+# phonetic_text = gòːbe à ìnaː //
+# text = gòːbe à ìnaː //
+# text_en =  What about tomorrow?
 1	gòːbe	gòːbe	NOUN	_	_	2	subj	_	AlignBegin=95125|AlignEnd=95258|GE=tomorrow|Gloss=tomorrow|nWord=1|RX=ADV.DEICT
 2	à	à	ADP	_	_	0	root	_	AlignBegin=95258|AlignEnd=95391|GE=at|Gloss=at|nWord=2|RX=PREP
 3	ìnaː	ìnaː	VERB	_	_	2	comp:obj	_	AlignBegin=95391|AlignEnd=95524|GE=where|Gloss=where|nWord=3|RX=ADV.Q
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=95524|AlignEnd=95658|GE=//|Gloss=PUNCT|nWord=4
-5	àː	àː	INTJ	_	_	10	discourse	_	AlignBegin=98070|AlignEnd=98196|GE=FILL|Gloss=FILL|nWord=5|RX=FILL
-6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=98196|AlignEnd=98323|GE=/|Gloss=PUNCT|nWord=6|wordform=/
-7	kin	kin	AUX	_	_	2	subj	_	AlignBegin=98323|AlignEnd=98476|GE=2Fem.Perf|Gloss=2Fem.Perf|nWord=7|RX=PNG.TAM
-8	sanìː	sanìː	VERB	_	_	7	comp:aux	_	AlignBegin=98476|AlignEnd=98629|GE=know|Gloss=know|nWord=8|RX=V*
-9	gòːbe	gòːbe	NOUN	_	_	8	comp:obj	_	AlignBegin=98629|AlignEnd=98782|GE=tomorrow|Gloss=tomorrow|nWord=9|RX=ADV.DEICT
-10	bâː	bâː	PART	_	Polarity=Neg	7	conj:coord	_	AlignBegin=98782|AlignEnd=98935|GE=Neg|Gloss=Neg|nWord=10|RX=PART.Neg
-11	fa	fa	VERB	_	_	10	mod	_	AlignBegin=98935|AlignEnd=99088|GE=indeed|Gloss=indeed|nWord=11|RX=PART.TOP
-12	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=99088|AlignEnd=99241|GE=3Masc|Gloss=3Masc.Nom|nWord=12|RX=PRO.IDP
-13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=99241|AlignEnd=99396|GE=//|Gloss=PUNCT|nWord=13
+
+# sent_id = HAUZ_BC_CONV_03_065-074_split1_split2
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
+# sent_timecode = 94073, 108722
+# phonetic_text = tòː gòːbe fa ?// zâː ki makar̃antaː -n ìsìlàːmiyàː // m̀ː hmː gòːbe maːlàmiː X // ya cêː zâi ci gàba manà dà kàr̃àːtuː -ǹ nan //
+# text = zâː ki makar̃antaː-n ìsìlàːmiyàː //
+# text_en = Will you go to the Islamic school?
+1	zâː	zâː	PRON	_	_	0	root	_	AlignBegin=95870|AlignEnd=96171|GE=ALL|Gloss=ALL|nWord=5|RX=PART.SYNT
+2	ki	ki	PRON	_	_	1	comp:obj	_	AlignBegin=96171|AlignEnd=96472|GE=2Fem|Gloss=2Fem|nWord=6|RX=PRO.SBJ
+3	makar̃antaː-n	makar̃antaː	NOUN	_	Definite=Cons	1	comp:obj	_	AlignBegin=96472|AlignEnd=96622|GE=school.Cons|Gloss=school.Cons|nWord=7|RX=N|wordform=makar̃antaː
+4	ìsìlàːmiyàː	ìsìlàːmiyàː	NOUN	_	_	3	comp:obj	_	AlignBegin=96773|AlignEnd=97074|GE=Islamic|Gloss=Islamic|nWord=8|RX=N
+5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=97074|AlignEnd=97377|GE=//|Gloss=PUNCT|nWord=9
+
+# sent_id = HAUZ_BC_CONV_03_066-069_split2
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
+# sent_timecode = 95125, 99396
+# phonetic_text = àː / kin sanìː gòːbe bâː fa shiː //
+# text = àː < kin san gòːbe bâː fa shiː //
+# text_en = Ah, you know tomorrow there isn't any.
+1	àː	àː	INTJ	_	_	6	discourse	_	AlignBegin=98070|AlignEnd=98196|GE=FILL|Gloss=FILL|nWord=5|RX=FILL
+2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=98196|AlignEnd=98323|GE=/|Gloss=PUNCT|nWord=6|wordform=/
+3	kin	kin	AUX	_	_	0	subj	_	AlignBegin=98323|AlignEnd=98476|GE=2Fem.Perf|Gloss=2Fem.Perf|nWord=7|RX=PNG.TAM
+4	san	sanìː	VERB	_	_	3	comp:aux	_	AlignBegin=98476|AlignEnd=98629|GE=know|Gloss=know|nWord=8|RX=V*
+5	gòːbe	gòːbe	NOUN	_	_	4	comp:obj	_	AlignBegin=98629|AlignEnd=98782|GE=tomorrow|Gloss=tomorrow|nWord=9|RX=ADV.DEICT
+6	bâː	bâː	PART	_	Polarity=Neg	3	conj:coord	_	AlignBegin=98782|AlignEnd=98935|GE=Neg|Gloss=Neg|nWord=10|RX=PART.Neg
+7	fa	fa	VERB	_	_	6	mod	_	AlignBegin=98935|AlignEnd=99088|GE=indeed|Gloss=indeed|nWord=11|RX=PART.TOP
+8	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=99088|AlignEnd=99241|GE=3Masc|Gloss=3Masc.Nom|nWord=12|RX=PRO.IDP
+9	//	//	PUNCT	_	_	0	punct	_	AlignBegin=99241|AlignEnd=99396|GE=//|Gloss=PUNCT|nWord=13
 
 # sent_id = HAUZ_BC_CONV_03_071-072
 # speaker_id = SP1
@@ -782,38 +813,29 @@
 6	kawài	kawài	NOUN	_	_	5	comp:cleft	_	AlignBegin=105193|AlignEnd=105350|GE=only|Gloss=only|nWord=6|RX=ADV
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=105350|AlignEnd=105506|GE=//|Gloss=PUNCT|nWord=7
 
-# sent_id = HAUZ_BC_CONV_03_065-074
+# sent_id = HAUZ_BC_CONV_03_065-074_split2
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 94073, 108722
 # phonetic_text = tòː gòːbe fa ?// zâː ki makar̃antaː -n ìsìlàːmiyàː // m̀ː hmː gòːbe maːlàmiː X // ya cêː zâi ci gàba manà dà kàr̃àːtuː -ǹ nan //
-# text = tòː gòːbe fa ?// zâː ki makar̃antan ìsìlàːmiyàː // m̀ː hmː gòːbe maːlàm X // ya cêː zâi ci gàba manà dà kàr̃àːtûn nan //
-# text_en =  Well what about tomorrow? Will you go to the Islamic school? Yes, tomorrow, Mr XX &// He said he will continue with our lesson.
-1	tòː	tòː	PART	_	_	5	discourse	_	AlignBegin=94073|AlignEnd=94242|GE=well|Gloss=well|nWord=1|RX=DM
-2	gòːbe	gòːbe	NOUN	_	_	5	conj:appos	_	AlignBegin=94242|AlignEnd=94411|GE=tomorrow|Gloss=tomorrow|nWord=2|RX=ADV.DEICT
-3	fa	fa	PRON	_	_	2	mod	_	AlignBegin=94411|AlignEnd=94580|GE=indeed|Gloss=indeed|nWord=3|RX=PART.TOP
-4	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=94580|AlignEnd=94750|GE=?//|Gloss=PUNCT|nWord=4
-5	zâː	zâː	PRON	_	_	0	root	_	AlignBegin=95870|AlignEnd=96171|GE=ALL|Gloss=ALL|nWord=5|RX=PART.SYNT
-6	ki	ki	PRON	_	_	5	comp:obj	_	AlignBegin=96171|AlignEnd=96472|GE=2Fem|Gloss=2Fem|nWord=6|RX=PRO.SBJ
-7	makar̃antaː-n	makar̃antaː	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=96472|AlignEnd=96622|GE=school.Cons|Gloss=school.Cons|nWord=7|RX=N|wordform=makar̃antaː
-8	ìsìlàːmiyàː	ìsìlàːmiyàː	NOUN	_	_	7	comp:obj	_	AlignBegin=96773|AlignEnd=97074|GE=Islamic|Gloss=Islamic|nWord=8|RX=N
-9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=97074|AlignEnd=97377|GE=//|Gloss=PUNCT|nWord=9
-10	m̀ː	m̀ː	INTJ	_	_	16	discourse	_	AlignBegin=100259|AlignEnd=100618|GE=BKL|Gloss=BKL|nWord=10|RX=BKL
-11	hmː	hmː	INTJ	_	_	16	discourse	_	AlignBegin=100618|AlignEnd=100977|GE=hmː|Gloss=hmː|nWord=11|RX=FILL
-12	gòːbe	gòːbe	NOUN	_	Definite=Cons	5	conj:appos	_	AlignBegin=100977|AlignEnd=101336|GE=tomorrow|Gloss=tomorrow|nWord=12|RX=ADV.DEICT
-13	maːlàmiː	maːlàmiː	NOUN	_	_	12	mod	_	AlignBegin=101336|AlignEnd=101695|GE=teacher|Gloss=teacher|nWord=13|RX=N
-14	X	x	X	_	_	18	comp:obj	_	AlignBegin=101695|AlignEnd=102054|GE=X|Gloss=X|nWord=14|RX=X
-15	//	//	PUNCT	_	_	16	punct	_	AlignBegin=102054|AlignEnd=102413|GE=//|Gloss=PUNCT|nWord=15
-16	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	5	comp:cleft	_	AlignBegin=106860|AlignEnd=107046|GE=3Masc.Perf.FOC|Gloss=3Masc.Perf.Bkg|nWord=16|RX=PNG.TAM
-17	cêː	cêː	VERB	_	_	16	comp:aux	_	AlignBegin=107046|AlignEnd=107232|GE=say|Gloss=say|nWord=17|RX=V*
-18	zâi	zaː	VERB	_	_	17	comp:obj	_	AlignBegin=107232|AlignEnd=107418|GE=Fut.3Masc|Gloss=3Masc.Fut|nWord=18|RX=TAM.PNG
-19	ci	ci	VERB	_	_	18	comp:aux	_	AlignBegin=107418|AlignEnd=107604|GE=eat|Gloss=eat|nWord=19|RX=V0
-20	gàba	gàba	VERB	_	_	19	comp:goal	_	AlignBegin=107604|AlignEnd=107790|GE=up_front|Gloss=up_front|nWord=20|RX=ADV
-21	manà	manà	ADV	_	_	20	comp:obj	_	AlignBegin=107790|AlignEnd=107976|GE=1Plur|Gloss=1Plur|nWord=21|RX=PRO.BEN
-22	dà	dà	ADP	_	_	20	mod	_	AlignBegin=107976|AlignEnd=108162|GE=with|Gloss=with|nWord=22|RX=PREP
-23	kàr̃àːtuː-ǹ	kàr̃àːtuː	NOUN	_	Definite=Def	22	comp:obj	_	AlignBegin=108162|AlignEnd=108255|GE=education.Def|Gloss=education.Def|nWord=23|RX=N|wordform=kàr̃àːtuː
-24	nan	nan	DET	_	_	23	det	_	AlignBegin=108348|AlignEnd=108534|GE=Def|Gloss=Def|nWord=24|RX=ADV.DEICT
-25	//	//	PUNCT	_	_	5	punct	_	AlignBegin=108534|AlignEnd=108722|GE=//|Gloss=PUNCT|nWord=25
+# text = m̀ː hmː gòːbe maːlàmiː X // ya cêː zâi ci gàba manà dà kàr̃àːtuː-ǹ nan //
+# text_en = Yes, tomorrow, Mr XX &// He said he will continue with our lesson.
+1	m̀ː	m̀ː	INTJ	_	_	7	discourse	_	AlignBegin=100259|AlignEnd=100618|GE=BKL|Gloss=BKL|nWord=10|RX=BKL
+2	hmː	hmː	INTJ	_	_	7	discourse	_	AlignBegin=100618|AlignEnd=100977|GE=hmː|Gloss=hmː|nWord=11|RX=FILL
+3	gòːbe	gòːbe	NOUN	_	Definite=Cons	0	conj:appos	_	AlignBegin=100977|AlignEnd=101336|GE=tomorrow|Gloss=tomorrow|nWord=12|RX=ADV.DEICT
+4	maːlàmiː	maːlàmiː	NOUN	_	_	3	mod	_	AlignBegin=101336|AlignEnd=101695|GE=teacher|Gloss=teacher|nWord=13|RX=N
+5	X	x	X	_	_	9	comp:obj	_	AlignBegin=101695|AlignEnd=102054|GE=X|Gloss=X|nWord=14|RX=X
+6	//	//	PUNCT	_	_	7	punct	_	AlignBegin=102054|AlignEnd=102413|GE=//|Gloss=PUNCT|nWord=15
+7	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	comp:cleft	_	AlignBegin=106860|AlignEnd=107046|GE=3Masc.Perf.FOC|Gloss=3Masc.Perf.Bkg|nWord=16|RX=PNG.TAM
+8	cêː	cêː	VERB	_	_	7	comp:aux	_	AlignBegin=107046|AlignEnd=107232|GE=say|Gloss=say|nWord=17|RX=V*
+9	zâi	zaː	VERB	_	_	8	comp:obj	_	AlignBegin=107232|AlignEnd=107418|GE=Fut.3Masc|Gloss=3Masc.Fut|nWord=18|RX=TAM.PNG
+10	ci	ci	VERB	_	_	9	comp:aux	_	AlignBegin=107418|AlignEnd=107604|GE=eat|Gloss=eat|nWord=19|RX=V0
+11	gàba	gàba	VERB	_	_	10	comp:goal	_	AlignBegin=107604|AlignEnd=107790|GE=up_front|Gloss=up_front|nWord=20|RX=ADV
+12	manà	manà	ADV	_	_	11	comp:obj	_	AlignBegin=107790|AlignEnd=107976|GE=1Plur|Gloss=1Plur|nWord=21|RX=PRO.BEN
+13	dà	dà	ADP	_	_	11	mod	_	AlignBegin=107976|AlignEnd=108162|GE=with|Gloss=with|nWord=22|RX=PREP
+14	kàr̃àːtuː-ǹ	kàr̃àːtuː	NOUN	_	Definite=Def	13	comp:obj	_	AlignBegin=108162|AlignEnd=108255|GE=education.Def|Gloss=education.Def|nWord=23|RX=N|wordform=kàr̃àːtuː
+15	nan	nan	DET	_	_	14	det	_	AlignBegin=108348|AlignEnd=108534|GE=Def|Gloss=Def|nWord=24|RX=ADV.DEICT
+16	//	//	PUNCT	_	_	0	punct	_	AlignBegin=108534|AlignEnd=108722|GE=//|Gloss=PUNCT|nWord=25
 
 # sent_id = HAUZ_BC_CONV_03_075-075
 # speaker_id = SP1
@@ -3478,3 +3500,4 @@
 4	shi	shi	PRON	_	Case=Nom|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=433339|AlignEnd=433521|GE=3Masc|Gloss=3Masc|nWord=4|RX=PRO.OBJ
 5	secretaty	secretaty	NOUN	_	_	3	comp:obj	_	AlignBegin=433521|AlignEnd=433703|GE=secretary|Gloss=secretary|nWord=5|RX=CSW.ENG
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=433703|AlignEnd=433888|GE=//|Gloss=PUNCT|nWord=6
+
