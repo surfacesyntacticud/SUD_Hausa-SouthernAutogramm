@@ -754,13 +754,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 94073, 108722
 # phonetic_text = tòː gòːbe fa ?// zâː ki makar̃antaː -n ìsìlàːmiyàː // m̀ː hmː gòːbe maːlàmiː X // ya cêː zâi ci gàba manà dà kàr̃àːtuː -ǹ nan //
-# text = zâː ki makar̃antan Ìsìlàːmiyàː //
+# text = zâː ki makar̃antan Ìsìlàːmiyàː ?//
 # text_en = Will you go to the Islamic school?
 1	zâː	zâː	PART	_	_	0	root	_	AlignBegin=95870|AlignEnd=96171|GE=ALL|Gloss=go_to|nWord=5|RX=PART.SYNT
 2	ki	ki	PRON	_	_	1	subj	_	AlignBegin=96171|AlignEnd=96472|GE=2Fem|Gloss=2Fem|nWord=6|RX=PRO.SBJ
 3	makar̃antan	makar̃antaː	NOUN	_	Definite=Cons	1	comp:goal	_	AlignBegin=96472|AlignEnd=96622|GE=school.Cons|Gloss=school.Cons|nWord=7|RX=N|wordform=makar̃antaː
 4	Ìsìlàːmiyàː	Ìsìlàːmiyàː	PROPN	_	_	3	compound	_	AlignBegin=96773|AlignEnd=97074|GE=Islamic|Gloss=Islamic|nWord=8|RX=N
-5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=97074|AlignEnd=97377|GE=//|Gloss=PUNCT|nWord=9
+5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=97074|AlignEnd=97377|GE=//|Gloss=PUNCT|nWord=9
 
 # sent_id = HAUZ_BC_CONV_03_068-068
 # speaker_id = SP1
@@ -779,13 +779,26 @@
 8	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	6	subj	_	AlignBegin=99088|AlignEnd=99241|GE=3Masc|Gloss=3Masc.Nom|nWord=12|RX=PRO.IDP
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=99241|AlignEnd=99396|GE=//|Gloss=PUNCT|nWord=13
 
+# sent_id = HAUZ_BC_CONV_03_069-069
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
+# sent_timecode = 94073, 108722
+# phonetic_text = m̀ːhmː gòːbe Maːlàm X &//
+# text = m̀ːhmː gòːbe Maːlàm X &//
+# text_en = Yes, tomorrow, Mr X ...
+1	m̀ːhmː	m̀ːhmː	INTJ	_	_	3	discourse	_	AlignBegin=100618|AlignEnd=100977|GE=hmː|Gloss=Yes|nWord=11|RX=FILL
+2	gòːbe	gòːbe	ADV	_	Definite=Cons	3	mod	_	AlignBegin=100977|AlignEnd=101336|GE=tomorrow|Gloss=tomorrow|nWord=12|RX=ADV.DEICT
+3	Maːlàm	Maːlàm	PROPN	_	_	0	root@scrap	_	AlignBegin=101336|AlignEnd=101695|GE=teacher|Gloss=Mister|nWord=13|RX=N
+4	X	x	X	_	_	3	flat@scrap	_	AlignBegin=101695|AlignEnd=102054|GE=X|Gloss=X|nWord=14|RX=X
+5	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=102054|AlignEnd=102413|GE=//|Gloss=PUNCT|nWord=15
+
 # sent_id = HAUZ_BC_CONV_03_071-072
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 102413, 103776
 # phonetic_text = ʔm / bàː sai yà yi ta yîː -n -shì ba //
 # text = ʔm / bàː sai yà yi ta yînshi ba //
-# text_en =  M !// he can never stop!
+# text_en =  Ah, he can never stop!
 1	ʔm	ʔm	INTJ	_	_	5	discourse	_	AlignBegin=102413|AlignEnd=102531|GE=ʔm|Gloss=ʔm|nWord=1|RX=EXCL
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=102531|AlignEnd=102649|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 3	bàː	bàː	PART	_	_	5	mod	_	AlignBegin=102789|AlignEnd=102912|GE=Neg|Gloss=Neg|nWord=3|RX=PART.Neg
@@ -794,7 +807,7 @@
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=103158|AlignEnd=103281|GE=do|Gloss=do|nWord=6|RX=V0
 7	ta	kà	PART	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	8	mod	_	AlignBegin=103281|AlignEnd=103404|GE=DUR|Gloss=DUR|nWord=7|RX=TAM
 8	yîn	yi	VERB	_	Definite=Cons	6	comp:obj@lvc	_	AlignBegin=103404|AlignEnd=103445|GE=doing.Cons|Gloss=do.Vnoun.Cons|nWord=8|RX=N.V0|wordform=yîː
-9	=shì	=shì	PRON	_	_	8	comp:obj	_	AlignBegin=103486|AlignEnd=103527|GE=3Masc|Gloss=3Masc|nWord=8|RX=PRO.POS
+9	=shì	=shì	PRON	_	_	8	comp:obj	_	AlignBegin=103486|AlignEnd=103527|GE=3Masc|Gloss=3Masc.Gen|nWord=8|RX=PRO.POS
 10	ba	ba	PART	_	Polarity=Neg	5	mod	_	AlignBegin=103527|AlignEnd=103650|GE=Neg|Gloss=Neg|nWord=9|RX=PART.Neg
 11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=103650|AlignEnd=103776|GE=//|Gloss=PUNCT|nWord=10
 
@@ -813,20 +826,7 @@
 6	kawài	kawài	NOUN	_	_	5	comp:cleft	_	AlignBegin=105193|AlignEnd=105350|GE=only|Gloss=only|nWord=6|RX=ADV
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=105350|AlignEnd=105506|GE=//|Gloss=PUNCT|nWord=7
 
-# sent_id = HAUZ_BC_CONV_03_074-074_split1
-# speaker_id = SP2
-# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
-# sent_timecode = 94073, 108722
-# phonetic_text = tòː gòːbe fa ?// zâː ki makar̃antaː -n ìsìlàːmiyàː // m̀ː hmː gòːbe maːlàmiː X // ya cêː zâi ci gàba manà dà kàr̃àːtuː -ǹ nan //
-# text = m̀ːhmː gòːbe Maːlàm X &//
-# text_en = Yes, tomorrow, Mr X ...
-1	m̀ːhmː	m̀ːhmː	INTJ	_	_	3	discourse	_	AlignBegin=100618|AlignEnd=100977|GE=hmː|Gloss=Yes|nWord=11|RX=FILL
-2	gòːbe	gòːbe	ADV	_	Definite=Cons	3	mod	_	AlignBegin=100977|AlignEnd=101336|GE=tomorrow|Gloss=tomorrow|nWord=12|RX=ADV.DEICT
-3	Maːlàm	Maːlàm	PROPN	_	_	0	root@scrap	_	AlignBegin=101336|AlignEnd=101695|GE=teacher|Gloss=Mister|nWord=13|RX=N
-4	X	x	X	_	_	3	flat@scrap	_	AlignBegin=101695|AlignEnd=102054|GE=X|Gloss=X|nWord=14|RX=X
-5	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=102054|AlignEnd=102413|GE=//|Gloss=PUNCT|nWord=15
-
-# sent_id = HAUZ_BC_CONV_03_074-074_split2
+# sent_id = HAUZ_BC_CONV_03_074-074
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 94073, 108722
@@ -858,23 +858,13 @@
 5	mànà	mànà	INTJ	_	_	2	discourse	_	AlignBegin=109442|AlignEnd=109622|GE=indeed|Gloss=indeed|nWord=5|RX=PART.TOP
 6	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=109622|AlignEnd=109800|GE=//|Gloss=PUNCT|nWord=6
 
-# sent_id = HAUZ_BC_CONV_03_077-077
-# speaker_id = SP2
-# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
-# sent_timecode = 113136, 113668
-# phonetic_text = m̀ːhmː //
-# text = m̀ːhmː //
-# text_en =  Huhuh.
-1	m̀ːhmː	m̀ːhmː	INTJ	_	_	0	root	_	AlignBegin=113136|AlignEnd=113402|GE=BKL|Gloss=BKL|nWord=1|RX=BKL
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=113402|AlignEnd=113668|GE=//|Gloss=PUNCT|nWord=2
-
-# sent_id = HAUZ_BC_CONV_03_078-078
+# sent_id = HAUZ_BC_CONV_03_076-076_split1
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 110990, 116661
 # phonetic_text = ai niː maː inàː sôː ìn ji kàr̃àːtuː -ǹ koː kòː // àmmaː kin sanìː naː mishì lâifiː //
-# text = ai niː maː inàː sôː ìn ji kàr̃àːtûn koː kòː // àmmaː kin san naː mishì lâifiː //
-# text_en =  Eh, myself do I want to listent to the lesson, or what? But do you know that I did him wrong?
+# text = ai niː maː inàː sôː ìn ji kàr̃àːtuː-ǹ koː kòː ?//
+# text_en =  Eh, myself do I want to listent to the lesson, or what?
 1	ai	ai	ADV	_	_	2	discourse	_	AlignBegin=110990|AlignEnd=111185|GE=indeed|Gloss=indeed|nWord=1|RX=EXCL
 2	niː	niː	PRON	_	Case=Nom|PronType=Prs	0	root	_	AlignBegin=111185|AlignEnd=111380|GE=1Sing|Gloss=1Sing.Nom|nWord=2|RX=PRO.IDP
 3	maː	maː	ADV	_	_	2	mod	_	AlignBegin=111380|AlignEnd=111575|GE=even|Gloss=even|nWord=3|RX=PART.TOP
@@ -885,14 +875,32 @@
 8	kàr̃àːtuː-ǹ	kàr̃àːtuː	NOUN	_	Definite=Def	7	comp:obj	_	AlignBegin=112355|AlignEnd=112453|GE=education.Def|Gloss=education.Def|nWord=8|RX=N|wordform=kàr̃àːtuː
 9	koː	koː	CCONJ	_	_	10	discourse	_	AlignBegin=112550|AlignEnd=112745|GE=or|Gloss=or|nWord=9|RX=CONJ
 10	kòː	kòː	PART	_	_	8	discourse	_	AlignBegin=112745|AlignEnd=112940|GE=as_for|Gloss=as_for|nWord=10|RX=PART.TOP
-11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=112940|AlignEnd=113136|GE=//|Gloss=PUNCT|nWord=11
-12	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	13	discourse	_	AlignBegin=115294|AlignEnd=115489|GE=but|Gloss=but|nWord=12|RX=CONJ
-13	kin	kin	AUX	_	_	4	conj:coord	_	AlignBegin=115489|AlignEnd=115684|GE=2Fem.Perf|Gloss=2Fem.Perf|nWord=13|RX=PNG.TAM
-14	sanìː	sanìː	VERB	_	_	13	comp:aux	_	AlignBegin=115684|AlignEnd=115879|GE=know|Gloss=know|nWord=14|RX=V*
-15	naː	yaː	AUX	_	_	13	comp:cleft	_	AlignBegin=115879|AlignEnd=116074|GE=1Sing.Perf|Gloss=1Sing.Perf|nWord=15|RX=PNG.TAM
-16	mishì	mishì	PRON	_	_	14	comp:obj	_	AlignBegin=116074|AlignEnd=116269|GE=3Masc|Gloss=3Masc|nWord=16|RX=PRO.BEN
-17	lâifiː	lâifiː	NOUN	_	_	15	comp:obj	_	AlignBegin=116269|AlignEnd=116464|GE=fault|Gloss=fault|nWord=17|RX=N
-18	//	//	PUNCT	_	_	4	punct	_	AlignBegin=116464|AlignEnd=116661|GE=//|Gloss=PUNCT|nWord=18
+11	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=112940|AlignEnd=113136|GE=//|Gloss=PUNCT|nWord=11
+
+# sent_id = HAUZ_BC_CONV_03_077-077
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
+# sent_timecode = 113136, 113668
+# phonetic_text = m̀ːhmː //
+# text = m̀ːhmː //
+# text_en =  Huhuh.
+1	m̀ːhmː	m̀ːhmː	INTJ	_	_	0	root	_	AlignBegin=113136|AlignEnd=113402|GE=BKL|Gloss=BKL|nWord=1|RX=BKL
+2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=113402|AlignEnd=113668|GE=//|Gloss=PUNCT|nWord=2
+
+# sent_id = HAUZ_BC_CONV_03_076-076_split2
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
+# sent_timecode = 110990, 116661
+# phonetic_text = ai niː maː inàː sôː ìn ji kàr̃àːtuː -ǹ koː kòː // àmmaː kin sanìː naː mishì lâifiː //
+# text = àmmaː kin san naː mishì lâifiː //
+# text_en = But do you know that I did him wrong?
+1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	2	discourse	_	AlignBegin=115294|AlignEnd=115489|GE=but|Gloss=but|nWord=12|RX=CONJ
+2	kin	kin	AUX	_	_	0	root	_	AlignBegin=115489|AlignEnd=115684|GE=2Fem.Perf|Gloss=2Fem.Perf|nWord=13|RX=PNG.TAM
+3	san	sanìː	VERB	_	_	2	comp:aux	_	AlignBegin=115684|AlignEnd=115879|GE=know|Gloss=know|nWord=14|RX=V*
+4	naː	yaː	AUX	_	_	2	comp:cleft	_	AlignBegin=115879|AlignEnd=116074|GE=1Sing.Perf|Gloss=1Sing.Perf|nWord=15|RX=PNG.TAM
+5	mishì	mishì	PRON	_	_	3	comp:obj	_	AlignBegin=116074|AlignEnd=116269|GE=3Masc|Gloss=3Masc|nWord=16|RX=PRO.BEN
+6	lâifiː	lâifiː	NOUN	_	_	4	comp:obj	_	AlignBegin=116269|AlignEnd=116464|GE=fault|Gloss=fault|nWord=17|RX=N
+7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=116464|AlignEnd=116661|GE=//|Gloss=PUNCT|nWord=18
 
 # sent_id = HAUZ_BC_CONV_03_079-079
 # speaker_id = SP2
@@ -906,7 +914,7 @@
 3	neː	neː	PART	_	_	1	comp:obj	_	AlignBegin=117393|AlignEnd=117549|GE=Ident/Foc|Gloss=Ident/Foc|nWord=3|RX=PART.SYNT
 4	kikà	kà	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	3	comp:cleft	_	AlignBegin=117549|AlignEnd=117705|GE=2Fem.Perf.FOC|Gloss=2Fem.Perf.Bkg|nWord=4|RX=PNG.TAM
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=117705|AlignEnd=117861|GE=do|Gloss=do|nWord=5|RX=V0
-6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=117861|AlignEnd=118018|GE=//|Gloss=PUNCT|nWord=6
+6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=117861|AlignEnd=118018|GE=//|Gloss=PUNCT|nWord=6
 
 # sent_id = HAUZ_BC_CONV_03_080-080
 # speaker_id = SP1
