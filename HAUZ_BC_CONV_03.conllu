@@ -2545,7 +2545,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 317573, 319399
 # phonetic_text = dà ta gudù / tanàː ta cêː -wàː o //
-# text = dà ta gudù / tanàː ta cêːwaː o //
+# text = dà ta gudù / tanàː ta cêːwaː o !//
 # text_en =  After she had run away, she kept on saying "oh".
 1	dà	dà	SCONJ	_	_	5	mod	_	AlignBegin=317573|AlignEnd=317750|GE=as|Gloss=as|nWord=1|RX=CONJ
 2	ta	kà	AUX	_	_	1	comp:obj	_	AlignBegin=317750|AlignEnd=317927|GE=3Fem.Perf.FOC|Gloss=3Fem.Perf.Bkg|nWord=2|RX=PNG.TAM
@@ -2555,7 +2555,7 @@
 6	ta	kà	PART	_	Aspect=Iter	7	mod	_	AlignBegin=318705|AlignEnd=318878|GE=DUR|Gloss=Iter|nWord=6|RX=TAM
 7	cêːwaː	cêː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=318878|AlignEnd=318964|GE=say.NMLZ|Gloss=say.Vnoun|nWord=7|RX=V*|wordform=cêː
 8	o	o	INTJ	_	_	7	comp:obj	_	AlignBegin=319051|AlignEnd=319224|GE=oh|Gloss=oh|nWord=8|RX=EXCL
-9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=319224|AlignEnd=319399|GE=//|Gloss=PUNCT|nWord=9
+9	!//	!//	PUNCT	_	_	5	punct	_	AlignBegin=319224|AlignEnd=319399|GE=//|Gloss=PUNCT|nWord=9
 
 # sent_id = HAUZ_BC_CONV_03_232-232
 # speaker_id = SP2
@@ -2586,7 +2586,7 @@
 # phonetic_text = ìnaː tòː ta jeː ?//
 # text = ìnaː tòː ta jeː ?//
 # text_en =  Where did she go?
-1	ìnaː	ìnaː	ADV	_	_	0	root	_	AlignBegin=322170|AlignEnd=322345|GE=where|Gloss=where|nWord=1|RX=ADV.Q
+1	ìnaː	ìnaː	ADV	_	PronType=Int	0	root	_	AlignBegin=322170|AlignEnd=322345|GE=where|Gloss=where|nWord=1|RX=ADV.Q
 2	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=322345|AlignEnd=322520|GE=well|Gloss=well|nWord=2|RX=DM
 3	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	1	comp:cleft	_	AlignBegin=322520|AlignEnd=322695|GE=3Fem.Perf.FOC|Gloss=3Fem.Perf.Bkg|nWord=3|RX=PNG.TAM
 4	jeː	jeː	VERB	_	_	3	comp:aux	_	AlignBegin=322695|AlignEnd=322870|GE=go|Gloss=go|nWord=4|RX=V0
@@ -2614,7 +2614,7 @@
 # text_en =  She only followed... the road like this.
 1	taː	yaː	AUX	_	_	0	root	_	AlignBegin=324526|AlignEnd=324710|GE=3Fem.Perf|Gloss=3Fem.Perf|nWord=1|RX=PNG.TAM
 2	ɗan	ɗan	ADV	_	_	3	mod	_	AlignBegin=324710|AlignEnd=324894|GE=DIM|Gloss=DIM|nWord=2|RX=ADV
-3	bi	bi	PART	_	_	1	comp:aux	_	AlignBegin=324894|AlignEnd=325078|GE=follow|Gloss=follow|nWord=3|RX=V0
+3	bi	bi	VERB	_	_	1	comp:aux	_	AlignBegin=324894|AlignEnd=325078|GE=follow|Gloss=follow|nWord=3|RX=V0
 4	k~	k~	X	_	_	3	comp:obj	_	AlignBegin=325261|AlignEnd=325437|GE=X|Gloss=FS|nWord=5|RX=FS
 5	hanyàː	hanyàː	NOUN	_	_	4	conj:dicto	_	AlignBegin=325437|AlignEnd=325613|GE=road|Gloss=road|nWord=6|RX=N
 6	hakà	hakà	ADV	_	_	3	mod	_	AlignBegin=325613|AlignEnd=325789|GE=like_this|Gloss=like_this|nWord=7|RX=ADV
@@ -2651,15 +2651,15 @@
 # phonetic_text = kuma in ta koːmàː ƙauyèː -ǹ zaːʼà kashèː ta //
 # text = kuma in ta koːmàː ƙauyèn zaːʼà kashèː ta //
 # text_en =  And if she went back to the village, they would kill her.
-1	kuma	kuma	PART	_	_	2	mod	_	AlignBegin=327549|AlignEnd=327738|GE=too|Gloss=too|nWord=1|RX=PART.TOP
-2	in	in	SCONJ	_	_	5	mod@relcl	_	AlignBegin=327738|AlignEnd=327927|GE=if|Gloss=if|nWord=2|RX=CONJ
+1	kuma	kuma	PART	_	_	6	discourse	_	AlignBegin=327549|AlignEnd=327738|GE=too|Gloss=too|nWord=1|RX=PART.TOP
+2	in	in	SCONJ	_	_	6	mod	_	AlignBegin=327738|AlignEnd=327927|GE=if|Gloss=if|nWord=2|RX=CONJ
 3	ta	kà	AUX	_	_	2	comp:obj	_	AlignBegin=327927|AlignEnd=328116|GE=3Fem.Perf.FOC|Gloss=3Fem.Perf.Bkg|nWord=3|RX=PNG.TAM
 4	koːmàː	koːm-	VERB	_	_	3	comp:aux	_	AlignBegin=328116|AlignEnd=328305|GE=go_back|Gloss=go_back|nWord=4|RX=V1
-5	ƙauyèː-ǹ	ƙauyèː	NOUN	_	Definite=Def|Number=Plur	0	root	_	AlignBegin=328305|AlignEnd=328399|GE=village.Def|Gloss=village.Def|nWord=5|RX=N|wordform=ƙauyèː
-6	zaːʼà	zaː	AUX	_	_	5	comp:aux	_	AlignBegin=328494|AlignEnd=328683|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=6|RX=TAM.PNG
-7	kashèː	kashèː	ADV	_	_	6	mod	_	AlignBegin=328683|AlignEnd=328872|GE=kill|Gloss=kill|nWord=7|RX=V4
+5	ƙauyèn	ƙauyèː	NOUN	_	Definite=Def|Number=Plur	4	comp:goal	_	AlignBegin=328305|AlignEnd=328399|GE=village.Def|Gloss=village.Def|nWord=5|RX=N|wordform=ƙauyèː
+6	zaːʼà	zaː	AUX	_	_	0	root	_	AlignBegin=328494|AlignEnd=328683|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=6|RX=TAM.PNG
+7	kashèː	kas-	VERB	_	_	6	mod	_	AlignBegin=328683|AlignEnd=328872|GE=kill|Gloss=kill|nWord=7|RX=V4
 8	ta	ta	PRON	_	_	7	mod	_	AlignBegin=328872|AlignEnd=329061|GE=3Fem|Gloss=3Fem|nWord=8|RX=PRO.OBJ
-9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=329061|AlignEnd=329247|GE=//|Gloss=PUNCT|nWord=9
+9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=329061|AlignEnd=329247|GE=//|Gloss=PUNCT|nWord=9
 
 # sent_id = HAUZ_BC_CONV_03_241-242
 # speaker_id = SP1
@@ -3264,25 +3264,24 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 402042, 405636
 # phonetic_text = inspector̃ ɗîn ya cêː / kâi / iyàː lalleː wannàn / wai / baːtà iyàː ba //
-# text = inspector̃ ɗîn ya cêː / kâi / iyàː lalleː wannàn / wai / baːtà iyàː ba //
+# text = inspector̃ ɗîn ya cêː kâi < iyàː lalleː wannàn < wai < baːtà iyàː ba //
 # text_en =  The inspector said eh, really this one, he said she was no good.
-1	inspector̃	inspector̃	NOUN	_	Foreign=Yes	0	root	_	AlignBegin=402042|AlignEnd=402241|GE=inspector|Gloss=inspector|Lang=en|nWord=1|RX=CSW.ENG
+1	inspector̃	inspector̃	NOUN	_	Foreign=Yes	3	subj	_	AlignBegin=402042|AlignEnd=402241|GE=inspector|Gloss=inspector|Lang=en|nWord=1|RX=CSW.ENG
 2	ɗîn	ɗin	DET	_	_	1	det	_	AlignBegin=402241|AlignEnd=402440|GE=DET|Gloss=of.Def|nWord=2|RX=PART
-3	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=402440|AlignEnd=402639|GE=3Masc.Perf.FOC|Gloss=3Masc.Perf.Bkg|nWord=3|RX=PNG.TAM
+3	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=402440|AlignEnd=402639|GE=3Masc.Perf.FOC|Gloss=3Masc.Perf.Bkg|nWord=3|RX=PNG.TAM
 4	cêː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=402639|AlignEnd=402838|GE=say|Gloss=say|nWord=4|RX=V*
-5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=402838|AlignEnd=403037|GE=/|Gloss=PUNCT|nWord=5|wordform=/
-6	kâi	kâi	PART	_	_	1	discourse	_	AlignBegin=403037|AlignEnd=403143|GE=my|Gloss=my|nWord=6|RX=EXCL
-7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=403143|AlignEnd=403250|GE=/|Gloss=PUNCT|nWord=7|wordform=/
-8	iyàː	iyàː	AUX	_	_	1	comp:obj	_	AlignBegin=403250|AlignEnd=403448|GE=can|Gloss=can|nWord=8|RX=V1.AUX
-9	lalleː	lalleː	VERB	_	_	8	comp:aux	_	AlignBegin=403448|AlignEnd=403646|GE=certainly|Gloss=certainly|nWord=9|RX=ADV
-10	wannàn	wannàn	DET	_	_	9	det	_	AlignBegin=403646|AlignEnd=403844|GE=Prox|Gloss=Prox|nWord=10|RX=PRO.DEICT
-11	<	<	PUNCT	_	_	12	punct	_	AlignBegin=403844|AlignEnd=404040|GE=/|Gloss=PUNCT|nWord=11|wordform=/
-12	wai	wai	PRON	_	_	14	mod	_	AlignBegin=404040|AlignEnd=404244|GE=EVD|Gloss=EVD|nWord=12|RX=PART
-13	<	<	PUNCT	_	_	14	punct	_	AlignBegin=404244|AlignEnd=404448|GE=/|Gloss=PUNCT|nWord=13|wordform=/
-14	baːtà	baːtà	AUX	_	Polarity=Neg	8	conj:coord	_	AlignBegin=404861|AlignEnd=405055|GE=Neg.3Plur.Imp|Gloss=3Plur.Imp.Neg|nWord=14|RX=PART.Neg.PNG.TAM
-15	iyàː	iyàː	VERB	_	_	14	comp:aux	_	AlignBegin=405055|AlignEnd=405249|GE=can|Gloss=can|nWord=15|RX=V1.AUX
-16	ba	ba	PART	_	Polarity=Neg	14	mod	_	AlignBegin=405249|AlignEnd=405443|GE=Neg|Gloss=Neg|nWord=16|RX=PART.Neg
-17	//	//	PUNCT	_	_	1	punct	_	AlignBegin=405443|AlignEnd=405636|GE=//|Gloss=PUNCT|nWord=17
+5	kâi	kâi	INTJ	_	_	13	discourse	_	AlignBegin=403037|AlignEnd=403143|GE=my|Gloss=my|nWord=6|RX=EXCL
+6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=403143|AlignEnd=403250|GE=/|Gloss=PUNCT|nWord=7|wordform=/
+7	iyàː	iyàː	AUX	_	_	13	dislocated@top	_	AlignBegin=403250|AlignEnd=403448|GE=can|Gloss=can|nWord=8|RX=V1.AUX
+8	lalleː	lalleː	INTJ	_	_	13	discourse	_	AlignBegin=403448|AlignEnd=403646|GE=certainly|Gloss=certainly|nWord=9|RX=ADV
+9	wannàn	wannàn	PRON	_	PronType=Dem	13	dislocated@subj	_	AlignBegin=403646|AlignEnd=403844|GE=Prox|Gloss=Prox|nWord=10|RX=PRO.DEICT
+10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=403844|AlignEnd=404040|GE=/|Gloss=PUNCT|nWord=11|wordform=/
+11	wai	wai	PART	_	_	13	mod	_	AlignBegin=404040|AlignEnd=404244|GE=EVD|Gloss=EVD|nWord=12|RX=PART
+12	<	<	PUNCT	_	_	11	punct	_	AlignBegin=404244|AlignEnd=404448|GE=/|Gloss=PUNCT|nWord=13|wordform=/
+13	baːtà	baːtà	AUX	_	Polarity=Neg	4	comp:obj	_	AlignBegin=404861|AlignEnd=405055|GE=Neg.3Plur.Imp|Gloss=3Plur.Imp.Neg|nWord=14|RX=PART.Neg.PNG.TAM
+14	iyàː	iyàː	VERB	_	_	13	comp:aux	_	AlignBegin=405055|AlignEnd=405249|GE=can|Gloss=can|nWord=15|RX=V1.AUX
+15	ba	ba	PART	_	Polarity=Neg	13	mod	_	AlignBegin=405249|AlignEnd=405443|GE=Neg|Gloss=Neg|nWord=16|RX=PART.Neg
+16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=405443|AlignEnd=405636|GE=//|Gloss=PUNCT|nWord=17
 
 # sent_id = HAUZ_BC_CONV_03_310-311
 # speaker_id = SP1
@@ -3341,11 +3340,11 @@
 # text_en =  he said that that one had said they should go and kill him.
 1	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=411214|AlignEnd=411354|GE=3Masc.Perf.FOC|Gloss=3Masc.Perf.Bkg|nWord=1|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=411354|AlignEnd=411494|GE=say|Gloss=say|nWord=2|RX=V*
-3	wânnan	wânnan	DET	_	_	4	det	_	AlignBegin=411494|AlignEnd=411634|GE=Def|Gloss=Def|nWord=3|RX=PRO.DEICT
+3	wânnan	wânnan	PRON	_	_	4	subj	_	AlignBegin=411494|AlignEnd=411634|GE=Def|Gloss=Def|nWord=3|RX=PRO.DEICT
 4	yaː	yaː	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=411634|AlignEnd=411774|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=4|RX=PNG.TAM
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=411774|AlignEnd=411914|GE=say|Gloss=say|nWord=5|RX=V*
-6	wai	wai	PRON	_	_	5	comp:obj	_	AlignBegin=411914|AlignEnd=412054|GE=EVD|Gloss=EVD|nWord=6|RX=PART
-7	à	à	ADP	_	_	5	comp:obj	_	AlignBegin=412054|AlignEnd=412194|GE=4.Aor|Gloss=4.Aor|nWord=7|RX=PNG.TAM
+6	wai	wai	SCONJ	_	_	5	comp:obj	_	AlignBegin=411914|AlignEnd=412054|GE=EVD|Gloss=COMP|nWord=6|RX=PART
+7	à	à	ADP	_	_	6	comp:obj	_	AlignBegin=412054|AlignEnd=412194|GE=4.Aor|Gloss=4.Aor|nWord=7|RX=PNG.TAM
 8	zoː	zoː	VERB	_	_	7	comp:aux	_	AlignBegin=412194|AlignEnd=412334|GE=come|Gloss=come|nWord=8|RX=V0
 9	à	à	AUX	_	_	7	conj:svc	_	AlignBegin=412334|AlignEnd=412474|GE=4.Aor|Gloss=4.Aor|nWord=9|RX=PNG.TAM
 10	kashèː	kashèː	VERB	_	_	9	comp:aux	_	AlignBegin=412474|AlignEnd=412614|GE=kill|Gloss=kill|nWord=10|RX=V4
@@ -3479,24 +3478,23 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 424651, 426756
 # phonetic_text = naː cêː mà ƙanèː -ǹ / wai yaː kashèː bàːba -n -shì / mêː mêː yaː sâː //
-# text = naː cêː mà ƙanèn / wai yaː kashè bàːbanshì / mêː mêː yaː sâː //
+# text = naː cêː mà ƙanèn wai yaː kashèː bàːba-n =shì ?// mêː mêː yaː sâː //
 # text_en =  I have told my younger brother that he had killed his father etc etc.
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=424651|AlignEnd=424764|GE=1Sing.Perf|Gloss=1Sing.Perf|nWord=1|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=424764|AlignEnd=424877|GE=say|Gloss=say|nWord=2|RX=V*
 3	mà	mà	AUX	_	_	2	comp:obj	_	AlignBegin=424877|AlignEnd=424990|GE=BEN|Gloss=BEN|nWord=3|RX=PART.SYNT
-4	ƙanèː-ǹ	ƙanèː	VERB	_	Definite=Def	3	comp:aux	_	AlignBegin=424990|AlignEnd=425046|GE=younger_brother.Def|Gloss=younger_brother.Def|nWord=4|RX=N|wordform=ƙanèː
-5	<	<	PUNCT	_	_	7	punct	_	AlignBegin=425103|AlignEnd=425216|GE=/|Gloss=PUNCT|nWord=5|wordform=/
-6	wai	wai	PART	_	_	7	mod	_	AlignBegin=425216|AlignEnd=425370|GE=EVD|Gloss=EVD|nWord=6|RX=PART
-7	yaː	yaː	AUX	_	_	1	conj:coord	_	AlignBegin=425370|AlignEnd=425524|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=7|RX=PNG.TAM
-8	kashèː	kashèː	VERB	_	_	7	comp:aux	_	AlignBegin=425524|AlignEnd=425678|GE=kill|Gloss=kill|nWord=8|RX=V4
-9	bàːba-n	bàːba	NOUN	_	Definite=Cons	8	comp:aux	_	AlignBegin=425678|AlignEnd=425729|GE=father.Cons|Gloss=father.Cons|nWord=9|RX=N|wordform=bàːba
-10	=shì	=shì	PRON	_	_	9	comp:obj	_	AlignBegin=425780|AlignEnd=425832|GE=3Masc|Gloss=3Masc|nWord=9|RX=PRO.POS
-11	<	<	PUNCT	_	_	12	punct	_	AlignBegin=425832|AlignEnd=425986|GE=/|Gloss=PUNCT|nWord=10|wordform=/
-12	mêː	mêː	PART	_	_	9	mod	_	AlignBegin=425986|AlignEnd=426063|GE=etc|Gloss=etc|nWord=11|RX=ONOM
-13	mêː	mêː	PART	_	_	12	discourse	_	AlignBegin=426063|AlignEnd=426140|nWord=11
-14	yaː	yaː	AUX	_	_	12	comp:cleft	_	AlignBegin=426294|AlignEnd=426371|nWord=13
-15	sâː	sâː	VERB	_	_	14	comp:aux	_	AlignBegin=426371|AlignEnd=426448|nWord=13
-16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=426602|AlignEnd=426756|GE=//|Gloss=PUNCT|nWord=15
+4	ƙanèn	ƙanèː	VERB	_	Definite=Def	3	comp:aux	_	AlignBegin=424990|AlignEnd=425046|GE=younger_brother.Def|Gloss=younger_brother.Def|nWord=4|RX=N|wordform=ƙanèː
+5	wai	wai	SCONJ	_	_	2	comp:obj	_	AlignBegin=425216|AlignEnd=425370|GE=EVD|Gloss=COMP|nWord=6|RX=PART
+6	yaː	yaː	AUX	_	_	5	comp:obj	_	AlignBegin=425370|AlignEnd=425524|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=7|RX=PNG.TAM
+7	kashèː	kashèː	VERB	_	_	6	comp:aux	_	AlignBegin=425524|AlignEnd=425678|GE=kill|Gloss=kill|nWord=8|RX=V4
+8	bàːba-n	bàːba	NOUN	_	Definite=Cons	7	comp:aux	_	AlignBegin=425678|AlignEnd=425729|GE=father.Cons|Gloss=father.Cons|nWord=9|RX=N|wordform=bàːba
+9	=shì	=shì	PRON	_	_	8	comp:obj	_	AlignBegin=425780|AlignEnd=425832|GE=3Masc|Gloss=3Masc|nWord=9|RX=PRO.POS
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=425832|AlignEnd=425986|GE=/|Gloss=PUNCT|nWord=10|wordform=/
+11	mêː	mêː	PRON	_	_	0	root	_	AlignBegin=425986|AlignEnd=426063|GE=etc|Gloss=etc|nWord=11|RX=ONOM
+12	mêː	mêː	PRON	_	_	11	conj:dicto	_	AlignBegin=426063|AlignEnd=426140|nWord=11
+13	yaː	yaː	AUX	_	_	12	comp:cleft	_	AlignBegin=426294|AlignEnd=426371|nWord=13
+14	sâː	sâː	VERB	_	_	13	comp:aux	_	AlignBegin=426371|AlignEnd=426448|nWord=13
+15	?//	?//	PUNCT	_	_	11	punct	_	AlignBegin=426602|AlignEnd=426756|GE=//|Gloss=PUNCT|nWord=15
 
 # sent_id = HAUZ_BC_CONV_03_327-328
 # speaker_id = SP1
