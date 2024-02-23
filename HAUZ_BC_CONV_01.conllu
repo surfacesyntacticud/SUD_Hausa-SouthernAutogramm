@@ -117,13 +117,13 @@
 # text_en = When you stayed with her did you stay long or what?
 1	loːkàcin	loːkàcin	NOUN	_	_	9	mod	_	AlignBegin=14029|AlignEnd=14108|GE=time|Gloss=time|nWord=1|RX=N
 2	dà	dà	SCONJ	_	_	1	mod@relcl	_	AlignBegin=14187|AlignEnd=14345|GE=COMP|Gloss=COMP|nWord=2|RX=CONJ/HOM
-3	ka	ka	AUX	_	Person=2	2	comp:obj	_	AlignBegin=14345|AlignEnd=14503|GE=2Sing.Perf.FOC|Gloss=2Masc.Perf.Bkg|nWord=3|RX=PNG.TAM
+3	ka	ka	AUX	_	Aspect=Perf|Person=2	2	comp:obj	_	AlignBegin=14345|AlignEnd=14503|GE=2Sing.Perf.FOC|Gloss=2Masc.Perf.Bkg|nWord=3|RX=PNG.TAM
 4	zaunàː	zaun-	VERB	_	_	3	comp:aux	_	AlignBegin=14503|AlignEnd=14661|GE=stay|Gloss=stay|nWord=4|RX=V1
 5	à	à	ADP	_	_	4	comp:obl	_	AlignBegin=14661|AlignEnd=14819|GE=at|Gloss=at|nWord=5|RX=PREP
 6	wurin	wuriː	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=14819|AlignEnd=14872|GE=place|Gloss=place.Cons|nWord=6|RX=N
 7	=tà	=tà	PRON	_	Person=3	6	mod@poss	_	AlignBegin=14925|AlignEnd=14977|GE=3Fem|Gloss=3Fem.Gen|nWord=6|RX=PRO.POS
 8	<	<	PUNCT	_	_	1	_	_	AlignBegin=14977|AlignEnd=15135|Gloss=PUNCT|nWord=7
-9	kaː	kaː	AUX	_	Person=2	0	root	_	AlignBegin=15135|AlignEnd=15293|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=8|RX=PNG.TAM
+9	kaː	kaː	AUX	_	Aspect=Perf|Person=2	0	root	_	AlignBegin=15135|AlignEnd=15293|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=8|RX=PNG.TAM
 10	daɗèː	daɗèː	VERB	_	_	9	comp:aux	_	AlignBegin=15293|AlignEnd=15451|GE=last|Gloss=last|nWord=9|RX=V4
 11	à	à	ADP	_	_	10	comp:obl	_	AlignBegin=15451|AlignEnd=15609|GE=at|Gloss=at|nWord=10|RX=PREP
 12	wurin	wuriː	NOUN	_	Definite=Cons	11	comp:obj	_	AlignBegin=15609|AlignEnd=15662|GE=place|Gloss=place.Cons|nWord=11|RX=N
@@ -169,7 +169,7 @@
 # phonetic_text = zâi kai kàman shèːkaràː irìː -n / goːmà shâː bìyar̃ hakà tàːre dà ita //
 # text = inàː zâi kai kàman shèːkaràː irìn goːmà shâː bìyar̃ hakà tàːre dà ita //
 # text_en = I probably reached like almost fifteen with her.
-1	zâi	zaː	AUX	_	Person=3	0	root	_	AlignBegin=19044|AlignEnd=19280|GE=Fut.3Femut|Gloss=3Femut.Fut|nWord=8|RX=TAM.PNG
+1	zâi	zaː	AUX	_	Person=3|Tense=Fut	0	root	_	AlignBegin=19044|AlignEnd=19280|GE=Fut.3Femut|Gloss=3Femut.Fut|nWord=8|RX=TAM.PNG
 2	kai	kai	VERB	_	_	1	comp:aux	_	AlignBegin=19280|AlignEnd=19516|GE=reach|Gloss=reach|nWord=9|RX=V*
 3	kàman	kàman	ADP	_	_	4	discourse	_	AlignBegin=19516|AlignEnd=19752|GE=like|Gloss=like|nWord=10|RX=PREP
 4	shèːkaràː	shèːkaràː	NOUN	_	_	2	comp:pred	_	AlignBegin=19752|AlignEnd=19988|GE=year|Gloss=year|nWord=11|RX=N
@@ -190,13 +190,13 @@
 # text = koː zaː kà taɓàː mîn irin zaman dà kukà yi dà ita ?//
 # text_en = Will you tell me the kind of life you had with her?
 1	koː	koː	CCONJ	_	_	2	discourse	_	AlignBegin=22510|AlignEnd=22648|GE=or|Gloss=or|nWord=1|RX=CONJ
-2	zaːkà	zaː	AUX	_	Person=2	0	root	_	AlignBegin=22786|AlignEnd=22924|GE=2Masc.Aor|Gloss=2Masc.Fut|nWord=3|RX=PNG.TAM
+2	zaːkà	zaː	AUX	_	Person=2|Tense=Fut	0	root	_	AlignBegin=22786|AlignEnd=22924|GE=2Masc.Aor|Gloss=2Masc.Fut|nWord=3|RX=PNG.TAM
 3	taɓàː	taɓ-	VERB	_	_	2	comp:aux	_	AlignBegin=22924|AlignEnd=23062|GE=touch|Gloss=touch|nWord=4|RX=V1
 4	mîn	mîn	PRON	_	Number=Sing|Person=1	3	comp:obl	_	AlignBegin=23062|AlignEnd=23200|GE=1Sing|Gloss=1Sing.Dat|nWord=5|RX=PRO.Dat
 5	irin	iriː	NOUN	_	Definite=Cons	3	comp:obj	_	AlignBegin=23200|AlignEnd=23269|GE=type|Gloss=type.Cons|nWord=6|RX=N
 6	zaman	zaun-	VERB	_	_	5	mod	_	AlignBegin=23338|AlignEnd=23407|GE=staying|Gloss=stay|nWord=7|RX=N.V1
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=23476|AlignEnd=23614|GE=COMP|Gloss=COMP|nWord=8|RX=CONJ/HOM
-8	kukà	kukà	AUX	_	Number=Plur|Person=2	7	comp:obj	_	AlignBegin=23614|AlignEnd=23752|GE=2Plur.Imp.FOC|Gloss=2Plur.Perf.Bkg|nWord=9|RX=PNG.TAM
+8	kukà	kukà	AUX	_	Aspect=Perf|Number=Plur|Person=2	7	comp:obj	_	AlignBegin=23614|AlignEnd=23752|GE=2Plur.Imp.FOC|Gloss=2Plur.Perf.Bkg|nWord=9|RX=PNG.TAM
 9	yi	yi	VERB	_	_	8	comp:aux	_	AlignBegin=23752|AlignEnd=23890|GE=do|Gloss=do|nWord=10|RX=V0
 10	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=23890|AlignEnd=24028|GE=with|Gloss=with|nWord=11|RX=PREP/HOM
 11	ita	ita	PRON	_	Person=3	10	comp:obj	_	AlignBegin=24028|AlignEnd=24166|GE=3Fem|Gloss=3Fem.Nom|nWord=12|RX=PRO.Dat
@@ -211,7 +211,7 @@
 # text_en =  Ah.. I stayed with her.
 1	âː	âː	INTJ	_	_	3	discourse	_	AlignBegin=24745|AlignEnd=24894|GE=er|Gloss=FILL|nWord=1|RX=HESIT
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=24894|AlignEnd=25043|Gloss=PUNCT|nWord=2
-3	mun	mun	AUX	_	Number=Plur|Person=1	0	root@scrap	_	AlignBegin=25043|AlignEnd=25192|GE=1Plur.Perf|Gloss=1Plur.Perf|nWord=3|RX=PNG.TAM
+3	mun	mun	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root@scrap	_	AlignBegin=25043|AlignEnd=25192|GE=1Plur.Perf|Gloss=1Plur.Perf|nWord=3|RX=PNG.TAM
 4	zaunàː	zaun-	VERB	_	_	3	comp:aux	_	AlignBegin=25192|AlignEnd=25341|GE=stay|Gloss=stay|nWord=4|RX=V1
 5	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=25341|AlignEnd=25490|GE=with|Gloss=with|nWord=5|RX=PREP/HOM
 6	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=25490|AlignEnd=25639|GE=3Fem|Gloss=3Fem.Nom|nWord=6|RX=PRO.IDP
@@ -262,7 +262,7 @@
 # text_en =  But, b.. people preferred to call her the doughnut seller.
 1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	3	discourse	_	AlignBegin=31235|AlignEnd=31458|GE=but|Gloss=but|nWord=1|RX=CONJ
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=31458|AlignEnd=31681|Gloss=PUNCT|nWord=2
-3	an	nàː	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=31681|AlignEnd=31793|GE=HESIT|Gloss=4.Imp|nWord=3|RX=HESIT
+3	an	nàː	AUX	_	Aspect=Imp|Person=4	0	root	_	AlignBegin=31681|AlignEnd=31793|GE=HESIT|Gloss=4.Imp|nWord=3|RX=HESIT
 4	||	||	PUNCT	_	_	3	punct	_	AlignBegin=31793|AlignEnd=31904|Gloss=PUNCT|nWord=3
 5	mutàːneː	mùtûm	NOUN	_	Number=Plur	6	subj	_	AlignBegin=32127|AlignEnd=32239|GE=person|Gloss=person.Plur|nWord=5|RX=N
 6	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	3	conj:dicto	_	AlignBegin=32350|AlignEnd=32573|GE=3Plur.Perf|Gloss=3Plur.Perf|nWord=6|RX=PNG.TAM
@@ -308,7 +308,7 @@
 2	nan	nan	ADV	_	Definite=Def	1	comp:obj	_	AlignBegin=39301|AlignEnd=39479|GE=Def|Gloss=Def|nWord=2|RX=ADV.DEICT
 3	Ùngwan	Ùngwan	PROPN	_	Definite=Cons	2	conj:appos	_	AlignBegin=39479|AlignEnd=39568|GE=ward|Gloss=ward.Cons|nWord=3|RX=N
 4	Filàːnîn	Filàːniː	PROPN	_	Definite=Def|Number=Plur	3	flat:name	_	AlignBegin=39657|AlignEnd=39746|GE=Fulanis|Gloss=Fulani.Plur.Def|nWord=4|RX=N.P
-5	takèː	takèː	AUX	_	Person=3	1	comp:cleft	_	AlignBegin=39835|AlignEnd=40013|GE=3Fem.Imp.FOC|Gloss=3Fem.Imp.Bkg|nWord=5|RX=PNG.TAM
+5	takèː	takèː	AUX	_	Aspect=Imp|Person=3	1	comp:cleft	_	AlignBegin=39835|AlignEnd=40013|GE=3Fem.Imp.FOC|Gloss=3Fem.Imp.Bkg|nWord=5|RX=PNG.TAM
 6	saidà	saidà	VERB	_	_	5	comp:aux	_	AlignBegin=40013|AlignEnd=40191|GE=sell|Gloss=sell|nWord=6|RX=V1
 7	ƙoːsân	ƙoːsai	NOUN	_	Definite=Def	6	comp:obj	_	AlignBegin=40191|AlignEnd=40280|GE=doughnut|Gloss=doughnut.Def|nWord=7|RX=N
 8	?//	?//	PUNCT	_	_	1	_	_	AlignBegin=40369|AlignEnd=40545|Gloss=PUNCT|nWord=8
@@ -339,10 +339,10 @@
 7	nan	nan	ADV	_	Definite=Def	6	comp:obj	_	AlignBegin=41961|AlignEnd=42139|GE=Def|Gloss=Def|nWord=8|RX=ADV.DEICT
 8	Ùngwan	Ùngwan	PROPN	_	Definite=Cons	7	conj:appos	_	AlignBegin=42139|AlignEnd=42317|GE=Ungwan_Pilani|Gloss=ward.Cons|nWord=9|RX=N.P
 9	Fìlàːni	Fìlàːni	PROPN	_	_	8	flat:name	_	AlignBegin=42139|AlignEnd=42317|GE=Ungwan_Pilani|Gloss=Fulani|nWord=9|RX=N.P
-10	takàn	kàn	AUX	_	Person=3	6	comp:cleft	_	AlignBegin=42317|AlignEnd=42495|GE=3F.Sing.Hab|Gloss=3Fem.Hab|nWord=10|RX=PNG.TAM
+10	takàn	kàn	AUX	_	Aspect=Hab|Person=3	6	comp:cleft	_	AlignBegin=42317|AlignEnd=42495|GE=3F.Sing.Hab|Gloss=3Fem.Hab|nWord=10|RX=PNG.TAM
 11	ɗaukàː	ɗauk-	VERB	_	_	10	comp:aux	_	AlignBegin=42495|AlignEnd=42673|GE=taking|Gloss=take|nWord=11|RX=N.V2
 12	neː	neː	PART	_	_	10	mod@emp	_	AlignBegin=42673|AlignEnd=42851|GE=Ident/Foc|Gloss=Ident/Foc|nWord=12|RX=PART.SYNT
-13	tà	à	AUX	_	Aspect=.Hab|Person=3	10	conj:svc	_	AlignBegin=42851|AlignEnd=43029|GE=3Fem.Aor|Gloss=3Fem.Aor|nWord=13|RX=PNG.TAM
+13	tà	à	AUX	_	Aspect=Aor|Person=3	10	conj:svc	_	AlignBegin=42851|AlignEnd=43029|GE=3Fem.Aor|Gloss=3Fem.Aor|nWord=13|RX=PNG.TAM
 14	rabàː	rab-	VERB	_	_	13	comp:aux	_	AlignBegin=43029|AlignEnd=43207|GE=share|Gloss=share|nWord=14|RX=V1
 15	mà	mà	ADP	_	_	14	comp:obl	_	AlignBegin=43207|AlignEnd=43385|GE=Dat|Gloss=Dat|nWord=15|RX=PART.SYNT
 16	màkàr̃àntuː	makar̃antaː	NOUN	_	Definite=Cons|Number=Plur	15	comp:obj	_	AlignBegin=43385|AlignEnd=43474|GE=school|Gloss=school.Plur|nWord=16|RX=N
@@ -355,7 +355,7 @@
 # phonetic_text = takàn kai -ːːː / àːːː / cikin -ːːː / < feːdar̃al > /
 # text = takàn kai à cikin Feːdar̃al //
 # text_en =  She goes to the Federal (College).
-1	takàn	kàn	AUX	_	Person=3	0	root	_	AlignBegin=44009|AlignEnd=44241|GE=3F.Sing.Hab|Gloss=3Fem.Hab|nWord=1|RX=PNG.TAM
+1	takàn	kàn	AUX	_	Aspect=Hab|Person=3	0	root	_	AlignBegin=44009|AlignEnd=44241|GE=3F.Sing.Hab|Gloss=3Fem.Hab|nWord=1|RX=PNG.TAM
 2	kai	kai	VERB	_	_	1	comp:aux	_	AlignBegin=44241|AlignEnd=44357|GE=reach|Gloss=reach|nWord=2|RX=V*
 3	à	à	ADP	_	_	2	comp:goal	_	AlignBegin=44705|AlignEnd=44821|GE=FILL|Gloss=at|nWord=4|RX=FILL
 4	cikin	cikin	ADP	_	_	3	comp:obj	_	AlignBegin=45169|AlignEnd=45285|GE=inside|Gloss=inside|nWord=6|RX=PREP
@@ -375,7 +375,7 @@
 4	Eːbìːyù	Eːbìːyù	NOUN	_	Foreign=Yes	3	comp:obj	_	AlignBegin=47388|AlignEnd=47529|GE=A.B.U|Gloss=A.B.U.|Lang=en|nWord=6|RX=CSW.ENG
 5	hakà	hakà	ADV	_	_	3	mod	_	AlignBegin=47670|AlignEnd=47811|GE=like_this|Gloss=like_this|nWord=8|RX=ADV
 6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=47811|AlignEnd=47952|Gloss=PUNCT|nWord=9
-7	takàn	kàn	AUX	_	Definite=Cons|Person=3	3	comp:cleft	_	AlignBegin=47952|AlignEnd=48093|GE=3F.Sing.Hab|Gloss=3Fem.Hab|nWord=10|RX=PNG.TAM
+7	takàn	kàn	AUX	_	Aspect=Hab|Definite=Cons|Person=3	3	comp:cleft	_	AlignBegin=47952|AlignEnd=48093|GE=3F.Sing.Hab|Gloss=3Fem.Hab|nWord=10|RX=PNG.TAM
 8	r̃ar̃r̃àbaː	r̃ab-	VERB	_	Number=Plur	7	comp:aux	_	AlignBegin=48093|AlignEnd=48234|GE=distribute.Plur|Gloss=distribute.Plur|nWord=11|RX=V1RDP
 9	mà	mà	ADP	_	_	8	comp:obl	_	AlignBegin=48234|AlignEnd=48375|GE=Dat|Gloss=Dat|nWord=12|RX=PART.SYNT
 10	stuːdèn	stuːdèːn	NOUN	_	Foreign=Yes	9	comp:obj	_	AlignBegin=48657|AlignEnd=48798|GE=student|Gloss=student|Lang=en|nWord=15|RX=CSW.ENG
@@ -391,9 +391,9 @@
 1	à	à	ADP	_	_	6	mod	_	AlignBegin=49212|AlignEnd=49343|GE=at|Gloss=at|nWord=1|RX=PREP
 2	loːkàcîn	loːkàcîn	NOUN	_	Definite=Def	1	comp:obj	_	AlignBegin=49343|AlignEnd=49409|GE=time|Gloss=time.Def|nWord=2|RX=N
 3	in	in	SCONJ	_	_	6	mod	_	AlignBegin=49474|AlignEnd=49605|GE=if|Gloss=if|nWord=3|RX=CONJ
-4	ta	ta	AUX	_	Person=3	3	comp:obj	_	AlignBegin=49605|AlignEnd=49736|GE=3Fem.Perf.FOC|Gloss=3Fem.Perf.Bkg|nWord=4|RX=PNG.TAM
+4	ta	ta	AUX	_	Aspect=Perf|Person=3	3	comp:obj	_	AlignBegin=49605|AlignEnd=49736|GE=3Fem.Perf.FOC|Gloss=3Fem.Perf.Bkg|nWord=4|RX=PNG.TAM
 5	daːwoː	daːw-	VERB	_	_	4	comp:aux	_	AlignBegin=49736|AlignEnd=49867|GE=return.DIR|Gloss=return.DIR|nWord=5|RX=V6
-6	kunàː	kunàː	AUX	_	Number=Plur|Person=2	0	root	_	AlignBegin=49867|AlignEnd=49998|GE=2Plur.Imp|Gloss=2Plur.Imp.Bkg|nWord=6|RX=PNG.TAM
+6	kunàː	kunàː	AUX	_	Aspect=Imp|Number=Plur|Person=2	0	root	_	AlignBegin=49867|AlignEnd=49998|GE=2Plur.Imp|Gloss=2Plur.Imp.Bkg|nWord=6|RX=PNG.TAM
 7	zamaː	zaun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=49998|AlignEnd=50129|GE=staying|Gloss=stay.Vnoun|nWord=7|RX=N.V1
 8	tàːre	tàːre	ADV	_	_	6	mod	_	AlignBegin=50129|AlignEnd=50260|GE=together|Gloss=together|nWord=8|RX=STAT
 9	dà	dà	ADP	_	_	8	mod	_	AlignBegin=50260|AlignEnd=50391|GE=with|Gloss=with|nWord=9|RX=PREP/HOM
@@ -419,7 +419,7 @@
 # phonetic_text = mukàn zaunàː tàːre dà ita //
 # text = mukàn zaunàː tàːre dà ita //
 # text_en =  We stay together.
-1	mukàn	kàn	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=51042|AlignEnd=51220|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=1|RX=PNG.TAM
+1	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=51042|AlignEnd=51220|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=1|RX=PNG.TAM
 2	zaunàː	zaun-	VERB	_	_	1	comp:aux	_	AlignBegin=51220|AlignEnd=51398|GE=stay|Gloss=stay|nWord=2|RX=V1
 3	tàːre	tàːre	ADV	_	_	1	mod	_	AlignBegin=51398|AlignEnd=51576|GE=together|Gloss=together|nWord=3|RX=STAT
 4	dà	dà	ADP	_	_	3	mod	_	AlignBegin=51576|AlignEnd=51754|GE=with|Gloss=with|nWord=4|RX=PREP/HOM
@@ -434,7 +434,7 @@
 # text = kuma kaː san wasu abuːbuwàː naːtà ?//
 # text_en = And do you know a few things about her?
 1	kuma	kuma	PART	_	_	2	discourse	_	AlignBegin=52111|AlignEnd=52290|GE=too|Gloss=too|nWord=1|RX=PART.TOP
-2	kaː	kaː	AUX	_	Person=2	0	root	_	AlignBegin=52290|AlignEnd=52469|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=2|RX=PNG.TAM
+2	kaː	kaː	AUX	_	Aspect=Perf|Person=2	0	root	_	AlignBegin=52290|AlignEnd=52469|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=2|RX=PNG.TAM
 3	san	sanìː	VERB	_	_	2	comp:aux	_	AlignBegin=52469|AlignEnd=52648|GE=know|Gloss=know|nWord=3|RX=V*
 4	wasu	wasu	DET	_	Number=Plur	5	det	_	AlignBegin=52648|AlignEnd=52827|GE=some.Plur|Gloss=some.Plur|nWord=4|RX=DET.INDF
 5	abuːbuwàː	àbù	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=52827|AlignEnd=52917|GE=thing|Gloss=thing.Plur|nWord=5|RX=N
@@ -481,7 +481,7 @@
 # text = farkoː mukàn iyà zaunàː dà ita //
 # text_en =  First I would sit with her.
 1	farkoː	farkoː	NOUN	_	_	2	mod	_	AlignBegin=56827|AlignEnd=57181|GE=beginning|Gloss=beginning|nWord=1|RX=N
-2	mukàn	kàn	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=57181|AlignEnd=57535|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=2|RX=PNG.TAM
+2	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=57181|AlignEnd=57535|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=2|RX=PNG.TAM
 3	iyà	iy-	VERB	_	_	2	comp:aux	_	AlignBegin=57889|AlignEnd=58243|GE=can|Gloss=can|nWord=4|RX=V1.AUX
 4	zaunàː	zaun-	VERB	_	_	3	comp:obj	_	AlignBegin=58243|AlignEnd=58597|GE=sit|Gloss=stay|nWord=5|RX=V1
 5	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=58597|AlignEnd=58951|GE=with|Gloss=with|nWord=6|RX=PREP/HOM
@@ -495,7 +495,7 @@
 # phonetic_text = takàn / bâː nì làːbaːrìː hakà // na har̃kàː -oCi na yâu dà kullum / wandà sukà fàːru dà ita / dà wandà sukà fàːru dà wani //
 # text = takàn baː nì làːbaːrìː hakà na har̃koːkiː na yâu dà kullum wandà sukà fàːru dà ita dà wandà sukà fàːru dà wani //
 # text_en =  She would tell me stories of things of the past that happened to her and that happened to others.
-1	takàn	kàn	AUX	_	Person=3	0	root	_	AlignBegin=59656|AlignEnd=59830|GE=3F.Sing.Hab|Gloss=3Fem.Hab|nWord=1|RX=PNG.TAM
+1	takàn	kàn	AUX	_	Aspect=Hab|Person=3	0	root	_	AlignBegin=59656|AlignEnd=59830|GE=3F.Sing.Hab|Gloss=3Fem.Hab|nWord=1|RX=PNG.TAM
 2	baː	baː	VERB	_	Polarity=Neg	1	comp:aux	_	AlignBegin=60004|AlignEnd=60178|GE=give|Gloss=give|nWord=3|RX=V*|wordform=bâː
 3	nì	nì	PRON	_	Number=Sing|Person=1	2	comp:ben	_	AlignBegin=60178|AlignEnd=60352|GE=1Sing|Gloss=1Sing|nWord=4|RX=PRO.OBJ
 4	làːbaːrìː	làːbaːrìː	NOUN	_	_	2	comp:obj	_	AlignBegin=60352|AlignEnd=60526|GE=news|Gloss=news|nWord=5|RX=N
@@ -547,15 +547,15 @@
 # phonetic_text = takàn / zoː / eːàːːː / mù shiryàː / sai mù tàfi daːjì //
 # text = takàn zoː |c eːàː mù shiryàː |c sai mù tàfi daːjì //
 # text_en =  she would arrive er.. we would get ready we would go to the bush.
-1	takàn	kàn	AUX	_	Person=3	0	root	_	AlignBegin=68274|AlignEnd=68569|GE=3F.Sing.Hab|Gloss=3Fem.Hab|nWord=1|RX=PNG.TAM
+1	takàn	kàn	AUX	_	Aspect=Hab|Person=3	0	root	_	AlignBegin=68274|AlignEnd=68569|GE=3F.Sing.Hab|Gloss=3Fem.Hab|nWord=1|RX=PNG.TAM
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=68864|AlignEnd=69159|GE=come|Gloss=come|nWord=3|RX=V0
 3	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=69159|AlignEnd=69454|Gloss=PUNCT|nWord=4
 4	eːàː	eːàː	INTJ	_	_	5	discourse	_	AlignBegin=69454|AlignEnd=69749|GE=FILL|Gloss=FILL|nWord=5|RX=FILL
-5	mù	à	AUX	_	Number=Plur|Person=1	1	conj:coord	_	AlignBegin=70044|AlignEnd=70339|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=7|RX=PNG.TAM
+5	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	1	conj:coord	_	AlignBegin=70044|AlignEnd=70339|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=7|RX=PNG.TAM
 6	shiryàː	shiry-	VERB	_	_	5	comp:aux	_	AlignBegin=70339|AlignEnd=70634|GE=get_ready|Gloss=get_ready|nWord=8|RX=V1
 7	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=70634|AlignEnd=70929|Gloss=PUNCT|nWord=9
 8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=70929|AlignEnd=71224|GE=then|Gloss=then|nWord=10|RX=CONJ/HOM
-9	mù	à	AUX	_	Number=Plur|Person=1	5	conj:coord	_	AlignBegin=71224|AlignEnd=71519|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=11|RX=PNG.TAM
+9	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	5	conj:coord	_	AlignBegin=71224|AlignEnd=71519|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=11|RX=PNG.TAM
 10	tàfi	taf-	VERB	_	_	9	comp:aux	_	AlignBegin=71519|AlignEnd=71814|GE=go|Gloss=go|nWord=12|RX=V3
 11	daːjì	daːjì	ADV	_	_	10	comp:goal	_	AlignBegin=71814|AlignEnd=72109|GE=in_the_bush|Gloss=in_the_bush|nWord=13|RX=ADV/DER
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=72109|AlignEnd=72399|Gloss=PUNCT|nWord=14
@@ -570,7 +570,7 @@
 1	à	à	ADP	_	_	4	mod	_	AlignBegin=72771|AlignEnd=72849|GE=at|Gloss=at|nWord=1|RX=PREP
 2	daːjì	daːjìː	ADV	_	_	1	comp:obj	_	AlignBegin=72849|AlignEnd=72927|GE=in_the_bush|Gloss=in_the_bush|nWord=2|RX=ADV/DER
 3	nan	nan	ADV	_	Definite=Def|PronType=Dem	1	conj:appos	_	AlignBegin=72927|AlignEnd=73005|GE=Def|Gloss=Def|nWord=3|RX=ADV.DEICT
-4	mukàn	kàn	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=73005|AlignEnd=73083|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=4|RX=PNG.TAM
+4	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=73005|AlignEnd=73083|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=4|RX=PNG.TAM
 5	jeː	jeː	VERB	_	_	4	comp:aux	_	AlignBegin=73083|AlignEnd=73161|GE=go|Gloss=go|nWord=5|RX=V0
 6	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	mod	_	AlignBegin=73161|AlignEnd=73200|GE=do|Gloss=do.Vnoun.Cons|nWord=6|RX=V0
 7	itàːceː	itàːceː	NOUN	_	_	6	comp:obj@lvc	_	AlignBegin=73239|AlignEnd=73317|GE=wood|Gloss=wood|nWord=7|RX=N
@@ -606,7 +606,7 @@
 5	wasu	wasu	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=78107|AlignEnd=78373|GE=some.Plur|Gloss=some.Plur|nWord=6|RX=DET.INDF
 6	raːnaː	raːnaː	NOUN	_	_	4	subj	_	AlignBegin=78373|AlignEnd=78639|GE=day|Gloss=day|nWord=7|RX=N
 7	wandà	wandà	PRON	_	PronType=Rel	6	conj:appos@relcl	_	AlignBegin=78639|AlignEnd=78905|GE=which|Gloss=which|nWord=8|RX=PRO.COMP
-8	takàn	kàn	AUX	_	Person=3	7	mod@relcl	_	AlignBegin=79171|AlignEnd=79437|GE=3F.Sing.Hab|Gloss=3Fem.Hab|nWord=10|RX=PNG.TAM
+8	takàn	kàn	AUX	_	Aspect=Hab|Person=3	7	mod@relcl	_	AlignBegin=79171|AlignEnd=79437|GE=3F.Sing.Hab|Gloss=3Fem.Hab|nWord=10|RX=PNG.TAM
 9	tuːyà	tuːy-	VERB	_	_	8	comp:aux	_	AlignBegin=79703|AlignEnd=79969|GE=fry|Gloss=fry|nWord=12|RX=V1
 10	kàmar̃	kàmar̃	ADP	_	_	4	mod	_	AlignBegin=79969|AlignEnd=80235|GE=like|Gloss=like|nWord=13|RX=PREP
 11	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=80235|AlignEnd=80499|Gloss=PUNCT|nWord=14
@@ -618,7 +618,7 @@
 # phonetic_text = akàn / tsinkoː dìnkin / ramàː / dà / sauraː -n / kaːyaː \Plur dai na ganyeː hakà /
 # text = akàn // tsinkoː dìnkin / ramàː / dà / sauran / kaːyàyyakiː dai na ganyeː hakà /
 # text_en =  we would collect leaves, hemp and all sorts of things and leaves like this.
-1	akàn	kàn	AUX	_	Person=4	0	root	_	AlignBegin=80499|AlignEnd=80836|GE=4.Hab|Gloss=4.Hab|nWord=1|RX=PNG.TAM
+1	akàn	kàn	AUX	_	Aspect=Hab|Person=4	0	root	_	AlignBegin=80499|AlignEnd=80836|GE=4.Hab|Gloss=4.Hab|nWord=1|RX=PNG.TAM
 2	tsinkoː	tsink-	VERB	_	Definite=Cons	1	comp:aux	_	AlignBegin=81173|AlignEnd=81510|GE=pick.DIR|Gloss=pick.DIR|nWord=3|RX=V6
 3	dìnkin	dìnkiː	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=81510|AlignEnd=81847|GE=edible_leaves|Gloss=edible_leaves.Cons|nWord=4|RX=N
 4	ramàː	ramàː	NOUN	_	_	3	mod	_	AlignBegin=82184|AlignEnd=82521|GE=hemp|Gloss=hemp|nWord=6|RX=N
@@ -638,7 +638,7 @@
 # phonetic_text = akàn yi &//
 # text = akàn yi &//
 # text_en =  we used to.
-1	akàn	kàn	AUX	_	Person=4	0	root@scrap	_	AlignBegin=86549|AlignEnd=86681|GE=4.Hab|Gloss=4.Hab|nWord=1|RX=PNG.TAM
+1	akàn	kàn	AUX	_	Aspect=Hab|Person=4	0	root@scrap	_	AlignBegin=86549|AlignEnd=86681|GE=4.Hab|Gloss=4.Hab|nWord=1|RX=PNG.TAM
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=86681|AlignEnd=86813|GE=do|Gloss=do|nWord=2|RX=V0
 3	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=86813|AlignEnd=86944|Gloss=PUNCT|nWord=3
 
@@ -654,12 +654,12 @@
 3	wânnan	wânnan	DET	_	Definite=Def	4	det	_	AlignBegin=86708|AlignEnd=86873|GE=Def|Gloss=Def|nWord=3|RX=PRO.DEICT
 4	dìnkin	dìnkiː	NOUN	_	Definite=Cons	2	conj:appos	_	AlignBegin=86873|AlignEnd=87038|GE=edible_leaves|Gloss=edible_leaves.Cons|nWord=4|RX=N
 5	ɗîn	ɗin	DET	_	Definite=Def	4	det	_	AlignBegin=87038|AlignEnd=87203|GE=Def|Gloss=of.Def|nWord=5|RX=PART
-6	kukàn	kàn	AUX	_	Number=Plur|Person=2	0	root	_	AlignBegin=87203|AlignEnd=87368|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=6|RX=PNG.TAM
+6	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	0	root	_	AlignBegin=87203|AlignEnd=87368|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=6|RX=PNG.TAM
 7	saidàː	saidàː	VERB	_	_	6	comp:aux	_	AlignBegin=87368|AlignEnd=87533|GE=sell|Gloss=sell|nWord=7|RX=V1
 8	neː	neː	PART	_	_	7	mod@emp	_	AlignBegin=87533|AlignEnd=87698|GE=Ident/Foc|Gloss=Ident/Foc|nWord=8|RX=PART.SYNT
 9	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=87698|AlignEnd=87863|Gloss=PUNCT|nWord=9
 10	koː	koː	CCONJ	_	_	11	cc	_	AlignBegin=87863|AlignEnd=88028|GE=or|Gloss=or|nWord=10|RX=CONJ
-11	kukàn	kàn	AUX	_	Number=Plur|Person=2	6	conj:coord	_	AlignBegin=88028|AlignEnd=88193|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=11|RX=PNG.TAM
+11	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	6	conj:coord	_	AlignBegin=88028|AlignEnd=88193|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=11|RX=PNG.TAM
 12	bash	baː	VERB	_	_	11	comp:aux	_	AlignBegin=88358|AlignEnd=88523|GE=give.CAUS|Gloss=give.Cau|nWord=13|RX=V5
 13	shì	shi	PRON	_	Gender=Masc|Person=3	12	comp:obj	_	AlignBegin=88523|AlignEnd=88688|GE=3Masc|Gloss=3Masc|nWord=14|RX=PRO.OBJ
 14	neː	neː	PART	_	_	13	mod@emp	_	AlignBegin=88688|AlignEnd=88853|GE=Ident/Foc|Gloss=Ident/Foc|nWord=15|RX=PART.SYNT
@@ -679,7 +679,7 @@
 3	àlhamdù	àlhamdù	X	_	Foreign=Yes	6	discourse	_	AlignBegin=89759|AlignEnd=89961|GE=alhamdu|Gloss=alhamdu|Lang=ar|nWord=3|RX=EXCL
 4	lìllaːhì	lìllaːhì	X	_	Foreign=Yes	3	flat	_	AlignBegin=89961|AlignEnd=90163|GE=lillahi|Gloss=lillahi|Lang=ar|nWord=4|RX=EXCL
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=90163|AlignEnd=90366|Gloss=PUNCT|nWord=5
-6	akàn	kàn	AUX	_	Person=4	0	root	_	AlignBegin=90366|AlignEnd=90556|GE=4.Hab|Gloss=4.Hab|nWord=6|RX=PNG.TAM
+6	akàn	kàn	AUX	_	Aspect=Hab|Person=4	0	root	_	AlignBegin=90366|AlignEnd=90556|GE=4.Hab|Gloss=4.Hab|nWord=6|RX=PNG.TAM
 7	dafàː	daf-	VERB	_	_	6	comp:aux	_	AlignBegin=90556|AlignEnd=90746|GE=cook|Gloss=cook|nWord=7|RX=V1
 8	nèː	neː	PART	_	_	7	mod@emp	_	AlignBegin=90746|AlignEnd=90936|GE=Ident/Foc|Gloss=Ident/Foc|nWord=8|RX=PART.SYNT
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=90936|AlignEnd=91124|Gloss=PUNCT|nWord=9
@@ -692,16 +692,16 @@
 # text = ìdan an dafàː < mukàn ɗaukàː < sai mù jeː mù kai shì kàːsuwaː //
 # text_en =  When we had cooked them, we took them then we carried them to the market.
 1	ìdan	ìdan	SCONJ	_	_	9	mod	_	AlignBegin=91596|AlignEnd=91815|GE=if|Gloss=if|nWord=1|RX=CONJ
-2	an	nàː	AUX	_	Aspect=Perf|Person=4	1	comp:obj	_	AlignBegin=91815|AlignEnd=92034|GE=4.Perf|Gloss=4.Imp|nWord=2|RX=PNG.TAM
+2	an	nàː	AUX	_	Aspect=Imp|Person=4	1	comp:obj	_	AlignBegin=91815|AlignEnd=92034|GE=4.Perf|Gloss=4.Imp|nWord=2|RX=PNG.TAM
 3	dafàː	dafàː	VERB	_	_	2	comp:aux	_	AlignBegin=92034|AlignEnd=92253|GE=cook|Gloss=cook|nWord=3|RX=V1
 4	<	<	PUNCT	_	_	5	punct	_	AlignBegin=92253|AlignEnd=92472|Gloss=PUNCT|nWord=4
-5	mukàn	kàn	AUX	_	Number=Plur|Person=1	2	conj:coord	_	AlignBegin=92472|AlignEnd=92582|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=5|RX=PNG.TAM
+5	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	2	conj:coord	_	AlignBegin=92472|AlignEnd=92582|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=5|RX=PNG.TAM
 6	ɗaukàː	ɗaukàː	NOUN	_	_	5	comp:aux	_	AlignBegin=92582|AlignEnd=92691|nWord=5
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=92910|AlignEnd=93129|Gloss=PUNCT|nWord=7
 8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=93129|AlignEnd=93348|GE=then|Gloss=then|nWord=8|RX=CONJ/HOM
-9	mù	à	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=93348|AlignEnd=93567|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=9|RX=PNG.TAM
+9	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=93348|AlignEnd=93567|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=9|RX=PNG.TAM
 10	jeː	jeː	VERB	_	_	9	comp:aux	_	AlignBegin=93567|AlignEnd=93786|GE=go|Gloss=go|nWord=10|RX=V0
-11	mù	à	AUX	_	Number=Plur|Person=1	9	conj:svc	_	AlignBegin=93786|AlignEnd=94005|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=11|RX=PNG.TAM
+11	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	9	conj:svc	_	AlignBegin=93786|AlignEnd=94005|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=11|RX=PNG.TAM
 12	kai	kai	VERB	_	_	11	comp:aux	_	AlignBegin=94005|AlignEnd=94224|GE=carry|Gloss=carry|nWord=12|RX=V*
 13	shì	shi	PRON	_	Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=94224|AlignEnd=94443|GE=3Masc.|Gloss=3Masc.|nWord=13|RX=PRO.OBJ
 14	kàːsuwaː	kàːsuwaː	NOUN	_	_	12	comp:goal	_	AlignBegin=94443|AlignEnd=94662|GE=market|Gloss=market|nWord=14|RX=N
@@ -716,9 +716,9 @@
 # text_en =  And then we sold them.
 1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	3	mod	_	AlignBegin=95002|AlignEnd=95141|GE=3Masc.|Gloss=3Masc.Nom|nWord=1|RX=PRO.IDP
 2	maː	maː	ADV	_	_	1	mod	_	AlignBegin=95141|AlignEnd=95280|GE=even|Gloss=even|nWord=2|RX=PART.TOP
-3	mù	à	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=95280|AlignEnd=95419|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=3|RX=PNG.TAM
+3	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=95280|AlignEnd=95419|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=3|RX=PNG.TAM
 4	jeː	jeː	VERB	_	_	3	comp:aux	_	AlignBegin=95419|AlignEnd=95558|GE=go|Gloss=go|nWord=4|RX=V0
-5	mù	à	AUX	_	Number=Plur|Person=1	3	conj:svc	_	AlignBegin=95558|AlignEnd=95697|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=5|RX=PNG.TAM
+5	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	3	conj:svc	_	AlignBegin=95558|AlignEnd=95697|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=5|RX=PNG.TAM
 6	sayar̃	sayar̃	VERB	_	_	5	comp:aux	_	AlignBegin=95697|AlignEnd=95836|GE=sell.Cau|Gloss=sell.Cau|nWord=6|RX=V5
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=95836|AlignEnd=95978|Gloss=PUNCT|nWord=7
 
@@ -732,13 +732,13 @@
 1	sòː	sòː	PRON	_	Foreign=Yes	7	discourse	_	AlignBegin=96653|AlignEnd=96855|GE=so|Gloss=so|Lang=en|nWord=2|RX=CSW.ENG
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=97057|AlignEnd=97259|Gloss=PUNCT|nWord=4
 3	in	in	SCONJ	_	_	7	mod	_	AlignBegin=97259|AlignEnd=97461|GE=if|Gloss=if|nWord=5|RX=CONJ
-4	mukàn	kàn	AUX	_	Number=Plur|Person=1	3	comp:obj	_	AlignBegin=97461|AlignEnd=97663|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=6|RX=PNG.TAM
+4	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	3	comp:obj	_	AlignBegin=97461|AlignEnd=97663|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=6|RX=PNG.TAM
 5	taːshì	taːs-	VERB	_	_	4	comp:aux	_	AlignBegin=97663|AlignEnd=97865|GE=rise|Gloss=rise|nWord=7|RX=V3B
 6	<	<	PUNCT	_	_	7	punct	_	AlignBegin=97865|AlignEnd=98067|Gloss=PUNCT|nWord=8
-7	mukàn	kàn	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=98067|AlignEnd=98269|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=9|RX=PNG.TAM
+7	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=98067|AlignEnd=98269|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=9|RX=PNG.TAM
 8	jeː	jeː	VERB	_	_	7	comp:aux	_	AlignBegin=98269|AlignEnd=98471|GE=go|Gloss=go|nWord=10|RX=V0
 9	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=98471|AlignEnd=98673|Gloss=PUNCT|nWord=11
-10	mù	à	AUX	_	Number=Plur|Person=1	7	conj:coord	_	AlignBegin=98673|AlignEnd=98875|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=12|RX=PNG.TAM
+10	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	7	conj:coord	_	AlignBegin=98673|AlignEnd=98875|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=12|RX=PNG.TAM
 11	yi	yi	VERB	_	_	10	comp:aux	_	AlignBegin=98875|AlignEnd=99077|GE=do|Gloss=do|nWord=13|RX=V0
 12	itàːceː	itàːceː	NOUN	_	PronType=Int	11	comp:obj@lvc	_	AlignBegin=99279|AlignEnd=99481|GE=wood|Gloss=wood|nWord=15|RX=N
 13	hakà	hakà	ADV	_	_	10	mod	_	AlignBegin=99481|AlignEnd=99683|GE=like_this|Gloss=like_this|nWord=16|RX=ADV
@@ -762,7 +762,7 @@
 4	maː	maː	ADV	_	_	3	mod	_	AlignBegin=101671|AlignEnd=101861|GE=even|Gloss=even|nWord=4|RX=PART.TOP
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=101861|AlignEnd=102051|Gloss=PUNCT|nWord=5
 6	ìdan	ìdan	SCONJ	_	_	14	mod	_	AlignBegin=102051|AlignEnd=102241|GE=if|Gloss=if|nWord=6|RX=CONJ
-7	zân	zaː	AUX	_	Number=Sing|Person=1	6	comp:obj	_	AlignBegin=102241|AlignEnd=102431|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=7|RX=TAM.PNG
+7	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	6	comp:obj	_	AlignBegin=102241|AlignEnd=102431|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=7|RX=TAM.PNG
 8	iyà	iy-	VERB	_	_	7	comp:aux	_	AlignBegin=102431|AlignEnd=102621|GE=can|Gloss=can|nWord=8|RX=V1.AUX
 9	tunàːwaː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:aux	_	AlignBegin=102621|AlignEnd=102716|GE=think|Gloss=think.Vnoun|nWord=9|RX=V1
 10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=102811|AlignEnd=103001|Gloss=PUNCT|nWord=10
@@ -868,11 +868,11 @@
 # text = hakà anàː kaːmàː mîn hannuː anàː zuwàː //
 # text_en = Like this, she used to take my hand and we would go.
 1	hakà	hakà	ADV	_	_	2	mod	_	AlignBegin=118502|AlignEnd=118671|GE=like_this|Gloss=like_this|nWord=1|RX=ADV
-2	anàː	nàː	AUX	_	Person=4	0	root	_	AlignBegin=118671|AlignEnd=118840|GE=4.Imp|Gloss=4.Imp|nWord=2|RX=PNG.TAM
+2	anàː	nàː	AUX	_	Aspect=Imp|Person=4	0	root	_	AlignBegin=118671|AlignEnd=118840|GE=4.Imp|Gloss=4.Imp|nWord=2|RX=PNG.TAM
 3	kaːmàː	kaːmàː	VERB	_	_	2	comp:aux	_	AlignBegin=118840|AlignEnd=119009|GE=catch|Gloss=catch|nWord=3|RX=V1
 4	mîn	mîn	NOUN	_	Number=Sing|Person=1	3	comp:obl	_	AlignBegin=119009|AlignEnd=119178|GE=1Sing|Gloss=1Sing|nWord=4|RX=PRO.Dat
 5	hannuː	hannuː	NOUN	_	_	3	comp:obj	_	AlignBegin=119178|AlignEnd=119347|GE=hand|Gloss=hand|nWord=5|RX=N
-6	anàː	àː	AUX	_	Person=4	2	conj:coord	_	AlignBegin=119347|AlignEnd=119516|GE=4.Imp|Gloss=4.Imp|nWord=6|RX=PNG.TAM
+6	anàː	àː	AUX	_	Aspect=Imp|Person=4	2	conj:coord	_	AlignBegin=119347|AlignEnd=119516|GE=4.Imp|Gloss=4.Imp|nWord=6|RX=PNG.TAM
 7	zuwàː	zoː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=119516|AlignEnd=119685|GE=going|Gloss=going|nWord=7|RX=N.V0
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=119685|AlignEnd=119854|Gloss=PUNCT|nWord=8
 
@@ -889,7 +889,7 @@
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=120377|AlignEnd=120516|Gloss=PUNCT|nWord=8
 5	loːkàcin	loːkàcin	NOUN	_	Definite=Def	10	mod	_	AlignBegin=120516|AlignEnd=120586|GE=time|Gloss=time.Def|nWord=9|RX=N
 6	dà	dà	SCONJ	_	_	5	mod@relcl	_	AlignBegin=120655|AlignEnd=120794|GE=COMP|Gloss=COMP|nWord=10|RX=CONJ/HOM
-7	sukà	sukà	AUX	_	Number=Plur|Person=3	6	comp:obj	_	AlignBegin=120794|AlignEnd=120933|GE=3Plur.Perf.FOC|Gloss=3Plur.Perf.Bkg|nWord=11|RX=PNG.TAM
+7	sukà	sukà	AUX	_	Aspect=Perf|Number=Plur|Person=3	6	comp:obj	_	AlignBegin=120794|AlignEnd=120933|GE=3Plur.Perf.FOC|Gloss=3Plur.Perf.Bkg|nWord=11|RX=PNG.TAM
 8	zoː	zoː	VERB	_	_	7	comp:aux	_	AlignBegin=120933|AlignEnd=121072|GE=come|Gloss=come|nWord=12|RX=V0
 9	<	<	PUNCT	_	_	5	punct	_	AlignBegin=121072|AlignEnd=121211|Gloss=PUNCT|nWord=13
 10	mèːneː	mèːneː	PRON	_	_	0	root	_	AlignBegin=121211|AlignEnd=121350|GE=what|Gloss=what|nWord=14|RX=PRO.Q
@@ -954,7 +954,7 @@
 1	dan	dan	ADV	_	_	4	discourse	_	AlignBegin=127809|AlignEnd=127933|GE=because|Gloss=because|nWord=1|RX=CONJ
 2	muː	muː	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	dislocated@subj	_	AlignBegin=127933|AlignEnd=128057|GE=1Plur|Gloss=1Plur.Nom|nWord=2|RX=PRO.IDP
 3	<	/	PUNCT	_	_	2	punct	_	AlignBegin=128057|AlignEnd=128181|Gloss=PUNCT|nWord=3
-4	bàmù	bài	AUX	_	Number=Plur|Person=1|Polarity=Neg	0	root	_	AlignBegin=128181|AlignEnd=128305|GE=Neg.1Plur.Perf|Gloss=1Plur.Perf.Neg|nWord=4|RX=PART.Neg.PNG.TAM
+4	bàmù	bài	AUX	_	Aspect=Perf|Number=Plur|Person=1|Polarity=Neg	0	root	_	AlignBegin=128181|AlignEnd=128305|GE=Neg.1Plur.Perf|Gloss=1Plur.Perf.Neg|nWord=4|RX=PART.Neg.PNG.TAM
 5	san	sanìː	VERB	_	_	4	comp:aux	_	AlignBegin=128305|AlignEnd=128429|GE=know|Gloss=know|nWord=5|RX=V*
 6	soːjà	soːjà	NOUN	_	_	5	comp:obj	_	AlignBegin=128429|AlignEnd=128553|GE=soldier|Gloss=soldier|nWord=6|RX=N
 7	ba	ba	PART	_	Polarity=Neg	4	mod	_	AlignBegin=128553|AlignEnd=128677|GE=Neg|Gloss=Neg|nWord=7|RX=PART.Neg
@@ -977,7 +977,7 @@
 8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=130482|AlignEnd=130673|GE=then|Gloss=then|nWord=8|RX=CONJ/HOM
 9	munàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=130673|AlignEnd=130864|GE=1Plur.Imp|Gloss=1Plur.Imp|nWord=9|RX=PNG.TAM
 10	ƙòːƙarin	ƙòːƙariː	NOUN	_	Definite=Cons	9	comp:aux	_	AlignBegin=130864|AlignEnd=130960|GE=effort|Gloss=effort.Cons|nWord=10|RX=N
-11	mù	à	AUX	_	Number=Plur|Person=1	10	comp:obj	_	AlignBegin=131055|AlignEnd=131246|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=11|RX=PNG.TAM
+11	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	10	comp:obj	_	AlignBegin=131055|AlignEnd=131246|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=11|RX=PNG.TAM
 12	gudù	gud-	VERB	_	_	11	comp:aux	_	AlignBegin=131246|AlignEnd=131437|GE=run|Gloss=run|nWord=12|RX=V3B
 13	//	//	PUNCT	_	_	9	punct	_	AlignBegin=131437|AlignEnd=131630|Gloss=PUNCT|nWord=13
 
@@ -1054,7 +1054,7 @@
 1	dan	dan	ADV	_	_	4	discourse	_	AlignBegin=135537|AlignEnd=135675|GE=because|Gloss=because|nWord=1|RX=CONJ
 2	muː	muː	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	dislocated@subj	_	AlignBegin=135675|AlignEnd=135813|GE=1Plur|Gloss=1Plur.Nom|nWord=2|RX=PRO.IDP
 3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=135813|AlignEnd=135951|Gloss=PUNCT|nWord=3
-4	bàmù	bài	AUX	_	Number=Plur|Person=1|Polarity=Neg	0	root	_	AlignBegin=135951|AlignEnd=136089|GE=Neg.1Plur.Perf|Gloss=1Plur.Perf.Neg|nWord=4|RX=PART.Neg.PNG.TAM
+4	bàmù	bài	AUX	_	Aspect=Perf|Number=Plur|Person=1|Polarity=Neg	0	root	_	AlignBegin=135951|AlignEnd=136089|GE=Neg.1Plur.Perf|Gloss=1Plur.Perf.Neg|nWord=4|RX=PART.Neg.PNG.TAM
 5	san	sanìː	VERB	_	_	4	comp:aux	_	AlignBegin=136089|AlignEnd=136227|GE=know|Gloss=know|nWord=5|RX=V*
 6	soːjà	soːjà	NOUN	_	_	5	comp:obj	_	AlignBegin=136227|AlignEnd=136365|GE=soldier|Gloss=soldier|nWord=6|RX=N
 7	ba	ba	PART	_	Polarity=Neg	4	mod	_	AlignBegin=136365|AlignEnd=136503|GE=Neg|Gloss=Neg|nWord=7|RX=PART.Neg
@@ -1150,7 +1150,7 @@
 # phonetic_text = munàː gudù munàː ɓoːyèː -waː //
 # text = baːmàː iyà zamaː ai //
 # text_en =  We could not stay. .
-1	baːmàː	baːmàː	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	AlignBegin=146995|AlignEnd=147116|GE=1Plur.Imp.Neg|Gloss=1Plur.Imp.Neg|nWord=2|RX=PNG.TAM
+1	baːmàː	baːmàː	AUX	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=146995|AlignEnd=147116|GE=1Plur.Imp.Neg|Gloss=1Plur.Imp.Neg|nWord=2|RX=PNG.TAM
 2	iyà	iyàː	VERB	_	_	1	comp:aux	_	AlignBegin=147116|AlignEnd=147237|GE=can|Gloss=can|nWord=3|RX=V1.AUX
 3	zamaː	zaun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=147237|AlignEnd=147358|GE=stay.Vnoun|Gloss=stay.Vnoun|nWord=4|RX=N.V1
 4	ai	ai	PART	_	_	1	mod	_	AlignBegin=147358|AlignEnd=147479|GE=heː|Gloss=indeed|nWord=5|RX=FILL
@@ -1180,7 +1180,7 @@
 2	à	à	ADP	_	_	5	mod	_	AlignBegin=148775|AlignEnd=148886|GE=at|Gloss=at|nWord=2|RX=PREP
 3	loːkàcîn	loːkàcîn	NOUN	_	_	2	comp:obj	_	AlignBegin=148886|AlignEnd=148942|GE=time|Gloss=time|nWord=3|RX=N
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=148997|AlignEnd=149108|Gloss=PUNCT|nWord=4
-5	kun	kun	AUX	_	Number=Plur|Person=2	0	root	_	AlignBegin=149108|AlignEnd=149219|GE=2.Plur.Perf|Gloss=2.Plur.Perf|nWord=5|RX=PNG.TAM
+5	kun	kun	AUX	_	Aspect=Perf|Number=Plur|Person=2	0	root	_	AlignBegin=149108|AlignEnd=149219|GE=2.Plur.Perf|Gloss=2.Plur.Perf|nWord=5|RX=PNG.TAM
 6	daɗèː	daɗèː	VERB	_	_	5	comp:aux	_	AlignBegin=149219|AlignEnd=149330|GE=last|Gloss=last|nWord=6|RX=V4
 7	tàːre	tàːre	ADV	_	_	5	mod	_	AlignBegin=149330|AlignEnd=149441|GE=together|Gloss=together|nWord=7|RX=STAT
 8	dà	dà	ADP	_	_	7	mod	_	AlignBegin=149441|AlignEnd=149552|GE=with|Gloss=with|nWord=8|RX=PREP/HOM
@@ -1375,7 +1375,7 @@
 # text = wandà akà fi sanìn =shi dà Sarkin Noːmaː //
 # text_en =  He is best known as the king of farmers.
 1	wandà	wandà	ADV	_	PronType=Rel	0	root	_	AlignBegin=164985|AlignEnd=165163|GE=who|Gloss=who|nWord=1|RX=PRO.COMP
-2	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	1	mod@relcl	_	AlignBegin=165163|AlignEnd=165341|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=2|RX=PNG.TAM
+2	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	1	mod@relcl	_	AlignBegin=165163|AlignEnd=165341|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=2|RX=PNG.TAM
 3	fi	fi	VERB	_	_	2	comp:aux	_	AlignBegin=165341|AlignEnd=165519|GE=exceed|Gloss=exceed|nWord=3|RX=V0
 4	sanìn	sanìː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	comp:obj	_	AlignBegin=165519|AlignEnd=165578|GE=know|Gloss=know.Vnoun.Cons|nWord=4|RX=V*
 5	=shi	=shi	PRON	_	Number=Plur|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=165637|AlignEnd=165697|GE=3Masc.|Gloss=3Masc.|nWord=4|RX=PRO.POS
@@ -1444,9 +1444,9 @@
 # phonetic_text = an rigaː an sanìː shiː à nan wajeː -ǹ dai //
 # text = an rigaː an san shì à nan wajên dai //
 # text_en =  He is well known there indeed.
-1	an	nàː	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=174126|AlignEnd=174268|GE=4.Perf|Gloss=4.Imp|nWord=1|RX=PNG.TAM
+1	an	nàː	AUX	_	Aspect=Imp|Person=4	0	root	_	AlignBegin=174126|AlignEnd=174268|GE=4.Perf|Gloss=4.Imp|nWord=1|RX=PNG.TAM
 2	rigaː	rigaː	VERB	_	_	1	comp:obj	_	AlignBegin=174268|AlignEnd=174410|GE=already|Gloss=already|nWord=2|RX=V0.AUX
-3	an	nàː	AUX	_	Aspect=Perf|Person=4	1	comp:svc	_	AlignBegin=174410|AlignEnd=174552|GE=4.Perf|Gloss=4.Imp|nWord=3|RX=PNG.TAM
+3	an	nàː	AUX	_	Aspect=Imp|Person=4	1	comp:svc	_	AlignBegin=174410|AlignEnd=174552|GE=4.Perf|Gloss=4.Imp|nWord=3|RX=PNG.TAM
 4	san	sanìː	VERB	_	_	3	comp:aux	_	AlignBegin=174552|AlignEnd=174694|GE=know|Gloss=know|nWord=4|RX=V*
 5	shì	shi	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=174694|AlignEnd=174836|GE=3Masc.|Gloss=3Masc.Nom|nWord=5|RX=PRO.IDP
 6	à	à	ADP	_	_	3	mod	_	AlignBegin=174836|AlignEnd=174978|GE=at|Gloss=at|nWord=6|RX=PREP
@@ -1491,7 +1491,7 @@
 3	ɗîn	ɗin	DET	_	Definite=Def	2	det	_	AlignBegin=178760|AlignEnd=178921|GE=Def|Gloss=of.Def|nWord=3|RX=PART
 4	kuma	kuma	PART	_	_	2	mod	_	AlignBegin=178921|AlignEnd=179082|GE=too|Gloss=too|nWord=4|RX=PART.TOP
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=179082|AlignEnd=179243|Gloss=PUNCT|nWord=5
-6	kunàː	kunàː	AUX	_	Number=Plur|Person=2	0	root	_	AlignBegin=179243|AlignEnd=179404|GE=2Plur.Imp|Gloss=2Plur.Imp|nWord=6|RX=PNG.TAM
+6	kunàː	kunàː	AUX	_	Aspect=Imp|Number=Plur|Person=2	0	root	_	AlignBegin=179243|AlignEnd=179404|GE=2Plur.Imp|Gloss=2Plur.Imp|nWord=6|RX=PNG.TAM
 7	sànaː'àn	sànaː'àː	NOUN	_	_	6	comp:pred	_	AlignBegin=179404|AlignEnd=179484|GE=profession|Gloss=profession|nWord=7|RX=N
 8	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	mod	_	AlignBegin=179565|AlignEnd=179726|GE=farming|Gloss=farm.Vnoun|nWord=8|RX=N
 9	tàːre	tàːre	ADV	_	_	7	mod	_	AlignBegin=179726|AlignEnd=179887|GE=together|Gloss=together|nWord=9|RX=STAT
@@ -1571,7 +1571,7 @@
 # text = tàːre kukèː sànaː'àn noːmaː dà suː ?//
 # text_en =  You are working together as farmers?
 1	tàːre	tàːre	ADV	_	_	0	root	_	AlignBegin=186883|AlignEnd=187065|GE=together|Gloss=together|nWord=1|RX=STAT
-2	kukèː	kukèː	AUX	_	Number=Plur|Person=2	1	comp:cleft	_	AlignBegin=187065|AlignEnd=187247|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=2|RX=PNG.TAM
+2	kukèː	kukèː	AUX	_	Aspect=Imp|Number=Plur|Person=2	1	comp:cleft	_	AlignBegin=187065|AlignEnd=187247|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=2|RX=PNG.TAM
 3	sànaː'àn	sànaː'àː	NOUN	_	Definite=Cons	2	comp:aux	_	AlignBegin=187247|AlignEnd=187338|GE=profession|Gloss=profession.Cons|nWord=3|RX=N
 4	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	mod	_	AlignBegin=187429|AlignEnd=187611|GE=farming|Gloss=farm.Vnoun|nWord=4|RX=N
 5	dà	dà	ADP	_	_	2	mod	_	AlignBegin=187611|AlignEnd=187793|GE=with|Gloss=with|nWord=5|RX=PREP/HOM
@@ -1712,7 +1712,7 @@
 # phonetic_text = inàː hannuː -n -shi //=
 # text = i nàː hannun -n -shi //
 # text_en =  I am in his hands,
-1	inàː	nàː²	AUX	_	Number=Sing|Person=1	0	root	_	AlignBegin=198142|AlignEnd=198381|GE=1Sing.Imp|Gloss=1Sing.Imp.Pred/Loc|nWord=1|RX=PNG.TAM|wordform=nàː
+1	inàː	nàː²	AUX	_	Number=Sing|Person=1	0	root	_	AlignBegin=198142|AlignEnd=198381|GE=1Sing.Imp|Gloss=1Sing.Pred/Loc|nWord=1|RX=PNG.TAM|wordform=nàː
 2	hannun	hannuː	NOUN	_	Definite=Cons	1	comp:pred	_	AlignBegin=198381|AlignEnd=198461|GE=hand|Gloss=hand.Cons|nWord=2|RX=N
 3	=shi	=shi	PRON	_	Person=3|PronType=Prs	2	mod	_	AlignBegin=198541|AlignEnd=198620|GE=3Masc.|Gloss=3Masc.|nWord=2|RX=PRO.POS
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=198620|AlignEnd=198860|Gloss=PUNCT|nWord=3
@@ -1725,13 +1725,13 @@
 # text = shiː kèː cîː dà niː //= shiː kèː mîn àbîn nân |c kuma yakèː tallàfaː mîn wajen har̃kàn kàr̃àːtuː dà sauran =sù har̃ Allàː ya sâː na gamà sakandir̃iː sùkûːl //
 # text_en = He's the one feeding me, he's the one doing that thing, and supporting me for my school, etc. until God enabled me to finish secondary school.
 1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=198860|AlignEnd=198967|GE=3Masc.|Gloss=3Masc.Nom|nWord=1|RX=PRO.IDP
-2	kèː	yèː	AUX	_	_	1	comp:cleft	_	AlignBegin=198967|AlignEnd=199074|GE=Imp.Bkg|Gloss=Imp.Bkg|nWord=2|RX=TAM
+2	kèː	yèː	AUX	_	Aspect=Imp	1	comp:cleft	_	AlignBegin=198967|AlignEnd=199074|GE=Imp.Bkg|Gloss=Imp.Bkg|nWord=2|RX=TAM
 3	cîː	ci	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=199074|AlignEnd=199181|GE=feeding|Gloss=eat.Vnoun|nWord=3|RX=N.V5
 4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=199181|AlignEnd=199288|GE=PREP|Gloss=with|nWord=4|RX=PART/HOM
 5	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=199288|AlignEnd=199395|GE=1Sing|Gloss=1Sing.Nom|nWord=5|RX=PRO.IDP
 6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=199395|AlignEnd=199502|Gloss=PUNCT|nWord=6
 7	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	1	parataxis@conj	_	AlignBegin=199502|AlignEnd=199651|GE=3Masc.|Gloss=3Masc.Nom|nWord=1|RX=PRO.IDP
-8	kèː	kèː	AUX	_	_	7	comp:cleft	_	AlignBegin=199651|AlignEnd=199800|GE=Imp.Bkg|Gloss=Imp.Bkg|nWord=2|RX=TAM
+8	kèː	kèː	AUX	_	Aspect=Imp	7	comp:cleft	_	AlignBegin=199651|AlignEnd=199800|GE=Imp.Bkg|Gloss=Imp.Bkg|nWord=2|RX=TAM
 9	mîn	mîn	PRON	_	Number=Sing|Person=1	10	comp:obl	_	AlignBegin=199800|AlignEnd=199949|GE=1Sing|Gloss=1Sing.Dat|nWord=3|RX=PRO.Dat
 10	àbîn	àbù	NOUN	_	Definite=Def	8	comp:aux	_	AlignBegin=199949|AlignEnd=200023|GE=thing|Gloss=thing.Def|nWord=4|RX=N
 11	nân	nân	DET	_	_	10	det	_	AlignBegin=200098|AlignEnd=200247|GE=Prox|Gloss=Prox|nWord=5|RX=ADV.DEICT
@@ -1767,8 +1767,8 @@
 2	tun	tun	AUX	_	_	24	mod	_	AlignBegin=204448|AlignEnd=204669|GE=since|Gloss=since|nWord=2|RX=CONJ
 3	loːkàcin	loːkàciː	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=204669|AlignEnd=204779|GE=time|Gloss=time.Cons|nWord=3|RX=N
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=204890|AlignEnd=205111|GE=COMP|Gloss=COMP|nWord=4|RX=CONJ/HOM
-5	na	na	PART	_	Number=Sing|Person=1	6	subj	_	AlignBegin=205111|AlignEnd=205332|GE=1Sing.Imp.Bkg|Gloss=1Sing.Imp.Bkg|nWord=5|RX=PNG.TAM
-6	kèː	kèː	PART	_	Number=Sing|Person=1	4	comp:obj	_	AlignBegin=205111|AlignEnd=205332|GE=1Sing.Imp.Bkg|Gloss=1Sing.Imp.Bkg|nWord=5|RX=PNG.TAM
+5	na	na	PART	_	Aspect=Imp|Number=Sing|Person=1	6	subj	_	AlignBegin=205111|AlignEnd=205332|GE=1Sing.Imp.Bkg|Gloss=1Sing.Imp.Bkg|nWord=5|RX=PNG.TAM
+6	kèː	kèː	PART	_	Aspect=Imp|Number=Sing|Person=1	4	comp:obj	_	AlignBegin=205111|AlignEnd=205332|GE=1Sing.Imp.Bkg|Gloss=1Sing.Imp.Bkg|nWord=5|RX=PNG.TAM
 7	wajen	wajen	ADP	_	_	6	comp:pred	_	AlignBegin=205332|AlignEnd=205553|GE=around|Gloss=around|nWord=6|RX=PREP
 8	wânnan	wânnan	DET	_	Definite=Def	9	det	_	AlignBegin=205553|AlignEnd=205774|GE=Def|Gloss=Def|nWord=7|RX=PRO.DEICT
 9	kàːkaː	kàːkaː	NOUN	_	_	7	comp:obj	_	AlignBegin=205774|AlignEnd=205995|GE=grand-parent|Gloss=grand-mother|nWord=8|RX=N
@@ -1847,7 +1847,7 @@
 # text = dà ta ɗaukoː nì >+ ita yandà ta zoː < mukèː taːshìː //
 # text_en = After she adopted me, she, when she came, we left.
 1	dà	dà	ADP	_	_	7	mod	_	AlignBegin=217267|AlignEnd=217455|GE=as|Gloss=as|nWord=1|RX=CONJ/HOM
-2	ta	ta	AUX	_	Person=3	1	comp:obj	_	AlignBegin=217455|AlignEnd=217643|GE=3Fem.Perf.Bkg|Gloss=3Fem.Perf.Bkg|nWord=2|RX=PNG.TAM
+2	ta	ta	AUX	_	Aspect=Perf|Person=3	1	comp:obj	_	AlignBegin=217455|AlignEnd=217643|GE=3Fem.Perf.Bkg|Gloss=3Fem.Perf.Bkg|nWord=2|RX=PNG.TAM
 3	ɗaukoː	ɗaukoː	NOUN	_	_	2	comp:aux	_	AlignBegin=217643|AlignEnd=217831|GE=take.DIR|Gloss=take.DIR|nWord=3|RX=V6
 4	nì	nì	PRON	_	Number=Sing|Person=1	3	comp:obj	_	AlignBegin=217831|AlignEnd=218019|GE=1Sing|Gloss=1Sing|nWord=4|RX=PRO.OBJ
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=218019|AlignEnd=218207|Gloss=PUNCT|nWord=5
@@ -1868,14 +1868,14 @@
 # text = ita mù jeː daːjìn nan |c sai dà mù ɗan yiwoː itàːceː //
 # text_en = I would go with her to that bush, then... we would fetch some wood.
 1	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	2	dislocated@top	_	AlignBegin=219714|AlignEnd=219871|GE=3Fem|Gloss=3Fem.Nom|nWord=1|RX=PRO.IDP
-2	mù	à	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=219871|AlignEnd=220028|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=2|RX=PNG.TAM
+2	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=219871|AlignEnd=220028|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=2|RX=PNG.TAM
 3	jeː	jeː	VERB	_	_	2	comp:aux	_	AlignBegin=220028|AlignEnd=220185|GE=go|Gloss=go|nWord=3|RX=V0
 4	daːjìn	daːjìː	NOUN	_	Definite=Def	3	comp:goal	_	AlignBegin=220185|AlignEnd=220263|GE=bush|Gloss=bush.Def|nWord=4|RX=N
 5	nan	nan	DET	_	Definite=Def|PronType=Dem	4	det	_	AlignBegin=220342|AlignEnd=220499|GE=Def|Gloss=Def|nWord=5|RX=ADV.DEICT
 6	|c	 |c	PUNCT	_	_	9	punct	_	AlignBegin=220499|AlignEnd=220654|Gloss=PUNCT|nWord=6
 7	sai	sai	ADV	_	ExtPos=CCONJ	9	cc	_	AlignBegin=220876|AlignEnd=221054|GE=then|Gloss=then|Idiom=Yes|nWord=1|RX=CONJ/HOM
 8	dà	dà	ADP	_	_	7	unk	_	AlignBegin=221054|AlignEnd=221232|GE=as|Gloss=as|InIdiom=Yes|nWord=2|RX=CONJ/HOM
-9	mù	à	AUX	_	Number=Plur|Person=1	2	conj:coord	_	AlignBegin=221410|AlignEnd=221588|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=4|RX=PNG.TAM
+9	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	2	conj:coord	_	AlignBegin=221410|AlignEnd=221588|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=4|RX=PNG.TAM
 10	ɗan	ɗan	ADV	_	_	9	mod	_	AlignBegin=221588|AlignEnd=221766|GE=DIM|Gloss=little|nWord=5|RX=ADV
 11	yiwoː	yi	VERB	_	_	9	comp:aux	_	AlignBegin=221766|AlignEnd=221944|GE=do.DIR|Gloss=do.DIR|nWord=6|RX=V6
 12	itàːceː	itàːceː	NOUN	_	_	11	comp:obj@lvc	_	AlignBegin=221944|AlignEnd=222122|GE=wood|Gloss=wood|nWord=7|RX=N
@@ -1915,7 +1915,7 @@
 25	su	su	PART	_	Number=Plur|Person=3|PronType=Prs	26	mod	_	AlignBegin=227448|AlignEnd=227644|GE=Plur|Gloss=Plur|nWord=26|RX=PART
 26	joːgaleː	joːgaleː	NOUN	_	_	23	conj:coord	_	AlignBegin=227644|AlignEnd=227840|GE=bitterleaf|Gloss=bitterleaf|nWord=27|RX=N
 27	<	<	PUNCT	_	_	28	punct	_	AlignBegin=227840|AlignEnd=228036|Gloss=PUNCT|nWord=28
-28	mukàn	kàn	AUX	_	Definite=Cons|Number=Plur|Person=1	0	root	_	AlignBegin=228036|AlignEnd=228232|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=29|RX=PNG.TAM
+28	mukàn	kàn	AUX	_	Aspect=Hab|Definite=Cons|Number=Plur|Person=1	0	root	_	AlignBegin=228036|AlignEnd=228232|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=29|RX=PNG.TAM
 29	ɗiːboː	ɗiːboː	VERB	_	_	28	comp:aux	_	AlignBegin=228232|AlignEnd=228428|GE=scoop_out.DIR|Gloss=scoop_out.DIR|nWord=30|RX=V6
 30	(	(	PUNCT	_	_	33	punct	_	AlignBegin=228428|AlignEnd=228624|Gloss=PUNCT|nWord=31
 31	dà	dà	ADP	_	_	33	cc	_	AlignBegin=228624|AlignEnd=228820|GE=and|Gloss=and|nWord=32|RX=CONJ/HOM
@@ -1925,14 +1925,14 @@
 35	)	)	PUNCT	_	_	33	punct	_	AlignBegin=229408|AlignEnd=229590|Gloss=PUNCT|nWord=36
 36	à	à	ADP	_	_	28	mod	_	AlignBegin=229590|AlignEnd=229785|GE=at|Gloss=at|nWord=1|RX=PREP
 37	dawà	dawà	ADV	_	_	36	comp:obj	_	AlignBegin=229785|AlignEnd=229980|GE=in_the_bush|Gloss=in_the_bush|nWord=2|RX=ADV/DER
-38	mù	à	AUX	_	Number=Plur|Person=1	28	conj:coord	_	AlignBegin=229980|AlignEnd=230175|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=3|RX=PNG.TAM
+38	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	28	conj:coord	_	AlignBegin=229980|AlignEnd=230175|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=3|RX=PNG.TAM
 39	ɗaukàː	ɗauk-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	38	comp:aux	_	AlignBegin=230175|AlignEnd=230370|GE=taking|Gloss=taking|nWord=4|RX=N.V2
-40	mù	à	AUX	_	Number=Plur|Person=1	38	conj:svc	_	AlignBegin=230370|AlignEnd=230565|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=5|RX=PNG.TAM
+40	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	38	conj:svc	_	AlignBegin=230370|AlignEnd=230565|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=5|RX=PNG.TAM
 41	jeː	jeː	VERB	_	_	40	comp:aux	_	AlignBegin=230565|AlignEnd=230760|GE=go|Gloss=go|nWord=6|RX=V0
 42	kàːsuwaː	kàːsuwaː	NOUN	_	_	41	comp:pred	_	AlignBegin=230760|AlignEnd=230955|GE=market|Gloss=market|nWord=7|RX=N
 43	|c	|c	PUNCT	_	_	45	punct	_	AlignBegin=230955|AlignEnd=231147|Gloss=PUNCT|nWord=8
 44	sai	sai	ADV	_	_	45	mod	_	AlignBegin=231360|AlignEnd=231538|GE=then|Gloss=then|nWord=9|RX=CONJ/HOM
-45	mù	à	AUX	_	Number=Plur|Person=1	40	conj:coord	_	AlignBegin=231538|AlignEnd=231716|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=10|RX=PNG.TAM
+45	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	40	conj:coord	_	AlignBegin=231538|AlignEnd=231716|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=10|RX=PNG.TAM
 46	sayar̃	say-	VERB	_	_	45	comp:aux	_	AlignBegin=231716|AlignEnd=231894|GE=sell.Cau|Gloss=sell.Cau|nWord=11|RX=V5
 47	//	//	PUNCT	_	_	28	punct	_	AlignBegin=231894|AlignEnd=232074|Gloss=PUNCT|nWord=12
 
@@ -1959,7 +1959,7 @@
 4	sayar̃	say-	VERB	_	_	3	comp:aux	_	AlignBegin=233028|AlignEnd=233226|GE=sell.Cau|Gloss=sell.Cau|nWord=4|RX=V5
 5	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	6	comp:pred	_	AlignBegin=233226|AlignEnd=233424|GE=3Masc.|Gloss=3Masc.Nom|nWord=5|RX=PRO.IDP
 6	nèː	neː	PART	_	_	7	parataxis@discourse	_	AlignBegin=233424|AlignEnd=233622|GE=Ident/Foc|Gloss=Ident/Foc|nWord=6|RX=PART.SYNT
-7	zaːmù	zaː	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=233622|AlignEnd=233820|GE=1Plur.Fut|Gloss=1Plur.Fut|nWord=7|RX=PNG.TAM
+7	zaːmù	zaː	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=233622|AlignEnd=233820|GE=1Plur.Fut|Gloss=1Plur.Fut|nWord=7|RX=PNG.TAM
 8	ɗan	ɗan	ADV	_	_	7	mod	_	AlignBegin=233820|AlignEnd=234018|GE=DIM|Gloss=little|nWord=8|RX=ADV
 9	saːmoː	saːmoː	NOUN	_	_	7	comp:aux	_	AlignBegin=234018|AlignEnd=234216|GE=get.DIR|Gloss=get.DIR|nWord=9|RX=V6
 10	kuɗiː	kuɗiː	NOUN	_	Number=Plur	9	comp:obj	_	AlignBegin=234216|AlignEnd=234414|GE=money|Gloss=money|nWord=10|RX=N
@@ -1975,12 +1975,12 @@
 # phonetic_text = à sayoː / à saːmù à ɗan ci àbinci / dà kuma wandà zaːʔà ɗan / biyaː mîn kuɗiː -n makar̃antaː dà sauraː -n -sù //
 # text = à sayoː |c à saːmù à ɗan ci àbinci |c dà kuma wandà zaː'à ɗan biyaː mîn kuɗin makar̃antaː dà sauran =sù //
 # text_en = We would go, sell, get something to eat and what to pay for the school fees, etc.
-1	à	à	AUX	_	Aspect=.Hab|Person=4	0	root	_	AlignBegin=235006|AlignEnd=235189|GE=Aor.4|Gloss=Aor.4|nWord=1|RX=PNG.TAM
+1	à	à	AUX	_	Aspect=Aor|Person=4	0	root	_	AlignBegin=235006|AlignEnd=235189|GE=Aor.4|Gloss=Aor.4|nWord=1|RX=PNG.TAM
 2	sayoː	sayoː	VERB	_	_	1	comp:aux	_	AlignBegin=235189|AlignEnd=235372|GE=sell.DIR|Gloss=sell.DIR|nWord=2|RX=V6
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=235372|AlignEnd=235555|Gloss=PUNCT|nWord=3
-4	à	à	AUX	_	Aspect=.Hab|Person=4	1	conj:svc	_	AlignBegin=235555|AlignEnd=235738|GE=Aor.4|Gloss=Aor.4|nWord=4|RX=PNG.TAM
+4	à	à	AUX	_	Aspect=Aor|Person=4	1	conj:svc	_	AlignBegin=235555|AlignEnd=235738|GE=Aor.4|Gloss=Aor.4|nWord=4|RX=PNG.TAM
 5	saːmù	saː-	VERB	_	_	4	comp:aux	_	AlignBegin=235738|AlignEnd=235921|GE=get|Gloss=get|nWord=5|RX=V2
-6	à	à	AUX	_	Person=4	4	conj:svc	_	AlignBegin=235921|AlignEnd=236104|GE=Aor.4|Gloss=Aor.4|nWord=6|RX=PNG.TAM
+6	à	à	AUX	_	Aspect=Aor|Person=4	4	conj:svc	_	AlignBegin=235921|AlignEnd=236104|GE=Aor.4|Gloss=Aor.4|nWord=6|RX=PNG.TAM
 7	ɗan	ɗan	ADV	_	_	6	mod	_	AlignBegin=236104|AlignEnd=236287|GE=DIM|Gloss=little|nWord=7|RX=ADV
 8	ci	ci	VERB	_	_	6	comp:aux	_	AlignBegin=236287|AlignEnd=236470|GE=eat|Gloss=eat|nWord=8|RX=V0
 9	àbinci	àbinci	NOUN	_	_	8	comp:obj	_	AlignBegin=236470|AlignEnd=236653|GE=food|Gloss=food|nWord=9|RX=N
@@ -1988,7 +1988,7 @@
 11	dà	dà	CCONJ	_	_	13	cc	_	AlignBegin=236836|AlignEnd=236928|GE=and|Gloss=and|nWord=11|RX=CONJ/HOM
 12	kuma	kuma	PART	_	_	11	mod	_	AlignBegin=236928|AlignEnd=237019|Gloss=also|nWord=11
 13	wandà	wandà	PRON	_	PronType=Rel	9	conj:appos@relcl	_	AlignBegin=237202|AlignEnd=237294|GE=who|Gloss=who|nWord=13|RX=PRO.COMP
-14	zaː'à	zaː	AUX	_	Person=4	13	mod@relcl	_	AlignBegin=237294|AlignEnd=237385|Gloss=4.Fut|nWord=13
+14	zaː'à	zaː	AUX	_	Person=4|Tense=Fut	13	mod@relcl	_	AlignBegin=237294|AlignEnd=237385|Gloss=4.Fut|nWord=13
 15	ɗan	ɗan	ADV	_	_	16	mod	_	AlignBegin=237568|AlignEnd=237660|GE=DIM|Gloss=little|nWord=15|RX=ADV
 16	biyaː	biyaː	NOUN	_	Definite=Cons	14	comp:aux	_	AlignBegin=237934|AlignEnd=238117|GE=pay|Gloss=pay|nWord=17|RX=V0
 17	mîn	mîn	PRON	_	Number=Sing|Person=1	16	comp:obl	_	AlignBegin=238117|AlignEnd=238300|GE=1Sing|Gloss=1Sing.Dat|nWord=18|RX=PRO.Dat
@@ -2067,7 +2067,7 @@
 # text = loːkàcîn bàn &//
 # text_en = At that time, I didn't ...
 1	loːkàcîn	loːkàciː	NOUN	_	Definite=Def	2	mod	_	AlignBegin=248426|AlignEnd=248524|GE=time|Gloss=time.Def|nWord=5|RX=N
-2	bàn	bài	AUX	_	Number=Sing|Person=1	0	root	_	AlignBegin=248622|AlignEnd=248818|GE=Neg.1Sing.Perf|Gloss=1Sing.Perf.Neg|nWord=6|RX=PART.Neg.PNG.TAM
+2	bàn	bài	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=248622|AlignEnd=248818|GE=Neg.1Sing.Perf|Gloss=1Sing.Perf.Neg|nWord=6|RX=PART.Neg.PNG.TAM
 3	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=248818|AlignEnd=249014|Gloss=PUNCT|nWord=7
 
 # sent_id = HAUZ_BC_CONV_01_SP2_094-094_split2_split2
@@ -2078,7 +2078,7 @@
 # text = niː bân wàːyoː naː san sâː ba //
 # text_en = I had never seen a bull.
 1	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	dislocated	_	AlignBegin=249014|AlignEnd=249210|GE=1Sing|Gloss=1Sing.Nom|nWord=8|RX=PRO.IDP
-2	bân	bân	AUX	_	Number=Sing|Person=1	0	root	_	AlignBegin=249210|AlignEnd=249406|GE=Neg.1Sing.Imp|Gloss=1Sing.Imp.Neg|nWord=9|RX=PART.Neg.PNG.TAM
+2	bân	bân	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=249210|AlignEnd=249406|GE=Neg.1Sing.Imp|Gloss=1Sing.Imp.Neg|nWord=9|RX=PART.Neg.PNG.TAM
 3	wàːyoː	wàːyoː	NOUN	_	_	2	comp:obj	_	AlignBegin=249406|AlignEnd=249602|GE=wisdom|Gloss=wisdom|nWord=10|RX=N
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	3	mod	_	AlignBegin=249602|AlignEnd=249798|GE=1Sing.Perf|Gloss=1Sing.Perf|nWord=11|RX=PNG.TAM
 5	san	sanìː	VERB	_	_	4	comp:aux	_	AlignBegin=249798|AlignEnd=249994|GE=know|Gloss=know|nWord=12|RX=V*
@@ -2155,7 +2155,7 @@
 1	Zangòː	Zangòː	PROPN	_	_	4	dislocated@subj	_	AlignBegin=256647|AlignEnd=256832|GE=Zango|Gloss=Zango|nWord=1|RX=N.P
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Def	4	mod	_	AlignBegin=256832|AlignEnd=256924|GE=time|Gloss=time.Def|nWord=2|RX=N
 3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=257017|AlignEnd=257202|Gloss=PUNCT|nWord=3
-4	bàtà	bài	AUX	_	Aspect=.Hab|Person=3	0	root	_	AlignBegin=257202|AlignEnd=257387|GE=Neg.3Fem.Perf|Gloss=3Fem.Perf.Neg|nWord=4|RX=PART.Neg.PNG.TAM
+4	bàtà	bài	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=257202|AlignEnd=257387|GE=Neg.3Fem.Perf|Gloss=3Fem.Perf.Neg|nWord=4|RX=PART.Neg.PNG.TAM
 5	cìka	cik-	VERB	_	_	4	comp:aux	_	AlignBegin=257387|AlignEnd=257572|GE=fill|Gloss=fill|nWord=5|RX=V3
 6	hakà	hakà	ADV	_	_	4	mod	_	AlignBegin=257572|AlignEnd=257757|GE=like_this|Gloss=like_this|nWord=6|RX=ADV
 7	ba	ba	PART	_	Polarity=Neg	4	mod	_	AlignBegin=257757|AlignEnd=257942|GE=Neg|Gloss=Neg|nWord=7|RX=PART.Neg
@@ -2218,7 +2218,7 @@
 # text = muː bàmù sanìː ba //
 # text_en =  We, we didn't know.
 1	muː	muː	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	dislocated@subj	_	AlignBegin=263072|AlignEnd=263219|GE=1Plur|Gloss=1Plur.Nom|nWord=1|RX=PRO.IDP
-2	bàmù	bài	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=263219|AlignEnd=263366|GE=Neg.1Plur.Perf|Gloss=1Plur.Perf.Neg|nWord=2|RX=PART.Neg.PNG.TAM
+2	bàmù	bài	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	AlignBegin=263219|AlignEnd=263366|GE=Neg.1Plur.Perf|Gloss=1Plur.Perf.Neg|nWord=2|RX=PART.Neg.PNG.TAM
 3	sanìː	sanìː	VERB	_	_	2	comp:obj	_	AlignBegin=263366|AlignEnd=263513|GE=know|Gloss=know|nWord=3|RX=V*
 4	ba	ba	PART	_	Polarity=Neg	2	mod	_	AlignBegin=263513|AlignEnd=263660|GE=Neg|Gloss=Neg|nWord=4|RX=PART.Neg
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=263660|AlignEnd=263808|Gloss=PUNCT|nWord=5
@@ -2250,7 +2250,7 @@
 1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=265608|AlignEnd=265764|GE=well|Gloss=well|nWord=1|RX=DM
 2	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=265764|AlignEnd=265920|GE=3Masc.|Gloss=3Masc.Nom|nWord=2|RX=PRO.IDP
 3	nèː	neː	PART	_	_	0	root	_	AlignBegin=265920|AlignEnd=266076|GE=Ident/Foc|Gloss=Ident/Foc|nWord=3|RX=PART.SYNT
-4	zân	zaː	AUX	_	Number=Sing|Person=1	3	comp:cleft	_	AlignBegin=266076|AlignEnd=266232|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=4|RX=TAM.PNG
+4	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	3	comp:cleft	_	AlignBegin=266076|AlignEnd=266232|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=4|RX=TAM.PNG
 5	iyà	iyàː	VERB	_	_	4	comp:aux@relcl	_	AlignBegin=266232|AlignEnd=266388|GE=can|Gloss=can|nWord=5|RX=V1.AUX
 6	tunàːwaː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=266388|AlignEnd=266466|GE=think|Gloss=think.Vnoun|nWord=6|RX=V1
 7	à	à	ADP	_	_	4	mod	_	AlignBegin=266544|AlignEnd=266700|GE=at|Gloss=at|nWord=7|RX=PREP
@@ -2302,7 +2302,7 @@
 # text_en =  When we met the bull, I got lost because of that.
 1	loːkàcîn	loːkàciː	NOUN	_	Definite=Def	9	mod	_	AlignBegin=271336|AlignEnd=271427|GE=time|Gloss=time.Def|nWord=1|RX=N
 2	dà	dà	SCONJ	_	_	1	mod@relcl	_	AlignBegin=271518|AlignEnd=271700|GE=COMP|Gloss=COMP|nWord=2|RX=CONJ/HOM
-3	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	2	comp:obj	_	AlignBegin=271700|AlignEnd=271882|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=3|RX=PNG.TAM
+3	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	2	comp:obj	_	AlignBegin=271700|AlignEnd=271882|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=3|RX=PNG.TAM
 4	saːmù	saːm-	VERB	_	_	3	comp:aux	_	AlignBegin=271882|AlignEnd=272064|GE=get|Gloss=get|nWord=4|RX=V2
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=272064|AlignEnd=272246|Gloss=PUNCT|nWord=5
 6	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	dislocated@subj	_	AlignBegin=272246|AlignEnd=272428|GE=1Sing|Gloss=1Sing.Nom|nWord=6|RX=PRO.IDP
@@ -2327,12 +2327,12 @@
 1	dàgà	dàgà	ADP	_	_	4	mod	_	AlignBegin=274422|AlignEnd=274602|GE=from|Gloss=from|nWord=1|RX=PREP
 2	baːya	baːya	ADV	_	_	1	comp:obj	_	AlignBegin=274602|AlignEnd=274782|GE=behind|Gloss=behind|nWord=2|RX=ADV
 3	dai	dai	PART	_	_	1	mod	_	AlignBegin=274782|AlignEnd=274962|GE=indeed|Gloss=indeed|nWord=3|RX=PART.TOP
-4	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	0	root	_	AlignBegin=274962|AlignEnd=275142|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=4|RX=PNG.TAM
+4	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	0	root	_	AlignBegin=274962|AlignEnd=275142|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=4|RX=PNG.TAM
 5	koːmàː	koːm-	VERB	_	_	4	comp:aux	_	AlignBegin=275142|AlignEnd=275322|GE=go_back|Gloss=go_back|nWord=5|RX=V1
-6	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	4	conj:svc	_	AlignBegin=275322|AlignEnd=275502|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=6|RX=PNG.TAM
+6	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	4	conj:svc	_	AlignBegin=275322|AlignEnd=275502|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=6|RX=PNG.TAM
 7	taːrà	taːr-	VERB	_	_	6	comp:aux	_	AlignBegin=275502|AlignEnd=275682|GE=gather|Gloss=gather|nWord=7|RX=V1
 8	mutàːneː	mùtûːm	NOUN	_	Number=Plur	7	comp:obj	_	AlignBegin=275682|AlignEnd=275772|GE=person|Gloss=person.Plur|nWord=8|RX=N
-9	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	6	conj:svc	_	AlignBegin=276042|AlignEnd=276132|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=10|RX=PNG.TAM
+9	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	6	conj:svc	_	AlignBegin=276042|AlignEnd=276132|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=10|RX=PNG.TAM
 10	neːmoː	neːm-	VERB	_	_	9	comp:aux	_	AlignBegin=276132|AlignEnd=276222|Gloss=look_for.DIR|nWord=10
 11	nì	nì	PRON	_	Number=Sing|Person=1	10	comp:obj	_	AlignBegin=276402|AlignEnd=276492|GE=1Sing|Gloss=1Sing|nWord=12|RX=PRO.OBJ
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=276492|AlignEnd=276582|Gloss=PUNCT|nWord=12
@@ -2349,7 +2349,7 @@
 3	wânnan	wânnan	DET	_	Definite=Def	4	det	_	AlignBegin=277362|AlignEnd=277510|GE=Def|Gloss=Def|nWord=3|RX=PRO.DEICT
 4	daːjìː	daːjìː	NOUN	_	_	1	comp:obj	_	AlignBegin=277510|AlignEnd=277658|GE=bush|Gloss=bush|nWord=4|RX=N
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=277658|AlignEnd=277806|Gloss=PUNCT|nWord=5
-6	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	1	comp:pred	_	AlignBegin=277806|AlignEnd=277954|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=6|RX=PNG.TAM
+6	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	1	comp:pred	_	AlignBegin=277806|AlignEnd=277954|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=6|RX=PNG.TAM
 7	daːwoː	daːw-	VERB	_	_	6	comp:aux	_	AlignBegin=277954|AlignEnd=278102|GE=return.DIR|Gloss=return.DIR|nWord=7|RX=V6
 8	dà	dà	ADP	_	_	7	comp:obl	_	AlignBegin=278102|AlignEnd=278250|GE=with|Gloss=with|nWord=8|RX=PREP/HOM
 9	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	AlignBegin=278250|AlignEnd=278398|GE=1Sing|Gloss=1Sing.Nom|nWord=9|RX=PRO.IDP
@@ -2428,7 +2428,7 @@
 10	yànzu	yànzu	ADV	_	_	6	mod	_	AlignBegin=286792|AlignEnd=286979|GE=now|Gloss=now|nWord=9|RX=ADV.DEICT
 11	|c	|c	PUNCT	_	_	12	_	_	AlignBegin=286979|AlignEnd=287166|Gloss=PUNCT|nWord=10
 12	wandà	wandà	PRON	_	_	4	conj:coord	_	AlignBegin=287166|AlignEnd=287353|GE=who|Gloss=who|nWord=11|RX=PRO.COMP
-13	kukèː	kèː	AUX	_	_	12	mod@relcl	_	AlignBegin=287353|AlignEnd=287540|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=12|RX=PNG.TAM
+13	kukèː	kèː	AUX	_	Aspect=Imp	12	mod@relcl	_	AlignBegin=287353|AlignEnd=287540|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=12|RX=PNG.TAM
 14	wânnan	wânnan	DET	_	_	15	det	_	AlignBegin=287540|AlignEnd=287727|GE=Def|Gloss=Def|nWord=13|RX=PRO.DEICT
 15	sànaː'àn	sànaː'àː	NOUN	_	_	13	comp:aux	_	AlignBegin=287727|AlignEnd=287789|GE=profession|Gloss=profession|nWord=14|RX=N
 16	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	15	compound	_	AlignBegin=287914|AlignEnd=287976|GE=farming|Gloss=farm.Vnoun|nWord=15|RX=N
@@ -2437,11 +2437,11 @@
 19	kèːnan	kèːnan	PART	_	_	18	mod@emp	_	AlignBegin=287851|AlignEnd=287914|GE=with|Gloss=Ident/Foc.Bkg|nWord=14|RX=PREP/HOM
 20	dà	dà	ADP	_	_	0	root	_	AlignBegin=287851|AlignEnd=287914|GE=with|Gloss=with|nWord=14|RX=PREP/HOM
 21	noːmàn	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	20	comp:obj	_	AlignBegin=287976|AlignEnd=288038|GE=farming|Gloss=farm.Vnoun.Def|nWord=15|RX=N
-22	ya	ya	AUX	_	_	20	comp:cleft	_	AlignBegin=288163|AlignEnd=288225|Gloss=3Masc.Perf.Bkg|nWord=16
+22	ya	ya	AUX	_	Aspect=Perf	20	comp:cleft	_	AlignBegin=288163|AlignEnd=288225|Gloss=3Masc.Perf.Bkg|nWord=16
 23	dòːgarà	doːgar-	VERB	_	_	22	comp:obj	_	AlignBegin=288225|AlignEnd=288288|GE=rely|Gloss=rely|nWord=16|RX=V3
 24	koː	koː	CCONJ	_	_	26	cc	_	AlignBegin=288382|AlignEnd=288475|Gloss=or|nWord=17
 25	kùwa	kùwa	PART	_	_	24	mod	_	AlignBegin=288537|AlignEnd=288599|Gloss=as_for|nWord=18
-26	yakàn	kàn	AUX	_	_	20	conj:coord	_	AlignBegin=288599|AlignEnd=288662|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=18|RX=PNG.TAM
+26	yakàn	kàn	AUX	_	Aspect=Hab	20	conj:coord	_	AlignBegin=288599|AlignEnd=288662|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=18|RX=PNG.TAM
 27	yi	yi	VERB	_	_	26	comp:obj	_	AlignBegin=288756|AlignEnd=288849|Gloss=do|nWord=19
 28	wani	wani	DET	_	Gender=Masc	29	det	_	AlignBegin=288911|AlignEnd=288973|Gloss=some.Masc|nWord=20
 29	àbù	àbù	NOUN	_	_	27	comp:obj@lvc	_	AlignBegin=288973|AlignEnd=289036|GE=thing|Gloss=thing|nWord=20|RX=N
@@ -2468,7 +2468,7 @@
 # text_en =  Er.. he does a little business.
 1	eː'àː	eː'àː	INTJ	_	_	3	discourse	_	AlignBegin=292790|AlignEnd=293000|GE=FILL|Gloss=FILL|nWord=1|RX=FILL
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=293000|AlignEnd=293210|Gloss=PUNCT|nWord=2
-3	yakàn	kàn	AUX	_	Person=3	0	root	_	AlignBegin=293210|AlignEnd=293420|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=3|RX=PNG.TAM
+3	yakàn	kàn	AUX	_	Aspect=Hab|Person=3	0	root	_	AlignBegin=293210|AlignEnd=293420|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=3|RX=PNG.TAM
 4	ɗan	ɗan	ADV	_	_	5	mod	_	AlignBegin=293420|AlignEnd=293630|GE=DIM|Gloss=little|nWord=4|RX=ADV
 5	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=293630|AlignEnd=293840|GE=do|Gloss=do|nWord=5|RX=V0
 6	kaːsuwancìː	kaːsuwancìː	NOUN	_	_	5	comp:obj@lvc	_	AlignBegin=293840|AlignEnd=294050|GE=business|Gloss=business|nWord=6|RX=N
@@ -2482,7 +2482,7 @@
 # text = tundà yakàn saːroː itàːceː < ìdan ya ganiː hakà mài àrhaː < wajen màːsu moːtòː < sai yà ss sayar̃ |c yà àbîn //
 # text_en =  As he cuts wood, if he sees something cheap with the lorry drivers then he ss. sells it and...
 1	tundà	tundà	SCONJ	_	_	18	mod	_	AlignBegin=294257|AlignEnd=294473|GE=since|Gloss=since|nWord=1|RX=CONJ
-2	yakàn	kàn	AUX	_	Person=3	1	comp:obj	_	AlignBegin=294473|AlignEnd=294689|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=2|RX=PNG.TAM
+2	yakàn	kàn	AUX	_	Aspect=Hab|Person=3	1	comp:obj	_	AlignBegin=294473|AlignEnd=294689|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=2|RX=PNG.TAM
 3	saːroː	saːr-	NOUN	_	_	2	comp:aux	_	AlignBegin=294689|AlignEnd=294905|GE=fell.DIR|Gloss=fell.DIR|nWord=3|RX=V6
 4	itàːceː	itàːceː	NOUN	_	_	3	comp:obj	_	AlignBegin=294905|AlignEnd=295121|GE=wood|Gloss=wood|nWord=4|RX=N
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=295121|AlignEnd=295337|Gloss=PUNCT|nWord=5
@@ -2498,11 +2498,11 @@
 15	moːtòː	moːtòː	NOUN	_	_	14	compound	_	AlignBegin=297281|AlignEnd=297497|GE=car|Gloss=car|nWord=15|RX=N
 16	<	<	PUNCT	_	_	13	punct	_	AlignBegin=297497|AlignEnd=297713|Gloss=PUNCT|nWord=16
 17	sai	sai	ADV	_	_	18	mod	_	AlignBegin=297713|AlignEnd=297929|GE=then|Gloss=then|nWord=17|RX=CONJ/HOM
-18	yà	à	AUX	_	Person=3	0	root	_	AlignBegin=297929|AlignEnd=298145|GE=3Masc.Aor|Gloss=3Masc.Aor|nWord=18|RX=PNG.TAM
+18	yà	à	AUX	_	Aspect=Aor|Person=3	0	root	_	AlignBegin=297929|AlignEnd=298145|GE=3Masc.Aor|Gloss=3Masc.Aor|nWord=18|RX=PNG.TAM
 19	ss	X	X	_	_	18	comp:aux	_	AlignBegin=298145|AlignEnd=298361|GE=X|Gloss=X|nWord=19|RX=X
 20	sayar̃	sayar̃	NOUN	_	_	19	conj:dicto	_	AlignBegin=298361|AlignEnd=298577|GE=sell.Cau|Gloss=sell.Cau|nWord=20|RX=V5
 21	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=298577|AlignEnd=298793|Gloss=PUNCT|nWord=21
-22	yà	à	AUX	_	Person=3	18	conj:svc	_	AlignBegin=298793|AlignEnd=299009|GE=3Masc.Aor|Gloss=3Masc.Aor|nWord=22|RX=PNG.TAM
+22	yà	à	AUX	_	Aspect=Aor|Person=3	18	conj:svc	_	AlignBegin=298793|AlignEnd=299009|GE=3Masc.Aor|Gloss=3Masc.Aor|nWord=22|RX=PNG.TAM
 23	àbîn	àbîn	NOUN	_	Definite=Def	22	comp:aux	_	AlignBegin=299009|AlignEnd=299117|GE=thing|Gloss=PUNCT|nWord=23|RX=N
 24	//	//	PUNCT	_	_	18	comp:aux	_	AlignBegin=299009|AlignEnd=299117|GE=PUNCT|Gloss=PUNCT|nWord=23|RX=PUNCT
 
@@ -2520,7 +2520,7 @@
 5	saːmùn	saːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=300353|AlignEnd=300471|GE=get|Gloss=get.Vnoun.Cons|nWord=29|RX=V2
 6	kuɗiː	kuɗiː	NOUN	_	_	5	comp:obj	_	AlignBegin=300589|AlignEnd=300825|GE=money|Gloss=money|nWord=30|RX=N
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=301061|AlignEnd=301297|GE=COMP|Gloss=COMP|nWord=32|RX=CONJ/HOM
-8	zâi	zaː	AUX	_	Person=3	7	comp:obj	_	AlignBegin=301297|AlignEnd=301533|GE=Fut.3Masc.|Gloss=3Masc.Fut|nWord=33|RX=TAM.PNG
+8	zâi	zaː	AUX	_	Person=3|Tense=Fut	7	comp:obj	_	AlignBegin=301297|AlignEnd=301533|GE=Fut.3Masc.|Gloss=3Masc.Fut|nWord=33|RX=TAM.PNG
 9	sàyi	say-	NOUN	_	_	8	comp:aux	_	AlignBegin=301533|AlignEnd=301769|GE=buy|Gloss=buy|nWord=34|RX=V2
 10	taːkìː	taːkìː	NOUN	_	_	9	compound	_	AlignBegin=301769|AlignEnd=302005|GE=manure|Gloss=manure|nWord=35|RX=N
 11	dà	dà	CCONJ	_	_	12	cc	_	AlignBegin=302241|AlignEnd=302477|GE=with|Gloss=with|nWord=37|RX=PREP/HOM
@@ -2540,7 +2540,7 @@
 3	har̃kàn	har̃kàn	NOUN	_	Definite=Cons	2	conj:appos	_	AlignBegin=303510|AlignEnd=303586|GE=profession|Gloss=profession.Cons|nWord=3|RX=N
 4	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	compound	_	AlignBegin=303662|AlignEnd=303814|GE=farming|Gloss=farm.Vnoun|nWord=4|RX=N
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=303814|AlignEnd=303966|Gloss=PUNCT|nWord=5
-6	yaː	yaː	AUX	_	Person=3	0	root	_	AlignBegin=303966|AlignEnd=304118|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=6|RX=PNG.TAM
+6	yaː	yaː	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=303966|AlignEnd=304118|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=6|RX=PNG.TAM
 7	kasànceː	kasant-	VERB	_	_	6	comp:aux	_	AlignBegin=304118|AlignEnd=304270|GE=become|Gloss=become|nWord=7|RX=V4
 8	à	à	ADP	_	_	7	mod	_	AlignBegin=304270|AlignEnd=304422|GE=at|Gloss=at|nWord=8|RX=PREP
 9	yànzu	yànzu	ADV	_	_	8	comp:obj	_	AlignBegin=304422|AlignEnd=304574|GE=now|Gloss=now|nWord=9|RX=ADV.DEICT
@@ -2573,7 +2573,7 @@
 3	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	compound:obj	_	AlignBegin=307018|AlignEnd=307338|GE=farming|Gloss=farm.Vnoun|nWord=3|RX=N
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=307338|AlignEnd=307658|Gloss=PUNCT|nWord=4
 5	àː	àː	INTJ	_	_	6	discourse	_	AlignBegin=307658|AlignEnd=307978|GE=FILL|Gloss=FILL|nWord=5|RX=FILL
-6	yakàn	kàn	AUX	_	Definite=Cons|Person=3	0	root	_	AlignBegin=308298|AlignEnd=308618|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=7|RX=PNG.TAM
+6	yakàn	kàn	AUX	_	Aspect=Hab|Definite=Cons|Person=3	0	root	_	AlignBegin=308298|AlignEnd=308618|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=7|RX=PNG.TAM
 7	kasànceː	kasant-	VERB	_	_	6	comp:aux	_	AlignBegin=308618|AlignEnd=308938|GE=become|Gloss=become|nWord=8|RX=V4
 8	kàman	kàman	ADP	_	_	7	comp:pred	_	AlignBegin=308938|AlignEnd=309258|GE=like|Gloss=like|nWord=9|RX=PREP
 9	noːmaː	noːm-	VERB	_	ExtPos=NOUN|Number=Plur|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=309258|AlignEnd=309578|GE=farming|Gloss=farm.Vnoun|nWord=10|RX=N
@@ -2587,7 +2587,7 @@
 # phonetic_text = yakàn yi / irìː -n na / daːwàː / irìː -n na / àːːː / masàr̃aː / irìː -n na / waːkeː / dà dai sauraː -n -sù //
 # text = yakàn yi irìn na daːwàː |c irìn na àː masàr̃aː |c irìn na waːkeː |c dà dai sauran =sù //
 # text_en = It is .. like er.. guinea-corn like er.. maize like er.. beans and.. etc.
-1	yakàn	kàn	AUX	_	Person=3	0	root	_	AlignBegin=310408|AlignEnd=310707|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=1|RX=PNG.TAM
+1	yakàn	kàn	AUX	_	Aspect=Hab|Person=3	0	root	_	AlignBegin=310408|AlignEnd=310707|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=1|RX=PNG.TAM
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=310707|AlignEnd=311006|GE=do|Gloss=do|nWord=2|RX=V0
 3	irìn	irìː	NOUN	_	Definite=Def	2	comp:obj@lvc	_	AlignBegin=311305|AlignEnd=311455|GE=type|Gloss=type.Def|nWord=4|RX=N
 4	na	na	PART	_	Definite=Cons	3	mod	_	AlignBegin=311604|AlignEnd=311903|GE=Cons|Gloss=Cons|nWord=5|RX=PART.SYNT
@@ -2687,7 +2687,7 @@
 # text_en =  Because when I think of it, er.. over the past two years, somebody, he alone he did this farming in the bush.
 1	dan	dan	ADV	_	_	16	discourse	_	AlignBegin=329615|AlignEnd=329809|GE=because|Gloss=because|nWord=1|RX=CONJ
 2	ìdan	ìdan	SCONJ	_	_	16	mod	_	AlignBegin=329809|AlignEnd=330003|GE=if|Gloss=if|nWord=2|RX=CONJ
-3	zân	zaː	AUX	_	Number=Sing|Person=1	2	comp:obj	_	AlignBegin=330003|AlignEnd=330197|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=3|RX=TAM.PNG
+3	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	2	comp:obj	_	AlignBegin=330003|AlignEnd=330197|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=3|RX=TAM.PNG
 4	iyà	iyàː	AUX	_	_	3	comp:aux@relcl	_	AlignBegin=330197|AlignEnd=330391|GE=can|Gloss=can|nWord=4|RX=V1.AUX
 5	tunàːwaː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=330391|AlignEnd=330488|GE=think|Gloss=think.Vnoun|nWord=5|RX=V1
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=330585|AlignEnd=330779|Gloss=PUNCT|nWord=6
@@ -2755,7 +2755,7 @@
 4	kaɗai	kaɗai	ADV	_	_	3	mod	_	AlignBegin=340817|AlignEnd=341039|GE=only|Gloss=only|nWord=4|RX=ADV
 5	nèː	neː	PART	_	_	0	root	_	AlignBegin=341039|AlignEnd=341261|GE=Ident/Foc|Gloss=Ident/Foc|nWord=5|RX=PART.SYNT
 6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=341261|AlignEnd=341483|Gloss=PUNCT|nWord=6
-7	ya	ya	AUX	_	Person=3	5	comp:cleft	_	AlignBegin=341483|AlignEnd=341705|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bkg|nWord=7|RX=PNG.TAM
+7	ya	ya	AUX	_	Aspect=Perf|Person=3	5	comp:cleft	_	AlignBegin=341483|AlignEnd=341705|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bkg|nWord=7|RX=PNG.TAM
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=341705|AlignEnd=341927|Gloss=PUNCT|nWord=8
 9	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	7	conj:dicto	_	AlignBegin=341927|AlignEnd=342149|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=9|RX=PNG.TAM
 10	shuːkà	shuːk-	VERB	_	_	9	comp:aux	_	AlignBegin=342149|AlignEnd=342371|GE=harvest|Gloss=harvest|nWord=10|RX=V1
@@ -2797,7 +2797,7 @@
 10	sunàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=346136|AlignEnd=346358|GE=3Plur.Imp|Gloss=3Plur.Imp|nWord=10|RX=PNG.TAM
 11	yinwàː	yinwàː	NOUN	_	_	10	comp:aux	_	AlignBegin=346358|AlignEnd=346580|GE=hunger|Gloss=hunger|nWord=11|RX=N
 12	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=346580|AlignEnd=346802|Gloss=PUNCT|nWord=12
-13	zaːsù	zaː	AUX	_	Number=Plur|Person=3	10	conj:coord	_	AlignBegin=346802|AlignEnd=347024|GE=Fut.3Plur|Gloss=3Plur.Fut|nWord=13|RX=TAM.PNG
+13	zaːsù	zaː	AUX	_	Number=Plur|Person=3|Tense=Fut	10	conj:coord	_	AlignBegin=346802|AlignEnd=347024|GE=Fut.3Plur|Gloss=3Plur.Fut|nWord=13|RX=TAM.PNG
 14	dingà	dingàː	VERB	_	_	13	conj:coord	_	AlignBegin=347024|AlignEnd=347246|GE=keep_on|Gloss=keep_on|nWord=14|RX=V1.AUX
 15	cînyè	cînyeː	VERB	_	Definite=Cons	14	comp:obj	_	AlignBegin=347246|AlignEnd=347468|GE=eat_up|Gloss=eat_up|nWord=15|RX=V4
 16	wânnan	wânnan	DET	_	Definite=Def	17	det	_	AlignBegin=347468|AlignEnd=347690|GE=Def|Gloss=Def|nWord=16|RX=PRO.DEICT
@@ -2837,15 +2837,15 @@
 6	kân	kân	ADP	_	_	5	comp:obj	_	AlignBegin=350997|AlignEnd=351264|GE=on|Gloss=on|nWord=5|RX=PREP
 7	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=351264|AlignEnd=351353|GE=farming|Gloss=farm.Vnoun.Cons|nWord=6|RX=N
 8	=mù	=mu	PRON	_	Number=Plur|Person=1|PronType=Prs	7	comp:obj	_	AlignBegin=351442|AlignEnd=351531|GE=1Plur|Gloss=1Plur|nWord=6|RX=PRO.POS
-9	mukàn	kàn	AUX	_	Definite=Cons|Number=Plur|Person=1	0	root	_	AlignBegin=351531|AlignEnd=351798|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=7|RX=PNG.TAM
+9	mukàn	kàn	AUX	_	Aspect=Hab|Definite=Cons|Number=Plur|Person=1	0	root	_	AlignBegin=351531|AlignEnd=351798|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=7|RX=PNG.TAM
 10	noːmà	noːm-	NOUN	_	_	9	mod	_	AlignBegin=351798|AlignEnd=352065|GE=farm|Gloss=farm|nWord=8|RX=V1
 11	waːkeː	waːkeː	NOUN	_	_	10	comp:obj	_	AlignBegin=352332|AlignEnd=352599|GE=beans|Gloss=beans|nWord=10|RX=N
 12	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=352599|AlignEnd=352866|Gloss=PUNCT|nWord=11
-13	mukàn	kàn	AUX	_	Definite=Cons|Number=Plur|Person=1	11	conj:coord	_	AlignBegin=352866|AlignEnd=353133|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=12|RX=PNG.TAM
+13	mukàn	kàn	AUX	_	Aspect=Hab|Definite=Cons|Number=Plur|Person=1	11	conj:coord	_	AlignBegin=352866|AlignEnd=353133|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=12|RX=PNG.TAM
 14	noːmà	noːm-	VERB	_	_	13	comp:aux	_	AlignBegin=353133|AlignEnd=353400|GE=farm|Gloss=farm|nWord=13|RX=V1
 15	masàr̃aː	masàr̃aː	NOUN	_	_	14	comp:obj	_	AlignBegin=353400|AlignEnd=353667|GE=maize|Gloss=maize|nWord=14|RX=N
 16	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=353667|AlignEnd=353934|Gloss=PUNCT|nWord=15
-17	mukàn	kàn	AUX	_	Definite=Cons|Number=Plur|Person=1	13	conj:coord	_	AlignBegin=353934|AlignEnd=354201|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=16|RX=PNG.TAM
+17	mukàn	kàn	AUX	_	Aspect=Hab|Definite=Cons|Number=Plur|Person=1	13	conj:coord	_	AlignBegin=353934|AlignEnd=354201|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=16|RX=PNG.TAM
 18	noːmà	noːmàː	VERB	_	_	17	comp:aux	_	AlignBegin=354201|AlignEnd=354468|GE=farm|Gloss=farm|nWord=17|RX=V1
 19	daːwàː	daːwàː	NOUN	_	_	18	comp:goal	_	AlignBegin=354468|AlignEnd=354735|GE=guinea-corn|Gloss=guinea-corn|nWord=18|RX=N
 20	//	//	PUNCT	_	_	9	punct	_	AlignBegin=354735|AlignEnd=354996|Gloss=PUNCT|nWord=19
@@ -2861,7 +2861,7 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=355696|AlignEnd=355908|Gloss=PUNCT|nWord=2
 3	daːwàː	daːwàː	NOUN	_	_	5	dislocated@comp	_	AlignBegin=355908|AlignEnd=356120|GE=guinea-corn|Gloss=guinea-corn|nWord=3|RX=N
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=356120|AlignEnd=356332|Gloss=PUNCT|nWord=4
-5	mukàn	kàn	AUX	_	Definite=Cons|Number=Plur|Person=1	0	root	_	AlignBegin=356332|AlignEnd=356544|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=5|RX=PNG.TAM
+5	mukàn	kàn	AUX	_	Aspect=Hab|Definite=Cons|Number=Plur|Person=1	0	root	_	AlignBegin=356332|AlignEnd=356544|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=5|RX=PNG.TAM
 6	iyà	iyàː	VERB	_	_	5	comp:aux	_	AlignBegin=356544|AlignEnd=356756|GE=can|Gloss=can|nWord=6|RX=V1.AUX
 7	saːmùn	saːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=356756|AlignEnd=356862|GE=get|Gloss=get.Vnoun.Cons|nWord=7|RX=V2|wordform=saːmù
 8	bùhuː	bùhuː	NOUN	_	_	7	comp:obj	_	AlignBegin=356968|AlignEnd=357180|GE=sack|Gloss=sack|nWord=8|RX=N
@@ -2882,7 +2882,7 @@
 3	masàr̃aː	masàr̃aː	NOUN	_	_	6	dislocated@comp	_	AlignBegin=359060|AlignEnd=359282|GE=maize|Gloss=maize|nWord=3|RX=N
 4	kuma	kuma	PART	_	_	3	mod	_	AlignBegin=359282|AlignEnd=359504|GE=too|Gloss=also|nWord=4|RX=PART.TOP
 5	<	<	PUNCT	_	_	6	punct	_	AlignBegin=359504|AlignEnd=359726|Gloss=PUNCT|nWord=5
-6	mukàn	kàn	AUX	_	Definite=Cons|Number=Plur|Person=1	0	root	_	AlignBegin=359726|AlignEnd=359948|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=6|RX=PNG.TAM
+6	mukàn	kàn	AUX	_	Aspect=Hab|Definite=Cons|Number=Plur|Person=1	0	root	_	AlignBegin=359726|AlignEnd=359948|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=6|RX=PNG.TAM
 7	iyà	iyàː	VERB	_	_	6	comp:aux	_	AlignBegin=359948|AlignEnd=360170|GE=can|Gloss=can|nWord=7|RX=V1.AUX
 8	saːmùn	saːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=360170|AlignEnd=360281|GE=get|Gloss=get.Vnoun.Cons|nWord=8|RX=V2
 9	kàman	kàman	ADP	_	_	10	discourse	_	AlignBegin=360392|AlignEnd=360614|GE=like|Gloss=like|nWord=9|RX=PREP
@@ -2906,33 +2906,33 @@
 4	wânnan	wânnan	DET	_	Definite=Def	5	det	_	AlignBegin=363550|AlignEnd=363720|GE=Def|Gloss=Def|nWord=4|RX=PRO.DEICT
 5	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	conj:appos	_	AlignBegin=363720|AlignEnd=363890|GE=farming|Gloss=farm.Vnoun|nWord=5|RX=N
 6	dà	dà	SCONJ	_	_	5	mod@relcl	_	AlignBegin=363890|AlignEnd=364060|GE=COMP|Gloss=COMP|nWord=6|RX=CONJ/HOM
-7	kukàn	kàn	AUX	_	Number=Plur|Person=2	6	comp:obj	_	AlignBegin=364060|AlignEnd=364230|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=7|RX=PNG.TAM
+7	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	6	comp:obj	_	AlignBegin=364060|AlignEnd=364230|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=7|RX=PNG.TAM
 8	yi	yi	VERB	_	_	7	comp:obj	_	AlignBegin=364230|AlignEnd=364400|GE=do|Gloss=do|nWord=8|RX=V0
-9	kukàn	kàn	AUX	_	Number=Plur|Person=2	7	conj:coord	_	AlignBegin=364400|AlignEnd=364485|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=9|RX=PNG.TAM
+9	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	7	conj:coord	_	AlignBegin=364400|AlignEnd=364485|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=9|RX=PNG.TAM
 10	saːmù	saːmù	VERB	_	_	9	comp:aux	_	AlignBegin=364570|AlignEnd=364627|GE=get|Gloss=get|nWord=10|RX=V2
 11	waɗànnan	waɗànnan	DET	_	Definite=Def|Number=Plur	12	det	_	AlignBegin=364485|AlignEnd=364570|GE=Def|Gloss=Def|nWord=9|RX=PRO.DEICT
 12	buhunàː	bùhuː	NOUN	_	Number=Plur	10	comp:obj	_	AlignBegin=364627|AlignEnd=364684|GE=sack.Plur|Gloss=sack.Plur|nWord=10|RX=N
-13	kukàn	kàn	AUX	_	Number=Plur|Person=2	0	root	_	AlignBegin=365250|AlignEnd=365284|Gloss=2Plur.Hab|nWord=14
-14	sar̃r̃àfaː	sar̃r̃àfaː	VERB	_	Number=Plur|Person=2	13	comp:aux	_	AlignBegin=365284|AlignEnd=365318|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=14|RX=PNG.TAM
+13	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	0	root	_	AlignBegin=365250|AlignEnd=365284|Gloss=2Plur.Hab|nWord=14
+14	sar̃r̃àfaː	sar̃r̃àfaː	VERB	_	Aspect=Hab|Number=Plur|Person=2	13	comp:aux	_	AlignBegin=365284|AlignEnd=365318|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=14|RX=PNG.TAM
 15	su	su	PRON	_	Number=Plur|Person=3	14	comp:obj	_	AlignBegin=365318|AlignEnd=365352|GE=3Plur|Gloss=3Plur|nWord=14|RX=PRO.OBJ
 16	nèː	neː	PART	_	_	15	mod@emp	_	AlignBegin=365352|AlignEnd=365386|GE=Ident/Foc|Gloss=Ident/Foc|nWord=14|RX=PART.SYNT
 17	|c	|c	PUNCT	_	_	18	_	_	AlignBegin=365386|AlignEnd=365420|Gloss=PUNCT|nWord=14
-18	kù	à	AUX	_	Number=Plur|Person=2	13	conj:coord	_	AlignBegin=366439|AlignEnd=366567|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=20|RX=PNG.TAM
+18	kù	à	AUX	_	Aspect=Aor|Number=Plur|Person=2	13	conj:coord	_	AlignBegin=366439|AlignEnd=366567|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=20|RX=PNG.TAM
 19	fitar̃	fitar̃	VERB	_	_	18	comp:aux	_	AlignBegin=366567|AlignEnd=366695|GE=take_out.CAUS|Gloss=take_out.Cau|nWord=21|RX=V5
 20	dà	dà	ADP	_	_	19	comp:obl	_	AlignBegin=366695|AlignEnd=366823|GE=with|Gloss=with|nWord=22|RX=PREP/HOM
 21	su:	su:	PRON	_	Number=Plur|Person=3	20	comp:obj	_	AlignBegin=366823|AlignEnd=366951|GE=3Plur|Gloss=3Plur|nWord=23|RX=PRO.IDP
 22	|c	|c	PUNCT	_	_	23	_	_	AlignBegin=366951|AlignEnd=367079|Gloss=PUNCT|nWord=24
-23	kù	à	AUX	_	Number=Plur|Person=2	18	conj:coord	_	AlignBegin=367079|AlignEnd=367207|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=25|RX=PNG.TAM
+23	kù	à	AUX	_	Aspect=Aor|Number=Plur|Person=2	18	conj:coord	_	AlignBegin=367079|AlignEnd=367207|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=25|RX=PNG.TAM
 24	zoː	zoː	VERB	_	_	23	comp:aux	_	AlignBegin=367207|AlignEnd=367335|GE=go|Gloss=go|nWord=26|RX=V1
 25	can	can	ADV	_	Person=2	24	comp:goal	_	AlignBegin=367335|AlignEnd=367463|GE=Dist2|Gloss=Dist2|nWord=27|RX=ADV.DEICT
 26	kàːsuwaː	kàːsuwaː	NOUN	_	_	25	conj:appos	_	AlignBegin=367463|AlignEnd=367591|GE=market|Gloss=market|nWord=28|RX=N
-27	kù	à	AUX	_	Number=Plur|Person=2	23	conj:coord	_	AlignBegin=367591|AlignEnd=367719|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=29|RX=PNG.TAM
+27	kù	à	AUX	_	Aspect=Aor|Number=Plur|Person=2	23	conj:coord	_	AlignBegin=367591|AlignEnd=367719|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=29|RX=PNG.TAM
 28	sayar̃	sayar̃	VERB	_	_	27	comp:aux	_	AlignBegin=367719|AlignEnd=367847|GE=sell.CAUS|Gloss=sell.Cau|nWord=30|RX=V5
 29	koː	koː	CCONJ	_	_	31	cc	_	AlignBegin=367847|AlignEnd=367975|GE=or|Gloss=or|nWord=31|RX=CONJ
 30	kùwa	kùwa	PART	_	_	29	mod	_	AlignBegin=367975|AlignEnd=368103|GE=as_for|Gloss=as_for|nWord=32|RX=PART.TOP
-31	zaːsù	zaː	AUX	_	Number=Plur|Person=3	27	conj:coord	_	AlignBegin=368103|AlignEnd=368231|GE=Fut.3Plur|Gloss=3Plur.Fut|nWord=33|RX=TAM.PNG
+31	zaːsù	zaː	AUX	_	Number=Plur|Person=3|Tense=Fut	27	conj:coord	_	AlignBegin=368103|AlignEnd=368231|GE=Fut.3Plur|Gloss=3Plur.Fut|nWord=33|RX=TAM.PNG
 32	zoː	zoː	VERB	_	_	31	comp:aux	_	AlignBegin=368231|AlignEnd=368359|GE=come|Gloss=come|nWord=34|RX=V0
-33	sù	à	AUX	_	Number=Plur|Person=3	31	conj:coord	_	AlignBegin=368359|AlignEnd=368487|GE=3Plur.Aor|Gloss=3Plur.Aor|nWord=35|RX=PNG.TAM
+33	sù	à	AUX	_	Aspect=Aor|Number=Plur|Person=3	31	conj:coord	_	AlignBegin=368359|AlignEnd=368487|GE=3Plur.Aor|Gloss=3Plur.Aor|nWord=35|RX=PNG.TAM
 34	yi	yi	VERB	_	_	33	comp:aux	_	AlignBegin=368487|AlignEnd=368615|GE=do|Gloss=do|nWord=36|RX=V0
 35	ta	ta	PART	_	_	36	mod	_	AlignBegin=368615|AlignEnd=368743|GE=Iter|Gloss=Iter|nWord=37|RX=TAM
 36	sàyeː	sàyeː	VERB	_	_	34	comp:obj@lvc	_	AlignBegin=368743|AlignEnd=368871|GE=selling|Gloss=selling|nWord=38|RX=N.V5
@@ -2958,13 +2958,13 @@
 # phonetic_text = mukàn ɗiːbàː -i a / adàɗiː -n wandà zaːmù iyàː cîː //
 # text = mukàn ɗìːbi a~ || adàɗîn wandà zaːmù iyà cîː //
 # text_en =  We take th. the part that we will eat.
-1	mukàn	kàn	AUX	_	Definite=Cons|Number=Plur|Person=1	0	root	_	AlignBegin=369029|AlignEnd=369241|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=1|RX=PNG.TAM
+1	mukàn	kàn	AUX	_	Aspect=Hab|Definite=Cons|Number=Plur|Person=1	0	root	_	AlignBegin=369029|AlignEnd=369241|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=1|RX=PNG.TAM
 2	ɗìːbi	ɗiːb-	VERB	_	_	1	comp:aux	_	AlignBegin=369241|AlignEnd=369347|GE=scoop_out|Gloss=scoop_out|nWord=2|RX=V2*
 3	a~	a~	X	_	_	2	comp:obj	_	AlignBegin=369453|AlignEnd=369665|GE=er|Gloss=X|nWord=3|RX=FILL
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=369665|AlignEnd=369877|Gloss=PUNCT|nWord=4
 5	adàɗîn	adàɗiː	NOUN	_	Definite=Def	3	conj:dicto	_	AlignBegin=369877|AlignEnd=369983|GE=total|Gloss=total.Def|nWord=5|RX=N
 6	wandà	wandː	PRON	_	_	5	conj:appos@relcl	_	AlignBegin=370089|AlignEnd=370301|GE=which|Gloss=which|nWord=6|RX=PRO.COMP
-7	zaːmù	zaː	AUX	_	Number=Plur|Person=1	6	mod@relcl	_	AlignBegin=370301|AlignEnd=370513|GE=Fut.1Plur|Gloss=1Plur.Fut|nWord=7|RX=TAM.PNG
+7	zaːmù	zaː	AUX	_	Number=Plur|Person=1|Tense=Fut	6	mod@relcl	_	AlignBegin=370301|AlignEnd=370513|GE=Fut.1Plur|Gloss=1Plur.Fut|nWord=7|RX=TAM.PNG
 8	iyà	iyàː	VERB	_	_	7	comp:aux	_	AlignBegin=370513|AlignEnd=370725|GE=can|Gloss=can|nWord=8|RX=V1.AUX
 9	cîː	ci	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=370725|AlignEnd=370937|GE=eating|Gloss=eat.Vnoun|nWord=9|RX=N.V0
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=370937|AlignEnd=371145|Gloss=PUNCT|nWord=10
@@ -2980,17 +2980,17 @@
 2	mukà	kà	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=1	1	mod@relcl	_	AlignBegin=371677|AlignEnd=371875|GE=1Plur.Perf.Bkg|Gloss=1Plur.Perf.Bck|nWord=2|RX=PNG.TAM
 3	ɗìːbi	ɗiːb-	VERB	_	_	2	comp:aux	_	AlignBegin=371875|AlignEnd=371974|GE=scoop_out|Gloss=scoop_out|nWord=3|RX=V2*
 4	wandà	wandà	PRON	_	PronType=Rel	3	comp:obj	_	AlignBegin=372073|AlignEnd=372271|GE=which|Gloss=which|nWord=4|RX=PRO.COMP
-5	zaːmù	zaː	AUX	_	Number=Plur|Person=1	4	mod@relcl	_	AlignBegin=372271|AlignEnd=372469|GE=Fut.1Plur|Gloss=1Plur.Fut|nWord=5|RX=TAM.PNG
+5	zaːmù	zaː	AUX	_	Number=Plur|Person=1|Tense=Fut	4	mod@relcl	_	AlignBegin=372271|AlignEnd=372469|GE=Fut.1Plur|Gloss=1Plur.Fut|nWord=5|RX=TAM.PNG
 6	iyà	iyà	VERB	_	_	5	comp:aux	_	AlignBegin=372469|AlignEnd=372667|GE=can|Gloss=can|nWord=6|RX=V1.AUX
 7	cîː	ci	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=372667|AlignEnd=372865|GE=eating|Gloss=eat.Vnoun|nWord=7|RX=N.V0
 8	<	<	PUNCT	_	_	1	punct	_	AlignBegin=372865|AlignEnd=373063|Gloss=PUNCT|nWord=8
 9	sai	sai	ADV	_	_	10	mod	_	AlignBegin=373063|AlignEnd=373261|GE=then|Gloss=then|nWord=9|RX=CONJ/HOM
-10	mù	à	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=373261|AlignEnd=373459|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=10|RX=PNG.TAM
+10	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=373261|AlignEnd=373459|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=10|RX=PNG.TAM
 11	ɗàuki	ɗauk-	VERB	_	_	10	comp:aux	_	AlignBegin=373459|AlignEnd=373558|GE=take|Gloss=take|nWord=11|RX=V2
 12	sauraː	sauraː	NOUN	_	_	11	comp:obj	_	AlignBegin=373657|AlignEnd=373855|GE=remainder|Gloss=remainder|nWord=12|RX=N
 13	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=373855|AlignEnd=374053|Gloss=PUNCT|nWord=13
 14	sai	sai	ADV	_	_	15	mod	_	AlignBegin=374053|AlignEnd=374152|GE=then|Gloss=then|nWord=14|RX=CONJ/HOM
-15	mù	à	AUX	_	Number=Plur|Person=2	10	conj:coord	_	AlignBegin=374152|AlignEnd=374251|Gloss=2Plur.Aor|nWord=14
+15	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=2	10	conj:coord	_	AlignBegin=374152|AlignEnd=374251|Gloss=2Plur.Aor|nWord=14
 16	sayar̃	say-	VERB	_	_	15	comp:aux	_	AlignBegin=374449|AlignEnd=374548|GE=sell.Cau|Gloss=sell.Cau|nWord=16|RX=V5
 17	//	//	PUNCT	_	_	10	punct	_	AlignBegin=374548|AlignEnd=374647|Gloss=PUNCT|nWord=16
 
@@ -3022,10 +3022,10 @@
 2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=376610|AlignEnd=376770|GE=too|Gloss=also|nWord=2|RX=PART.TOP
 3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=376770|AlignEnd=376931|Gloss=PUNCT|nWord=3
 4	mutàːneː	mùtûm	NOUN	_	Number=Plur	1	conj:appos	_	AlignBegin=376931|AlignEnd=377025|GE=person|Gloss=person.Plur|nWord=4|RX=N
-5	zaːsù	zaː	AUX	_	ExtPos=NOUN|Number=Plur|Person=3|VerbForm=Vnoun	0	root	_	AlignBegin=377120|AlignEnd=377309|GE=Fut.3Plur|Gloss=3Plur.Fut|nWord=5|RX=TAM.PNG
+5	zaːsù	zaː	AUX	_	ExtPos=NOUN|Number=Plur|Person=3|Tense=Fut|VerbForm=Vnoun	0	root	_	AlignBegin=377120|AlignEnd=377309|GE=Fut.3Plur|Gloss=3Plur.Fut|nWord=5|RX=TAM.PNG
 6	zoː	zoː	PRON	_	_	5	comp:aux	_	AlignBegin=377309|AlignEnd=377498|GE=come|Gloss=come|nWord=6|RX=V0
 7	hakà	hakà	ADV	_	_	6	mod	_	AlignBegin=377498|AlignEnd=377687|GE=like_this|Gloss=like_this|nWord=7|RX=ADV
-8	sù	à	AUX	_	Number=Plur|Person=3	5	conj:coord	_	AlignBegin=377687|AlignEnd=377876|GE=3Plur.Aor|Gloss=3Plur.Aor|nWord=8|RX=PNG.TAM
+8	sù	à	AUX	_	Aspect=Aor|Number=Plur|Person=3	5	conj:coord	_	AlignBegin=377687|AlignEnd=377876|GE=3Plur.Aor|Gloss=3Plur.Aor|nWord=8|RX=PNG.TAM
 9	sàyaː	say-	NOUN	_	_	8	comp:obj	_	AlignBegin=377876|AlignEnd=378065|GE=buy|Gloss=buy|nWord=9|RX=V2
 10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=378065|AlignEnd=378257|Gloss=PUNCT|nWord=10
 
@@ -3039,11 +3039,11 @@
 1	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	dislocated@subj	_	AlignBegin=378257|AlignEnd=378345|GE=3Plur|Gloss=2Plur.Nom|nWord=1|RX=PRO.IDP
 2	maː	maː	ADV	_	_	1	mod	_	AlignBegin=378345|AlignEnd=378433|GE=even|Gloss=even|nWord=2|RX=PART.TOP
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=378433|AlignEnd=378522|Gloss=PUNCT|nWord=3
-4	sù	à	AUX	_	Number=Plur|Person=3	0	root	_	AlignBegin=378522|AlignEnd=378656|GE=3Plur.Aor|Gloss=3Plur.Aor|nWord=4|RX=PNG.TAM
+4	sù	à	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=378522|AlignEnd=378656|GE=3Plur.Aor|Gloss=3Plur.Aor|nWord=4|RX=PNG.TAM
 5	sàːmi	saːm-	VERB	_	_	4	comp:aux	_	AlignBegin=378656|AlignEnd=378723|GE=get|Gloss=get|nWord=5|RX=V2
 6	àbin	àbù	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=378790|AlignEnd=378857|GE=thing|Gloss=thing.Cons|nWord=6|RX=N
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=378924|AlignEnd=379058|GE=COMP|Gloss=COMP|nWord=7|RX=CONJ/HOM
-8	zaːsù	zaː	AUX	_	Number=Plur|Person=3	7	comp:obj	_	AlignBegin=379058|AlignEnd=379192|GE=Fut.3Plur|Gloss=3Plur.Fut|nWord=8|RX=TAM.PNG
+8	zaːsù	zaː	AUX	_	Number=Plur|Person=3|Tense=Fut	7	comp:obj	_	AlignBegin=379058|AlignEnd=379192|GE=Fut.3Plur|Gloss=3Plur.Fut|nWord=8|RX=TAM.PNG
 9	ci	ci	DET	_	_	8	comp:aux	_	AlignBegin=379192|AlignEnd=379326|GE=eat|Gloss=eat|nWord=9|RX=V0
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=379326|AlignEnd=379462|Gloss=PUNCT|nWord=10
 
@@ -3056,14 +3056,14 @@
 # text_en = Well when you have taken those that y... you eat at home, and those that you sell, after that then, if God takes you to the following year, did you do some other farming before bringing the guinea-corn home at that time, or before then, did you do some dry season farming?
 1	tòː	tòː	PART	_	_	37	discourse	_	AlignBegin=380371|AlignEnd=380546|GE=well|Gloss=well|nWord=1|RX=DM
 2	ìdan	ìdan	SCONJ	_	_	37	mod	_	AlignBegin=380546|AlignEnd=380721|GE=if|Gloss=if|nWord=2|RX=CONJ
-3	kukà	kà	AUX	_	Number=Plur|Person=2	2	comp:obj	_	AlignBegin=380721|AlignEnd=380896|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=3|RX=PNG.TAM
+3	kukà	kà	AUX	_	Aspect=Imp|Number=Plur|Person=2	2	comp:obj	_	AlignBegin=380721|AlignEnd=380896|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=3|RX=PNG.TAM
 4	ɗaukà	ɗaukàː	VERB	_	_	3	comp:aux	_	AlignBegin=380896|AlignEnd=381071|GE=taking|Gloss=taking|nWord=4|RX=N.V2
 5	waɗànnan	waɗànnan	PRON	_	Definite=Def|Number=Plur	4	comp:obj	_	AlignBegin=381071|AlignEnd=381246|GE=Def|Gloss=Def|nWord=5|RX=PRO.DEICT
 6	ɗîn	ɗin	DET	_	Definite=Def	5	det	_	AlignBegin=381246|AlignEnd=381421|GE=Def|Gloss=of.Def|nWord=6|RX=PART
 7	wandà	wandà	PRON	_	PronType=Rel	5	conj:appos@relcl	_	AlignBegin=381421|AlignEnd=381596|GE=which|Gloss=which|nWord=7|RX=PRO.COMP
 8	k~	X	X	_	_	7	mod@relcl	_	AlignBegin=381596|AlignEnd=381771|GE=kk|Gloss=HESIT|nWord=8|RX=HESIT
 9	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=381771|AlignEnd=381946|Gloss=PUNCT|nWord=9
-10	kukèː	kukèː	AUX	_	Number=Plur|Person=2	8	conj:dicto	_	AlignBegin=381946|AlignEnd=382121|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=10|RX=PNG.TAM
+10	kukèː	kukèː	AUX	_	Aspect=Imp|Number=Plur|Person=2	8	conj:dicto	_	AlignBegin=381946|AlignEnd=382121|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=10|RX=PNG.TAM
 11	cîː	ci	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	10	comp:aux	_	AlignBegin=382121|AlignEnd=382296|GE=eating|Gloss=eat.Vnoun|nWord=11|RX=N.V0
 12	à	à	ADP	_	_	11	mod	_	AlignBegin=382296|AlignEnd=382471|GE=at|Gloss=at|nWord=12|RX=PREP
 13	nan	nan	ADV	_	Definite=Def	12	comp:obj	_	AlignBegin=382471|AlignEnd=382646|GE=Def|Gloss=Def|nWord=13|RX=ADV.DEICT
@@ -3072,7 +3072,7 @@
 16	dà	dà	CCONJ	_	_	18	cc	_	AlignBegin=382996|AlignEnd=383171|GE=and|Gloss=and|nWord=16|RX=CONJ/HOM
 17	kuma	kuma	PART	_	_	16	mod	_	AlignBegin=383171|AlignEnd=383346|GE=too|Gloss=too|nWord=17|RX=PART.TOP
 18	wandà	wandà	PRON	_	_	5	conj:coord	_	AlignBegin=383346|AlignEnd=383521|GE=which|Gloss=which|nWord=18|RX=PRO.COMP
-19	zaːkù	zaː	AUX	_	Number=Plur|Person=2	18	mod@relcl	_	AlignBegin=383521|AlignEnd=383696|GE=Fut.2Plur|Gloss=2Plur.Fut|nWord=19|RX=TAM.PNG
+19	zaːkù	zaː	AUX	_	Number=Plur|Person=2|Tense=Fut	18	mod@relcl	_	AlignBegin=383521|AlignEnd=383696|GE=Fut.2Plur|Gloss=2Plur.Fut|nWord=19|RX=TAM.PNG
 20	saidàː	saidàː	VERB	_	_	19	comp:aux	_	AlignBegin=383696|AlignEnd=383871|GE=sell|Gloss=sell|nWord=20|RX=V1
 21	ɗîn	ɗin	DET	_	Definite=Def	18	mod@relcl	_	AlignBegin=383871|AlignEnd=384046|GE=Def|Gloss=of.Def|nWord=21|RX=PART
 22	<	<	PUNCT	_	_	2	punct	_	AlignBegin=384046|AlignEnd=384221|Gloss=PUNCT|nWord=22
@@ -3084,20 +3084,20 @@
 28	kuma	kuma	PART	_	_	27	mod	_	AlignBegin=385096|AlignEnd=385271|GE=too|Gloss=too|nWord=28|RX=PART.TOP
 29	in	in	SCONJ	_	_	37	mod	_	AlignBegin=385271|AlignEnd=385446|GE=if|Gloss=if|nWord=29|RX=CONJ
 30	Allàː	Allàː	PROPN	_	_	31	subj	_	AlignBegin=385446|AlignEnd=385621|GE=God|Gloss=God|nWord=30|RX=N.P|wordform=allàː
-31	ya	ya	AUX	_	Person=3	29	comp:obj	_	AlignBegin=385621|AlignEnd=385796|GE=3Masc.Perf.FOC|Gloss=3Masc.Perf.Bkg|nWord=31|RX=PNG.TAM
+31	ya	ya	AUX	_	Aspect=Perf|Person=3	29	comp:obj	_	AlignBegin=385621|AlignEnd=385796|GE=3Masc.Perf.FOC|Gloss=3Masc.Perf.Bkg|nWord=31|RX=PNG.TAM
 32	kai	kai	VERB	_	_	31	comp:aux	_	AlignBegin=385796|AlignEnd=385971|GE=carry|Gloss=carry|nWord=32|RX=V*
 33	mù	mù	PRON	_	Number=Plur|Person=1	32	comp:obj	_	AlignBegin=385971|AlignEnd=386146|GE=1Plur.Aor|Gloss=1Plur|nWord=33|RX=PNG.TAM
 34	bàɗi	bàɗi	ADV	_	_	32	comp:goal	_	AlignBegin=386146|AlignEnd=386321|GE=next_year|Gloss=next_year|nWord=34|RX=ADV.DEICT
 35	kèːnan	kèːnan	PART	_	_	34	mod@emp	_	AlignBegin=386321|AlignEnd=386496|GE=Ident/Foc.FOC|Gloss=Ident/Foc.Bkg|nWord=35|RX=PART.SYNT
 36	<	<	PUNCT	_	_	29	punct	_	AlignBegin=386671|AlignEnd=386846|Gloss=PUNCT|nWord=37
-37	kun	kun	AUX	_	Number=Plur|Person=2	0	root	_	AlignBegin=386846|AlignEnd=387021|GE=2.Plur.Perf|Gloss=2.Plur.Perf|nWord=38|RX=PNG.TAM
+37	kun	kun	AUX	_	Aspect=Perf|Number=Plur|Person=2	0	root	_	AlignBegin=386846|AlignEnd=387021|GE=2.Plur.Perf|Gloss=2.Plur.Perf|nWord=38|RX=PNG.TAM
 38	ƙaːrà	ƙaːrà	VERB	_	_	37	comp:aux	_	AlignBegin=387021|AlignEnd=387196|GE=continue|Gloss=continue|nWord=39|RX=V1.AUX
 39	yîn	yi	VERB	_	_	38	comp:obj	_	AlignBegin=387196|AlignEnd=387284|GE=doing|Gloss=doing|nWord=40|RX=N.V0
 40	wani	wani	DET	_	_	41	det	_	AlignBegin=387371|AlignEnd=387546|GE=some.M|Gloss=some.M|nWord=41|RX=DET.INDF
 41	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	39	comp:obj@lvc	_	AlignBegin=387546|AlignEnd=387721|GE=farming|Gloss=farm.Vnoun|nWord=42|RX=N
 42	|c	|c	PUNCT	_	_	44	_	_	AlignBegin=387721|AlignEnd=387896|Gloss=PUNCT|nWord=43
 43	sai	sai	ADV	_	_	44	mod	_	AlignBegin=387896|AlignEnd=388071|GE=then|Gloss=then|nWord=44|RX=CONJ/HOM
-44	kukàn	kàn	AUX	_	Number=Plur|Person=2	37	conj:coord	_	AlignBegin=388071|AlignEnd=388246|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=45|RX=PNG.TAM
+44	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	37	conj:coord	_	AlignBegin=388071|AlignEnd=388246|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=45|RX=PNG.TAM
 45	kaːwo	kai	VERB	_	_	44	comp:aux	_	AlignBegin=388246|AlignEnd=388421|GE=carry.DIR|Gloss=carry.DIR|nWord=46|RX=V6
 46	hatsiː	hatsiː	NOUN	_	_	45	comp:obj	_	AlignBegin=388421|AlignEnd=388596|GE=guinea-corn|Gloss=guinea-corn|nWord=47|RX=N
 47	gidaː	gidaː	NOUN	_	_	45	comp:goal	_	AlignBegin=388596|AlignEnd=388771|GE=home|Gloss=home|nWord=48|RX=N
@@ -3108,7 +3108,7 @@
 52	koːkòː	koːkòː	CCONJ	_	_	55	cc	_	AlignBegin=389653|AlignEnd=389835|GE=or|Gloss=or|nWord=54|RX=CONJ
 53	kàːfin	kàːfin	ADP	_	_	55	mod	_	AlignBegin=389835|AlignEnd=390017|GE=before|Gloss=before|nWord=55|RX=CONJ
 54	wânnan	wânnan	PRON	_	Definite=Def	53	comp:obj	_	AlignBegin=390017|AlignEnd=390199|GE=Def|Gloss=Def|nWord=56|RX=PRO.DEICT
-55	kukàn	kàn	AUX	_	Number=Plur|Person=2	44	conj:coord	_	AlignBegin=390199|AlignEnd=390381|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=57|RX=PNG.TAM
+55	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	44	conj:coord	_	AlignBegin=390199|AlignEnd=390381|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=57|RX=PNG.TAM
 56	yi	yi	VERB	_	_	55	comp:aux	_	AlignBegin=390381|AlignEnd=390563|GE=do|Gloss=do|nWord=58|RX=V0
 57	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	56	comp:obj@lvc	_	AlignBegin=390563|AlignEnd=390654|GE=farming|Gloss=farm.Vnoun.Cons|nWord=59|RX=N
 58	raːniː	raːniː	NOUN	_	_	57	compound	_	AlignBegin=390745|AlignEnd=390927|GE=dry_season|Gloss=dry_season|nWord=60|RX=N
@@ -3136,7 +3136,7 @@
 3	wânnan	wânnan	DET	_	Definite=Def|PronType=Rel	4	det	_	AlignBegin=392094|AlignEnd=392350|GE=Def|Gloss=Def|nWord=3|RX=PRO.DEICT
 4	loːkàciː	loːkàciː	NOUN	_	_	1	comp:obj	_	AlignBegin=392350|AlignEnd=392606|GE=time|Gloss=time|nWord=4|RX=N
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=392606|AlignEnd=392862|Gloss=PUNCT|nWord=5
-6	mukàn	kàn	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=392862|AlignEnd=393118|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=6|RX=PNG.TAM
+6	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=392862|AlignEnd=393118|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=6|RX=PNG.TAM
 7	yi	yi	VERB	_	_	6	comp:aux	_	AlignBegin=393118|AlignEnd=393374|GE=do|Gloss=do|nWord=7|RX=V0
 8	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	7	comp:obj@lvc	_	AlignBegin=393374|AlignEnd=393502|GE=farming|Gloss=farm.Vnoun.Cons|nWord=8|RX=N
 9	raːniː	raːniː	NOUN	_	_	8	compound	_	AlignBegin=393630|AlignEnd=393886|GE=dry_season|Gloss=dry_season|nWord=9|RX=N
@@ -3153,7 +3153,7 @@
 2	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	5	dislocated@comp	_	AlignBegin=394649|AlignEnd=394753|GE=farming|Gloss=farm.Vnoun.Cons|nWord=2|RX=N
 3	raːnîn	raːniː	NOUN	_	Definite=Def	2	compound	_	AlignBegin=394856|AlignEnd=394960|GE=dry_season|Gloss=dry_season.Def|nWord=3|RX=N
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=395063|AlignEnd=395270|Gloss=PUNCT|nWord=4
-5	baːmàː	baːmàː	PART	_	Number=Plur|Person=1	0	root	_	AlignBegin=395270|AlignEnd=395477|GE=Neg|Gloss=1Plur.Imp.Neg|nWord=5|RX=PART.Neg
+5	baːmàː	baːmàː	PART	_	Aspect=Imp|Number=Plur|Person=1	0	root	_	AlignBegin=395270|AlignEnd=395477|GE=Neg|Gloss=1Plur.Imp.Neg|nWord=5|RX=PART.Neg
 6	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=395684|AlignEnd=395753|GE=doing|Gloss=do.Vnoun.Cons|nWord=7|RX=N.V0
 7	=shi	=shi	PRON	_	Number=Plur|Person=3|PronType=Prs	6	comp:obj@lvc	_	AlignBegin=395822|AlignEnd=395891|GE=3Masc.|Gloss=3Masc.|nWord=7|RX=PRO.POS
 8	dà	dà	ADP	_	_	5	mod	_	AlignBegin=395891|AlignEnd=396098|GE=with|Gloss=with|nWord=8|RX=PREP/HOM
@@ -3208,7 +3208,7 @@
 10	mukè	kè	AUX	_	Evident=Bck|Number=Plur|Person=1	9	comp:obj	_	AlignBegin=402392|AlignEnd=402573|GE=1Plur.Imp.Bkg|Gloss=1Plurur.Pred/Loc.Bck|nWord=11|RX=PNG.TAM|wordform=kèː
 11	dà	dà	ADP	_	_	10	comp:pred	_	AlignBegin=402573|AlignEnd=402754|GE=with|Gloss=with|nWord=12|RX=PREP/HOM
 12	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=402754|AlignEnd=402935|GE=3Masc.|Gloss=3Masc.Nom|nWord=13|RX=PRO.IDP
-13	mukàn	kàn	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=403116|AlignEnd=403297|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=15|RX=PNG.TAM
+13	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=403116|AlignEnd=403297|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=15|RX=PNG.TAM
 14	yi	yi	VERB	_	_	13	comp:aux	_	AlignBegin=403297|AlignEnd=403478|GE=do|Gloss=do|nWord=16|RX=V0
 15	ʔèʔè	ʔèʔè	INTJ	_	_	16	discourse	_	AlignBegin=403659|AlignEnd=403840|GE=HESIT|Gloss=FILL|nWord=18|RX=HESIT
 16	riːjiyoːyiː	riːjìyaː	NOUN	_	Number=Plur	14	comp:obj@lvc	_	AlignBegin=404021|AlignEnd=404111|GE=well|Gloss=well.Plur|nWord=20|RX=N
@@ -3233,7 +3233,7 @@
 4	wânnan	wânnan	PRON	_	Definite=Def	3	comp:obj	_	AlignBegin=406727|AlignEnd=406949|GE=Def|Gloss=Def|nWord=4|RX=PRO.DEICT
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=406949|AlignEnd=407171|Gloss=PUNCT|nWord=5
 6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=407171|AlignEnd=407393|GE=then|Gloss=then|nWord=6|RX=CONJ/HOM
-7	mù	à	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=407393|AlignEnd=407615|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=7|RX=PNG.TAM
+7	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=407393|AlignEnd=407615|GE=1Plur.Aor|Gloss=1Plur.Aor|nWord=7|RX=PNG.TAM
 8	shuːkà	shuːk-	VERB	_	_	7	comp:aux	_	AlignBegin=407615|AlignEnd=407837|GE=plant|Gloss=plant|nWord=8|RX=V1
 9	na	na	PART	_	Definite=Cons	8	comp:obj	_	AlignBegin=408059|AlignEnd=408281|GE=Cons|Gloss=Cons|nWord=10|RX=PART.SYNT
 10	raːniː	raːniː	NOUN	_	_	9	comp:obj	_	AlignBegin=408281|AlignEnd=408503|GE=dry_season|Gloss=dry_season|nWord=11|RX=N
@@ -3275,7 +3275,7 @@
 7	abuːbuwàn	àbù	NOUN	_	Definite=Cons|Number=Plur	5	comp:obj	_	AlignBegin=412465|AlignEnd=412522|GE=thing|Gloss=thing.Plur.Cons|nWord=20|RX=N
 8	dà	dà	SCONJ	_	_	7	mod@relcl	_	AlignBegin=412635|AlignEnd=412805|GE=COMP|Gloss=COMP|nWord=21|RX=CONJ/HOM
 9	dai	dai	ADV	_	_	8	mod	_	AlignBegin=412805|AlignEnd=412975|GE=indeed|Gloss=indeed|nWord=22|RX=PART.TOP
-10	zaːʔà	zaː	AUX	_	Person=4	8	comp:obj	_	AlignBegin=412975|AlignEnd=413145|GE=4.Fut|Gloss=4.Fut|nWord=23|RX=PNG.TAM
+10	zaːʔà	zaː	AUX	_	Person=4|Tense=Fut	8	comp:obj	_	AlignBegin=412975|AlignEnd=413145|GE=4.Fut|Gloss=4.Fut|nWord=23|RX=PNG.TAM
 11	ci	ci	VERB	_	_	10	comp:aux	_	AlignBegin=413145|AlignEnd=413315|GE=eat|Gloss=eat|nWord=24|RX=V0
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=413315|AlignEnd=413473|Gloss=PUNCT|nWord=25
 
@@ -3304,11 +3304,11 @@
 1	tòː	tòː	PART	_	_	8	discourse	_	AlignBegin=415769|AlignEnd=415937|GE=well|Gloss=well|nWord=1|RX=DM
 2	yànzu	yànzu	ADV	_	_	8	mod	_	AlignBegin=415937|AlignEnd=416105|GE=now|Gloss=now|nWord=2|RX=ADV.DEICT
 3	indà	indà	ADV	_	PronType=Rel	8	mod	_	AlignBegin=416105|AlignEnd=416273|GE=COMP.LOC|Gloss=where|nWord=3|RX=ADV.COMP
-4	kukèː	kukèː	AUX	_	Number=Plur|Person=2	3	mod@relcl	_	AlignBegin=416273|AlignEnd=416441|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=4|RX=PNG.TAM
+4	kukèː	kukèː	AUX	_	Aspect=Imp|Number=Plur|Person=2	3	mod@relcl	_	AlignBegin=416273|AlignEnd=416441|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=4|RX=PNG.TAM
 5	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=416441|AlignEnd=416525|GE=farming|Gloss=farm.Vnoun.Cons|nWord=5|RX=N
 6	raːnîn	raːniː	NOUN	_	Definite=Def	5	compound	_	AlignBegin=416609|AlignEnd=416693|GE=dry_season|Gloss=dry_season.Def|nWord=6|RX=N
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=416777|AlignEnd=416945|Gloss=PUNCT|nWord=7
-8	kukàn	kàn	AUX	_	Number=Plur|Person=2	0	root	_	AlignBegin=416945|AlignEnd=417113|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=8|RX=PNG.TAM
+8	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	0	root	_	AlignBegin=416945|AlignEnd=417113|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=8|RX=PNG.TAM
 9	noːmàː	noːm-	VERB	_	_	8	comp:aux	_	AlignBegin=417113|AlignEnd=417281|GE=farm|Gloss=farm|nWord=9|RX=V1
 10	kàman	kàman	ADP	_	_	9	mod	_	AlignBegin=417281|AlignEnd=417449|GE=like|Gloss=like|nWord=10|RX=PREP
 11	mèː	mèː	PRON	_	_	10	comp:obj	_	AlignBegin=417449|AlignEnd=417617|GE=what|Gloss=what|nWord=11|RX=PRO.Q
@@ -3319,7 +3319,7 @@
 16	>	>	PUNCT	_	_	17	punct	_	AlignBegin=418289|AlignEnd=418463|Gloss=PUNCT|nWord=16
 17	à	à	ADP	_	_	8	mod	_	AlignBegin=418710|AlignEnd=418854|GE=at|Gloss=at|nWord=17|RX=PREP
 18	indà	indà	ADV	_	_	17	comp:obj	_	AlignBegin=418854|AlignEnd=418998|GE=COMP.LOC|Gloss=COMP.LOC|nWord=18|RX=ADV.COMP
-19	kukèː	kukèː	AUX	_	Number=Plur|Person=2	18	mod@relcl	_	AlignBegin=418998|AlignEnd=419142|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=19|RX=PNG.TAM
+19	kukèː	kukèː	AUX	_	Aspect=Imp|Number=Plur|Person=2	18	mod@relcl	_	AlignBegin=418998|AlignEnd=419142|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=19|RX=PNG.TAM
 20	noːmân	noːmaː	NOUN	_	_	19	comp:pred	_	AlignBegin=419142|AlignEnd=419214|GE=farming|Gloss=farming|nWord=20|RX=N
 21	//	//	PUNCT	_	_	8	_	_	AlignBegin=419286|AlignEnd=419430|Gloss=PUNCT|nWord=21
 
@@ -3348,13 +3348,13 @@
 6	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=420640|AlignEnd=420761|GE=farming|Gloss=farm.Vnoun.Cons|nWord=6|RX=N
 7	raːniː	raːniː	NOUN	_	_	6	compound	_	AlignBegin=420882|AlignEnd=421124|GE=dry_season|Gloss=dry_season|nWord=7|RX=N
 8	<	<	PUNCT	_	_	9	punct	_	AlignBegin=421124|AlignEnd=421366|Gloss=PUNCT|nWord=8
-9	mukàn	kàn	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=421366|AlignEnd=421608|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=9|RX=PNG.TAM
+9	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=421366|AlignEnd=421608|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=9|RX=PNG.TAM
 10	noːmà	noːm-	VERB	_	_	9	comp:aux	_	AlignBegin=421608|AlignEnd=421850|GE=farm|Gloss=farm|nWord=10|RX=V1
 11	kàman	kàman	ADP	_	_	13	discourse	_	AlignBegin=421850|AlignEnd=422092|GE=like|Gloss=like|nWord=11|RX=PREP
 12	su	su	DET	_	Number=Plur|Person=3|PronType=Prs	13	det	_	AlignBegin=422092|AlignEnd=422334|GE=Plur|Gloss=Plur|nWord=12|RX=PART
 13	latàs	latàs	NOUN	_	_	10	comp:obj	_	AlignBegin=422334|AlignEnd=422576|GE=letuce|Gloss=letuce|nWord=13|RX=N
 14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=422576|AlignEnd=422818|Gloss=PUNCT|nWord=14
-15	mukàn	kàn	AUX	_	Number=Plur|Person=1	9	conj:coord	_	AlignBegin=422818|AlignEnd=423060|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=15|RX=PNG.TAM
+15	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	9	conj:coord	_	AlignBegin=422818|AlignEnd=423060|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=15|RX=PNG.TAM
 16	noːmà	noːm-	VERB	_	_	15	comp:aux	_	AlignBegin=423060|AlignEnd=423302|GE=farm|Gloss=farm|nWord=16|RX=V1
 17	kàman	kàman	ADP	_	_	19	discourse	_	AlignBegin=423302|AlignEnd=423544|GE=like|Gloss=like|nWord=17|RX=PREP
 18	su	su	DET	_	Number=Plur|Person=3|PronType=Prs	19	det	_	AlignBegin=423544|AlignEnd=423786|GE=Plur|Gloss=Plur|nWord=18|RX=PART
@@ -3378,7 +3378,7 @@
 # phonetic_text = mukàn noːmàː //
 # text = mukàn noːmàː //
 # text_en =  We used to farm.
-1	mukàn	kàn	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=426940|AlignEnd=427223|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=1|RX=PNG.TAM
+1	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=426940|AlignEnd=427223|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=1|RX=PNG.TAM
 2	noːmàː	noːm-	VERB	_	_	1	comp:aux	_	AlignBegin=427223|AlignEnd=427506|GE=farm|Gloss=farm|nWord=2|RX=V1
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=427506|AlignEnd=427788|Gloss=PUNCT|nWord=3
 
@@ -3392,7 +3392,7 @@
 1	dan	dan	ADV	_	_	4	discourse	_	AlignBegin=427788|AlignEnd=428006|GE=because|Gloss=because|nWord=1|RX=CONJ
 2	à	at	ADP	_	Aspect=.Hab|Person=4	4	mod	_	AlignBegin=428006|AlignEnd=428224|GE=at|Gloss=at|nWord=2|RX=PREP
 3	wajên	wajeː	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=428224|AlignEnd=428333|GE=place|Gloss=place.Def|nWord=3|RX=N
-4	zân	zaː	AUX	_	Number=Sing|Person=1	0	root	_	AlignBegin=428442|AlignEnd=428660|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=4|RX=TAM.PNG
+4	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=428442|AlignEnd=428660|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=4|RX=TAM.PNG
 5	iyà	iyàː	AUX	_	_	4	mod@relcl	_	AlignBegin=428660|AlignEnd=428878|GE=can|Gloss=can|nWord=5|RX=V1.AUX
 6	tunàːwaː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=428878|AlignEnd=428987|GE=think|Gloss=think.Vnoun|nWord=6|RX=V1
 7	loːkàcîn	loːkàciː	NOUN	_	Definite=Def	6	mod	_	AlignBegin=429096|AlignEnd=429205|GE=time|Gloss=time.Def|nWord=7|RX=N
@@ -3483,7 +3483,7 @@
 17	sai	sai	ADV	_	_	20	mod	_	AlignBegin=441610|AlignEnd=441863|GE=then|Gloss=then|nWord=15|RX=CONJ/HOM
 18	àmfàːnîn	àmfàːniː	NOUN	_	Definite=Def	20	dislocated@subj	_	AlignBegin=441863|AlignEnd=441989|GE=vegetables|Gloss=vegetables.Def|nWord=16|RX=N
 19	<	<	PUNCT	_	_	20	punct	_	AlignBegin=442116|AlignEnd=442369|Gloss=PUNCT|nWord=17
-20	ya	ya	AUX	_	Person=3	4	comp:obj	_	AlignBegin=442369|AlignEnd=442622|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bkg|nWord=18|RX=PNG.TAM
+20	ya	ya	AUX	_	Aspect=Perf|Person=3	4	comp:obj	_	AlignBegin=442369|AlignEnd=442622|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bkg|nWord=18|RX=PNG.TAM
 21	zoː	zoː	PRON	_	_	20	comp:aux	_	AlignBegin=442622|AlignEnd=442875|GE=come|Gloss=come|nWord=19|RX=V0
 22	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	20	conj:svc	_	AlignBegin=442875|AlignEnd=443128|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=20|RX=PNG.TAM
 23	yi	yi	VERB	_	_	22	comp:aux	_	AlignBegin=443128|AlignEnd=443381|GE=do|Gloss=do|nWord=21|RX=V0
@@ -3500,7 +3500,7 @@
 1	à	à	ADP	_	Aspect=.Hab|Person=4	4	parataxis@mod	_	AlignBegin=443888|AlignEnd=444109|GE=at|Gloss=at|nWord=1|RX=PREP
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Def	1	comp:aux	_	AlignBegin=444109|AlignEnd=444219|GE=time|Gloss=time.Def|nWord=2|RX=N
 3	mutàːneː	mùtûm	NOUN	_	Number=Plur	4	subj	_	AlignBegin=444330|AlignEnd=444440|GE=person|Gloss=person.Plur|nWord=3|RX=N
-4	nàː	naː²	AUX	_	_	0	root	_	AlignBegin=444551|AlignEnd=444772|GE=Imp|Gloss=Imp|nWord=4|RX=TAM
+4	nàː	naː²	AUX	_	Aspect=Imp	0	root	_	AlignBegin=444551|AlignEnd=444772|GE=Imp|Gloss=Imp|nWord=4|RX=TAM
 5	neːman	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:pred	_	AlignBegin=444772|AlignEnd=444882|GE=look_for|Gloss=look_for.Vnoun|nWord=5|RX=N.V3A
 6	tùmaːtìr̃	tùmaːtìrː	NOUN	_	_	5	mod	_	AlignBegin=444993|AlignEnd=445214|GE=tomatoes|Gloss=tomatoes|nWord=6|RX=N
 7	sòːsai	sòːsai	ADV	_	_	5	mod	_	AlignBegin=445214|AlignEnd=445435|GE=quite|Gloss=quite|nWord=7|RX=ADV
@@ -3532,17 +3532,17 @@
 # text = wàːtôn yaː kasànceː cecêːwaː dai in kukà gamà neːman raːniː < kukàn yi noːman || noːman &//
 # text_en =  that is to say when you finished the dry season farming, you were doing that dry season farming... that dry season farming…
 1	wàːtòn	wàːtòː	PART	_	_	2	discourse	_	AlignBegin=448240|AlignEnd=448332|GE=that_is|Gloss=that_is|nWord=1|RX=PART.TOP
-2	yaː	yaː	AUX	_	Person=3	0	root@scrap	_	AlignBegin=448425|AlignEnd=448610|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=2|RX=PNG.TAM
+2	yaː	yaː	AUX	_	Aspect=Perf|Person=3	0	root@scrap	_	AlignBegin=448425|AlignEnd=448610|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=2|RX=PNG.TAM
 3	kasànceː	kasànceː	VERB	_	_	2	comp:aux	_	AlignBegin=448610|AlignEnd=448795|GE=become|Gloss=become|nWord=3|RX=V4
 4	cêːwaː	cêːwaː	SCONJ	_	_	3	comp:obj	_	AlignBegin=448795|AlignEnd=448980|GE=that_is|Gloss=COMP|nWord=4|RX=DM
 5	dai	dai	PART	_	_	4	mod	_	AlignBegin=448980|AlignEnd=449165|GE=indeed|Gloss=indeed|nWord=5|RX=PART.TOP
 6	in	in	SCONJ	_	_	12	mod	_	AlignBegin=449165|AlignEnd=449350|GE=if|Gloss=if|nWord=6|RX=CONJ
-7	kukà	kukà	AUX	_	Number=Plur|Person=2	6	comp:obj	_	AlignBegin=449350|AlignEnd=449535|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=7|RX=PNG.TAM
+7	kukà	kukà	AUX	_	Aspect=Imp|Number=Plur|Person=2	6	comp:obj	_	AlignBegin=449350|AlignEnd=449535|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=7|RX=PNG.TAM
 8	gamà	gamàː	VERB	_	_	7	comp:aux	_	AlignBegin=449535|AlignEnd=449720|GE=finish|Gloss=finish|nWord=8|RX=V1
 9	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=449720|AlignEnd=449812|GE=look_for|Gloss=farm.Vnoun.Cons|nWord=9|RX=N.V3A
 10	raːniː	raːniː	NOUN	_	_	9	compound	_	AlignBegin=449905|AlignEnd=450090|GE=dry_season|Gloss=dry_season|nWord=10|RX=N
 11	<	<	PUNCT	_	_	6	punct	_	AlignBegin=450090|AlignEnd=450279|Gloss=PUNCT|nWord=11
-12	kukàn	kàn	AUX	_	Number=Plur|Person=2	4	comp:obj	_	AlignBegin=450524|AlignEnd=450720|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=12|RX=PNG.TAM
+12	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	4	comp:obj	_	AlignBegin=450524|AlignEnd=450720|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=12|RX=PNG.TAM
 13	yi	yi	VERB	_	_	12	comp:aux	_	AlignBegin=450720|AlignEnd=450916|GE=do|Gloss=do|nWord=13|RX=V0
 14	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	13	comp:obj@lvc	_	AlignBegin=450916|AlignEnd=451014|GE=farming|Gloss=farm.Vnoun.Cons|nWord=14|RX=N
 15	||	||	PUNCT	_	_	16	punct	_	AlignBegin=451112|AlignEnd=451309|GE=XX|Gloss=PUNCT|nWord=15
@@ -3557,18 +3557,18 @@
 # text = ìdan kukà gamà noːman kàːkaː kukàn yi noːman raːniː wandà shiː nèː yakàn sâː kuɗiː ?//
 # text_en =  When you finished rain season farming, you did dry season farming which brought money.
 1	ìdan	ìdan	SCONJ	_	_	6	mod	_	AlignBegin=451761|AlignEnd=451953|GE=if|Gloss=if|nWord=1|RX=CONJ
-2	kukà	kukà	AUX	_	Number=Plur|Person=2	1	comp:obj	_	AlignBegin=451953|AlignEnd=452145|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=2|RX=PNG.TAM
+2	kukà	kukà	AUX	_	Aspect=Imp|Number=Plur|Person=2	1	comp:obj	_	AlignBegin=451953|AlignEnd=452145|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=2|RX=PNG.TAM
 3	gamà	gamàː	VERB	_	_	2	comp:aux	_	AlignBegin=452145|AlignEnd=452337|GE=finish|Gloss=finish|nWord=3|RX=V1
 4	noːman	noːmaː	NOUN	_	_	3	comp:obj	_	AlignBegin=452337|AlignEnd=452433|GE=farming|Gloss=farming|nWord=4|RX=N
 5	kàːkaː	kàːkaː	NOUN	_	_	4	compound	_	AlignBegin=452529|AlignEnd=452721|GE=rain_season|Gloss=rain_season|nWord=5|RX=N
-6	kukàn	kàn	AUX	_	Number=Plur|Person=2	0	root	_	AlignBegin=452721|AlignEnd=452913|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=6|RX=PNG.TAM
+6	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	0	root	_	AlignBegin=452721|AlignEnd=452913|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=6|RX=PNG.TAM
 7	yi	yi	VERB	_	_	6	comp:aux	_	AlignBegin=452913|AlignEnd=453105|GE=do|Gloss=do|nWord=7|RX=V0
 8	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	7	comp:obj@lvc	_	AlignBegin=453105|AlignEnd=453201|GE=farming|Gloss=farm.Vnoun.Cons|nWord=8|RX=N
 9	raːniː	raːniː	NOUN	_	_	8	compound	_	AlignBegin=453297|AlignEnd=453489|GE=dry_season|Gloss=dry_season|nWord=9|RX=N
 10	wandà	wandà	PRON	_	_	8	conj:appos@relcl	_	AlignBegin=453889|AlignEnd=454051|GE=which|Gloss=which|nWord=11|RX=PRO.COMP
 11	shiː	shiː	PRON	_	Person=3	12	comp:pred	_	AlignBegin=454051|AlignEnd=454213|GE=3Masc|Gloss=3Masc.Nom|nWord=12|RX=PRO.IDP
 12	nèː	neː	PART	_	_	10	mod@relcl	_	AlignBegin=454213|AlignEnd=454375|GE=Ident/Foc|Gloss=Ident/Foc|nWord=13|RX=PART.SYNT
-13	yakàn	kàn	AUX	_	Person=3	12	comp:cleft	_	AlignBegin=454375|AlignEnd=454537|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=14|RX=PNG.TAM
+13	yakàn	kàn	AUX	_	Aspect=Hab|Person=3	12	comp:cleft	_	AlignBegin=454375|AlignEnd=454537|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=14|RX=PNG.TAM
 14	sâː	sâː	VERB	_	_	13	comp:aux	_	AlignBegin=454537|AlignEnd=454699|GE=put|Gloss=put|nWord=15|RX=V1
 15	kuɗiː	kuɗiː	NOUN	_	_	14	comp:obj	_	AlignBegin=454699|AlignEnd=454861|GE=money|Gloss=money|nWord=16|RX=N
 16	?//	?//	PUNCT	_	_	6	_	_	AlignBegin=454861|AlignEnd=455021|Gloss=PUNCT|nWord=17
@@ -3600,25 +3600,25 @@
 2	shiː	shiː	PRON	_	Person=3	9	dislocated@comp	_	AlignBegin=456616|AlignEnd=456755|GE=3Masc|Gloss=3Masc.Nom|nWord=2|RX=PRO.IDP
 3	wânnan	wânnan	PRO.DEICT	_	Definite=Def	2	conj:appos	_	AlignBegin=456755|AlignEnd=456894|GE=Def|Gloss=Def|nWord=3|RX=PRO.DEICT
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=456894|AlignEnd=457033|GE=COMP|Gloss=COMP|nWord=4|RX=CONJ/HOM
-5	kukà	kukà	AUX	_	Number=Plur|Person=2	4	comp:obj	_	AlignBegin=457033|AlignEnd=457172|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=5|RX=PNG.TAM
+5	kukà	kukà	AUX	_	Aspect=Imp|Number=Plur|Person=2	4	comp:obj	_	AlignBegin=457033|AlignEnd=457172|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=5|RX=PNG.TAM
 6	ɗiːbàː	ɗiːb-	VERB	_	_	5	comp:aux	_	AlignBegin=457172|AlignEnd=457311|GE=scoop_out|Gloss=scoop_out|nWord=6|RX=V2*
 7	shiː	shiː	PRON	_	Person=3	9	dislocated@comp	_	AlignBegin=457311|AlignEnd=457450|GE=3Masc|Gloss=3Masc.Nom|nWord=7|RX=PRO.IDP
 8	maː	maː	PART	_	_	7	mod	_	AlignBegin=457450|AlignEnd=457589|GE=even|Gloss=even|nWord=8|RX=PART.TOP
-9	kukàn	kàn	AUX	_	Number=Plur|Person=2	0	root	_	AlignBegin=457589|AlignEnd=457728|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=9|RX=PNG.TAM
+9	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	0	root	_	AlignBegin=457589|AlignEnd=457728|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=9|RX=PNG.TAM
 10	kai	kai	VERB	_	_	9	comp:aux	_	AlignBegin=457728|AlignEnd=457867|GE=carry|Gloss=carry|nWord=10|RX=V*
 11	shì	shi	PRON	_	Gender=Masc|Person=3	10	comp:obj	_	AlignBegin=457867|AlignEnd=458006|GE=3Masc|Gloss=3Masc|nWord=11|RX=PRO.OBJ
 12	kàːsuwaː	kàːsuwaː	NOUN	_	_	10	comp:goal	_	AlignBegin=458006|AlignEnd=458145|GE=market|Gloss=market|nWord=12|RX=N
 13	nèː	neː	PART	_	_	12	mod@emp	_	AlignBegin=458145|AlignEnd=458284|GE=Ident/Foc|Gloss=Ident/Foc|nWord=13|RX=PART.SYNT
 14	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=458284|AlignEnd=458423|Gloss=PUNCT|nWord=14
 15	koːkòː	koːkòː	CCONJ	_	_	16	cc	_	AlignBegin=458423|AlignEnd=458562|GE=or|Gloss=or|nWord=15|RX=CONJ
-16	kukàn	kàn	AUX	_	Number=Plur|Person=2	9	conj:coord	_	AlignBegin=458562|AlignEnd=458701|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=16|RX=PNG.TAM
+16	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	9	conj:coord	_	AlignBegin=458562|AlignEnd=458701|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=16|RX=PNG.TAM
 17	baːyar̃	baːyar̃	VERB	_	_	16	comp:aux	_	AlignBegin=458701|AlignEnd=458771|GE=give.CAUS|Gloss=give.Cau|nWord=17|RX=V5
 18	=shi	=shi	PRON	_	Gender=Masc|Person=3	17	comp:obj	_	AlignBegin=458771|AlignEnd=458840|GE=3Masc|Gloss=3Masc|nWord=17|RX=PRO.POS
 19	à	à	ADP	_	_	17	mod	_	AlignBegin=458840|AlignEnd=458979|GE=at|Gloss=at|nWord=18|RX=PREP
 20	gidaː	gidaː	NOUN	_	_	19	comp:obj	_	AlignBegin=458979|AlignEnd=459118|GE=home|Gloss=home|nWord=19|RX=N
 21	nèː	neː	PART	_	_	19	mod@emp	_	AlignBegin=459118|AlignEnd=459257|GE=Ident/Foc|Gloss=Ident/Foc|nWord=20|RX=PART.SYNT
 22	dòːmin	dòːmin	SCONJ	_	_	17	mod	_	AlignBegin=459257|AlignEnd=459396|GE=because|Gloss=because|nWord=21|RX=CONJ
-23	kù	à	AUX	_	Number=Plur|Person=2	22	comp:obj	_	AlignBegin=459396|AlignEnd=459535|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=22|RX=PNG.TAM
+23	kù	à	AUX	_	Aspect=Aor|Number=Plur|Person=2	22	comp:obj	_	AlignBegin=459396|AlignEnd=459535|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=22|RX=PNG.TAM
 24	dingà	dingàː	VERB	_	_	23	comp:aux	_	AlignBegin=459535|AlignEnd=459674|GE=keep_on|Gloss=keep_on|nWord=23|RX=V1.AUX
 25	àmfàːniː	àmfàːniː	NOUN	_	_	24	comp:obj	_	AlignBegin=459674|AlignEnd=459813|GE=using|Gloss=using|nWord=24|RX=N
 26	dà	dà	ADP	_	_	25	comp:obl	_	AlignBegin=459813|AlignEnd=459952|GE=with|Gloss=with|nWord=25|RX=PREP/HOM
@@ -3647,7 +3647,7 @@
 3	yawanciː	yawanciː	NOUN	_	_	6	mod	_	AlignBegin=460395|AlignEnd=460565|GE=majority|Gloss=majority|nWord=3|RX=N
 4	maː	maː	ADV	_	_	3	mod	_	AlignBegin=460565|AlignEnd=460735|GE=even|Gloss=even|nWord=4|RX=PART.TOP
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=460735|AlignEnd=460905|Gloss=PUNCT|nWord=5
-6	bàmù	bài	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=460905|AlignEnd=461075|GE=Neg.1Plur.Perf|Gloss=1Plur.Perf.Neg|nWord=6|RX=PART.Neg.PNG.TAM
+6	bàmù	bài	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	AlignBegin=460905|AlignEnd=461075|GE=Neg.1Plur.Perf|Gloss=1Plur.Perf.Neg|nWord=6|RX=PART.Neg.PNG.TAM
 7	cikà	cik-	VERB	_	_	6	comp:aux	_	AlignBegin=461075|AlignEnd=461245|GE=complete|Gloss=complete|nWord=7|RX=V.AUX
 8	àmfàːniː	àmfàːniː	NOUN	_	Number=Plur	7	comp:obj	_	AlignBegin=461245|AlignEnd=461415|GE=using|Gloss=using|nWord=8|RX=N
 9	dà	dà	ADP	_	_	8	comp:obl	_	AlignBegin=461415|AlignEnd=461585|GE=with|Gloss=with|nWord=9|RX=PREP/HOM
@@ -3739,7 +3739,7 @@
 4	tsoːhuwaː	tsoːhuwaː	ADV	_	ExtPos=NOUN|VerbForm=Vnoun	2	mod	_	AlignBegin=472962|AlignEnd=473181|GE=old_woman|Gloss=old_woman|nWord=4|RX=N
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=473181|AlignEnd=473400|Gloss=PUNCT|nWord=5
 6	ìdan	ìdan	SCONJ	_	_	12	mod	_	AlignBegin=473400|AlignEnd=473619|GE=if|Gloss=if|nWord=6|RX=CONJ
-7	zân	zaː	AUX	_	Number=Sing|Person=1	6	comp:obj	_	AlignBegin=473619|AlignEnd=473838|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=7|RX=TAM.PNG
+7	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	6	comp:obj	_	AlignBegin=473619|AlignEnd=473838|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=7|RX=TAM.PNG
 8	iyàː	iyàː	AUX	_	_	7	comp:aux@relcl	_	AlignBegin=473838|AlignEnd=474057|GE=can|Gloss=can|nWord=8|RX=V1.AUX
 9	tunàːwaː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=474057|AlignEnd=474167|GE=think|Gloss=remember.Vnoun|nWord=9|RX=V1
 10	<	<	PUNCT	_	_	12	punct	_	AlignBegin=474276|AlignEnd=474495|Gloss=PUNCT|nWord=10
@@ -3749,7 +3749,7 @@
 14	dà	dà	SCONJ	_	_	13	mod@relcl	_	AlignBegin=475152|AlignEnd=475371|GE=COMP|Gloss=COMP|nWord=14|RX=CONJ/HOM
 15	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	14	comp:obj	_	AlignBegin=475371|AlignEnd=475590|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=15|RX=PNG.TAM
 16	sâː	sâː	VERB	_	_	15	comp:aux	_	AlignBegin=475590|AlignEnd=475809|GE=put|Gloss=put|nWord=16|RX=V1
-17	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	16	comp:obj	_	AlignBegin=475809|AlignEnd=476028|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=17|RX=PNG.TAM
+17	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	16	comp:obj	_	AlignBegin=475809|AlignEnd=476028|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=17|RX=PNG.TAM
 18	saːmoː	saːm-	VERB	_	_	17	comp:aux	_	AlignBegin=476028|AlignEnd=476247|GE=get.DIR|Gloss=get.DIR|nWord=18|RX=V6
 19	mà	mà	ADP	_	_	18	comp:obl	_	AlignBegin=476247|AlignEnd=476466|GE=Dat|Gloss=Dat|nWord=19|RX=PART.SYNT
 20	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=476466|AlignEnd=476685|GE=3Fem|Gloss=3Fem.Nom|nWord=20|RX=PRO.IDP
@@ -3774,7 +3774,7 @@
 6	dai	dai	ADV	_	_	4	mod	_	AlignBegin=478919|AlignEnd=479105|GE=indeed|Gloss=indeed|nWord=6|RX=PART.TOP
 7	dà	dà	ADP	_	_	9	mod	_	AlignBegin=479105|AlignEnd=479291|GE=with|Gloss=with|nWord=7|RX=PREP/HOM
 8	farkoː	farkoː	NOUN	_	_	7	comp:obj	_	AlignBegin=479291|AlignEnd=479477|GE=beginning|Gloss=beginning|nWord=8|RX=N
-9	nakèː	nakèː	AUX	_	Number=Sing|Person=1	3	comp:obj	_	AlignBegin=479477|AlignEnd=479663|GE=1Sing.Imp.Bkg|Gloss=1Sing.Imp.Bkg|nWord=9|RX=PNG.TAM
+9	nakèː	nakèː	AUX	_	Aspect=Imp|Number=Sing|Person=1	3	comp:obj	_	AlignBegin=479477|AlignEnd=479663|GE=1Sing.Imp.Bkg|Gloss=1Sing.Imp.Bkg|nWord=9|RX=PNG.TAM
 10	baː	baː	VERB	_	Polarity=Neg	9	comp:aux	_	AlignBegin=479663|AlignEnd=479849|GE=give|Gloss=give|nWord=10|RX=V*|wordform=bâː
 11	kà	kà	PRON	_	Gender=Masc|Person=2	10	comp:ben	_	AlignBegin=479849|AlignEnd=480035|GE=2Masc|Gloss=2Masc|nWord=11|RX=PRO
 12	làːbarìn	làːbarìː	NOUN	_	Definite=Cons	10	comp:obj	_	AlignBegin=480035|AlignEnd=480128|GE=story|Gloss=story.Cons|nWord=12|RX=N
@@ -3834,7 +3834,7 @@
 7	ta	ta	ADP	_	_	9	comp:pred	_	AlignBegin=485677|AlignEnd=485872|GE=via|Gloss=via|nWord=7|RX=PREP
 8	nan	nan	ADV	_	Definite=Def	7	comp:obj	_	AlignBegin=485872|AlignEnd=486067|GE=Def|Gloss=Def|nWord=8|RX=ADV.DEICT
 9	nèː	neː	PART	_	_	0	root	_	AlignBegin=486067|AlignEnd=486262|GE=Ident/Foc|Gloss=Ident/Foc|nWord=9|RX=PART.SYNT
-10	akà	kà	AUX	_	Person=4	9	comp:cleft	_	AlignBegin=486262|AlignEnd=486457|GE=4.Perf.FOC|Gloss=4.Perf.Bkg|nWord=10|RX=PNG.TAM
+10	akà	kà	AUX	_	Aspect=Perf|Person=4	9	comp:cleft	_	AlignBegin=486262|AlignEnd=486457|GE=4.Perf.FOC|Gloss=4.Perf.Bkg|nWord=10|RX=PNG.TAM
 11	saːmoː	saːmoː	VERB	_	_	10	comp:aux	_	AlignBegin=486457|AlignEnd=486652|GE=get.DIR|Gloss=get.DIR|nWord=11|RX=V6
 12	Basaːwa	Basaːwa	PROPN	_	_	11	comp:obj	_	AlignBegin=486652|AlignEnd=486847|GE=Basawa|Gloss=Basawa|nWord=12|RX=N.P
 13	?//	?//	PUNCT	_	_	9	_	_	AlignBegin=486847|AlignEnd=487048|Gloss=PUNCT|nWord=13
@@ -3935,7 +3935,7 @@
 # text = suːnan =tà ita < suːnan =tà Bàːsa //
 # text_en = Her name, she, her name is Basa.
 1	suːnan	suːnaː	NOUN	_	Definite=Cons	7	dislocated@top	_	AlignBegin=496210|AlignEnd=496274|GE=name|Gloss=name.Cons|nWord=13|RX=N
-2	=tà	=tà	PRON	_	Aspect=.Hab|Person=3|PronType=Prs	1	mod@poss	_	AlignBegin=496338|AlignEnd=496403|GE=3Fem|Gloss=3Fem.Perf.Gen|nWord=13|RX=PRO.POS
+2	=tà	=tà	PRON	_	Aspect=Perf|Person=3|PronType=Prs	1	mod@poss	_	AlignBegin=496338|AlignEnd=496403|GE=3Fem|Gloss=3Fem.Perf.Gen|nWord=13|RX=PRO.POS
 3	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	7	dislocated@top	_	AlignBegin=496403|AlignEnd=496596|GE=3Fem|Gloss=3Fem.Nom|nWord=14|RX=PRO.IDP
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=496596|AlignEnd=496789|Gloss=PUNCT|nWord=15
 5	suːnan	suːnaː	NOUN	_	Definite=Cons	7	subj	_	AlignBegin=496789|AlignEnd=496853|GE=name|Gloss=name.Cons|nWord=16|RX=N
@@ -3994,7 +3994,7 @@
 24	nèː	neː	PART	_	_	27	parataxis@discourse	_	AlignBegin=504654|AlignEnd=504794|GE=Ident/Foc|Gloss=Ident/Foc|nWord=5|RX=PART.SYNT
 25	<	<	PUNCT	_	_	24	punct	_	AlignBegin=504794|AlignEnd=504934|Gloss=PUNCT|nWord=6
 26	sai	sai	ADV	_	_	27	mod	_	AlignBegin=504934|AlignEnd=505074|GE=then|Gloss=then|nWord=7|RX=CONJ/HOM
-27	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	0	root	_	AlignBegin=505074|AlignEnd=505214|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=8|RX=PNG.TAM
+27	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	0	root	_	AlignBegin=505074|AlignEnd=505214|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=8|RX=PNG.TAM
 28	saːmoː	saːm-	VERB	_	_	27	comp:aux	_	AlignBegin=505214|AlignEnd=505354|GE=get.DIR|Gloss=get.DIR|nWord=9|RX=V6
 29	Bàːsa	Bàːsa	PROPN	_	_	28	comp:goal	_	AlignBegin=505354|AlignEnd=505494|GE=Basa|Gloss=Basa|nWord=10|RX=N.P
 30	//	//	PUNCT	_	_	27	punct	_	AlignBegin=505494|AlignEnd=505639|Gloss=PUNCT|nWord=11
@@ -4036,7 +4036,7 @@
 5	nèː	neː	PART	_	_	0	root	_	AlignBegin=510113|AlignEnd=510267|GE=Ident/Foc|Gloss=Ident/Foc|nWord=6|RX=PART.SYNT
 6	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	5	comp:cleft	_	AlignBegin=510267|AlignEnd=510421|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=7|RX=PNG.TAM
 7	sâː	sâː	VERB	_	_	6	comp:aux	_	AlignBegin=510421|AlignEnd=510575|GE=put|Gloss=put|nWord=8|RX=V1
-8	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	7	comp:cleft	_	AlignBegin=510575|AlignEnd=510729|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=9|RX=PNG.TAM
+8	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	7	comp:cleft	_	AlignBegin=510575|AlignEnd=510729|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=9|RX=PNG.TAM
 9	saːmoː	saːm-	VERB	_	_	8	comp:aux	_	AlignBegin=510729|AlignEnd=510883|GE=get.DIR|Gloss=get.DIR|nWord=10|RX=V6
 10	gàriː	gàriː	NOUN	_	_	9	comp:obj	_	AlignBegin=510883|AlignEnd=511037|GE=town|Gloss=town|nWord=11|RX=N
 11	Basaːwa	Basaːwa	PROPN	_	_	10	compound	_	AlignBegin=511037|AlignEnd=511191|GE=Basawa|Gloss=Basawa|nWord=12|RX=N.P
@@ -4054,7 +4054,7 @@
 3	nèː	neː	PART	_	_	0	root	_	AlignBegin=512078|AlignEnd=512208|GE=Ident/Foc|Gloss=Ident/Foc|nWord=4|RX=PART.SYNT
 4	dàliːlìn	dàliːlìː	NOUN	_	Definite=Def	3	comp:cleft	_	AlignBegin=512208|AlignEnd=512273|GE=cause|Gloss=cause.Def|nWord=5|RX=N
 5	dà	dà	SCONJ	_	_	4	mod@relcl	_	AlignBegin=512338|AlignEnd=512468|GE=COMP|Gloss=COMP|nWord=6|RX=CONJ/HOM
-6	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	5	comp:obj	_	AlignBegin=512468|AlignEnd=512598|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=7|RX=PNG.TAM
+6	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	5	comp:obj	_	AlignBegin=512468|AlignEnd=512598|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=7|RX=PNG.TAM
 7	saːmoː	saːm-	VERB	_	_	6	comp:aux	_	AlignBegin=512598|AlignEnd=512728|GE=get.DIR|Gloss=get.DIR|nWord=8|RX=V6
 8	gàriː	gàriː	NOUN	_	_	7	comp:obj	_	AlignBegin=512728|AlignEnd=512858|GE=town|Gloss=town|nWord=9|RX=N
 9	Basaːwaː	Basaːwaː	PROPN	_	_	8	compound	_	AlignBegin=512858|AlignEnd=512988|GE=Basawa|Gloss=Basawa|nWord=10|RX=N.P|wordform=basaːwa
@@ -4128,7 +4128,7 @@
 12	dà	dà	ADP	_	_	10	mod	_	AlignBegin=522020|AlignEnd=522201|GE=with|Gloss=with|nWord=12|RX=ADP
 13	yawàː	yawàː	NOUN	_	_	12	comp:obj	_	AlignBegin=522201|AlignEnd=522382|GE=quantity|Gloss=quantity|nWord=13|RX=N
 14	dà	dà	SCONJ	_	_	10	mod@relcl	_	AlignBegin=522382|AlignEnd=522563|GE=COMP|Gloss=COMP|nWord=14|RX=CONJ/HOM
-15	kukèː	kukèː	AUX	_	Number=Plur|Person=2	14	comp:obj	_	AlignBegin=522563|AlignEnd=522744|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=15|RX=PNG.TAM
+15	kukèː	kukèː	AUX	_	Aspect=Imp|Number=Plur|Person=2	14	comp:obj	_	AlignBegin=522563|AlignEnd=522744|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=15|RX=PNG.TAM
 16	saːmùn	saːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	15	comp:aux	_	AlignBegin=522744|AlignEnd=522834|GE=getting|Gloss=get.Vnoun.Cons|nWord=16|RX=N.V2
 17	ruwaː	ruwaː	NOUN	_	_	16	comp:obj	_	AlignBegin=522925|AlignEnd=523106|GE=water|Gloss=water|nWord=17|RX=N
 18	kukè	kè	AUX	_	Number=Plur|Person=2	15	conj:coord	_	AlignBegin=523106|AlignEnd=523287|GE=2Plur.Imp.FOC|Gloss=2Plur.Pred/Loc.Bkg|nWord=18|RX=PNG.TAM
@@ -4137,18 +4137,18 @@
 21	=ku	=ku	PRON	_	Number=Plur|Person=2	20	mod@poss	_	AlignBegin=523769|AlignEnd=523830|GE=2.Plur.POS|Gloss=2.Plur.POS|nWord=21|RX=PRO.POS
 22	|c	|c	PUNCT	_	_	24	_	_	AlignBegin=523830|AlignEnd=524011|Gloss=PUNCT|nWord=22
 23	koːkòː	koːkòː	CCONJ	_	_	24	cc	_	AlignBegin=524011|AlignEnd=524192|GE=or|Gloss=or|nWord=23|RX=CONJ
-24	kukàn	kàn	AUX	_	Number=Plur|Person=2	9	conj:coord	_	AlignBegin=524192|AlignEnd=524373|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=24|RX=PNG.TAM
+24	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	9	conj:coord	_	AlignBegin=524192|AlignEnd=524373|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=24|RX=PNG.TAM
 25	jeː	jeː	VERB	_	_	24	comp:aux	_	AlignBegin=524373|AlignEnd=524554|GE=go|Gloss=go|nWord=25|RX=V0
 26	wani	wani	DET	_	_	27	det	_	AlignBegin=524554|AlignEnd=524735|GE=some.M|Gloss=some.M|nWord=26|RX=DET.INDF
 27	wuriː	wuriː	NOUN	_	_	25	comp:goal	_	AlignBegin=524735|AlignEnd=524916|GE=place|Gloss=place|nWord=27|RX=N
 28	nèː	neː	PART	_	_	27	mod@emp	_	AlignBegin=524916|AlignEnd=525097|GE=Ident/Foc|Gloss=Ident/Foc|nWord=28|RX=PART.SYNT
-29	kù	à	AUX	_	Number=Plur|Person=2	24	conj:coord	_	AlignBegin=525097|AlignEnd=525278|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=29|RX=PNG.TAM
+29	kù	à	AUX	_	Aspect=Aor|Number=Plur|Person=2	24	conj:coord	_	AlignBegin=525097|AlignEnd=525278|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=29|RX=PNG.TAM
 30	ɗiːboː	ɗiːboː	VERB	_	_	29	comp:aux	_	AlignBegin=525278|AlignEnd=525459|GE=scoop_out.DIR|Gloss=scoop_out.DIR|nWord=30|RX=V6
 31	ruwaː	ruwaː	NOUN	_	_	30	comp:obj	_	AlignBegin=525459|AlignEnd=525640|GE=water|Gloss=water|nWord=31|RX=N
 32	|c	|c	PUNCT	_	_	33	punct	_	AlignBegin=525640|AlignEnd=525821|Gloss=PUNCT|nWord=32
-33	kù	à	AUX	_	Number=Plur|Person=2	29	conj:coord	_	AlignBegin=525821|AlignEnd=526002|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=33|RX=PNG.TAM
+33	kù	à	AUX	_	Aspect=Aor|Number=Plur|Person=2	29	conj:coord	_	AlignBegin=525821|AlignEnd=526002|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=33|RX=PNG.TAM
 34	zoː	zoː	VERB	_	_	33	comp:aux	_	AlignBegin=526002|AlignEnd=526183|GE=come|Gloss=come|nWord=34|RX=V0
-35	kù	à	AUX	_	Number=Plur|Person=2	33	conj:coord	_	AlignBegin=526183|AlignEnd=526364|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=35|RX=PNG.TAM
+35	kù	à	AUX	_	Aspect=Aor|Number=Plur|Person=2	33	conj:coord	_	AlignBegin=526183|AlignEnd=526364|GE=2Plur.Aor|Gloss=2Plur.Aor|nWord=35|RX=PNG.TAM
 36	yi	yi	VERB	_	_	35	comp:obj	_	AlignBegin=526364|AlignEnd=526545|GE=do|Gloss=do|nWord=36|RX=V0
 37	àmfàːniː	àmfàːniː	NOUN	_	_	36	comp:obj@lvc	_	AlignBegin=526545|AlignEnd=526726|GE=using|Gloss=using|nWord=37|RX=N
 38	dà	dà	ADP	_	_	37	comp:obl	_	AlignBegin=526726|AlignEnd=526907|GE=with|Gloss=with|nWord=38|RX=PREP/HOM
@@ -4176,7 +4176,7 @@
 # phonetic_text = mukàn yi àmfàːniː dà wânnan &//
 # text = mukàn yi àmfàːniː dà wânnan &//
 # text_en =  we use that..
-1	mukàn	kàn	AUX	_	Aspect=.Hab|Number=Plur|Person=1	0	root@scrap	_	AlignBegin=528135|AlignEnd=528406|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=1|RX=PNG.TAM
+1	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root@scrap	_	AlignBegin=528135|AlignEnd=528406|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=1|RX=PNG.TAM
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=528406|AlignEnd=528677|GE=do|Gloss=do|nWord=2|RX=V0
 3	àmfàːniː	àmfàːniː	NOUN	_	_	2	comp:obj@lvc	_	AlignBegin=528677|AlignEnd=528948|GE=using|Gloss=use|nWord=3|RX=N
 4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=528948|AlignEnd=529219|GE=with|Gloss=with|nWord=4|RX=PREP/HOM
@@ -4212,7 +4212,7 @@
 1	ràːfiː	ràːfiː	NOUN	_	_	3	dislocated@subj	_	AlignBegin=533128|AlignEnd=533329|GE=river|Gloss=river|nWord=1|RX=N
 2	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=533329|AlignEnd=533530|GE=3Masc.|Gloss=3Masc.Nom|nWord=2|RX=PRO.IDP
 3	nèː	neː	PART	_	_	0	root	_	AlignBegin=533530|AlignEnd=533731|GE=Ident/Foc|Gloss=Ident/Foc|nWord=3|RX=PART.SYNT
-4	ya	kà	AUX	_	Aspect=Imp|Evident=Bkg|Gender=Masc|Person=3	3	comp:cleft	_	AlignBegin=533731|AlignEnd=533932|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bkg|nWord=4|RX=PNG.TAM
+4	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	3	comp:cleft	_	AlignBegin=533731|AlignEnd=533932|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bkg|nWord=4|RX=PNG.TAM
 5	tahoː	tah-	VERB	_	_	4	comp:aux	_	AlignBegin=533932|AlignEnd=534133|GE=go.DIR|Gloss=go.DIR|nWord=5|RX=V6
 6	dàgà	dàgà	ADP	_	_	5	comp:obl	_	AlignBegin=534133|AlignEnd=534334|GE=from|Gloss=from|nWord=6|RX=PREP
 7	Basaːwa	Basaːwa	PROPN	_	_	6	comp:obj	_	AlignBegin=534334|AlignEnd=534535|GE=Basawa|Gloss=Basawa|nWord=7|RX=N.P
@@ -4315,7 +4315,7 @@
 8	ta	ta	ADP	_	_	0	root	_	AlignBegin=547750|AlignEnd=547862|GE=via|Gloss=via|nWord=9|RX=PREP
 9	nan	nan	ADV	_	Definite=Def	8	comp:obj	_	AlignBegin=547862|AlignEnd=547975|GE=Def|Gloss=Def|nWord=9
 10	wajên	wajeː	NOUN	_	Definite=Def	9	conj:appos	_	AlignBegin=548200|AlignEnd=548275|GE=place|Gloss=place.Def|nWord=11|RX=N
-11	mukàn	kàn	AUX	_	Number=Plur|Person=1	8	comp:cleft	_	AlignBegin=548350|AlignEnd=548425|Gloss=1Plur.Hab|nWord=11
+11	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	8	comp:cleft	_	AlignBegin=548350|AlignEnd=548425|Gloss=1Plur.Hab|nWord=11
 12	ɗiːbàː	ɗiːb-	NOUN	_	_	11	comp:aux	_	AlignBegin=548650|AlignEnd=548762|GE=scoop_out|Gloss=scoop_out|nWord=13|RX=V2*
 13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=548762|AlignEnd=548875|Gloss=PUNCT|nWord=13
 
@@ -4342,7 +4342,7 @@
 14	wannàn	wannàn	DET	_	_	15	det	_	AlignBegin=552811|AlignEnd=553000|GE=Prox|Gloss=Prox|nWord=18|RX=PRO.DEICT
 15	yanàːyiː	yanàːyiː	NOUN	_	_	13	mod	_	AlignBegin=553000|AlignEnd=553189|GE=weather|Gloss=weather|nWord=19|RX=N
 16	dà	dà	SCONJ	_	_	15	mod@relcl	_	AlignBegin=553189|AlignEnd=553378|GE=with|Gloss=with|nWord=20|RX=PREP/HOM
-17	akà	kà	AUX	_	Aspect=Imp|Evident=Bck|Person=4	16	comp:obj	_	AlignBegin=553378|AlignEnd=553567|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=21|RX=PNG.TAM
+17	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	16	comp:obj	_	AlignBegin=553378|AlignEnd=553567|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=21|RX=PNG.TAM
 18	yi	yi	VERB	_	_	17	comp:aux	_	AlignBegin=553567|AlignEnd=553756|GE=do|Gloss=do|nWord=22|RX=V0
 19	na	na	PART	_	Definite=Cons	15	mod	_	AlignBegin=553756|AlignEnd=553945|GE=Cons|Gloss=Cons|nWord=23|RX=PART.SYNT
 20	iskàː	iskàː	NOUN	_	_	19	comp:obj	_	AlignBegin=553945|AlignEnd=554134|GE=wind|Gloss=wind|nWord=24|RX=N
@@ -4352,7 +4352,7 @@
 24	ganiː	ganiː	VERB	_	_	23	comp:aux	_	AlignBegin=555126|AlignEnd=555296|GE=see|Gloss=see|nWord=28|RX=V*
 25	<	<	PUNCT	_	_	23	punct	_	AlignBegin=555296|AlignEnd=555466|Gloss=PUNCT|nWord=29
 26	àbîn	àbː	NOUN	_	Definite=Def	27	subj	_	AlignBegin=555466|AlignEnd=555587|GE=thing|Gloss=thing.Def|nWord=30|RX=N
-27	yakàn	kàn	AUX	_	Definite=Cons|Person=3	0	root	_	AlignBegin=555708|AlignEnd=555950|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=31|RX=PNG.TAM
+27	yakàn	kàn	AUX	_	Aspect=Hab|Definite=Cons|Person=3	0	root	_	AlignBegin=555708|AlignEnd=555950|GE=3Masc.Hab|Gloss=3Masc.Hab|nWord=31|RX=PNG.TAM
 28	ƙoːnèː	ƙoːnèː	NOUN	_	_	27	comp:aux	_	AlignBegin=555950|AlignEnd=556192|GE=dry_up|Gloss=dry_up|nWord=32|RX=V4
 29	//	//	PUNCT	_	_	27	punct	_	AlignBegin=556192|AlignEnd=556434|Gloss=PUNCT|nWord=33
 
@@ -4381,7 +4381,7 @@
 # text = tòː mukàn yi riːjiyoːyiː //
 # text_en =  Well we dig wells.
 1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=557818|AlignEnd=558018|GE=well|Gloss=well|nWord=1|RX=DM
-2	mukàn	kàn	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=558018|AlignEnd=558218|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=2|RX=PNG.TAM
+2	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=558018|AlignEnd=558218|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=2|RX=PNG.TAM
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=558218|AlignEnd=558418|GE=do|Gloss=do|nWord=3|RX=V0
 4	riːjiyoːyiː	riːjìyaː	NOUN	_	Number=Plur	3	comp:obj@lvc	_	AlignBegin=558418|AlignEnd=558518|GE=well|Gloss=well.Plur|nWord=4|RX=N
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=558618|AlignEnd=558818|Gloss=PUNCT|nWord=5
@@ -4438,7 +4438,7 @@
 # text_en =  Well how do you do with... animals and cattle drivers?
 1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=565151|AlignEnd=565353|GE=well|Gloss=well|nWord=1|RX=DM
 2	yàː	yàyàː	ADV	_	PronType=Int	0	root	_	AlignBegin=565353|AlignEnd=565555|GE=how|Gloss=how|nWord=2|RX=ADV.Q
-3	kukèː	kukèː	AUX	_	Number=Plur|Person=2	2	comp:cleft	_	AlignBegin=565555|AlignEnd=565757|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=3|RX=PNG.TAM
+3	kukèː	kukèː	AUX	_	Aspect=Imp|Number=Plur|Person=2	2	comp:cleft	_	AlignBegin=565555|AlignEnd=565757|GE=2Plur.Imp.FOC|Gloss=2Plur.Imp.Bkg|nWord=3|RX=PNG.TAM
 4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=565757|AlignEnd=565959|GE=with|Gloss=with|nWord=4|RX=PREP/HOM
 5	dabboːbiː	dabbàː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=566161|AlignEnd=566273|GE=cattle|Gloss=cattle.Plur|nWord=6|RX=N
 6	kuma	kuma	PART	_	ExtPos=CCONJ	7	cc	_	AlignBegin=566384|AlignEnd=566607|GE=too|Gloss=too|nWord=7|RX=PART.TOP
@@ -4458,7 +4458,7 @@
 4	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	mod	_	AlignBegin=568936|AlignEnd=569074|GE=farming|Gloss=farm.Vnoun.Cons|nWord=5|RX=N
 5	raːniː	raːniː	NOUN	_	_	4	compound	_	AlignBegin=569213|AlignEnd=569490|GE=dry_season|Gloss=dry_season|nWord=6|RX=N
 6	<	<	PUNCT	_	_	1	_	_	AlignBegin=569490|AlignEnd=569767|Gloss=PUNCT|nWord=7
-7	akàn	kàn	AUX	_	Person=4	0	root	_	AlignBegin=569767|AlignEnd=570044|GE=4.Hab|Gloss=4.Hab|nWord=8|RX=PNG.TAM
+7	akàn	kàn	AUX	_	Aspect=Hab|Person=4	0	root	_	AlignBegin=569767|AlignEnd=570044|GE=4.Hab|Gloss=4.Hab|nWord=8|RX=PNG.TAM
 8	sàːmaː	saːm-	VERB	_	_	7	comp:aux	_	AlignBegin=570044|AlignEnd=570321|GE=come_acroos|Gloss=come_acroos|nWord=9|RX=V2
 9	Ɗan	ɗaː	NOUN	_	Definite=Cons	8	comp:obj	_	AlignBegin=570598|AlignEnd=570875|GE=DIM|Gloss=son.Cons|nWord=11|RX=ADV
 10	Fulàːniː	Fulàːniː	PROPN	_	_	9	compound	_	AlignBegin=570875|AlignEnd=571152|GE=Fulani|Gloss=Fulani|nWord=12|RX=N.P
@@ -4483,7 +4483,7 @@
 # phonetic_text = akàn saːmù matsalaː irìː -ǹ na wânnan //
 # text = akàn sàːmu matsalaː irìn na wânnan //
 # text_en =  We usually get that kind of problem.
-1	akàn	kàn	AUX	_	Person=4	0	root	_	AlignBegin=570426|AlignEnd=570607|GE=4.Hab|Gloss=4.Hab|nWord=1|RX=PNG.TAM
+1	akàn	kàn	AUX	_	Aspect=Hab|Person=4	0	root	_	AlignBegin=570426|AlignEnd=570607|GE=4.Hab|Gloss=4.Hab|nWord=1|RX=PNG.TAM
 2	sàːmi	saːm-	NOUN	_	_	1	comp:aux	_	AlignBegin=570607|AlignEnd=570788|GE=get|Gloss=get|nWord=2|RX=V2
 3	matsalaː	matsalaː	NOUN	_	_	2	mod	_	AlignBegin=570788|AlignEnd=570969|GE=problem|Gloss=problem|nWord=3|RX=N
 4	irìn	irìː	NOUN	_	Definite=Def	3	mod	_	AlignBegin=570969|AlignEnd=571059|GE=type|Gloss=type.Def|nWord=4|RX=N
@@ -4499,7 +4499,7 @@
 # text = yàː kukàn yi dà suː > suː kuma bangarènsù ?//
 # text_en =  How do you deal with them and their like?
 1	yàyàː	yàyàː	ADV	_	PronType=Int	0	root	_	AlignBegin=572377|AlignEnd=572519|GE=how|Gloss=how|nWord=1|RX=ADV.Q
-2	kukàn	kàn	AUX	_	Number=Plur|Person=2	1	comp:cleft	_	AlignBegin=572519|AlignEnd=572661|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=2|RX=PNG.TAM
+2	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	1	comp:cleft	_	AlignBegin=572519|AlignEnd=572661|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=2|RX=PNG.TAM
 3	yi	yi	V0	_	_	2	comp:aux	_	AlignBegin=572661|AlignEnd=572803|GE=do|Gloss=do|nWord=3|RX=V0
 4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=572803|AlignEnd=572945|GE=with|Gloss=with|nWord=4|RX=PREP/HOM
 5	suː	suː	PRON	_	Number=Plur|Person=2	4	comp:obj	_	AlignBegin=572945|AlignEnd=573087|GE=3Plur|Gloss=2Plur.Nom|nWord=5|RX=PRO.IDP
@@ -4523,7 +4523,7 @@
 4	loːkàci:	loːkàciː	NOUN	_	_	2	comp:obj	_	AlignBegin=573606|AlignEnd=573751|GE=time|Gloss=time|nWord=4|RX=N
 5	dai	dai	ADV	_	_	2	discourse	_	AlignBegin=573751|AlignEnd=573896|GE=indeed|Gloss=indeed|nWord=5|RX=PART.TOP
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=573896|AlignEnd=574042|Gloss=PUNCT|nWord=6
-7	mukàn	kàn	AUX	_	Number=Plur|Person=1	0	root	_	AlignBegin=574042|AlignEnd=574290|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=7|RX=PNG.TAM
+7	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=574042|AlignEnd=574290|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=7|RX=PNG.TAM
 8	sàːmi	saːm-	VERB	_	_	7	comp:aux	_	AlignBegin=574290|AlignEnd=574414|GE=get|Gloss=get|nWord=8|RX=V2
 9	matsalaː	matsalaː	NOUN	_	_	8	comp:obj	_	AlignBegin=574538|AlignEnd=574786|GE=problem|Gloss=problem|nWord=9|RX=N
 10	àkân	àkân	ADP	_	_	8	comp:obl	_	AlignBegin=575411|AlignEnd=575845|GE=on|Gloss=on|nWord=11|RX=PREP
@@ -4542,7 +4542,7 @@
 # text_en =  Cattle come sometimes when peo.. cow.. who...
 1	dabboːbiː	dabbàː	NOUN	_	Number=Plur	3	dislocated@subj	_	AlignBegin=578788|AlignEnd=578930|GE=cattle|Gloss=domestic_animals.Plur|nWord=1|RX=N
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=579071|AlignEnd=579354|Gloss=PUNCT|nWord=2
-3	sukàn	kàn	AUX	_	Number=Plur|Person=3	0	root@scrap	_	AlignBegin=579354|AlignEnd=579590|GE=3Plur.Hab|Gloss=3Plur.Hab|nWord=3|RX=PNG.TAM
+3	sukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=3	0	root@scrap	_	AlignBegin=579354|AlignEnd=579590|GE=3Plur.Hab|Gloss=3Plur.Hab|nWord=3|RX=PNG.TAM
 4	zoː	zoː	VERB	_	_	3	comp:aux	_	AlignBegin=579590|AlignEnd=579826|GE=come|Gloss=come|nWord=4|RX=V0
 5	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	6	det	_	AlignBegin=579826|AlignEnd=580062|GE=some.M|Gloss=some.Masc|nWord=5|RX=DET.INDF
 6	zubìː	zubìː	NOUN	_	_	4	mod	_	AlignBegin=580062|AlignEnd=580298|GE=time|Gloss=time|nWord=6|RX=N
@@ -4584,7 +4584,7 @@
 1	sunàː	nàː²	AUX	_	Number=Plur|Person=2	0	root	_	AlignBegin=584150|AlignEnd=584386|GE=2Plur.Pred/Loc|Gloss=2Plur.Pred/Loc|nWord=1|RX=PNG.TAM
 2	baːya	baːya	ADV	_	_	1	comp:pred	_	AlignBegin=584386|AlignEnd=584622|GE=behind|Gloss=behind|nWord=2|RX=ADV
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=584622|AlignEnd=584859|Gloss=PUNCT|nWord=3
-4	zaːsù	zaː	AUX	_	Number=Plur|Person=3	1	conj:coord	_	AlignBegin=585102|AlignEnd=585310|GE=Fut.3Plur|Gloss=3Plur.Fut|nWord=4|RX=TAM.PNG
+4	zaːsù	zaː	AUX	_	Number=Plur|Person=3|Tense=Fut	1	conj:coord	_	AlignBegin=585102|AlignEnd=585310|GE=Fut.3Plur|Gloss=3Plur.Fut|nWord=4|RX=TAM.PNG
 5	tuːroː	tuːr-	VERB	_	_	4	comp:aux	_	AlignBegin=585310|AlignEnd=585518|GE=drive.DIR|Gloss=drive.DIR|nWord=5|RX=V6
 6	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=585518|AlignEnd=585726|GE=3Plur|Gloss=3Plur|nWord=6|RX=PRO.OBJ
 7	gàba	gàba	ADV	_	_	5	mod	_	AlignBegin=585726|AlignEnd=585934|GE=up_front|Gloss=up_front|nWord=7|RX=ADV
@@ -4602,7 +4602,7 @@
 3	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	comp:obj	_	AlignBegin=586850|AlignEnd=587010|GE=1Sing|Gloss=1Sing.Nom|nWord=3|RX=PRO.IDP
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=587010|AlignEnd=587172|Gloss=PUNCT|nWord=4
 5	ìdan	ìdan	SCONJ	_	_	11	mod	_	AlignBegin=587172|AlignEnd=587323|GE=if|Gloss=if|nWord=5|RX=CONJ
-6	zân	zaː	AUX	_	Number=Sing|Person=1	5	comp:obj	_	AlignBegin=587323|AlignEnd=587474|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=6|RX=TAM.PNG
+6	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	5	comp:obj	_	AlignBegin=587323|AlignEnd=587474|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=6|RX=TAM.PNG
 7	iyà	iy-	VERB	_	_	6	comp:aux	_	AlignBegin=587474|AlignEnd=587625|GE=can|Gloss=can|nWord=7|RX=V1.AUX
 8	tunàːwaː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:obj	_	AlignBegin=587625|AlignEnd=587701|GE=think|Gloss=think.Vnoun|nWord=8|RX=V1
 9	maː	maː	ADV	_	_	5	mod	_	AlignBegin=587776|AlignEnd=587927|GE=even|Gloss=even|nWord=9|RX=PART.TOP
@@ -4622,7 +4622,7 @@
 23	rìkiciː	rìkiciː	NOUN	_	_	20	conj:dicto	_	AlignBegin=589986|AlignEnd=590145|GE=trouble|Gloss=trouble|nWord=23|RX=N
 24	dà	dà	ADP	_	_	23	comp:obl	_	AlignBegin=590145|AlignEnd=590304|GE=with|Gloss=with|nWord=24|RX=PREP/HOM
 25	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	24	comp:obj	_	AlignBegin=590304|AlignEnd=590463|GE=3Plur|Gloss=2Plur.Nom|nWord=25|RX=PRO.IDP
-26	sukà	kà	AUX	_	Aspect=Imp|Evident=BackG|Number=Plur|Person=3	18	conj:coord	_	AlignBegin=590463|AlignEnd=590622|GE=3Plur.Perf.Bkg|Gloss=3Plur.Perf.Bkg|nWord=26|RX=PNG.TAM
+26	sukà	kà	AUX	_	Aspect=Perf|Evident=BackG|Number=Plur|Person=3	18	conj:coord	_	AlignBegin=590463|AlignEnd=590622|GE=3Plur.Perf.Bkg|Gloss=3Plur.Perf.Bkg|nWord=26|RX=PNG.TAM
 27	àː	àː	INTJ	_	_	28	discourse	_	AlignBegin=591096|AlignEnd=591208|GE=er|Gloss=FILL|nWord=28|RX=HESIT
 28	cînyeː	ci	VERB	_	_	26	comp:aux	_	AlignBegin=591319|AlignEnd=591554|GE=eat_up|Gloss=eat_up|nWord=30|RX=V4
 29	manà	manà	PRON	_	Number=Plur|Person=1	28	comp:obl	_	AlignBegin=591554|AlignEnd=591789|GE=1Plur|Gloss=1Plur.Dat|nWord=31|RX=PRO.Dat
@@ -4690,7 +4690,7 @@
 # phonetic_text = anàː cêː / munàː cêː masà sarkiː -n fulàːniː //
 # text = anàː cêː || munàː cêː masà sarkin Fulàːniː //
 # text_en =  he is called we call him the Chief of the Fulani.
-1	anàː	nàː	AUX	_	Person=4	0	root	_	AlignBegin=599188|AlignEnd=599276|GE=4.Imp|Gloss=4.Imp|nWord=1|RX=PNG.TAM
+1	anàː	nàː	AUX	_	Aspect=Imp|Person=4	0	root	_	AlignBegin=599188|AlignEnd=599276|GE=4.Imp|Gloss=4.Imp|nWord=1|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=599276|AlignEnd=599364|GE=say|Gloss=say|nWord=2|RX=V*
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=599364|AlignEnd=599451|Gloss=PUNCT|nWord=3
 4	munàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=1	1	conj:dicto	_	AlignBegin=599451|AlignEnd=599679|GE=1Plur.Imp|Gloss=1Plur.Imp|nWord=4|RX=PNG.TAM
