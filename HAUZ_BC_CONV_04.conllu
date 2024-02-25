@@ -537,9 +537,9 @@
 # phonetic_text = marzàː kèː nan //
 # text = marzàː kèː nan //
 # text_en =  It's "marza".
-1	marzàː	marzàː	NOUN	_	_	0	root	_	AlignBegin=59558|AlignEnd=59794|GE=sugar-cane_sp|Gloss=sugar-cane_sp|nWord=1|RX=N
-2	kèːnan	kèːnan	PART	_	_	1	mod	_	AlignBegin=59794|AlignEnd=60030|GE=Ident/Foc.Bkg|Gloss=Ident/Foc.Bkg|nWord=2|RX=PART.SYNT|wordform=kèː
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=60266|AlignEnd=60500|GE=//|Gloss=PUNCT|nWord=4
+1	marzàː	marzàː	NOUN	_	_	2	comp:pred	_	AlignBegin=59558|AlignEnd=59794|GE=sugar-cane_sp|Gloss=sugar-cane_sp|nWord=1|RX=N
+2	kèːnan	kèːnan	PART	_	_	0	root	_	AlignBegin=59794|AlignEnd=60030|GE=Ident/Foc.Bkg|Gloss=Ident/Foc.Bkg|nWord=2|RX=PART.SYNT|wordform=kèː
+3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=60266|AlignEnd=60500|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_0054-0054
 # speaker_id = SP2
@@ -558,8 +558,8 @@
 # phonetic_text = èː /
 # text = èː /
 # text_en =  Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=61072|AlignEnd=61243|GE=èː|Gloss=èː|nWord=1|RX=BKL
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=61243|AlignEnd=61414|GE=/|Gloss=PUNCT|nWord=2|wordform=/
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=61072|AlignEnd=61243|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
+2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=61243|AlignEnd=61414|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0056-0056
 # speaker_id = SP1
@@ -567,10 +567,10 @@
 # sent_timecode = 61414, 62082
 # phonetic_text = marzàː kèː nan //
 # text = marzàː kèː nan //
-# text_en =  it's "marza".
-1	marzàː	marzàː	NOUN	_	_	0	root	_	AlignBegin=61414|AlignEnd=61581|GE=sugar-cane_sp|Gloss=sugar-cane_sp|nWord=1|RX=N
-2	kèːnan	kèːnan	PART	_	_	1	mod	_	AlignBegin=61581|AlignEnd=61748|GE=Ident/Foc.Bkg|Gloss=Ident/Foc.Bkg|nWord=2|RX=PART.SYNT|wordform=kèː
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=61915|AlignEnd=62082|GE=//|Gloss=PUNCT|nWord=4
+# text_en =  It's "marza".
+1	marzàː	marzàː	NOUN	_	_	2	comp:pred	_	AlignBegin=61414|AlignEnd=61581|GE=sugar-cane_sp|Gloss=sugar-cane_sp|nWord=1|RX=N
+2	kèːnan	kèːnan	PART	_	_	0	root	_	AlignBegin=61581|AlignEnd=61748|GE=Ident/Foc.Bkg|Gloss=Ident/Foc.Bkg|nWord=2|RX=PART.SYNT|wordform=kèː
+3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=61915|AlignEnd=62082|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_0057-0057
 # speaker_id = SP1
@@ -583,7 +583,7 @@
 2	ìnaː	ìnaː	ADV	_	PronType=Int	0	root	_	AlignBegin=62249|AlignEnd=62416|GE=where|Gloss=where|nWord=2|RX=ADV.Q
 3	akèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|Person=4	2	comp:cleft	_	AlignBegin=62416|AlignEnd=62583|GE=4.Imp.Bkg|Gloss=4.Imp.Bkg|nWord=3|RX=PNG.TAM
 4	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=62583|AlignEnd=62639|GE=doing.Cons|Gloss=do.Vnoun.Cons|nWord=4|RX=N.V0|wordform=yîː
-5	=tà	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	4	comp:obj@lvc	_	AlignBegin=62695|AlignEnd=62750|GE=3Fem|Gloss=3Fem|nWord=4|RX=PRO.POS
+5	=tà	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=62695|AlignEnd=62750|GE=3Fem|Gloss=3Fem|nWord=4|RX=PRO.POS
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=62750|AlignEnd=62916|GE=//|Gloss=PUNCT|nWord=5
 
 # sent_id = HAUZ_BC_CONV_04_0058-0058
@@ -602,7 +602,7 @@
 # sent_timecode = 63503, 64274
 # phonetic_text = sai Màƙàrfiː //
 # text = sai Màƙàrfiː //
-# text_en =  Only Makarfi.
+# text_en =  Only in Makarfi.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=63503|AlignEnd=63760|GE=then|Gloss=then|nWord=1|RX=CONJ/HOM
 2	Màƙàrfiː	Màƙàrfiː	PROPN	_	_	0	root	_	AlignBegin=63760|AlignEnd=64017|GE=Makarfi|Gloss=Makarfi|nWord=2|RX=N.P
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=64017|AlignEnd=64274|GE=//|Gloss=PUNCT|nWord=3
@@ -612,12 +612,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 64839, 67227
 # phonetic_text = tôː / koː Màƙàrfiː -ǹ maː / in ka jeː ai / heː jeːfijeːfi //
-# text = tôː / koː màƙàrfîn maː / in ka jeː ai / heː jeːfijeːfi //
+# text = tôː / koː màƙàrfîn maː / in ka jeː ai / hm̀ːhmː jeːfì-jeːfì //
 # text_en =  Well, event in Makarfi, if you go there, it's not common.
 1	tôː	tôː	INTJ	_	_	13	discourse	_	AlignBegin=64839|AlignEnd=64989|GE=well|Gloss=well|nWord=1|RX=PART.TOP
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=64989|AlignEnd=65138|GE=/|Gloss=PUNCT|nWord=2|wordform=/
-3	koː	koː	CCONJ	_	_	13	discourse	_	AlignBegin=65138|AlignEnd=65325|GE=or|Gloss=or|nWord=3|RX=CONJ
-4	Màƙàrfiː-ǹ	Màƙàrfiː-ǹ	PROPN	_	_	3	comp:obj	_	AlignBegin=65325|AlignEnd=65419|GE=Makarfi.Def|Gloss=Makarfi.Def|nWord=4|RX=N.P|wordform=Màƙàrfiː
+3	koː	koː	ADV	_	_	4	mod	_	AlignBegin=65138|AlignEnd=65325|GE=or|Gloss=or|nWord=3|RX=CONJ
+4	Màƙàrfîn	Màƙàrfiː	PROPN	_	_	13	dislocated@top	_	AlignBegin=65325|AlignEnd=65419|GE=Makarfi.Def|Gloss=Makarfi.Def|nWord=4|RX=N.P|wordform=Màƙàrfiː
 5	maː	maː	ADV	_	_	4	mod	_	AlignBegin=65512|AlignEnd=65699|GE=even|Gloss=even|nWord=5|RX=PART.TOP
 6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=65699|AlignEnd=65887|GE=/|Gloss=PUNCT|nWord=6|wordform=/
 7	in	in	SCONJ	_	_	13	mod	_	AlignBegin=65887|AlignEnd=65982|GE=if|Gloss=if|nWord=7|RX=CONJ
@@ -625,8 +625,8 @@
 9	jeː	jeː	VERB	_	_	8	comp:aux	_	AlignBegin=66077|AlignEnd=66172|GE=go|Gloss=go|nWord=9|RX=V0
 10	ai	ai	INTJ	_	_	13	discourse	_	AlignBegin=66172|AlignEnd=66267|GE=indeed|Gloss=indeed|nWord=10|RX=EXCL
 11	<	<	PUNCT	_	_	10	punct	_	AlignBegin=66267|AlignEnd=66363|GE=/|Gloss=PUNCT|nWord=11|wordform=/
-12	heː	heː	INTJ	_	_	13	discourse	_	AlignBegin=66363|AlignEnd=66651|GE=heː|Gloss=heː|nWord=12|RX=FILL
-13	jeːfijeːfi	jeːfijeːfi	NOUN	_	Number=Plur	0	root	_	AlignBegin=66651|AlignEnd=66939|GE=sparse|Gloss=sparse|nWord=13|RX=ADJ
+12	hm̀ːhmː	hm̀ːhmː	INTJ	_	_	13	discourse	_	AlignBegin=66363|AlignEnd=66651|GE=heː|Gloss=eh|nWord=12|RX=FILL
+13	jeːfì-jeːfì	jeːfì-jeːfì	ADV	_	_	0	root	_	AlignBegin=66651|AlignEnd=66939|GE=uncommon|Gloss=uncommon|nWord=13|RX=ADJ
 14	//	//	PUNCT	_	_	13	punct	_	AlignBegin=66939|AlignEnd=67227|GE=//|Gloss=PUNCT|nWord=14
 
 # sent_id = HAUZ_BC_CONV_04_0064-0067
@@ -635,18 +635,18 @@
 # sent_timecode = 67463, 71467
 # phonetic_text = ěː sai dai r̃~ s~ wannàn ràkeː -n dà akèː měː rawaː -n doːkìː //
 # text = ěː sai dai r̃~ s~ wannàn ràken dà akèː měː rawan doːkìː //
-# text_en =  Indeed, er... that... sugar cane that they... using a horse.
+# text_en =  Indeed, er... that... sugar cane that they (?) using a horse.
 1	ěː	ěː	INTJ	_	_	4	discourse	_	AlignBegin=67463|AlignEnd=67643|GE=eh|Gloss=eh|nWord=1|RX=EXCL
 2	sai	sai	ADV	_	_	4	mod	_	AlignBegin=67643|AlignEnd=67823|GE=then|Gloss=then|nWord=2|RX=CONJ/HOM
 3	dai	dai	ADV	_	_	2	mod	_	AlignBegin=67823|AlignEnd=68003|GE=indeed|Gloss=indeed|nWord=3|RX=PART.TOP
 4	r̃~	X	X	_	_	0	root	_	AlignBegin=68003|AlignEnd=68181|GE=r~|Gloss=r~|nWord=4|RX=HESIT
 5	s~	s~	X	_	_	4	conj:dicto	_	AlignBegin=68181|AlignEnd=68661|GE=s~|Gloss=s~|nWord=5|RX=HESIT
 6	wannàn	wannàn	DET	_	_	7	det	_	AlignBegin=68661|AlignEnd=69141|GE=Prox|Gloss=Prox|nWord=6|RX=PRO.DEICT
-7	ràkeː-n	ràkeː-ː	NOUN	_	Definite=Cons	5	conj:dicto	_	AlignBegin=69141|AlignEnd=69298|GE=sugar-cane.Cons|Gloss=sugar-cane.Cons|nWord=7|RX=N|wordform=ràkeː
+7	ràken	ràkeː	NOUN	_	Definite=Cons	5	conj:dicto	_	AlignBegin=69141|AlignEnd=69298|GE=sugar-cane.Cons|Gloss=sugar-cane.Cons|nWord=7|RX=N|wordform=ràkeː
 8	dà	dà	SCONJ	_	_	7	mod@relcl	_	AlignBegin=69455|AlignEnd=69769|GE=COMP|Gloss=COMP|nWord=8|RX=PART.SYNT/HOM
 9	akèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|Person=4	8	comp:obj	_	AlignBegin=69769|AlignEnd=70083|GE=4.Imp.Bkg|Gloss=4.Imp.Bkg|nWord=9|RX=PNG.TAM
-10	měː	měː	PRON	_	_	9	comp:obl	_	AlignBegin=70083|AlignEnd=70399|GE=X|Gloss=X|nWord=10|RX=X
-11	rawaː-n	rawaː-ː	NOUN	_	Definite=Cons	10	comp:cleft	_	AlignBegin=70797|AlignEnd=70909|GE=moving.Cons|Gloss=moving.Cons|nWord=11|RX=N|wordform=rawaː
+10	měː	X	X	_	_	9	unk	_	AlignBegin=70083|AlignEnd=70399|GE=X|Gloss=X|nWord=10|RX=X
+11	rawan	rawaː	NOUN	_	Definite=Cons	10	unk	_	AlignBegin=70797|AlignEnd=70909|GE=moving.Cons|Gloss=moving.Cons|nWord=11|RX=N|wordform=rawaː
 12	doːkìː	doːkìː	NOUN	_	_	11	compound	_	AlignBegin=71020|AlignEnd=71243|GE=horse|Gloss=horse|nWord=12|RX=N
 13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=71243|AlignEnd=71467|GE=//|Gloss=PUNCT|nWord=13
 
@@ -667,57 +667,64 @@
 # phonetic_text = wânnan ita nèː /
 # text = wânnan ita nèː /
 # text_en =  That one, that's it.
-1	wânnan	wânnan	DET	_	Definite=Def	3	comp:pred	_	AlignBegin=73015|AlignEnd=73165|GE=Def|Gloss=Def|nWord=1|RX=PRO.DEICT
+1	wânnan	wânnan	DET	_	Definite=Def	3	subj	_	AlignBegin=73015|AlignEnd=73165|GE=Def|Gloss=Def|nWord=1|RX=PRO.DEICT
 2	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=73165|AlignEnd=73315|GE=3Fem|Gloss=3Fem.Nom|nWord=2|RX=PRO.IDP
 3	nèː	neː	PART	_	_	0	root	_	AlignBegin=73315|AlignEnd=73465|GE=Ident/Foc|Gloss=Ident/Foc|nWord=3|RX=PART.SYNT
-4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=73465|AlignEnd=73613|GE=/|Gloss=PUNCT|nWord=4|wordform=/
+4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=73465|AlignEnd=73613|GE=/|Gloss=PUNCT|nWord=4|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0070-0070
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 73613, 75188
-# phonetic_text = gàː ta nan zaːkà ganiː tà à geːfèː -n tiːtìː maː /
-# text = gàː ta nan zaːkà gan tà à geːfèn tiːtìː maː //
-# text_en =  you will find it by the roadside.
-1	gàː	gàː	PART	_	_	2	mod	_	AlignBegin=73613|AlignEnd=73756|GE=here_is|Gloss=here_is|nWord=1|RX=PART.SYNT
-2	ta	ta	PART	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=73756|AlignEnd=73899|GE=3Fem|Gloss=3Fem|nWord=2|RX=PRO.OBJ
-3	nan	nan	ADV	_	Definite=Def	2	comp:obj	_	AlignBegin=73899|AlignEnd=74042|GE=Def|Gloss=Def|nWord=3|RX=ADV.DEICT
-4	zaːkà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	2	comp:cleft	_	AlignBegin=74042|AlignEnd=74185|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=4|RX=TAM.PNG
-5	gan	ganiː	VERB	_	_	4	comp:aux	_	AlignBegin=74185|AlignEnd=74328|GE=see|Gloss=see|nWord=5|RX=V*
-6	tà	tà	PRON	_	Person=3	5	comp:obj	_	AlignBegin=74328|AlignEnd=74471|GE=3Fem|Gloss=3Fem|nWord=6|RX=PRO.OBJ
-7	à	à	ADP	_	_	5	comp:obj	_	AlignBegin=74471|AlignEnd=74614|GE=at|Gloss=at|Idiom=Yes|nWord=7|RX=PREP
-8	geːfèn	geːfèː	NOUN	_	Definite=Def|Number=Plur	7	comp:obj	_	AlignBegin=74614|AlignEnd=74686|GE=near|Gloss=near|InIdiom=Yes|nWord=8|RX=N|wordform=geːfèː
-9	tiːtìː	tiːtìː	NOUN	_	_	8	mod	_	AlignBegin=74757|AlignEnd=74900|GE=street|Gloss=street|nWord=9|RX=N
-10	maː	maː	ADV	_	_	1	mod	_	AlignBegin=74900|AlignEnd=75043|GE=even|Gloss=even|nWord=10|RX=PART.TOP
-11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=75043|AlignEnd=75188|GE=/|Gloss=PUNCT|nWord=11
+# sent_timecode = 73613, 74042
+# phonetic_text = à nân an shânyaː tà //
+# text = gàː ta nan //
+# text_en = It's there.
+1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=73613|AlignEnd=73756|GE=here_is|Gloss=here_is|nWord=1|RX=PART.SYNT
+2	ta	ta	PRON	_	Aspect=Perf|Person=3	1	subj	_	AlignBegin=73756|AlignEnd=73899|GE=3Fem|Gloss=3Fem|nWord=2|RX=PRO.OBJ
+3	nan	nan	ADV	_	Definite=Def	1	comp:pred	_	AlignBegin=73899|AlignEnd=74042|GE=Def|Gloss=Def|nWord=3|RX=ADV.DEICT
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=73899|AlignEnd=74042|GE=PUNCT|Gloss=PUNCT|nWord=3|RX=PUNCT
 
-# sent_id = HAUZ_BC_CONV_04_0071-0071
+# sent_id = HAUZ_BC_CONV_04_0071-0071_split1
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 75188, 75708
+# sent_timecode = 74042, 75188
 # phonetic_text = à nân an shânyaː tà //
-# text = à nân an shânyaː tà //
-# text_en =  That's where they dry it.
-1	à	à	ADP	_	_	0	root	_	AlignBegin=75188|AlignEnd=75275|GE=at|Gloss=at|nWord=1|RX=PREP
-2	nân	nân	ADV	_	_	1	comp:obj	_	AlignBegin=75275|AlignEnd=75362|GE=Prox|Gloss=Prox|nWord=2|RX=ADV.DEICT
-3	an	nàː	AUX	_	Aspect=Perf|Person=4	1	comp:svc	_	AlignBegin=75362|AlignEnd=75449|GE=4.Perf|Gloss=4.Perf|nWord=3|RX=PNG.TAM
-4	shânyaː	shânyaː	VERB	_	_	3	comp:aux	_	AlignBegin=75449|AlignEnd=75536|GE=dry|Gloss=dry|nWord=4|RX=V1
-5	tà	tà	PRON	_	Person=3	4	comp:obj	_	AlignBegin=75536|AlignEnd=75623|GE=3Fem|Gloss=3Fem|nWord=5|RX=PRO.OBJ
-6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=75623|AlignEnd=75708|GE=//|Gloss=PUNCT|nWord=6
+# text = zaːkà gan tà à geːfèn tiːtìː maː //
+# text_en = You will see it by the roadside.
+1	zaːkà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=74042|AlignEnd=74185|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=4|RX=TAM.PNG
+2	gan	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=74185|AlignEnd=74328|GE=see|Gloss=see|nWord=5|RX=V*
+3	tà	tà	PRON	_	Person=3	2	comp:obj	_	AlignBegin=74328|AlignEnd=74471|GE=3Fem|Gloss=3Fem|nWord=6|RX=PRO.OBJ
+4	à	à	ADP	_	ExtPos=ADP	2	comp:obl	_	AlignBegin=74471|AlignEnd=74614|GE=at|Gloss=at|Idiom=Yes|nWord=7|RX=PREP
+5	geːfèn	geːfèː	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=74614|AlignEnd=74686|GE=side.Cons|Gloss=side.Cons|InIdiom=Yes|nWord=8|RX=N|wordform=geːfèː
+6	tiːtìː	tiːtìː	NOUN	_	_	4	comp:obj	_	AlignBegin=74757|AlignEnd=74900|GE=street|Gloss=street|nWord=9|RX=N
+7	maː	maː	ADV	_	_	4	mod	_	AlignBegin=74900|AlignEnd=75043|GE=even|Gloss=even|nWord=10|RX=PART.TOP
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=75043|AlignEnd=75188|GE=/|Gloss=PUNCT|nWord=11
+
+# sent_id = HAUZ_BC_CONV_04_0071-0071_split2
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 75362, 75708
+# phonetic_text = à nân an shânyaː tà //
+# text = an shânyaː tà //
+# text_en = They dried it.
+1	an	nàː	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=75362|AlignEnd=75449|GE=4.Perf|Gloss=4.Perf|nWord=3|RX=PNG.TAM
+2	shânyaː	shânyaː	VERB	_	_	1	comp:aux	_	AlignBegin=75449|AlignEnd=75536|GE=dry|Gloss=dry|nWord=4|RX=V1
+3	tà	tà	PRON	_	Person=3	2	comp:obj	_	AlignBegin=75536|AlignEnd=75623|GE=3Fem|Gloss=3Fem|nWord=5|RX=PRO.OBJ
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=75623|AlignEnd=75708|GE=//|Gloss=PUNCT|nWord=6
 
 # sent_id = HAUZ_BC_CONV_04_0072-0072
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 75708, 77168
 # phonetic_text = èː tòː wânnan kuma ai &//
-# text = èː tòː wânnan kuma ai &//
+# text = èː tòː wânnan kuma ai !//
 # text_en =  Er, well, that one indeed.
-1	èː	èː	INTJ	_	_	5	discourse	_	AlignBegin=75708|AlignEnd=75951|GE=èː|Gloss=èː|nWord=1|RX=FILL
-2	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=75951|AlignEnd=76194|GE=well|Gloss=well|nWord=2|RX=DM
-3	wânnan	wânnan	PRON	_	Definite=Def	5	conj:appos	_	AlignBegin=76194|AlignEnd=76437|GE=Def|Gloss=Def|nWord=3|RX=PRO.DEICT
+1	eː	eː	INTJ	_	_	3	discourse	_	AlignBegin=75708|AlignEnd=75951|GE=èː|Gloss=yes|nWord=1|RX=FILL|wordform=èː
+2	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=75951|AlignEnd=76194|GE=well|Gloss=well|nWord=2|RX=DM
+3	wânnan	wânnan	PRON	_	Definite=Def	0	root	_	AlignBegin=76194|AlignEnd=76437|GE=Def|Gloss=Def|nWord=3|RX=PRO.DEICT
 4	kuma	kuma	PART	_	_	3	mod	_	AlignBegin=76437|AlignEnd=76680|GE=too|Gloss=too|nWord=4|RX=PART.TOP
-5	ai	ai	INTJ	_	_	0	root@scrap	_	AlignBegin=76680|AlignEnd=76923|GE=indeed|Gloss=indeed|nWord=5|RX=EXCL
-6	&//	&//	PUNCT	_	_	5	punct	_	AlignBegin=76923|AlignEnd=77168|GE=&//|Gloss=PUNCT|nWord=6
+5	ai	ai	INTJ	_	_	3	discourse	_	AlignBegin=76680|AlignEnd=76923|GE=indeed|Gloss=indeed|nWord=5|RX=EXCL
+6	!//	!//	PUNCT	_	_	3	punct	_	AlignBegin=76923|AlignEnd=77168|GE=&//|Gloss=PUNCT|nWord=6
 
 # sent_id = HAUZ_BC_CONV_04_0073-0073
 # speaker_id = SP1
@@ -882,7 +889,7 @@
 # phonetic_text = èː dà nair̃àː goːmà /
 # text = èː dà nair̃àː goːmà /
 # text_en =  Er, for ten naira,
-1	èː	èː	INTJ	_	_	3	discourse	_	AlignBegin=101431|AlignEnd=101716|GE=èː|Gloss=èː|nWord=1|RX=FILL
+1	eː	eː	INTJ	_	_	3	discourse	_	AlignBegin=101431|AlignEnd=101716|GE=èː|Gloss=èː|nWord=1|RX=FILL|wordform=èː
 2	dà	dà	ADP	_	_	0	root	_	AlignBegin=101716|AlignEnd=102001|GE=with|Gloss=with|nWord=2|RX=PREP/HOM
 3	nair̃àː	nair̃àː	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=102001|AlignEnd=102286|GE=Naira|Gloss=Naira|nWord=3|RX=N
 4	goːmà	goːmà	NUM	_	_	3	mod	_	AlignBegin=102286|AlignEnd=102571|GE=ten|Gloss=ten|nWord=4|RX=NUM
@@ -1280,7 +1287,7 @@
 # phonetic_text = èː tôː ai yànzu zaːmàniː an fitoː dà àbù -uCaː\HL kalàːkalàː //
 # text = èː tôː ai yànzu zaːmàniː an fitoː dà abuːbuwàː kalàːkalàː //
 # text_en =  Er, well now, they make all sort of things.
-1	èː	èː	INTJ	_	_	6	discourse	_	AlignBegin=150133|AlignEnd=150338|GE=èː|Gloss=èː|nWord=1|RX=FILL
+1	eː	eː	INTJ	_	_	6	discourse	_	AlignBegin=150133|AlignEnd=150338|GE=èː|Gloss=èː|nWord=1|RX=FILL|wordform=èː
 2	tôː	tôː	INTJ	_	_	6	discourse	_	AlignBegin=150338|AlignEnd=150543|GE=well|Gloss=well|nWord=2|RX=PART.TOP
 3	ai	ai	ADV	_	_	6	discourse	_	AlignBegin=150543|AlignEnd=150748|GE=indeed|Gloss=indeed|nWord=3|RX=EXCL
 4	yànzu	yànzu	ADV	_	_	6	mod	_	AlignBegin=150748|AlignEnd=150953|GE=now|Gloss=now|nWord=4|RX=ADV.DEICT
@@ -1434,7 +1441,7 @@
 # phonetic_text = èː / har̃ dà kiɗàː //
 # text = èː / har̃ dà kiɗàː //
 # text_en =  Yes, with drums even.
-1	èː	èː	INTJ	_	_	3	discourse	_	AlignBegin=167039|AlignEnd=167200|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	3	discourse	_	AlignBegin=167039|AlignEnd=167200|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=167200|AlignEnd=167361|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 3	har̃	har̃	ADP	_	_	0	root	_	AlignBegin=167361|AlignEnd=167537|GE=until|Gloss=until|nWord=3|RX=CONJ
 4	dà	dà	ADP	_	_	3	unk	_	AlignBegin=167537|AlignEnd=167713|GE=with|Gloss=with|nWord=4|RX=PREP/HOM
@@ -1487,7 +1494,7 @@
 # phonetic_text = èː /
 # text = èː /
 # text_en =  Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=173706|AlignEnd=173890|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=173706|AlignEnd=173890|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=173890|AlignEnd=174073|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0147-0147
@@ -1677,7 +1684,7 @@
 # phonetic_text = èː //
 # text = èː //
 # text_en =  Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=193030|AlignEnd=193305|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=193030|AlignEnd=193305|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=193305|AlignEnd=193580|GE=//|Gloss=PUNCT|nWord=2
 
 # sent_id = HAUZ_BC_CONV_04_0161-0161
@@ -2046,13 +2053,13 @@
 # phonetic_text = èː sai dai kà X &// èː akà shânyaː koː doːlè kà tsayàː kusa //
 # text = èː sai dai kà X &// èː akà shânyaː koː doːlè kà tsayàː kusa //
 # text_en =  Er, you X... Er, they dry it and you must stay nearby.
-1	èː	èː	INTJ	_	_	4	discourse	_	AlignBegin=241802|AlignEnd=242089|GE=èː|Gloss=èː|nWord=1|RX=FILL
+1	eː	eː	INTJ	_	_	4	discourse	_	AlignBegin=241802|AlignEnd=242089|GE=èː|Gloss=èː|nWord=1|RX=FILL|wordform=èː
 2	sai	sai	ADV	_	_	4	mod	_	AlignBegin=242089|AlignEnd=242376|GE=then|Gloss=then|nWord=2|RX=CONJ/HOM
 3	dai	dai	ADV	_	_	2	mod	_	AlignBegin=242376|AlignEnd=242663|GE=indeed|Gloss=indeed|nWord=3|RX=PART.TOP
 4	kà	à	AUX	_	Aspect=Aor|Person=2	0	root	_	AlignBegin=242663|AlignEnd=242950|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=4|RX=PNG.TAM
 5	X	X	X	_	_	4	comp:aux	_	AlignBegin=242950|AlignEnd=243237|GE=X|Gloss=X|nWord=5|RX=X
 6	&//	&//	PUNCT	_	_	8	punct	_	AlignBegin=243237|AlignEnd=243522|GE=&//|Gloss=PUNCT|nWord=6
-7	èː	èː	INTJ	_	_	8	discourse	_	AlignBegin=243633|AlignEnd=243819|GE=èː|Gloss=èː|nWord=7|RX=FILL
+7	eː	eː	INTJ	_	_	8	discourse	_	AlignBegin=243633|AlignEnd=243819|GE=èː|Gloss=èː|nWord=7|RX=FILL|wordform=èː
 8	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	4	conj:svc	_	AlignBegin=243819|AlignEnd=244005|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=8|RX=PNG.TAM
 9	shânyaː	shânyaː	VERB	_	_	8	comp:aux	_	AlignBegin=244005|AlignEnd=244191|GE=dry|Gloss=dry|nWord=9|RX=V1
 10	koː	koː	CCONJ	_	_	11	cc	_	AlignBegin=244191|AlignEnd=244377|GE=or|Gloss=or|nWord=10|RX=CONJ
@@ -2069,7 +2076,7 @@
 # phonetic_text = èː //
 # text = èː //
 # text_en =  Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=243790|AlignEnd=243968|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=243790|AlignEnd=243968|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=243968|AlignEnd=244147|GE=//|Gloss=PUNCT|nWord=2
 
 # sent_id = HAUZ_BC_CONV_04_0199-0201
@@ -2154,7 +2161,7 @@
 # phonetic_text = èː / kà ji anàː kiɗàː //
 # text = èː / kà ji anàː kiɗàː //
 # text_en =  Yes, it sounds like drumming.
-1	èː	èː	INTJ	_	_	5	discourse	_	AlignBegin=253446|AlignEnd=253765|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	5	discourse	_	AlignBegin=253446|AlignEnd=253765|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=253765|AlignEnd=254084|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 3	kà	à	AUX	_	Aspect=Aor|Person=2	5	parataxis@discourse	_	AlignBegin=254084|AlignEnd=254279|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=3|RX=PNG.TAM
 4	ji	ji	VERB	_	_	3	comp:aux	_	AlignBegin=254279|AlignEnd=254474|GE=hear|Gloss=hear|nWord=4|RX=V0
@@ -2426,7 +2433,7 @@
 # phonetic_text = èː /
 # text = èː /
 # text_en =  Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=285998|AlignEnd=286314|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=285998|AlignEnd=286314|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=286314|AlignEnd=286630|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0241-0241
@@ -2622,7 +2629,7 @@
 # phonetic_text = èː //
 # text = èː //
 # text_en =  Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=310554|AlignEnd=310792|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=310554|AlignEnd=310792|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=310792|AlignEnd=311029|GE=//|Gloss=PUNCT|nWord=2
 
 # sent_id = HAUZ_BC_CONV_04_0262-0263
@@ -2633,7 +2640,7 @@
 # text = àː èː &// tòː wânnan tòː shiː kàm //
 # text_en =  Well er... that's it, absolutely.
 1	àː	àː	INTJ	_	_	7	discourse	_	AlignBegin=311029|AlignEnd=311178|GE=FILL|Gloss=FILL|nWord=1|RX=FILL
-2	èː	èː	INTJ	_	_	7	discourse	_	AlignBegin=311178|AlignEnd=311327|GE=èː|Gloss=èː|nWord=2|RX=FILL
+2	eː	eː	INTJ	_	_	7	discourse	_	AlignBegin=311178|AlignEnd=311327|GE=èː|Gloss=èː|nWord=2|RX=FILL|wordform=èː
 3	&//	&//	PUNCT	_	_	5	punct	_	AlignBegin=311327|AlignEnd=311476|GE=&//|Gloss=PUNCT|nWord=3
 4	tòː	tòː	INTJ	_	_	7	discourse	_	AlignBegin=311476|AlignEnd=311636|GE=well|Gloss=well|nWord=4|RX=DM
 5	wânnan	wânnan	PRON	_	Definite=Def	2	conj:appos	_	AlignBegin=311636|AlignEnd=311796|GE=Def|Gloss=Def|nWord=5|RX=PRO.DEICT
@@ -2652,7 +2659,7 @@
 1	tundà	tundà	ADV	_	_	2	discourse	_	AlignBegin=311912|AlignEnd=312111|GE=since|Gloss=since|nWord=1|RX=CONJ
 2	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root@scrap	_	AlignBegin=312111|AlignEnd=312310|GE=1Plur.Perf|Gloss=1Plur.Perf|nWord=2|RX=PNG.TAM
 3	&//	&//	PUNCT	_	_	5	punct	_	AlignBegin=312310|AlignEnd=312509|GE=&//|Gloss=PUNCT|nWord=3
-4	èː	èː	INTJ	_	_	5	discourse	_	AlignBegin=312509|AlignEnd=312668|GE=èː|Gloss=èː|nWord=4|RX=FILL
+4	eː	eː	INTJ	_	_	5	discourse	_	AlignBegin=312509|AlignEnd=312668|GE=èː|Gloss=èː|nWord=4|RX=FILL|wordform=èː
 5	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	2	conj:dicto	_	AlignBegin=312668|AlignEnd=312827|GE=1Plur.Perf|Gloss=1Plur.Perf|nWord=5|RX=PNG.TAM
 6	ganiː	ganiː	VERB	_	_	5	comp:aux	_	AlignBegin=312827|AlignEnd=312986|GE=see|Gloss=see|nWord=6
 7	_	_	PUNCT	_	_	5	punct	_	AlignBegin=312986|AlignEnd=313145|Gloss=PUNCT|nWord=7
@@ -3807,7 +3814,7 @@
 # phonetic_text = èː /
 # text = èː /
 # text_en =  Yes
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=475063|AlignEnd=475525|GE=FILL|Gloss=FILL|nWord=1|RX=FILL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=475063|AlignEnd=475525|GE=FILL|Gloss=FILL|nWord=1|RX=FILL|wordform=èː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=475525|AlignEnd=475986|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0396-0396
@@ -3861,7 +3868,7 @@
 # phonetic_text = èː ƙwar̃ai dà gàske //
 # text = èː ƙwar̃ai dà gàske //
 # text_en =  Yes, quite right.
-1	èː	èː	INTJ	_	_	2	discourse	_	AlignBegin=479982|AlignEnd=480176|GE=èː|Gloss=èː|nWord=1|RX=FILL
+1	eː	eː	INTJ	_	_	2	discourse	_	AlignBegin=479982|AlignEnd=480176|GE=èː|Gloss=èː|nWord=1|RX=FILL|wordform=èː
 2	ƙwar̃ai	ƙwar̃ai	ADV	_	_	0	root	_	AlignBegin=480176|AlignEnd=480370|GE=quite|Gloss=quite|nWord=2|RX=ADV
 3	dà	dà	CCONJ	_	_	4	cc	_	AlignBegin=480370|AlignEnd=480564|GE=with|Gloss=with|nWord=3|RX=PREP/HOM
 4	gàske	gàske	ADV	_	_	2	conj:coord	_	AlignBegin=480564|AlignEnd=480758|GE=truly|Gloss=truly|nWord=4|RX=ADV
@@ -4450,7 +4457,7 @@
 # phonetic_text = èː //
 # text = èː //
 # text_en =  Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=554914|AlignEnd=555046|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=554914|AlignEnd=555046|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=555046|AlignEnd=555179|GE=//|Gloss=PUNCT|nWord=2
 
 # sent_id = HAUZ_BC_CONV_04_0468-0468
@@ -4543,7 +4550,7 @@
 # phonetic_text = èː //
 # text = èː //
 # text_en =  Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=569720|AlignEnd=569912|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=569720|AlignEnd=569912|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=569912|AlignEnd=570105|GE=//|Gloss=PUNCT|nWord=2
 
 # sent_id = HAUZ_BC_CONV_04_0479-0481
@@ -4847,7 +4854,7 @@
 # phonetic_text = èː / ƴancìː -n ƴaː -n adàm kèː nan //
 # text = èː / ƴancìn ƴan adàm kèː nan //
 # text_en =  Yes, it's about human rights.
-1	èː	èː	INTJ	_	_	4	discourse	_	AlignBegin=606089|AlignEnd=606256|GE=èː|Gloss=èː|nWord=1|RX=FILL
+1	eː	eː	INTJ	_	_	4	discourse	_	AlignBegin=606089|AlignEnd=606256|GE=èː|Gloss=èː|nWord=1|RX=FILL|wordform=èː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=606256|AlignEnd=606423|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 3	ƴancìː-n	ƴancìː-ː	NOUN	_	Definite=Cons|Number=Plur	4	mod	_	AlignBegin=606423|AlignEnd=606504|GE=independance.Cons|Gloss=independance.Cons|nWord=3|RX=N|wordform=ƴancìː
 4	ƴaː-n	ƴaː-ː	VERB	_	Definite=Cons	0	root	_	AlignBegin=606585|AlignEnd=606666|GE=son.Plur.Cons|Gloss=son.Plur.Cons|nWord=4|RX=N.Plur|wordform=ƴaː
@@ -5376,7 +5383,7 @@
 # phonetic_text = èː //
 # text = èː //
 # text_en =  Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=664942|AlignEnd=665070|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=664942|AlignEnd=665070|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=665070|AlignEnd=665197|GE=//|Gloss=PUNCT|nWord=2
 
 # sent_id = HAUZ_BC_CONV_04_0566-0568
@@ -5679,7 +5686,7 @@
 # phonetic_text = èː /
 # text = èː /
 # text_en =  Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=695244|AlignEnd=695514|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=695244|AlignEnd=695514|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=695514|AlignEnd=695785|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0597-0597
@@ -6450,7 +6457,7 @@
 # phonetic_text = èː //
 # text = èː //
 # text_en =  Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=787887|AlignEnd=788003|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=787887|AlignEnd=788003|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=788003|AlignEnd=788118|GE=//|Gloss=PUNCT|nWord=2
 
 # sent_id = HAUZ_BC_CONV_04_0678-0681
@@ -6719,7 +6726,7 @@
 # phonetic_text = èː // m̀ː //
 # text = èː // m̀ː //
 # text_en =  Yes. Uhuh.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=816922|AlignEnd=817238|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=816922|AlignEnd=817238|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	//	//	PUNCT	_	_	3	punct	_	AlignBegin=817238|AlignEnd=817555|GE=//|Gloss=PUNCT|nWord=2
 3	m̀ː	m̀ː	INTJ	_	_	1	discourse	_	AlignBegin=820163|AlignEnd=820507|GE=BKL|Gloss=BKL|nWord=3|RX=BKL
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=820507|AlignEnd=820850|GE=//|Gloss=PUNCT|nWord=4
@@ -7041,7 +7048,7 @@
 # phonetic_text = èː /
 # text = èː /
 # text_en =  Yes.
-1	èː	èː	INTJ	_	_	0	root	_	AlignBegin=863444|AlignEnd=863646|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=863444|AlignEnd=863646|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=863646|AlignEnd=863848|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0751-0752
@@ -7172,7 +7179,7 @@
 # phonetic_text = èː tòː / ai na yi makà na zaːmàni: kèː nan ai / /
 # text = èː tòː / ai na yi makà na zaːmàni: kèː nan ai / /
 # text_en =  Well then, I've called it the modern way for you!
-1	èː	èː	INTJ	_	_	7	discourse	_	AlignBegin=878080|AlignEnd=878250|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	7	discourse	_	AlignBegin=878080|AlignEnd=878250|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=878250|AlignEnd=878420|GE=well|Gloss=well|nWord=2|RX=DM
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=878420|AlignEnd=878589|GE=/|Gloss=PUNCT|nWord=3|wordform=/
 4	ai	ai	ADV	_	_	5	mod	_	AlignBegin=878589|AlignEnd=878751|GE=indeed|Gloss=indeed|nWord=4|RX=EXCL
@@ -8030,7 +8037,7 @@
 # phonetic_text = èː // àƙallà / à tàƙàice / tun saːfe kuma / in / mun fìta sai mù kai yâmma /
 # text = èː // àƙallà / à tàƙàice / tun saːfe kuma / in / mun fìta sai mù kai yâmma /
 # text_en =  Yes, in short, in a nutshell, from morning if we went out, we staid until the evening,
-1	èː	èː	INTJ	_	_	17	discourse	_	AlignBegin=968560|AlignEnd=968942|GE=èː|Gloss=èː|nWord=1|RX=BKL
+1	eː	eː	INTJ	_	_	17	discourse	_	AlignBegin=968560|AlignEnd=968942|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
 2	//	//	PUNCT	_	_	3	punct	_	AlignBegin=968942|AlignEnd=969325|GE=//|Gloss=PUNCT|nWord=2
 3	àƙallà	àƙallà	ADV	_	_	17	discourse	_	AlignBegin=969584|AlignEnd=969899|GE=at_least|Gloss=at_least|nWord=3|RX=ADV
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=969899|AlignEnd=970214|GE=/|Gloss=PUNCT|nWord=4|wordform=/
