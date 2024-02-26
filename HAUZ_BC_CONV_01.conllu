@@ -1351,8 +1351,8 @@
 # phonetic_text = mài suːnaː / àlhaːjì iːdi //
 # text = mài suːnaː Àlhaːjì Iːdi //
 # text_en =  His is called Alhaji Idi.
-1	mài	mài	ADP	_	_	0	root	_	AlignBegin=163272|AlignEnd=163438|GE=ATTR|Gloss=with|nWord=1|RX=PART.SYNT
-2	suːnaː	suːnaː	NOUN	_	_	1	comp:obj	_	AlignBegin=163438|AlignEnd=163604|GE=name|Gloss=name|nWord=2|RX=N
+1	mài	mài	NOUN	_	_	0	root	_	AlignBegin=163272|AlignEnd=163438|GE=ATTR|Gloss=holder_of|nWord=1|RX=PART.SYNT
+2	suːnaː	suːnaː	NOUN	_	_	1	compound	_	AlignBegin=163438|AlignEnd=163604|GE=name|Gloss=name|nWord=2|RX=N
 3	Àlhaːjì	Àlhaːjì	PROPN	_	_	2	mod	_	AlignBegin=163770|AlignEnd=163936|GE=Alhayi|Gloss=Alhaji|nWord=4|RX=N.P
 4	Iːdi	Iːdi	PROPN	_	_	3	flat:name	_	AlignBegin=163936|AlignEnd=164102|GE=Idi|Gloss=Idi|nWord=5|RX=N.P
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=164102|AlignEnd=164269|Gloss=PUNCT|nWord=6
@@ -1773,8 +1773,8 @@
 8	wânnan	wânnan	DET	_	Definite=Def	9	det	_	AlignBegin=205553|AlignEnd=205774|GE=Def|Gloss=Def|nWord=7|RX=PRO.DEICT
 9	kàːkaː	kàːkaː	NOUN	_	_	7	comp:obj	_	AlignBegin=205774|AlignEnd=205995|GE=grand-parent|Gloss=grand-mother|nWord=8|RX=N
 10	nàːwa	nàːwa	PRON	_	Number=Sing|Person=1	9	mod@poss	_	AlignBegin=205995|AlignEnd=206216|GE=1Sing|Gloss=1Sing.Gen|nWord=9|RX=PRO.POS
-11	mài	mài	ADP	_	_	9	mod	_	AlignBegin=206437|AlignEnd=206547|GE=ATTR|Gloss=with|nWord=11|RX=PART.SYNT
-12	suːnaː	suːnaː	NOUN	_	_	11	comp:obj	_	AlignBegin=206547|AlignEnd=206658|Gloss=name|nWord=11
+11	mài	mài	NOUN	_	_	9	mod	_	AlignBegin=206437|AlignEnd=206547|GE=ATTR|Gloss=holder_of|nWord=11|RX=PART.SYNT
+12	suːnaː	suːnaː	NOUN	_	_	11	compound	_	AlignBegin=206547|AlignEnd=206658|Gloss=name|nWord=11
 13	Taːbi	Taːbi	PROPN	_	_	12	mod	_	AlignBegin=206879|AlignEnd=206989|GE=Tabi|Gloss=Tabi|nWord=13|RX=N.P
 14	wandà	wandà	ADV	_	PronType=Rel	9	conj:appos@relcl	_	AlignBegin=206989|AlignEnd=207100|Gloss=whom|nWord=13
 15	akèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|Person=4	14	mod@relcl	_	AlignBegin=207321|AlignEnd=207431|GE=4.Imp.Bkg|Gloss=4.Imp.Bck|nWord=15|RX=PNG.TAM
@@ -2490,11 +2490,11 @@
 7	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	6	comp:obj	_	AlignBegin=295553|AlignEnd=295769|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=7|RX=PNG.TAM
 8	ganiː	ganiː	VERB	_	_	7	comp:aux	_	AlignBegin=295769|AlignEnd=295985|GE=see|Gloss=see|nWord=8|RX=V*
 9	hakà	hakà	ADV	_	_	8	comp:obl	_	AlignBegin=295985|AlignEnd=296201|GE=like_this|Gloss=like_this|nWord=9|RX=ADV
-10	mài	mài	ADP	_	_	8	comp:obj	_	AlignBegin=296201|AlignEnd=296417|GE=ATTR|Gloss=with|nWord=10|RX=PART.SYNT
+10	mài	mài	NOUN	_	_	8	comp:obj	_	AlignBegin=296201|AlignEnd=296417|GE=ATTR|Gloss=holder_of|nWord=10|RX=PART.SYNT
 11	àrhaː	àrhaː	NOUN	_	_	10	compound	_	AlignBegin=296417|AlignEnd=296633|GE=cheapness|Gloss=cheapness|nWord=11|RX=N
 12	<	<	PUNCT	_	_	6	punct	_	AlignBegin=296633|AlignEnd=296849|Gloss=PUNCT|nWord=12
 13	wajen	wajen	ADP	_	_	18	mod	_	AlignBegin=296849|AlignEnd=297065|GE=around|Gloss=around|nWord=13|RX=PREP
-14	màːsu	màːsu	ADP	_	Number=Plur	13	comp:obj	_	AlignBegin=297065|AlignEnd=297281|GE=ATTR.Plur|Gloss=with.Plur|nWord=14|RX=PART
+14	màːsu	màːsu	NOUN	_	Number=Plur	13	comp:obj	_	AlignBegin=297065|AlignEnd=297281|GE=ATTR.Plur|Gloss=holder_of.Plur|nWord=14|RX=PART
 15	moːtòː	moːtòː	NOUN	_	_	14	compound	_	AlignBegin=297281|AlignEnd=297497|GE=car|Gloss=car|nWord=15|RX=N
 16	<	<	PUNCT	_	_	13	punct	_	AlignBegin=297497|AlignEnd=297713|Gloss=PUNCT|nWord=16
 17	sai	sai	ADV	_	_	18	mod	_	AlignBegin=297713|AlignEnd=297929|GE=then|Gloss=then|nWord=17|RX=CONJ/HOM
@@ -3396,7 +3396,7 @@
 5	iyà	iyàː	AUX	_	_	4	mod@relcl	_	AlignBegin=428660|AlignEnd=428878|GE=can|Gloss=can|nWord=5|RX=V1.AUX
 6	tunàːwaː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=428878|AlignEnd=428987|GE=think|Gloss=think.Vnoun|nWord=6|RX=V1
 7	loːkàcîn	loːkàciː	NOUN	_	Definite=Def	6	mod	_	AlignBegin=429096|AlignEnd=429205|GE=time|Gloss=time.Def|nWord=7|RX=N
-8	mài	mài	ADP	_	_	6	udep	_	AlignBegin=429314|AlignEnd=429532|GE=ATTR|Gloss=with|nWord=8|RX=PART.SYNT
+8	mài	mài	NOUN	_	_	6	udep	_	AlignBegin=429314|AlignEnd=429532|GE=ATTR|Gloss=holder_of|nWord=8|RX=PART.SYNT
 9	gidan	gidaː	NOUN	_	Definite=Cons	8	compound	_	AlignBegin=429532|AlignEnd=429605|GE=home|Gloss=home.Cons|nWord=9|RX=N
 10	=mù	shì	PRON	_	Number=Plur|Person=1|PronType=Prs	8	mod@poss	_	AlignBegin=429678|AlignEnd=429750|GE=1Plur|Gloss=1Plur.Gen|nWord=9|RX=PRO.POS
 11	sòːsai	sòːsai	ADV	_	_	4	mod	_	AlignBegin=429750|AlignEnd=429968|GE=quite|Gloss=quite|nWord=10|RX=ADV
@@ -4563,7 +4563,7 @@
 # text_en =  You know, cattle drivers they are not really careful.
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	parataxis@discourse	_	AlignBegin=581782|AlignEnd=581941|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=1|RX=PNG.TAM
 2	sanìː	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=581941|AlignEnd=582100|GE=know|Gloss=know|nWord=2|RX=V*
-3	màːsu	màːsu	ADP	_	Number=Plur	7	dislocated@subj	_	AlignBegin=582100|AlignEnd=582259|GE=ATTR.Plur|Gloss=with.Plur|nWord=3|RX=PART.SYNT
+3	màːsu	màːsu	NOUN	_	Number=Plur	7	dislocated@subj	_	AlignBegin=582100|AlignEnd=582259|GE=ATTR.Plur|Gloss=holder_of.Plur|nWord=3|RX=PART.SYNT
 4	kiːwòn	kiːwòː	NOUN	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	compound	_	AlignBegin=582259|AlignEnd=582339|GE=cattle_breeding|Gloss=cattle_breeding.Cons|nWord=4|RX=N.V4
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=582418|AlignEnd=582577|Gloss=PUNCT|nWord=5
 6	bàː	bàː	PART	_	_	7	mod	_	AlignBegin=582779|AlignEnd=582925|GE=Neg|Gloss=Neg|nWord=6|RX=PART.Neg
