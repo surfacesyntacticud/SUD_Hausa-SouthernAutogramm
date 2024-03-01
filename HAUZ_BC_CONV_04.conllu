@@ -3364,11 +3364,11 @@
 8	ba	ba	PART	_	Polarity=Neg	3	mod	_	AlignBegin=414025|AlignEnd=414214|GE=Neg|Gloss=Neg|nWord=8|RX=PART.Neg
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=414214|AlignEnd=414407|GE=/|Gloss=PUNCT|nWord=9|wordform=/
 
-# sent_id = HAUZ_BC_CONV_04_0341-0341_0342-0344
+# sent_id = HAUZ_BC_CONV_04_0341-0344
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 416324, 418907
-# phonetic_text = mùtûm -aːCeː\HLH -n -mù sun &// iyàːyeː -n -mù sun manà &// sun manà gaːtaː //
+# sent_timecode = 415185, 418907
+# phonetic_text = yànzu < mutànen =mù sun iyàːyen =mù sun manà || sun manà gaːtaː //
 # text = yànzu < mutànen =mù sun iyàːyen =mù sun manà || sun manà gaːtaː //
 # text_en =  Now, our people have... our parents have... they have spoilt us...
 1	yànzu	yànzu	ADV	_	_	5	mod	_	AlignBegin=415185|AlignEnd=415357|GE=now|Gloss=now|nWord=1|RX=ADV.DEICT
@@ -3584,8 +3584,8 @@
 # sent_id = HAUZ_BC_CONV_04_0370-0370
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 449180, 452173
-# phonetic_text = à yi barùː // koː bàː koː /
+# sent_timecode = 449180, 450058
+# phonetic_text = à yi barùː !// 
 # text = à yi barùː !//
 # text_en =  They dug a pit.
 1	à	à	AUX	_	Aspect=Aor|Person=4	0	root	_	AlignBegin=449180|AlignEnd=449400|GE=4.Aor|Gloss=4.Aor|nWord=1|RX=PNG.TAM
@@ -3593,36 +3593,27 @@
 3	barùː	barùː	NOUN	_	_	2	comp:obj	_	AlignBegin=449620|AlignEnd=449840|GE=pit|Gloss=pit|nWord=3|RX=N
 4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=449840|AlignEnd=450058|GE=//|Gloss=PUNCT|nWord=4
 
-# sent_id = HAUZ_BC_CONV_04_0371-0371
+# sent_id = HAUZ_BC_CONV_04_0371-0374
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 451533, 452173
-# phonetic_text = à yi barùː // koː bàː koː /
-# text = koː bàː koː ?//
-# text_en = If
-1	koː	koː	CCONJ	_	_	2	cc	_	AlignBegin=451533|AlignEnd=451693|GE=or|Gloss=or|nWord=5|RX=CONJ
-2	bàː	bàː	PART	_	_	0	root	_	AlignBegin=451693|AlignEnd=451853|GE=Neg|Gloss=Neg|nWord=6|RX=PART.Neg
-3	koː	koː	CCONJ	_	_	2	discourse	_	AlignBegin=451853|AlignEnd=452013|GE=or|Gloss=or|nWord=7|RX=CONJ
-4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=452013|AlignEnd=452173|GE=/|Gloss=PUNCT|nWord=8|wordform=/
-
-# sent_id = HAUZ_BC_CONV_04_0373-0374
-# speaker_id = SP2
-# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 452173, 454332
+# sent_timecode = 451533, 454332
 # phonetic_text = ka yi ka ɗaukoː dànkalìː / saː shi à ribìɗiː //
-# text = ka yi ka ɗaukoː dànkalìː / saː shi à ribìɗiː //
-# text_en =  you took sweet potatoes, you put them in warm ashes.
-1	ka	ya	AUX	_	Aspect=Perf|Person=2	7	parataxis@discourse	_	AlignBegin=452173|AlignEnd=452361|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=1|RX=PNG.TAM
-2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=452361|AlignEnd=452549|GE=do|Gloss=do|nWord=2|RX=V0
-3	ka	ka	AUX	_	Aspect=Perf|Person=2	2	parataxis@discourse	_	AlignBegin=452549|AlignEnd=452737|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=3|RX=PNG.TAM
-4	ɗaukoː	ɗaukoː	NOUN	_	_	3	comp:aux	_	AlignBegin=452737|AlignEnd=452925|GE=take.DIR|Gloss=take.DIR|nWord=4|RX=V6
-5	dànkalìː	dànkalìː	NOUN	_	_	4	mod	_	AlignBegin=452925|AlignEnd=453113|GE=sweet_potatoes|Gloss=sweet_potatoes|nWord=5|RX=N
-6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=453113|AlignEnd=453298|GE=/|Gloss=PUNCT|nWord=6|wordform=/
-7	saː	saː	ADV	_	_	9	mod	_	AlignBegin=453298|AlignEnd=453505|GE=put.Jus|Gloss=put.Jus|nWord=7|RX=V1.TAM/ATO
-8	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=453505|AlignEnd=453712|GE=3Masc|Gloss=3Masc|nWord=8|RX=PRO.OBJ
-9	à	à	ADP	_	_	0	root	_	AlignBegin=453712|AlignEnd=453919|GE=at|Gloss=at|nWord=9|RX=PREP
-10	ribìɗiː	ribìɗiː	NOUN	_	_	9	comp:obj	_	AlignBegin=453919|AlignEnd=454126|GE=hot_fine_ashes|Gloss=hot_fine_ashes|nWord=10|RX=N
-11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=454126|AlignEnd=454332|GE=//|Gloss=PUNCT|nWord=11
+# text = koː bàː koː ka yi ka ɗaukoː dànkalìː < saː shi à ribìɗiː //
+# text_en =  Or, if you had sweet potatoes, you put them in warm ashes.
+1	koː	koː	CCONJ	_	_	10	discourse	_	AlignBegin=451533|AlignEnd=451693|GE=or|Gloss=or|nWord=5|RX=CONJ
+2	bàː	bàː	PART	_	_	10	mod@emp	_	AlignBegin=451693|AlignEnd=451853|GE=Neg|Gloss=Neg|nWord=6|RX=PART.Neg
+3	koː	koː	CCONJ	_	_	10	mod	_	AlignBegin=451853|AlignEnd=452013|GE=or|Gloss=or|nWord=7|RX=CONJ
+4	ka	ya	AUX	_	Aspect=Perf|Person=2	3	comp:obj	_	AlignBegin=452173|AlignEnd=452361|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=1|RX=PNG.TAM
+5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=452361|AlignEnd=452549|GE=do|Gloss=do|nWord=2|RX=V0
+6	ka	ka	AUX	_	Aspect=Perf|Person=2	4	conj:svc	_	AlignBegin=452549|AlignEnd=452737|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=3|RX=PNG.TAM
+7	ɗaukoː	ɗauk-	VERB	_	_	6	comp:aux	_	AlignBegin=452737|AlignEnd=452925|GE=take.DIR|Gloss=take.DIR|nWord=4|RX=V6
+8	dànkalìː	dànkalìː	NOUN	_	_	7	mod	_	AlignBegin=452925|AlignEnd=453113|GE=sweet_potatoes|Gloss=sweet_potatoes|nWord=5|RX=N
+9	<	<	PUNCT	_	_	6	punct	_	AlignBegin=453113|AlignEnd=453298|GE=/|Gloss=PUNCT|nWord=6|wordform=/
+10	saː	saː	VERB	_	Mood=Jus	0	root	_	AlignBegin=453298|AlignEnd=453505|GE=put.Jus|Gloss=put.Jus|nWord=7|RX=V1.TAM/ATO
+11	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=453505|AlignEnd=453712|GE=3Masc|Gloss=3Masc|nWord=8|RX=PRO.OBJ
+12	à	à	ADP	_	_	10	comp:loc	_	AlignBegin=453712|AlignEnd=453919|GE=at|Gloss=at|nWord=9|RX=PREP
+13	ribìɗiː	ribìɗiː	NOUN	_	_	12	comp:obj	_	AlignBegin=453919|AlignEnd=454126|GE=hot_fine_ashes|Gloss=hot_fine_ashes|nWord=10|RX=N
+14	//	//	PUNCT	_	_	10	punct	_	AlignBegin=454126|AlignEnd=454332|GE=//|Gloss=PUNCT|nWord=11
 
 # sent_id = HAUZ_BC_CONV_04_0375-0375
 # speaker_id = SP1
@@ -3631,7 +3622,7 @@
 # phonetic_text = nan dà nan //
 # text = nan dà nan //
 # text_en =  Right there.
-1	nan	nan	AUX	_	Definite=Def	0	root	_	AlignBegin=454990|AlignEnd=455186|GE=Def|Gloss=Def|nWord=1|RX=ADV.DEICT
+1	nan	nan	ADV	_	Definite=Def	0	root	_	AlignBegin=454990|AlignEnd=455186|GE=Def|Gloss=Def|nWord=1|RX=ADV.DEICT
 2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=455186|AlignEnd=455382|GE=with|Gloss=with|nWord=2|RX=PREP/HOM
 3	nan	nan	ADV	_	Definite=Def	1	conj:coord	_	AlignBegin=455382|AlignEnd=455578|GE=Def|Gloss=Def|nWord=3|RX=ADV.DEICT
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=455578|AlignEnd=455776|GE=//|Gloss=PUNCT|nWord=4
@@ -3642,19 +3633,19 @@
 # sent_timecode = 457407, 460378
 # phonetic_text = in kaː gasàː mashì wutaː / kwaːnaː biyu ukù yanàː cîː //
 # text = in kaː gasàː mashì wutaː / kwaːnaː biyu ukù yanàː cîː //
-# text_en =  After you put it in the fire, it bakes for two to three days.
-1	in	in	SCONJ	_	_	9	mod	_	AlignBegin=457407|AlignEnd=457655|GE=if|Gloss=if|nWord=1|RX=CONJ
+# text_en =  After you put it in the fire, after two to three days, it is cooked
+1	in	in	SCONJ	_	_	10	mod	_	AlignBegin=457407|AlignEnd=457655|GE=if|Gloss=if|nWord=1|RX=CONJ
 2	kaː	kaː	AUX	_	Aspect=Perf|Person=2	1	comp:obj	_	AlignBegin=457655|AlignEnd=457903|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=2|RX=PNG.TAM
 3	gasàː	gasàː	VERB	_	_	2	comp:aux	_	AlignBegin=457903|AlignEnd=458151|GE=fry|Gloss=fry|nWord=3|RX=V1
 4	mashì	mashì	PRON	_	Person=3	3	comp:ben	_	AlignBegin=458151|AlignEnd=458399|GE=3Masc|Gloss=3Masc.Dat|nWord=4|RX=PRO.BEN
 5	wutaː	wutaː	PRON	_	_	3	comp:obj	_	AlignBegin=458399|AlignEnd=458647|GE=fire|Gloss=fire|nWord=5|RX=N
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=458647|AlignEnd=458895|GE=/|Gloss=PUNCT|nWord=6|wordform=/
-7	kwaːnaː	kwaːnaː	NOUN	_	_	9	subj	_	AlignBegin=458895|AlignEnd=459143|GE=night|Gloss=night|nWord=7|RX=N
-8	biyu	biyu	NUM	_	_	7	mod	_	AlignBegin=459143|AlignEnd=459391|GE=two|Gloss=two|nWord=8|RX=NUM
-9	ukù	à	NUM	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	0	root	_	AlignBegin=459391|AlignEnd=459639|GE=three|Gloss=three|nWord=9|RX=NUM
-10	yanàː	nàː	AUX	_	Aspect=Imp|Person=3	9	conj:coord	_	AlignBegin=459639|AlignEnd=459887|GE=3Masc.Imp|Gloss=3Masc.Imp|nWord=10|RX=PNG.TAM
+7	kwaːnaː	kwaːnaː	NOUN	_	_	10	mod	_	AlignBegin=458895|AlignEnd=459143|GE=night|Gloss=night|nWord=7|RX=N
+8	biyu	biyu	NUM	_	_	7	mod:num	_	AlignBegin=459143|AlignEnd=459391|GE=two|Gloss=two|nWord=8|RX=NUM
+9	ukù	à	NUM	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	8	conj:coord	_	AlignBegin=459391|AlignEnd=459639|GE=three|Gloss=three|nWord=9|RX=NUM
+10	yanàː	nàː	AUX	_	Aspect=Imp|Person=3	0	root	_	AlignBegin=459639|AlignEnd=459887|GE=3Masc.Imp|Gloss=3Masc.Imp|nWord=10|RX=PNG.TAM
 11	cîː	ci	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	10	comp:aux	_	AlignBegin=459887|AlignEnd=460135|GE=eating|Gloss=eat.Vnoun|nWord=11|RX=N.V0
-12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=460135|AlignEnd=460378|GE=//|Gloss=PUNCT|nWord=12
+12	//	//	PUNCT	_	_	10	punct	_	AlignBegin=460135|AlignEnd=460378|GE=//|Gloss=PUNCT|nWord=12
 
 # sent_id = HAUZ_BC_CONV_04_0378-0378
 # speaker_id = SP2
@@ -3666,7 +3657,7 @@
 1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=457911|AlignEnd=458115|GE=well|Gloss=well|nWord=1|RX=DM
 2	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=458115|AlignEnd=458319|GE=3Masc|Gloss=3Masc.Nom|nWord=2|RX=PRO.IDP
 3	nèː	neː	PART	_	_	0	root	_	AlignBegin=458319|AlignEnd=458523|GE=Ident/Foc|Gloss=Ident/Foc|nWord=3|RX=PART.SYNT
-4	ai	ai	PART	_	_	3	mod	_	AlignBegin=458523|AlignEnd=458727|GE=indeed|Gloss=indeed|nWord=4|RX=EXCL
+4	ai	ai	INTJ	_	_	3	discourse	_	AlignBegin=458523|AlignEnd=458727|GE=indeed|Gloss=indeed|nWord=4|RX=EXCL
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=458727|AlignEnd=458933|GE=//|Gloss=PUNCT|nWord=5
 
 # sent_id = HAUZ_BC_CONV_04_0379-0382
@@ -13562,3 +13553,4 @@
 # text_en =  Amen.
 1	àːmin	àːmin	INTJ	_	_	0	root	_	AlignBegin=1.64409e+06|AlignEnd=1.64433e+06|GE=amen|Gloss=amen|nWord=1|RX=INTJ
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.64433e+06|AlignEnd=1.64456e+06|GE=//|Gloss=PUNCT|nWord=2
+
