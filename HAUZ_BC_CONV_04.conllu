@@ -6190,18 +6190,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 761341, 764284
 # phonetic_text = àlʼamàr̃iː -n / àbù -uCaː\HL -n gar̃gajiya: ɗîn / an dankàfeː su //
-# text = àlʼamàr̃in / abuːbuwàn gar̃gajiya: ɗîn / an dankàfeː su //
+# text = àlʼamàr̃in abuːbuwàn gar̃gajiya: ɗîn < an dankàfeː su //
 # text_en =  The ways of old things have been abandoned.
-1	àlʼamàr̃iː-n	àlʼamàr̃iːiː	NOUN	_	Number=Plur	7	dislocated@top	_	AlignBegin=761341|AlignEnd=761535|GE=affairs.Cons|Gloss=affairs.Cons|nWord=1|RX=N|wordform=àlʼamàr̃iː
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=761729|AlignEnd=762118|GE=/|Gloss=PUNCT|nWord=2|wordform=/
-3	àbù=uCaː\HL-n	àù	NOUN	_	Definite=Cons|Number=Plur	0	root	_	AlignBegin=762118|AlignEnd=762230|GE=thing.Plur.Cons|Gloss=thing.Plur.Cons|nWord=3|RX=N|wordform=àbù
-4	gar̃gajiya:	gar̃gajiya:	NOUN	_	_	3	mod	_	AlignBegin=762455|AlignEnd=762792|GE=olden_times|Gloss=olden_times|nWord=4|RX=N
-5	ɗîn	ɗin	DET	_	Definite=Def	7	mod	_	AlignBegin=762792|AlignEnd=763129|GE=Def|Gloss=of.Def|nWord=5|RX=PART
-6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=763129|AlignEnd=763467|GE=/|Gloss=PUNCT|nWord=6|wordform=/
-7	an	nàː	AUX	_	Aspect=Perf|Person=4	3	conj:coord	_	AlignBegin=763467|AlignEnd=763671|GE=4.Perf|Gloss=4.Perf|nWord=7|RX=PNG.TAM
-8	dankàfeː	dankàfeː	VERB	_	_	7	comp:aux	_	AlignBegin=763671|AlignEnd=763875|GE=abandon|Gloss=abandon|nWord=8|RX=V4
-9	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=763875|AlignEnd=764079|GE=3Plur|Gloss=3Plur|nWord=9|RX=PRO.OBJ
-10	//	//	PUNCT	_	_	7	punct	_	AlignBegin=764079|AlignEnd=764284|GE=//|Gloss=PUNCT|nWord=10
+1	àlʼamàr̃in	àlʼamàr̃iː	NOUN	_	Number=Plur	6	dislocated@top	_	AlignBegin=761341|AlignEnd=761535|GE=affairs.Cons|Gloss=affairs.Cons|nWord=1|RX=N|wordform=àlʼamàr̃iː
+2	abuːbuwàn	àbù	NOUN	_	Definite=Cons|Number=Plur	1	mod	_	AlignBegin=762118|AlignEnd=762230|GE=thing.Plur.Cons|Gloss=thing.Plur.Cons|nWord=3|RX=N|wordform=àbù
+3	gar̃gajiya:	gar̃gajiya:	NOUN	_	_	2	mod	_	AlignBegin=762455|AlignEnd=762792|GE=olden_times|Gloss=olden_times|nWord=4|RX=N
+4	ɗîn	ɗin	DET	_	Definite=Def	2	det	_	AlignBegin=762792|AlignEnd=763129|GE=Def|Gloss=of.Def|nWord=5|RX=PART
+5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=763129|AlignEnd=763467|GE=/|Gloss=PUNCT|nWord=6|wordform=/
+6	an	nàː	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=763467|AlignEnd=763671|GE=4.Perf|Gloss=4.Perf|nWord=7|RX=PNG.TAM
+7	dankàfeː	dankaf-	VERB	_	_	6	comp:aux	_	AlignBegin=763671|AlignEnd=763875|GE=abandon|Gloss=abandon|nWord=8|RX=V4
+8	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=763875|AlignEnd=764079|GE=3Plur|Gloss=3Plur|nWord=9|RX=PRO.OBJ
+9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=764079|AlignEnd=764284|GE=//|Gloss=PUNCT|nWord=10
 
 # sent_id = HAUZ_BC_CONV_04_0654-0654
 # speaker_id = SP2
@@ -6244,27 +6243,35 @@
 2	dannèː	dann-	VERB	_	_	1	comp:aux	_	AlignBegin=768342|AlignEnd=768597|GE=trample|Gloss=trample|nWord=2|RX=V4
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=768597|AlignEnd=768853|GE=//|Gloss=PUNCT|nWord=3
 
-# sent_id = HAUZ_BC_CONV_04_0657-0659
+# sent_id = HAUZ_BC_CONV_04_0657-0658
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 765889, 769733
+# sent_timecode = 765889, 767545
 # phonetic_text = yànzu sai wasu àbù -uCaː\HL -ǹ nèː sukèː sôː sù &// sù dannèː na gar̃gajiyaː -ǹ //
-# text = yànzu sai wasu abuːbuwàn neː sukèː sôː sù &// sù dannè na gar̃gajiyân //
-# text_en =  Now, there are only a few things they want to... They trample on the things of the old times.
-1	yànzu	yànzu	ADV	_	_	6	mod	_	AlignBegin=765889|AlignEnd=766073|GE=now|Gloss=now|nWord=1|RX=ADV.DEICT
-2	sai	sai	ADV	_	_	6	mod	_	AlignBegin=766073|AlignEnd=766257|GE=only|Gloss=only|nWord=2|RX=CONJ/HOM
+# text = yànzu sai wasu abuːbuwàn nèː sukèː sôː sù &//
+# text_en =  Now, there are only a few things they want to...
+1	yànzu	yànzu	ADV	_	_	4	mod	_	AlignBegin=765889|AlignEnd=766073|GE=now|Gloss=now|nWord=1|RX=ADV.DEICT
+2	sai	sai	ADV	_	_	4	mod	_	AlignBegin=766073|AlignEnd=766257|GE=only|Gloss=only|nWord=2|RX=CONJ/HOM
 3	wasu	wasu	DET	_	Number=Plur	4	det	_	AlignBegin=766257|AlignEnd=766441|GE=some.Plur|Gloss=some.Plur|nWord=3|RX=DET.INDF
-4	àbù=uCaː\HL-ǹ	àbù	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=766441|AlignEnd=766502|GE=thing.Plur.Def|Gloss=thing.Plur.Def|nWord=4|RX=N|wordform=àbù
+4	abuːbuwàn	àbù	NOUN	_	Number=Plur	0	root	_	AlignBegin=766441|AlignEnd=766502|GE=thing.Plur.Def|Gloss=thing.Plur.Def|nWord=4|RX=N|wordform=àbù
 5	nèː	neː	PART	_	_	4	mod@emp	_	AlignBegin=766625|AlignEnd=766809|GE=Ident/Foc|Gloss=Ident/Foc|nWord=5|RX=PART.SYNT
-6	sukèː	kèː	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	0	root	_	AlignBegin=766809|AlignEnd=766993|GE=3Plur.Imp.Bkg|Gloss=3Plur.Imp.Bkg|nWord=6|RX=PNG.TAM
+6	sukèː	kèː	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	4	comp:pred	_	AlignBegin=766809|AlignEnd=766993|GE=3Plur.Imp.Bkg|Gloss=3Plur.Imp.Bkg|nWord=6|RX=PNG.TAM
 7	sôː	sôː	PRON	_	_	6	mod	_	AlignBegin=766993|AlignEnd=767177|GE=wanting|Gloss=wanting|nWord=7|RX=N.V*
 8	sù	à	AUX	_	Aspect=Aor|Number=Plur|Person=3	7	comp:obj	_	AlignBegin=767177|AlignEnd=767361|GE=3Plur.Aor|Gloss=3Plur.Aor|nWord=8|RX=PNG.TAM
-9	&//	&//	PUNCT	_	_	10	punct	_	AlignBegin=767361|AlignEnd=767545|GE=&//|Gloss=PUNCT|nWord=9
-10	sù	à	AUX	_	Aspect=Aor|Number=Plur|Person=3	8	conj:svc	_	AlignBegin=768853|AlignEnd=769029|GE=3Plur.Aor|Gloss=3Plur.Aor|nWord=10|RX=PNG.TAM
-11	dannèː	dannèː	VERB	_	_	10	comp:aux	_	AlignBegin=769029|AlignEnd=769205|GE=trample|Gloss=trample|nWord=11|RX=V4
-12	na	na	PART	_	Definite=Cons	11	comp:obj	_	AlignBegin=769205|AlignEnd=769381|GE=Cons|Gloss=Cons|nWord=12|RX=PART.SYNT
-13	gar̃gajiyaː-ǹ	gar̃gajiyaː-iː	NOUN	_	Foreign=Yes	12	comp:obj	_	AlignBegin=769381|AlignEnd=769469|GE=old_times.Def|Gloss=old_times.Def|nWord=13|RX=N|wordform=gar̃gajiyaː
-14	//	//	PUNCT	_	_	6	punct	_	AlignBegin=769557|AlignEnd=769733|GE=//|Gloss=PUNCT|nWord=14
+9	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=767361|AlignEnd=767545|GE=&//|Gloss=PUNCT|nWord=9
+
+# sent_id = HAUZ_BC_CONV_04_0659-0659
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 767545, 769733
+# phonetic_text = yànzu sai wasu àbù -uCaː\HL -ǹ nèː sukèː sôː sù &// sù dannèː na gar̃gajiyaː -ǹ //
+# text = sù dannèː na gar̃gajiyân //
+# text_en = They trample on the things of the old times.
+1	sù	à	AUX	_	Aspect=Aor|Number=Plur|Person=3	0	root	_	AlignBegin=768853|AlignEnd=769029|GE=3Plur.Aor|Gloss=3Plur.Aor|nWord=10|RX=PNG.TAM
+2	dannèː	dannèː	VERB	_	_	1	comp:aux	_	AlignBegin=769029|AlignEnd=769205|GE=trample|Gloss=trample|nWord=11|RX=V4
+3	na	na	PART	_	Definite=Cons	2	comp:obj	_	AlignBegin=769205|AlignEnd=769381|GE=Cons|Gloss=Cons|nWord=12|RX=PART.SYNT
+4	gar̃gajiyân	gar̃gajiyaː	NOUN	_	Foreign=Yes	3	comp:obj	_	AlignBegin=769381|AlignEnd=769469|GE=old_times.Def|Gloss=old_times.Def|nWord=13|RX=N|wordform=gar̃gajiyaː
+5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=769557|AlignEnd=769733|GE=//|Gloss=PUNCT|nWord=14
 
 # sent_id = HAUZ_BC_CONV_04_0660-0660
 # speaker_id = SP2

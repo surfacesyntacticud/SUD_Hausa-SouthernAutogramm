@@ -65,7 +65,7 @@
 1	dâː	dâː	ADV	_	_	3	discourse	_	AlignBegin=9340|AlignEnd=9556|GE=formerly|Gloss=formerly|nWord=1|RX=ADV
 2	maː	maː	ADV	_	_	1	mod	_	AlignBegin=9556|AlignEnd=9772|GE=even|Gloss=even|nWord=2|RX=PART.TOP
 3	bâi	bâi	AUX	_	Aspect=Imp|Person=3	0	root	_	AlignBegin=9772|AlignEnd=9988|GE=3Masc.Imp.Neg|Gloss=3Masc.Imp.Neg|nWord=3|RX=PART.Neg.PNG.TAM
-4	jîn	ji	VERB	_	Definite=Cons|ExtPos=NOUN	3	mod	_	AlignBegin=9988|AlignEnd=10096|GE=feel.Cons|Gloss=feel.Cons|nWord=4|RX=N.V0|wordform=jîː
+4	jîn	ji	VERB	_	Definite=Cons|ExtPos=NOUN	3	mod	_	AlignBegin=9988|AlignEnd=10096|GE=feel.Cons|Gloss=hear.Vnoun.Cons|nWord=4|RX=N.V0|wordform=jîː
 5	shigôːwaː	shig-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=10204|AlignEnd=10312|GE=enter.DIR.NMLZ|Gloss=enter.DIR.Vnoun|nWord=5|RX=V6|wordform=shigoː
 6	kilaːs	kilaːs	NOUN	_	Foreign=Yes	5	comp:goal	_	AlignBegin=10420|AlignEnd=10636|GE=class|Gloss=class|Lang=en|nWord=6|RX=CSW.ENG
 7	ɗîn	ɗin	DET	_	Definite=Def	6	det	_	AlignBegin=10636|AlignEnd=10852|GE=DET|Gloss=of.Def|nWord=7|RX=PART
@@ -79,7 +79,7 @@
 # text = yaː baː mù àsaːmèn koː ?//
 # text_en =  Did he give us an assignment ?
 1	yaː	yaː	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=11620|AlignEnd=11796|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=1|RX=PNG.TAM
-2	baː	baː	PART	_	_	1	comp:aux	_	AlignBegin=11796|AlignEnd=11972|GE=give|Gloss=give|nWord=2|RX=V*
+2	baː	baː	VERB	_	_	1	comp:aux	_	AlignBegin=11796|AlignEnd=11972|GE=give|Gloss=give|nWord=2|RX=V*
 3	mù	yà	PRON	_	Number=Plur|Person=1	2	comp:ben	_	AlignBegin=11972|AlignEnd=12148|GE=1Plur|Gloss=1Plur|nWord=3|RX=PRO.OBJ
 4	àsaːmèn	àsaːmèː	NOUN	_	Definite=Def|Foreign=Yes	2	comp:obj	_	AlignBegin=12148|AlignEnd=12324|GE=assignment|Gloss=assignment|Lang=en|nWord=4|RX=CSW.ENG
 5	koː	koː	CCONJ	_	_	1	discourse	_	AlignBegin=12324|AlignEnd=12500|GE=or|Gloss=or|nWord=5|RX=CONJ
@@ -1521,7 +1521,7 @@
 # text = sunàː bâː alloːlin =sù mùtûm //
 # text_en = They (?) people.
 1	sunàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=193868|AlignEnd=194113|GE=3Plur.Imp|Gloss=3Plur.Imp|nWord=1|RX=PNG.TAM
-2	bâː	baː	VERB	_	ExtPos=NOUN|Polarity=Neg|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=194113|AlignEnd=194358|GE=give|Gloss=give.Vnoun|nWord=2|RX=V*
+2	bâː	baː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=194113|AlignEnd=194358|GE=give|Gloss=give.Vnoun|nWord=2|RX=V*
 3	alloːlin	àlloː	NOUN	_	Definite=Cons|Number=Plur	2	udep	_	AlignBegin=194358|AlignEnd=194419|GE=writing_board|Gloss=writing_board.Plur.Cons|nWord=3|RX=N
 4	=sù	=sù	PRON	_	Number=Plur|Person=3	3	mod@poss	_	AlignBegin=194541|AlignEnd=194603|GE=3Plur|Gloss=3Plur.Gen|nWord=3|RX=PRO.POS
 5	mùtûm	mùtûm	NOUN	_	_	2	comp:ben	_	AlignBegin=194603|AlignEnd=194848|GE=person|Gloss=person|nWord=4|RX=N
@@ -2670,16 +2670,15 @@
 # text_en =  She took a little money, then she ran away.
 1	ta	ta	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	0	root	_	AlignBegin=329598|AlignEnd=329771|GE=3Fem.Perf.Blg|Gloss=3Fem.Perf.Bkg|nWord=1|RX=PNG.TAM
 2	ɗan	ɗan	ADV	_	_	1	mod	_	AlignBegin=329771|AlignEnd=329944|GE=DIM|Gloss=DIM|nWord=2|RX=ADV
-3	saːmù	saː-	VERB	_	_	1	comp:aux	_	AlignBegin=329944|AlignEnd=330030|GE=get|Gloss=get|nWord=3|RX=V2
-4	=i	=i	PRON	_	Person=1	3	comp:obj	_	AlignBegin=330030|AlignEnd=330117|GE=ACC1|Gloss=ACC1|nWord=3|RX=ACC1
-5	wasu	wasu	DET	_	Number=Plur	6	det	_	AlignBegin=330117|AlignEnd=330290|GE=some.Plur|Gloss=some.Plur|nWord=4|RX=DET.INDF
-6	kuɗiː	kuɗiː	NOUN	_	_	3	comp:obj	_	AlignBegin=330290|AlignEnd=330463|GE=money|Gloss=money|nWord=5|RX=N
-7	hakà	hakà	ADV	_	_	10	mod	_	AlignBegin=330463|AlignEnd=330636|GE=like_this|Gloss=like_this|nWord=6|RX=ADV
-8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=330636|AlignEnd=330812|GE=/|Gloss=PUNCT|nWord=7|wordform=/
-9	sai	sai	ADV	_	_	10	mod	_	AlignBegin=330812|AlignEnd=330955|GE=then|Gloss=then|nWord=8|RX=CONJ
-10	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	3	comp:obj	_	AlignBegin=330955|AlignEnd=331098|GE=3Fem.Perf.Blg|Gloss=3Fem.Perf.Bkg|nWord=9|RX=PNG.TAM
-11	gudù	gud-	VERB	_	_	10	comp:aux	_	AlignBegin=331098|AlignEnd=331241|GE=run|Gloss=run|nWord=10|RX=V3B
-12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=331241|AlignEnd=331385|GE=//|Gloss=PUNCT|nWord=11
+3	saːmù=i	saː-	VERB	_	_	1	comp:aux	_	AlignBegin=329944|AlignEnd=330030|GE=get|Gloss=get|nWord=3|RX=V2|wordform=saːmù
+4	wasu	wasu	DET	_	Number=Plur	5	det	_	AlignBegin=330117|AlignEnd=330290|GE=some.Plur|Gloss=some.Plur|nWord=4|RX=DET.INDF
+5	kuɗiː	kuɗiː	NOUN	_	_	3	comp:obj	_	AlignBegin=330290|AlignEnd=330463|GE=money|Gloss=money|nWord=5|RX=N
+6	hakà	hakà	ADV	_	_	9	mod	_	AlignBegin=330463|AlignEnd=330636|GE=like_this|Gloss=like_this|nWord=6|RX=ADV
+7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=330636|AlignEnd=330812|GE=/|Gloss=PUNCT|nWord=7|wordform=/
+8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=330812|AlignEnd=330955|GE=then|Gloss=then|nWord=8|RX=CONJ
+9	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	3	comp:obj	_	AlignBegin=330955|AlignEnd=331098|GE=3Fem.Perf.Blg|Gloss=3Fem.Perf.Bkg|nWord=9|RX=PNG.TAM
+10	gudù	gud-	VERB	_	_	9	comp:aux	_	AlignBegin=331098|AlignEnd=331241|GE=run|Gloss=run|nWord=10|RX=V3B
+11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=331241|AlignEnd=331385|GE=//|Gloss=PUNCT|nWord=11
 
 # sent_id = HAUZ_BC_CONV_03__185_split1
 # speaker_id = SP1
@@ -2728,7 +2727,7 @@
 1	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=337052|AlignEnd=337173|GE=3Masc.Perf.Blg|Gloss=3Masc.Perf.Bkg|nWord=1|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=337173|AlignEnd=337294|GE=say|Gloss=say|nWord=2|RX=V*
 3	à	à	AUX	_	Aspect=Aor|Person=4	2	comp:obj	_	AlignBegin=337294|AlignEnd=337415|GE=4.Aor|Gloss=4.Aor|nWord=3|RX=PNG.TAM
-4	bâː	baː	VERB	_	Polarity=Neg	3	comp:aux	_	AlignBegin=337415|AlignEnd=337536|GE=give|Gloss=give|nWord=4|RX=V*
+4	bâː	baː	VERB	_	_	3	comp:aux	_	AlignBegin=337415|AlignEnd=337536|GE=give|Gloss=give|nWord=4|RX=V*
 5	wâːn	wâː	NOUN	_	Definite=Def	4	comp:ben	_	AlignBegin=337536|AlignEnd=337596|GE=elder_brother.Def|Gloss=elder_brother.Def|nWord=5|RX=N|wordform=wâː
 6	gaːdòn	gaːdòː	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=338105|AlignEnd=338223|GE=inheritance.Cons|Gloss=inheritance.Cons|nWord=7|RX=N|wordform=gaːdòː
 7	=shi	=shì	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=338341|AlignEnd=338577|GE=3Masc|Gloss=3Masc.Gen|nWord=8|RX=PRO.OBJ
