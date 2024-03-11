@@ -6530,7 +6530,7 @@
 # sent_timecode = 795645, 797304
 # phonetic_text = tòː gàː wani / wai shiː gaudàː //
 # text = tòː gàː wani / wai shiː gaudàː //
-# text_en =  Well there's what they call "gauda*". (*cake made of Bambara groundnut flour)
+# text_en =  Well there's what they call "gauda*". (* type of cake)
 1	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=795645|AlignEnd=795785|GE=well|Gloss=well|nWord=1|RX=DM
 2	gàː	gàː	PART	_	_	6	parataxis@top	_	AlignBegin=795785|AlignEnd=795925|GE=here_is|Gloss=here_is|nWord=2|RX=PART.SYNT
 3	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	2	subj	_	AlignBegin=795925|AlignEnd=796065|GE=some.M|Gloss=some.Masc|nWord=3|RX=PRO.INDF
@@ -6608,17 +6608,17 @@
 # sent_timecode = 805124, 808395
 # phonetic_text = àmmaː gaudaː -ǹ maː / na geːroː / dà daːwàː //
 # text = àmmaː gaudân maː / na geːroː / dà daːwàː //
-# text_en =  But that "gauda", it's made with millet or guinea-corn.
-1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	8	discourse	_	AlignBegin=805124|AlignEnd=805418|GE=but|Gloss=but|nWord=1|RX=CONJ
-2	gaudaː-ǹ	gaudaː-ǹ	NOUN	_	Definite=Def	1	mod	_	AlignBegin=805418|AlignEnd=805565|GE=cakes_sp.Def|Gloss=cakes_sp.Def|nWord=2|RX=N|wordform=gaudaː
+# text_en =  But that "gauda", (it's made) of millet or guinea-corn.
+1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	5	discourse	_	AlignBegin=805124|AlignEnd=805418|GE=but|Gloss=but|nWord=1|RX=CONJ
+2	gaudân	gaudaː	NOUN	_	Definite=Def	5	dislocated@top	_	AlignBegin=805418|AlignEnd=805565|GE=cakes_sp.Def|Gloss=cakes_sp.Def|nWord=2|RX=N|wordform=gaudaː
 3	maː	maː	ADV	_	_	2	mod	_	AlignBegin=805712|AlignEnd=806006|GE=even|Gloss=even|nWord=3|RX=PART.TOP
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=806006|AlignEnd=806299|GE=/|Gloss=PUNCT|nWord=4|wordform=/
-5	na	na	PART	_	Definite=Cons	2	mod	_	AlignBegin=806673|AlignEnd=806947|GE=Cons|Gloss=Cons|nWord=5|RX=PART.SYNT
+5	na	na	PART	_	Definite=Cons	0	root	_	AlignBegin=806673|AlignEnd=806947|GE=Cons|Gloss=Cons|nWord=5|RX=PART.SYNT
 6	geːroː	geːroː	NOUN	_	_	5	comp:obj	_	AlignBegin=806947|AlignEnd=807221|GE=millet|Gloss=millet|nWord=6|RX=N
-7	<	<	PUNCT	_	_	8	punct	_	AlignBegin=807221|AlignEnd=807494|GE=/|Gloss=PUNCT|nWord=7|wordform=/
-8	dà	dà	ADP	_	_	0	root	_	AlignBegin=807768|AlignEnd=807977|GE=with|Gloss=with|nWord=8|RX=PREP/HOM
-9	daːwàː	daːwàː	NOUN	_	_	8	comp:obj	_	AlignBegin=807977|AlignEnd=808186|GE=guinea-corn|Gloss=guinea-corn|nWord=9|RX=N
-10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=808186|AlignEnd=808395|GE=//|Gloss=PUNCT|nWord=10
+7	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=807221|AlignEnd=807494|GE=/|Gloss=PUNCT|nWord=7|wordform=/
+8	dà	dà	ADP	_	_	9	cc	_	AlignBegin=807768|AlignEnd=807977|GE=with|Gloss=and|nWord=8|RX=PREP/HOM
+9	daːwàː	daːwàː	NOUN	_	_	6	conj:coord	_	AlignBegin=807977|AlignEnd=808186|GE=guinea-corn|Gloss=guinea-corn|nWord=9|RX=N
+10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=808186|AlignEnd=808395|GE=//|Gloss=PUNCT|nWord=10
 
 # sent_id = HAUZ_BC_CONV_04_0696-0696
 # speaker_id = SP2
@@ -6638,37 +6638,37 @@
 # text = bàː gaudan waːkeː ba /
 # text_en =  It's not bean "gauda".
 1	bàː	bàː	PART	_	_	2	mod	_	AlignBegin=809492|AlignEnd=809707|GE=Neg|Gloss=Neg|nWord=1|RX=PART.Neg
-2	gaudaː-n	gaudaː-ː	VERB	_	Definite=Cons	0	root	_	AlignBegin=809707|AlignEnd=809815|GE=cakes_sp.Cons|Gloss=cakes_sp.Cons|nWord=2|RX=N|wordform=gaudaː
-3	waːkeː	waːkeː	NOUN	_	_	2	comp:obj	_	AlignBegin=809922|AlignEnd=810137|GE=beans|Gloss=beans|nWord=3|RX=N
+2	gaudan	gaudaː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=809707|AlignEnd=809815|GE=cakes_sp.Cons|Gloss=cakes_sp.Cons|nWord=2|RX=N|wordform=gaudaː
+3	waːkeː	waːkeː	NOUN	_	_	2	mod	_	AlignBegin=809922|AlignEnd=810137|GE=beans|Gloss=beans|nWord=3|RX=N
 4	ba	ba	PART	_	Polarity=Neg	2	mod	_	AlignBegin=810137|AlignEnd=810352|GE=Neg|Gloss=Neg|nWord=4|RX=PART.Neg
-5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=810352|AlignEnd=810569|GE=/|Gloss=PUNCT|nWord=5|wordform=/
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=810352|AlignEnd=810569|GE=/|Gloss=PUNCT|nWord=5|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0698-0698
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 811714, 813347
 # phonetic_text = in kaː gamàː kà ci kanàː tuːsàː //
-# text = in kaː gamàː kà ci kanàː tuːsàː //
-# text_en =  When you've finished eating it, you fart.
+# text = in kaː gamà kà ci kanàː tuːsà //
+# text_en =  When you've finished eating, you fart.
 1	in	in	SCONJ	_	_	6	mod	_	AlignBegin=811714|AlignEnd=811918|GE=if|Gloss=if|nWord=1|RX=CONJ
-2	kaː	kaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj@discourse	_	AlignBegin=811918|AlignEnd=812122|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=2|RX=PNG.TAM
-3	gamàː	gam-	VERB	_	_	2	comp:aux	_	AlignBegin=812122|AlignEnd=812326|GE=finish|Gloss=finish|nWord=3|RX=V1
-4	kà	à	AUX	_	Aspect=Aor|Person=2	0	root	_	AlignBegin=812326|AlignEnd=812530|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=4|RX=PNG.TAM
+2	kaː	kaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=811918|AlignEnd=812122|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=2|RX=PNG.TAM
+3	gamà	gam-	VERB	_	_	2	comp:aux	_	AlignBegin=812122|AlignEnd=812326|GE=finish|Gloss=finish|nWord=3|RX=V1
+4	kà	à	AUX	_	Aspect=Aor|Person=2	3	comp:obj	_	AlignBegin=812326|AlignEnd=812530|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=4|RX=PNG.TAM
 5	ci	ci	VERB	_	_	4	comp:aux	_	AlignBegin=812530|AlignEnd=812734|GE=eat|Gloss=eat|nWord=5|RX=V0
-6	kanàː	nàː	AUX	_	Person=2	5	comp:obj	_	AlignBegin=812734|AlignEnd=812938|GE=2Masc.Imp|Gloss=2Masc.Imp|nWord=6|RX=PNG.TAM
-7	tuːsàː	tuːs-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=812938|AlignEnd=813142|GE=farting|Gloss=farting|nWord=7|RX=N
-8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=813142|AlignEnd=813347|GE=//|Gloss=PUNCT|nWord=8
+6	kanàː	nàː	AUX	_	Person=2	0	root	_	AlignBegin=812734|AlignEnd=812938|GE=2Masc.Imp|Gloss=2Masc.Imp|nWord=6|RX=PNG.TAM
+7	tuːsà	tuːsà	NOUN	_	_	6	comp:aux	_	AlignBegin=812938|AlignEnd=813142|GE=farting|Gloss=farting|nWord=7|RX=N
+8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=813142|AlignEnd=813347|GE=//|Gloss=PUNCT|nWord=8
 
 # sent_id = HAUZ_BC_CONV_04_0700-0700
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 814840, 816259
 # phonetic_text = bùmbuːrìː kèː nan //
-# text = bùmbuːrìː kèː nan //
-# text_en =  That's gluttony.
-1	bùmbuːrìː	bùmbuːrìː	NOUN	_	_	0	root	_	AlignBegin=814840|AlignEnd=815195|GE=gluttony|Gloss=gluttony|nWord=1|RX=N
-2	kèːnan	kèːnan	PART	_	_	1	mod	_	AlignBegin=815195|AlignEnd=815550|GE=Ident/Foc.Bkg|Gloss=Ident/Foc.Bkg|nWord=2|RX=PART.SYNT|wordform=kèː
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=815905|AlignEnd=816259|GE=//|Gloss=PUNCT|nWord=4
+# text = bùmbuːrìː kèː nan !//
+# text_en =  That's gluttony!
+1	bùmbuːrìː	bùmbuːrìː	NOUN	_	_	2	comp:pred	_	AlignBegin=814840|AlignEnd=815195|GE=gluttony|Gloss=gluttony|nWord=1|RX=N
+2	kèːnan	kèːnan	PART	_	_	0	root	_	AlignBegin=815195|AlignEnd=815550|GE=Ident/Foc.Bkg|Gloss=Ident/Foc.Bkg|nWord=2|RX=PART.SYNT|wordform=kèː
+3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=815905|AlignEnd=816259|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_0699-0701
 # speaker_id = SP2
@@ -6680,7 +6680,7 @@
 1	ai	ai	INTJ	_	_	3	discourse	_	AlignBegin=814840|AlignEnd=815027|GE=indeed|Gloss=indeed|nWord=1|RX=EXCL
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=815027|AlignEnd=815214|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 3	gàː	gàː	PART	_	_	0	root	_	AlignBegin=815214|AlignEnd=815475|GE=here_is|Gloss=here_is|nWord=3|RX=PART.SYNT
-4	aikìː-ǹ	aikìː-ǹ	NOUN	_	Definite=Cons	3	comp:cleft	_	AlignBegin=815475|AlignEnd=815605|GE=work.Def|Gloss=work.Def|nWord=4|RX=N|wordform=aikìː
+4	aikìn	aikìː	NOUN	_	Definite=Cons	3	subj	_	AlignBegin=815475|AlignEnd=815605|GE=work.Def|Gloss=work.Def|nWord=4|RX=N|wordform=aikìː
 5	nan	nan	DET	_	Definite=Def	4	det	_	AlignBegin=815736|AlignEnd=815997|GE=Def|Gloss=Def|nWord=5|RX=ADV.DEICT
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=815997|AlignEnd=816259|GE=//|Gloss=PUNCT|nWord=6
 
@@ -6694,45 +6694,52 @@
 1	m̌ː	m̌ː	INTJ	_	_	0	root	_	AlignBegin=816259|AlignEnd=816591|GE=m̌ː|Gloss=m̌ː|nWord=1|RX=BKL
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=816591|AlignEnd=816922|GE=//|Gloss=PUNCT|nWord=2
 
+# sent_id = HAUZ_BC_CONV_04_0703-0703
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 816922, 817555
+# phonetic_text = èː // m̀ː //
+# text = eː //
+# text_en =  Yes.
+1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=816922|AlignEnd=817238|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
+2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=817238|AlignEnd=817555|GE=//|Gloss=PUNCT|nWord=2
+
 # sent_id = HAUZ_BC_CONV_04_0704-0707
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 817555, 820163
 # phonetic_text = irìː -n wânnan / in ka shìga ɗaːkìː / zaːkà ji anàː cêː -wàː / tôː gàː shi nan yaː zoː //
-# text = irìn wânnan / in ka shìga ɗaːkìː / zaːkà ji anàː cêːwaː / tôː gàː shi nan yaː zoː //
+# text = irìn wânnan < in ka shìga ɗaːkìː < zaːkà ji anàː cêːwàː tôː gàː shi nan yaː zoː //
 # text_en =  With that one, if you enter a room, you will hear people saying well, now he has arrived.
-1	irìː-n	irìː-ː	NOUN	_	Definite=Cons	15	dislocated@top	_	AlignBegin=817555|AlignEnd=817615|GE=type.Cons|Gloss=type.Cons|nWord=1|RX=N|wordform=irìː
+1	irìn	irìː	NOUN	_	Definite=Cons	9	dislocated@top	_	AlignBegin=817555|AlignEnd=817615|GE=type.Cons|Gloss=type.Cons|nWord=1|RX=N|wordform=irìː
 2	wânnan	wânnan	PRON	_	Definite=Def	1	det	_	AlignBegin=817675|AlignEnd=817795|GE=Def|Gloss=Def|nWord=2|RX=PRO.DEICT
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=817795|AlignEnd=817914|GE=/|Gloss=PUNCT|nWord=3|wordform=/
-4	in	in	SCONJ	_	_	15	mod	_	AlignBegin=817914|AlignEnd=818053|GE=if|Gloss=if|nWord=4|RX=CONJ
-5	ka	ka	AUX	_	Aspect=Perf|Person=2	4	comp:obj@discourse	_	AlignBegin=818053|AlignEnd=818192|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=5|RX=PNG.TAM
+4	in	in	SCONJ	_	_	9	mod	_	AlignBegin=817914|AlignEnd=818053|GE=if|Gloss=if|nWord=4|RX=CONJ
+5	ka	ka	AUX	_	Aspect=Perf|Person=2	4	comp:obj	_	AlignBegin=818053|AlignEnd=818192|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=5|RX=PNG.TAM
 6	shìga	shìg-	VERB	_	_	5	comp:aux	_	AlignBegin=818192|AlignEnd=818331|GE=enter|Gloss=enter|nWord=6|RX=V3
-7	ɗaːkìː	ɗaːkìː	NOUN	_	_	6	comp:obj	_	AlignBegin=818331|AlignEnd=818470|GE=hut|Gloss=hut|nWord=7|RX=N
+7	ɗaːkìː	ɗaːkìː	NOUN	_	_	6	comp:goal	_	AlignBegin=818331|AlignEnd=818470|GE=hut|Gloss=hut|nWord=7|RX=N
 8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=818470|AlignEnd=818607|GE=/|Gloss=PUNCT|nWord=8|wordform=/
-9	zaːkà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	15	comp:cleft	_	AlignBegin=818607|AlignEnd=818744|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=9|RX=TAM.PNG
+9	zaːkà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=818607|AlignEnd=818744|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=9|RX=TAM.PNG
 10	ji	ji	VERB	_	_	9	comp:aux	_	AlignBegin=818744|AlignEnd=818881|GE=hear|Gloss=hear|nWord=10|RX=V0
-11	anàː	àː	AUX	_	Aspect=Imp|Person=4	15	comp:cleft	_	AlignBegin=818881|AlignEnd=819018|GE=4.Imp|Gloss=4.Imp|nWord=11|RX=PNG.TAM
-12	cêːwàː	cêː-wàː	NOUN	_	_	11	comp:aux	_	AlignBegin=819018|AlignEnd=819086|GE=say.NMLZ|Gloss=say.Vnoun|nWord=12|RX=V*|wordform=cêː
-13	<	<	PUNCT	_	_	11	punct	_	AlignBegin=819155|AlignEnd=819290|GE=/|Gloss=PUNCT|nWord=13|wordform=/
-14	tôː	tôː	INTJ	_	_	15	discourse	_	AlignBegin=819290|AlignEnd=819415|GE=well|Gloss=well|nWord=14|RX=PART.TOP
-15	gàː	gàː	PART	_	_	0	root	_	AlignBegin=819415|AlignEnd=819540|GE=here_is|Gloss=here_is|nWord=15|RX=PART.SYNT
-16	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	15	subj	_	AlignBegin=819540|AlignEnd=819665|GE=3Masc|Gloss=3Masc|nWord=16|RX=PRO.OBJ
-17	nan	nan	ADV	_	Definite=Def	15	subj	_	AlignBegin=819665|AlignEnd=819790|GE=Def|Gloss=Def|nWord=17|RX=ADV.DEICT
-18	yaː	yaː	AUX	_	Aspect=Perf|Person=3	15	comp:cleft	_	AlignBegin=819790|AlignEnd=819915|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=18|RX=PNG.TAM
-19	zoː	zoː	VERB	_	_	18	comp:aux	_	AlignBegin=819915|AlignEnd=820040|GE=come|Gloss=come|nWord=19|RX=V0
-20	//	//	PUNCT	_	_	15	punct	_	AlignBegin=820040|AlignEnd=820163|GE=//|Gloss=PUNCT|nWord=20
+11	anàː	àː	AUX	_	Aspect=Imp|Person=4	10	comp:obj	_	AlignBegin=818881|AlignEnd=819018|GE=4.Imp|Gloss=4.Imp|nWord=11|RX=PNG.TAM
+12	cêːwàː	cêː	VERB	_	_	11	comp:aux	_	AlignBegin=819018|AlignEnd=819086|GE=say.NMLZ|Gloss=say.Vnoun|nWord=12|RX=V*|wordform=cêː
+13	tôː	tôː	INTJ	_	_	17	discourse	_	AlignBegin=819290|AlignEnd=819415|GE=well|Gloss=well|nWord=14|RX=PART.TOP
+14	gàː	gàː	PART	_	_	17	parataxis@top	_	AlignBegin=819415|AlignEnd=819540|GE=here_is|Gloss=here_is|nWord=15|RX=PART.SYNT
+15	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	14	subj	_	AlignBegin=819540|AlignEnd=819665|GE=3Masc|Gloss=3Masc|nWord=16|RX=PRO.OBJ
+16	nan	nan	ADV	_	Definite=Def	14	comp:pred	_	AlignBegin=819665|AlignEnd=819790|GE=Def|Gloss=Def|nWord=17|RX=ADV.DEICT
+17	yaː	yaː	AUX	_	Aspect=Perf|Person=3	12	comp:obj	_	AlignBegin=819790|AlignEnd=819915|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=18|RX=PNG.TAM
+18	zoː	zoː	VERB	_	_	17	comp:aux	_	AlignBegin=819915|AlignEnd=820040|GE=come|Gloss=come|nWord=19|RX=V0
+19	//	//	PUNCT	_	_	9	punct	_	AlignBegin=820040|AlignEnd=820163|GE=//|Gloss=PUNCT|nWord=20
 
-# sent_id = HAUZ_BC_CONV_04_0703-0708
+# sent_id = HAUZ_BC_CONV_04_0708-0708
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 816922, 820850
+# sent_timecode = 817555, 820850
 # phonetic_text = èː // m̀ː //
-# text = èː // m̀ː //
-# text_en =  Yes. Uhuh.
-1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=816922|AlignEnd=817238|GE=èː|Gloss=èː|nWord=1|RX=BKL|wordform=èː
-2	//	//	PUNCT	_	_	3	punct	_	AlignBegin=817238|AlignEnd=817555|GE=//|Gloss=PUNCT|nWord=2
-3	m̀ː	m̀ː	INTJ	_	_	1	discourse	_	AlignBegin=820163|AlignEnd=820507|GE=BKL|Gloss=BKL|nWord=3|RX=BKL
-4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=820507|AlignEnd=820850|GE=//|Gloss=PUNCT|nWord=4
+# text = m̀ː //
+# text_en = Uhuh.
+1	m̀ː	m̀ː	INTJ	_	_	0	root	_	AlignBegin=820163|AlignEnd=820507|GE=BKL|Gloss=BKL|nWord=3|RX=BKL
+2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=820507|AlignEnd=820850|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_0709-0713
 # speaker_id = SP1
