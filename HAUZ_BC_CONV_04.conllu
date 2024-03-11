@@ -6746,74 +6746,77 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 820850, 823864
 # phonetic_text = koː kuma / kanàː bâː dà làːbaːr̃ìː / kà cêː / kaː ci gaudaː zaːʼà cêː / wànè gaudaː -Q //
-# text = koː kuma / kanàː baː dà làːbaːr̃ìː / kà cêː / kaː ci gaudâː zaːʼà cêː / wànè gaudâː //
+# text = koː kuma < kanàː baː dà làːbaːr̃ìː |c kà cêː kaː ci gaudaː zaːʼà cêː wànè gaudâː //
 # text_en =  Or, if you're giving them the news and you say that you have eaten "gauda" , they will say which "gauda"?
-1	koː	koː	CCONJ	_	_	9	discourse	_	AlignBegin=820850|AlignEnd=820950|GE=or|Gloss=or|nWord=1|RX=CONJ
+1	koː	koː	CCONJ	_	_	14	discourse	_	AlignBegin=820850|AlignEnd=820950|GE=or|Gloss=or|nWord=1|RX=CONJ
 2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=820950|AlignEnd=821050|GE=too|Gloss=too|nWord=2|RX=PART.TOP
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=821050|AlignEnd=821150|GE=/|Gloss=PUNCT|nWord=3|wordform=/
-4	kanàː	nàː	AUX	_	Person=2	9	conj:coord	_	AlignBegin=821150|AlignEnd=821316|GE=2Masc.Imp|Gloss=2Masc.Imp|nWord=4|RX=PNG.TAM
+4	kanàː	nàː	AUX	_	Person=2	14	mod	_	AlignBegin=821150|AlignEnd=821316|GE=2Masc.Imp|Gloss=2Masc.Imp|nWord=4|RX=PNG.TAM
 5	baː	baː	VERB	_	_	4	comp:aux	_	AlignBegin=821316|AlignEnd=821482|GE=give|Gloss=give|nWord=5|RX=V*
 6	dà	dà	ADP	_	_	5	comp:obl	_	AlignBegin=821482|AlignEnd=821648|GE=with|Gloss=with|nWord=6|RX=PREP/HOM
 7	làːbaːr̃ìː	làːbaːr̃ìː	NOUN	_	_	6	comp:obj	_	AlignBegin=821648|AlignEnd=821814|GE=news|Gloss=news|nWord=7|RX=N
-8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=821814|AlignEnd=821981|GE=/|Gloss=PUNCT|nWord=8|wordform=/
-9	kà	à	AUX	_	Aspect=Aor|Person=2	0	root	_	AlignBegin=821981|AlignEnd=822084|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=9|RX=PNG.TAM
+8	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=821814|AlignEnd=821981|GE=/|Gloss=PUNCT|nWord=8|wordform=/
+9	kà	à	AUX	_	Aspect=Aor|Person=2	4	conj:coord	_	AlignBegin=821981|AlignEnd=822084|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=9|RX=PNG.TAM
 10	cêː	cêː	VERB	_	_	9	comp:aux	_	AlignBegin=822084|AlignEnd=822187|GE=say|Gloss=say|nWord=10|RX=V*
-11	<	<	PUNCT	_	_	15	punct	_	AlignBegin=822187|AlignEnd=822290|GE=/|Gloss=PUNCT|nWord=11|wordform=/
-12	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	15	parataxis@discourse	_	AlignBegin=822290|AlignEnd=822422|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=12|RX=PNG.TAM
-13	ci	ci	VERB	_	_	12	comp:aux	_	AlignBegin=822422|AlignEnd=822554|GE=eat|Gloss=eat|nWord=13|RX=V0
-14	gaudaː	gaudaː	NOUN	_	_	13	comp:obj	_	AlignBegin=822554|AlignEnd=822686|GE=cakes_sp|Gloss=cakes_sp|nWord=14|RX=N
-15	zaːʼà	zaː	AUX	_	Number=Plur|Person=3|Tense=Fut	10	comp:obj	_	AlignBegin=822686|AlignEnd=822818|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=15|RX=TAM.PNG
-16	cêː	cêː	VERB	_	_	15	comp:aux	_	AlignBegin=822818|AlignEnd=822950|GE=say|Gloss=say|nWord=16|RX=V*
-17	<	<	PUNCT	_	_	15	punct	_	AlignBegin=822950|AlignEnd=823081|GE=/|Gloss=PUNCT|nWord=17|wordform=/
-18	wànè	wànè	DET	_	Definite=Def	19	det	_	AlignBegin=823081|AlignEnd=823342|GE=which|Gloss=which|nWord=18|RX=PRO.Q
-19	gaudâː	gaudaː	NOUN	_	_	16	comp:obj	_	AlignBegin=823342|AlignEnd=823472|GE=cakes_sp|Gloss=cakes_sp.Quest|nWord=19|RX=N
-20	//	//	PUNCT	_	_	9	punct	_	AlignBegin=823603|AlignEnd=823864|GE=//|Gloss=PUNCT|nWord=20
+11	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	10	comp:obj	_	AlignBegin=822290|AlignEnd=822422|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=12|RX=PNG.TAM
+12	ci	ci	VERB	_	_	11	comp:aux	_	AlignBegin=822422|AlignEnd=822554|GE=eat|Gloss=eat|nWord=13|RX=V0
+13	gaudaː	gaudaː	NOUN	_	_	12	comp:obj	_	AlignBegin=822554|AlignEnd=822686|GE=cakes_sp|Gloss=cakes_sp|nWord=14|RX=N
+14	zaːʼà	zaː	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=822686|AlignEnd=822818|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=15|RX=TAM.PNG
+15	cêː	cêː	VERB	_	_	14	comp:aux	_	AlignBegin=822818|AlignEnd=822950|GE=say|Gloss=say|nWord=16|RX=V*
+16	wànè	wànè	DET	_	Definite=Def|PronType=Int	17	det	_	AlignBegin=823081|AlignEnd=823342|GE=which|Gloss=which|nWord=18|RX=PRO.Q
+17	gaudâː	gaudaː	NOUN	_	_	15	comp:obj	_	AlignBegin=823342|AlignEnd=823472|GE=cakes_sp|Gloss=cakes_sp.Quest|nWord=19|RX=N
+18	//	//	PUNCT	_	_	14	punct	_	AlignBegin=823603|AlignEnd=823864|GE=//|Gloss=PUNCT|nWord=20
 
-# sent_id = HAUZ_BC_CONV_04_0714-0719
+# sent_id = HAUZ_BC_CONV_04_0714-0718
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 824075, 831679
 # phonetic_text = in ka cêː / gaudaː -n waːkeː / sai kà ganiː tôː / in hiːr̃a akèː / niː fa inàː ganiː -n zân jeː ìn kwântaː // an faːràː gudù -n -kà kèː nan // wandà kuma bàː shiː nèː ba //
-# text = in ka cêː / gaudan waːkeː / sai kà ga tôː / in hiːr̃a akèː / niː fa inàː ganin zân jeː ìn kwântaː > an faːrà gudunkà kèː nan // wandà kuma bàː shiː nèː ba //
-# text_en =  If you say bean "gauda" then you will see, if we are talking, and me, I am going to bed, they will start running away from you, who are not concerned. who has not eaten any
-1	in	in	SCONJ	_	_	19	mod	_	AlignBegin=824075|AlignEnd=824168|GE=if|Gloss=if|nWord=1|RX=CONJ
-2	ka	ka	AUX	_	Aspect=Perf|Person=2	1	comp:obj@discourse	_	AlignBegin=824168|AlignEnd=824261|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=2|RX=PNG.TAM
+# text = in ka cêː gaudan waːkeː < sai kà ga tôː in hiːr̃a akèː |c niː fa inàː ganin zân jeː ìn kwântaː an faːrà gudùn =kà kèːnan //
+# text_en =  If you say "bean-gauda", then you will see, if we are talking, and me, I am going to bed, he will start running away from you.
+1	in	in	SCONJ	_	_	8	mod	_	AlignBegin=824075|AlignEnd=824168|GE=if|Gloss=if|nWord=1|RX=CONJ
+2	ka	ka	AUX	_	Aspect=Perf|Person=2	1	comp:obj	_	AlignBegin=824168|AlignEnd=824261|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=2|RX=PNG.TAM
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=824261|AlignEnd=824354|GE=say|Gloss=say|nWord=3|RX=V*
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=824354|AlignEnd=824447|GE=/|Gloss=PUNCT|nWord=4|wordform=/
-5	gaudaː-n	gaudaː-ː	NOUN	_	Definite=Cons|Number=Plur	9	mod	_	AlignBegin=824447|AlignEnd=824555|GE=cakes_sp.Cons|Gloss=cakes_sp.Cons|nWord=5|RX=N|wordform=gaudaː
-6	waːkeː	waːkeː	NOUN	_	_	5	mod	_	AlignBegin=824664|AlignEnd=824881|GE=beans|Gloss=beans|nWord=6|RX=N
-7	<	<	PUNCT	_	_	5	punct	_	AlignBegin=824881|AlignEnd=825098|GE=/|Gloss=PUNCT|nWord=7|wordform=/
-8	sai	sai	ADV	_	_	19	mod	_	AlignBegin=825098|AlignEnd=825176|GE=must|Gloss=must|nWord=8|RX=CONJ/HOM
-9	kà	à	AUX	_	Aspect=Aor|Person=2	19	parataxis@discourse	_	AlignBegin=825176|AlignEnd=825254|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=9|RX=PNG.TAM
-10	ganiː	ganiː	VERB	_	_	9	comp:aux	_	AlignBegin=825254|AlignEnd=825332|GE=see|Gloss=see|nWord=10|RX=V*
-11	tôː	tôː	INTJ	_	_	19	discourse	_	AlignBegin=825332|AlignEnd=825410|GE=well|Gloss=well|nWord=11|RX=PART.TOP
-12	<	<	PUNCT	_	_	11	punct	_	AlignBegin=825410|AlignEnd=825490|GE=/|Gloss=PUNCT|nWord=12|wordform=/
-13	in	in	ADP	_	_	19	mod	_	AlignBegin=825964|AlignEnd=826158|GE=if|Gloss=if|nWord=13|RX=CONJ
-14	hiːr̃a	hiːr̃a	NOUN	_	_	13	comp:obj	_	AlignBegin=826158|AlignEnd=826352|GE=chatting|Gloss=chatting|nWord=14|RX=N
-15	akèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|Person=4	13	comp:obj	_	AlignBegin=826352|AlignEnd=826546|GE=4.Imp.Bkg|Gloss=4.Imp.Bkg|nWord=15|RX=PNG.TAM
-16	<	<	PUNCT	_	_	13	punct	_	AlignBegin=826546|AlignEnd=826739|GE=/|Gloss=PUNCT|nWord=16|wordform=/
-17	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	dislocated@subj	_	AlignBegin=827298|AlignEnd=827464|GE=1Sing|Gloss=1Sing.Nom|nWord=17|RX=PRO.IDP
-18	fa	fa	PART	_	_	19	mod	_	AlignBegin=827464|AlignEnd=827630|GE=indeed|Gloss=indeed|nWord=18|RX=PART.TOP
-19	inàː	àː	AUX	_	Aspect=Imp|Number=Sing|Person=1	0	root	_	AlignBegin=827630|AlignEnd=827796|GE=1Sing.Imp|Gloss=1Sing.Imp|nWord=19|RX=PNG.TAM
-20	ganiː-n	ganiː-	VERB	_	_	19	comp:aux	_	AlignBegin=827796|AlignEnd=827879|GE=see.Cons|Gloss=see.Cons|nWord=20|RX=V*|wordform=ganiː
-21	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	20	comp:obj	_	AlignBegin=827962|AlignEnd=828128|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=21|RX=TAM.PNG
-22	jeː	jeː	VERB	_	_	21	comp:aux	_	AlignBegin=828128|AlignEnd=828294|GE=go|Gloss=go|nWord=22|RX=V0
-23	ìn	ìn	AUX	_	Aspect=Aor|Number=Sing|Person=1	22	comp:goal	_	AlignBegin=828294|AlignEnd=828460|GE=1Sing.Aor|Gloss=1Sing|nWord=23|RX=PNG.TAM
-24	kwântaː	kwântaː	NOUN	_	_	23	comp:obj	_	AlignBegin=828460|AlignEnd=828626|GE=lie_down|Gloss=lie_down|nWord=24|RX=V1
-25	//	//	PUNCT	_	_	26	punct	_	AlignBegin=828626|AlignEnd=828793|GE=//|Gloss=PUNCT|nWord=25
-26	an	nàː	AUX	_	Aspect=Imp|Person=4	21	conj:coord	_	AlignBegin=828793|AlignEnd=829015|GE=4.Perf|Gloss=4.Perf|nWord=26|RX=PNG.TAM
-27	faːràː	faːràː	VERB	_	_	26	comp:aux	_	AlignBegin=829015|AlignEnd=829237|GE=begin|Gloss=begin|nWord=27|RX=V1
-28	gudù-n	gudù-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	27	comp:obj	_	AlignBegin=829237|AlignEnd=829311|GE=run.Cons|Gloss=run.Cons|nWord=28|RX=V3B|wordform=gudù
-29	=kàkè	=kàkè	PRON	_	Gender=Fem|Person=3|PronType=Prs	28	mod	_	AlignBegin=829459|AlignEnd=829681|GE=Ident/Foc.Bkg|Gloss=Ident/Foc.Bkg.Bkg|nWord=29|RX=PART.SYNT|wordform=kèː
-30	nan	nan	ADV	_	Definite=Def	28	mod	_	AlignBegin=829681|AlignEnd=829903|GE=Def|Gloss=Def|nWord=30|RX=ADV.DEICT
-31	>	>	PUNCT	_	_	32	punct	_	AlignBegin=829903|AlignEnd=830125|GE=//|Gloss=PUNCT|nWord=31
-32	wandà	wandà	PRON	_	PronType=Rel	36	mod	_	AlignBegin=830125|AlignEnd=830236|GE=who|Gloss=who|nWord=32|RX=PRO.COMP
-33	kuma	kuma	PART	_	_	32	mod	_	AlignBegin=830236|AlignEnd=830347|nWord=32
-34	bàː	bàː	PART	_	_	32	mod	_	AlignBegin=830569|AlignEnd=830680|GE=Neg|Gloss=Neg|nWord=34|RX=PART.Neg
-35	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	36	comp:pred	_	AlignBegin=830680|AlignEnd=830791|nWord=34
-36	nèː	neː	PART	_	_	28	mod	_	AlignBegin=831013|AlignEnd=831124|GE=Ident/Foc|Gloss=Ident/Foc|nWord=36|RX=PART.SYNT
-37	ba	ba	PART	_	Polarity=Neg	36	mod	_	AlignBegin=831124|AlignEnd=831235|nWord=36
-38	//	//	PUNCT	_	_	19	punct	_	AlignBegin=831457|AlignEnd=831679|GE=//|Gloss=PUNCT|nWord=38
+4	gaudan	gaudaː	NOUN	_	Definite=Cons|Number=Plur	3	comp:obj	_	AlignBegin=824447|AlignEnd=824555|GE=cakes_sp.Cons|Gloss=cakes_sp.Cons|nWord=5|RX=N|wordform=gaudaː
+5	waːkeː	waːkeː	NOUN	_	_	4	mod	_	AlignBegin=824664|AlignEnd=824881|GE=beans|Gloss=beans|nWord=6|RX=N
+6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=824881|AlignEnd=825098|GE=/|Gloss=PUNCT|nWord=7|wordform=/
+7	sai	sai	ADV	_	_	8	mod	_	AlignBegin=825098|AlignEnd=825176|GE=must|Gloss=must|nWord=8|RX=CONJ/HOM
+8	kà	à	AUX	_	Aspect=Aor|Person=2	0	root	_	AlignBegin=825176|AlignEnd=825254|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=9|RX=PNG.TAM
+9	ga	ganiː	VERB	_	_	8	comp:aux	_	AlignBegin=825254|AlignEnd=825332|GE=see|Gloss=see|nWord=10|RX=V*
+10	tôː	tôː	INTJ	_	_	23	discourse	_	AlignBegin=825332|AlignEnd=825410|GE=well|Gloss=well|nWord=11|RX=PART.TOP
+11	in	in	ADP	_	_	23	mod	_	AlignBegin=825964|AlignEnd=826158|GE=if|Gloss=if|nWord=13|RX=CONJ
+12	hiːr̃a	hiːr̃a	NOUN	_	_	11	comp:obj	_	AlignBegin=826158|AlignEnd=826352|GE=chatting|Gloss=chatting|nWord=14|RX=N
+13	akèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|Person=4	12	comp:pred	_	AlignBegin=826352|AlignEnd=826546|GE=4.Imp.Bkg|Gloss=4.Imp.Bkg|nWord=15|RX=PNG.TAM
+14	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=826546|AlignEnd=826739|GE=/|Gloss=PUNCT|nWord=16|wordform=/
+15	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	dislocated@subj	_	AlignBegin=827298|AlignEnd=827464|GE=1Sing|Gloss=1Sing.Nom|nWord=17|RX=PRO.IDP
+16	fa	fa	PART	_	_	17	mod	_	AlignBegin=827464|AlignEnd=827630|GE=indeed|Gloss=indeed|nWord=18|RX=PART.TOP
+17	inàː	àː	AUX	_	Aspect=Imp|Number=Sing|Person=1	13	conj:coord	_	AlignBegin=827630|AlignEnd=827796|GE=1Sing.Imp|Gloss=1Sing.Imp|nWord=19|RX=PNG.TAM
+18	ganin	gani	VERB	_	_	17	comp:aux	_	AlignBegin=827796|AlignEnd=827879|GE=see.Cons|Gloss=see.Vnoun.Cons|nWord=20|RX=V*|wordform=ganiː
+19	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	18	udep	_	AlignBegin=827962|AlignEnd=828128|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=21|RX=TAM.PNG
+20	jeː	jeː	VERB	_	_	19	comp:aux	_	AlignBegin=828128|AlignEnd=828294|GE=go|Gloss=go|nWord=22|RX=V0
+21	ìn	ìn	AUX	_	Aspect=Aor|Number=Sing|Person=1	20	comp:goal	_	AlignBegin=828294|AlignEnd=828460|GE=1Sing.Aor|Gloss=1Sing|nWord=23|RX=PNG.TAM
+22	kwântaː	kwântaː	NOUN	_	_	21	comp:obj	_	AlignBegin=828460|AlignEnd=828626|GE=lie_down|Gloss=lie_down|nWord=24|RX=V1
+23	an	nàː	AUX	_	Aspect=Imp|Person=4	9	comp:obj	_	AlignBegin=828793|AlignEnd=829015|GE=4.Perf|Gloss=4.Perf|nWord=26|RX=PNG.TAM
+24	faːrà	faːr-	VERB	_	_	23	comp:aux	_	AlignBegin=829015|AlignEnd=829237|GE=begin|Gloss=begin|nWord=27|RX=V1
+25	gudùn	gudùː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	24	comp:obj	_	AlignBegin=829237|AlignEnd=829311|GE=running.Cons|Gloss=running.Cons|nWord=28|RX=V3B|wordform=gudù
+26	=kà	=kà	PRON	_	Gender=Masc|Person=3|PronType=Prs	25	udep	_	AlignBegin=829459|AlignEnd=829681|GE=Ident/Foc.Bkg|Gloss=Ident/Foc.Bkg.Bkg|nWord=29|RX=PART.SYNT|wordform=kèː
+27	kèːnan	kèːnan	ADV	_	Definite=Def	25	mod@emp	_	AlignBegin=829681|AlignEnd=829903|GE=Def|Gloss=Ident/Foc.Bkg|nWord=30|RX=ADV.DEICT
+28	//	//	PUNCT	_	_	8	punct	_	AlignBegin=829903|AlignEnd=830125|GE=//|Gloss=PUNCT|nWord=31
+
+# sent_id = HAUZ_BC_CONV_04_0719-0719
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 824075, 831679
+# phonetic_text = in ka cêː / gaudaː -n waːkeː / sai kà ganiː tôː / in hiːr̃a akèː / niː fa inàː ganiː -n zân jeː ìn kwântaː // an faːràː gudù -n -kà kèː nan // wandà kuma bàː shiː nèː ba //
+# text = wandà kuma bàː shiː nèː ba //
+# text_en = Anyway, the one who is not concerned (who has not eaten any).
+1	wandà	wandà	PRON	_	PronType=Rel	0	root	_	AlignBegin=830125|AlignEnd=830236|GE=who|Gloss=who|nWord=32|RX=PRO.COMP
+2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=830236|AlignEnd=830347|Gloss=too|nWord=32
+3	bàː	bàː	PART	_	_	5	mod	_	AlignBegin=830569|AlignEnd=830680|GE=Neg|Gloss=Neg|nWord=34|RX=PART.Neg
+4	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	5	comp:pred	_	AlignBegin=830680|AlignEnd=830791|Gloss=3Masc.Nom|nWord=34
+5	nèː	neː	PART	_	_	1	mod@relcl	_	AlignBegin=831013|AlignEnd=831124|GE=Ident/Foc|Gloss=Ident/Foc|nWord=36|RX=PART.SYNT
+6	ba	ba	PART	_	Polarity=Neg	5	mod	_	AlignBegin=831124|AlignEnd=831235|Gloss=Neg|nWord=36
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=831457|AlignEnd=831679|GE=//|Gloss=PUNCT|nWord=38
 
 # sent_id = HAUZ_BC_CONV_04_0720-0720
 # speaker_id = SP2
@@ -7233,7 +7236,7 @@
 # phonetic_text = wànè ƙwai -n bà- Hausa -èː //
 # text = wànè ƙwan Bàhawshèː //
 # text_en =  Which Hausa eggs?
-1	wànè	wànè	DET	_	_	2	det	_	AlignBegin=883749|AlignEnd=883939|GE=which|Gloss=which|nWord=1|RX=PRO.Q
+1	wànè	wànè	DET	_	Definite=Def|PronType=Int	2	det	_	AlignBegin=883749|AlignEnd=883939|GE=which|Gloss=which|nWord=1|RX=PRO.Q
 2	ƙwai-n	ƙwai-ː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=883939|AlignEnd=884034|GE=egg.Cons|Gloss=egg.Cons|nWord=2|RX=N|wordform=ƙwai
 3	bà-	bà-	PART	_	_	2	mod	_	AlignBegin=884129|AlignEnd=884192|GE=ETH|Gloss=ETH|nWord=3|RX=DER
 4	Hausa	Hausa	PROPN	_	_	2	mod	_	AlignBegin=884192|AlignEnd=884255|GE=Hausa|Gloss=Hausa|nWord=3|RX=N.P
