@@ -7291,9 +7291,9 @@
 # text_en = This one indeed.
 1	ɗayân	ɗaya	NUM	_	_	0	root	_	AlignBegin=888477|AlignEnd=888597|GE=one.Def|Gloss=one.Def|nWord=1|RX=NUM|wordform=ɗaya
 2	dai	dai	PART	_	_	1	mod	_	AlignBegin=888717|AlignEnd=888957|GE=indeed|Gloss=indeed|nWord=2|RX=PART.TOP
-3	//+	//+	PUNCT	_	_	0	_	_	AlignBegin=888717|AlignEnd=888957|Gloss=PUNCT
-4	ɗan	ɗaː	ADJ	_	_	0	_	_	AlignBegin=888717|AlignEnd=888957|Gloss=son.Cons
-5	mùlmùlalleː	mùlmùlalleː	ADJ	_	_	0	_	_	AlignBegin=888717|AlignEnd=889974|Gloss=round
+3	//+	//+	PUNCT	_	_	0	root	_	AlignBegin=888717|AlignEnd=888957|Gloss=PUNCT
+4	ɗan	ɗaː	ADJ	_	_	0	root	_	AlignBegin=888717|AlignEnd=888957|Gloss=son.Cons
+5	mùlmùlalleː	mùlmùlalleː	ADJ	_	_	0	root	_	AlignBegin=888717|AlignEnd=889974|Gloss=round
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=889974|AlignEnd=889974|GE=/|Gloss=PUNCT|nWord=3|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0778-0778
@@ -7447,70 +7447,102 @@
 1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=904371|AlignEnd=904657|GE=yes|Gloss=yes|nWord=1|RX=INTJ
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=904657|AlignEnd=904944|GE=//|Gloss=PUNCT|nWord=2
 
-# sent_id = HAUZ_BC_CONV_04_0795-0801
+# sent_id = HAUZ_BC_CONV_04_0795-0799
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 905449, 913337
+# sent_timecode = 905449, 906826
 # phonetic_text = tòː / ai yànzu / àbù -n dà yakèː fàːru -wàː / zân yi ƙòːƙariː / ìn yi fangaliː //
-# text = tòː < ai yànzu < àbin dà yakèː fàːruwàː < zân yi ƙòːƙariː ìn yi fangaliː //
-# text_en =  Well, now, what is happening, I will try to make a watering bed.
-1	tòː	tòː	INTJ	_	_	11	discourse	_	AlignBegin=905449|AlignEnd=905605|GE=well|Gloss=well|nWord=1|RX=DM
+# text = tòː < ai yànzu //+
+# text_en =  Well, now,
+1	tòː	tòː	INTJ	_	_	0	discourse	_	AlignBegin=905449|AlignEnd=905605|GE=well|Gloss=well|nWord=1|RX=DM
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=905605|AlignEnd=905760|GE=/|Gloss=PUNCT|nWord=2|wordform=/
-3	ai	ai	INTJ	_	_	11	discourse	_	AlignBegin=905760|AlignEnd=906115|GE=indeed|Gloss=indeed|nWord=3|RX=EXCL
-4	yànzu	yànzu	ADV	_	_	11	mod	_	AlignBegin=906115|AlignEnd=906470|GE=now|Gloss=now|nWord=4|RX=ADV.DEICT
-5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=906470|AlignEnd=906826|GE=/|Gloss=PUNCT|nWord=5|wordform=/
-6	àbin	àbù	NOUN	_	Definite=Cons	11	dislocated@top	_	AlignBegin=907334|AlignEnd=907455|GE=thing.Cons|Gloss=thing.Cons|nWord=6|RX=N|wordform=àbù
-7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=907576|AlignEnd=907818|GE=COMP|Gloss=COMP|nWord=7|RX=PART.SYNT/HOM
-8	yakèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|Gender=Masc|Person=3	7	comp:obj	_	AlignBegin=907818|AlignEnd=908060|GE=3Masc.Imp.Bkg|Gloss=3Masc.Imp.Bkg|nWord=8|RX=PNG.TAM
-9	fàːruwàː	faːr-	VERB	_	_	8	comp:aux	_	AlignBegin=908060|AlignEnd=908181|GE=happen.NMLZ|Gloss=happen.Vnoun|nWord=9|RX=V7|wordform=fàːru
-10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=908302|AlignEnd=908546|GE=/|Gloss=PUNCT|nWord=10|wordform=/
-11	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=911162|AlignEnd=911436|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=11|RX=TAM.PNG
-12	yi	yi	VERB	_	_	11	comp:aux	_	AlignBegin=911436|AlignEnd=911710|GE=do|Gloss=do|nWord=12|RX=V0
-13	ƙòːƙariː	ƙòːƙariː	NOUN	_	_	12	comp:obj@lvc	_	AlignBegin=911710|AlignEnd=911984|GE=effort|Gloss=effort|nWord=13|RX=N
-14	ìn	à	AUX	_	Aspect=Aor|Number=Sing|Person=1	12	mod	_	AlignBegin=912258|AlignEnd=912528|GE=1Sing.Aor|Gloss=1Sing.Aor|nWord=15|RX=PNG.TAM
-15	yi	yi	VERB	_	_	14	comp:cleft	_	AlignBegin=912528|AlignEnd=912798|GE=do|Gloss=do|nWord=16|RX=V0
-16	fangaliː	fangaliː	NOUN	_	_	15	comp:obj	_	AlignBegin=912798|AlignEnd=913068|GE=bed|Gloss=bed|nWord=17|RX=N
-17	//	//	PUNCT	_	_	11	punct	_	AlignBegin=913068|AlignEnd=913337|GE=//|Gloss=PUNCT|nWord=18
+3	ai	ai	INTJ	_	_	0	discourse	_	AlignBegin=905760|AlignEnd=906115|GE=indeed|Gloss=indeed|nWord=3|RX=EXCL
+4	yànzu	yànzu	ADV	_	_	0	mod	_	AlignBegin=906115|AlignEnd=906470|GE=now|Gloss=now|nWord=4|RX=ADV.DEICT
+5	//+	//+	PUNCT	_	_	4	punct	_	AlignBegin=906470|AlignEnd=906826|GE=/|Gloss=PUNCT|nWord=5|wordform=/
 
-# sent_id = HAUZ_BC_CONV_04_0797-0803
+# sent_id = HAUZ_BC_CONV_04_0798-0798
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 906826, 916367
+# sent_timecode = 906826, 907334
 # phonetic_text = mː // hm̌ː // ài sai ruwaː yanàː gab dà faːɗìː / ruwan bazaraː /
-# text = mː // hm̌ː // ài sai ruwaː yanàː gab dà faːɗìː / ruwan bazaraː /
-# text_en =  Mm. Mm. Eh, wait until the rain is about to fall, the hot season rains.
-1	mː	mː	INTJ	_	_	13	discourse	_	AlignBegin=906826|AlignEnd=907080|GE=BKL|Gloss=BKL|nWord=1|RX=BKL
+# text = mː //
+# text_en =  Mm.
+1	mː	mː	INTJ	_	_	0	discourse	_	AlignBegin=906826|AlignEnd=907080|GE=BKL|Gloss=BKL|nWord=1|RX=BKL
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=907080|AlignEnd=907334|GE=//|Gloss=PUNCT|nWord=2
-3	hm̌ː	hm̌ː	INTJ	_	_	13	discourse	_	AlignBegin=908950|AlignEnd=909176|GE=hm̌ː|Gloss=hm̌ː|nWord=3|RX=BKL
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=909176|AlignEnd=909401|GE=//|Gloss=PUNCT|nWord=4
-5	ài	ài	INTJ	_	_	13	discourse	_	AlignBegin=914173|AlignEnd=914337|GE=ài|Gloss=ài|nWord=5|RX=FILL
-6	sai	sai	ADV	_	_	8	mod	_	AlignBegin=914337|AlignEnd=914501|GE=only|Gloss=only|nWord=6|RX=CONJ/HOM
-7	ruwaː	ruwaː	NOUN	_	_	5	mod	_	AlignBegin=914501|AlignEnd=914665|GE=water|Gloss=water|nWord=7|RX=N
-8	yanàː	nàː²	AUX	_	Person=3	7	comp:obj	_	AlignBegin=914665|AlignEnd=914829|GE=3Masc.Imp|Gloss=3Masc.Imp|nWord=8|RX=PNG.TAM
-9	gab	gab	VERB	_	_	8	comp:aux	_	AlignBegin=914829|AlignEnd=914993|GE=close|Gloss=close|nWord=9|RX=ADV
-10	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=914993|AlignEnd=915157|GE=with|Gloss=with|nWord=10|RX=PREP/HOM
-11	faːɗìː	faːɗìː	NOUN	_	_	10	comp:obj	_	AlignBegin=915157|AlignEnd=915321|GE=falling|Gloss=falling|nWord=11|RX=N.V3B
-12	<	<	PUNCT	_	_	13	punct	_	AlignBegin=915321|AlignEnd=915489|GE=/|Gloss=PUNCT|nWord=12|wordform=/
-13	ruwan	ruwaː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=915489|AlignEnd=915782|GE=water|Gloss=water|nWord=13|RX=N
-14	bazaraː	bazaraː	NOUN	_	_	13	compound	_	AlignBegin=915782|AlignEnd=916075|GE=hot_season|Gloss=hot_season|nWord=14|RX=N
-15	<	<	PUNCT	_	_	13	punct	_	AlignBegin=916075|AlignEnd=916367|GE=/|Gloss=PUNCT|nWord=15|wordform=/
+
+# sent_id = HAUZ_BC_CONV_04_0799-0799
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 907334, 908546
+# phonetic_text = tòː / ai yànzu / àbù -n dà yakèː fàːru -wàː / zân yi ƙòːƙariː / ìn yi fangaliː //
+# text = àbin dà yakèː fàːruwàː //+
+# text_en = what is happening,
+1	àbin	àbù	NOUN	_	Definite=Cons	0	dislocated@top	_	AlignBegin=907334|AlignEnd=907455|GE=thing.Cons|Gloss=thing.Cons|nWord=6|RX=N|wordform=àbù
+2	dà	dà	SCONJ	_	_	1	mod@relcl	_	AlignBegin=907576|AlignEnd=907818|GE=COMP|Gloss=COMP|nWord=7|RX=PART.SYNT/HOM
+3	yakèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=907818|AlignEnd=908060|GE=3Masc.Imp.Bkg|Gloss=3Masc.Imp.Bkg|nWord=8|RX=PNG.TAM
+4	fàːruwàː	faːr-	VERB	_	_	3	comp:aux	_	AlignBegin=908060|AlignEnd=908181|GE=happen.NMLZ|Gloss=happen.Vnoun|nWord=9|RX=V7|wordform=fàːru
+5	//+	//+	PUNCT	_	_	1	punct	_	AlignBegin=908302|AlignEnd=908546|GE=/|Gloss=PUNCT|nWord=10|wordform=/
+
+# sent_id = HAUZ_BC_CONV_04_0800-0800
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 908950, 909401
+# phonetic_text = mː // hm̌ː // ài sai ruwaː yanàː gab dà faːɗìː / ruwan bazaraː /
+# text = hm̌ː ?//
+# text_en = Mm?
+1	hm̌ː	hm̌ː	INTJ	_	_	0	discourse	_	AlignBegin=908950|AlignEnd=909176|GE=hm̌ː|Gloss=hm̌ː|nWord=3|RX=BKL
+2	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=909176|AlignEnd=909401|GE=//|Gloss=PUNCT|nWord=4
+
+# sent_id = HAUZ_BC_CONV_04_0801-0801
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 911162, 913337
+# phonetic_text = tòː / ai yànzu / àbù -n dà yakèː fàːru -wàː / zân yi ƙòːƙariː / ìn yi fangaliː //
+# text = zân yi ƙòːƙariː ìn yi fangaliː //
+# text_en = I will try to make a watering bed.
+1	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=911162|AlignEnd=911436|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=11|RX=TAM.PNG
+2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=911436|AlignEnd=911710|GE=do|Gloss=do|nWord=12|RX=V0
+3	ƙòːƙariː	ƙòːƙariː	NOUN	_	_	2	comp:obj@lvc	_	AlignBegin=911710|AlignEnd=911984|GE=effort|Gloss=effort|nWord=13|RX=N
+4	ìn	à	AUX	_	Aspect=Aor|Number=Sing|Person=1	2	mod	_	AlignBegin=912258|AlignEnd=912528|GE=1Sing.Aor|Gloss=1Sing.Aor|nWord=15|RX=PNG.TAM
+5	yi	yi	VERB	_	_	4	comp:cleft	_	AlignBegin=912528|AlignEnd=912798|GE=do|Gloss=do|nWord=16|RX=V0
+6	fangaliː	fangaliː	NOUN	_	_	5	comp:obj	_	AlignBegin=912798|AlignEnd=913068|GE=bed|Gloss=bed|nWord=17|RX=N
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=913068|AlignEnd=913337|GE=//|Gloss=PUNCT|nWord=18
+
+# sent_id = HAUZ_BC_CONV_04_0802-0803
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 914173, 916367
+# phonetic_text = mː // hm̌ː // ài sai ruwaː yanàː gab dà faːɗìː / ruwan bazaraː /
+# text = ài sai ruwaː yanàː gab dà faːɗìː < ruwan bazaraː <
+# text_en = Eh, wait until the rain is about to fall, the hot season rains.
+1	ài	ài	INTJ	_	_	9	discourse	_	AlignBegin=914173|AlignEnd=914337|GE=ài|Gloss=ài|nWord=5|RX=FILL
+2	sai	sai	ADV	_	_	4	mod	_	AlignBegin=914337|AlignEnd=914501|GE=only|Gloss=only|nWord=6|RX=CONJ/HOM
+3	ruwaː	ruwaː	NOUN	_	_	1	mod	_	AlignBegin=914501|AlignEnd=914665|GE=water|Gloss=water|nWord=7|RX=N
+4	yanàː	nàː²	AUX	_	Person=3	3	comp:obj	_	AlignBegin=914665|AlignEnd=914829|GE=3Masc.Imp|Gloss=3Masc.Imp|nWord=8|RX=PNG.TAM
+5	gab	gab	VERB	_	_	4	comp:aux	_	AlignBegin=914829|AlignEnd=914993|GE=close|Gloss=close|nWord=9|RX=ADV
+6	dà	dà	ADP	_	_	5	comp:obl	_	AlignBegin=914993|AlignEnd=915157|GE=with|Gloss=with|nWord=10|RX=PREP/HOM
+7	faːɗìː	faːɗìː	NOUN	_	_	6	comp:obj	_	AlignBegin=915157|AlignEnd=915321|GE=falling|Gloss=falling|nWord=11|RX=N.V3B
+8	<	<	PUNCT	_	_	9	punct	_	AlignBegin=915321|AlignEnd=915489|GE=/|Gloss=PUNCT|nWord=12|wordform=/
+9	ruwan	ruwaː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=915489|AlignEnd=915782|GE=water|Gloss=water|nWord=13|RX=N
+10	bazaraː	bazaraː	NOUN	_	_	9	compound	_	AlignBegin=915782|AlignEnd=916075|GE=hot_season|Gloss=hot_season|nWord=14|RX=N
+11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=916075|AlignEnd=916367|GE=/|Gloss=PUNCT|nWord=15|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0804-0804
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 916367, 917135
-# phonetic_text = yâwwaː /
-# text = yawwàː /
+# phonetic_text = yâwwaː //
+# text = yawwàː //
 # text_en =  OK.
 1	yâwwaː	yâwwaː	ADV	_	_	0	root	_	AlignBegin=916367|AlignEnd=916751|GE=OK|Gloss=OK|nWord=1|RX=EXCL
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=916751|AlignEnd=917135|GE=/|Gloss=PUNCT|nWord=2|wordform=/
+2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=916751|AlignEnd=917135|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0805-0806
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 916672, 918177
 # phonetic_text = in mun shìga ruwaː -n / zaːfiː /
-# text = in mun shìga ruwan / zaːfiː /
+# text = in mun shìga ruwan / zaːfiː //+
 # text_en =  When we enter the rain season,
 1	in	in	SCONJ	_	_	6	mod	_	AlignBegin=916672|AlignEnd=916834|GE=if|Gloss=if|nWord=1|RX=CONJ
 2	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	1	comp:obj	_	AlignBegin=916834|AlignEnd=916996|GE=1Plur.Perf|Gloss=1Plur.Perf|nWord=2|RX=PNG.TAM
@@ -7518,7 +7550,7 @@
 4	ruwaː-n	ruwaː	NOUN	_	Definite=Cons	3	comp:obj	_	AlignBegin=917158|AlignEnd=917239|GE=water.Cons|Gloss=water.Cons|nWord=4|RX=N|wordform=ruwaː
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=917320|AlignEnd=917484|GE=/|Gloss=PUNCT|nWord=5|wordform=/
 6	zaːfiː	zaːfiː	NOUN	_	_	0	root	_	AlignBegin=917484|AlignEnd=917830|GE=heat|Gloss=heat|nWord=6|RX=N
-7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=917830|AlignEnd=918177|GE=/|Gloss=PUNCT|nWord=7|wordform=/
+7	//+	//+	PUNCT	_	_	6	punct	_	AlignBegin=917830|AlignEnd=918177|GE=/|Gloss=PUNCT|nWord=7|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0807-0807
 # speaker_id = SP1
