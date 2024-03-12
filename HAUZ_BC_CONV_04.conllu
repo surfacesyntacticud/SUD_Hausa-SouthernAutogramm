@@ -1193,13 +1193,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 137884, 139714
 # phonetic_text = dukà dà muː / kâi -n -mù / mun dainàː //
-# text = dukà dà muː < kânmù < mun dainàː //
+# text = dud dà muː < kânmù < mun dainàː //
 # text_en =  All of us, ourselves, we stopped (drinking).
-1	dukà	dukà	PRON	_	ExtPos=ADP	7	dislocated@subj	_	AlignBegin=137884|AlignEnd=138048|GE=all|Gloss=all|Idiom=Yes|nWord=1|RX=ADJ
-2	dà	dà	ADP	_	_	1	unk	_	AlignBegin=138048|AlignEnd=138212|GE=with|Gloss=with|InIdiom=Yes|nWord=2|RX=PREP/HOM
-3	muː	muː	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	comp:obj	_	AlignBegin=138212|AlignEnd=138376|GE=1Plur|Gloss=1Plur.Nom|nWord=3|RX=PRO.IDP
+1	dud	dukà	PRON	_	ExtPos=ADP	7	dislocated@subj	_	AlignBegin=137884|AlignEnd=138048|GE=all|Gloss=all|Idiom=Yes|nWord=1|RX=ADJ
+2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=138048|AlignEnd=138212|GE=with|Gloss=with|InIdiom=Yes|nWord=2|RX=PREP/HOM
+3	muː	muː	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	conj:coord	_	AlignBegin=138212|AlignEnd=138376|GE=1Plur|Gloss=1Plur.Nom|nWord=3|RX=PRO.IDP
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=138376|AlignEnd=138538|GE=/|Gloss=PUNCT|nWord=4|wordform=/
-5	kânmù	kânmù	AUX	_	PronType=Prs|Reflex=Yes	7	mod	_	AlignBegin=138538|AlignEnd=138612|GE=1Plur.Reflex|Gloss=1Plur.Reflex|nWord=5|RX=N
+5	kânmù	kânmù	PRON	_	PronType=Prs|Reflex=Yes	7	dislocated@subj	_	AlignBegin=138538|AlignEnd=138612|GE=1Plur.Reflex|Gloss=1Plur.Reflex|nWord=5|RX=N
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=138761|AlignEnd=138984|GE=/|Gloss=PUNCT|nWord=6|wordform=/
 7	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	AlignBegin=138984|AlignEnd=139227|GE=1Plur.Perf|Gloss=1Plur.Perf|nWord=7|RX=PNG.TAM
 8	dainàː	dain-	VERB	_	_	7	comp:aux	_	AlignBegin=139227|AlignEnd=139470|GE=cease|Gloss=cease|nWord=8|RX=V1
@@ -7447,18 +7447,35 @@
 1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=904371|AlignEnd=904657|GE=yes|Gloss=yes|nWord=1|RX=INTJ
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=904657|AlignEnd=904944|GE=//|Gloss=PUNCT|nWord=2
 
-# sent_id = HAUZ_BC_CONV_04_0795-0799
+# sent_id = HAUZ_BC_CONV_04_0795-0795
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 905449, 906826
 # phonetic_text = tòː / ai yànzu / àbù -n dà yakèː fàːru -wàː / zân yi ƙòːƙariː / ìn yi fangaliː //
-# text = tòː < ai yànzu //+
-# text_en =  Well, now,
-1	tòː	tòː	INTJ	_	_	0	discourse	_	AlignBegin=905449|AlignEnd=905605|GE=well|Gloss=well|nWord=1|RX=DM
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=905605|AlignEnd=905760|GE=/|Gloss=PUNCT|nWord=2|wordform=/
-3	ai	ai	INTJ	_	_	0	discourse	_	AlignBegin=905760|AlignEnd=906115|GE=indeed|Gloss=indeed|nWord=3|RX=EXCL
-4	yànzu	yànzu	ADV	_	_	0	mod	_	AlignBegin=906115|AlignEnd=906470|GE=now|Gloss=now|nWord=4|RX=ADV.DEICT
-5	//+	//+	PUNCT	_	_	4	punct	_	AlignBegin=906470|AlignEnd=906826|GE=/|Gloss=PUNCT|nWord=5|wordform=/
+# text = tòː //+
+# text_en =  Well,
+1	tòː	tòː	INTJ	_	_	0	root	_	AlignBegin=905449|AlignEnd=905605|AttachTo=HAUZ_BC_CONV_04_0801-0801|GE=well|Gloss=well|nWord=1|Rel=discourse|RX=DM
+2	//+	//+	PUNCT	_	_	1	punct	_	AlignBegin=905605|AlignEnd=905760|GE=/|Gloss=PUNCT|nWord=2|wordform=/
+
+# sent_id = HAUZ_BC_CONV_04_0796-0796
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 905449, 906826
+# phonetic_text = tòː / ai yànzu / àbù -n dà yakèː fàːru -wàː / zân yi ƙòːƙariː / ìn yi fangaliː //
+# text = ai //+
+# text_en = eh,
+1	ai	ai	INTJ	_	_	0	root	_	AlignBegin=905760|AlignEnd=906115|AttachTo=HAUZ_BC_CONV_04_0801-0801|GE=indeed|Gloss=indeed|nWord=3|Rel=discourse|RX=EXCL
+2	//+	//+	PUNCT	_	_	1	punct	_	AlignBegin=905760|AlignEnd=906115|GE=PUNCT|Gloss=PUNCT|nWord=3|RX=EXCL
+
+# sent_id = HAUZ_BC_CONV_04_0797-797
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 905449, 906826
+# phonetic_text = tòː / ai yànzu / àbù -n dà yakèː fàːru -wàː / zân yi ƙòːƙariː / ìn yi fangaliː //
+# text = yànzu //+
+# text_en = now,
+1	yànzu	yànzu	ADV	_	_	0	root	_	AlignBegin=906115|AlignEnd=906470|AttachTo=HAUZ_BC_CONV_04_0801-0801|GE=now|Gloss=now|nWord=4|Rel=mod|RX=ADV.DEICT
+2	//+	//+	PUNCT	_	_	1	punct	_	AlignBegin=906470|AlignEnd=906826|GE=/|Gloss=PUNCT|nWord=5|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0798-0798
 # speaker_id = SP1
@@ -7477,7 +7494,7 @@
 # phonetic_text = tòː / ai yànzu / àbù -n dà yakèː fàːru -wàː / zân yi ƙòːƙariː / ìn yi fangaliː //
 # text = àbin dà yakèː fàːruwàː //+
 # text_en = what is happening,
-1	àbin	àbù	NOUN	_	Definite=Cons	0	dislocated@top	_	AlignBegin=907334|AlignEnd=907455|GE=thing.Cons|Gloss=thing.Cons|nWord=6|RX=N|wordform=àbù
+1	àbin	àbù	NOUN	_	Definite=Cons	0	root	_	AlignBegin=907334|AlignEnd=907455|AttachTo=HAUZ_BC_CONV_04_0801-0801|GE=thing.Cons|Gloss=thing.Cons|nWord=6|Rel=dislocated@top|RX=N|wordform=àbù
 2	dà	dà	SCONJ	_	_	1	mod@relcl	_	AlignBegin=907576|AlignEnd=907818|GE=COMP|Gloss=COMP|nWord=7|RX=PART.SYNT/HOM
 3	yakèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=907818|AlignEnd=908060|GE=3Masc.Imp.Bkg|Gloss=3Masc.Imp.Bkg|nWord=8|RX=PNG.TAM
 4	fàːruwàː	faːr-	VERB	_	_	3	comp:aux	_	AlignBegin=908060|AlignEnd=908181|GE=happen.NMLZ|Gloss=happen.Vnoun|nWord=9|RX=V7|wordform=fàːru
@@ -7500,7 +7517,7 @@
 # phonetic_text = tòː / ai yànzu / àbù -n dà yakèː fàːru -wàː / zân yi ƙòːƙariː / ìn yi fangaliː //
 # text = zân yi ƙòːƙariː ìn yi fangaliː //
 # text_en = I will try to make a watering bed.
-1	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=911162|AlignEnd=911436|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=11|RX=TAM.PNG
+1	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=911162|AlignEnd=911436|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=11|Overlap=[HAUZ_BC_CONV_04_0795-0795][HAUZ_BC_CONV_04_0796-0796][HAUZ_BC_CONV_04_0797-0797][HAUZ_BC_CONV_04_0799-0799]|RX=TAM.PNG
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=911436|AlignEnd=911710|GE=do|Gloss=do|nWord=12|RX=V0
 3	ƙòːƙariː	ƙòːƙariː	NOUN	_	_	2	comp:obj@lvc	_	AlignBegin=911710|AlignEnd=911984|GE=effort|Gloss=effort|nWord=13|RX=N
 4	ìn	à	AUX	_	Aspect=Aor|Number=Sing|Person=1	2	mod	_	AlignBegin=912258|AlignEnd=912528|GE=1Sing.Aor|Gloss=1Sing.Aor|nWord=15|RX=PNG.TAM
@@ -7513,19 +7530,19 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 914173, 916367
 # phonetic_text = mː // hm̌ː // ài sai ruwaː yanàː gab dà faːɗìː / ruwan bazaraː /
-# text = ài sai ruwaː yanàː gab dà faːɗìː < ruwan bazaraː <
+# text = ai sai ruwaː yanàː gab dà faːɗìː // ruwan bazaraː >
 # text_en = Eh, wait until the rain is about to fall, the hot season rains.
-1	ài	ài	INTJ	_	_	9	discourse	_	AlignBegin=914173|AlignEnd=914337|GE=ài|Gloss=ài|nWord=5|RX=FILL
+1	ai	ai	INTJ	_	_	4	discourse	_	AlignBegin=914173|AlignEnd=914337|GE=eh|Gloss=eh|nWord=5|RX=FILL
 2	sai	sai	ADV	_	_	4	mod	_	AlignBegin=914337|AlignEnd=914501|GE=only|Gloss=only|nWord=6|RX=CONJ/HOM
-3	ruwaː	ruwaː	NOUN	_	_	1	mod	_	AlignBegin=914501|AlignEnd=914665|GE=water|Gloss=water|nWord=7|RX=N
-4	yanàː	nàː²	AUX	_	Person=3	3	comp:obj	_	AlignBegin=914665|AlignEnd=914829|GE=3Masc.Imp|Gloss=3Masc.Imp|nWord=8|RX=PNG.TAM
-5	gab	gab	VERB	_	_	4	comp:aux	_	AlignBegin=914829|AlignEnd=914993|GE=close|Gloss=close|nWord=9|RX=ADV
-6	dà	dà	ADP	_	_	5	comp:obl	_	AlignBegin=914993|AlignEnd=915157|GE=with|Gloss=with|nWord=10|RX=PREP/HOM
-7	faːɗìː	faːɗìː	NOUN	_	_	6	comp:obj	_	AlignBegin=915157|AlignEnd=915321|GE=falling|Gloss=falling|nWord=11|RX=N.V3B
-8	<	<	PUNCT	_	_	9	punct	_	AlignBegin=915321|AlignEnd=915489|GE=/|Gloss=PUNCT|nWord=12|wordform=/
-9	ruwan	ruwaː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=915489|AlignEnd=915782|GE=water|Gloss=water|nWord=13|RX=N
+3	ruwaː	ruwaː	NOUN	_	_	4	subj	_	AlignBegin=914501|AlignEnd=914665|GE=water|Gloss=water|nWord=7|RX=N
+4	yanàː	nàː²	AUX	_	Person=3	0	root	_	AlignBegin=914665|AlignEnd=914829|GE=3Masc.Imp|Gloss=3Masc.Pred/Loc|nWord=8|RX=PNG.TAM
+5	gab	gab	ADP	_	_	4	comp:loc	_	AlignBegin=914829|AlignEnd=914993|GE=close|Gloss=close|nWord=9|RX=ADV
+6	dà	dà	ADP	_	_	5	compound	_	AlignBegin=914993|AlignEnd=915157|GE=with|Gloss=with|nWord=10|RX=PREP/HOM
+7	faːɗìː	faːɗ-	NOUN	_	_	5	comp:obj	_	AlignBegin=915157|AlignEnd=915321|GE=fall|Gloss=fall.Vnoun|nWord=11|RX=N.V3B
+8	>	>	PUNCT	_	_	9	punct	_	AlignBegin=915321|AlignEnd=915489|GE=/|Gloss=PUNCT|nWord=12|wordform=/
+9	ruwan	ruwaː	NOUN	_	Definite=Cons	4	dislocated@subj	_	AlignBegin=915489|AlignEnd=915782|GE=water|Gloss=water|nWord=13|RX=N
 10	bazaraː	bazaraː	NOUN	_	_	9	compound	_	AlignBegin=915782|AlignEnd=916075|GE=hot_season|Gloss=hot_season|nWord=14|RX=N
-11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=916075|AlignEnd=916367|GE=/|Gloss=PUNCT|nWord=15|wordform=/
+11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=916075|AlignEnd=916367|GE=/|Gloss=PUNCT|nWord=15|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0804-0804
 # speaker_id = SP1
@@ -7542,15 +7559,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 916672, 918177
 # phonetic_text = in mun shìga ruwaː -n / zaːfiː /
-# text = in mun shìga ruwan / zaːfiː //+
+# text = in mun shìga ruwan zaːfiː //+
 # text_en =  When we enter the rain season,
-1	in	in	SCONJ	_	_	6	mod	_	AlignBegin=916672|AlignEnd=916834|GE=if|Gloss=if|nWord=1|RX=CONJ
+1	in	in	SCONJ	_	_	0	root	_	AlignBegin=916672|AlignEnd=916834|AttachTo=HAUZ_BC_CONV_04_0808-0809|GE=if|Gloss=if|nWord=1|Rel=mod|RX=CONJ
 2	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	1	comp:obj	_	AlignBegin=916834|AlignEnd=916996|GE=1Plur.Perf|Gloss=1Plur.Perf|nWord=2|RX=PNG.TAM
-3	shìga	saìg-	VERB	_	_	2	comp:aux	_	AlignBegin=916996|AlignEnd=917158|GE=enter|Gloss=enter|nWord=3|RX=V3
-4	ruwaː-n	ruwaː	NOUN	_	Definite=Cons	3	comp:obj	_	AlignBegin=917158|AlignEnd=917239|GE=water.Cons|Gloss=water.Cons|nWord=4|RX=N|wordform=ruwaː
-5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=917320|AlignEnd=917484|GE=/|Gloss=PUNCT|nWord=5|wordform=/
-6	zaːfiː	zaːfiː	NOUN	_	_	0	root	_	AlignBegin=917484|AlignEnd=917830|GE=heat|Gloss=heat|nWord=6|RX=N
-7	//+	//+	PUNCT	_	_	6	punct	_	AlignBegin=917830|AlignEnd=918177|GE=/|Gloss=PUNCT|nWord=7|wordform=/
+3	shìga	shig-	VERB	_	_	2	comp:aux	_	AlignBegin=916996|AlignEnd=917158|GE=enter|Gloss=enter|nWord=3|RX=V3
+4	ruwan	ruwaː	NOUN	_	Definite=Cons	3	comp:goal	_	AlignBegin=917158|AlignEnd=917239|GE=water.Cons|Gloss=water.Cons|nWord=4|RX=N|wordform=ruwaː
+5	zaːfiː	zaːfiː	NOUN	_	_	4	mod	_	AlignBegin=917484|AlignEnd=917830|GE=heat|Gloss=heat|nWord=6|RX=N
+6	//+	//+	PUNCT	_	_	1	punct	_	AlignBegin=917830|AlignEnd=918177|GE=/|Gloss=PUNCT|nWord=7|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0807-0807
 # speaker_id = SP1
@@ -7573,18 +7589,18 @@
 # sent_timecode = 919084, 922903
 # phonetic_text = sai ìn ganiː an yi fangaliː / ìn saːroː kwaiwaː /
 # text = sai ìn ga an yi fangaliː / ìn saːroː kwaiwaː /
-# text_en =  I will make a bed. I will cut branches.
-1	sai	sai	ADV	_	_	8	mod	_	AlignBegin=919084|AlignEnd=919296|GE=then|Gloss=then|nWord=1|RX=CONJ/HOM
-2	ìn	ìn	AUX	_	_	8	mod	_	AlignBegin=919296|AlignEnd=919508|GE=1Sing.Aor|Gloss=1Sing.Aor|nWord=2|RX=PNG.TAM
-3	ganiː	ganiː	VERB	_	_	2	comp:obj	_	AlignBegin=919508|AlignEnd=919720|GE=see|Gloss=see|nWord=3|RX=V*
+# text_en =  I will make sure to make a watering bed, and I will cut branches.
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=919084|AlignEnd=919296|GE=then|Gloss=then|nWord=1|RX=CONJ/HOM
+2	ìn	ìn	AUX	_	_	0	root	_	AlignBegin=919296|AlignEnd=919508|GE=1Sing.Aor|Gloss=1Sing.Aor|nWord=2|Overlap=HAUZ_BC_CONV_04_0807-0807|RX=PNG.TAM
+3	ga	ganiː	VERB	_	_	2	comp:obj	_	AlignBegin=919508|AlignEnd=919720|GE=see|Gloss=see|nWord=3|RX=V*
 4	an	nàː	AUX	_	Aspect=Perf|Person=4	3	comp:obj	_	AlignBegin=919720|AlignEnd=919932|GE=4.Perf|Gloss=4.Perf|nWord=4|RX=PNG.TAM
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=919932|AlignEnd=920144|GE=do|Gloss=do|nWord=5|RX=V0
-6	fangaliː	fangaliː	NOUN	_	_	5	comp:obj@lvc	_	AlignBegin=920144|AlignEnd=920356|GE=bed|Gloss=bed|nWord=6|RX=N
-7	<	<	PUNCT	_	_	8	punct	_	AlignBegin=920356|AlignEnd=920568|GE=/|Gloss=PUNCT|nWord=7|wordform=/
-8	ìn	ìn	AUX	_	Definite=Cons	0	root	_	AlignBegin=921442|AlignEnd=921807|GE=1Sing.Aor|Gloss=1Sing.Aor|nWord=8|RX=PNG.TAM
+6	fangaliː	fangaliː	NOUN	_	_	5	comp:obj	_	AlignBegin=920144|AlignEnd=920356|GE=bed|Gloss=bed|nWord=6|RX=N
+7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=920356|AlignEnd=920568|GE=/|Gloss=PUNCT|nWord=7|wordform=/
+8	ìn	ìn	AUX	_	Definite=Cons	4	conj:coord	_	AlignBegin=921442|AlignEnd=921807|GE=1Sing.Aor|Gloss=1Sing.Aor|nWord=8|RX=PNG.TAM
 9	saːroː	saːroː	NOUN	_	_	8	comp:obj	_	AlignBegin=921807|AlignEnd=922172|GE=fell.DIR|Gloss=fell.DIR|nWord=9|RX=V6
 10	kwaiwaː	kwaiwaː	NOUN	_	_	9	mod	_	AlignBegin=922172|AlignEnd=922537|GE=foliage|Gloss=foliage|nWord=10|RX=N
-11	<	<	PUNCT	_	_	8	punct	_	AlignBegin=922537|AlignEnd=922903|GE=/|Gloss=PUNCT|nWord=11|wordform=/
+11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=922537|AlignEnd=922903|GE=/|Gloss=PUNCT|nWord=11|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0810-0810
 # speaker_id = SP1
@@ -7594,7 +7610,7 @@
 # text = kà r̃ufèː //
 # text_en =  To cover it.
 1	kà	à	AUX	_	Aspect=Aor|Person=2	0	root	_	AlignBegin=923622|AlignEnd=923788|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=1|RX=PNG.TAM
-2	r̃ufèː	r̃ufèː	VERB	_	_	1	comp:aux	_	AlignBegin=923788|AlignEnd=923954|GE=cover|Gloss=cover|nWord=2|RX=V4
+2	r̃ufèː	r̃uf-	VERB	_	_	1	comp:aux	_	AlignBegin=923788|AlignEnd=923954|GE=cover|Gloss=cover|nWord=2|RX=V4
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=923954|AlignEnd=924121|GE=//|Gloss=PUNCT|nWord=3
 
 # sent_id = HAUZ_BC_CONV_04_0811-0811
@@ -7603,9 +7619,9 @@
 # sent_timecode = 924121, 924679
 # phonetic_text = ìn r̃ufèː //
 # text = ìn r̃ufèː //
-# text_en =  to cover it.
-1	ìn	ìː	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=924121|AlignEnd=924307|GE=1Sing.Aor|Gloss=1Sing.Aor|nWord=1|RX=PNG.TAM
-2	r̃ufèː	r̃ufèː	NOUN	_	_	1	comp:obj	_	AlignBegin=924307|AlignEnd=924493|GE=cover|Gloss=cover|nWord=2|RX=V4
+# text_en = To cover it.
+1	ìn	à	AUX	_	Aspect=Aor|Number=Sing|Person=1	0	root	_	AlignBegin=924121|AlignEnd=924307|GE=1Sing.Aor|Gloss=1Sing.Aor|nWord=1|RX=PNG.TAM
+2	r̃ufèː	r̃uf-	NOUN	_	_	1	comp:obj	_	AlignBegin=924307|AlignEnd=924493|GE=cover|Gloss=cover|nWord=2|RX=V4
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=924493|AlignEnd=924679|GE=//|Gloss=PUNCT|nWord=3
 
 # sent_id = HAUZ_BC_CONV_04_0812-0814
@@ -7619,7 +7635,7 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=925195|AlignEnd=925376|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 3	kuma	kuma	PART	_	_	6	discourse	_	AlignBegin=925376|AlignEnd=925522|GE=too|Gloss=too|nWord=3|RX=PART.TOP
 4	<	<	PUNCT	_	_	6	punct	_	AlignBegin=925522|AlignEnd=925667|GE=/|Gloss=PUNCT|nWord=4|wordform=/
-5	hakà	hakà	ADV	_	_	6	mod	_	AlignBegin=925667|AlignEnd=925778|GE=like_this|Gloss=like_this|nWord=5|RX=ADV
+5	hakà	hakà	ADV	_	_	6	comp:pred	_	AlignBegin=925667|AlignEnd=925778|GE=like_this|Gloss=like_this|nWord=5|RX=ADV
 6	nèː	neː	PART	_	_	0	root	_	AlignBegin=925778|AlignEnd=925889|GE=Ident/Foc|Gloss=Ident/Foc|nWord=6|RX=PART.SYNT
 7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=925889|AlignEnd=926001|GE=//|Gloss=PUNCT|nWord=7
 
@@ -7632,15 +7648,15 @@
 # text_en =  Well now, if you tell somebody "kwaiwa", he won't know what it is.
 1	tòː	tòː	INTJ	_	_	10	discourse	_	AlignBegin=926227|AlignEnd=926388|GE=well|Gloss=well|nWord=1|RX=DM
 2	yànzu	yànzu	ADV	_	_	10	mod	_	AlignBegin=926388|AlignEnd=926549|GE=now|Gloss=now|nWord=2|RX=ADV.DEICT
-3	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	2	mod	_	AlignBegin=926549|AlignEnd=926710|GE=some.M|Gloss=some.Masc|nWord=3|RX=PRO.INDF
-4	maː	maː	ADV	_	_	2	mod	_	AlignBegin=926710|AlignEnd=926871|GE=even|Gloss=even|nWord=4|RX=PART.TOP
+3	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	10	dislocated@comp	_	AlignBegin=926549|AlignEnd=926710|GE=some.M|Gloss=some.Masc|nWord=3|RX=PRO.INDF
+4	maː	maː	ADV	_	_	3	mod	_	AlignBegin=926710|AlignEnd=926871|GE=even|Gloss=even|nWord=4|RX=PART.TOP
 5	in	in	SCONJ	_	_	10	mod	_	AlignBegin=926871|AlignEnd=927032|GE=if|Gloss=if|nWord=5|RX=CONJ
 6	ka	ka	AUX	_	Aspect=Perf|Person=2	5	comp:obj	_	AlignBegin=927032|AlignEnd=927193|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=6|RX=PNG.TAM
 7	cêː	cêː	VERB	_	_	6	comp:aux	_	AlignBegin=927193|AlignEnd=927354|GE=say|Gloss=say|nWord=7|RX=V*
 8	mishì	mishì	PRON	_	Person=3	7	comp:ben	_	AlignBegin=927354|AlignEnd=927515|GE=3Masc|Gloss=3Masc.Dat|nWord=8|RX=PRO.BEN
 9	kwaiwaː	kwaiwaː	NOUN	_	_	7	comp:obj	_	AlignBegin=927515|AlignEnd=927676|GE=foliage|Gloss=foliage|nWord=9|RX=N
 10	bài	bài	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=927676|AlignEnd=927837|GE=Neg.3Masc.Perf|Gloss=3Masc.Perf.Neg|nWord=10|RX=TAM.Neg.PNG
-11	sanìː	san-	VERB	_	_	10	comp:aux	_	AlignBegin=927837|AlignEnd=927998|GE=know|Gloss=know|nWord=11|RX=V*
+11	san	san-	VERB	_	_	10	comp:aux	_	AlignBegin=927837|AlignEnd=927998|GE=know|Gloss=know|nWord=11|RX=V*
 12	tà	tà	PRON	_	Person=3	11	comp:obj	_	AlignBegin=927998|AlignEnd=928159|GE=3Fem|Gloss=3Fem|nWord=12|RX=PRO.OBJ
 13	ba	ba	PART	_	Polarity=Neg	10	mod	_	AlignBegin=928159|AlignEnd=928320|GE=Neg|Gloss=Neg|nWord=13|RX=PART.Neg
 14	//	//	PUNCT	_	_	10	punct	_	AlignBegin=928320|AlignEnd=928481|GE=//|Gloss=PUNCT|nWord=14
@@ -7653,7 +7669,7 @@
 # text = naː tunàː //
 # text_en =  I remember.
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=926227|AlignEnd=926456|GE=1Sing.Perf|Gloss=1Sing.Perf|nWord=1|RX=PNG.TAM
-2	tunàː	-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=926456|AlignEnd=926685|GE=remember|Gloss=remember|nWord=2|RX=V1
+2	tunàː	tun-	VERB	_	_	1	comp:aux	_	AlignBegin=926456|AlignEnd=926685|GE=remember|Gloss=remember|nWord=2|RX=V1
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=926685|AlignEnd=926914|GE=//|Gloss=PUNCT|nWord=3
 
 # sent_id = HAUZ_BC_CONV_04_0817-0817
@@ -7661,29 +7677,29 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 928481, 929138
 # phonetic_text = ìnâː //
-# text = ìnâː //
+# text = ìnâː !//
 # text_en =  You don't say!
 1	ìnâː	ìnâː	ADV	_	_	0	root	_	AlignBegin=928481|AlignEnd=928809|GE=impossible|Gloss=impossible|nWord=1|RX=EXCL
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=928809|AlignEnd=929138|GE=//|Gloss=PUNCT|nWord=2
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=928809|AlignEnd=929138|GE=//|Gloss=PUNCT|nWord=2
 
 # sent_id = HAUZ_BC_CONV_04_0818-0819
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 929138, 930651
 # phonetic_text = yaːròː -aː\FH -n yànzu / kai dai bàː sai àbù -n nàn ba //
-# text = yâːran yànzu / kai dai bàː sai àbin nàn ba //
+# text = yâːran yànzu / kai dai bàː sai àbin nàn ba !//
 # text_en =  Today's children, they won't know that thing!
-1	yaːròː=aː\FH-n	yaːròː	NOUN	_	Definite=Cons|Number=Plur	10	subj	_	AlignBegin=929138|AlignEnd=929198|GE=child.Plur.Cons|Gloss=child.Plur.Cons|nWord=1|RX=N|wordform=yaːròː
+1	yâran	yaːròː	NOUN	_	Definite=Cons|Number=Plur	8	subj	_	AlignBegin=929138|AlignEnd=929198|GE=child.Plur.Cons|Gloss=child.Plur.Cons|nWord=1|RX=N|wordform=yaːròː
 2	yànzu	yànzu	ADV	_	_	1	mod	_	AlignBegin=929318|AlignEnd=929498|GE=now|Gloss=now|nWord=2|RX=ADV.DEICT
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=929498|AlignEnd=929679|GE=/|Gloss=PUNCT|nWord=3|wordform=/
-4	kai	kai	PRON	_	_	7	mod	_	AlignBegin=929679|AlignEnd=929801|GE=2.Masc|Gloss=2.Masc.Nom|nWord=4|RX=PRO.IDP
+4	kai	kai	PRON	_	_	8	vocative	_	AlignBegin=929679|AlignEnd=929801|GE=2.Masc|Gloss=2.Masc.Nom|nWord=4|RX=PRO.IDP
 5	dai	dai	ADV	_	_	4	mod	_	AlignBegin=929801|AlignEnd=929923|GE=indeed|Gloss=indeed|nWord=5|RX=PART.TOP
-6	bàː	bàː	PART	_	_	7	mod	_	AlignBegin=929923|AlignEnd=930045|GE=Neg|Gloss=Neg|nWord=6|RX=PART.Neg
-7	sai	sai	ADV	_	_	0	root	_	AlignBegin=930045|AlignEnd=930167|GE=only|Gloss=only|nWord=7|RX=CONJ/HOM
-8	àbin	àbù	NOUN	_	Definite=Def	7	comp:obj	_	AlignBegin=930167|AlignEnd=930228|GE=thing.Cons|Gloss=thing.Cons|nWord=8|RX=N|wordform=àbù
+6	bàː	bàː	PART	_	_	8	mod	_	AlignBegin=929923|AlignEnd=930045|GE=Neg|Gloss=Neg|nWord=6|RX=PART.Neg
+7	sai	sai	ADV	_	_	8	mod	_	AlignBegin=930045|AlignEnd=930167|GE=only|Gloss=only|nWord=7|RX=CONJ/HOM
+8	àbin	àbù	NOUN	_	Definite=Def	0	root	_	AlignBegin=930167|AlignEnd=930228|GE=thing.Cons|Gloss=thing.Cons|nWord=8|RX=N|wordform=àbù
 9	nàn	nàn	DET	_	_	8	det	_	AlignBegin=930289|AlignEnd=930411|GE=Def|Gloss=Def|nWord=9|RX=ADV.DEICT
 10	ba	ba	PART	_	Polarity=Neg	8	mod	_	AlignBegin=930411|AlignEnd=930533|GE=Neg|Gloss=Neg|nWord=10|RX=PART.Neg
-11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=930533|AlignEnd=930651|GE=//|Gloss=PUNCT|nWord=11
+11	!//	!//	PUNCT	_	_	8	punct	_	AlignBegin=930533|AlignEnd=930651|GE=//|Gloss=PUNCT|nWord=11
 
 # sent_id = HAUZ_BC_CONV_04_0820-0820
 # speaker_id = SP2
@@ -7700,38 +7716,38 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 931933, 934573
 # phonetic_text = wani maː dâː zaːkà cêː mishì / jeː kà ɗeːboː mîn doːkàː / bài sanìː tà ba //
-# text = wani maː dâː zaːkà cêː mishì / jeː kà ɗeːboː mîn doːkàː / bài san tà ba //
-# text_en =  If you tell someone go and fetch me "doka*" (* the tree Isoberlinia doka) he will not know it.
-1	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	4	dislocated@subj	_	AlignBegin=931933|AlignEnd=932078|GE=some.M|Gloss=some.Masc|nWord=1|RX=PRO.INDF
+# text = wani maː dàː zaːkà cêː mishì / jeː kà ɗeːboː mîn doːkàː / bài san tà ba //
+# text_en =  If you tell someone go and fetch me  doka* he will not know it. (* the tree 'Isoberlinia doka')
+1	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	14	dislocated@subj	_	AlignBegin=931933|AlignEnd=932078|GE=some.M|Gloss=some.Masc|nWord=1|RX=PRO.INDF
 2	maː	maː	ADV	_	_	1	mod	_	AlignBegin=932078|AlignEnd=932223|GE=even|Gloss=even|nWord=2|RX=PART.TOP
-3	dâː	dâː	ADV	_	_	4	mod	_	AlignBegin=932223|AlignEnd=932368|GE=formerly|Gloss=formerly|nWord=3|RX=ADV
-4	zaːkà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=932368|AlignEnd=932513|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=4|RX=TAM.PNG
+3	dàː	dàː	SCONJ	_	_	14	mod	_	AlignBegin=932223|AlignEnd=932368|GE=if|Gloss=if|nWord=3|RX=ADV
+4	zaːkà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	3	comp:obj	_	AlignBegin=932368|AlignEnd=932513|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=4|RX=TAM.PNG
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=932513|AlignEnd=932658|GE=say|Gloss=say|nWord=5|RX=V*
-6	mishì	mishì	PRON	_	Person=3	5	comp.obl	_	AlignBegin=932658|AlignEnd=932803|GE=3Masc|Gloss=3Masc.Dat|nWord=6|RX=PRO.BEN
-7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=932803|AlignEnd=932950|GE=/|Gloss=PUNCT|nWord=7|wordform=/
-8	jeː	jeː	PART	_	_	14	discourse	_	AlignBegin=932950|AlignEnd=933132|GE=go|Gloss=go|nWord=8|RX=V0
-9	kà	à	AUX	_	Aspect=Aor|Person=2	14	parataxis@discourse	_	AlignBegin=933132|AlignEnd=933314|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=9|RX=PNG.TAM
-10	ɗeːboː	ɗeːboː	VERB	_	_	9	comp:aux	_	AlignBegin=933314|AlignEnd=933496|GE=take.DIR|Gloss=take.DIR|nWord=10|RX=V6
+6	mishì	mishì	PRON	_	Person=3	5	:ben	_	AlignBegin=932658|AlignEnd=932803|GE=3Masc|Gloss=3Masc.Dat|nWord=6|RX=PRO.BEN
+7	[	[	PUNCT	_	_	8	punct	_	AlignBegin=932803|AlignEnd=932950|GE=/|Gloss=PUNCT|nWord=7|wordform=/
+8	jeː	jeː	PART	_	Mood=Jus	5	comp:obj	_	AlignBegin=932950|AlignEnd=933132|GE=go|Gloss=go.Jus|nWord=8|RX=V0
+9	kà	à	AUX	_	Aspect=Aor|Person=2	8	comp:coord	_	AlignBegin=933132|AlignEnd=933314|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=9|RX=PNG.TAM
+10	ɗeːboː	ɗeːb-	VERB	_	_	9	comp:aux	_	AlignBegin=933314|AlignEnd=933496|GE=take.DIR|Gloss=take.DIR|nWord=10|RX=V6
 11	mîn	mîn	PRON	_	Number=Sing|Person=1	10	comp:ben	_	AlignBegin=933496|AlignEnd=933678|GE=1Sing|Gloss=1Sing.Dat|nWord=11|RX=PRO.BEN
 12	doːkàː	doːkàː	NOUN	_	_	10	comp:obj	_	AlignBegin=933678|AlignEnd=933860|GE=tree_sp|Gloss=tree_sp|nWord=12|RX=N
-13	<	<	PUNCT	_	_	14	punct	_	AlignBegin=933860|AlignEnd=934039|GE=/|Gloss=PUNCT|nWord=13|wordform=/
-14	bài	bài	AUX	_	_	5	comp:obj	_	AlignBegin=934039|AlignEnd=934146|GE=Neg.3Masc.Perf|Gloss=3Masc.Perf.Neg|nWord=14|RX=TAM.Neg.PNG
-15	sanìː	san-	VERB	_	_	14	comp:aux	_	AlignBegin=934146|AlignEnd=934253|GE=know|Gloss=know|nWord=15|RX=V*
+13	//]	//]	PUNCT	_	_	8	punct	_	AlignBegin=933860|AlignEnd=934039|GE=/|Gloss=PUNCT|nWord=13|wordform=/
+14	bài	bài	AUX	_	_	0	root	_	AlignBegin=934039|AlignEnd=934146|GE=Neg.3Masc.Perf|Gloss=3Masc.Perf.Neg|nWord=14|Overlap=HAUZ_BC_CONV_04_0826-0826|RX=TAM.Neg.PNG
+15	san	san-	VERB	_	_	14	comp:aux	_	AlignBegin=934146|AlignEnd=934253|GE=know|Gloss=know|nWord=15|RX=V*
 16	tà	tà	PRON	_	Person=3	15	comp:obj	_	AlignBegin=934253|AlignEnd=934360|GE=3Fem|Gloss=3Fem|nWord=16|RX=PRO.OBJ
 17	ba	ba	PART	_	Polarity=Neg	14	mod	_	AlignBegin=934360|AlignEnd=934467|GE=Neg|Gloss=Neg|nWord=17|RX=PART.Neg
-18	//	//	PUNCT	_	_	4	punct	_	AlignBegin=934467|AlignEnd=934573|GE=//|Gloss=PUNCT|nWord=18
+18	//	//	PUNCT	_	_	14	punct	_	AlignBegin=934467|AlignEnd=934573|GE=//|Gloss=PUNCT|nWord=18
 
 # sent_id = HAUZ_BC_CONV_04_0824-0825
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 934784, 936391
 # phonetic_text = ìnâː // ìnâː //
-# text = ìnâː // ìnâː //
+# text = ìnâː |r ìnâː !//
 # text_en =  You don't say! You don't say!
 1	ìnâː	ìnâː	ADV	_	_	0	root	_	AlignBegin=934784|AlignEnd=935232|GE=impossible|Gloss=impossible|nWord=1|RX=EXCL
-2	//	//	PUNCT	_	_	3	punct	_	AlignBegin=935232|AlignEnd=935680|GE=//|Gloss=PUNCT|nWord=2
-3	ìnâː	ìnâː	ADV	_	_	1	conj:dicto	_	AlignBegin=935680|AlignEnd=936036|GE=impossible|Gloss=impossible|nWord=3|RX=EXCL
-4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=936036|AlignEnd=936391|GE=//|Gloss=PUNCT|nWord=4
+2	|r	|r	PUNCT	_	_	3	punct	_	AlignBegin=935232|AlignEnd=935680|GE=//|Gloss=PUNCT|nWord=2
+3	ìnâː	ìnâː	ADV	_	_	1	conj:redup	_	AlignBegin=935680|AlignEnd=936036|GE=impossible|Gloss=impossible|nWord=3|RX=EXCL
+4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=936036|AlignEnd=936391|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_04_0826-0826
 # speaker_id = SP1
@@ -7739,15 +7755,15 @@
 # sent_timecode = 936391, 937816
 # phonetic_text = sai dai in ka cêː ganyeː -n goːbiraː /
 # text = sai dai in ka cêː ganyen goːbiraː /
-# text_en =  It's as if you say "gobira" leaves.
-1	sai	sai	ADV	_	_	0	root	_	AlignBegin=936391|AlignEnd=936569|GE=only|Gloss=only|nWord=1|RX=CONJ/HOM
+# text_en = except if you say "gobira" leaves.
+1	sai	sai	SCONJ	_	_	0	root	_	AlignBegin=936391|AlignEnd=936569|AttachTo=HAUZ_BC_CONV_04_0818-0819|GE=only|Gloss=only|nWord=1|Rel=mod|RX=CONJ/HOM
 2	dai	dai	PART	_	_	1	mod	_	AlignBegin=936569|AlignEnd=936747|GE=indeed|Gloss=indeed|nWord=2|RX=PART.TOP
-3	in	in	SCONJ	_	_	1	mod	_	AlignBegin=936747|AlignEnd=936925|GE=if|Gloss=if|nWord=3|RX=CONJ
-4	ka	ka	AUX	_	Aspect=Perf|Person=2	3	comp:obj	_	AlignBegin=936925|AlignEnd=937103|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=4|RX=PNG.TAM
+3	in	in	SCONJ	_	_	1	compound	_	AlignBegin=936747|AlignEnd=936925|GE=if|Gloss=if|nWord=3|RX=CONJ
+4	ka	ka	AUX	_	Aspect=Perf|Person=2	1	comp:obj	_	AlignBegin=936925|AlignEnd=937103|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=4|RX=PNG.TAM
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=937103|AlignEnd=937281|GE=say|Gloss=say|nWord=5|RX=V*
-6	ganyeː-n	ganyeː	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=937281|AlignEnd=937370|GE=foliage.Cons|Gloss=foliage.Cons|nWord=6|RX=N|wordform=ganyeː
-7	goːbiraː	goːbiraː	NOUN	_	_	6	compound	_	AlignBegin=937459|AlignEnd=937637|GE=tree_sp|Gloss=tree_sp|nWord=7|RX=N
-8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=937637|AlignEnd=937816|GE=/|Gloss=PUNCT|nWord=8|wordform=/
+6	ganyen	ganyeː	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=937281|AlignEnd=937370|GE=foliage.Cons|Gloss=foliage.Cons|nWord=6|RX=N|wordform=ganyeː
+7	goːbiraː	goːbiraː	NOUN	_	_	6	mod	_	AlignBegin=937459|AlignEnd=937637|GE=tree_sp|Gloss=tree_sp|nWord=7|RX=N
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=937637|AlignEnd=937816|GE=/|Gloss=PUNCT|nWord=8|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0827-0827
 # speaker_id = SP2
@@ -7755,11 +7771,11 @@
 # sent_timecode = 937816, 938733
 # phonetic_text = dai shiː kèː nan /
 # text = dai shiː kèː nan /
-# text_en =  Indeed, that's it.
+# text_en =  Indeed, that's it!
 1	dai	dai	PART	_	_	2	discourse	_	AlignBegin=937816|AlignEnd=937999|GE=indeed|Gloss=indeed|nWord=1|RX=PART.TOP
 2	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=937999|AlignEnd=938182|GE=3Masc|Gloss=3Masc.Nom|nWord=2|RX=PRO.IDP
 3	kèːnan	kèːnan	PART	_	_	2	comp:cleft	_	AlignBegin=938182|AlignEnd=938365|GE=Ident/Foc.Bkg|Gloss=Ident/Foc.Bkg|nWord=3|RX=PART.SYNT|wordform=kèː
-4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=938548|AlignEnd=938733|GE=/|Gloss=PUNCT|nWord=5|wordform=/
+4	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=938548|AlignEnd=938733|GE=/|Gloss=PUNCT|nWord=5|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0828-0828
 # speaker_id = SP1
@@ -7767,11 +7783,11 @@
 # sent_timecode = 938067, 938902
 # phonetic_text = koːmeː kakèː fàɗaː /
 # text = koːmeː kakèː fàɗaː /
-# text_en =  whatever you say.
-1	koːmeː	koːmeː	CCONJ	_	_	0	root	_	AlignBegin=938067|AlignEnd=938276|GE=anything|Gloss=anything|nWord=1|RX=PRO.INDF
+# text_en = Whatever you say.
+1	koːmeː	koːmeː	PRON	_	PronType=Ind	0	root	_	AlignBegin=938067|AlignEnd=938276|GE=whatever|Gloss=whatever|nWord=1|RX=PRO.INDF
 2	kakèː	kakèː	AUX	_	Aspect=Perf|Person=2	1	comp:cleft	_	AlignBegin=938276|AlignEnd=938485|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=2|RX=PNG.TAM
-3	fàɗaː	fàɗaː	NOUN	_	_	2	comp:aux	_	AlignBegin=938485|AlignEnd=938694|GE=say|Gloss=say|nWord=3|RX=V2
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=938694|AlignEnd=938902|GE=/|Gloss=PUNCT|nWord=4|wordform=/
+3	fàɗaː	faɗ-	NOUN	_	_	2	comp:aux	_	AlignBegin=938485|AlignEnd=938694|GE=say|Gloss=say|nWord=3|RX=V2
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=938694|AlignEnd=938902|GE=/|Gloss=PUNCT|nWord=4|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0829-0829
 # speaker_id = SP2
@@ -7781,7 +7797,7 @@
 # text = eː /
 # text_en =  Yes.
 1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=938733|AlignEnd=938903|GE=yes|Gloss=yes|nWord=1|RX=INTJ
-2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=938903|AlignEnd=939074|GE=/|Gloss=PUNCT|nWord=2|wordform=/
+2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=938903|AlignEnd=939074|GE=/|Gloss=PUNCT|nWord=2|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0830-0830
 # speaker_id = SP1
@@ -7809,31 +7825,30 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 940556, 944510
 # phonetic_text = gaudaː -ǹ maː / nân gàbaː ai zaːkà ji / wani / in ka yi mishì màganàː / bà zâi sanìː tà ba //
-# text = gaudân maː / nân gàbaː ai zaːkà ji / wani / in ka yi mishì màganàː / bà zâi san tà ba //
-# text_en =  As for "gauda" right now, you will hear somebody, if you talk to him, he will not know it.
-1	gaudaː-ǹ	gaudaː-ǹ	NOUN	_	_	19	mod	_	AlignBegin=940556|AlignEnd=940654|GE=cakes_sp.Def|Gloss=cakes_sp.Def|nWord=1|RX=N|wordform=gaudaː
+# text = gaudân maː < nân gàbaː ai zaːkà ji wani < in ka yi mishì màganàː < bà zâi san tà ba //
+# text_en =  As for "gauda", in the future, you will hear somebody, if you talk to him, he will not know it.
+1	gaudân	gaudaː	NOUN	_	_	7	mod	_	AlignBegin=940556|AlignEnd=940654|GE=cakes_sp.Def|Gloss=cakes_sp.Def|nWord=1|RX=N|wordform=gaudaː
 2	maː	maː	ADV	_	_	1	mod	_	AlignBegin=940751|AlignEnd=940946|GE=even|Gloss=even|nWord=2|RX=PART.TOP
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=940946|AlignEnd=941141|GE=/|Gloss=PUNCT|nWord=3|wordform=/
-4	nân	nân	AUX	_	Definite=Def	19	dislocated@subj	_	AlignBegin=941141|AlignEnd=941321|GE=Prox|Gloss=Prox|nWord=4|RX=ADV.DEICT
+4	nân	nân	AUX	_	Definite=Def	7	mod	_	AlignBegin=941141|AlignEnd=941321|GE=Prox|Gloss=Prox|nWord=4|RX=ADV.DEICT
 5	gàbaː	gàbaː	NOUN	_	_	4	comp:obj	_	AlignBegin=941321|AlignEnd=941501|GE=front|Gloss=front|nWord=5|RX=N
-6	ai	ai	PART	_	_	5	discourse	_	AlignBegin=941501|AlignEnd=941681|GE=indeed|Gloss=indeed|nWord=6|RX=EXCL
-7	zaːkà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	19	parataxis@discourse	_	AlignBegin=941681|AlignEnd=941861|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=7|RX=TAM.PNG
+6	ai	ai	PART	_	_	4	discourse	_	AlignBegin=941501|AlignEnd=941681|GE=indeed|Gloss=indeed|nWord=6|RX=EXCL
+7	zaːkà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=941681|AlignEnd=941861|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=7|RX=TAM.PNG
 8	ji	ji	VERB	_	_	7	comp:aux	_	AlignBegin=941861|AlignEnd=942041|GE=hear|Gloss=hear|nWord=8|RX=V0
-9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=942041|AlignEnd=942221|GE=/|Gloss=PUNCT|nWord=9|wordform=/
-10	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	19	dislocated@subj	_	AlignBegin=942875|AlignEnd=942997|GE=some.M|Gloss=some.Masc|nWord=10|RX=PRO.INDF
-11	<	<	PUNCT	_	_	10	punct	_	AlignBegin=942997|AlignEnd=943119|GE=/|Gloss=PUNCT|nWord=11|wordform=/
-12	in	in	SCONJ	_	_	19	mod	_	AlignBegin=943119|AlignEnd=943247|GE=if|Gloss=if|nWord=12|RX=CONJ
-13	ka	ka	AUX	_	Aspect=Perf|Person=2	12	comp:obj	_	AlignBegin=943247|AlignEnd=943375|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=13|RX=PNG.TAM
-14	yi	yi	VERB	_	_	13	comp:aux	_	AlignBegin=943375|AlignEnd=943503|GE=do|Gloss=do|nWord=14|RX=V0
-15	mishì	mishì	PRON	_	Person=3	14	comp:ben	_	AlignBegin=943503|AlignEnd=943631|GE=3Masc|Gloss=3Masc.Dat|nWord=15|RX=PRO.BEN
-16	màganàː	màganàː	NOUN	_	_	14	comp:obj@lvc	_	AlignBegin=943631|AlignEnd=943759|GE=speech|Gloss=speech|nWord=16|RX=N
-17	<	<	PUNCT	_	_	12	punct	_	AlignBegin=943759|AlignEnd=943889|GE=/|Gloss=PUNCT|nWord=17|wordform=/
-18	bà	bà	PART	_	Polarity=Neg	19	mod	_	AlignBegin=943889|AlignEnd=943993|GE=Neg|Gloss=Neg|nWord=18|RX=PART.Neg
-19	zâi	zaː	AUX	_	Person=3|Tense=Fut	0	root	_	AlignBegin=943993|AlignEnd=944097|GE=Fut.3Masc|Gloss=3Masc.Fut|nWord=19|RX=TAM.PNG
-20	sanìː	sanìː	VERB	_	_	19	comp:aux	_	AlignBegin=944097|AlignEnd=944201|GE=know|Gloss=know|nWord=20|RX=V*
-21	tà	tà	PRON	_	Person=3	20	comp:obj	_	AlignBegin=944201|AlignEnd=944305|GE=3Fem|Gloss=3Fem|nWord=21|RX=PRO.OBJ
-22	ba	ba	PART	_	Polarity=Neg	19	mod	_	AlignBegin=944305|AlignEnd=944409|GE=Neg|Gloss=Neg|nWord=22|RX=PART.Neg
-23	//	//	PUNCT	_	_	19	punct	_	AlignBegin=944409|AlignEnd=944510|GE=//|Gloss=PUNCT|nWord=23
+9	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	18	dislocated@subj	_	AlignBegin=942875|AlignEnd=942997|GE=some.M|Gloss=some.Masc|nWord=10|RX=PRO.INDF
+10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=942997|AlignEnd=943119|GE=/|Gloss=PUNCT|nWord=11|wordform=/
+11	in	in	SCONJ	_	_	18	mod	_	AlignBegin=943119|AlignEnd=943247|GE=if|Gloss=if|nWord=12|RX=CONJ
+12	ka	ka	AUX	_	Aspect=Perf|Person=2	11	comp:obj	_	AlignBegin=943247|AlignEnd=943375|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=13|RX=PNG.TAM
+13	yi	yi	VERB	_	_	12	comp:aux	_	AlignBegin=943375|AlignEnd=943503|GE=do|Gloss=do|nWord=14|RX=V0
+14	mishì	mishì	PRON	_	Person=3	13	comp:ben	_	AlignBegin=943503|AlignEnd=943631|GE=3Masc|Gloss=3Masc.Dat|nWord=15|RX=PRO.BEN
+15	màganàː	màganàː	NOUN	_	_	13	comp:obj@lvc	_	AlignBegin=943631|AlignEnd=943759|GE=speech|Gloss=speech|nWord=16|RX=N
+16	<	<	PUNCT	_	_	11	punct	_	AlignBegin=943759|AlignEnd=943889|GE=/|Gloss=PUNCT|nWord=17|wordform=/
+17	bà	bà	PART	_	Polarity=Neg	18	mod	_	AlignBegin=943889|AlignEnd=943993|GE=Neg|Gloss=Neg|nWord=18|RX=PART.Neg
+18	zâi	zaː	AUX	_	Person=3|Tense=Fut	8	comp:obj	_	AlignBegin=943993|AlignEnd=944097|GE=Fut.3Masc|Gloss=3Masc.Fut|nWord=19|RX=TAM.PNG
+19	san	sanìː	VERB	_	_	18	comp:aux	_	AlignBegin=944097|AlignEnd=944201|GE=know|Gloss=know|nWord=20|RX=V*
+20	tà	tà	PRON	_	Person=3	19	comp:obj	_	AlignBegin=944201|AlignEnd=944305|GE=3Fem|Gloss=3Fem|nWord=21|RX=PRO.OBJ
+21	ba	ba	PART	_	Polarity=Neg	18	mod	_	AlignBegin=944305|AlignEnd=944409|GE=Neg|Gloss=Neg|nWord=22|RX=PART.Neg
+22	//	//	PUNCT	_	_	7	punct	_	AlignBegin=944409|AlignEnd=944510|GE=//|Gloss=PUNCT|nWord=23
 
 # sent_id = HAUZ_BC_CONV_04_0837-0837
 # speaker_id = SP1
@@ -7850,22 +7865,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 945342, 948276
 # phonetic_text = gwandàː -n daːjìː / kaː tunàː mîn dà wani àbù / wai gwandàː -n daːjìː //
-# text = gwandàn daːjìː / kaː tunàː mîn dà wani àbù / wai gwandàn daːjìː //
+# text = gwandàn daːjìː < kaː tunàː mîn dà wani àbù wai gwandàn daːjìː //
 # text_en =  Custard-apple, you remind me of something called custard apple.
-1	gwandàː-n	gwandàː	NOUN	_	Definite=Cons	12	mod	_	AlignBegin=945342|AlignEnd=945478|GE=pawpaw.Cons|Gloss=pawpaw.Cons|nWord=1|RX=N|wordform=gwandàː
+1	gwandàn	gwandàː	NOUN	_	Definite=Cons	4	dislocated@top	_	AlignBegin=945342|AlignEnd=945478|GE=pawpaw.Cons|Gloss=pawpaw.Cons|nWord=1|RX=N|wordform=gwandàː
 2	daːjìː	daːjìː	NOUN	_	_	1	mod	_	AlignBegin=945615|AlignEnd=945888|GE=bush|Gloss=bush|nWord=2|RX=N
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=945888|AlignEnd=946162|GE=/|Gloss=PUNCT|nWord=3|wordform=/
-4	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	12	parataxis@discourse	_	AlignBegin=946435|AlignEnd=946572|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=4|RX=PNG.TAM
-5	tunàː	-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=946572|AlignEnd=946709|GE=remember|Gloss=remember|nWord=5|RX=V1
+4	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=946435|AlignEnd=946572|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=4|RX=PNG.TAM
+5	tunàː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=946572|AlignEnd=946709|GE=remember|Gloss=remember|nWord=5|RX=V1
 6	mîn	mîn	PRON	_	Number=Sing|Person=1	5	comp:ben	_	AlignBegin=946709|AlignEnd=946846|GE=1Sing|Gloss=1Sing.Dat|nWord=6|RX=PRO.BEN
 7	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=946846|AlignEnd=946983|GE=with|Gloss=with|nWord=7|RX=PREP/HOM
 8	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	9	det	_	AlignBegin=946983|AlignEnd=947120|GE=some.M|Gloss=some.Masc|nWord=8|RX=DET.INDF
 9	àbù	àbù	NOUN	_	_	7	comp:obj	_	AlignBegin=947120|AlignEnd=947257|GE=thing|Gloss=thing|nWord=9|RX=N
-10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=947257|AlignEnd=947392|GE=/|Gloss=PUNCT|nWord=10|wordform=/
-11	wai	wai	PART	_	_	12	mod	_	AlignBegin=947392|AlignEnd=947613|GE=EVD|Gloss=EVD|nWord=11|RX=PART
-12	gwandàː-n	gwandàː	NOUN	_	Definite=Def	0	root	_	AlignBegin=947613|AlignEnd=947723|GE=pawpaw.Cons|Gloss=pawpaw.Cons|nWord=12|RX=N|wordform=gwandàː
-13	daːjìː	daːjìː	NOUN	_	_	12	mod	_	AlignBegin=947834|AlignEnd=948055|GE=bush|Gloss=bush|nWord=13|RX=N
-14	//	//	PUNCT	_	_	12	punct	_	AlignBegin=948055|AlignEnd=948276|GE=//|Gloss=PUNCT|nWord=14
+10	wai	wai	PART	_	_	9	mod	_	AlignBegin=947392|AlignEnd=947613|GE=EVD|Gloss=EVD|nWord=11|RX=PART
+11	gwandàn	gwandàː	NOUN	_	Definite=Def	10	comp:pred	_	AlignBegin=947613|AlignEnd=947723|GE=pawpaw.Cons|Gloss=pawpaw.Cons|nWord=12|RX=N|wordform=gwandàː
+12	daːjìː	daːjìː	NOUN	_	_	11	mod	_	AlignBegin=947834|AlignEnd=948055|GE=bush|Gloss=bush|nWord=13|RX=N
+13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=948055|AlignEnd=948276|GE=//|Gloss=PUNCT|nWord=14
 
 # sent_id = HAUZ_BC_CONV_04_0841-0841
 # speaker_id = SP2
@@ -7885,7 +7899,7 @@
 # text = gàː zaːƙiː //
 # text_en =  That's really sweet!
 1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=948988|AlignEnd=949295|GE=here_is|Gloss=here_is|nWord=1|RX=PART.SYNT
-2	zaːƙiː	zaːƙiː	NOUN	_	_	1	comp:cleft	_	AlignBegin=949295|AlignEnd=949602|GE=sweetness|Gloss=sweetness|nWord=2|RX=N
+2	zaːƙiː	zaːƙiː	NOUN	_	_	1	subj	_	AlignBegin=949295|AlignEnd=949602|GE=sweetness|Gloss=sweetness|nWord=2|RX=N
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=949602|AlignEnd=949909|GE=//|Gloss=PUNCT|nWord=3
 
 # sent_id = HAUZ_BC_CONV_04_0843-0844
@@ -7893,12 +7907,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 949909, 950816
 # phonetic_text = gàː &// gàː àbù -ǹ nan //
-# text = gàː &// gàː àbîn nan //
+# text = gàː || gàː àbîn nan //
 # text_en =  That's... that's what d'you call it?
 1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=949909|AlignEnd=950124|GE=here_is|Gloss=here_is|nWord=1|RX=PART.SYNT
-2	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=950124|AlignEnd=950339|GE=&//|Gloss=PUNCT|nWord=2
-3	gàː	gàː	AUX	_	_	1	conj:coord	_	AlignBegin=950339|AlignEnd=950458|GE=here_is|Gloss=here_is|nWord=3|RX=PART.SYNT
-4	àbù-ǹ	àbù-ǹ	NOUN	_	Definite=Def	3	comp:aux	_	AlignBegin=950458|AlignEnd=950518|GE=thing.Def|Gloss=thing.Def|nWord=4|RX=N|wordform=àbù
+2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=950124|AlignEnd=950339|GE=&//|Gloss=PUNCT|nWord=2
+3	gàː	gàː	PART	_	_	1	conj:coord	_	AlignBegin=950339|AlignEnd=950458|GE=here_is|Gloss=here_is|nWord=3|RX=PART.SYNT
+4	àbîn	àbù	NOUN	_	Definite=Def	3	subj:aux	_	AlignBegin=950458|AlignEnd=950518|GE=thing.Def|Gloss=thing.Def|nWord=4|RX=N|wordform=àbù
 5	nan	nan	DET	_	Definite=Def	4	det	_	AlignBegin=950577|AlignEnd=950696|GE=Def|Gloss=Def|nWord=5|RX=ADV.DEICT
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=950696|AlignEnd=950816|GE=//|Gloss=PUNCT|nWord=6
 
@@ -7928,10 +7942,10 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 951612, 952460
 # phonetic_text = sùbhaːnÀllaːhì //
-# text = suːbàhanàː //
+# text = suːbàhanàː !//
 # text_en =  Good heavens!
-1	sùbhaːnÀllaːhì	sùbhaːnàllaràː	NOUN	_	Number=Plur	0	root	_	AlignBegin=951612|AlignEnd=952036|GE=good_gracious|Gloss=good_gracious|nWord=1|RX=EXCL
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=952036|AlignEnd=952460|GE=//|Gloss=PUNCT|nWord=2
+1	sùbhaːnÀllaːhì	sùbhaːnàllaràː	INTJ	_	Number=Plur	0	root	_	AlignBegin=951612|AlignEnd=952036|GE=good_gracious|Gloss=good_gracious|nWord=1|RX=EXCL
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=952036|AlignEnd=952460|GE=//|Gloss=PUNCT|nWord=2
 
 # sent_id = HAUZ_BC_CONV_04_0848-0848
 # speaker_id = SP1
@@ -7953,10 +7967,10 @@
 # text_en =  They are there, all of them.
 1	yanàː	nàː²	AUX	_	Person=3	0	root	_	AlignBegin=953935|AlignEnd=954169|GE=3Masc.Imp|Gloss=3Masc.Imp|nWord=1|RX=PNG.TAM
 2	nan	nan	ADV	_	Definite=Def	1	comp:pred	_	AlignBegin=954169|AlignEnd=954403|GE=Def|Gloss=Def|nWord=2|RX=ADV.DEICT
-3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=954403|AlignEnd=954637|GE=/|Gloss=PUNCT|nWord=3|wordform=/
-4	dukà	dukà	PRON	_	Foreign=Yes	1	dislocated@comp	_	AlignBegin=954637|AlignEnd=954759|GE=all|Gloss=all|nWord=4|RX=ADJ
-5	dà	dà	ADP	_	_	4	mod	_	AlignBegin=954759|AlignEnd=954881|GE=with|Gloss=with|nWord=5|RX=PREP/HOM
-6	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=954881|AlignEnd=955003|GE=3Plur|Gloss=3Plur.Nom|nWord=6|RX=PRO.IDP
+3	>	>	PUNCT	_	_	1	punct	_	AlignBegin=954403|AlignEnd=954637|GE=/|Gloss=PUNCT|nWord=3|wordform=/
+4	dud	dukà	PRON	_	_	1	dislocated@subj	_	AlignBegin=954637|AlignEnd=954759|GE=all|Gloss=all|nWord=4|RX=ADJ
+5	dà	dà	CCONJ	_	_	6	cc	_	AlignBegin=954759|AlignEnd=954881|GE=with|Gloss=with|nWord=5|RX=PREP/HOM
+6	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	conj:coord	_	AlignBegin=954881|AlignEnd=955003|GE=3Plur|Gloss=3Plur.Nom|nWord=6|RX=PRO.IDP
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=955003|AlignEnd=955123|GE=//|Gloss=PUNCT|nWord=7
 
 # sent_id = HAUZ_BC_CONV_04_0851-0851
@@ -7966,23 +7980,23 @@
 # phonetic_text = kâi naː kwaːna biyu //
 # text = kâi naː kwaːna biyu //
 # text_en =  Wow, it's been a long time!
-1	kâi	kâi	PART	_	_	2	discourse	_	AlignBegin=955824|AlignEnd=956023|GE=my|Gloss=my|nWord=1|RX=EXCL
+1	kâi	kâi	INTJ	_	_	2	discourse	_	AlignBegin=955824|AlignEnd=956023|GE=my|Gloss=my|nWord=1|RX=EXCL
 2	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=956023|AlignEnd=956222|GE=1Sing.Perf|Gloss=1Sing.Perf|nWord=2|RX=PNG.TAM
-3	kwaːna	kwaːna	PRON	_	_	2	comp:pred	_	AlignBegin=956222|AlignEnd=956421|GE=spend_night|Gloss=spend_night|nWord=3|RX=V3
+3	kwaːna	kwaːn-	VERB	_	_	2	comp:aux	_	AlignBegin=956222|AlignEnd=956421|GE=spend_night|Gloss=spend_night|nWord=3|RX=V3
 4	biyu	biyu	NUM	_	_	3	mod	_	AlignBegin=956421|AlignEnd=956620|GE=two|Gloss=two|nWord=4|RX=NUM
-5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=956620|AlignEnd=956818|GE=//|Gloss=PUNCT|nWord=5
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=956620|AlignEnd=956818|GE=//|Gloss=PUNCT|nWord=5
 
 # sent_id = HAUZ_BC_CONV_04_0852-0852
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 956443, 957915
 # phonetic_text = àmmaː wajen dà sukèː dà shiː fa //
-# text = àmmaː wajen dà sukèː dà shiː fa //
+# text = àmmaː wajen dà sukè dà shiː fa //
 # text_en =  But there is a place where they have them.
 1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	2	discourse	_	AlignBegin=956443|AlignEnd=956627|GE=but|Gloss=but|nWord=1|RX=CONJ
 2	wajen	wajen	ADP	_	_	0	root	_	AlignBegin=956627|AlignEnd=956811|GE=around|Gloss=around|nWord=2|RX=PREP
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=956811|AlignEnd=956995|GE=COMP|Gloss=COMP|nWord=3|RX=PART.SYNT/HOM
-4	sukèː	kèː	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	3	comp:obj	_	AlignBegin=956995|AlignEnd=957179|GE=3Plur.Imp.Bkg|Gloss=3Plur.Imp.Bkg|nWord=4|RX=PNG.TAM
+4	sukè	kè	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	3	comp:obj	_	AlignBegin=956995|AlignEnd=957179|GE=3Plur.Pred/Loc.Bkg|Gloss=3Plur.Pred/Loc.Bkg|nWord=4|RX=PNG.TAM
 5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=957179|AlignEnd=957363|GE=with|Gloss=with|nWord=5|RX=PREP/HOM
 6	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=957363|AlignEnd=957547|GE=3Masc|Gloss=3Masc.Nom|nWord=6|RX=PRO.IDP
 7	fa	fa	PART	_	_	2	mod	_	AlignBegin=957547|AlignEnd=957731|GE=indeed|Gloss=indeed|nWord=7|RX=PART.TOP
@@ -8004,13 +8018,13 @@
 # sent_timecode = 958969, 960492
 # phonetic_text = ràːfiː -n Basaːwa kèː nan / Àugànan //
 # text = ràːfin Basaːwa kèː nan / Àugànan //
-# text_en =  That's the valley of the Basawa, Auganan.
-1	ràːfiː-n	ràːfiː	NOUN	_	Definite=Cons	5	subj	_	AlignBegin=958969|AlignEnd=959071|GE=river.Cons|Gloss=river.Cons|nWord=1|RX=N|wordform=ràːfiː
+# text_en = It's the valley of the Basawa, Auganan.
+1	ràːfin	ràːfiː	NOUN	_	Definite=Cons	3	comp:pred	_	AlignBegin=958969|AlignEnd=959071|GE=river.Cons|Gloss=river.Cons|nWord=1|RX=N|wordform=ràːfiː
 2	Basaːwa	Basaːwa	PROPN	_	_	1	flat:name	_	AlignBegin=959172|AlignEnd=959375|GE=Basawa|Gloss=Basawa|nWord=2|RX=N.P
-3	kèːnan	kèːnan	PART	_	_	1	mod@emp	_	AlignBegin=959375|AlignEnd=959578|GE=Ident/Foc.Bkg|Gloss=Ident/Foc.Bkg|nWord=3|RX=PART.SYNT|wordform=kèː
-4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=959781|AlignEnd=959984|GE=/|Gloss=PUNCT|nWord=5|wordform=/
-5	Àugànan	Àugànan	PROPN	_	_	0	root	_	AlignBegin=959984|AlignEnd=960238|GE=Àugànan|Gloss=Àugànan|nWord=6|RX=N.P
-6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=960238|AlignEnd=960492|GE=//|Gloss=PUNCT|nWord=7
+3	kèːnan	kèːnan	PART	_	_	0	root	_	AlignBegin=959375|AlignEnd=959578|GE=Ident/Foc.Bkg|Gloss=Ident/Foc.Bkg|nWord=3|RX=PART.SYNT|wordform=kèː
+4	>	>	PUNCT	_	_	3	punct	_	AlignBegin=959781|AlignEnd=959984|GE=/|Gloss=PUNCT|nWord=5|wordform=/
+5	Àugànan	Àugànan	PROPN	_	_	3	dislocated@subj	_	AlignBegin=959984|AlignEnd=960238|GE=Àugànan|Gloss=Àugànan|nWord=6|RX=N.P
+6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=960238|AlignEnd=960492|GE=//|Gloss=PUNCT|nWord=7
 
 # sent_id = HAUZ_BC_CONV_04_0856-0856
 # speaker_id = SP1
@@ -8018,8 +8032,8 @@
 # sent_timecode = 961377, 962325
 # phonetic_text = suːnaː -n wani wuriː //
 # text = suːnan wani wuriː //
-# text_en =  The name of a place.
-1	suːnaː-n	suːnaː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=961377|AlignEnd=961495|GE=name.Cons|Gloss=name.Cons|nWord=1|RX=N|wordform=suːnaː
+# text_en = It's the name of a place.
+1	suːnan	suːnaː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=961377|AlignEnd=961495|GE=name.Cons|Gloss=name.Cons|nWord=1|RX=N|wordform=suːnaː
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	3	det	_	AlignBegin=961614|AlignEnd=961851|GE=some.M|Gloss=some.Masc|nWord=2|RX=DET.INDF
 3	wuriː	wuriː	NOUN	_	_	1	mod	_	AlignBegin=961851|AlignEnd=962088|GE=place|Gloss=place|nWord=3|RX=N
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=962088|AlignEnd=962325|GE=//|Gloss=PUNCT|nWord=4
@@ -8029,27 +8043,27 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 962325, 968560
 # phonetic_text = tòː kà duːbàː dai dâː loːkàciː -n dà akèː noːmaː -n tùmaːtùr̃ dai / à wuriː -ǹ nan / à wuriː -n Koːwaː Sùtôː //
-# text = tòː kà duːbà dai dâː loːkàcin dà akèː noːman tùmaːtùr̃ dai / à wurîn nan / à wurin Koːwaː Sùtôː //
-# text_en =  Well you see, when they were growing pototatoes, in that place at Kowa Suto's place.
+# text = tòː kà duːbà dai dâː loːkàcin dà akèː noːman tùmaːtùr̃ dai > à wurîn nan || à wurin Koːwaː Sùtôː //
+# text_en =  Well, remember when they were growing pototatoes, in that place at Kowa Suto's place.
 1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=962325|AlignEnd=962568|GE=well|Gloss=well|nWord=1|RX=DM
 2	kà	à	AUX	_	Aspect=Aor|Person=2	0	root	_	AlignBegin=962568|AlignEnd=962811|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=2|RX=PNG.TAM
-3	duːbàː	duːb-	VERB	_	_	2	comp:aux	_	AlignBegin=962811|AlignEnd=963054|GE=look̠_at|Gloss=look̠_at|nWord=3|RX=V1
-4	dai	dai	ADV	_	_	2	mod	_	AlignBegin=963054|AlignEnd=963297|GE=indeed|Gloss=indeed|nWord=4|RX=PART.TOP
-5	dâː	dâː	ADV	_	_	3	mod	_	AlignBegin=963297|AlignEnd=963540|GE=formerly|Gloss=formerly|nWord=5|RX=ADV
-6	loːkàciː-n	loːkàciːiː	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=963540|AlignEnd=963662|GE=time.Cons|Gloss=time.Cons|nWord=6|RX=N|wordform=loːkàciː
+3	duːbà	duːb-	VERB	_	_	2	comp:aux	_	AlignBegin=962811|AlignEnd=963054|GE=look̠_at|Gloss=look̠_at|nWord=3|RX=V1
+4	dai	dai	PART	_	_	3	mod	_	AlignBegin=963054|AlignEnd=963297|GE=indeed|Gloss=indeed|nWord=4|RX=PART.TOP
+5	dâː	dâː	ADV	_	_	3	comp:obj	_	AlignBegin=963297|AlignEnd=963540|GE=formerly|Gloss=formerly|nWord=5|RX=ADV
+6	loːkàcin	loːkàciː	NOUN	_	Definite=Cons	5	conj:dicto	_	AlignBegin=963540|AlignEnd=963662|GE=time.Cons|Gloss=time.Cons|nWord=6|RX=N|wordform=loːkàciː
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=963783|AlignEnd=964026|GE=COMP|Gloss=COMP|nWord=7|RX=PART.SYNT/HOM
 8	akèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|Person=4	7	comp:obj	_	AlignBegin=964026|AlignEnd=964269|GE=4.Imp.Bkg|Gloss=4.Imp.Bkg|nWord=8|RX=PNG.TAM
-9	noːmaː-n	noːmaː-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	8	comp:aux	_	AlignBegin=964269|AlignEnd=964391|GE=farming.Cons|Gloss=farming.Cons|nWord=9|RX=N|wordform=noːmaː
-10	tùmaːtùr̃	tùmaːtùr̃	NOUN	_	_	9	mod	_	AlignBegin=964512|AlignEnd=964755|GE=tomato|Gloss=tomato|nWord=10|RX=N
-11	dai	dai	PART	_	_	6	mod	_	AlignBegin=964755|AlignEnd=964998|GE=indeed|Gloss=indeed|nWord=11|RX=PART.TOP
-12	<	<	PUNCT	_	_	13	punct	_	AlignBegin=964998|AlignEnd=965239|GE=/|Gloss=PUNCT|nWord=12|wordform=/
-13	à	à	ADP	_	_	17	mod	_	AlignBegin=965239|AlignEnd=965443|GE=at|Gloss=at|nWord=13|RX=PREP
-14	wuriː-ǹ	wuriː-ǹ	NOUN	_	Definite=Def	13	comp:obj	_	AlignBegin=965443|AlignEnd=965545|GE=place.Def|Gloss=place.Def|nWord=14|RX=N|wordform=wuriː
+9	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	8	comp:aux	_	AlignBegin=964269|AlignEnd=964391|GE=farming.Cons|Gloss=farm.Vnoun.Cons|nWord=9|RX=N|wordform=noːmaː
+10	tùmaːtùr̃	tùmaːtùr̃	NOUN	_	_	9	udep	_	AlignBegin=964512|AlignEnd=964755|GE=tomato|Gloss=tomato|nWord=10|RX=N
+11	dai	dai	PART	_	_	9	mod	_	AlignBegin=964755|AlignEnd=964998|GE=indeed|Gloss=indeed|nWord=11|RX=PART.TOP
+12	>	>	PUNCT	_	_	13	punct	_	AlignBegin=964998|AlignEnd=965239|GE=/|Gloss=PUNCT|nWord=12|wordform=/
+13	à	à	ADP	_	_	9	mod	_	AlignBegin=965239|AlignEnd=965443|GE=at|Gloss=at|nWord=13|RX=PREP
+14	wurîn	wuriː	NOUN	_	Definite=Def	13	comp:obj	_	AlignBegin=965443|AlignEnd=965545|GE=place.Def|Gloss=place.Def|nWord=14|RX=N|wordform=wuriː
 15	nan	nan	ADV	_	Definite=Def	14	det	_	AlignBegin=965647|AlignEnd=965851|GE=Def|Gloss=Def|nWord=15|RX=ADV.DEICT
-16	<	<	PUNCT	_	_	13	punct	_	AlignBegin=965851|AlignEnd=966057|GE=/|Gloss=PUNCT|nWord=16|wordform=/
-17	à	à	ADP	_	_	5	comp:obj@relcl	_	AlignBegin=967605|AlignEnd=967796|GE=at|Gloss=at|nWord=17|RX=PREP
-18	wuriː-n	wuriː	NOUN	_	Definite=Cons	17	comp:obj	_	AlignBegin=967796|AlignEnd=967892|GE=place.Cons|Gloss=place.Cons|nWord=18|RX=N|wordform=wuriː
-19	Koːwaː	Koːwaː	PROPN	_	_	18	mod	_	AlignBegin=967987|AlignEnd=968178|GE=Kowa|Gloss=Kowa|nWord=19|RX=N.P
+16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=965851|AlignEnd=966057|GE=/|Gloss=PUNCT|nWord=16|wordform=/
+17	à	à	ADP	_	_	13	conj:dicto	_	AlignBegin=967605|AlignEnd=967796|GE=at|Gloss=at|nWord=17|RX=PREP
+18	wurin	wurin	ADP	_	Definite=Cons	17	compound	_	AlignBegin=967796|AlignEnd=967892|GE=at|Gloss=at|nWord=18|RX=N|wordform=wuriː
+19	Koːwaː	Koːwaː	PROPN	_	_	17	comp:obj	_	AlignBegin=967987|AlignEnd=968178|GE=Kowa|Gloss=Kowa|nWord=19|RX=N.P
 20	Sùtôː	Sùtôː	PROPN	_	_	19	flat:name	_	AlignBegin=968178|AlignEnd=968369|GE=Suto|Gloss=Suto|nWord=20|RX=N.P
 21	//	//	PUNCT	_	_	2	punct	_	AlignBegin=968369|AlignEnd=968560|GE=//|Gloss=PUNCT|nWord=21
 
