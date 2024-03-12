@@ -7289,9 +7289,12 @@
 # phonetic_text = ɗaya -ǹ dai /
 # text = ɗayân dai / ɗan mùlmùlalleː /
 # text_en = This one indeed.
-1	ɗayân	ɗaya	NUM	_	Foreign=Yes	0	root	_	AlignBegin=888477|AlignEnd=888597|GE=one.Def|Gloss=one.Def|nWord=1|RX=NUM|wordform=ɗaya
+1	ɗayân	ɗaya	NUM	_	_	0	root	_	AlignBegin=888477|AlignEnd=888597|GE=one.Def|Gloss=one.Def|nWord=1|RX=NUM|wordform=ɗaya
 2	dai	dai	PART	_	_	1	mod	_	AlignBegin=888717|AlignEnd=888957|GE=indeed|Gloss=indeed|nWord=2|RX=PART.TOP
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=888957|AlignEnd=889196|GE=/|Gloss=PUNCT|nWord=3|wordform=/
+3	//+	//+	PUNCT	_	_	0	_	_	AlignBegin=888717|AlignEnd=888957|Gloss=PUNCT
+4	ɗan	ɗaː	ADJ	_	_	0	_	_	AlignBegin=888717|AlignEnd=888957|Gloss=son.Cons
+5	mùlmùlalleː	mùlmùlalleː	ADJ	_	_	0	_	_	AlignBegin=888717|AlignEnd=889974|Gloss=round
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=889974|AlignEnd=889974|GE=/|Gloss=PUNCT|nWord=3|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0778-0778
 # speaker_id = SP2
