@@ -412,11 +412,11 @@
 # text_en = She said whe should go, and you will go?
 1	taː	yaː	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=49841|AlignEnd=50004|GE=3Fem.Perf|Gloss=3Fem.Perf|nWord=1|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=50004|AlignEnd=50167|GE=say|Gloss=say|nWord=2|RX=V*
-3	à	à	ADP	_	Aspect=Aor|Person=4	2	comp:obj	_	AlignBegin=50167|AlignEnd=50330|GE=4.Aor|Gloss=4.Aor|nWord=3|RX=PNG.TAM
-4	zoː	zoː	VERB	_	_	3	comp:obj	_	AlignBegin=50330|AlignEnd=50493|GE=come|Gloss=come|nWord=4|RX=V0
+3	à	à	AUX	_	Aspect=Aor|Person=4	2	comp:obj	_	AlignBegin=50167|AlignEnd=50330|GE=4.Aor|Gloss=4.Aor|nWord=3|RX=PNG.TAM
+4	zoː	zoː	VERB	_	_	3	comp:aux	_	AlignBegin=50330|AlignEnd=50493|GE=come|Gloss=come|nWord=4|RX=V0
 5	//=	//=	VERB	_	_	7	comp:obj	_	AlignBegin=50330|AlignEnd=50493|GE=come|Gloss=PUNCT|nWord=4|RX=V0
-6	keː	keː	PART	_	Person=2	7	dislocated@subj	_	AlignBegin=50493|AlignEnd=50656|GE=2Fem|Gloss=2Fem.Nom|nWord=5|RX=PRO.IDP
-7	zaːkì	zaː	PRON	_	Person=2|Tense=Fut	1	parataxis@conj	_	AlignBegin=50656|AlignEnd=50819|GE=zaː|Gloss=2Fem.Fut|nWord=6|RX=FILL
+6	keː	keː	PRON	_	Person=2	7	vocative	_	AlignBegin=50493|AlignEnd=50656|GE=2Fem|Gloss=2Fem.Nom|nWord=5|RX=PRO.IDP
+7	zaːkì	zaː	AUX	_	Person=2|Tense=Fut	1	parataxis@conj	_	AlignBegin=50656|AlignEnd=50819|GE=zaː|Gloss=2Fem.Fut|nWord=6|RX=FILL
 8	zoː	zoː	VERB	_	_	7	comp:aux	_	AlignBegin=50982|AlignEnd=51145|GE=come|Gloss=come|nWord=8|RX=V0
 9	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=51145|AlignEnd=51312|GE=//|Gloss=PUNCT|nWord=9
 
@@ -835,7 +835,7 @@
 # text_en = He said he will continue with our lesson.
 1	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	comp:cleft	_	AlignBegin=106860|AlignEnd=107046|GE=3Masc.Perf.Blg|Gloss=3Masc.Perf.Bkg|nWord=16|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=107046|AlignEnd=107232|GE=say|Gloss=say|nWord=17|RX=V*
-3	zâi	zaː	VERB	_	Person=3|Tense=Fut	2	comp:obj	_	AlignBegin=107232|AlignEnd=107418|GE=Fut.3Masc|Gloss=3Masc.Fut|nWord=18|RX=TAM.PNG
+3	zâi	zaː	AUX	_	Person=3|Tense=Fut	2	comp:obj	_	AlignBegin=107232|AlignEnd=107418|GE=Fut.3Masc|Gloss=3Masc.Fut|nWord=18|RX=TAM.PNG
 4	ci	ci	VERB	_	ExtPos=VERB	3	comp:aux	_	AlignBegin=107418|AlignEnd=107604|GE=eat|Gloss=eat|Idiom=Yes|nWord=19|RX=V0
 5	gàba	gàba	ADV	_	_	4	mod	_	AlignBegin=107604|AlignEnd=107790|GE=up_front|Gloss=up_front|InIdiom=Yes|nWord=20|RX=ADV
 6	manà	manà	PRON	_	Number=Plur|Person=1	4	comp:ben	_	AlignBegin=107790|AlignEnd=107976|GE=1Plur|Gloss=1Plur.Dat|nWord=21|RX=PRO.BEN
@@ -1075,8 +1075,8 @@
 # text_en =  Or won't he forgive me?
 1	koː	koː	CCONJ	_	_	3	discourse	_	AlignBegin=135196|AlignEnd=135347|GE=or|Gloss=or|nWord=1|RX=CONJ
 2	bà	bà	PART	_	Polarity=Neg	3	mod	_	AlignBegin=135347|AlignEnd=135498|GE=Neg|Gloss=Neg|nWord=2|RX=PART.Neg
-3	zâi	zaː	VERB	_	Person=3|Tense=Fut	0	root	_	AlignBegin=135498|AlignEnd=135649|GE=Fut.3Masc|Gloss=3Masc.Fut|nWord=3|RX=TAM.PNG
-4	hàƙurà	hàƙurà	NOUN	_	_	3	mod	_	AlignBegin=135649|AlignEnd=135800|GE=be_patient|Gloss=be_patient|nWord=4|RX=V3
+3	zâi	zaː	AUX	_	Person=3|Tense=Fut	0	root	_	AlignBegin=135498|AlignEnd=135649|GE=Fut.3Masc|Gloss=3Masc.Fut|nWord=3|RX=TAM.PNG
+4	hàƙurà	haƙur-	NOUN	_	_	3	comp:aux	_	AlignBegin=135649|AlignEnd=135800|GE=be_patient|Gloss=be_patient|nWord=4|RX=V3
 5	ba	ba	PART	_	Polarity=Neg	3	mod	_	AlignBegin=135800|AlignEnd=135951|GE=Neg|Gloss=Neg|nWord=5|RX=PART.Neg
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=135951|AlignEnd=136103|GE=//|Gloss=PUNCT|nWord=6
 
@@ -1279,8 +1279,8 @@
 # phonetic_text = bàkì kàllaː ba ?//
 # text = bàkì kàllaː ba ?//
 # text_en =  Didn't you watch it?
-1	bàkì	bài	PART	_	Aspect=Perf|Person=2	0	root	_	AlignBegin=167820|AlignEnd=168006|GE=Neg.2Fem.Perf|Gloss=2Fem.Perf.Neg|nWord=1|RX=PART.Neg.PNG.TAM
-2	kàllaː	kàllaː	VERB	_	_	1	comp:obj	_	AlignBegin=168006|AlignEnd=168192|GE=watch|Gloss=watch|nWord=2|RX=V2
+1	bàkì	bài	AUX	_	Aspect=Perf|Person=2	0	root	_	AlignBegin=167820|AlignEnd=168006|GE=Neg.2Fem.Perf|Gloss=2Fem.Perf.Neg|nWord=1|RX=PART.Neg.PNG.TAM
+2	kàllaː	kall-	VERB	_	_	1	comp:aux	_	AlignBegin=168006|AlignEnd=168192|GE=watch|Gloss=watch|nWord=2|RX=V2
 3	ba	ba	PART	_	Polarity=Neg	1	mod	_	AlignBegin=168192|AlignEnd=168378|GE=Neg|Gloss=Neg|nWord=3|RX=PART.Neg
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=168378|AlignEnd=168565|GE=//|Gloss=PUNCT|nWord=4
 
@@ -3343,7 +3343,7 @@
 4	yaː	yaː	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=411634|AlignEnd=411774|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=4|RX=PNG.TAM
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=411774|AlignEnd=411914|GE=say|Gloss=say|nWord=5|RX=V*
 6	wai	wai	SCONJ	_	_	5	comp:obj	_	AlignBegin=411914|AlignEnd=412054|GE=EVD|Gloss=COMP|nWord=6|RX=PART
-7	à	à	ADP	_	Aspect=Aor|Person=4	6	comp:obj	_	AlignBegin=412054|AlignEnd=412194|GE=4.Aor|Gloss=4.Aor|nWord=7|RX=PNG.TAM
+7	à	à	AUX	_	Aspect=Aor|Person=4	6	comp:obj	_	AlignBegin=412054|AlignEnd=412194|GE=4.Aor|Gloss=4.Aor|nWord=7|RX=PNG.TAM
 8	zoː	zoː	VERB	_	_	7	comp:aux	_	AlignBegin=412194|AlignEnd=412334|GE=come|Gloss=come|nWord=8|RX=V0
 9	à	à	AUX	_	Aspect=Aor|Person=4	7	conj:svc	_	AlignBegin=412334|AlignEnd=412474|GE=4.Aor|Gloss=4.Aor|nWord=9|RX=PNG.TAM
 10	kashèː	kashèː	VERB	_	_	9	comp:aux	_	AlignBegin=412474|AlignEnd=412614|GE=kill|Gloss=kill|nWord=10|RX=V4

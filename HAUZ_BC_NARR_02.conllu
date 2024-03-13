@@ -612,11 +612,11 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_02.WAV
 # sent_timecode = 91986, 92875
 # phonetic_text = à kiraː yaːròː \Plur //
-# text = à kiraː yâːraː //
+# text = à kira yâːraː //
 # text_en =  Let them call the children.
-1	à	à	ADP	_	_	0	root	_	AlignBegin=91986|AlignEnd=92208|GE=4.Aor|Gloss=4.Aor|nWord=1|RX=PNG.TAM
-2	kiraː	kiraː	NOUN	_	_	1	comp:obj	_	AlignBegin=92208|AlignEnd=92430|GE=call|Gloss=call|nWord=2|RX=V0
-3	yâːraː	yâːraː	NOUN	_	_	2	mod	_	AlignBegin=92430|AlignEnd=92541|GE=child|Gloss=child.Plur|nWord=3|RX=N
+1	à	à	AUX	_	_	0	root	_	AlignBegin=91986|AlignEnd=92208|GE=4.Aor|Gloss=4.Aor|nWord=1|RX=PNG.TAM
+2	kira	kir-	VERB	_	_	1	comp:aux	_	AlignBegin=92208|AlignEnd=92430|GE=call|Gloss=call|nWord=2|RX=V0
+3	yâːraː	yâːraː	NOUN	_	_	2	comp:obj	_	AlignBegin=92430|AlignEnd=92541|GE=child|Gloss=child.Plur|nWord=3|RX=N
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=92652|AlignEnd=92875|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_NARR_02_SP1_058-058
@@ -889,23 +889,22 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_02.WAV
 # sent_timecode = 128268, 131850
 # phonetic_text = ta cêː yàːyàː zân yi // in ta / taɓàː hankàliː -n -tà zâi ɓaːcì //
-# text = ta cêː yàː zân yi // in ta / taɓàː hankàlintà zâi ɓaːcì //
-# text_en =  She said how shall I do If she touches (it), she will be in trouble.
+# text = ta cêː yàːyàː zân yi ?// in ta taɓàː hankàlin =tà zâi ɓaːcì //
+# text_en =  She said how shall I do?  If she touches (it), she will go mad.
 1	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	0	root	_	AlignBegin=128268|AlignEnd=128442|GE=3Fem.Perf.Bkg|Gloss=3Fem.Perf.Bck|nWord=1|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=128442|AlignEnd=128616|GE=say|Gloss=say|nWord=2|RX=V*
 3	yàːyàː	yàːyàː	ADV	_	PronType=Int	2	comp:obj	_	AlignBegin=128616|AlignEnd=128790|GE=how|Gloss=how|nWord=3|RX=ADV.Q
 4	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	3	comp:cleft	_	AlignBegin=128790|AlignEnd=128964|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=4|RX=TAM.PNG
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=128964|AlignEnd=129138|GE=do|Gloss=do|nWord=5|RX=V0
-6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=129138|AlignEnd=129310|Gloss=PUNCT|nWord=6
-7	in	in	SCONJ	_	_	13	mod	_	AlignBegin=129858|AlignEnd=130031|GE=if|Gloss=if|nWord=7|RX=CONJ
-8	ta	ta	PART	_	Aspect=Perf|Person=3	7	comp:obj	_	AlignBegin=130031|AlignEnd=130204|GE=3Fem.Perf.Bkg|Gloss=3Fem.Perf.Bkg|nWord=8|RX=PNG.TAM
-9	<	<	PUNCT	_	_	7	punct	_	AlignBegin=130204|AlignEnd=130376|Gloss=PUNCT|nWord=9|wordform=/
-10	taɓàː	taɓàː	NOUN	_	Definite=Cons	13	dislocated@subj	_	AlignBegin=130376|AlignEnd=130671|GE=touch|Gloss=touch|nWord=10|RX=V1
-11	hankàlin	hankàliː	NOUN	_	Definite=Cons	10	mod	_	AlignBegin=130671|AlignEnd=130769|GE=mind|Gloss=mind.Cons|nWord=11|RX=N|wordform=hankàliː
-12	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	11	mod@poss	_	AlignBegin=130867|AlignEnd=130966|GE=3Fem|Gloss=3Fem.Gen|nWord=11|RX=PRO.POS
-13	zâi	zaː	AUX	_	Person=3|Tense=Fut	2	comp:obj	_	AlignBegin=130966|AlignEnd=131261|GE=Fut.3Masc.|Gloss=3Masc..Fut|nWord=12|RX=TAM.PNG
-14	ɓaːcì	ɓaːcì	ADV	_	_	13	mod	_	AlignBegin=131261|AlignEnd=131556|GE=get_spoilt|Gloss=get_spoilt|nWord=13|RX=V3B
-15	//	//	PUNCT	_	_	1	punct	_	AlignBegin=131556|AlignEnd=131850|Gloss=PUNCT|nWord=14
+6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=129138|AlignEnd=129310|Gloss=PUNCT|nWord=6
+7	in	in	SCONJ	_	_	12	mod	_	AlignBegin=129858|AlignEnd=130031|GE=if|Gloss=if|nWord=7|RX=CONJ
+8	ta	ta	AUX	_	Aspect=Perf|Person=3	7	comp:obj	_	AlignBegin=130031|AlignEnd=130204|GE=3Fem.Perf.Bkg|Gloss=3Fem.Perf.Bkg|nWord=8|RX=PNG.TAM
+9	taɓàː	taɓ-	NOUN	_	Definite=Cons	8	comp:aux	_	AlignBegin=130376|AlignEnd=130671|GE=touch|Gloss=touch|nWord=10|RX=V1
+10	hankàlin	hankàliː	NOUN	_	Definite=Cons	12	subj	_	AlignBegin=130671|AlignEnd=130769|GE=mind|Gloss=mind.Cons|nWord=11|RX=N|wordform=hankàliː
+11	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	mod@poss	_	AlignBegin=130867|AlignEnd=130966|GE=3Fem|Gloss=3Fem.Gen|nWord=11|RX=PRO.POS
+12	zâi	zaː	AUX	_	Person=3|Tense=Fut	0	root	_	AlignBegin=130966|AlignEnd=131261|GE=Fut.3Masc.|Gloss=3Masc..Fut|nWord=12|RX=TAM.PNG
+13	ɓaːcì	ɓaːt-	VERB	_	_	12	mod	_	AlignBegin=131261|AlignEnd=131556|GE=get_spoilt|Gloss=get_spoilt|nWord=13|RX=V3B
+14	//	//	PUNCT	_	_	12	punct	_	AlignBegin=131556|AlignEnd=131850|Gloss=PUNCT|nWord=14
 
 # sent_id = HAUZ_BC_NARR_02_SP1_082-082
 # speaker_id = SP1
@@ -1006,7 +1005,7 @@
 # phonetic_text = na &//
 # text = na &//
 # text_en =  I..
-1	na	na	PART	_	Aspect=Perf|Number=Sing|Person=1	0	root@scrap	_	AlignBegin=147270|AlignEnd=147418|GE=1Sing.Perf.Bkg|Gloss=1Sing.Perf.Bkg|nWord=1|RX=PNG.TAM
+1	na	na	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root@scrap	_	AlignBegin=147270|AlignEnd=147418|GE=1Sing.Perf.Bkg|Gloss=1Sing.Perf.Bkg|nWord=1|RX=PNG.TAM
 2	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=147418|AlignEnd=147565|Gloss=PUNCT|nWord=2
 
 # sent_id = HAUZ_BC_NARR_02_SP1_091-092
@@ -1136,20 +1135,20 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_02.WAV
 # sent_timecode = 165486, 167472
 # phonetic_text = tundà ka hanàː ni / XX naː hanàː ki kì ci /
-# text = tundà ka hanàː ni / XX naː hanàː ki kì ci /
+# text = tundà ka hanàː ni / X naː hanàː ki kì ci /
 # text_en =  Since you forbid me, XX I forbade you to eat.
-1	tundà	tundà	SCONJ	_	_	7	discourse	_	AlignBegin=165486|AlignEnd=165653|GE=since|Gloss=since|nWord=1|RX=CONJ
-2	ka	ka	AUX	_	Aspect=Perf|Person=2	7	parataxis@discourse	_	AlignBegin=165653|AlignEnd=165820|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bck|nWord=2|RX=PNG.TAM
-3	hanàː	hanàː	ADV	_	_	2	comp:aux	_	AlignBegin=165820|AlignEnd=165987|GE=forbid|Gloss=forbid|nWord=3|RX=V1
+1	tundà	tundà	SCONJ	_	_	7	mod	_	AlignBegin=165486|AlignEnd=165653|GE=since|Gloss=since|nWord=1|RX=CONJ
+2	ka	ka	AUX	_	Aspect=Perf|Person=2	1	comp:obj	_	AlignBegin=165653|AlignEnd=165820|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bck|nWord=2|RX=PNG.TAM
+3	hanàː	han-	VERB	_	_	2	comp:aux	_	AlignBegin=165820|AlignEnd=165987|GE=forbid|Gloss=forbid|nWord=3|RX=V1
 4	ni	ni	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	comp:obj	_	AlignBegin=165987|AlignEnd=166154|GE=1Sing|Gloss=1Sing|nWord=4|RX=PRO.OBJ
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=166154|AlignEnd=166321|Gloss=PUNCT|nWord=5|wordform=/
-6	XX	XX	X	_	_	7	subj	_	AlignBegin=166321|AlignEnd=166485|GE=XX|Gloss=XX|nWord=6|RX=XX
+6	X	X	X	_	_	7	unk@scrap	_	AlignBegin=166321|AlignEnd=166485|GE=X|Gloss=X|nWord=6|RX=XX
 7	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=166485|AlignEnd=166649|GE=1Sing.Perf|Gloss=1Sing.Perf|nWord=7|RX=PNG.TAM
-8	hanàː	nàː²	VERB	_	Person=3	7	comp:aux	_	AlignBegin=166649|AlignEnd=166813|GE=forbid|Gloss=forbid|nWord=8|RX=V1
-9	ki	ki	PRON	_	Number=Plur|Person=2	8	comp:obj	_	AlignBegin=166813|AlignEnd=166977|GE=ki|Gloss=ki|nWord=9|RX=HESIT
-10	kì	kì	PART	_	_	8	comp:obj	_	AlignBegin=166977|AlignEnd=167141|GE=2Fem.Aor|Gloss=2Fem.Aor|nWord=10|RX=PNG.TAM
-11	ci	ci	VERB	_	_	10	comp:obj	_	AlignBegin=167141|AlignEnd=167305|GE=eat|Gloss=eat|nWord=11|RX=V0
-12	<	<	PUNCT	_	_	1	punct	_	AlignBegin=167305|AlignEnd=167472|Gloss=PUNCT|nWord=12|wordform=/
+8	hanàː	han-	VERB	_	Person=3	7	comp:aux	_	AlignBegin=166649|AlignEnd=166813|GE=forbid|Gloss=forbid|nWord=8|RX=V1
+9	ki	ki	PRON	_	Number=Plur|Person=2	8	comp:ben	_	AlignBegin=166813|AlignEnd=166977|GE=ki|Gloss=ki|nWord=9|RX=HESIT
+10	kì	kì	AUX	_	_	8	comp:obj	_	AlignBegin=166977|AlignEnd=167141|GE=2Fem.Aor|Gloss=2Fem.Aor|nWord=10|RX=PNG.TAM
+11	ci	ci	VERB	_	_	10	comp:aux	_	AlignBegin=167141|AlignEnd=167305|GE=eat|Gloss=eat|nWord=11|RX=V0
+12	//	//	PUNCT	_	_	7	punct	_	AlignBegin=167305|AlignEnd=167472|Gloss=PUNCT|nWord=12|wordform=/
 
 # sent_id = HAUZ_BC_NARR_02_SP1_103-104
 # speaker_id = SP1
@@ -1264,7 +1263,7 @@
 11	saːmoː	saːm-	VERB	_	_	10	comp:aux	_	AlignBegin=180288|AlignEnd=180462|GE=get.DIR|Gloss=get.DIR|nWord=11|RX=V6
 12	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	10	conj:dicto	_	AlignBegin=180462|AlignEnd=180636|GE=1Sing.Perf|Gloss=1Sing.Perf|nWord=12|RX=PNG.TAM
 13	baː	baː	VERB	_	_	12	comp:aux	_	AlignBegin=180636|AlignEnd=180810|GE=give|Gloss=give|nWord=13|RX=V*|wordform=bâː
-14	kà	kà	PART	_	_	13	mod	_	AlignBegin=180810|AlignEnd=180984|GE=2Masc.Aor|Gloss=2Masc|nWord=14|RX=PNG.TAM
+14	kà	kà	PRON	_	_	13	mod	_	AlignBegin=180810|AlignEnd=180984|GE=2Masc.Aor|Gloss=2Masc|nWord=14|RX=PNG.TAM
 15	//	//	PUNCT	_	_	10	punct	_	AlignBegin=180984|AlignEnd=181161|Gloss=PUNCT|nWord=15
 
 # sent_id = HAUZ_BC_NARR_02_SP1_115-115
@@ -1297,7 +1296,7 @@
 5	àlhakiː	àlhakiː	NOUN	_	_	6	subj	_	AlignBegin=184252|AlignEnd=184439|GE=sin|Gloss=sin|nWord=5|RX=N
 6	yaː	yaː	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=184439|AlignEnd=184626|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=6|RX=PNG.TAM
 7	kaːmàː	kaːmàː	VERB	_	_	6	comp:aux	_	AlignBegin=184626|AlignEnd=184813|GE=catch|Gloss=catch|nWord=7|RX=V1
-8	ka	ka	PART	_	_	6	mod	_	AlignBegin=184813|AlignEnd=185000|GE=2Masc|Gloss=2Masc.Perf.Bck|nWord=8|RX=PRO.OBJ
+8	ka	ka	PRON	_	_	7	comp:obj	_	AlignBegin=184813|AlignEnd=185000|GE=2Masc|Gloss=2Masc.Perf.Bck|nWord=8|RX=PRO.OBJ
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=185000|AlignEnd=185190|Gloss=PUNCT|nWord=9
 
 # sent_id = HAUZ_BC_NARR_02_SP1_117-117
