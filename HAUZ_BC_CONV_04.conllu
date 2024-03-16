@@ -10644,20 +10644,20 @@
 # sent_timecode = 1280218, 1283533
 # phonetic_text = yandà ka sanìː anàː cîː -n kàːsuwaː / hakà zaːkà jeː kà tarar̃ /
 # text = yandà ka san anàː cîn kàːsuwaː / hakà zaːkà jeː kà tarar̃ /
-# text_en =  The way they make business, if you go there, you will find them,
+# text_en =  The way we go shopping, if you go there, you will find them,
 1	yandà	yandà	ADV	_	PronType=Rel	9	mod	_	AlignBegin=1.28022e+06|AlignEnd=1.28043e+06|GE=how|Gloss=how|nWord=1|RX=ADV.COMP
-2	ka	kà	AUX	_	Aspect=Perf|Person=2	1	comp:obj@discourse	_	AlignBegin=1.28043e+06|AlignEnd=1.28065e+06|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=2|RX=PNG.TAM
-3	sanìː	sanìː	VERB	_	_	2	comp:aux	_	AlignBegin=1.28065e+06|AlignEnd=1.28086e+06|GE=know|Gloss=know|nWord=3|RX=V*
-4	anàː	àː	AUX	_	Aspect=Imp|Person=4	1	comp:obj	_	AlignBegin=1.28086e+06|AlignEnd=1.28107e+06|GE=4.Imp|Gloss=4.Imp|nWord=4|RX=PNG.TAM
-5	cîː-n	cîːi	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=1.28107e+06|AlignEnd=1.28118e+06|GE=eating.Cons|Gloss=eat.Vnoun.Cons|nWord=5|RX=N.V0|wordform=cîː
+2	ka	kà	AUX	_	Aspect=Perf|Person=2	1	mod@relcl	_	AlignBegin=1.28043e+06|AlignEnd=1.28065e+06|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=2|RX=PNG.TAM
+3	san	sanìː	VERB	_	_	2	comp:aux	_	AlignBegin=1.28065e+06|AlignEnd=1.28086e+06|GE=know|Gloss=know|nWord=3|RX=V*
+4	anàː	nàː	AUX	_	Aspect=Imp|Person=4	3	comp:obj	_	AlignBegin=1.28086e+06|AlignEnd=1.28107e+06|GE=4.Imp|Gloss=4.Imp|nWord=4|RX=PNG.TAM
+5	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=1.28107e+06|AlignEnd=1.28118e+06|GE=eating.Cons|Gloss=eat.Vnoun.Cons|nWord=5|RX=N.V0|wordform=cîː
 6	kàːsuwaː	kàːsuwaː	NOUN	_	_	5	udep	_	AlignBegin=1.28129e+06|AlignEnd=128150|GE=market|Gloss=market|nWord=6|RX=N
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=128150|AlignEnd=1.28172e+06|GE=/|Gloss=PUNCT|nWord=7|wordform=/
 8	hakà	hakà	ADV	_	_	9	mod	_	AlignBegin=1.28226e+06|AlignEnd=1.28247e+06|GE=like_this|Gloss=like_this|nWord=8|RX=ADV
 9	zaːkà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=1.28247e+06|AlignEnd=1.28268e+06|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=9|RX=TAM.PNG
 10	jeː	jeː	VERB	_	_	9	comp:aux	_	AlignBegin=1.28268e+06|AlignEnd=128290|GE=go|Gloss=go|nWord=10|RX=V0
-11	kà	à	AUX	_	Aspect=Aor|Person=2	9	conj:svc	_	AlignBegin=128290|AlignEnd=1.28311e+06|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=11|RX=PNG.TAM
-12	tarar̃	tarar̃	VERB	_	_	11	comp:aux	_	AlignBegin=1.28311e+06|AlignEnd=1.28332e+06|GE=obtain|Gloss=obtain|nWord=12|RX=V5
-13	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1.28332e+06|AlignEnd=1.28353e+06|GE=/|Gloss=PUNCT|nWord=13|wordform=/
+11	kà	à	AUX	_	Aspect=Aor|Person=2	9	conj:coord	_	AlignBegin=128290|AlignEnd=1.28311e+06|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=11|RX=PNG.TAM
+12	tarar̃	tar-	VERB	_	_	11	comp:aux	_	AlignBegin=1.28311e+06|AlignEnd=1.28332e+06|GE=obtain|Gloss=obtain.Cau|nWord=12|Overlap=HAUZ_BC_CONV_04_1149-1149|RX=V5
+13	//+	//+	PUNCT	_	_	9	punct	_	AlignBegin=1.28332e+06|AlignEnd=1.28353e+06|GE=/|Gloss=PUNCT|nWord=13|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_1148-1148
 # speaker_id = SP1
@@ -10679,32 +10679,39 @@
 # sent_timecode = 1284111, 1285238
 # phonetic_text = sun tàːru anàː cîː //
 # text = sun tàːru anàː cîː //
-# text_en =  They are gathered making business.
-1	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=1.28411e+06|AlignEnd=1.28434e+06|GE=3Plur.Perf|Gloss=3Plur.Perf|nWord=1|RX=PNG.TAM
+# text_en = they are gathered and people are buying.
+1	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=1.28411e+06|AlignEnd=1.28434e+06|AttachTo=HAUZ_BC_CONV_04_1146-1147|GE=3Plur.Perf|Gloss=3Plur.Perf|nWord=1|Rel=comp:obj|RX=PNG.TAM
 2	tàːru	tàːru	VERB	_	_	1	comp:aux	_	AlignBegin=1.28434e+06|AlignEnd=1.28456e+06|GE=gather|Gloss=gather|nWord=2|RX=V7
 3	anàː	àː	AUX	_	Aspect=Imp|Person=4	1	conj:coord	_	AlignBegin=1.28456e+06|AlignEnd=1.28479e+06|GE=4.Imp|Gloss=4.Imp|nWord=3|RX=PNG.TAM
 4	cîː	ci	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=1.28479e+06|AlignEnd=1.28501e+06|GE=eating|Gloss=eat.Vnoun|nWord=4|RX=N.V0
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.28501e+06|AlignEnd=1.28524e+06|GE=//|Gloss=PUNCT|nWord=5
 
-# sent_id = HAUZ_BC_CONV_04_1150-1152
+# sent_id = HAUZ_BC_CONV_04_1150-1150
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 1286140, 1288550
+# sent_timecode = 1286140, 1.28699e+06
 # phonetic_text = kàːsuwaː nèː / tundà &// kuma mâi -n sâː -uː\H nàː gyaːràː jìkiː //
-# text = kàːsuwaː nèː < tundà &// kuma mân shaːnuː nàː gyaːràː jìkiː //
-# text_en =  That's business because butter is good for the body.
+# text = kàːsuwaː nèː tundà &//
+# text_en =  That's business since...
 1	kàːsuwaː	kàːsuwaː	NOUN	_	_	2	comp:pred	_	AlignBegin=1.28614e+06|AlignEnd=1.28629e+06|GE=market|Gloss=market|nWord=1|RX=N
-2	nèː	neː	PART	_	_	0	root	_	AlignBegin=1.28629e+06|AlignEnd=1.28644e+06|GE=Ident/Foc|Gloss=Ident/Foc|nWord=2|RX=PART.SYNT
-3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=1.28644e+06|AlignEnd=1.28659e+06|GE=/|Gloss=PUNCT|nWord=3|wordform=/
-4	tundà	tundà	SCONJ	_	_	2	mod	_	AlignBegin=1.28659e+06|AlignEnd=1.28679e+06|GE=since|Gloss=since|nWord=4|RX=CONJ
-5	&//	&//	PUNCT	_	_	7	punct	_	AlignBegin=1.28679e+06|AlignEnd=1.28699e+06|GE=&//|Gloss=PUNCT|nWord=5
-6	kuma	kuma	PART	_	_	4	mod	_	AlignBegin=128720|AlignEnd=128740|GE=too|Gloss=too|nWord=6|RX=PART.TOP
-7	mân	mân	VERB	_	_	4	comp:obj	_	AlignBegin=128740|AlignEnd=1.28749e+06|GE=fat.Cons|Gloss=fat.Cons|nWord=7|RX=N|wordform=mâi
-8	shaːnuː	shaːnuː	NOUN	_	Number=Plur	7	comp:obj	_	AlignBegin=1.28759e+06|AlignEnd=1.28768e+06|GE=cow|Gloss=cow.Plur|nWord=8|RX=N
-9	nàː	ː	AUX	_	Number=Sing|Person=1	8	mod	_	AlignBegin=1.28778e+06|AlignEnd=1.28797e+06|GE=Imp|Gloss=Imp|nWord=9|RX=TAM
-10	gyaːràː	gyaːr-	VERB	_	_	9	comp:aux	_	AlignBegin=1.28797e+06|AlignEnd=1.28816e+06|GE=repair|Gloss=repair|nWord=10|RX=V1
-11	jìkiː	jìkiː	NOUN	_	_	10	comp:obj	_	AlignBegin=1.28816e+06|AlignEnd=1.28836e+06|GE=body|Gloss=body|nWord=11|RX=N
-12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=1.28836e+06|AlignEnd=1.28855e+06|GE=//|Gloss=PUNCT|nWord=12
+2	nèː	neː	PART	_	_	0	root@scrap	_	AlignBegin=1.28629e+06|AlignEnd=1.28644e+06|GE=Ident/Foc|Gloss=Ident/Foc|nWord=2|RX=PART.SYNT
+3	tundà	tundà	SCONJ	_	_	2	mod	_	AlignBegin=1.28659e+06|AlignEnd=1.28679e+06|GE=since|Gloss=since|nWord=4|RX=CONJ
+4	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=1.28679e+06|AlignEnd=1.28699e+06|GE=&//|Gloss=PUNCT|nWord=5
+
+# sent_id = HAUZ_BC_CONV_04_1151-1152
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 1.28699e+06, 1288550
+# phonetic_text = kàːsuwaː nèː / tundà &// kuma mâi -n sâː -uː\H nàː gyaːràː jìkiː //
+# text = kuma mân shaːnuː nàː gyaːrà jìkiː //
+# text_en = And butter is good for the body.
+1	kuma	kuma	PART	_	_	4	mod	_	AlignBegin=128720|AlignEnd=128740|GE=too|Gloss=too|nWord=6|RX=PART.TOP
+2	mân	mân	VERB	_	_	4	subj	_	AlignBegin=128740|AlignEnd=1.28749e+06|GE=fat.Cons|Gloss=fat.Cons|nWord=7|RX=N|wordform=mâi
+3	shaːnuː	shaːnuː	NOUN	_	Number=Plur	2	compound	_	AlignBegin=1.28759e+06|AlignEnd=1.28768e+06|GE=cow|Gloss=cow.Plur|nWord=8|RX=N
+4	nàː	nàː	AUX	_	Number=Sing|Person=1	0	comp:obj	_	AlignBegin=1.28778e+06|AlignEnd=1.28797e+06|GE=Imp|Gloss=Imp|nWord=9|RX=TAM
+5	gyaːrà	gyaːr-	VERB	_	_	4	comp:aux	_	AlignBegin=1.28797e+06|AlignEnd=1.28816e+06|GE=repair|Gloss=repair|nWord=10|RX=V1
+6	jìkiː	jìkiː	NOUN	_	_	5	comp:obj	_	AlignBegin=1.28816e+06|AlignEnd=1.28836e+06|GE=body|Gloss=body|nWord=11|RX=N
+7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=1.28836e+06|AlignEnd=1.28855e+06|GE=//|Gloss=PUNCT|nWord=12
 
 # sent_id = HAUZ_BC_CONV_04_1153-1153
 # speaker_id = SP2
@@ -10723,15 +10730,14 @@
 # phonetic_text = sanyiː -n ƙàshiː bà zâi shìgaː -eː kà ba //
 # text = sanyin ƙàshiː bà zâi shìgeː kà ba //
 # text_en =  You will not catch polio.
-1	sanyiː-n	sanyiː	NOUN	_	Definite=Cons	4	dislocated@subj	_	AlignBegin=1.28883e+06|AlignEnd=1.28893e+06|GE=cold_weather.Cons|Gloss=cold_weather.Cons|nWord=1|RX=N|wordform=sanyiː
+1	sanyin	sanyiː	NOUN	_	Definite=Cons	4	dislocated@subj	_	AlignBegin=1.28883e+06|AlignEnd=1.28893e+06|GE=cold_weather.Cons|Gloss=cold_weather.Cons|nWord=1|RX=N|wordform=sanyiː
 2	ƙàshiː	ƙàshiː	NOUN	_	_	1	mod	_	AlignBegin=1.28902e+06|AlignEnd=128920|GE=bone|Gloss=bone|nWord=2|RX=N
 3	bà	bà	PART	_	_	4	mod	_	AlignBegin=128920|AlignEnd=1.28939e+06|GE=Neg|Gloss=Neg|nWord=3|RX=PART.Neg
 4	zâi	zaː	AUX	_	Person=3|Tense=Fut	0	root	_	AlignBegin=1.28939e+06|AlignEnd=1.28957e+06|GE=Fut.3Masc|Gloss=3Masc.Fut|nWord=4|RX=TAM.PNG
-5	shìgaː	shìg-	VERB	_	_	4	comp:aux	_	AlignBegin=1.28957e+06|AlignEnd=1.28967e+06|GE=enter|Gloss=enter|nWord=5|RX=V2
-6	=eː	=eː	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	AlignBegin=1.28967e+06|AlignEnd=1.28976e+06|GE=ACC2|Gloss=ACC2|nWord=5|RX=ACC2
-7	kà	kà	PRON	_	_	5	mod@emp	_	AlignBegin=1.28976e+06|AlignEnd=1.28994e+06|GE=2Masc|Gloss=2Masc|nWord=6|RX=PNG.TAM
-8	ba	ba	PART	_	Polarity=Neg	4	mod	_	AlignBegin=1.28994e+06|AlignEnd=1.29013e+06|GE=Neg|Gloss=Neg|nWord=7|RX=PART.Neg
-9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=1.29013e+06|AlignEnd=1.29031e+06|GE=//|Gloss=PUNCT|nWord=8
+5	shìgeː	shig-	VERB	_	_	4	comp:aux	_	AlignBegin=1.28957e+06|AlignEnd=1.28967e+06|GE=enter|Gloss=enter|nWord=5|RX=V2
+6	kà	kà	PRON	_	_	5	comp:goal	_	AlignBegin=1.28976e+06|AlignEnd=1.28994e+06|GE=2Masc|Gloss=2Masc|nWord=6|RX=PNG.TAM
+7	ba	ba	PART	_	Polarity=Neg	4	mod	_	AlignBegin=1.28994e+06|AlignEnd=1.29013e+06|GE=Neg|Gloss=Neg|nWord=7|RX=PART.Neg
+8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=1.29013e+06|AlignEnd=1.29031e+06|GE=//|Gloss=PUNCT|nWord=8
 
 # sent_id = HAUZ_BC_CONV_04_1155-1155
 # speaker_id = SP2
@@ -10750,92 +10756,91 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1291568, 1294903
 # phonetic_text = dukà yandà kakèː cîː -n mâi -n sâː -nuː\H / à wannàn zaːmàniː / bâː yandà zaːʼà yi sanyìː -n ƙàshiː yà shìgaː -eː kà ba //
-# text = dukà yandà kakèː cîː-n mân shaːnuː < à wannàn zaːmàniː < bâː yandà zaːʼà yi sanyìː-n ƙàshiː yà shìgaː =eː kà ba //
+# text = duy yandà kakèː cîn mân shaːnuː < à wannàn zaːmàniː < bâː yandà zaːʼà yi sanyìn ƙàshiː yà shìgeː kà ba //
 # text_en =  Whenever you are eating butter, nowadays, there is no way you will catch polio.
-1	dukà	dukà	PRON	_	_	2	mod	_	AlignBegin=1.29157e+06|AlignEnd=1.29174e+06|GE=all|Gloss=all|nWord=1|RX=ADJ
+1	duy	dukà	DET	_	_	2	det	_	AlignBegin=1.29157e+06|AlignEnd=1.29174e+06|GE=all|Gloss=all|nWord=1|RX=ADJ
 2	yandà	yandà	ADV	_	PronType=Rel	12	mod	_	AlignBegin=1.29174e+06|AlignEnd=1.29191e+06|GE=how|Gloss=how|nWord=2|RX=ADV.COMP
 3	kakèː	kà	AUX	_	Aspect=Perf|Person=2	2	mod@relcl	_	AlignBegin=1.29191e+06|AlignEnd=1.29208e+06|GE=2Masc.Perf.Bkg|Gloss=2Masc.Perf.Bkg|nWord=3|RX=PNG.TAM
-4	cîː-n	cîːi	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=1.29208e+06|AlignEnd=1.29216e+06|GE=eating.Cons|Gloss=eat.Vnoun.Cons|nWord=4|RX=N.V0|wordform=cîː
-5	mân	mân	VERB	_	_	4	comp:obl	_	AlignBegin=1.29225e+06|AlignEnd=1.29233e+06|GE=fat.Cons|Gloss=fat.Cons|nWord=5|RX=N|wordform=mâi
-6	shaːnuː	shaːnuː	NOUN	_	_	4	udep	_	AlignBegin=1.29242e+06|AlignEnd=129250|GE=cow|Gloss=cow.Plur|nWord=6|RX=N
+4	cîn	ci	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=1.29208e+06|AlignEnd=1.29216e+06|GE=eating.Cons|Gloss=eat.Vnoun.Cons|nWord=4|RX=N.V0|wordform=cîː
+5	mân	mai	VERB	_	_	4	comp:obl	_	AlignBegin=1.29225e+06|AlignEnd=1.29233e+06|GE=fat.Cons|Gloss=fat.Cons|nWord=5|RX=N|wordform=mâi
+6	shaːnuː	sâː	NOUN	_	_	5	compound	_	AlignBegin=1.29242e+06|AlignEnd=129250|GE=cow|Gloss=cow.Plur|nWord=6|RX=N
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=1.29259e+06|AlignEnd=1.29276e+06|GE=/|Gloss=PUNCT|nWord=7|wordform=/
 8	à	à	ADP	_	_	12	mod	_	AlignBegin=1.29276e+06|AlignEnd=1.29293e+06|GE=at|Gloss=at|nWord=8|RX=PREP
 9	wannàn	wannàn	DET	_	_	10	det	_	AlignBegin=1.29293e+06|AlignEnd=1.29309e+06|GE=Prox|Gloss=Prox|nWord=9|RX=PRO.DEICT
 10	zaːmàniː	zaːmàn	NOUN	_	_	8	comp:obj	_	AlignBegin=1.29309e+06|AlignEnd=1.29326e+06|GE=present_time|Gloss=present_time|nWord=10|RX=N
 11	<	<	PUNCT	_	_	8	punct	_	AlignBegin=1.29326e+06|AlignEnd=1.29343e+06|GE=/|Gloss=PUNCT|nWord=11|wordform=/
 12	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=1.29343e+06|AlignEnd=1.29356e+06|GE=Neg|Gloss=Neg|nWord=12|RX=PART.Neg
-13	yandà	yandà	ADV	_	PronType=Rel	12	mod	_	AlignBegin=1.29356e+06|AlignEnd=129370|GE=how|Gloss=how|nWord=13|RX=ADV.COMP
-14	zaːʼà	zaː	AUX	_	Person=4|Tense=Fut	13	comp:obj	_	AlignBegin=129370|AlignEnd=1.29383e+06|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=14|RX=TAM.PNG
+13	yandà	yandà	ADV	_	PronType=Rel	12	subj	_	AlignBegin=1.29356e+06|AlignEnd=129370|GE=how|Gloss=how|nWord=13|RX=ADV.COMP
+14	zaːʼà	zaː	AUX	_	Person=4|Tense=Fut	13	mod@relcl	_	AlignBegin=129370|AlignEnd=1.29383e+06|GE=Fut.2Sing|Gloss=2Sing.Fut|nWord=14|RX=TAM.PNG
 15	yi	yi	VERB	_	_	14	comp:aux	_	AlignBegin=1.29383e+06|AlignEnd=1.29396e+06|GE=do|Gloss=do|nWord=15|RX=V0
-16	sanyìː-n	sanyìː	NOUN	_	Definite=Cons	15	comp:obj@lvc	_	AlignBegin=1.29396e+06|AlignEnd=1.29403e+06|GE=cold.Cons|Gloss=cold.Cons|nWord=16|RX=N|wordform=sanyìː
+16	sanyìn	sanyìː	NOUN	_	Definite=Cons	18	subj	_	AlignBegin=1.29396e+06|AlignEnd=1.29403e+06|GE=cold.Cons|Gloss=cold.Cons|nWord=16|RX=N|wordform=sanyìː
 17	ƙàshiː	ƙàshiː	NOUN	_	_	16	mod	_	AlignBegin=129410|AlignEnd=1.29423e+06|GE=bone|Gloss=bone|nWord=17|RX=N
-18	yà	à	AUX	_	Aspect=Aor|Person=3	16	mod	_	AlignBegin=1.29423e+06|AlignEnd=1.29437e+06|GE=3Masc.Aor|Gloss=3Masc.Aor|nWord=18|RX=PNG.TAM
-19	shìgaː	shìg-	VERB	_	_	18	comp:aux	_	AlignBegin=1.29437e+06|AlignEnd=1.29443e+06|GE=enter|Gloss=enter|nWord=19|RX=V2
-20	=eː	=eː	PRON	_	Number=Sing|Person=1|PronType=Prs	19	comp:obj	_	AlignBegin=1.29443e+06|AlignEnd=129450|GE=ACC2|Gloss=ACC2|nWord=19|RX=ACC2
-21	kà	kà	PRON	_	_	18	mod	_	AlignBegin=129450|AlignEnd=1.29464e+06|GE=2Masc.Aor|Gloss=2Masc|nWord=20|RX=PNG.TAM
-22	ba	ba	PART	_	Polarity=Neg	12	mod	_	AlignBegin=1.29464e+06|AlignEnd=1.29477e+06|GE=indeed|Gloss=indeed|nWord=21|RX=EXCL
-23	//	//	PUNCT	_	_	12	punct	_	AlignBegin=1.29477e+06|AlignEnd=129490|GE=//|Gloss=PUNCT|nWord=22
+18	yà	à	AUX	_	Aspect=Aor|Person=3	15	comp:obj	_	AlignBegin=1.29423e+06|AlignEnd=1.29437e+06|GE=3Masc.Aor|Gloss=3Masc.Aor|nWord=18|RX=PNG.TAM
+19	shìgeː	shig-	VERB	_	_	18	comp:aux	_	AlignBegin=1.29437e+06|AlignEnd=1.29443e+06|GE=enter|Gloss=enter|nWord=19|RX=V2
+20	kà	kà	PRON	_	_	19	comp:goal	_	AlignBegin=129450|AlignEnd=1.29464e+06|GE=2Masc.Aor|Gloss=2Masc|nWord=20|RX=PNG.TAM
+21	ba	ba	PART	_	Polarity=Neg	12	mod	_	AlignBegin=1.29464e+06|AlignEnd=1.29477e+06|GE=indeed|Gloss=indeed|nWord=21|RX=EXCL
+22	//	//	PUNCT	_	_	12	punct	_	AlignBegin=1.29477e+06|AlignEnd=129490|GE=//|Gloss=PUNCT|nWord=22
 
-# sent_id = HAUZ_BC_CONV_04_1159-1161
+# sent_id = HAUZ_BC_CONV_04_1159-1160
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 1294903, 1298426
+# sent_timecode = 1294903, 1.29658e+06
 # phonetic_text = suːnaː -n wani àbù / wai shiː maɗì / à ɗiːbàː -i /
-# text = suːnan wani àbù / wai shiː maɗì / à ɗìːbi /
-# text_en =  The name of one thing called "madi" you pick.
-1	suːnaː-n	suːnaː	NOUN	_	Definite=Cons	9	dislocated@top	_	AlignBegin=129490|AlignEnd=1.29499e+06|GE=name.Cons|Gloss=name.Cons|nWord=1|RX=N|wordform=suːnaː
+# text = suːnan wani àbù wai shiː maɗì //
+# text_en =  There is one thing called "madi".
+1	suːnan	suːnaː	NOUN	_	Definite=Cons	6	dislocated@subj	_	AlignBegin=129490|AlignEnd=1.29499e+06|GE=name.Cons|Gloss=name.Cons|nWord=1|RX=N|wordform=suːnaː
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	3	det	_	AlignBegin=1.29508e+06|AlignEnd=1.29525e+06|GE=some.M|Gloss=some.Masc|nWord=2|RX=DET.INDF
 3	àbù	àbù	NOUN	_	_	1	mod	_	AlignBegin=1.29525e+06|AlignEnd=1.29542e+06|GE=thing|Gloss=thing|nWord=3|RX=N
-4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1.29542e+06|AlignEnd=129560|GE=/|Gloss=PUNCT|nWord=4|wordform=/
-5	wai	wai	PART	_	_	1	mod	_	AlignBegin=129560|AlignEnd=1.29584e+06|GE=EVD|Gloss=EVD|nWord=5|RX=PART
-6	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	9	dislocated@top	_	AlignBegin=1.29584e+06|AlignEnd=1.29609e+06|GE=3Masc|Gloss=3Masc.Nom|nWord=6|RX=PRO.IDP
-7	maɗì	maɗì	ADV	_	_	6	conj:appos	_	AlignBegin=1.29609e+06|AlignEnd=1.29633e+06|GE=decoction_sp|Gloss=decoction_sp|nWord=7|RX=N
-8	<	<	PUNCT	_	_	6	punct	_	AlignBegin=1.29633e+06|AlignEnd=1.29658e+06|GE=/|Gloss=PUNCT|nWord=8|wordform=/
-9	à	à	AUX	_	_	0	root	_	AlignBegin=1.29783e+06|AlignEnd=1.29803e+06|GE=4.Aor|Gloss=4.Aor|nWord=9|RX=PNG.TAM
-10	ɗiːbàː=i	ɗiːbàː	VERB	_	_	9	comp:aux	_	AlignBegin=1.29803e+06|AlignEnd=1.29813e+06|GE=scoop_out|Gloss=scoop_out|nWord=10|RX=V2*|wordform=ɗiːbàː
-11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=1.29823e+06|AlignEnd=1.29843e+06|GE=/|Gloss=PUNCT|nWord=11|wordform=/
+4	wai	wai	PART	_	_	6	mod	_	AlignBegin=129560|AlignEnd=1.29584e+06|GE=EVD|Gloss=EVD|nWord=5|RX=PART
+5	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	6	subj	_	AlignBegin=1.29584e+06|AlignEnd=1.29609e+06|GE=3Masc|Gloss=3Masc.Nom|nWord=6|RX=PRO.IDP
+6	maɗì	maɗì	ADV	_	_	0	root	_	AlignBegin=1.29609e+06|AlignEnd=1.29633e+06|GE=decoction_sp|Gloss=decoction_sp|nWord=7|RX=N
+7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=1.29633e+06|AlignEnd=1.29658e+06|GE=/|Gloss=PUNCT|nWord=8|wordform=/
 
-# sent_id = HAUZ_BC_CONV_04_1162-1164
+# sent_id = HAUZ_BC_CONV_04_1161-1164
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 1298426, 1301853
+# sent_timecode = 1.29658e+06, 1.30185e+06
 # phonetic_text = à ɗiːbàː -i / à ɗiːbàː -i ɗinyaː / à dakàː ta /
-# text = à ɗìːbi / à ɗìːbi ɗinyaː / à dakàː ta /
-# text_en =  you pick you pick plums you pound them.
-1	à	à	AUX	_	Aspect=.Hab|Person=4	0	root	_	AlignBegin=1.29843e+06|AlignEnd=1.29866e+06|GE=4.Aor|Gloss=4.Aor|nWord=1|RX=PNG.TAM
-2	ɗiːbi	ɗeːb-	VERB	_	_	1	comp:obj	_	AlignBegin=1.29866e+06|AlignEnd=1.29877e+06|GE=scoop_out|Gloss=scoop_out|nWord=2|RX=V2*|wordform=ɗiːbàː
-3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=1.29889e+06|AlignEnd=1.29912e+06|GE=/|Gloss=PUNCT|nWord=3|wordform=/
-4	à	à	AUX	_	_	1	conj:dicto	_	AlignBegin=1.29912e+06|AlignEnd=1.29942e+06|GE=4.Aor|Gloss=4.Aor|nWord=4|RX=PNG.TAM
-5	ɗiːbi	ɗeːb-	VERB	_	_	4	comp:obj	_	AlignBegin=1.29942e+06|AlignEnd=1.29958e+06|GE=scoop_out|Gloss=scoop_out|nWord=5|RX=V2*|wordform=ɗiːbàː
-6	ɗinyaː	ɗinyaː	NOUN	_	_	5	comp:obj	_	AlignBegin=1.29973e+06|AlignEnd=1.30004e+06|GE=plum_sp|Gloss=plum_sp|nWord=6|RX=N
-7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=1.30004e+06|AlignEnd=1.30034e+06|GE=/|Gloss=PUNCT|nWord=7|wordform=/
-8	à	à	AUX	_	_	4	conj:svc	_	AlignBegin=130090|AlignEnd=1.30114e+06|GE=4.Aor|Gloss=4.Aor|nWord=8|RX=PNG.TAM
-9	dakàː	dak-	VERB	_	_	8	comp:aux	_	AlignBegin=1.30114e+06|AlignEnd=1.30138e+06|GE=pound|Gloss=pound|nWord=9|RX=V1
-10	ta	ta	PRON	_	Person=3	9	comp:obj	_	AlignBegin=1.30138e+06|AlignEnd=1.30162e+06|GE=3Fem|Gloss=3Fem|nWord=10|RX=PRO.OBJ
-11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.30162e+06|AlignEnd=1.30185e+06|GE=/|Gloss=PUNCT|nWord=11|wordform=/
+# text = à ɗiːbi || à ɗìːbi / à ɗìːbi ɗinyaː / à dakàː ta /
+# text_en =  you pick, you pick you pick plums you pound them.
+1	à	à	AUX	_	_	0	root	_	AlignBegin=1.29783e+06|AlignEnd=1.29803e+06|GE=4.Aor|Gloss=4.Aor|nWord=9|RX=PNG.TAM
+2	ɗiːbi	ɗiːb-	VERB	_	_	1	comp:aux	_	AlignBegin=1.29803e+06|AlignEnd=1.29813e+06|GE=scoop_out|Gloss=scoop_out|nWord=10|RX=V2*|wordform=ɗiːbàː
+3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=1.29823e+06|AlignEnd=1.29843e+06|GE=/|Gloss=PUNCT|nWord=11|wordform=/
+4	à	à	AUX	_	Aspect=.Hab|Person=4	1	conj:dicto	_	AlignBegin=1.29843e+06|AlignEnd=1.29866e+06|GE=4.Aor|Gloss=4.Aor|nWord=1|RX=PNG.TAM
+5	ɗiːbi	ɗeːb-	VERB	_	_	4	comp:obj	_	AlignBegin=1.29866e+06|AlignEnd=1.29877e+06|GE=scoop_out|Gloss=scoop_out|nWord=2|RX=V2*|wordform=ɗiːbàː
+6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=1.29889e+06|AlignEnd=1.29912e+06|GE=/|Gloss=PUNCT|nWord=3|wordform=/
+7	à	à	AUX	_	_	4	conj:dicto	_	AlignBegin=1.29912e+06|AlignEnd=1.29942e+06|GE=4.Aor|Gloss=4.Aor|nWord=4|RX=PNG.TAM
+8	ɗiːbi	ɗeːb-	VERB	_	_	7	comp:obj	_	AlignBegin=1.29942e+06|AlignEnd=1.29958e+06|GE=scoop_out|Gloss=scoop_out|nWord=5|RX=V2*|wordform=ɗiːbàː
+9	ɗinyaː	ɗinyaː	NOUN	_	_	8	comp:obj	_	AlignBegin=1.29973e+06|AlignEnd=1.30004e+06|GE=plum_sp|Gloss=plum_sp|nWord=6|RX=N
+10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=1.30004e+06|AlignEnd=1.30034e+06|GE=/|Gloss=PUNCT|nWord=7|wordform=/
+11	à	à	AUX	_	_	7	conj:svc	_	AlignBegin=130090|AlignEnd=1.30114e+06|GE=4.Aor|Gloss=4.Aor|nWord=8|RX=PNG.TAM
+12	dakàː	dak-	VERB	_	_	11	comp:aux	_	AlignBegin=1.30114e+06|AlignEnd=1.30138e+06|GE=pound|Gloss=pound|nWord=9|RX=V1
+13	ta	ta	PRON	_	Person=3	12	comp:obj	_	AlignBegin=1.30138e+06|AlignEnd=1.30162e+06|GE=3Fem|Gloss=3Fem|nWord=10|RX=PRO.OBJ
+14	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.30162e+06|AlignEnd=1.30185e+06|GE=/|Gloss=PUNCT|nWord=11|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_1165-1166
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 1302150, 1305540
+# sent_timecode = 1.30215e+06, 1.30554e+06
 # phonetic_text = à shânyaː ta tà buːshèː // à dakèː ta /
-# text = à shânyaː ta tà buːshèː // à dakèː ta /
-# text_en =  you dry it. You pound it.
-1	à	à	AUX	_	_	3	mod	_	AlignBegin=1.30215e+06|AlignEnd=1.30243e+06|GE=4.Aor|Gloss=4.Aor|nWord=1|RX=PNG.TAM
+# text = à shânyaː ta |c tà buːshèː |c à dakèː ta //
+# text_en = You put it to dry, when it is dry, you pound it.
+1	à	à	AUX	_	_	0	root	_	AlignBegin=1.30215e+06|AlignEnd=1.30243e+06|GE=4.Aor|Gloss=4.Aor|nWord=1|RX=PNG.TAM
 2	shânyaː	shany-	VERB	_	_	1	comp:aux	_	AlignBegin=1.30243e+06|AlignEnd=1.30272e+06|GE=dry|Gloss=dry|nWord=2|RX=V1
-3	ta	ta	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=1.30272e+06|AlignEnd=13030|GE=3Fem|Gloss=3Fem|nWord=3|RX=PRO.OBJ
-4	tà	tà	AUX	_	Aspect=Aor|Person=3	3	mod@poss	_	AlignBegin=13030|AlignEnd=1.30329e+06|GE=3Fem|Gloss=3Fem|nWord=4|RX=PNG.TAM
-5	buːshèː	buːsh-	VERB	_	_	4	comp:aux	_	AlignBegin=1.30329e+06|AlignEnd=1.30357e+06|GE=dry|Gloss=dry|nWord=5|RX=V4
-6	//	//	PUNCT	_	_	7	punct	_	AlignBegin=1.30357e+06|AlignEnd=1.30385e+06|GE=//|Gloss=PUNCT|nWord=6
-7	à	à	AUX	_	Aspect=Aor|Person=4	3	conj:dicto	_	AlignBegin=1.30489e+06|AlignEnd=1.30506e+06|GE=4.Aor|Gloss=4.Aor|nWord=7|RX=PNG.TAM
-8	dakèː	dakèː	VERB	_	_	7	comp:obj	_	AlignBegin=1.30506e+06|AlignEnd=1.30522e+06|GE=pound|Gloss=pound|nWord=8|RX=V4
-9	ta	ta	PRON	_	Person=3	7	mod	_	AlignBegin=1.30522e+06|AlignEnd=1.30538e+06|GE=3Fem|Gloss=3Fem|nWord=9|RX=PRO.OBJ
-10	<	<	PUNCT	_	_	3	punct	_	AlignBegin=1.30538e+06|AlignEnd=1.30554e+06|GE=/|Gloss=PUNCT|nWord=10|wordform=/
+3	ta	ta	PRON	_	Aspect=Perf|Person=3	2	comp:obj	_	AlignBegin=1.30272e+06|AlignEnd=13030|GE=3Fem|Gloss=3Fem|nWord=3|RX=PRO.OBJ
+4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=1.30272e+06|AlignEnd=13030|Gloss=PUNCT|RX=PUNCT
+5	tà	tà	AUX	_	Aspect=Aor|Person=3	1	conj:coord	_	AlignBegin=13030|AlignEnd=1.30329e+06|GE=3Fem|Gloss=3Fem|nWord=4|RX=PNG.TAM
+6	buːshèː	buːs-	VERB	_	_	5	comp:aux	_	AlignBegin=1.30329e+06|AlignEnd=1.30357e+06|GE=dry|Gloss=dry|nWord=5|RX=V4
+7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=1.30329e+06|AlignEnd=1.30357e+06|GE=dry|Gloss=dry|nWord=5|RX=V4
+8	à	à	AUX	_	Aspect=Aor|Person=4	5	conj:coord	_	AlignBegin=1.30489e+06|AlignEnd=1.30506e+06|GE=4.Aor|Gloss=4.Aor|nWord=7|RX=PNG.TAM
+9	dakèː	dak-	VERB	_	_	8	comp:obj	_	AlignBegin=1.30506e+06|AlignEnd=1.30522e+06|GE=pound|Gloss=pound|nWord=8|RX=V4
+10	ta	ta	PRON	_	Person=3	9	comp:obj	_	AlignBegin=1.30522e+06|AlignEnd=1.30538e+06|GE=3Fem|Gloss=3Fem|nWord=9|RX=PRO.OBJ
+11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1.30538e+06|AlignEnd=1.30554e+06|GE=/|Gloss=PUNCT|nWord=10|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_1167-1168
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 1305540, 1307872
+# sent_timecode = 1.30554e+06, 1.30787e+06
 # phonetic_text = tòː ka ganiː yànzu dukà / zaːmàniː Allàː yaː kaːwoː mù //
 # text = tòː ka ga yànzu duk / zaːmàniː Allàː yaː kaːwoː mù //
 # text_en =  well you see nowadays, the things that God has brought to us,
