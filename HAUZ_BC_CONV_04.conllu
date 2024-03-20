@@ -12444,15 +12444,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1496440, 1499320
 # phonetic_text = hmː // loːkàciː -ǹ kàmar̃ maː yànzu akà faːràː //
-# text = loːkàciː-ǹ kàman maː yànzu akà faːràː //
-# text_en = It's at that time that like now, they start.
-1	loːkàciː-ǹ	loːkàciː-iː	NOUN	_	Number=Plur	5	dislocated@top	_	AlignBegin=1497210|AlignEnd=1497360|GE=time.Def|Gloss=time.Def|nWord=3|RX=N|wordform=loːkàciː
-2	kàman	kàman	ADP	_	_	5	mod	_	AlignBegin=1497510|AlignEnd=1497810|GE=like|Gloss=like|nWord=4|RX=PREP|wordform=kàmar̃
+# text = loːkàcîn kàman maː yànzu akà faːràː //
+# text_en = At that time, it's like now they started.
+1	loːkàcîn	loːkàciː	NOUN	_	Number=Plur	2	mod	_	AlignBegin=1497210|AlignEnd=1497360|GE=time.Def|Gloss=time.Def|nWord=3|RX=N|wordform=loːkàciː
+2	kàman	kàman	ADP	_	_	0	root	_	AlignBegin=1497510|AlignEnd=1497810|GE=like|Gloss=like|nWord=4|RX=PREP|wordform=kàmar̃
 3	maː	maː	ADV	_	_	2	mod	_	AlignBegin=1497810|AlignEnd=1498120|GE=even|Gloss=even|nWord=5|RX=PART.TOP
 4	yànzu	yànzu	ADV	_	_	2	comp:obj	_	AlignBegin=1498120|AlignEnd=1498420|GE=now|Gloss=now|nWord=6|RX=ADV.DEICT
-5	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	0	root	_	AlignBegin=1498420|AlignEnd=1498720|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=7|RX=PNG.TAM
+5	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	2	comp:cleft	_	AlignBegin=1498420|AlignEnd=1498720|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=7|RX=PNG.TAM
 6	faːràː	faːr-	VERB	_	_	5	comp:aux	_	AlignBegin=1498720|AlignEnd=1499020|GE=begin|Gloss=begin|nWord=8|RX=V1
-7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=1499020|AlignEnd=1499320|GE=//|Gloss=PUNCT|nWord=9
+7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=1499020|AlignEnd=1499320|GE=//|Gloss=PUNCT|nWord=9
 
 # sent_id = HAUZ_BC_CONV_04_1348-1348
 # speaker_id = SP2
@@ -12460,32 +12460,40 @@
 # sent_timecode = 1497473, 1499320
 # phonetic_text = kanàː saːraː kanàː saːraː àmmaː baː kàː jîː //
 # text = kanàː saːraː kanàː saːraː àmmaː baːkàː jîː //
-# text_en =  You are digging, you are digging, but you don't hear.
+# text_en =  You are digging, you are digging, but you don't feel anything.
 1	kanàː	nàː	AUX	_	Person=2	0	root	_	AlignBegin=1497470|AlignEnd=1497680|GE=2Masc.Imp|Gloss=2Masc.Imp|nWord=1|RX=PNG.TAM
-2	saːraː	saːr-	VERB	_	_	1	comp:aux	_	AlignBegin=1497680|AlignEnd=1497880|GE=felling|Gloss=felling|nWord=2|RX=N.V1
-3	kanàː	nàː	AUX	_	Aspect=Imp|Person=2	1	conj:coord	_	AlignBegin=1497880|AlignEnd=1498090|GE=2Masc.Imp|Gloss=2Masc.Imp|nWord=3|RX=PNG.TAM
-4	saːraː	saːr-	VERB	_	_	3	comp:aux	_	AlignBegin=1498090|AlignEnd=1498290|GE=felling|Gloss=felling|nWord=4|RX=N.V1
-5	àmmaː	àmmaː	CCONJ	_	_	6	discourse	_	AlignBegin=1498290|AlignEnd=149850|ExtPos=CCONJ|GE=but|Gloss=but|nWord=5|RX=CONJ
-6	baːkàː	bâi	AUX	_	Number=Plur	4	mod	_	AlignBegin=149850|AlignEnd=149870|GE=Neg|Gloss=2Masc.Imp.Neg|nWord=6|RX=PART.Neg
-7	jîː	jîː	VERB	_	_	6	mod	_	AlignBegin=1498910|AlignEnd=1499110|GE=feel|Gloss=feel|nWord=8|RX=N.V0
+2	saːraː	saːr-	VERB	_	_	1	comp:aux	_	AlignBegin=1497680|AlignEnd=1497880|GE=hacking|Gloss=dig.Vnoun|nWord=2|RX=N.V1
+3	kanàː	nàː	AUX	_	Aspect=Imp|Person=2	1	conj:redup	_	AlignBegin=1497880|AlignEnd=1498090|GE=2Masc.Imp|Gloss=2Masc.Imp|nWord=3|RX=PNG.TAM
+4	saːraː	saːr-	VERB	_	_	3	comp:aux	_	AlignBegin=1498090|AlignEnd=1498290|GE=felling|Gloss=dig.Vnoun|nWord=4|RX=N.V1
+5	àmmaː	àmmaː	CCONJ	_	_	6	cc	_	AlignBegin=1498290|AlignEnd=149850|ExtPos=CCONJ|GE=but|Gloss=but|nWord=5|RX=CONJ
+6	baːkàː	bâi	AUX	_	Number=Plur	3	conj:coord	_	AlignBegin=149850|AlignEnd=149870|GE=Neg|Gloss=2Masc.Imp.Neg|nWord=6|RX=PART.Neg
+7	jîː	ji	VERB	_	_	6	mod	_	AlignBegin=1498910|AlignEnd=1499110|GE=hear|Gloss=hear.Vnoun|nWord=8|RX=N.V0
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1499110|AlignEnd=1499320|GE=//|Gloss=PUNCT|nWord=9
 
-# sent_id = HAUZ_BC_CONV_04_1349-1351
+# sent_id = HAUZ_BC_CONV_04_1349-1349
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 1499320, 1501081
+# sent_timecode = 1499320, 1500060
 # phonetic_text = baː kà jîː // kanàː iːhùː / kanàː kâi -n //
-# text = baːkà jîː // kanàː iːhùː / kanàː kân //
-# text_en =  you don't hear. You are yelling you are on it,
-1	baːkà	bâi	AUX	_	Polarity=Neg	7	parataxis@discourse	_	AlignBegin=1499320|AlignEnd=149950|GE=Neg|Gloss=2Masc.Imp.Neg|nWord=1|RX=PART.Neg
+# text = baːkà jîː //
+# text_en = You don't feel anything.
+1	baːkà	bâi	AUX	_	Polarity=Neg	0	root	_	AlignBegin=1499320|AlignEnd=149950|GE=Neg|Gloss=2Masc.Imp.Neg|nWord=1|RX=PART.Neg
 2	jîː	jîː	VERB	_	_	1	comp:aux	_	AlignBegin=1499690|AlignEnd=1499880|GE=feel|Gloss=feel|nWord=3|RX=N.V0
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1499880|AlignEnd=1500060|GE=//|Gloss=PUNCT|nWord=4
-4	kanàː	nàː	AUX	_	Person=2	1	conj:coord	_	AlignBegin=1500060|AlignEnd=1500240|GE=2Masc.Imp|Gloss=2Masc.Imp|nWord=5|RX=PNG.TAM
-5	iːhùː	iːhùː	VERB	_	VerbForm=Vnoun	4	comp:aux	_	AlignBegin=1500240|AlignEnd=1500430|ExtPos=NOUN|GE=shouting|Gloss=shouting|nWord=6|RX=N
-6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=1500430|AlignEnd=1500610|GE=/|Gloss=PUNCT|nWord=7|wordform=/
-7	kanàː	nàː²	AUX	_	Person=2	0	root	_	AlignBegin=1500610|AlignEnd=1500770|GE=2Masc.Imp|Gloss=2Masc.Imp|nWord=8|RX=PNG.TAM
-8	kân	kân	PART	_	_	7	comp:pred	_	AlignBegin=1500770|AlignEnd=1500850|GE=head.Cons|Gloss=head.Cons|nWord=9|RX=N|wordform=kâi
-9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1500930|AlignEnd=1501080|GE=//|Gloss=PUNCT|nWord=10
+
+# sent_id = HAUZ_BC_CONV_04_1350-1351
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 1500060, 1501081
+# phonetic_text = baː kà jîː // kanàː iːhùː / kanàː kâi -n //
+# text = kanàː iːhùː |c kanàː kân //
+# text_en = You are groaning, you are on it.
+1	kanàː	nàː	AUX	_	Person=2	0	root	_	AlignBegin=1500060|AlignEnd=1500240|GE=2Masc.Imp|Gloss=2Masc.Imp|nWord=5|RX=PNG.TAM
+2	iːhùː	iːhùː	NOUN	_	VerbForm=Vnoun	1	comp:aux	_	AlignBegin=1500240|AlignEnd=1500430|ExtPos=NOUN|GE=shouting|Gloss=shouting|nWord=6|RX=N
+3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=1500430|AlignEnd=1500610|GE=/|Gloss=PUNCT|nWord=7|wordform=/
+4	kanàː	nàː²	AUX	_	Person=2	1	conj:svc	_	AlignBegin=1500610|AlignEnd=1500770|GE=2Masc.Imp|Gloss=2Masc.Pred/Loc|nWord=8|RX=PNG.TAM
+5	kân	kân	ADP	_	_	4	comp:pred	_	AlignBegin=1500770|AlignEnd=1500850|GE=on_top|Gloss=on_top|nWord=9|RX=N|wordform=kâi
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1500930|AlignEnd=1501080|GE=//|Gloss=PUNCT|nWord=10
 
 # sent_id = HAUZ_BC_CONV_04_1352-1352
 # speaker_id = SP2

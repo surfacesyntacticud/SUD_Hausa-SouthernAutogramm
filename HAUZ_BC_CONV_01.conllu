@@ -647,12 +647,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 86378, 89355
 # phonetic_text = tòː shiː wânnan dìnkin ɗîn kukàn saidàː neː ?// koː kukànːːː / bash shì neː à gidaː //
-# text = tòː shiː wânnan dìnkin ɗîn kukàn saidàː neː ?// koː kukànːːː / bash shì neː à gidaː //
+# text = tòː shiː wânnan dìnkîn ɗîn kukàn saidàː neː ?// koː kukànːːː / bash shì neː à gidaː //
 # text_en = Well those leaves, did you sell them or did you... give it to the (people of the) house ?
 1	tòː	tòː	PART	_	_	6	discourse	_	AlignBegin=86378|AlignEnd=86543|GE=well|Gloss=well|nWord=1|RX=DM
 2	shiː	shiː	PRON	_	Case=Nom|Person=3	6	dislocated@comp	_	AlignBegin=86543|AlignEnd=86708|GE=3Masc|Gloss=3Masc.Nom|nWord=2|RX=PRO.IDP
 3	wânnan	wânnan	DET	_	Definite=Def	4	det	_	AlignBegin=86708|AlignEnd=86873|GE=Def|Gloss=Def|nWord=3|RX=PRO.DEICT
-4	dìnkin	dìnkiː	NOUN	_	Definite=Cons	2	conj:appos	_	AlignBegin=86873|AlignEnd=87038|GE=edible_leaves|Gloss=edible_leaves.Cons|nWord=4|RX=N
+4	dìnkîn	dìnkiː	NOUN	_	_	2	conj:appos	_	AlignBegin=86873|AlignEnd=87038|GE=edible_leaves|Gloss=edible_leaves.def|nWord=4|RX=N
 5	ɗîn	ɗin	DET	_	Definite=Def	4	det	_	AlignBegin=87038|AlignEnd=87203|GE=Def|Gloss=of.Def|nWord=5|RX=PART
 6	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	0	root	_	AlignBegin=87203|AlignEnd=87368|GE=2Plur.Hab|Gloss=2Plur.Hab|nWord=6|RX=PNG.TAM
 7	saidàː	saidàː	VERB	_	_	6	comp:aux	_	AlignBegin=87368|AlignEnd=87533|GE=sell|Gloss=sell|nWord=7|RX=V1
@@ -3021,7 +3021,7 @@
 2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=376610|AlignEnd=376770|GE=too|Gloss=also|nWord=2|RX=PART.TOP
 3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=376770|AlignEnd=376931|Gloss=PUNCT|nWord=3
 4	mutàːneː	mùtûm	NOUN	_	Number=Plur	1	conj:appos	_	AlignBegin=376931|AlignEnd=377025|GE=person|Gloss=person.Plur|nWord=4|RX=N
-5	zaːsù	zaː	AUX	_	ExtPos=NOUN|Number=Plur|Person=3|Tense=Fut|VerbForm=Vnoun	0	root	_	AlignBegin=377120|AlignEnd=377309|GE=Fut.3Plur|Gloss=3Plur.Fut|nWord=5|RX=TAM.PNG
+5	zaːsù	zaː	AUX	_	ExtPos=NOUN|Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=377120|AlignEnd=377309|GE=Fut.3Plur|Gloss=3Plur.Fut|nWord=5|RX=TAM.PNG
 6	zoː	zoː	VERB	_	_	5	comp:aux	_	AlignBegin=377309|AlignEnd=377498|GE=come|Gloss=come|nWord=6|RX=V0
 7	hakà	hakà	ADV	_	_	6	mod	_	AlignBegin=377498|AlignEnd=377687|GE=like_this|Gloss=like_this|nWord=7|RX=ADV
 8	sù	à	AUX	_	Aspect=Aor|Number=Plur|Person=3	5	conj:coord	_	AlignBegin=377687|AlignEnd=377876|GE=3Plur.Aor|Gloss=3Plur.Aor|nWord=8|RX=PNG.TAM
@@ -3707,7 +3707,7 @@
 # text_en =  There is one old woman, named Basa.
 1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=469186|AlignEnd=469412|GE=there_is|Gloss=there_is|nWord=1|RX=PART.SYNT
 2	wata	wata	DET	_	Definite=Spec|Gender=Fem|PronType=Ind	3	det	_	AlignBegin=469412|AlignEnd=469638|GE=some.F|Gloss=some.Fem|nWord=2|RX=DET.INDF
-3	tsoːhuwaː	tsoːhuwaː	NOUN	_	ExtPos=NOUN|VerbForm=Vnoun	1	subj	_	AlignBegin=469638|AlignEnd=469864|GE=old_woman|Gloss=old_woman|nWord=3|RX=N
+3	tsoːhuwaː	tsoːhuwaː	NOUN	_	ExtPos=NOUN	1	subj	_	AlignBegin=469638|AlignEnd=469864|GE=old_woman|Gloss=old_woman|nWord=3|RX=N
 4	wandà	wandà	PRON	_	PronType=Rel	6	mod@poss	_	AlignBegin=470090|AlignEnd=470316|GE=who|Gloss=who|nWord=5|RX=PRO.COMP
 5	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	8	dislocated@top	_	AlignBegin=470316|AlignEnd=470542|GE=3Fem|Gloss=3Fem.Nom|nWord=6|RX=PRO.IDP
 6	suːnan	suːnaː	NOUN	_	Definite=Cons|Number=Plur	8	subj	_	AlignBegin=470542|AlignEnd=470617|GE=name|Gloss=name.Cons|nWord=7|RX=N
@@ -3735,7 +3735,7 @@
 1	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	12	dislocated@top	_	AlignBegin=472305|AlignEnd=472524|GE=3Fem|Gloss=3Fem.Nom|nWord=1|RX=PRO.IDP
 2	suːnan	suːnaː	NOUN	_	Definite=Cons	12	dislocated@top	_	AlignBegin=472524|AlignEnd=472634|GE=name|Gloss=name.Cons|nWord=2|RX=N
 3	wânnan	wânnan	PRON	_	Definite=Def	4	det	_	AlignBegin=472743|AlignEnd=472962|GE=Def|Gloss=Def|nWord=3|RX=PRO.DEICT
-4	tsoːhuwaː	tsoːhuwaː	ADV	_	ExtPos=NOUN|VerbForm=Vnoun	2	mod	_	AlignBegin=472962|AlignEnd=473181|GE=old_woman|Gloss=old_woman|nWord=4|RX=N
+4	tsoːhuwaː	tsoːhuwaː	ADV	_	ExtPos=NOUN	2	mod	_	AlignBegin=472962|AlignEnd=473181|GE=old_woman|Gloss=old_woman|nWord=4|RX=N
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=473181|AlignEnd=473400|Gloss=PUNCT|nWord=5
 6	ìdan	ìdan	SCONJ	_	_	12	mod	_	AlignBegin=473400|AlignEnd=473619|GE=if|Gloss=if|nWord=6|RX=CONJ
 7	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	6	comp:obj	_	AlignBegin=473619|AlignEnd=473838|GE=Fut.1Sing|Gloss=1Sing.Fut|nWord=7|RX=TAM.PNG
@@ -3777,14 +3777,14 @@
 10	baː	baː	VERB	_	_	9	comp:aux	_	AlignBegin=479663|AlignEnd=479849|GE=give|Gloss=give|nWord=10|RX=V*|wordform=bâː
 11	kà	kà	PRON	_	Gender=Masc|Person=2	10	comp:ben	_	AlignBegin=479849|AlignEnd=480035|GE=2Masc|Gloss=2Masc|nWord=11|RX=PRO
 12	làːbarìn	làːbarìː	NOUN	_	Definite=Cons	10	comp:obj	_	AlignBegin=480035|AlignEnd=480128|GE=story|Gloss=story.Cons|nWord=12|RX=N
-13	cêːwaː	cêːwaː	SCONJ	_	ExtPos=NOUN|VerbForm=Vnoun	12	comp:obj	_	AlignBegin=480221|AlignEnd=480407|GE=that_is|Gloss=COMP|nWord=13|RX=COMP
+13	cêːwaː	cêːwaː	SCONJ	_	ExtPos=NOUN	12	comp:obj	_	AlignBegin=480221|AlignEnd=480407|GE=that_is|Gloss=COMP|nWord=13|RX=COMP
 14	eː	eː	INTJ	_	_	15	discourse	_	AlignBegin=480407|AlignEnd=480593|GE=FILL|Gloss=FILL|nWord=14|RX=FILL
 15	inàː	nàː²	AUX	_	Number=Sing|Person=1	13	udep	_	AlignBegin=480779|AlignEnd=480965|GE=be|Gloss=1Sing.Pred/Loc|nWord=16|RX=COP|wordform=nàː
 16	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	15	comp:pred	_	AlignBegin=480965|AlignEnd=481151|GE=staying|Gloss=stay.Stat|nWord=17|RX=STAT
 17	nèː	neː	PART	_	_	16	mod@emp	_	AlignBegin=481151|AlignEnd=481337|GE=Ident/Blg|Gloss=Ident/Blg|nWord=18|RX=PART.SYNT
 18	à	à	ADP	_	_	16	comp:obl	_	AlignBegin=481337|AlignEnd=481523|GE=at|Gloss=at|nWord=19|RX=PREP
 19	Gùndumàn	Gùndumàn	PROPN	_	Definite=Cons	18	comp:obj	_	AlignBegin=481523|AlignEnd=481709|GE=Gunduman|Gloss=ward.Cons|nWord=20|RX=N.P
-20	Basaːwaː	Basaːwaː	PROPN	_	ExtPos=NOUN|VerbForm=Vnoun	19	flat:name	_	AlignBegin=481709|AlignEnd=481895|GE=Basawa|Gloss=Basawa|nWord=21|RX=N.P|wordform=basaːwa
+20	Basaːwaː	Basaːwaː	PROPN	_	ExtPos=NOUN	19	flat:name	_	AlignBegin=481709|AlignEnd=481895|GE=Basawa|Gloss=Basawa|nWord=21|RX=N.P|wordform=basaːwa
 21	//	//	PUNCT	_	_	1	punct	_	AlignBegin=482081|AlignEnd=482258|Gloss=PUNCT|nWord=23
 
 # sent_id = HAUZ_BC_CONV_01_SP2_171-171
@@ -3957,7 +3957,7 @@
 6	nèː	neː	PART	_	_	0	root	_	AlignBegin=498710|AlignEnd=498884|GE=Ident/Blg|Gloss=Ident/Blg|nWord=6|RX=PART.SYNT
 7	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	6	comp:cleft	_	AlignBegin=498884|AlignEnd=499058|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=7|RX=PNG.TAM
 8	saːmoː	saːm-	VERB	_	_	7	comp:aux	_	AlignBegin=499058|AlignEnd=499232|GE=get.DIR|Gloss=get.DIR|nWord=8|RX=V6
-9	Basaːwaː	Basaːwaː	PROPN	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=499406|AlignEnd=499493|GE=Basawa|Gloss=Basawa|nWord=10|RX=N.P|wordform=basaːwa
+9	Basaːwaː	Basaːwaː	PROPN	_	ExtPos=NOUN	8	comp:obj	_	AlignBegin=499406|AlignEnd=499493|GE=Basawa|Gloss=Basawa|nWord=10|RX=N.P|wordform=basaːwa
 10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=499493|AlignEnd=499580|Gloss=PUNCT|nWord=10
 
 # sent_id = HAUZ_BC_CONV_01_SP2_182-184
@@ -4030,7 +4030,7 @@
 # text_en =  She that old woman that's why we got the village of Basawa.
 1	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	5	mod	_	AlignBegin=509343|AlignEnd=509497|GE=3Fem|Gloss=3Fem.Nom|nWord=1|RX=PRO.IDP
 2	wânnan	wânnan	DET	_	Definite=Def	3	det	_	AlignBegin=509497|AlignEnd=509651|GE=Def|Gloss=Def|nWord=2|RX=PRO.DEICT
-3	tsoːhuwân	tsoːhuwaː	NOUN	_	Definite=Def|ExtPos=NOUN|VerbForm=Vnoun	1	conj:appos	_	AlignBegin=509651|AlignEnd=509728|GE=old_woman|Gloss=old_woman.Def|nWord=3|RX=N
+3	tsoːhuwân	tsoːhuwaː	NOUN	_	Definite=Def|ExtPos=NOUN	1	conj:appos	_	AlignBegin=509651|AlignEnd=509728|GE=old_woman|Gloss=old_woman.Def|nWord=3|RX=N
 4	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	5	comp:pred	_	AlignBegin=509959|AlignEnd=510113|GE=3Masc.|Gloss=3Masc..Nom|nWord=5|RX=PRO.IDP
 5	nèː	neː	PART	_	_	0	root	_	AlignBegin=510113|AlignEnd=510267|GE=Ident/Blg|Gloss=Ident/Blg|nWord=6|RX=PART.SYNT
 6	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	5	comp:cleft	_	AlignBegin=510267|AlignEnd=510421|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=7|RX=PNG.TAM
@@ -4420,7 +4420,7 @@
 5	jènèr̃etòː	jènèr̃etòː	NOUN	_	Foreign=Yes	4	comp:obj	_	AlignBegin=563291|AlignEnd=563507|GE=generator|Gloss=generator|Lang=en|nWord=5|RX=N
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=563507|AlignEnd=563726|Gloss=PUNCT|nWord=6
 7	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=563726|AlignEnd=563884|GE=3Masc.|Gloss=3Masc.Nom|nWord=7|RX=PRO.IDP
-8	mukèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|ExtPos=NOUN|Number=Plur|Person=1|VerbForm=Vnoun	7	comp:cleft	_	AlignBegin=563884|AlignEnd=564042|GE=1Plur.Imp.Bkg|Gloss=1Plur.Imp.Bck|nWord=8|RX=PNG.TAM
+8	mukèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|ExtPos=NOUN|Number=Plur|Person=1	7	comp:cleft	_	AlignBegin=563884|AlignEnd=564042|GE=1Plur.Imp.Bkg|Gloss=1Plur.Imp.Bck|nWord=8|RX=PNG.TAM
 9	baː	baː	VERB	_	_	8	comp:aux	_	AlignBegin=564042|AlignEnd=564200|GE=give|Gloss=give|nWord=9|RX=V*|wordform=bâː
 10	sù	sù	PRON	_	Number=Plur|Person=3|PronType=Prs	9	comp:ben	_	AlignBegin=564200|AlignEnd=564358|GE=3Plur|Gloss=3Plur|nWord=10|RX=PRO.OBJ
 11	wânnan	wânnan	DET	_	Definite=Def	12	det	_	AlignBegin=564358|AlignEnd=564516|GE=Def|Gloss=Def|nWord=11|RX=PRO.DEICT
@@ -4563,7 +4563,7 @@
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	parataxis@discourse	_	AlignBegin=581782|AlignEnd=581941|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=1|RX=PNG.TAM
 2	sanìː	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=581941|AlignEnd=582100|GE=know|Gloss=know|nWord=2|RX=V*
 3	màːsu	màːsu	NOUN	_	Number=Plur	7	dislocated@subj	_	AlignBegin=582100|AlignEnd=582259|GE=ATTR.Plur|Gloss=holder_of.Plur|nWord=3|RX=PART.SYNT
-4	kiːwòn	kiːwòː	NOUN	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	compound	_	AlignBegin=582259|AlignEnd=582339|GE=cattle_breeding|Gloss=cattle_breeding.Cons|nWord=4|RX=N.V4
+4	kiːwòn	kiːwòː	NOUN	_	Definite=Cons|ExtPos=NOUN	3	compound	_	AlignBegin=582259|AlignEnd=582339|GE=cattle_breeding|Gloss=cattle_breeding.Cons|nWord=4|RX=N.V4
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=582418|AlignEnd=582577|Gloss=PUNCT|nWord=5
 6	bàː	bàː	PART	_	_	7	mod	_	AlignBegin=582779|AlignEnd=582925|GE=Neg|Gloss=Neg|nWord=6|RX=PART.Neg
 7	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=582925|AlignEnd=583071|GE=3Plur.Perf|Gloss=3Plur.Perf|nWord=7|RX=PNG.TAM
