@@ -257,14 +257,14 @@
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=39051|AlignEnd=39153|GE=then|Gloss=then|nWord=1|RX=CONJ/HOM
 2	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=39153|AlignEnd=39255|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bck|nWord=2|RX=PNG.TAM
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=39255|AlignEnd=39357|GE=say|Gloss=say|nWord=3|RX=V*
-4	matà	matà	PRON	_	Person=3	3	comp:obj	_	AlignBegin=39357|AlignEnd=39459|GE=3Fem|Gloss=3Fem|nWord=4|RX=PRO.Dat
+4	matà	matà	PRON	_	Case=Ben|Person=3	3	comp:ben	_	AlignBegin=39357|AlignEnd=39459|GE=3Fem|Gloss=3Fem.Ben|nWord=4|RX=PRO.Dat
 5	<	<	PUNCT	_	_	6	punct	_	AlignBegin=39459|AlignEnd=39563|Gloss=PUNCT|nWord=5|wordform=/
-6	kaːmà	kaːm-	VERB	_	_	9	discourse	_	AlignBegin=39563|AlignEnd=39782|GE=catch.Jus|Gloss=catch.Jus|nWord=6|RX=V1.TAM/ATO
+6	kaːmà	kaːm-	VERB	_	_	3	comp:obj	_	AlignBegin=39563|AlignEnd=39782|GE=catch.Jus|Gloss=catch.Jus|nWord=6|RX=V1.TAM/ATO
 7	hanyàː	hanyàː	NOUN	_	_	6	mod	_	AlignBegin=39782|AlignEnd=40001|GE=road|Gloss=road|nWord=7|RX=N
-8	<	<	PUNCT	_	_	6	punct	_	AlignBegin=40001|AlignEnd=40221|Gloss=PUNCT|nWord=8|wordform=/
-9	gàː	gàː	PART	_	_	3	comp:obj	_	AlignBegin=40221|AlignEnd=40357|GE=here_is|Gloss=here_is|nWord=9|RX=PART.SYNT
+8	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=40001|AlignEnd=40221|Gloss=PUNCT|nWord=8|wordform=/
+9	gàː	gàː	PART	_	_	6	parataxis	_	AlignBegin=40221|AlignEnd=40357|GE=here_is|Gloss=here_is|nWord=9|RX=PART.SYNT
 10	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	subj	_	AlignBegin=40357|AlignEnd=40493|GE=3Masc.|Gloss=3Masc.|nWord=10|RX=PRO.OBJ
-11	cân	cân	ADV	_	_	9	mod	_	AlignBegin=40493|AlignEnd=40629|GE=Dist1|Gloss=Dist1|nWord=11|RX=ADV.DEICT
+11	cân	cân	ADV	_	_	9	comp:pred	_	AlignBegin=40493|AlignEnd=40629|GE=Dist1|Gloss=Dist1|nWord=11|RX=ADV.DEICT
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=40629|AlignEnd=40766|Gloss=PUNCT|nWord=12
 
 # sent_id = HAUZ_BC_NARR_01_SP2_03-03
@@ -1610,16 +1610,16 @@
 # sent_timecode = 213740, 215341
 # phonetic_text = tòː gàː shi yànzu wàhalàː yaː ìsaː -eː kà //
 # text = tòː gàː shi yànzu wàhalàː yaː ìsheː kà //
-# text_en =  Well and now, you are in trouble.
-1	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=213740|AlignEnd=213918|GE=well|Gloss=well|nWord=1|RX=DM
-2	gàː	gàː	PART	_	_	6	mod	_	AlignBegin=213918|AlignEnd=214096|GE=here_is|Gloss=here_is|nWord=2|RX=PART.SYNT
+# text_en =  Well here you are, now you are in trouble.
+1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=213740|AlignEnd=213918|GE=well|Gloss=well|nWord=1|RX=DM
+2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=213918|AlignEnd=214096|GE=here_is|Gloss=here_is|nWord=2|RX=PART.SYNT
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=214096|AlignEnd=214274|GE=3Masc.|Gloss=3Masc.|nWord=3|RX=PRO.OBJ
 4	yànzu	yànzu	ADV	_	_	6	mod	_	AlignBegin=214274|AlignEnd=214452|GE=now|Gloss=now|nWord=4|RX=ADV.DEICT
 5	wàhalàː	wàhalàː	NOUN	_	_	6	subj	_	AlignBegin=214452|AlignEnd=214630|GE=trouble|Gloss=trouble|nWord=5|RX=N
-6	yaː	yaː	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=214630|AlignEnd=214808|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=6|RX=PNG.TAM
+6	yaː	yaː	AUX	_	Aspect=Perf|Person=3	2	parataxis	_	AlignBegin=214630|AlignEnd=214808|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=6|RX=PNG.TAM
 7	ìsheː	ìsheː	VERB	_	_	6	comp:aux	_	AlignBegin=214808|AlignEnd=214897|GE=be_enough|Gloss=be_enough|nWord=7|RX=V2
 8	kà	kà	PRON	_	_	7	comp:obj	_	AlignBegin=214986|AlignEnd=215164|GE=2Masc.Aor|Gloss=2Masc.Aor|nWord=8|RX=PNG.TAM
-9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=215164|AlignEnd=215341|Gloss=PUNCT|nWord=9
+9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=215164|AlignEnd=215341|Gloss=PUNCT|nWord=9
 
 # sent_id = HAUZ_BC_NARR_01_SP1_174-174
 # speaker_id = SP1
@@ -1630,7 +1630,7 @@
 # text_en =  Now you remember.
 1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=216341|AlignEnd=216514|GE=here_is|Gloss=here_is|nWord=1|RX=PART.SYNT
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	1	subj	_	AlignBegin=216514|AlignEnd=216687|GE=3Masc.|Gloss=3Masc.|nWord=2|RX=PRO.OBJ
-3	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:cleft	_	AlignBegin=216687|AlignEnd=216860|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=3|RX=PNG.TAM
+3	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	parataxis	_	AlignBegin=216687|AlignEnd=216860|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=3|RX=PNG.TAM
 4	tunàː	-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=216860|AlignEnd=217033|GE=think|Gloss=think|nWord=4|RX=V1
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=217033|AlignEnd=217208|Gloss=PUNCT|nWord=5
 

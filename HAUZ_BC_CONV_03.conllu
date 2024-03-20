@@ -1948,13 +1948,13 @@
 6	faɗàː	faɗàː	VERB	_	_	5	comp:aux	_	AlignBegin=244261|AlignEnd=244394|GE=tell|Gloss=tell|nWord=6|RX=V1
 7	mà	mà	ADP	_	_	6	comp:obl	_	AlignBegin=244394|AlignEnd=244527|GE=BEN|Gloss=Ben|nWord=7|RX=PART.SYNT
 8	sarkîn	sarkiː	NOUN	_	Definite=Def	7	comp:aux	_	AlignBegin=244527|AlignEnd=244593|GE=king.Def|Gloss=king.Def|nWord=8|RX=N|wordform=sarkiː
-9	wai	wai	SCONJ	_	_	6	comp:obj	_	AlignBegin=244796|AlignEnd=244945|GE=EVD|Gloss=COMP|nWord=10|RX=PART
-10	gàː	gàː	PART	_	_	9	comp:obj	_	AlignBegin=244945|AlignEnd=245094|GE=here_is|Gloss=here_is|nWord=11|RX=PART.SYNT
+9	wai	wai	PART	_	_	10	mod	_	AlignBegin=244796|AlignEnd=244945|GE=EVD|Gloss=COMP|nWord=10|RX=PART
+10	gàː	gàː	PART	_	_	6	comp:obj	_	AlignBegin=244945|AlignEnd=245094|GE=here_is|Gloss=here_is|nWord=11|RX=PART.SYNT
 11	shi	shi	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=245094|AlignEnd=245243|GE=3Masc|Gloss=3Masc|nWord=12|RX=PRO.OBJ
-12	wai	wai	PRON	_	_	9	conj:coord	_	AlignBegin=245243|AlignEnd=245392|GE=EVD|Gloss=EVD|nWord=13|RX=PART
+12	wai	wai	PART	_	_	15	mod	_	AlignBegin=245243|AlignEnd=245392|GE=EVD|Gloss=EVD|nWord=13|RX=PART
 13	yaːrinyàn	yaːrinyàː	NOUN	_	Definite=Def	15	dislocated@subj	_	AlignBegin=245392|AlignEnd=245466|GE=girl.Def|Gloss=girl.Def|nWord=14|RX=N|wordform=yaːrinyàː
 14	<	<	PUNCT	_	_	13	punct	_	AlignBegin=245541|AlignEnd=245692|GE=/|Gloss=PUNCT|nWord=15|wordform=/
-15	tanàː	nàː	AUX	_	Aspect=Imp|Person=3	12	comp:obj	_	AlignBegin=245692|AlignEnd=245897|GE=3Fem.Imp|Gloss=3Fem.Imp|nWord=16|RX=PNG.TAM
+15	tanàː	nàː	AUX	_	Aspect=Imp|Person=3	10	parataxis	_	AlignBegin=245692|AlignEnd=245897|GE=3Fem.Imp|Gloss=3Fem.Imp|nWord=16|RX=PNG.TAM
 16	kai	kai	VERB	_	_	15	comp:aux	_	AlignBegin=245897|AlignEnd=246102|GE=carry|Gloss=carry|nWord=17|RX=V*
 17	mishì	mishì	PRON	_	Person=3	16	comp:ben	_	AlignBegin=246102|AlignEnd=246307|GE=3Masc|Gloss=3Masc.Dat|nWord=18|RX=PRO.BEN
 18	|c	|c	PUNCT	_	_	19	punct	_	AlignBegin=246307|AlignEnd=246512|GE=/|Gloss=PUNCT|nWord=19|wordform=/
@@ -2211,8 +2211,8 @@
 # phonetic_text = sai dà / ya cêː matà wai / ai maːgàniː -n -shì //
 # text = sai dà < ya cêː matà wai ai maːgànin =shì //
 # text_en =  Then he told her, eh his poison.
-1	sai	sai	ADV	_	_	4	mod	_	AlignBegin=281491|AlignEnd=281572|GE=then|Gloss=then|nWord=1|RX=CONJ
-2	dà	dà	CCONJ	_	_	1	unk	_	AlignBegin=281572|AlignEnd=281653|GE=as|Gloss=as|nWord=2|RX=CONJ
+1	sai	sai	ADV	_	ExtPos=ADV	4	mod	_	AlignBegin=281491|AlignEnd=281572|GE=then|Gloss=then|Idiom=Yes|nWord=1|RX=CONJ
+2	dà	dà	SCONJ	_	_	1	unk	_	AlignBegin=281572|AlignEnd=281653|GE=as|Gloss=as|InIdiom=Yes|nWord=2|RX=CONJ
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=281653|AlignEnd=281734|GE=/|Gloss=PUNCT|nWord=3|wordform=/
 4	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=281734|AlignEnd=281926|GE=3Masc.Perf.Blg|Gloss=3Masc.Perf.Bkg|nWord=4|RX=PNG.TAM
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=281926|AlignEnd=282118|GE=say|Gloss=say|nWord=5|RX=V*
@@ -3360,7 +3360,7 @@
 1	kuma	kuma	PART	_	_	2	discourse	_	AlignBegin=413338|AlignEnd=413518|GE=too|Gloss=too|nWord=1|RX=PART.TOP
 2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=413518|AlignEnd=413698|GE=here_is|Gloss=here_is|nWord=2|RX=PART.SYNT
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=413698|AlignEnd=413878|GE=3Masc|Gloss=3Masc|nWord=3|RX=PRO.OBJ
-4	gàː	gàː	PART	_	_	2	conj:coord	_	AlignBegin=413878|AlignEnd=414058|GE=here_is|Gloss=here_is|nWord=4|RX=PART.SYNT
+4	gàː	gàː	PART	_	_	2	conj:redup	_	AlignBegin=413878|AlignEnd=414058|GE=here_is|Gloss=here_is|nWord=4|RX=PART.SYNT
 5	shi	shi	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=414058|AlignEnd=414238|GE=3Masc|Gloss=3Masc|nWord=5|RX=PRO.OBJ
 6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=414238|AlignEnd=414418|GE=then|Gloss=then|nWord=6|RX=CONJ
 7	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	4	conj:coord	_	AlignBegin=414418|AlignEnd=414598|GE=3Masc.Perf.Blg|Gloss=3Masc.Perf.Bkg|nWord=7|RX=PNG.TAM
