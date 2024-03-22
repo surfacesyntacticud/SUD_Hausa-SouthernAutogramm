@@ -1600,7 +1600,7 @@
 # phonetic_text = Muːsaː Yàngaː nèː / ya yi na dâː koː //
 # text = Muːsaː Yàngaː nèː ya yi na dâː koː ?//
 # text_en =  Musa Yanga, didn't he use to do it?
-1	Muːsaː	Muːsaː	NOUN	_	Number=Plur	3	comp:pred	_	AlignBegin=187457|AlignEnd=187654|GE=Musa|Gloss=Musa|nWord=1|RX=N.P
+1	Muːsaː	Muːsaː	NOUN	_	Number=Plur	3	comp:pred	_	AlignBegin=187457|AlignEnd=187654|GE=Musa|Gloss=Musa|nWord=1|Overlap=HAUZ_BC_CONV_04_0163-0164|RX=N.P
 2	Yàngaː	Yàngaː	PROPN	_	_	1	flat:name	_	AlignBegin=187654|AlignEnd=187851|GE=Yanga|Gloss=Yanga|nWord=2|RX=N.P
 3	nèː	neː	PART	_	_	0	root	_	AlignBegin=187851|AlignEnd=188048|GE=Ident/Foc|Gloss=Ident/Foc|nWord=3|RX=PART.SYNT
 4	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	3	comp:cleft	_	AlignBegin=188246|AlignEnd=188368|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bkg|nWord=5|RX=PNG.TAM
@@ -1709,9 +1709,9 @@
 # text = har̃ dà su Taːsiːyu / Tankò na Wàine //
 # text_en =  And even Tasiyu, Tanko son of Waine.
 1	har̃	har̃	ADV	_	_	2	mod	_	AlignBegin=195976|AlignEnd=196181|GE=until|Gloss=until|nWord=1|RX=CONJ
-2	dà	dà	ADP	_	_	0	root	_	AlignBegin=196181|AlignEnd=196386|GE=with|Gloss=with|nWord=2|RX=PREP/HOM
+2	dà	dà	ADP	_	_	0	root	_	AlignBegin=196181|AlignEnd=196386|AttachTo=HAUZ_BC_CONV_04_0155-0156|GE=with|Gloss=with|nWord=2|Rel=cc|RX=PREP/HOM
 3	su	su	DET	_	Number=Plur|Person=3|PronType=Prs	4	det	_	AlignBegin=196386|AlignEnd=196591|GE=Plur|Gloss=Plur|nWord=3|RX=PART
-4	Taːsiːyu	Taːsiːyu	PROPN	_	_	2	comp:pred	_	AlignBegin=196591|AlignEnd=196796|GE=Tasiyu|Gloss=Tasiyu|nWord=4|RX=N.P
+4	Taːsiːyu	Taːsiːyu	PROPN	_	_	2	comp:obj	_	AlignBegin=196591|AlignEnd=196796|GE=Tasiyu|Gloss=Tasiyu|nWord=4|RX=N.P
 5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=196796|AlignEnd=197000|GE=/|Gloss=PUNCT|nWord=5|wordform=/
 6	Tankò	nkò	AUX	_	Aspect=Perf|Number=Sing|Person=1	4	conj:coord	_	AlignBegin=197000|AlignEnd=197216|GE=Tanko|Gloss=Tanko|nWord=6|RX=N.P
 7	na	na	PART	_	Definite=Cons	6	mod	_	AlignBegin=197216|AlignEnd=197432|GE=Cons|Gloss=Cons|nWord=7|RX=PART.SYNT
@@ -1835,11 +1835,11 @@
 # sent_timecode = 216850, 218917
 # phonetic_text = sai à sâː kaːyaː -ǹ nan kawài / sù kwaːna /
 # text = sai à sâː kaːyân nan kawài / sù kwaːna /
-# text_en = After they add the things, they leave them for the night.
+# text_en = After they add the clothes, they leave them for the night.
 1	sai	sai	SCONJ	_	_	8	mod	_	AlignBegin=216850|AlignEnd=217031|GE=after|Gloss=after|nWord=1|RX=CONJ/HOM
 2	à	à	AUX	_	Aspect=Aor|Person=4	1	comp:obj	_	AlignBegin=217031|AlignEnd=217212|GE=4.Aor|Gloss=4.Aor|nWord=2|RX=PNG.TAM
 3	sâː	sâː	VERB	_	_	2	comp:aux	_	AlignBegin=217212|AlignEnd=217393|GE=put|Gloss=put|nWord=3|RX=V1
-4	kaːyân	kaːyaː	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=217393|AlignEnd=217483|GE=things.Def|Gloss=things.Def|nWord=4|RX=N|wordform=kaːyaː
+4	kaːyân	kaːyaː	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=217393|AlignEnd=217483|GE=clothes.Def|Gloss=clothes.Def|nWord=4|RX=N|wordform=kaːyaː
 5	nan	nan	DET	_	Definite=Def	4	det	_	AlignBegin=217574|AlignEnd=217755|GE=Def|Gloss=Def|nWord=5|RX=ADV.DEICT
 6	kawài	kawài	ADV	_	_	1	mod	_	AlignBegin=217755|AlignEnd=217936|GE=only|Gloss=only|nWord=6|RX=ADV
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=217936|AlignEnd=218115|GE=/|Gloss=PUNCT|nWord=7|wordform=/
@@ -1870,7 +1870,7 @@
 # sent_timecode = 222948, 226103
 # phonetic_text = àmmaː na yànzu -ǹ / na yànzu sai dai kà ganiː an kaːwoː makà gàːriː -n àbù //
 # text = àmmaː na yànzûn / na yànzu sai dai kà ga an kaːwo makà gàːrin àbù //
-# text_en =  But now, you see them using powders.
+# text_en =  But now, you see they have brought powders to you..
 1	àmmaː	àmmaː	CCONJ	_	_	9	discourse	_	AlignBegin=222948|AlignEnd=223176|ExtPos=CCONJ|GE=but|Gloss=but|nWord=1|RX=CONJ
 2	na	na	PART	_	Definite=Cons	9	dislocated@top	_	AlignBegin=223176|AlignEnd=223404|GE=Cons|Gloss=Cons|nWord=2|RX=PART.SYNT
 3	yànzûn	yànzu	ADV	_	_	2	comp:obj	_	AlignBegin=223404|AlignEnd=223518|GE=now.Def|Gloss=now.Def|nWord=3|RX=ADV.DEICT|wordform=yànzu
@@ -6076,7 +6076,7 @@
 11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=745799|AlignEnd=746017|GE=/|Gloss=PUNCT|nWord=11|wordform=/
 12	jàːkiː	jàːkiː	NOUN	_	_	0	root	_	AlignBegin=746376|AlignEnd=746576|GE=donkey|Gloss=donkey|nWord=12|RX=N
 13	fa	fa	PART	_	_	12	mod	_	AlignBegin=746576|AlignEnd=746776|GE=indeed|Gloss=indeed|nWord=13|RX=PART.TOP
-14	zâː	zaː	VERB	_	Person=3|Tense=Fut	12	comp:cleft	_	AlignBegin=746776|AlignEnd=746976|GE=go|Gloss=go|nWord=14|RX=PART.DIR
+14	zâː	zaː	PART	_	Person=3|Tense=Fut	12	comp:cleft	_	AlignBegin=746776|AlignEnd=746976|GE=go|Gloss=go_to|nWord=14|RX=PART.DIR
 15	mu	mu	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	subj	_	AlignBegin=746976|AlignEnd=747176|GE=1Plur|Gloss=1Plur|nWord=15|RX=PNG
 16	//	//	PUNCT	_	_	12	punct	_	AlignBegin=747176|AlignEnd=747376|GE=/|Gloss=PUNCT|nWord=16|wordform=/
 
@@ -8623,7 +8623,7 @@
 1	àmmaː	àmmaː	CCONJ	_	_	2	discourse	_	AlignBegin=1030740|AlignEnd=1030980|ExtPos=CCONJ|GE=but|Gloss=but|nWord=1|RX=CONJ
 2	in	in	SCONJ	_	_	0	root@scrap	_	AlignBegin=1030980|AlignEnd=1031210|GE=if|Gloss=if|nWord=2|RX=CONJ
 3	bàː	bàː	PART	_	_	4	mod	_	AlignBegin=1031210|AlignEnd=1031450|GE=Neg|Gloss=Neg|nWord=3|RX=PART.Neg
-4	na	na	PART	_	Definite=Cons	2	unk@scrap	_	AlignBegin=1031450|AlignEnd=1031680|GE=Cons|Gloss=Cons|nWord=4|RX=PART.SYNT
+4	na	na	PART	_	Definite=Cons	2	flat:scrap	_	AlignBegin=1031450|AlignEnd=1031680|GE=Cons|Gloss=Cons|nWord=4|RX=PART.SYNT
 5	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=1031680|AlignEnd=1031920|GE=&//|Gloss=PUNCT|nWord=5
 
 # sent_id = HAUZ_BC_CONV_04_0924-0925
@@ -12581,7 +12581,7 @@
 # text_en =  The drummer is saying ... please, let's go.
 1	makàɗiː	makàɗiː	NOUN	_	_	2	dislocated@top	_	AlignBegin=1506590|AlignEnd=1506670|GE=drummer|Gloss=drummer|nWord=1|RX=CIRC
 2	anàː	nàː	AUX	_	Aspect=Imp|Person=4	0	root	_	AlignBegin=1506830|AlignEnd=1507060|GE=4.Imp|Gloss=4.Imp|nWord=2|RX=PNG.TAM
-3	at~	X	X	_	_	2	unk@scrap	_	AlignBegin=1507060|AlignEnd=150730|GE=at~|Gloss=X|nWord=3|RX=HESIT
+3	at~	X	X	_	_	2	flat:scrap	_	AlignBegin=1507060|AlignEnd=150730|GE=at~|Gloss=X|nWord=3|RX=HESIT
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=150730|AlignEnd=1507540|GE=&//|Gloss=PUNCT|nWord=4
 5	à	à	AUX	_	_	2	conj:dicto	_	AlignBegin=1507540|AlignEnd=1507750|GE=4.Aor|Gloss=4.Aor|nWord=5|RX=PNG.TAM
 6	hàƙurà	haƙur-	VERB	_	_	5	comp:aux	_	AlignBegin=1507750|AlignEnd=1507960|GE=be_patient|Gloss=be_patient|nWord=6|RX=V3
@@ -13244,7 +13244,7 @@
 5	nèː	neː	PART	_	_	4	mod@emp	_	AlignBegin=1588950|AlignEnd=1589110|GE=Ident/Foc|Gloss=Ident/Foc|nWord=5|RX=PART.SYNT
 6	>	<	PUNCT	_	_	7	punct	_	AlignBegin=1589110|AlignEnd=1589280|GE=/|Gloss=PUNCT|nWord=6|wordform=/
 7	cêːwàː	cêː-wàː	VERB	_	_	4	mod	_	AlignBegin=1589280|AlignEnd=1589370|GE=say.NMLZ|Gloss=say.Vnoun|nWord=7|RX=V*|wordform=cêː
-8	zâː	zaː	PART	_	Person=3|Tense=Fut	7	comp:cleft	_	AlignBegin=1589460|AlignEnd=1589640|GE=DIR|Gloss=going_to|nWord=8|RX=PART.SYNT
+8	zâː	zaː	PART	_	Person=3|Tense=Fut	7	comp:cleft	_	AlignBegin=1589460|AlignEnd=1589640|GE=DIR|Gloss=go_to|nWord=8|RX=PART.SYNT
 9	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	subj	_	AlignBegin=1589640|AlignEnd=1589830|GE=3Masc|Gloss=3Masc|nWord=9|RX=PRO.OBJ
 10	aikìː	aikìː	NOUN	_	_	8	comp:goal	_	AlignBegin=1589830|AlignEnd=1590010|GE=work|Gloss=work|nWord=10|RX=N
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=1590010|AlignEnd=159020|GE=//|Gloss=PUNCT|nWord=11
