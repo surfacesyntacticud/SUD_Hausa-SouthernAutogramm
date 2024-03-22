@@ -358,7 +358,7 @@
 1	takàn	kàn	AUX	_	Aspect=Hab|Person=3	0	root	_	AlignBegin=44009|AlignEnd=44241|GE=3Fem.Hab|Gloss=3Fem.Hab|nWord=1|RX=PNG.TAM
 2	kai	kai	VERB	_	_	1	comp:aux	_	AlignBegin=44241|AlignEnd=44357|GE=reach|Gloss=reach|nWord=2|RX=V*
 3	à	à	ADP	_	_	2	comp:goal	_	AlignBegin=44705|AlignEnd=44821|GE=FILL|Gloss=at|nWord=4|RX=FILL
-4	cikin	cikin	ADP	_	_	3	compound:obj	_	AlignBegin=45169|AlignEnd=45285|GE=inside|Gloss=inside|nWord=6|RX=PREP
+4	cikin	cikin	ADP	_	_	3	compound	_	AlignBegin=45169|AlignEnd=45285|GE=inside|Gloss=inside|nWord=6|RX=PREP
 5	Feːdar̃al	Feːdar̃al	PROPN	_	Foreign=Yes	3	comp:obj	_	AlignBegin=45865|AlignEnd=46097|GE=federal|Gloss=Federal|Lang=en|nWord=9|RX=CSW.ENG
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=46329|AlignEnd=46566|Gloss=PUNCT|nWord=11
 
@@ -1275,8 +1275,8 @@
 6	<	<	PUNCT	_	_	2	_	_	AlignBegin=156772|AlignEnd=156920|Gloss=PUNCT|nWord=5
 7	kanàː	nàː²	AUX	_	Person=2	0	root	_	AlignBegin=157068|AlignEnd=157216|GE=staying|Gloss=2Masc.Pred/Loc|nWord=7|RX=STAT|wordform=nàː
 8	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	7	comp:pred	_	AlignBegin=157216|AlignEnd=157364|GE=at|Gloss=stay.Stat|nWord=8|RX=PREP
-9	à	à	ADP	_	_	7	comp:loc	_	AlignBegin=157364|AlignEnd=157512|GE=around|Gloss=at|nWord=9|RX=PREP
-10	wajen	wajen	ADP	_	_	9	compound	_	AlignBegin=157512|AlignEnd=157660|GE=who|Gloss=around|nWord=10|RX=PRO.Q
+9	à	à	ADP	_	ExtPos=ADP	7	comp:loc	_	AlignBegin=157364|AlignEnd=157512|GE=around|Gloss=at|Idiom=Yes|nWord=9|RX=PREP
+10	wajen	wajen	ADP	_	_	9	compound	_	AlignBegin=157512|AlignEnd=157660|GE=who|Gloss=around|InIdiom=Yes|nWord=10|RX=PRO.Q
 11	wàːneːnèː	wàːneːnèː	PRON	_	PronType=Int	9	comp:obj	_	AlignBegin=157660|AlignEnd=157808|GE=Ident/Blg|Gloss=who|nWord=11|RX=PART.SYNT
 12	?//	?//	PUNCT	_	_	7	_	_	AlignBegin=157808|AlignEnd=157961|Gloss=PUNCT|nWord=12
 
@@ -1293,8 +1293,8 @@
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=158361|AlignEnd=158561|Gloss=PUNCT|nWord=3
 5	inàː	naː²	AUX	_	Number=Sing|Person=1	0	root	_	AlignBegin=158561|AlignEnd=158761|GE=1Sing.Imp|Gloss=1Sing.Ident/loc|nWord=4|RX=PNG.TAM
 6	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	5	comp:pred	_	AlignBegin=158761|AlignEnd=158961|GE=staying|Gloss=stay.Stat|nWord=5|RX=STAT
-7	à	à	ADP	_	_	6	comp:loc	_	AlignBegin=158961|AlignEnd=159161|GE=at|Gloss=at|nWord=6|RX=PREP
-8	wajen	wajen	ADP	_	_	7	compound	_	AlignBegin=159161|AlignEnd=159361|GE=around|Gloss=around|nWord=7|RX=PREP
+7	à	à	ADP	_	ExtPos=ADP	6	comp:loc	_	AlignBegin=158961|AlignEnd=159161|GE=at|Gloss=at|Idiom=Yes|nWord=6|RX=PREP
+8	wajen	wajen	ADP	_	_	7	compound	_	AlignBegin=159161|AlignEnd=159361|GE=around|Gloss=around|InIdiom=Yes|nWord=7|RX=PREP
 9	kàːwuː	kàːwu	NOUN	_	_	7	comp:obj	_	AlignBegin=159361|AlignEnd=159461|GE=uncle|Gloss=uncle|nWord=8|RX=N
 10	=naː	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	9	mod@poss	_	AlignBegin=159461|AlignEnd=159561|GE=1Sing|Gloss=1Sing.Gen|nWord=8|RX=PRO.POS
 11	nèː	neː	PART	_	_	9	mod@emp	_	AlignBegin=159561|AlignEnd=159761|GE=Ident/Blg|Gloss=Ident/Blg|nWord=9|RX=PART.SYNT
@@ -1799,8 +1799,8 @@
 34	ɗaukoː	ɗaukoː	VERB	_	_	33	comp:aux	_	AlignBegin=212576|AlignEnd=212754|GE=take.DIR|Gloss=take.DIR|nWord=3|RX=V6
 35	nì	nì	PRON	_	Number=Sing|Person=1	34	comp:obj	_	AlignBegin=212754|AlignEnd=212932|GE=1Sing|Gloss=1Sing|nWord=4|RX=PRO.OBJ
 36	tun	tun	ADV	_	_	34	mod	_	AlignBegin=213110|AlignEnd=213288|GE=since|Gloss=since|nWord=6|RX=CONJ
-37	à	à	ADP	_	_	34	comp:source	_	AlignBegin=213288|AlignEnd=213466|GE=at|Gloss=at|nWord=7|RX=PREP
-38	wajen	wajen	ADP	_	_	37	compound	_	AlignBegin=213466|AlignEnd=213644|GE=around|Gloss=around|nWord=8|RX=PREP
+37	à	à	ADP	_	ExtPos=ADP	34	comp:source	_	AlignBegin=213288|AlignEnd=213466|GE=at|Gloss=at|Idiom=Yes|nWord=7|RX=PREP
+38	wajen	wajen	ADP	_	_	37	compound	_	AlignBegin=213466|AlignEnd=213644|GE=around|Gloss=around|InIdiom=Yes|nWord=8|RX=PREP
 39	iyàːyeː	iyàːyeː	NOUN	_	Number=Plur	37	comp:obj	_	AlignBegin=213644|AlignEnd=213733|GE=relatives|Gloss=relatives|nWord=9|RX=N.Plur
 40	=naː	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	39	mod@poss	_	AlignBegin=213733|AlignEnd=213822|GE=1Sing|Gloss=1Sing.Gen|nWord=9|RX=PRO.POS
 41	//	//	PUNCT	_	_	23	punct	_	AlignBegin=213822|AlignEnd=214003|Gloss=PUNCT|nWord=10
@@ -2042,7 +2042,7 @@
 1	yanàː	nàː²	AUX	_	Gender=Masc|Person=3	0	root	_	AlignBegin=245882|AlignEnd=246133|GE=Pred/Loc|Gloss=3Masc.Pred/Loc|nWord=1|RX=PNG.TAM|wordform=nàː
 2	kwànce	kwant-	VERB	_	_	1	comp:pred	_	AlignBegin=246133|AlignEnd=246384|GE=lie.Stat|Gloss=lie.Stat|nWord=2|RX=STAT
 3	à	à	ADP	_	_	1	comp:loc	_	AlignBegin=246384|AlignEnd=246635|GE=at|Gloss=at|nWord=3|RX=PREP
-4	cikin	cikin	ADP	_	_	3	comp:obj	_	AlignBegin=246635|AlignEnd=246886|GE=inside|Gloss=inside|nWord=4|RX=PREP
+4	cikin	cikin	ADP	_	_	3	compound	_	AlignBegin=246635|AlignEnd=246886|GE=inside|Gloss=inside|nWord=4|RX=PREP
 5	ganyeː	ganyeː	NOUN	_	_	3	comp:obj	_	AlignBegin=247137|AlignEnd=247388|GE=foliage|Gloss=foliage|nWord=6|RX=N
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=247388|AlignEnd=247642|Gloss=PUNCT|nWord=7
 
@@ -2343,8 +2343,8 @@
 # phonetic_text = à cikin wânnan daːjìː / akà daːwoː dà niː //
 # text = à cikin wânnan daːjìː >+ akà daːwoː dà niː //
 # text_en =  In that bush, they rescued me.
-1	à	à	ADP	_	_	0	root	_	AlignBegin=277066|AlignEnd=277214|GE=at|Gloss=at|nWord=1|RX=PREP
-2	cikin	cikin	ADP	_	_	1	compound	_	AlignBegin=277214|AlignEnd=277362|GE=inside|Gloss=inside|nWord=2|RX=PREP
+1	à	à	ADP	_	ExtPos=ADP	0	root	_	AlignBegin=277066|AlignEnd=277214|GE=at|Gloss=at|Idiom=Yes|nWord=1|RX=PREP
+2	cikin	cikin	ADP	_	_	1	compound	_	AlignBegin=277214|AlignEnd=277362|GE=inside|Gloss=inside|InIdiom=Yes|nWord=2|RX=PREP
 3	wânnan	wânnan	DET	_	Definite=Def	4	det	_	AlignBegin=277362|AlignEnd=277510|GE=Def|Gloss=Def|nWord=3|RX=PRO.DEICT
 4	daːjìː	daːjìː	NOUN	_	_	1	comp:obj	_	AlignBegin=277510|AlignEnd=277658|GE=bush|Gloss=bush|nWord=4|RX=N
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=277658|AlignEnd=277806|Gloss=PUNCT|nWord=5
@@ -2832,8 +2832,8 @@
 2	àlhamdù	àlhamdù	INTJ	_	Foreign=Yes	9	discourse	_	AlignBegin=350196|AlignEnd=350463|GE=alhamdu|Gloss=alhamdu|Lang=arb|nWord=2|RX=EXCL
 3	lìllaːhì	lìllaːhì	INTJ	_	Foreign=Yes	2	flat:foreign	_	AlignBegin=350463|AlignEnd=350730|GE=lìllaːhì|Gloss=lìllaːhì|Lang=arb|nWord=3|RX=CSW.ARA
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=350730|AlignEnd=350997|Gloss=PUNCT|nWord=4
-5	à	à	ADP	_	_	9	dislocated@top	_	AlignBegin=350997|AlignEnd=351264|GE=on|Gloss=on|nWord=5|RX=PREP
-6	kân	kân	ADP	_	_	5	compound	_	AlignBegin=350997|AlignEnd=351264|GE=on|Gloss=on|nWord=5|RX=PREP
+5	à	à	ADP	_	ExtPos=ADP	9	dislocated@top	_	AlignBegin=350997|AlignEnd=351264|GE=on|Gloss=on|Idiom=Yes|nWord=5|RX=PREP
+6	kân	kân	ADP	_	_	5	compound	_	AlignBegin=350997|AlignEnd=351264|GE=on|Gloss=on|InIdiom=Yes|nWord=5|RX=PREP
 7	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=351264|AlignEnd=351353|GE=farming|Gloss=farm.Vnoun.Cons|nWord=6|RX=N
 8	=mù	=mu	PRON	_	Number=Plur|Person=1|PronType=Prs	7	udep	_	AlignBegin=351442|AlignEnd=351531|GE=1Plur|Gloss=1Plur|nWord=6|RX=PRO.POS
 9	mukàn	kàn	AUX	_	Aspect=Hab|Definite=Cons|Number=Plur|Person=1	0	root	_	AlignBegin=351531|AlignEnd=351798|GE=1Plur.Hab|Gloss=1Plur.Hab|nWord=7|RX=PNG.TAM
@@ -3130,8 +3130,8 @@
 # phonetic_text = à kàːfin wânnan loːkàciː / mukàn yi noːmaː -n raːniː //
 # text = à kàːfin wânnan loːkàciː < mukàn yi noːman raːniː //
 # text_en =  Before then, we do some dry season farming.
-1	à	à	ADP	_	_	6	mod	_	AlignBegin=391582|AlignEnd=391838|GE=at|Gloss=at|nWord=1|RX=PREP
-2	kàːfin	kàːfin	ADP	_	_	1	compound	_	AlignBegin=391838|AlignEnd=392094|GE=before|Gloss=before|nWord=2|RX=CONJ
+1	à	à	ADP	_	ExtPos=ADP	6	mod	_	AlignBegin=391582|AlignEnd=391838|GE=at|Gloss=at|Idiom=Yes|nWord=1|RX=PREP
+2	kàːfin	kàːfin	ADP	_	_	1	compound	_	AlignBegin=391838|AlignEnd=392094|GE=before|Gloss=before|InIdiom=Yes|nWord=2|RX=CONJ
 3	wânnan	wânnan	DET	_	Definite=Def|PronType=Rel	4	det	_	AlignBegin=392094|AlignEnd=392350|GE=Def|Gloss=Def|nWord=3|RX=PRO.DEICT
 4	loːkàciː	loːkàciː	NOUN	_	_	1	comp:obj	_	AlignBegin=392350|AlignEnd=392606|GE=time|Gloss=time|nWord=4|RX=N
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=392606|AlignEnd=392862|Gloss=PUNCT|nWord=5
@@ -3213,8 +3213,8 @@
 16	riːjiyoːyiː	riːjìyaː	NOUN	_	Number=Plur	14	comp:obj@lvc	_	AlignBegin=404021|AlignEnd=404111|GE=well|Gloss=well.Plur|nWord=20|RX=N
 17	nèː	neː	PART	_	_	16	mod@emp	_	AlignBegin=404202|AlignEnd=404383|GE=Ident/Blg|Gloss=Ident/Blg|nWord=21|RX=PART.SYNT
 18	hakà	hakà	ADV	_	_	16	mod	_	AlignBegin=404383|AlignEnd=404564|GE=like_this|Gloss=like_this|nWord=22|RX=ADV
-19	à	à	ADP	_	_	14	comp:obl	_	AlignBegin=404745|AlignEnd=404926|GE=at|Gloss=at|nWord=24|RX=PREP
-20	wajen	wajen	ADP	_	_	19	compound	_	AlignBegin=404926|AlignEnd=405107|GE=around|Gloss=around|nWord=25|RX=PREP
+19	à	à	ADP	_	ExtPos=ADP	14	comp:obl	_	AlignBegin=404745|AlignEnd=404926|GE=at|Gloss=at|Idiom=Yes|nWord=24|RX=PREP
+20	wajen	wajen	ADP	_	_	19	compound	_	AlignBegin=404926|AlignEnd=405107|GE=around|Gloss=around|InIdiom=Yes|nWord=25|RX=PREP
 21	gòːnàkîn	goːnaː	NOUN	_	Definite=Def|Number=Plur	19	comp:obj	_	AlignBegin=405288|AlignEnd=405348|GE=field|Gloss=field.Plur.Def|nWord=27|RX=N
 22	naːmù	naːmù	PRON	_	Number=Plur|Person=1	21	mod@poss	_	AlignBegin=405469|AlignEnd=405650|GE=1Plur|Gloss=1Plur.Gen|nWord=28|RX=PRO.POS
 23	//	//	PUNCT	_	_	13	punct	_	AlignBegin=405650|AlignEnd=405830|Gloss=PUNCT|nWord=29
@@ -3416,8 +3416,8 @@
 6	wandà	wandà	PRON	_	PronType=Rel	9	mod	_	AlignBegin=431174|AlignEnd=431372|GE=who|Gloss=who|nWord=6|RX=PRO.COMP
 7	mukèː	kèː	AUX	_	Aspect=Imp|Evident=Bck|Number=Plur|Person=1	4	mod@relcl	_	AlignBegin=431372|AlignEnd=431570|GE=1Plur.Imp.Bkg|Gloss=1Plur.Imp.Bck|nWord=7|RX=PNG.TAM
 8	zamaː	zaun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=431570|AlignEnd=431768|GE=staying|Gloss=stay.Vnoun|nWord=8|RX=N.V1
-9	à	à	ADP	_	_	8	comp:obl	_	AlignBegin=431768|AlignEnd=431966|GE=er|Gloss=at|nWord=9|RX=PREP
-10	wajen	wajen	ADP	_	_	9	compound	_	AlignBegin=431966|AlignEnd=432065|GE=around|Gloss=around|nWord=10|RX=PREP
+9	à	à	ADP	_	ExtPos=ADP	8	comp:obl	_	AlignBegin=431768|AlignEnd=431966|GE=er|Gloss=at|Idiom=Yes|nWord=9|RX=PREP
+10	wajen	wajen	ADP	_	_	9	compound	_	AlignBegin=431966|AlignEnd=432065|GE=around|Gloss=around|InIdiom=Yes|nWord=10|RX=PREP
 11	=shi	=shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=432065|AlignEnd=432164|GE=3Masc.|Gloss=3Masc|nWord=10|RX=PRO.POS
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=432164|AlignEnd=432363|Gloss=PUNCT|nWord=11
 
