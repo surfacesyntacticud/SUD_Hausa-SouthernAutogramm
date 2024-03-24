@@ -5,7 +5,7 @@
 # phonetic_text = dà zoːmoː / dà bàreːwàː /
 # text = dà zoːmoː / dà bàreːwàː /
 # text_en =  There was Rabbit. and Gazelle.
-1	dà	dà	ADP	_	_	0	root	_	AlignBegin=620|AlignEnd=1025|GE=with/exist|Gloss=there_is|nWord=1|RX=PART.SYNT/HOM
+1	dà	dà	PART	_	_	0	root	_	AlignBegin=620|AlignEnd=1025|GE=with/exist|Gloss=there_is|nWord=1|RX=PART.SYNT/HOM
 2	zoːmoː	zoːmoː	VERB	_	_	1	subj	_	AlignBegin=1025|AlignEnd=1430|GE=Rabbit|Gloss=Rabbit|nWord=2|RX=N
 3	dà	dà	CCONJ	_	_	4	cc	_	AlignBegin=1835|AlignEnd=2240|GE=with/exist|Gloss=with/exist|nWord=4|RX=PART.SYNT/HOM
 4	bàreːwàː	bàreːwàː	NOUN	_	_	2	conj:coord	_	AlignBegin=2240|AlignEnd=2645|GE=Gazelle|Gloss=Gazelle|nWord=5|RX=N
@@ -18,7 +18,7 @@
 # phonetic_text = dà zoːmoː dà bàreːwàː //
 # text = dà zoːmoː dà bàreːwàː //
 # text_en = There was Rabbit and Gazelle.
-1	dà	dà	ADP	_	_	0	root	_	AlignBegin=1343|AlignEnd=1594|GE=with/exist|Gloss=there_is|nWord=1|RX=PART.SYNT/HOM
+1	dà	dà	PART	_	_	0	root	_	AlignBegin=1343|AlignEnd=1594|GE=with/exist|Gloss=there_is|nWord=1|RX=PART.SYNT/HOM
 2	zoːmoː	zoːmoː	VERB	_	_	1	subj	_	AlignBegin=1594|AlignEnd=1845|GE=Rabbit|Gloss=Rabbit|nWord=2|RX=N
 3	dà	dà	CCONJ	_	_	4	cc	_	AlignBegin=1845|AlignEnd=2096|GE=with/exist|Gloss=with/exist|nWord=3|RX=PART.SYNT/HOM
 4	bàreːwàː	bàreːwàː	NOUN	_	_	2	conj:coord	_	AlignBegin=2096|AlignEnd=2347|GE=Gazelle|Gloss=Gazelle|nWord=4|RX=N
@@ -869,7 +869,7 @@
 # text = zoːmoː nàː nan yanàː jir̃ànshì //
 # text_en =  Rabbit is there waiting for him.
 1	zoːmoː	zoːmoː	VERB	_	_	2	subj	_	AlignBegin=113310|AlignEnd=113537|GE=Rabbit|Gloss=Rabbit|nWord=1|RX=N
-2	nàː	nàː²	PRON	_	_	0	root	_	AlignBegin=113537|AlignEnd=113764|GE=Imp|Gloss=Ident/Loc|nWord=2|Overlap=HAUZ_BC_NARR_01_102-102|RX=TAM
+2	nàː	nàː²	AUX	_	_	0	root	_	AlignBegin=113537|AlignEnd=113764|GE=Imp|Gloss=Ident/Loc|nWord=2|Overlap=HAUZ_BC_NARR_01_102-102|RX=TAM
 3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=113764|AlignEnd=113991|GE=Def|Gloss=Def|nWord=3|RX=ADV.DEICT
 4	yanàː	nàː	AUX	_	Aspect=Imp|Person=3	2	parataxis	_	AlignBegin=113991|AlignEnd=114218|GE=3Masc.Imp|Gloss=3Masc.Imp|nWord=4|RX=PNG.TAM
 5	jiran	jiraː	VERB	_	Definite=Cons	4	comp:aux	_	AlignBegin=114218|AlignEnd=114294|GE=waiting|Gloss=wait.Vnoun.Cons|nWord=5|RX=N.V1|wordform=jir̃àː
@@ -1550,7 +1550,7 @@
 3	à	à	ADP	_	ExtPos=ADP	7	mod	_	AlignBegin=190181|AlignEnd=190331|GE=at|Gloss=at|Idiom=Yes|nWord=4|RX=PREP
 4	cikin	cikin	ADP	_	_	3	compound	_	AlignBegin=190331|AlignEnd=190481|GE=inside|Gloss=inside|InIdiom=Yes|nWord=5|RX=PREP
 5	ruwân	ruwaː	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=190481|AlignEnd=190556|GE=water|Gloss=water.Def|nWord=6|RX=N
-6	nan	nan	ADV	_	Definite=Def	5	det	_	AlignBegin=190631|AlignEnd=190781|GE=Def|Gloss=Def|nWord=7|RX=ADV.DEICT
+6	nan	nan	DET	_	Definite=Def	5	det	_	AlignBegin=190631|AlignEnd=190781|GE=Def|Gloss=Def|nWord=7|RX=ADV.DEICT
 7	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=190929|AlignEnd=191204|GE=2Masc.Perf|Gloss=2Masc.Perf|nWord=9|RX=PNG.TAM
 8	ci	ci	VERB	_	_	7	comp:aux	_	AlignBegin=191204|AlignEnd=191479|GE=eat|Gloss=eat|nWord=10|RX=V0
 9	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	10	det	_	AlignBegin=191479|AlignEnd=191754|GE=some.M|Gloss=some.Masc|nWord=11|RX=DET.INDF

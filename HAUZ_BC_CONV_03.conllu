@@ -695,7 +695,7 @@
 # text_en =  Well, no problem.
 1	tôː	tôː	INTJ	_	_	2	discourse	_	AlignBegin=83220|AlignEnd=83432|GE=well|Gloss=well|nWord=1|RX=PART.TOP
 2	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=83432|AlignEnd=83644|GE=Neg|Gloss=Neg|nWord=2|RX=PART.Neg
-3	koːmeː	koːm-	VERB	_	_	2	comp:aux	_	AlignBegin=83644|AlignEnd=83856|GE=anything|Gloss=anything|nWord=3|RX=PRO.INDF
+3	koːmeː	koːm-	PRON	_	PronType=Ind	2	subj	_	AlignBegin=83644|AlignEnd=83856|GE=anything|Gloss=anything|nWord=3|RX=PRO.INDF
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=83856|AlignEnd=84070|GE=//|Gloss=PUNCT|nWord=4
 
 # sent_id = HAUZ_BC_CONV_03__51
@@ -988,7 +988,7 @@
 # text_en =  It's all because of that.
 1	dukà	dukà	PRON	_	_	5	subj	_	AlignBegin=127201|AlignEnd=127389|GE=all|Gloss=all|nWord=1|RX=N
 2	na	na	PART	_	Definite=Cons	5	comp:pred	_	AlignBegin=127389|AlignEnd=127577|GE=Cons|Gloss=Cons|nWord=2|RX=PART.SYNT
-3	kân	kân	ADP	_	_	2	comp:aux	_	AlignBegin=127577|AlignEnd=127671|GE=about|Gloss=about|nWord=3|RX=N|wordform=kâi
+3	kân	kân	ADP	_	_	2	comp:obj	_	AlignBegin=127577|AlignEnd=127671|GE=about|Gloss=about|nWord=3|RX=N|wordform=kâi
 4	wànnan	wànnan	PRON	_	Definite=Def	3	comp:obj	_	AlignBegin=127765|AlignEnd=127953|GE=Def|Gloss=Def|nWord=4|RX=PRO.DEICT
 5	nèː	neː	PART	_	_	0	root	_	AlignBegin=127953|AlignEnd=128141|GE=Ident/Blg|Gloss=Ident/Blg|nWord=5|RX=PART.SYNT
 6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=128141|AlignEnd=128330|GE=/|Gloss=PUNCT|nWord=6|wordform=/
@@ -1252,7 +1252,7 @@
 6	nan	nan	DET	_	Definite=Def	4	det	_	AlignBegin=164935|AlignEnd=165203|GE=Def|Gloss=Def|nWord=6|RX=ADV.DEICT
 7	wai	wai	SCONJ	_	_	4	mod	_	AlignBegin=165203|AlignEnd=165471|GE=named|Gloss=named|nWord=7|RX=PART
 8	X	X	X	_	_	7	comp:obj	_	AlignBegin=165471|AlignEnd=165739|GE=X|Gloss=X|nWord=8|RX=X
-9	?//	?//	PRON	_	_	1	punct	_	AlignBegin=165471|AlignEnd=165739|GE=X|Gloss=X|nWord=8|RX=X
+9	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=165471|AlignEnd=165739|GE=X|Gloss=X|nWord=8|RX=X
 
 # sent_id = HAUZ_BC_CONV_03__91
 # speaker_id = SP1
@@ -1494,7 +1494,7 @@
 4	bâː	baː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=191803|AlignEnd=192103|GE=give|Gloss=give.Vnoun|nWord=4|RX=V*
 5	alloːlin	àlloː	NOUN	_	Number=Plur	4	udep	_	AlignBegin=192103|AlignEnd=192178|GE=writing_board|Gloss=writing_board.Plur|nWord=5|RX=N
 6	=sù	=sù	PRON	_	Number=Plur|Person=3	5	mod@poss	_	AlignBegin=192328|AlignEnd=192403|GE=3Plur|Gloss=3Plur.Gen|nWord=5|RX=PRO.POS
-7	&//	&//	PRON	_	_	3	punct	_	AlignBegin=192328|AlignEnd=192403|GE=PUNCT|Gloss=PUNCT|nWord=5|RX=PUNCT
+7	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=192328|AlignEnd=192403|GE=PUNCT|Gloss=PUNCT|nWord=5|RX=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__110
 # speaker_id = SP1
@@ -1850,8 +1850,8 @@
 # phonetic_text = dà sukà ci ta tàfi //
 # text = dà sukà ci ta tàfi //
 # text_en =  When they had eaten she left.
-1	dà	dà	ADV	_	_	4	mod	_	AlignBegin=234685|AlignEnd=234851|GE=as|Gloss=as|nWord=1|RX=CONJ
-2	sukà	kà	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	1	comp:aux	_	AlignBegin=234851|AlignEnd=235017|GE=3Plur.Perf.Blg|Gloss=3Plur.Perf.Bkg|nWord=2|RX=PNG.TAM
+1	dà	dà	SCONJ	_	_	4	mod	_	AlignBegin=234685|AlignEnd=234851|GE=as|Gloss=as|nWord=1|RX=CONJ
+2	sukà	kà	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=234851|AlignEnd=235017|GE=3Plur.Perf.Blg|Gloss=3Plur.Perf.Bkg|nWord=2|RX=PNG.TAM
 3	ci	ci	VERB	_	_	2	comp:aux	_	AlignBegin=235017|AlignEnd=235183|GE=eat|Gloss=eat|nWord=3|RX=V0
 4	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	0	root	_	AlignBegin=235183|AlignEnd=235349|GE=3Fem.Perf.Blg|Gloss=3Fem.Perf.Bkg|nWord=4|RX=PNG.TAM
 5	tàfi	tàfi	VERB	_	_	4	comp:aux	_	AlignBegin=235349|AlignEnd=235515|GE=go|Gloss=go|nWord=5|RX=V3
@@ -1941,8 +1941,8 @@
 4	jeː	jeː	VERB	_	_	3	comp:aux	_	AlignBegin=243995|AlignEnd=244128|GE=go|Gloss=go|nWord=4|RX=V0
 5	ta	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	3	conj:svc	_	AlignBegin=244128|AlignEnd=244261|GE=3Fem.Perf.Blg|Gloss=3Fem.Perf.Bkg|nWord=5|RX=PNG.TAM
 6	faɗàː	faɗàː	VERB	_	_	5	comp:aux	_	AlignBegin=244261|AlignEnd=244394|GE=tell|Gloss=tell|nWord=6|RX=V1
-7	mà	mà	ADP	_	_	6	comp:obl	_	AlignBegin=244394|AlignEnd=244527|GE=BEN|Gloss=Ben|nWord=7|RX=PART.SYNT
-8	sarkîn	sarkiː	NOUN	_	Definite=Def	7	comp:aux	_	AlignBegin=244527|AlignEnd=244593|GE=king.Def|Gloss=king.Def|nWord=8|RX=N|wordform=sarkiː
+7	mà	mà	ADP	_	_	6	comp:ben	_	AlignBegin=244394|AlignEnd=244527|GE=BEN|Gloss=Ben|nWord=7|RX=PART.SYNT
+8	sarkîn	sarkiː	NOUN	_	Definite=Def	7	comp:obj	_	AlignBegin=244527|AlignEnd=244593|GE=king.Def|Gloss=king.Def|nWord=8|RX=N|wordform=sarkiː
 9	wai	wai	PART	_	_	10	mod	_	AlignBegin=244796|AlignEnd=244945|GE=EVD|Gloss=COMP|nWord=10|RX=PART
 10	gàː	gàː	PART	_	_	6	comp:obj	_	AlignBegin=244945|AlignEnd=245094|GE=here_is|Gloss=here_is|nWord=11|RX=PART.SYNT
 11	shi	shi	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=245094|AlignEnd=245243|GE=3Masc|Gloss=3Masc|nWord=12|RX=PRO.OBJ
@@ -3472,7 +3472,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 424651, 426756
 # phonetic_text = naː cêː mà ƙanèː -ǹ / wai yaː kashèː bàːba -n -shì / mêː mêː yaː sâː //
-# text = yanàː cêː mà ƙanèn wai yaː kashèː bàːban =shì mêː mêː //
+# text = yanàː cêː mà ƙanèn wai yaː kashè bàːban =shì mêː mêː //
 # text_en = He told the younger brother that he had killed his father, etc.
 1	yanàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=424651|AlignEnd=424764|GE=3Masc.Imp|Gloss=3Masc.Imp|nWord=1|RX=PNG.TAM
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=424764|AlignEnd=424877|GE=say|Gloss=say|nWord=2|RX=V*
@@ -3480,8 +3480,8 @@
 4	ƙanèn	ƙanèː	VERB	_	Definite=Def	3	comp:aux	_	AlignBegin=424990|AlignEnd=425046|GE=younger_brother.Def|Gloss=younger_brother.Def|nWord=4|RX=N|wordform=ƙanèː
 5	wai	wai	SCONJ	_	_	2	comp:obj	_	AlignBegin=425216|AlignEnd=425370|GE=EVD|Gloss=COMP|nWord=6|RX=PART
 6	yaː	yaː	AUX	_	Aspect=Perf	5	comp:obj	_	AlignBegin=425370|AlignEnd=425524|GE=3Masc.Perf|Gloss=3Masc.Perf|nWord=7|RX=PNG.TAM
-7	kashèː	kashèː	VERB	_	_	6	comp:aux	_	AlignBegin=425524|AlignEnd=425678|GE=kill|Gloss=kill|nWord=8|RX=V4
-8	bàːban	bàːba	NOUN	_	Definite=Cons	7	comp:aux	_	AlignBegin=425678|AlignEnd=425729|GE=father.Cons|Gloss=father.Cons|nWord=9|RX=N|wordform=bàːba
+7	kashè	kas-	VERB	_	_	6	comp:aux	_	AlignBegin=425524|AlignEnd=425678|GE=kill|Gloss=kill|nWord=8|RX=V4
+8	bàːban	bàːba	NOUN	_	Definite=Cons	7	comp:obj	_	AlignBegin=425678|AlignEnd=425729|GE=father.Cons|Gloss=father.Cons|nWord=9|RX=N|wordform=bàːba
 9	=shì	=shì	PRON	_	_	8	mod	_	AlignBegin=425780|AlignEnd=425832|GE=3Masc|Gloss=3Masc|nWord=9|RX=PRO.POS
 10	mêː	mêː	PRON	_	_	6	conj:coord	_	AlignBegin=425986|AlignEnd=426063|GE=etc|Gloss=etc|nWord=11|RX=ONOM
 11	mêː	mêː	PRON	_	_	10	conj:redup	_	AlignBegin=426063|AlignEnd=426140|Gloss=etc.|nWord=11
