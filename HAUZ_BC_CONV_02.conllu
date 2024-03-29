@@ -2684,11 +2684,11 @@
 # sent_timecode = 278374, 284486
 # phonetic_text = eː / shiː ita wânnan gaːnuwaː / an saːmoː tà nèː / dòːmin dukà gàriː -ǹ dà akà cêː makà àkwai gaːnuwaː / ta dàliːlìː -n eː -ːːː / yaːƙìː //
 # text = eː < shiː ita wânnan gaːnuwaː < an saːmoː tà nèː dòːmin duk gàrin dà akà cêː makà àkwai gaːnuwaː ta dàliːlìn eː yaːƙìː //
-# text_en =  Eh, this that rampart, we got it because all the towns where they tell you about, there is is a rampart because of er... war.
+# text_en =  Eh, this, that rampart, we got it because all the towns that they tell you there is a rampart, it's because of er... war.
 1	eː	eː	INTJ	_	_	8	discourse	_	AlignBegin=278374|AlignEnd=278486|GE=er|Gloss=FILL|nWord=1|RX=HESIT
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=278486|AlignEnd=278597|GE=/|Gloss=PUNCT|nWord=2
-3	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	8	mod	_	AlignBegin=278597|AlignEnd=278809|GE=3Masc|Gloss=3Masc.Nom|nWord=3|RX=PRO.IDP
-4	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	8	mod	_	AlignBegin=278809|AlignEnd=279021|GE=3Fem|Gloss=3Fem.Nom|nWord=4|RX=PRO.IDP
+3	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	8	dislocated@top	_	AlignBegin=278597|AlignEnd=278809|GE=3Masc|Gloss=3Masc.Nom|nWord=3|RX=PRO.IDP
+4	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	8	dislocated@top	_	AlignBegin=278809|AlignEnd=279021|GE=3Fem|Gloss=3Fem.Nom|nWord=4|RX=PRO.IDP
 5	wânnan	wânnan	DET	_	Definite=Def	6	det	_	AlignBegin=279021|AlignEnd=279233|GE=Def|Gloss=Def|nWord=5|RX=PRO.DEICT
 6	gaːnuwaː	gaːnuwaː	NOUN	_	_	4	conj:coord	_	AlignBegin=279233|AlignEnd=279445|GE=rampart|Gloss=rampart|nWord=6|RX=N
 7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=279445|AlignEnd=279659|GE=/|Gloss=PUNCT|nWord=7
@@ -2698,14 +2698,14 @@
 11	nèː	neː	PART	_	_	10	mod@emp	_	AlignBegin=280598|AlignEnd=280767|GE=Ident/Blg|Gloss=Ident/Blg|nWord=11|RX=PART.SYNT
 12	dòːmin	dòːmin	NOUN	_	_	9	mod	_	AlignBegin=280936|AlignEnd=281121|GE=because|Gloss=because|nWord=13|RX=CONJ
 13	duk	dukà	ADJ	_	_	14	mod	_	AlignBegin=281121|AlignEnd=281306|GE=all|Gloss=all|nWord=14|RX=DET
-14	gàrin	gàriː	NOUN	_	Definite=Cons	19	dislocated@top	_	AlignBegin=281306|AlignEnd=281398|GE=town.Def|Gloss=town.Cons|nWord=15|RX=N|wordform=gàriː
+14	gàrin	gàriː	NOUN	_	Definite=Cons	21	dislocated@top	_	AlignBegin=281306|AlignEnd=281398|GE=town.Def|Gloss=town.Cons|nWord=15|RX=N|wordform=gàriː
 15	dà	dà	SCONJ	_	_	14	mod@relcl	_	AlignBegin=281491|AlignEnd=281676|GE=COMP|Gloss=COMP|nWord=16|RX=CONJ/HOM
 16	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	15	comp:obj	_	AlignBegin=281676|AlignEnd=281861|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=17|RX=PNG.TAM
 17	cêː	cêː	VERB	_	_	16	comp:aux	_	AlignBegin=281861|AlignEnd=282046|GE=say|Gloss=say|nWord=18|RX=V*
 18	makà	makà	PRON	_	Person=2	17	comp:ben	_	AlignBegin=282046|AlignEnd=282231|GE=2Masc|Gloss=2Masc.Dat|nWord=19|RX=PRO.BEN
-19	àkwai	àkwai	PART	_	_	12	comp:obj	_	AlignBegin=282231|AlignEnd=282416|GE=there_is|Gloss=there_is|nWord=20|RX=PART.SYNT
+19	àkwai	àkwai	PART	_	_	17	comp:obj	_	AlignBegin=282231|AlignEnd=282416|GE=there_is|Gloss=there_is|nWord=20|RX=PART.SYNT
 20	gaːnuwaː	gaːnuwaː	NOUN	_	_	19	subj	_	AlignBegin=282416|AlignEnd=282601|GE=rampart|Gloss=rampart|nWord=21|RX=N
-21	ta	kà	ADP	_	Aspect=Perf|Evident=Bck|Gender=Fem|Person=3	19	mod	_	AlignBegin=283099|AlignEnd=283271|GE=via|Gloss=via|nWord=23|RX=PREP
+21	ta	ta	ADP	_	_	12	comp:obj	_	AlignBegin=283099|AlignEnd=283271|GE=via|Gloss=via|nWord=23|RX=PREP
 22	dàliːlìn	dàliːlìː	VERB	_	Definite=Cons	21	comp:obj	_	AlignBegin=283271|AlignEnd=283357|GE=cause.Cons|Gloss=cause.Cons|nWord=24|RX=N|wordform=dàliːlìː
 23	eː	eː	INTJ	_	_	24	discourse	_	AlignBegin=283443|AlignEnd=283529|GE=er|Gloss=FILL|nWord=25|RX=HESIT
 24	yaːƙìː	yaːƙìː	NOUN	_	_	22	comp:obj	_	AlignBegin=283786|AlignEnd=284136|GE=war|Gloss=war|nWord=27|RX=N
