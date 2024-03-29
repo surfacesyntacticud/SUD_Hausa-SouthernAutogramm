@@ -1242,8 +1242,8 @@
 # text = ìdan taːkìn na gar̃gajiyaː kèːnan < zaːsù ɗaukèː akèː zubàː mashì //
 # text_en =  If... it's manure. They will take it and spread it on.
 1	ìdan	ìdan	SCONJ	_	_	7	mod	_	AlignBegin=135945|AlignEnd=136183|GE=if|Gloss=if|nWord=1|RX=CONJ
-2	taːkìn	taːkìː	AUX	_	Definite=Def	5	comp:pred	_	AlignBegin=136183|AlignEnd=136302|GE=manure.Cons|Gloss=manure.Def|nWord=2|RX=N|wordform=taːkìː
-3	na	na	PART	_	Definite=Cons	2	mod	_	AlignBegin=136421|AlignEnd=136659|GE=Cons|Gloss=Cons|nWord=3|RX=PART.SYNT
+2	taːkìn	taːkìː	NOUN	_	Definite=Def	5	subj	_	AlignBegin=136183|AlignEnd=136302|GE=manure.Cons|Gloss=manure.Def|nWord=2|RX=N|wordform=taːkìː
+3	na	na	PART	_	Definite=Cons	5	comp:pred	_	AlignBegin=136421|AlignEnd=136659|GE=Cons|Gloss=Cons|nWord=3|RX=PART.SYNT
 4	gar̃gajiyaː	gar̃gajiyaː	NOUN	_	_	3	comp:obj	_	AlignBegin=136659|AlignEnd=136897|GE=old_times|Gloss=old_times|nWord=4|RX=N
 5	kèːnan	kèːnan	PART	_	_	1	comp:obj	_	AlignBegin=136897|AlignEnd=137135|GE=Ident/Blg.Bkg|Gloss=Ident/Blg.Bkg|nWord=5|RX=PART.SYNT
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=137373|AlignEnd=137609|GE=/|Gloss=PUNCT|nWord=7
@@ -1495,7 +1495,7 @@
 5	kakè	kè	AUX	_	Person=2	3	mod@relcl	_	AlignBegin=158283|AlignEnd=158470|GE=2Masc.Pred/Loc.Bkg|Gloss=2Masc.Pred/Loc.Bkg|nWord=5|RX=PNG.TAM
 6	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	5	comp:pred	_	AlignBegin=158470|AlignEnd=158657|GE=staying|Gloss=stay.Stat|nWord=6|RX=STAT
 7	à	à	ADP	_	ExtPos=ADP	5	comp:loc	_	AlignBegin=158657|AlignEnd=158844|GE=at|Gloss=at|Idiom=Yes|nWord=7|RX=PREP
-8	wurin	wuriː	ADP	_	Definite=Cons	7	compound	_	AlignBegin=158844|AlignEnd=158906|GE=place.Cons|Gloss=place.Cons|InIdiom=Yes|nWord=8|RX=N|wordform=wuriː
+8	wurin	wuriː	ADP	_	_	7	compound	_	AlignBegin=158844|AlignEnd=158906|GE=place.Cons|Gloss=place.Cons|InIdiom=Yes|nWord=8|RX=N|wordform=wuriː
 9	=shì	=shì	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=158968|AlignEnd=159031|GE=3Masc|Gloss=3Masc.Gen|nWord=8|RX=PRO.POS
 10	yànzu	yànzu	ADV	_	_	5	mod	_	AlignBegin=159031|AlignEnd=159218|GE=now|Gloss=now|nWord=9|RX=ADV.DEICT
 11	<	<	PUNCT	_	_	2	punct	_	AlignBegin=159218|AlignEnd=159405|GE=/|Gloss=PUNCT|nWord=10|wordform=/
@@ -1854,7 +1854,7 @@
 11	wancàn	wancàː	NOUN	_	_	10	comp:obj	_	AlignBegin=194349|AlignEnd=194677|GE=Dist|Gloss=Dist|nWord=10|RX=PRO.DEICT
 12	kàːkaː	kàːkaː	NOUN	_	_	11	mod	_	AlignBegin=194677|AlignEnd=195005|GE=grand-parent|Gloss=grand-parent|nWord=11|RX=N
 13	<	<	PUNCT	_	_	8	punct	_	AlignBegin=195005|AlignEnd=195334|GE=/|Gloss=PUNCT|nWord=12
-14	ƙanèn	ƙanèː	AUX	_	Definite=Cons	16	comp:pred	_	AlignBegin=195334|AlignEnd=195411|GE=younger_brother.Cons|Gloss=younger_brother.Cons|nWord=13|RX=N|wordform=ƙanèː
+14	ƙanèn	ƙanèː	NOUN	_	Definite=Cons	16	comp:pred	_	AlignBegin=195334|AlignEnd=195411|GE=younger_brother.Cons|Gloss=younger_brother.Cons|nWord=13|RX=N|wordform=ƙanèː
 15	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	14	mod@poss	_	AlignBegin=195488|AlignEnd=195566|GE=3Fem|Gloss=3Fem.Gen|nWord=13|RX=PRO.POS
 16	neː	neː	PART	_	_	0	root	_	AlignBegin=195566|AlignEnd=195798|GE=Ident/Blg|Gloss=Ident/Blg|nWord=14|RX=PART.SYNT
 17	//	//	PUNCT	_	_	16	punct	_	AlignBegin=195798|AlignEnd=196029|GE=//|Gloss=PUNCT|nWord=15
@@ -1920,11 +1920,11 @@
 # text = tundà shiː ƙanèn || ƙanèn àbin nàn nèː kèːnan //
 # text_en =  Since he is the younger brother, the younger brother of this woman.
 1	tundà	tundà	SCONJ	_	_	8	discourse	_	AlignBegin=199282|AlignEnd=199482|GE=since|Gloss=since|nWord=1|RX=CONJ
-2	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	8	dislocated@subj	_	AlignBegin=199482|AlignEnd=199682|GE=3Masc|Gloss=3Masc.Nom|nWord=2|RX=PRO.IDP
-3	ƙanèn	ƙanèː	AUX	_	Definite=Cons	8	comp:pred	_	AlignBegin=199682|AlignEnd=199782|GE=younger_brother.Cons|Gloss=younger_brother.Cons|nWord=3|RX=N|wordform=ƙanèː
+2	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	8	subj	_	AlignBegin=199482|AlignEnd=199682|GE=3Masc|Gloss=3Masc.Nom|nWord=2|RX=PRO.IDP
+3	ƙanèn	ƙanèː	NOUN	_	Definite=Cons	8	comp:pred	_	AlignBegin=199682|AlignEnd=199782|GE=younger_brother.Cons|Gloss=younger_brother.Cons|nWord=3|RX=N|wordform=ƙanèː
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=199882|AlignEnd=200082|GE=/|Gloss=PUNCT|nWord=4
-5	ƙanèn	nèː	AUX	_	Definite=Cons	3	conj:dicto	_	AlignBegin=200082|AlignEnd=200168|GE=younger_brother.Cons|Gloss=younger_brother.Cons|nWord=5|RX=N|wordform=ƙanèː
-6	àbin	àbù	NOUN	_	Definite=Def	5	comp:aux	_	AlignBegin=200253|AlignEnd=200339|GE=thing.Def|Gloss=thing.Def|nWord=6|RX=N|wordform=àbù
+5	ƙanèn	nèː	NOUN	_	Definite=Cons	3	conj:dicto	_	AlignBegin=200082|AlignEnd=200168|GE=younger_brother.Cons|Gloss=younger_brother.Cons|nWord=5|RX=N|wordform=ƙanèː
+6	àbin	àbù	NOUN	_	Definite=Def	5	mod	_	AlignBegin=200253|AlignEnd=200339|GE=thing.Def|Gloss=thing.Def|nWord=6|RX=N|wordform=àbù
 7	nàn	nàn	DET	_	_	6	det	_	AlignBegin=200424|AlignEnd=200595|GE=Prox|Gloss=Prox|nWord=7|RX=ADV.DEICT
 8	nèː	neː	PART	_	_	0	root	_	AlignBegin=200595|AlignEnd=200766|GE=Ident/Blg|Gloss=Ident/Blg|nWord=8|RX=PART.SYNT
 9	kèːnan	kèːnan	PART	_	_	8	mod@emp	_	AlignBegin=200766|AlignEnd=200937|GE=Ident/Blg.Bkg|Gloss=Ident/Blg.Bkg|nWord=9|RX=PART.SYNT
@@ -2835,7 +2835,7 @@
 8	gàr̃eː	gàr̃eː	ADP	_	_	7	compound	_	AlignBegin=295091|AlignEnd=295277|GE=near|Gloss=near|InIdiom=Yes|nWord=8|RX=PREP
 9	na	na	PART	_	Definite=Cons	7	comp:obj	_	AlignBegin=295463|AlignEnd=295556|GE=Cons|Gloss=Cons|nWord=10|RX=PART.SYNT
 10	mutàːnen	mùtûm	NOUN	_	Number=Plur	9	comp:obj	_	AlignBegin=295556|AlignEnd=295649|Gloss=person.Plur|nWord=10
-11	dâː	dâː	ADV	_	Definite=Cons	10	mod	_	AlignBegin=295773|AlignEnd=295835|GE=Cons|Gloss=Cons|nWord=11|RX=PART.SYNT
+11	dâː	dâː	ADV	_	_	10	mod	_	AlignBegin=295773|AlignEnd=295835|GE=formerly|Gloss=formerly|nWord=11|RX=ADV
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=296021|AlignEnd=296207|GE=//|Gloss=PUNCT|nWord=13
 
 # sent_id = HAUZ_BC_CONV_02_324-324
@@ -3051,36 +3051,35 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 315023, 321170
 # phonetic_text = dàliːlìː -ǹ dà ya sâː akà saːmoː shiː wânnan ùngwaː -n fulàːniː // dâː shiː / kâi -n kâi -n -shì / shiː wânnan gàriː ùngwaː -n fulàːniː // dâː yanàː gidaː kwàːraː / bakwài //
-# text = dàliːlìn dà ya sâː akà saːmoː shiː wânnan Ùngwan Fulàːniː dâː shiː |a kân kânshì < shiː wânnan gàriː Ùngwan Fulàːniː < dâː yanàː gidaː ƙwàːraː bakwài //
+# text = dàliːlìn dà ya sâː akà saːmoː shiː wânnan Ùngwan Fulàːniː dâː shiː kân kânshì < shiː wânnan gàriː Ùngwan Fulàːniː < dâː yanàː gidaː ƙwàːraː bakwài //
 # text_en =  The reason why we have now that Fulani ward. formerly, as for it, that town was a Fulani ward, formerly it had seven wards.
-1	dàliːlìn	dàliːlìː	NOUN	_	Definite=Def	24	dislocated@top	_	AlignBegin=315023|AlignEnd=315103|GE=cause.Def|Gloss=cause.Def|nWord=1|RX=N|wordform=dàliːlìː
+1	dàliːlìn	dàliːlìː	NOUN	_	Definite=Def	23	dislocated@top	_	AlignBegin=315023|AlignEnd=315103|GE=cause.Def|Gloss=cause.Def|nWord=1|RX=N|wordform=dàliːlìː
 2	dà	dà	SCONJ	_	_	1	mod@relcl	_	AlignBegin=315182|AlignEnd=315341|GE=COMP|Gloss=COMP|nWord=2|RX=CONJ/HOM
 3	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=315341|AlignEnd=315500|GE=3Masc.Perf.Bkg|Gloss=3Masc.Perf.Bkg|nWord=3|RX=PNG.TAM
 4	sâː	sâː	VERB	_	_	3	comp:aux	_	AlignBegin=315500|AlignEnd=315659|GE=put|Gloss=put|nWord=4|RX=V1
 5	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	4	comp:obj	_	AlignBegin=315659|AlignEnd=315818|GE=4.Perf.Bkg|Gloss=4.Perf.Bkg|nWord=5|RX=PNG.TAM
 6	saːmoː	saːm-	VERB	_	_	5	comp:aux	_	AlignBegin=315818|AlignEnd=315977|GE=get.DIR|Gloss=get.DIR|nWord=6|RX=V6
-7	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	24	dislocated@top	_	AlignBegin=315977|AlignEnd=316136|GE=3Masc|Gloss=3Masc.Nom|nWord=7|RX=PRO.IDP
+7	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	23	dislocated@top	_	AlignBegin=315977|AlignEnd=316136|GE=3Masc|Gloss=3Masc.Nom|nWord=7|RX=PRO.IDP
 8	wânnan	wânnan	DET	_	Definite=Def	9	det	_	AlignBegin=316136|AlignEnd=316295|GE=Def|Gloss=Def|nWord=8|RX=PRO.DEICT
 9	Ùngwan	ùngwaː	VERB	_	Definite=Cons	7	conj:appos	_	AlignBegin=316295|AlignEnd=316375|GE=ward.Cons|Gloss=ward.Cons|nWord=9|RX=N|wordform=ùngwaː
 10	Fulàːniː	Fulàːniː	NOUN	_	_	9	flat:name	_	AlignBegin=316454|AlignEnd=316613|GE=Fulanis|Gloss=Fulanis|nWord=10|RX=N.P.Plur
-11	dâː	dâː	ADV	_	_	24	mod	_	AlignBegin=317207|AlignEnd=317434|GE=formerly|Gloss=formerly|nWord=12|RX=ADV
-12	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	24	dislocated@top	_	AlignBegin=317434|AlignEnd=317661|GE=3Masc|Gloss=3Masc.Nom|nWord=13|RX=PRO.IDP
-13	|a	|a	PUNCT	_	_	14	punct	_	AlignBegin=317661|AlignEnd=317888|GE=/|Gloss=PUNCT|nWord=14
-14	kân	kâi	AUX	_	Definite=Cons	12	mod	_	AlignBegin=317888|AlignEnd=317976|GE=head.Cons|Gloss=head.Cons|nWord=15|RX=N|wordform=kâi
-15	kânshì	kânshì	AUX	_	Person=3|Reflex=Yes	14	conj:dicto	_	AlignBegin=318063|AlignEnd=318121|GE=head.Cons|Gloss=3Masc.Refl|nWord=16|RX=N|wordform=kâi
-16	<	<	PUNCT	_	_	12	punct	_	AlignBegin=318238|AlignEnd=318414|GE=/|Gloss=PUNCT|nWord=17
-17	shiː	shiː	PRON	_	Person=3	24	dislocated@subj	_	AlignBegin=318414|AlignEnd=318650|GE=3Masc|Gloss=3Masc.Nom|nWord=18|RX=PRO.IDP
-18	wânnan	wânnan	DET	_	Definite=Def	19	det	_	AlignBegin=318650|AlignEnd=318886|GE=Def|Gloss=Def|nWord=19|RX=PRO.DEICT
-19	gàriː	gàriː	NOUN	_	_	17	conj:appos	_	AlignBegin=318886|AlignEnd=319122|GE=town|Gloss=town|nWord=20|RX=N
-20	Ùngwan	ùngwaː	PROPN	_	Definite=Cons	19	mod	_	AlignBegin=319122|AlignEnd=319240|GE=ward.Cons|Gloss=ward.Cons|nWord=21|RX=N|wordform=ùngwaː
-21	Fulàːniː	Fulàːniː	PROPN	_	Number=Plur	20	flat:name	_	AlignBegin=319358|AlignEnd=319594|GE=Fulanis|Gloss=Fulanis|nWord=22|RX=N.P.Plur
-22	<	<	PUNCT	_	_	24	punct	_	AlignBegin=319594|AlignEnd=319830|GE=//|Gloss=PUNCT|nWord=23
-23	dâː	dâː	ADV	_	_	24	mod	_	AlignBegin=320042|AlignEnd=320203|GE=formerly|Gloss=formerly|nWord=24|RX=ADV
-24	yanàː	nàː	AUX	_	Aspect=Imp|Person=3	0	root	_	AlignBegin=320203|AlignEnd=320364|GE=3Masc.Imp|Gloss=3Masc.Imp|nWord=25|RX=PNG.TAM
-25	gidaː	gidaː	NOUN	_	_	24	comp:aux	_	AlignBegin=320364|AlignEnd=320525|GE=house|Gloss=house|nWord=26|RX=N
-26	ƙwàːraː	ƙwàːraː	NOUN	_	_	25	mod	_	AlignBegin=320525|AlignEnd=320686|GE=thread|Gloss=thread|nWord=27|RX=N
-27	bakwài	bakwài	NUM	_	_	26	mod:num	_	AlignBegin=320847|AlignEnd=321008|GE=seven|Gloss=seven|nWord=29|RX=NUM
-28	//	//	PUNCT	_	_	24	punct	_	AlignBegin=321008|AlignEnd=321170|GE=//|Gloss=PUNCT|nWord=30
+11	dâː	dâː	ADV	_	_	23	mod	_	AlignBegin=317207|AlignEnd=317434|GE=formerly|Gloss=formerly|nWord=12|RX=ADV
+12	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	23	dislocated@top	_	AlignBegin=317434|AlignEnd=317661|GE=3Masc|Gloss=3Masc.Nom|nWord=13|RX=PRO.IDP
+13	kân	kân	ADP	_	_	12	mod	_	AlignBegin=317888|AlignEnd=317976|GE=on_top|Gloss=on_top|nWord=15|RX=N|wordform=kâi
+14	kânshì	kânshì	PRON	_	Person=3|Reflex=Yes	13	conj:dicto	_	AlignBegin=318063|AlignEnd=318121|GE=head.Cons|Gloss=3Masc.Refl|nWord=16|RX=N|wordform=kâi
+15	<	<	PUNCT	_	_	12	punct	_	AlignBegin=318238|AlignEnd=318414|GE=/|Gloss=PUNCT|nWord=17
+16	shiː	shiː	PRON	_	Person=3	23	dislocated@subj	_	AlignBegin=318414|AlignEnd=318650|GE=3Masc|Gloss=3Masc.Nom|nWord=18|RX=PRO.IDP
+17	wânnan	wânnan	DET	_	Definite=Def	18	det	_	AlignBegin=318650|AlignEnd=318886|GE=Def|Gloss=Def|nWord=19|RX=PRO.DEICT
+18	gàriː	gàriː	NOUN	_	_	16	conj:appos	_	AlignBegin=318886|AlignEnd=319122|GE=town|Gloss=town|nWord=20|RX=N
+19	Ùngwan	ùngwaː	PROPN	_	Definite=Cons	18	conj:appos	_	AlignBegin=319122|AlignEnd=319240|GE=ward.Cons|Gloss=ward.Cons|nWord=21|RX=N|wordform=ùngwaː
+20	Fulàːniː	Fulàːniː	PROPN	_	Number=Plur	19	flat:name	_	AlignBegin=319358|AlignEnd=319594|GE=Fulanis|Gloss=Fulanis|nWord=22|RX=N.P.Plur
+21	<	<	PUNCT	_	_	23	punct	_	AlignBegin=319594|AlignEnd=319830|GE=//|Gloss=PUNCT|nWord=23
+22	dâː	dâː	ADV	_	_	23	mod	_	AlignBegin=320042|AlignEnd=320203|GE=formerly|Gloss=formerly|nWord=24|RX=ADV
+23	yanàː	nàː	AUX	_	Aspect=Imp|Person=3	0	root	_	AlignBegin=320203|AlignEnd=320364|GE=3Masc.Imp|Gloss=3Masc.Imp|nWord=25|RX=PNG.TAM
+24	gidaː	gidaː	NOUN	_	_	23	comp:aux	_	AlignBegin=320364|AlignEnd=320525|GE=house|Gloss=house|nWord=26|RX=N
+25	ƙwàːraː	ƙwàːraː	NOUN	_	_	24	mod	_	AlignBegin=320525|AlignEnd=320686|GE=thread|Gloss=thread|nWord=27|RX=N
+26	bakwài	bakwài	NUM	_	_	25	mod:num	_	AlignBegin=320847|AlignEnd=321008|GE=seven|Gloss=seven|nWord=29|RX=NUM
+27	//	//	PUNCT	_	_	23	punct	_	AlignBegin=321008|AlignEnd=321170|GE=//|Gloss=PUNCT|nWord=30
 
 # sent_id = HAUZ_BC_CONV_02_348-348
 # speaker_id = SP1
@@ -3193,7 +3192,7 @@
 # text = yauwàː sa'àn nan àkwai gidan Goːbiraːwaː //
 # text_en =  Ok, then there is the Gobirawa ward.
 1	yauwàː	yauwàː	INTJ	_	_	3	discourse	_	AlignBegin=329891|AlignEnd=330140|GE=ok|Gloss=ok|nWord=1|RX=EXCL
-2	sa'ànnan	sa'ànnan	ADV	_	Definite=Def	3	mod	_	AlignBegin=330140|AlignEnd=330264|GE=time.Def|Gloss=then|nWord=2|RX=N|wordform=sa'àː
+2	sa'ànnan	sa'ànnan	ADV	_	_	3	mod	_	AlignBegin=330140|AlignEnd=330264|GE=time.Def|Gloss=then|nWord=2|RX=N|wordform=sa'àː
 3	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=330638|AlignEnd=330887|GE=there_is|Gloss=there_is|nWord=4|RX=PART.SYNT
 4	gidan	gidaː	NOUN	_	Definite=Cons	3	subj	_	AlignBegin=330887|AlignEnd=331011|GE=house.Cons|Gloss=house.Cons|nWord=5|RX=N|wordform=gidaː
 5	Goːbiraːwaː	Goːbiraːwaː	PROPN	_	_	4	compound	_	AlignBegin=331136|AlignEnd=331385|GE=Gobirawa|Gloss=Gobirawa|nWord=6|RX=N.P
@@ -3370,7 +3369,7 @@
 # phonetic_text = sa'àː -ǹ nan kuma / àkwai gidaː -n dattì //
 # text = sa'àn nan kuma / àkwai gidan Dattì //
 # text_en =  Then, there is the ward of Datti.
-1	sa'ànnan	sa'ànnan	ADV	_	Definite=Def	0	root	_	AlignBegin=345340|AlignEnd=345426|GE=time.Def|Gloss=then|nWord=1|RX=N|wordform=sa'àː
+1	sa'ànnan	sa'ànnan	ADV	_	_	0	root	_	AlignBegin=345340|AlignEnd=345426|GE=time.Def|Gloss=then|nWord=1|RX=N|wordform=sa'àː
 2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=345684|AlignEnd=345856|GE=too|Gloss=too|nWord=3|RX=PART.TOP
 3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=345856|AlignEnd=346030|GE=/|Gloss=PUNCT|nWord=4|wordform=/
 4	àkwai	àkwai	PART	_	_	1	mod	_	AlignBegin=346030|AlignEnd=346230|GE=there_is|Gloss=there_is|nWord=5|RX=PART.SYNT
@@ -3488,7 +3487,7 @@
 # phonetic_text = sa'àː -ǹ nan ìdan kuma mukà yi can wajeː -eː_eː\HLH -n ɓangarèː -n / gabàs / àkwai gidaː -n su bùbba //
 # text = sa'ànnan ìdan kuma mukà yi can wajèːjen ɓangarèn gabàs < àkwai gidan su Bùbba //
 # text_en =  Then if we go there, around the side of ... the East, there is Bubba's ward.
-1	sa'ànnan	sa'ànnan	ADV	_	Definite=Def	11	mod	_	AlignBegin=353623|AlignEnd=353717|GE=time.Def|Gloss=then|nWord=1|RX=N|wordform=sa'àː
+1	sa'ànnan	sa'ànnan	ADV	_	_	11	mod	_	AlignBegin=353623|AlignEnd=353717|GE=time.Def|Gloss=then|nWord=1|RX=N|wordform=sa'àː
 2	ìdan	ìdan	SCONJ	_	_	11	mod	_	AlignBegin=353999|AlignEnd=354187|GE=if|Gloss=if|nWord=3|RX=CONJ
 3	kuma	kuma	PART	_	_	2	mod	_	AlignBegin=354187|AlignEnd=354375|GE=too|Gloss=too|nWord=4|RX=PART.TOP
 4	mukà	kà	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=1	2	comp:obj	_	AlignBegin=354375|AlignEnd=354563|GE=1Plur.Perf.Bkg|Gloss=1Plur.Perf.Bkg|nWord=5|RX=PNG.TAM
@@ -3672,7 +3671,7 @@
 # phonetic_text = sa'àː -ǹ nan àkwai gidaː -n / noːmaː //
 # text = sa'ànnan àkwai gidan Noːma //
 # text_en =  Then there is the house of the Farmers.
-1	sa'ànnan	sa'ànnan	ADV	_	Definite=Def	2	mod	_	AlignBegin=372441|AlignEnd=372545|GE=time.Def|Gloss=then|nWord=1|RX=N|wordform=sa'àː
+1	sa'ànnan	sa'ànnan	ADV	_	_	2	mod	_	AlignBegin=372441|AlignEnd=372545|GE=time.Def|Gloss=then|nWord=1|RX=N|wordform=sa'àː
 2	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=372857|AlignEnd=373065|GE=there_is|Gloss=there_is|nWord=3|RX=PART.SYNT
 3	gidan	gidaː	NOUN	_	Definite=Cons	2	subj	_	AlignBegin=373065|AlignEnd=373169|GE=house.Cons|Gloss=house.Cons|nWord=4|RX=N|wordform=gidaː
 4	Noːma	Noːma	VERB	_	ExtPos=NOUN	3	mod	_	AlignBegin=373482|AlignEnd=373756|GE=farming|Gloss=Noma|nWord=6|RX=N
