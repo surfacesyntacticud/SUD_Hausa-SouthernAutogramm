@@ -655,7 +655,7 @@
 4	yanàː	nàː	AUX	_	Aspect=Imp|Person=3	2	parataxis	_	AlignBegin=84207|AlignEnd=84456|Gloss=3Masc.Imp
 5	jiran	jiraː	VERB	_	_	4	comp:aux	_	AlignBegin=84456|AlignEnd=84580|Gloss=wait.Vnoun.Cons|wordform=yiraː
 6	ɓeːr̃aː	ɓeːr̃aː	NOUN	_	_	7	subj	_	AlignBegin=85343|AlignEnd=85508|Gloss=Rat
-7	yà	à	AUX	_	Aspect=Aor|Person=3	5	mod	_	AlignBegin=85508|AlignEnd=85673|Gloss=3Masc.Aor
+7	yà	à	AUX	_	Aspect=Aor|Person=3	5	udep	_	AlignBegin=85508|AlignEnd=85673|Gloss=3Masc.Aor
 8	zoː	zoː	VERB	_	_	7	comp:aux	_	AlignBegin=85673|AlignEnd=85838|Gloss=come
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=85838|AlignEnd=86004|Gloss=PUNCT
 
@@ -767,14 +767,14 @@
 # phonetic_text = zuwàː can / sai gàː ɓeːr̃aː ya zoː //
 # text = zuwàː can / sai gàː ɓeːr̃aː ya zoː //
 # text_en = Around then, Rat arrived.
-1	zuwàː	zuwàː	ADP	_	ExtPos=NOUN|VerbForm=Vnoun	4	mod	_	AlignBegin=98383|AlignEnd=98644|Gloss=towards
+1	zuwàː	zuwàː	ADP	_	ExtPos=NOUN|VerbForm=Vnoun	6	mod	_	AlignBegin=98383|AlignEnd=98644|Gloss=towards
 2	can	can	ADV	_	_	1	comp:obj	_	AlignBegin=98644|AlignEnd=98905|Gloss=Dist2
-3	sai	sai	ADV	_	_	4	mod	_	AlignBegin=99167|AlignEnd=99349|Gloss=then
-4	gàː	gàː	PART	_	_	0	root	_	AlignBegin=99349|AlignEnd=99531|Gloss=here_is
+3	sai	sai	ADV	_	_	6	mod	_	AlignBegin=99167|AlignEnd=99349|Gloss=then
+4	gàː	gàː	PART	_	_	6	dislocated@subj	_	AlignBegin=99349|AlignEnd=99531|Gloss=here_is
 5	ɓeːr̃aː	ɓeːr̃aː	VERB	_	_	4	subj	_	AlignBegin=99531|AlignEnd=99713|Gloss=Rat
-6	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	4	parataxis	_	AlignBegin=99713|AlignEnd=99895|Gloss=3Masc.Perf.Bck
+6	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=99713|AlignEnd=99895|Gloss=3Masc.Perf.Bck
 7	zoː	zoː	VERB	_	_	6	comp:aux	_	AlignBegin=99895|AlignEnd=100077|Gloss=come
-8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=100077|AlignEnd=100257|Gloss=PUNCT
+8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=100077|AlignEnd=100257|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_092-095
 # speaker_id = SP1
@@ -1738,15 +1738,15 @@
 # phonetic_text = tòː gàː shi yànzu wàhalàː yaː ìsaː -eː kà //
 # text = tòː gàː shi yànzu wàhalàː yaː ìsheː kà //
 # text_en =  Well here you are, now you are in trouble.
-1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=213740|AlignEnd=213918|Gloss=well
-2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=213918|AlignEnd=214096|Gloss=here_is
+1	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=213740|AlignEnd=213918|Gloss=well
+2	gàː	gàː	PART	_	_	6	discourse	_	AlignBegin=213918|AlignEnd=214096|Gloss=here_is
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=214096|AlignEnd=214274|Gloss=3Masc
 4	yànzu	yànzu	ADV	_	_	6	mod	_	AlignBegin=214274|AlignEnd=214452|Gloss=now
 5	wàhalàː	wàhalàː	NOUN	_	_	6	subj	_	AlignBegin=214452|AlignEnd=214630|Gloss=trouble
-6	yaː	yaː	AUX	_	Aspect=Perf|Person=3	2	parataxis	_	AlignBegin=214630|AlignEnd=214808|Gloss=3Masc.Perf
+6	yaː	yaː	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=214630|AlignEnd=214808|Gloss=3Masc.Perf
 7	ìsheː	is-	VERB	_	_	6	comp:aux	_	AlignBegin=214808|AlignEnd=214897|Gloss=reach
 8	kà	kà	PRON	_	_	7	comp:obj	_	AlignBegin=214986|AlignEnd=215164|Gloss=2Masc.Aor
-9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=215164|AlignEnd=215341|Gloss=PUNCT
+9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=215164|AlignEnd=215341|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_205-205
 # speaker_id = SP1
@@ -1755,11 +1755,11 @@
 # phonetic_text = gàː shi kaː tunàː //
 # text = gàː shi kaː tunàː //
 # text_en =  Now you remember.
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=216341|AlignEnd=216514|Gloss=here_is
+1	gàː	gàː	PART	_	_	3	dislocated	_	AlignBegin=216341|AlignEnd=216514|Gloss=here_is
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	1	subj	_	AlignBegin=216514|AlignEnd=216687|Gloss=3Masc
-3	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	parataxis	_	AlignBegin=216687|AlignEnd=216860|Gloss=2Masc.Perf
+3	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=216687|AlignEnd=216860|Gloss=2Masc.Perf
 4	tunàː	tun-	VERB	_	_	3	comp:aux	_	AlignBegin=216860|AlignEnd=217033|Gloss=think
-5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=217033|AlignEnd=217208|Gloss=PUNCT
+5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=217033|AlignEnd=217208|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_206a-206a
 # speaker_id = SP1
