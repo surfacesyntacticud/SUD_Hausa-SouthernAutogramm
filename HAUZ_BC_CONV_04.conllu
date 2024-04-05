@@ -62,7 +62,7 @@
 1	kâi	kâi	INTJ	_	_	5	discourse	_	AlignBegin=11332|AlignEnd=11508|Gloss=my
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=11508|AlignEnd=11683|Gloss=PUNCT|wordform=/
 3	geːrôn	geːroː	NOUN	_	Definite=Def	5	subj	_	AlignBegin=11901|AlignEnd=11999|Gloss=millet.Def|wordform=geːroː
-4	nàn	nàn	DET	_	_	3	det	_	AlignBegin=12097|AlignEnd=12293|Deixis=Prox|Gloss=Prox
+4	nàn	nàn	DET	_	Deixis=Prox	3	det	_	AlignBegin=12097|AlignEnd=12293|Gloss=Prox
 5	yaː	yaː	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=12293|AlignEnd=12489|Gloss=3Masc.Perf
 6	fi	fi	VERB	_	_	5	comp:aux	_	AlignBegin=12489|AlignEnd=12685|Gloss=exceed
 7	ingancìː	ingancìː	NOUN	_	_	6	mod	_	AlignBegin=12685|AlignEnd=12881|Gloss=value
@@ -11986,27 +11986,27 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1440790, 1446150
 # phonetic_text = gàː shi nan yànzu / zaːmàniː Allàː yaː kaːwoː mù //
-# text = hmː //= tòː kà duːbàː dâː dai / abuːbuwàː duk / gàː shi nan yànzu / zaːmàniː Allàː yaː kaːwoː mù //
+# text = hmː < tòː kà duːbàː dâː dai / abuːbuwàː duk / gàː shi nan yànzu / zaːmàniː Allàː yaː kaːwoː mù //
 # text_en =  Hmm, well, you see, formerly, all these things, here is now, the situation that God has brought about.
-1	hmː	hmː	INTJ	_	_	12	discourse	_	AlignBegin=1440790|AlignEnd=1441630|Gloss=hmː
+1	hmː	hmː	INTJ	_	_	19	discourse	_	AlignBegin=1440790|AlignEnd=1441630|Gloss=hmː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=144090|AlignEnd=14410|Gloss=PUNCT
-3	tòː	tòː	INTJ	_	_	12	discourse	_	AlignBegin=1441630|AlignEnd=1441840|Gloss=well
-4	kà	à	AUX	_	Aspect=Aor|Person=2	12	parataxis@discourse	_	AlignBegin=1441840|AlignEnd=1442040|Gloss=2Masc.Aor
+3	tòː	tòː	INTJ	_	_	19	discourse	_	AlignBegin=1441630|AlignEnd=1441840|Gloss=well
+4	kà	à	AUX	_	Aspect=Aor|Person=2	19	discourse	_	AlignBegin=1441840|AlignEnd=1442040|Gloss=2Masc.Aor
 5	duːbàː	duːb-	VERB	_	VerbForm=Vnoun	4	comp:aux	_	AlignBegin=1442040|AlignEnd=1442240|ExtPos=NOUN|Gloss=look̠_at
-6	dâː	dâː	ADV	_	_	12	mod	_	AlignBegin=1442240|AlignEnd=1442450|Gloss=formerly
+6	dâː	dâː	ADV	_	_	19	mod	_	AlignBegin=1442240|AlignEnd=1442450|Gloss=formerly
 7	dai	dai	PART	_	_	6	mod	_	AlignBegin=1442450|AlignEnd=1442650|Gloss=indeed
 8	<	<	PUNCT	_	_	6	punct	_	AlignBegin=1442650|AlignEnd=1442860|Gloss=PUNCT|wordform=/
-9	àbuːbuwàː	àbù	NOUN	_	Number=Plur	12	dislocated@subj	_	AlignBegin=1443110|AlignEnd=1443250|Gloss=thing.Plur|wordform=àbù
+9	àbuːbuwàː	àbù	NOUN	_	Number=Plur	19	dislocated	_	AlignBegin=1443110|AlignEnd=1443250|Gloss=thing.Plur|wordform=àbù
 10	dug	dukà	DET	_	_	9	det	_	AlignBegin=1443390|AlignEnd=1443680|Gloss=all
 11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=1443680|AlignEnd=1443960|Gloss=PUNCT|wordform=/
-12	gàː	gàː	PART	_	_	0	root	_	AlignBegin=1443960|AlignEnd=1444120|Gloss=here_is
+12	gàː	gàː	PART	_	_	19	discourse	_	AlignBegin=1443960|AlignEnd=1444120|Gloss=here_is
 13	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	12	subj	_	AlignBegin=1444120|AlignEnd=1444280|Gloss=3Masc
 14	nan	nan	ADV	_	Definite=Def	12	comp:pred	_	AlignBegin=1444280|AlignEnd=1444440|Gloss=Def
 15	yànzu	yànzu	ADV	_	_	12	mod	_	AlignBegin=1444440|AlignEnd=144460|Gloss=now
-16	//=	//=	PUNCT	_	_	19	punct	_	AlignBegin=144460|AlignEnd=1444770|Gloss=PUNCT|wordform=/
-17	zaːmàniː	zaːmàniː	NOUN	_	Number=Plur	19	dislocated@top	_	AlignBegin=1444770|AlignEnd=14450|Gloss=present_time
+16	<	<	PUNCT	_	_	19	punct	_	AlignBegin=144460|AlignEnd=1444770|Gloss=PUNCT|wordform=/
+17	zaːmàniː	zaːmàniː	NOUN	_	Number=Plur	19	dislocated	_	AlignBegin=1444770|AlignEnd=14450|Gloss=present_time
 18	Allàː	Allàː	PROPN	_	_	19	subj	_	AlignBegin=14450|AlignEnd=1445230|Gloss=God
-19	yaː	yaː	AUX	_	Aspect=Perf|Person=3	12	parataxis	_	AlignBegin=1445230|AlignEnd=1445460|Gloss=3Masc.Perf
+19	yaː	yaː	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=1445230|AlignEnd=1445460|Gloss=3Masc.Perf
 20	kaːwoː	kai	VERB	_	_	19	comp:aux	_	AlignBegin=1445460|AlignEnd=1445690|Gloss=carry.DIR
 21	mù	mù	PRON	_	Number=Plur|Person=1	20	comp:ben	_	AlignBegin=1445690|AlignEnd=1445920|Gloss=1Plur
 22	//	//	PUNCT	_	_	19	punct	_	AlignBegin=1445920|AlignEnd=1446150|Gloss=PUNCT
@@ -12570,13 +12570,13 @@
 # phonetic_text = gàː shi baːkà kàː sôː à taːshì /
 # text = gàː shi baːkàː sôː à taːshì //
 # text_en =  Here you are, you don't want to leave.
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=1505510|AlignEnd=1505650|Gloss=here_is
+1	gàː	gàː	PART	_	_	3	discourse	_	AlignBegin=1505510|AlignEnd=1505650|Gloss=here_is
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	1	subj	_	AlignBegin=1505650|AlignEnd=1505780|Gloss=3Masc
-3	baːkàː	bâi	AUX	_	Number=Plur	1	parataxis	_	AlignBegin=1505780|AlignEnd=1505920|Gloss=2Masc.Imp.Neg
+3	baːkàː	bâi	AUX	_	Number=Plur	0	root	_	AlignBegin=1505780|AlignEnd=1505920|Gloss=2Masc.Imp.Neg
 4	sôː	soː	VERB	_	_	3	mod	_	AlignBegin=1506050|AlignEnd=1506190|Gloss=want.Vnoun
 5	à	à	AUX	_	_	4	comp:obj	_	AlignBegin=1506190|AlignEnd=1506320|Gloss=4.Aor
 6	taːshì	taːshì	VERB	_	_	5	comp:aux	_	AlignBegin=1506320|AlignEnd=1506460|Gloss=rise
-7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1506460|AlignEnd=1506590|Gloss=PUNCT|wordform=/
+7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=1506460|AlignEnd=1506590|Gloss=PUNCT|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_1358-1359
 # speaker_id = SP2
@@ -12703,22 +12703,22 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1516599, 1519630
 # phonetic_text = tòː àkwai wani loːkàciː / niː / bà zân taɓàː mântaː -wàː ba ai // raːnaː dà zaːʼà ƙaːràƙeː aikìː -ǹ sai dà mukà kai ƙarfèː / kusan tar̃à //
-# text = tòː àkwai wani loːkàciː //= niː < bà zân taɓàː mântaːwàː ba ai //
+# text = tòː àkwai wani loːkàciː < niː < bà zân taɓà mântaːwàː ba ai //
 # text_en =  Well, there is a time, myself, I cannot forget it.
-1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=151660|AlignEnd=151690|Gloss=well
-2	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=151690|AlignEnd=151720|Gloss=there_is
+1	tòː	tòː	INTJ	_	_	9	discourse	_	AlignBegin=151660|AlignEnd=151690|Gloss=well
+2	àkwai	àkwai	PART	_	_	9	dislocated	_	AlignBegin=151690|AlignEnd=151720|Gloss=there_is
 3	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	4	det	_	AlignBegin=151720|AlignEnd=1517510|Gloss=some.Masc
 4	loːkàciː	loːkàciː	NOUN	_	_	2	subj	_	AlignBegin=1517510|AlignEnd=1517810|Gloss=time
-5	//=	//=	PUNCT	_	_	4	punct	_	AlignBegin=1517810|AlignEnd=1518120|Gloss=PUNCT|wordform=/
+5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=1517810|AlignEnd=1518120|Gloss=PUNCT|wordform=/
 6	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	dislocated@subj	_	AlignBegin=1518120|AlignEnd=151820|Gloss=1Sing.Nom
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=151820|AlignEnd=1518280|Gloss=PUNCT|wordform=/
 8	bà	bà	PART	_	_	9	mod	_	AlignBegin=1518280|AlignEnd=1518470|Gloss=Neg
-9	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	2	parataxis	_	AlignBegin=1518470|AlignEnd=1518670|Gloss=1Sing.Fut
-10	taɓàː	taɓà-	VERB	_	_	9	comp:aux	_	AlignBegin=1518670|AlignEnd=1518860|Gloss=already
+9	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=1518470|AlignEnd=1518670|Gloss=1Sing.Fut
+10	taɓà	taɓ-	VERB	_	_	9	comp:aux	_	AlignBegin=1518670|AlignEnd=1518860|Gloss=have_already
 11	mântaːwàː	mântaː-wàː	VERB	_	_	10	comp:obj	_	AlignBegin=1518860|AlignEnd=1518960|Gloss=forget.Vnoun|wordform=mântaː
 12	ba	ba	PART	_	Polarity=Neg	9	mod	_	AlignBegin=1519060|AlignEnd=1519250|Gloss=Neg
 13	ai	ai	PART	_	_	9	mod	_	AlignBegin=1519250|AlignEnd=1519440|Gloss=indeed
-14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=1519440|AlignEnd=1519630|Gloss=PUNCT
+14	//	//	PUNCT	_	_	9	punct	_	AlignBegin=1519440|AlignEnd=1519630|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1374-1376
 # speaker_id = SP2
