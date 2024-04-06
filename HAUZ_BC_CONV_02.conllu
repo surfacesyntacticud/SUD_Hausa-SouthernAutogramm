@@ -323,7 +323,7 @@
 # text = dà su kàːjiː mukà ɗan ƙaːràː > cikin gidaː //
 # text_en =  And we added some chickens, to the compound.
 1	dà	dà	ADP	_	_	4	dislocated@comp	_	AlignBegin=39083|AlignEnd=39247|Gloss=and
-2	su	su	DET	_	Number=Plur|Person=3	3	det	_	AlignBegin=39247|AlignEnd=39411|Gloss=Plur
+2	su	su	DET	_	Number=Plur	3	det	_	AlignBegin=39247|AlignEnd=39411|Gloss=Plur
 3	kàːjiː	kàːjiː	NOUN	_	Number=Plur	1	comp:obj	_	AlignBegin=39411|AlignEnd=39493|Gloss=hen.Plur
 4	mukà	kà	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=1	0	root	_	AlignBegin=39575|AlignEnd=39739|Gloss=1Plur.Perf.Bck
 5	ɗan	ɗan	ADV	_	_	6	mod	_	AlignBegin=39739|AlignEnd=39903|Gloss=little
@@ -436,13 +436,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 49980, 50926
 # phonetic_text = mallàkiː nèː na kâi -naː //
-# text = mallàkiː nèː na kâinaː //
+# text = mallàkiː nèː na kâinaːnaː //
 # text_en =  They are my own property.
 1	mallàkiː	mallàkiː	NOUN	_	_	2	comp:pred	_	AlignBegin=49980|AlignEnd=50169|Gloss=property
 2	nèː	neː	PART	_	_	0	root	_	AlignBegin=50169|AlignEnd=50358|Gloss=Ident/Blg
 3	na	na	PART	_	Definite=Cons	1	mod	_	AlignBegin=50358|AlignEnd=50547|Gloss=Cons|number=Sing
-4	kâinaː	kâinaː	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	comp:obj	_	AlignBegin=50547|AlignEnd=50641|Gloss=1Sing.Reflex
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=50736|AlignEnd=50926|Gloss=PUNCT
+4	kâinaː	kâinaː	NOUN	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	comp:obj	_	AlignBegin=50547|AlignEnd=50641|Gloss=1Sing.Reflex
+5	=naː	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	4	mod@poss	_	AlignBegin=50641|AlignEnd=50736|Gloss=1Sing.Gen|InIdiom=Yes
+6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=50736|AlignEnd=50926|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_052-052
 # speaker_id = SP1
@@ -1119,7 +1120,7 @@
 21	hakà	hakà	ADV	_	_	20	mod	_	AlignBegin=126213|AlignEnd=126403|Gloss=like_this
 22	<	<	PUNCT	_	_	20	punct	_	AlignBegin=126403|AlignEnd=126592|Gloss=PUNCT
 23	irìː-n	irìː	NOUN	_	Definite=Cons	20	conj:coord	_	AlignBegin=126956|AlignEnd=127052|Gloss=type.Cons|wordform=irìː
-24	su	su	DET	_	Number=Plur|Person=3	25	det	_	AlignBegin=127147|AlignEnd=127338|Gloss=Plur
+24	su	su	DET	_	Number=Plur	25	det	_	AlignBegin=127147|AlignEnd=127338|Gloss=Plur
 25	daːwàː	daːwàː	NOUN	_	_	23	mod	_	AlignBegin=127338|AlignEnd=127529|Gloss=guinea-corn
 26	//	//	PUNCT	_	_	7	punct	_	AlignBegin=127529|AlignEnd=127719|Gloss=PUNCT
 
@@ -2379,7 +2380,7 @@
 11	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=248546|AlignEnd=248787|Gloss=PUNCT
 12	dà	dà	CCONJ	_	_	15	cc	_	AlignBegin=248787|AlignEnd=248991|Gloss=and
 13	dai	dai	PART	_	_	12	discourse	_	AlignBegin=248991|AlignEnd=249195|Gloss=indeed
-14	su	su	DET	_	Number=Plur|Person=3	15	det	_	AlignBegin=249195|AlignEnd=249399|Gloss=Plur
+14	su	su	DET	_	Number=Plur	15	det	_	AlignBegin=249195|AlignEnd=249399|Gloss=Plur
 15	zː	X	X	_	_	10	conj:coord	_	AlignBegin=249399|AlignEnd=249603|Gloss=HESIT
 16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=249603|AlignEnd=249809|Gloss=PUNCT
 17	àbîn	àbù	NOUN	_	Definite=Def	15	conj:dicto	_	AlignBegin=249809|AlignEnd=249889|Gloss=thing.Def|wordform=àbù
@@ -3230,7 +3231,7 @@
 14	=shì	=shì	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	udep	_	AlignBegin=335376|AlignEnd=335464|Gloss=3Masc
 15	ƙauyèː	ƙauyèː	PROPN	_	_	13	comp:pred	_	AlignBegin=335726|AlignEnd=335927|Gloss=village
 16	>	>	PUNCT	_	_	17	punct	_	AlignBegin=335927|AlignEnd=336128|Gloss=PUNCT
-17	can	can	ADP	_	Person=2	6	mod	_	AlignBegin=336128|AlignEnd=336316|Gloss=Dist2
+17	can	can	ADP	_	_	6	mod	_	AlignBegin=336128|AlignEnd=336316|Gloss=Dist2
 18	R̃icipà	R̃icipà	PROPN	_	_	17	conj:appos	_	AlignBegin=336316|AlignEnd=336504|Gloss=Richipa
 19	//	//	PUNCT	_	_	5	punct	_	AlignBegin=336504|AlignEnd=336693|Gloss=PUNCT
 
@@ -3491,14 +3492,14 @@
 3	kuma	kuma	PART	_	_	2	discourse	_	AlignBegin=354187|AlignEnd=354375|Gloss=too
 4	mukà	kà	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=1	2	comp:obj	_	AlignBegin=354375|AlignEnd=354563|Gloss=1Plur.Perf.Bkg
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=354563|AlignEnd=354751|Gloss=do
-6	can	can	ADP	_	Person=2	5	comp:goal	_	AlignBegin=354751|AlignEnd=354939|Gloss=Dist2
+6	can	can	ADP	_	_	5	comp:goal	_	AlignBegin=354751|AlignEnd=354939|Gloss=Dist2
 7	wajèːjen	wajeː	NOUN	_	Definite=Cons|Number=Plur	6	conj:appos	_	AlignBegin=354939|AlignEnd=355002|Gloss=place.Plur.Cons
 8	ɓangarèn	ɓangarèː	NOUN	_	Definite=Cons|Number=Plur	7	mod	_	AlignBegin=355127|AlignEnd=355221|Gloss=group.Cons|wordform=ɓangarèː
 9	gabàs	gabàs	NOUN	_	_	8	mod	_	AlignBegin=355498|AlignEnd=355681|Gloss=east
 10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=355681|AlignEnd=355864|Gloss=PUNCT
 11	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=356177|AlignEnd=356395|Gloss=there_is
 12	gidan	gidaː	NOUN	_	Definite=Cons	11	subj	_	AlignBegin=356395|AlignEnd=356504|Gloss=house.Cons|wordform=gidaː
-13	su	su	DET	_	Number=Plur|Person=3	14	det	_	AlignBegin=356613|AlignEnd=356831|Gloss=Plur
+13	su	su	DET	_	Number=Plur	14	det	_	AlignBegin=356613|AlignEnd=356831|Gloss=Plur
 14	Bùbba	Bùbba	PROPN	_	_	12	compound	_	AlignBegin=356831|AlignEnd=357049|Gloss=Bubba
 15	//	//	PUNCT	_	_	11	punct	_	AlignBegin=357049|AlignEnd=357265|Gloss=PUNCT
 
@@ -3531,7 +3532,7 @@
 # text_en =  There is Bubba's ward.
 1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=358052|AlignEnd=358227|Gloss=there_is
 2	gidan	gidaː	NOUN	_	Definite=Cons	1	subj	_	AlignBegin=358227|AlignEnd=358315|Gloss=house.Cons|wordform=gidaː
-3	su	su	DET	_	Number=Plur|Person=3	4	det	_	AlignBegin=358402|AlignEnd=358577|Gloss=Plur
+3	su	su	DET	_	Number=Plur	4	det	_	AlignBegin=358402|AlignEnd=358577|Gloss=Plur
 4	Bùbba	Bùbba	PROPN	_	_	2	compound	_	AlignBegin=358577|AlignEnd=358752|Gloss=Bùbba
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=358752|AlignEnd=358927|Gloss=PUNCT
 
@@ -3545,7 +3546,7 @@
 1	shiː	shiː	PRON	_	Person=3	16	dislocated@top	_	AlignBegin=358927|AlignEnd=359103|Gloss=3Masc.Nom
 2	wânnan	wânnan	DET	_	Definite=Def	3	det	_	AlignBegin=359103|AlignEnd=359279|Gloss=Def
 3	gidan	gidaː	NOUN	_	Definite=Cons	1	conj:appos	_	AlignBegin=359279|AlignEnd=359367|Gloss=house.Cons|wordform=gidaː
-4	su	su	DET	_	Number=Plur|Person=3	5	det	_	AlignBegin=359455|AlignEnd=359631|Gloss=Plur
+4	su	su	DET	_	Number=Plur	5	det	_	AlignBegin=359455|AlignEnd=359631|Gloss=Plur
 5	Bùbba	Bùbba	NOUN	_	_	3	compound	_	AlignBegin=359631|AlignEnd=359807|Gloss=Bùbba
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=359807|AlignEnd=359983|Gloss=PUNCT
 7	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	16	dislocated@top	_	AlignBegin=360211|AlignEnd=360349|Gloss=3Masc.Nom
