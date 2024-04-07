@@ -321,10 +321,10 @@
 # text_en =  Well, as for him, Rabbit as for him, he wants to be told to follow her.
 1	tòː	tòː	INTJ	_	_	7	discourse	_	AlignBegin=43954|AlignEnd=44210|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=44210|AlignEnd=44466|Gloss=3Masc.Nom
-3	kuma	kuma	PART	_	_	2	mod	_	AlignBegin=44466|AlignEnd=44722|Gloss=also
+3	kuma	kuma	PART	_	_	2	discourse	_	AlignBegin=44466|AlignEnd=44722|Gloss=also
 4	zoːmoː	zoːmoː	VERB	_	_	2	conj:appos	_	AlignBegin=44978|AlignEnd=45226|Gloss=Rabbit
 5	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=45226|AlignEnd=45474|Gloss=3Masc.Nom
-6	kuma	kuma	PART	_	_	5	mod	_	AlignBegin=45474|AlignEnd=45722|Gloss=also
+6	kuma	kuma	PART	_	_	5	discourse	_	AlignBegin=45474|AlignEnd=45722|Gloss=also
 7	yanàː	nàː	AUX	_	Person=3	0	root	_	AlignBegin=45970|AlignEnd=46165|Gloss=3Masc.Imp
 8	sôn	sôː	VERB	_	Definite=Cons	7	comp:aux	_	AlignBegin=46165|AlignEnd=46263|Gloss=want.Vnoun.Cons|wordform=sôː
 9	à	à	AUX	_	_	8	comp:obj	_	AlignBegin=46360|AlignEnd=46555|Gloss=4.Aor
@@ -372,7 +372,7 @@
 1	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=50281|AlignEnd=50392|Gloss=well
 2	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	dislocated@subj	_	AlignBegin=50392|AlignEnd=50503|Gloss=2Plur.Nom
 3	maː	maː	PART	_	_	2	discourse	_	AlignBegin=50503|AlignEnd=50614|Gloss=even
-4	bàː	bàː	PART	_	_	5	mod	_	AlignBegin=50724|AlignEnd=50862|Gloss=Neg
+4	bàː	bàː	PART	_	Polarity=Yes	5	mod	_	AlignBegin=50724|AlignEnd=50862|Gloss=Neg
 5	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=50862|AlignEnd=51000|Gloss=3Plur.Perf
 6	ci	ci	VERB	_	_	5	comp:aux	_	AlignBegin=51000|AlignEnd=51138|Gloss=eat
 7	koːmeː	koːm-	PRON	_	PronType=Ind	6	comp:obj	_	AlignBegin=51138|AlignEnd=51276|Gloss=anything
@@ -610,7 +610,7 @@
 2	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=76797|AlignEnd=76890|Gloss=3Masc.Perf.Bck
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=76890|AlignEnd=76983|Gloss=say
 4	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=77075|AlignEnd=77310|Gloss=3Masc.Nom
-5	dai	dai	PART	_	_	4	mod	_	AlignBegin=77310|AlignEnd=77545|Gloss=indeed
+5	dai	dai	PART	_	_	4	discourse	_	AlignBegin=77310|AlignEnd=77545|Gloss=indeed
 6	bà	bà	PART	_	Polarity=Neg	7	mod	_	AlignBegin=77781|AlignEnd=77975|Gloss=Neg
 7	zâː	zâː	PART	_	_	3	comp:obj	_	AlignBegin=77975|AlignEnd=78169|Gloss=go_to
 8	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	subj	_	AlignBegin=78169|AlignEnd=78363|Gloss=3Masc
@@ -703,7 +703,7 @@
 # text = suː kòː sukà wucèː sukà tàfi ràːfinsù //
 # text_en =  As for them, they went on to their river.
 1	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	dislocated@subj	_	AlignBegin=90126|AlignEnd=90353|Gloss=2Plur.Nom
-2	kòː	kòː	PART	_	_	1	mod	_	AlignBegin=90353|AlignEnd=90580|Gloss=as_for
+2	kòː	kòː	PART	_	_	1	discourse	_	AlignBegin=90353|AlignEnd=90580|Gloss=as_for
 3	sukà	kà	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	0	root	_	AlignBegin=90580|AlignEnd=90807|Gloss=3Plur.Perf.Bck
 4	wucèː	wucèː	VERB	_	_	3	comp:aux	_	AlignBegin=90807|AlignEnd=91034|Gloss=pass_by
 5	sukà	kà	AUX	_	Aspect=Perf|Evident=Bck|Number=Plur|Person=3	3	conj:svc	_	AlignBegin=91034|AlignEnd=91261|Gloss=3Plur.Perf.Bck
@@ -789,17 +789,17 @@
 4	tàfiyàn	taf-	VERB	_	Definite=Cons	1	comp:aux	_	AlignBegin=101740|AlignEnd=101809|Gloss=go.Vnoun.Cons|wordform=tàfiyàː
 5	=shì	=shì	PRON	_	Gender=Masc|Person=3	4	mod@poss	_	AlignBegin=101878|AlignEnd=101946|Gloss=3Masc..Gen|wordform==shi
 6	yanàː	nàː²	AUX	_	Person=3	1	parataxis	_	AlignBegin=102150|AlignEnd=102347|Gloss=3Masc.Imp
-7	ta	ta	PART	_	_	9	mod	_	AlignBegin=102347|AlignEnd=102544|Gloss=Iter
+7	ta	ta	PART	_	Aspect=Iter	9	mod	_	AlignBegin=102347|AlignEnd=102544|Gloss=Iter
 8	ɗan	ɗan	ADV	_	_	9	mod	_	AlignBegin=102544|AlignEnd=102741|Gloss=DIM
 9	wàːsan	wàːsaː	NOUN	_	Definite=Cons	6	comp:aux	_	AlignBegin=102741|AlignEnd=102807|Gloss=playing.Cons|wordform=wàːsaː
 10	=shì	=shì	PRON	_	Gender=Masc|Person=3	9	mod@poss	_	AlignBegin=102873|AlignEnd=102938|Gloss=3Masc..Gen|wordform==shi
 11	yanàː	nàː	AUX	_	Aspect=Imp|Person=3	6	conj:redup	_	AlignBegin=103134|AlignEnd=103311|Gloss=3Masc.Imp
-12	ta	ta	PART	_	_	14	mod	_	AlignBegin=103311|AlignEnd=103488|Gloss=DUR
+12	ta	ta	PART	_	Aspect=Iter	14	mod	_	AlignBegin=103311|AlignEnd=103488|Gloss=Iter
 13	ɗan	ɗan	ADJ	_	_	14	mod	_	AlignBegin=103488|AlignEnd=103665|Gloss=DIM
 14	wàːsan	wàːsaː	NOUN	_	Definite=Cons	11	comp:aux	_	AlignBegin=103665|AlignEnd=103724|Gloss=playing.Cons|wordform=wàːsaː
 15	=shì	=shì	PRON	_	Gender=Masc|Person=3	14	mod@poss	_	AlignBegin=103783|AlignEnd=103842|Gloss=3Masc..Gen|wordform==shi
 16	yanàː	nàː	AUX	_	Aspect=Imp|Person=3	11	conj:redup	_	AlignBegin=104017|AlignEnd=104256|Gloss=3Masc.Imp
-17	ta	ta	ADP	_	_	19	mod	_	AlignBegin=104256|AlignEnd=104495|Gloss=Iter
+17	ta	ta	ADP	_	Aspect=Iter	19	mod	_	AlignBegin=104256|AlignEnd=104495|Gloss=Iter
 18	ɗan	ɗan	ADP	_	_	19	mod	_	AlignBegin=104495|AlignEnd=104734|Gloss=DIM
 19	wàːsan	wàːsaː	NOUN	_	Definite=Cons	16	comp:aux	_	AlignBegin=104734|AlignEnd=104814|Gloss=playing.Cons|wordform=wàːsaː
 20	=shì	=shì	PRON	_	Gender=Masc|Person=3	19	mod@poss	_	AlignBegin=104894|AlignEnd=104973|Gloss=3Masc..Gen|wordform==shi
@@ -840,16 +840,16 @@
 # phonetic_text = àsheː kai / m̀ː m̀ː m̀ː / àbù -ǹ nan / a kâi /
 # text = àsheː kài / m̀ː m̀ː m̀ː / àbîn nan / a kâi /
 # text_en = Alas, hm hm hm, there this on top!
-1	àsheː	àsheː	PART	_	_	6	discourse	_	AlignBegin=107652|AlignEnd=107979|Gloss=indeed
-2	kai	kai	PRON	_	_	6	vocative	_	AlignBegin=107979|AlignEnd=108306|Gloss=2Masc.Nom
-3	m̀ː	m̀ː	INTJ	_	_	6	discourse	_	AlignBegin=108634|AlignEnd=108919|Gloss=BKL
+1	àsheː	àsheː	PART	_	_	8	discourse	_	AlignBegin=107652|AlignEnd=107979|Gloss=indeed
+2	kai	kai	PRON	_	_	8	vocative	_	AlignBegin=107979|AlignEnd=108306|Gloss=2Masc.Nom
+3	m̀ː	m̀ː	INTJ	_	_	8	discourse	_	AlignBegin=108634|AlignEnd=108919|Gloss=BKL
 4	m̀ː	m̀ː	INTJ	_	_	3	conj:redup	_	AlignBegin=108919|AlignEnd=109204|Gloss=BKL
 5	m̀ː	m̀ː	INTJ	_	_	4	conj:redup	_	AlignBegin=109204|AlignEnd=109489|Gloss=BKL
-6	àbîn	àbù	NOUN	_	Definite=Def	0	root	_	AlignBegin=109774|AlignEnd=109886|Gloss=thing.Def
+6	àbîn	àbù	NOUN	_	Definite=Def	8	subj	_	AlignBegin=109774|AlignEnd=109886|Gloss=thing.Def
 7	nan	nan	DET	_	Definite=Def	6	det	_	AlignBegin=109999|AlignEnd=110224|Gloss=Def
-8	à	à	PART	_	ExtPos=ADV	6	mod	_	AlignBegin=111791|AlignEnd=112101|Gloss=at|Idiom=Yes
+8	à	à	ADP	_	ExtPos=ADV	0	root	_	AlignBegin=111791|AlignEnd=112101|Gloss=at|Idiom=Yes
 9	kâi	kâi	NOUN	_	_	8	conj:obj	_	AlignBegin=112101|AlignEnd=112411|Gloss=head|InIdiom=Yes
-10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=112411|AlignEnd=112722|Gloss=PUNCT|wordform=/
+10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=112411|AlignEnd=112722|Gloss=PUNCT|wordform=/
 
 # sent_id = HAUZ_BC_NARR_01_102-102
 # speaker_id = SP2
@@ -1364,7 +1364,7 @@
 # text_en = The belly started swelling.
 1	cikìː	cikìː	NOUN	_	_	2	comp:obj	_	AlignBegin=168385|AlignEnd=168584|Gloss=belly
 2	yanàː	nàː	AUX	_	Aspect=Imp|Person=3	0	root	_	AlignBegin=168584|AlignEnd=168783|Gloss=3Masc.Imp
-3	ta	ta	PART	_	_	4	mod	_	AlignBegin=168783|AlignEnd=168982|Gloss=Iter
+3	ta	ta	PART	_	Aspect=Iter	4	mod	_	AlignBegin=168783|AlignEnd=168982|Gloss=Iter
 4	girmaː	girm-	VERB	_	_	2	comp:aux	_	AlignBegin=168982|AlignEnd=169181|Gloss=grow.Vnoun
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=169181|AlignEnd=169380|Gloss=PUNCT
 
@@ -1546,7 +1546,7 @@
 # text = koː kuma / à cikin ruwân nan / kaː ci wani àbù //
 # text_en =  Or else in that water you ate something.
 1	koː	koː	CCONJ	_	_	7	discourse	_	AlignBegin=189836|AlignEnd=189951|Gloss=or
-2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=189951|AlignEnd=190066|Gloss=also
+2	kuma	kuma	PART	_	_	1	discourse	_	AlignBegin=189951|AlignEnd=190066|Gloss=also
 3	à	à	ADP	_	ExtPos=ADP	7	mod	_	AlignBegin=190181|AlignEnd=190331|Gloss=at|Idiom=Yes
 4	cikin	cikin	ADP	_	_	3	compound	_	AlignBegin=190331|AlignEnd=190481|Gloss=inside|InIdiom=Yes
 5	ruwân	ruwaː	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=190481|AlignEnd=190556|Gloss=water.Def
@@ -1639,7 +1639,7 @@
 # text = sai kuma / ya tunàː //
 # text_en =  Then again, he thought.
 1	sai	sai	ADV	_	_	3	mod	_	AlignBegin=199860|AlignEnd=200099|Gloss=then
-2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=200099|AlignEnd=200338|Gloss=also
+2	kuma	kuma	PART	_	_	1	discourse	_	AlignBegin=200099|AlignEnd=200338|Gloss=also
 3	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=201904|AlignEnd=202091|Gloss=3Masc.Perf.Bck
 4	tunàː	tun-	VERB	_	_	3	comp:aux	_	AlignBegin=202091|AlignEnd=202278|Gloss=think
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=202278|AlignEnd=202466|Gloss=PUNCT
@@ -2240,7 +2240,7 @@
 2	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=270734|AlignEnd=270938|Gloss=Neg
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=270938|AlignEnd=271142|Gloss=3Masc
 4	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=271142|AlignEnd=271346|Gloss=with
-5	kuma	kuma	PART	_	_	4	mod	_	AlignBegin=271346|AlignEnd=271550|Gloss=also
+5	kuma	kuma	PART	_	_	4	discourse	_	AlignBegin=271346|AlignEnd=271550|Gloss=also
 6	mài	mài	NOUN	_	_	4	comp:obj	_	AlignBegin=271550|AlignEnd=271754|Gloss=holder_of
 7	tàimakoː	tàimakoː	NOUN	_	_	6	compound	_	AlignBegin=271754|AlignEnd=271958|Gloss=helping
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=271958|AlignEnd=272159|Gloss=PUNCT

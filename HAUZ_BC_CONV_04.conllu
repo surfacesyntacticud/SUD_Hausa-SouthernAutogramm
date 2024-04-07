@@ -1,3 +1,22 @@
+# sent_id = HAUZ_BC_CONV_04_0019-0020
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 23565, 25981
+# phonetic_text = koː kuma wai wata daːwàː / wai ita shìnkaːfaː hùːtaː //
+# text = koː kuma wai wata daːwàː / wai ita shìnkaːfaː hùːtaː !//
+# text_en =  And there is a type of guinea-corn called "rice can rest".  (NB=acha)
+1	koː	koː	CCONJ	_	_	10	discourse	_	AlignBegin=23565|AlignEnd=23739|Gloss=or
+2	kuma	kuma	PART	_	_	1	discourse	_	AlignBegin=23739|AlignEnd=23913|Gloss=too
+3	wai	wai	PART	_	_	10	discourse	_	AlignBegin=23913|AlignEnd=24087|Gloss=EVD
+4	wata	wata	DET	_	_	5	det	_	AlignBegin=24087|AlignEnd=24261|Gloss=some.Fem
+5	daːwàː	daːwàː	NOUN	_	_	10	dislocated@top	_	AlignBegin=24261|AlignEnd=24435|Gloss=guinea-corn
+6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=24435|AlignEnd=24606|Gloss=PUNCT|wordform=/
+7	wai	wai	PART	_	_	10	discourse	_	AlignBegin=24606|AlignEnd=24881|Gloss=EVD
+8	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	10	dislocated@top	_	AlignBegin=24881|AlignEnd=25156|Gloss=3Fem.Nom
+9	shìnkaːfaː	shìnkaːfaː	NOUN	_	Number=Plur	10	vocative	_	AlignBegin=25156|AlignEnd=25431|Gloss=rice
+10	hùːtaː	huːt-	VERB	_	Mood=Jus	0	root	_	AlignBegin=25431|AlignEnd=25706|Gloss=rest.Jus
+11	!//	!//	PUNCT	_	_	10	punct	_	AlignBegin=25706|AlignEnd=25981|Gloss=PUNCT
+
 # sent_id = HAUZ_BC_CONV_04_0154-0154
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
@@ -48,6 +67,54 @@
 7	nan	nan	DET	_	Definite=Def	6	det	_	AlignBegin=403521|AlignEnd=403706|Gloss=Def
 8	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=403706|AlignEnd=403893|Gloss=PUNCT
 
+# sent_id = HAUZ_BC_CONV_04_0453-0458
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 539996, 545285
+# phonetic_text = dâː in / iskàː -n bazaraː ya huːràː / zaːkà ji kàmar̃ / kàmar̃ kaɗà kà taːshì / in kanàː koː &// in kanàː gìndiː -n in -wàː //
+# text = dâː in iskàn bazaraː ya huːràː < zaːkà ji kàmar̃ < kàmar̃ kaɗà kà taːshì in kanàː koː || in kanàː gìndin inwàː //
+# text_en =  In the old days if the wind of the hot season is blowing, you will feel like like you should not get up if you are... if you are in the shade.
+1	dâː	dâː	ADV	_	_	8	mod	_	AlignBegin=539996|AlignEnd=540186|Gloss=formerly
+2	in	in	SCONJ	_	_	8	mod	_	AlignBegin=540186|AlignEnd=540376|Gloss=if
+3	iskàn	iskàː	NOUN	_	Definite=Cons	5	subj	_	AlignBegin=540565|AlignEnd=540673|Gloss=wind.Cons|wordform=iskàː
+4	bazaraː	bazaraː	NOUN	_	_	3	mod	_	AlignBegin=540782|AlignEnd=540999|Gloss=hot_season
+5	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=540999|AlignEnd=541216|Gloss=3Masc.Perf.Bkg
+6	huːràː	huːr-	VERB	_	_	5	comp:aux	_	AlignBegin=541216|AlignEnd=541433|Gloss=blow
+7	<	<	PUNCT	_	_	8	punct	_	AlignBegin=541433|AlignEnd=541649|Gloss=PUNCT|wordform=/
+8	zaːkà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=541649|AlignEnd=541891|Gloss=2Sing.Fut
+9	ji	ji	VERB	_	_	8	comp:aux	_	AlignBegin=541891|AlignEnd=542133|Gloss=feel
+10	kàman	kàman	SCONJ	_	_	9	comp:obl	_	AlignBegin=542133|AlignEnd=542375|Gloss=like|wordform=kàmar̃
+11	<	<	PUNCT	_	_	12	punct	_	AlignBegin=542375|AlignEnd=542619|Gloss=PUNCT|wordform=/
+12	kàman	kàman	SCONJ	_	_	10	conj:dicto	_	AlignBegin=542859|AlignEnd=543078|Gloss=like|wordform=kàmar̃
+13	kaɗà	kaɗà	PART	_	Polarity=Neg	14	mod	_	AlignBegin=543078|AlignEnd=543297|Gloss=Neg
+14	kà	à	AUX	_	Aspect=Aor|Person=2	12	comp:obj	_	AlignBegin=543297|AlignEnd=543516|Gloss=2Masc.Aor
+15	taːshì	taːs-	VERB	_	_	14	comp:aux	_	AlignBegin=543516|AlignEnd=543735|Gloss=rise
+16	in	in	SCONJ	_	_	14	mod	_	AlignBegin=543955|AlignEnd=544094|Gloss=if
+17	kanàː	kanàː	AUX	_	Person=2	16	comp:obj	_	AlignBegin=544094|AlignEnd=544233|Gloss=2Masc.Imp
+18	koː	koː	CCONJ	_	_	17	discourse	_	AlignBegin=544233|AlignEnd=544372|Gloss=or
+19	||	||	PUNCT	_	_	20	punct	_	AlignBegin=544372|AlignEnd=544510|Gloss=PUNCT
+20	in	in	SCONJ	_	_	16	conj:dicto	_	AlignBegin=544510|AlignEnd=544665|Gloss=if
+21	kanàː	nàː	AUX	_	Person=2	20	comp:obj	_	AlignBegin=544665|AlignEnd=544820|Gloss=2Masc.Pred/Loc
+22	gìndin	gìndin	ADP	_	_	21	comp:pred	_	AlignBegin=544820|AlignEnd=544898|Gloss=beneath|wordform=gìndiː
+23	inwàː	inwàː	NOUN	_	_	22	comp:obj	_	AlignBegin=544975|AlignEnd=545053|Gloss=shade|wordform=in
+24	//	//	PUNCT	_	_	8	punct	_	AlignBegin=545130|AlignEnd=545285|Gloss=PUNCT
+
+# sent_id = HAUZ_BC_CONV_04_0564-0564
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 662853, 664651
+# phonetic_text = wai kà cêː kaː jeː goːnaː -n bàːba -Q //
+# text = wai kà cêː kaː jeː goːnan bàːbâ ?//
+# text_en = As if you had gone to your father's farm?
+1	wai	wai	PART	_	_	4	discourse	_	AlignBegin=662853|AlignEnd=663078|Gloss=EVD
+2	kà	à	AUX	_	Aspect=Aor|Person=2	4	discourse	_	AlignBegin=663078|AlignEnd=663303|Gloss=2Masc.Aor
+3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=663303|AlignEnd=663528|Gloss=say
+4	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=663528|AlignEnd=663753|Gloss=2Masc.Perf
+5	jeː	jeː	VERB	_	_	4	comp:aux	_	AlignBegin=663753|AlignEnd=663978|Gloss=go
+6	goːnan	goːnaː	NOUN	_	Definite=Cons	5	comp:goal	_	AlignBegin=663978|AlignEnd=664090|Gloss=field.Cons|wordform=goːnaː
+7	bàːbâ	bàːba	NOUN	_	_	6	mod	_	AlignBegin=664203|AlignEnd=664315|Gloss=father.Quest
+8	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=664428|AlignEnd=664651|Gloss=PUNCT
+
 # sent_id = HAUZ_BC_CONV_04_0599-0600
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
@@ -61,6 +128,74 @@
 4	saːkar̃ai	saːkar̃ai	NOUN	_	_	5	comp:pred	_	AlignBegin=700423|AlignEnd=700736|Gloss=fool.Plur
 5	nàː	nàː	PART	_	_	3	comp:obj	_	AlignBegin=700736|AlignEnd=701049|Gloss=Pred/Loc
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=701049|AlignEnd=701361|Gloss=PUNCT
+
+# sent_id = HAUZ_BC_CONV_04_0685-0686
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 795645, 797304
+# phonetic_text = tòː gàː wani / wai shiː gaudàː //
+# text = tòː gàː wani / wai shiː gaudàː //
+# text_en =  Well there's what they call "gauda*". (* type of cake)
+1	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=795645|AlignEnd=795785|Gloss=well
+2	gàː	gàː	PART	_	_	6	parataxis@top	_	AlignBegin=795785|AlignEnd=795925|Gloss=here_is
+3	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	2	subj	_	AlignBegin=795925|AlignEnd=796065|Gloss=some.Masc
+4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=796065|AlignEnd=796205|Gloss=PUNCT|wordform=/
+5	wai	wai	PART	_	_	6	discourse	_	AlignBegin=796205|AlignEnd=796480|Gloss=EVD
+6	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=796480|AlignEnd=796755|Gloss=3Masc.Nom
+7	gaudàː	gaudàː	NOUN	_	_	6	comp:pred	_	AlignBegin=796755|AlignEnd=797030|Gloss=cakes_sp
+8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=797030|AlignEnd=797304|Gloss=PUNCT
+
+# sent_id = HAUZ_BC_CONV_04_0765-0765
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 876969, 878080
+# phonetic_text = wai ƙwai -n bà- Hausa -èː //
+# text = wai ƙwan Bàhawshèː //
+# text_en =  They call them Hausa eggs.
+1	wai	wai	PART	_	_	2	discourse	_	AlignBegin=876969|AlignEnd=877247|Gloss=EVD
+2	ƙwan	ƙwai	NOUN	_	Definite=Cons	0	root	_	AlignBegin=877247|AlignEnd=877386|Gloss=egg.Cons|wordform=ƙwai
+3	Bàhawshèː	Bàhawshèː	PROPN	_	_	2	mod	_	AlignBegin=877618|AlignEnd=877711|Gloss=Hausa
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=877803|AlignEnd=878080|Gloss=PUNCT
+
+# sent_id = HAUZ_BC_CONV_04_0790-0792
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 900996, 903778
+# phonetic_text = àmmaː gaːra kà yaːfàː ta / à mangaleː tùkùna // fangaliː //
+# text = àmmaː gaːra kà yaːfàː ta à mangaleː tùkùna > fangaliː //
+# text_en =  But you'd better sow it in a bed first, a watering bed.
+1	àmmaː	àmmaː	SCONJ	_	_	3	discourse	_	AlignBegin=900996|AlignEnd=901164|ExtPos=CCONJ|Gloss=but
+2	gaːra	gaːra	ADV	_	_	3	mod	_	AlignBegin=901164|AlignEnd=901332|Gloss=rather
+3	kà	à	AUX	_	Aspect=Aor|Person=2	0	root	_	AlignBegin=901332|AlignEnd=901500|Gloss=2Masc.Aor
+4	yaːfàː	yaːfàː	VERB	_	_	3	comp:aux	_	AlignBegin=901500|AlignEnd=901668|Gloss=sow
+5	ta	ta	PRON	_	Person=3	4	mod	_	AlignBegin=901668|AlignEnd=901836|Gloss=3Fem
+6	à	à	ADP	_	_	4	comp:goal	_	AlignBegin=902002|AlignEnd=902238|Gloss=at
+7	mangaleː	mangaleː	NOUN	_	_	6	comp:obj	_	AlignBegin=902238|AlignEnd=902474|Gloss=mangaleː
+8	tùkùna	tùkùna	NOUN	_	_	4	mod	_	AlignBegin=902474|AlignEnd=902710|Gloss=first
+9	>	>	PUNCT	_	_	10	punct	_	AlignBegin=902710|AlignEnd=902946|Gloss=PUNCT
+10	fangaliː	fangaliː	NOUN	_	_	3	dislocated@comp	_	AlignBegin=903195|AlignEnd=903487|Gloss=bed
+11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=903487|AlignEnd=903778|Gloss=PUNCT
+
+# sent_id = HAUZ_BC_CONV_04_0838-0840
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 945342, 948276
+# phonetic_text = gwandàː -n daːjìː / kaː tunàː mîn dà wani àbù / wai gwandàː -n daːjìː //
+# text = gwandàn daːjìː < kaː tunàː mîn dà wani àbù wai gwandàn daːjìː //
+# text_en =  Custard-apple, you remind me of something called custard apple.
+1	gwandàn	gwandàː	NOUN	_	Definite=Cons	4	dislocated@top	_	AlignBegin=945342|AlignEnd=945478|Gloss=pawpaw.Cons|wordform=gwandàː
+2	daːjìː	daːjìː	NOUN	_	_	1	mod	_	AlignBegin=945615|AlignEnd=945888|Gloss=bush
+3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=945888|AlignEnd=946162|Gloss=PUNCT|wordform=/
+4	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=946435|AlignEnd=946572|Gloss=2Masc.Perf
+5	tunàː	tun-	VERB	_	VerbForm=Vnoun	4	comp:aux	_	AlignBegin=946572|AlignEnd=946709|ExtPos=NOUN|Gloss=remember
+6	mîn	mîn	PRON	_	Number=Sing|Person=1	5	comp:ben	_	AlignBegin=946709|AlignEnd=946846|Gloss=1Sing.Dat
+7	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=946846|AlignEnd=946983|Gloss=with
+8	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	9	det	_	AlignBegin=946983|AlignEnd=947120|Gloss=some.Masc
+9	àbù	àbù	NOUN	_	_	7	comp:obj	_	AlignBegin=947120|AlignEnd=947257|Gloss=thing
+10	wai	wai	PART	_	_	9	mod@relcl	_	AlignBegin=947392|AlignEnd=947613|Gloss=EVD
+11	gwandàn	gwandàː	NOUN	_	Definite=Def	10	comp:pred	_	AlignBegin=947613|AlignEnd=947723|Gloss=pawpaw.Cons|wordform=gwandàː
+12	daːjìː	daːjìː	NOUN	_	_	11	mod	_	AlignBegin=947834|AlignEnd=948055|Gloss=bush
+13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=948055|AlignEnd=948276|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0926-0927
 # speaker_id = SP1
@@ -181,6 +316,21 @@
 20	zuwâː	zoː	VERB	_	VerbForm=Vnoun	19	comp:obj	_	AlignBegin=1217530|AlignEnd=1217660|ExtPos=NOUN|Gloss=go.Vnoun.Quest
 21	?//	?//	PUNCT	_	_	18	punct	_	AlignBegin=1217780|AlignEnd=1218040|Gloss=PUNCT
 
+# sent_id = HAUZ_BC_CONV_04_1159-1160
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 1294903, 1.29658e+06
+# phonetic_text = suːnaː -n wani àbù / wai shiː maɗì / à ɗiːbàː -i /
+# text = suːnan wani àbù wai shiː maɗì //
+# text_en =  There is one thing called "madi".
+1	suːnan	suːnaː	NOUN	_	Definite=Cons	6	dislocated@subj	_	AlignBegin=129490|AlignEnd=1294990|Gloss=name.Cons|wordform=suːnaː
+2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	3	det	_	AlignBegin=1295080|AlignEnd=1295250|Gloss=some.Masc
+3	àbù	àbù	NOUN	_	_	1	mod	_	AlignBegin=1295250|AlignEnd=1295420|Gloss=thing
+4	wai	wai	PART	_	_	6	discourse	_	AlignBegin=129560|AlignEnd=1295840|Gloss=EVD
+5	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	6	subj	_	AlignBegin=1295840|AlignEnd=1296090|Gloss=3Masc.Nom
+6	maɗì	maɗì	NOUN	_	_	0	root	_	AlignBegin=1296090|AlignEnd=1296330|Gloss=decoction_sp
+7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=1296330|AlignEnd=1296580|Gloss=PUNCT|wordform=/
+
 # sent_id = HAUZ_BC_CONV_04_1161-1164
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
@@ -202,6 +352,30 @@
 12	dakàː	dak-	VERB	_	_	11	comp:aux	_	AlignBegin=1301140|AlignEnd=1301380|Gloss=pound
 13	ta	ta	PRON	_	Person=3	12	comp:obj	_	AlignBegin=1301380|AlignEnd=1301620|Gloss=3Fem
 14	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1301620|AlignEnd=1301850|Gloss=PUNCT|wordform=/
+
+# sent_id = HAUZ_BC_CONV_04_1240-1242
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 1382145, 1385475
+# phonetic_text = tòː / kaː ganiː doːlè in anàː haɗàː kàːfaɗàː / ɗaya -n biyu sai yaː fàːru //
+# text = tòː / kaː ga doːlè in anàː haɗà kàːfaɗàː / ɗayan biyu sai yaː fàːru //
+# text_en =  Well, you see, it is certain, if you get together, something will happen.
+1	tòː	tòː	INTJ	_	_	14	discourse	_	AlignBegin=1382140|AlignEnd=1382210|Gloss=well
+2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1382210|AlignEnd=1382270|Gloss=PUNCT|wordform=/
+3	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	14	parataxis@discourse	_	AlignBegin=1382270|AlignEnd=1382460|Gloss=2Masc.Perf
+4	ga	ganiː	VERB	_	_	3	comp:aux	_	AlignBegin=1382460|AlignEnd=1382640|Gloss=see
+5	doːlè	doːlè	ADV	_	_	14	mod	_	AlignBegin=1382640|AlignEnd=1382820|Gloss=must
+6	in	in	SCONJ	_	_	14	mod	_	AlignBegin=1382820|AlignEnd=1383010|Gloss=if
+7	anàː	anàː	AUX	_	Aspect=Imp|Person=4	6	comp:obj	_	AlignBegin=1383010|AlignEnd=1383190|Gloss=4.Imp
+8	haɗà	haɗ-	VERB	_	_	7	comp:aux	_	AlignBegin=1383190|AlignEnd=1383370|Gloss=join
+9	kàːfaɗàː	kàːfaɗàː	NOUN	_	_	8	comp:obj	_	AlignBegin=1383370|AlignEnd=1383560|Gloss=shoulder
+10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=1383560|AlignEnd=1383740|Gloss=PUNCT|wordform=/
+11	ɗayan	ɗaya	NUM	_	Definite=Cons	14	subj	_	AlignBegin=1384570|AlignEnd=1384650|Gloss=one.Cons|Overlap=HAUZ_BC_CONV_04_1244-1247|wordform=ɗaya
+12	biyu	biyu	NUM	_	_	11	mod	_	AlignBegin=1384720|AlignEnd=1384870|Gloss=two
+13	sai	sai	ADV	_	_	14	mod	_	AlignBegin=1384870|AlignEnd=1385020|Gloss=must
+14	yaː	yaː	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=1385020|AlignEnd=1385170|Gloss=3Masc.Perf
+15	fàːru	faːr-	VERB	_	_	14	comp:aux	_	AlignBegin=1385170|AlignEnd=1385320|Gloss=happen
+16	//	//	PUNCT	_	_	14	punct	_	AlignBegin=1385320|AlignEnd=1385480|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1278-1280
 # speaker_id = SP1
@@ -277,6 +451,37 @@
 16	nan	nan	DET	_	Definite=Def	15	mod	_	AlignBegin=1485160|AlignEnd=1485410|Gloss=Def
 17	//	//	PUNCT	_	_	11	punct	_	AlignBegin=1485410|AlignEnd=1485670|Gloss=PUNCT
 
+# sent_id = HAUZ_BC_CONV_04_1380-1380
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 1528883, 1530141
+# phonetic_text = à loːkàciː -ǹ nan doːlè kà yi aikìː //
+# text = à loːkàcîn nan doːlêː kà yi aikìː //
+# text_en =  At that time, you had to work.
+1	à	à	ADP	_	_	5	mod	_	AlignBegin=1528880|AlignEnd=1529040|Gloss=at
+2	loːkàcîn	loːkàciː	NOUN	_	_	1	comp:obj	_	AlignBegin=1529040|AlignEnd=1529120|Gloss=time.Def|wordform=loːkàciː
+3	nan	nan	DET	_	Definite=Def	2	det	_	AlignBegin=152920|AlignEnd=1529350|Gloss=Def
+4	doːlè	doːlè	ADV	_	_	5	mod	_	AlignBegin=1529350|AlignEnd=1529510|Gloss=must
+5	kà	à	AUX	_	Aspect=Aor|Person=2	0	root	_	AlignBegin=1529510|AlignEnd=1529670|Gloss=2Masc.Aor
+6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=1529670|AlignEnd=1529820|Gloss=do|Overlap=HAUZ_BC_CONV_04_1383-1383
+7	aikìː	aikìː	NOUN	_	_	6	comp:obj@lvc	_	AlignBegin=1529820|AlignEnd=1529980|Gloss=work
+8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=1529980|AlignEnd=1530140|Gloss=PUNCT
+
+# sent_id = HAUZ_BC_CONV_04_1387-1387
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 1535957, 1536804
+# phonetic_text = tôː ai doːlè kà yi aikìː //
+# text = tôː ai doːlè kà yi aikìː //
+# text_en =  Well, you had to work.
+1	tôː	tôː	INTJ	_	_	4	discourse	_	AlignBegin=1535960|AlignEnd=1536080|Gloss=well
+2	ai	ai	INTJ	_	_	4	discourse	_	AlignBegin=1536080|AlignEnd=153620|Gloss=indeed
+3	doːlè	doːlè	ADV	_	_	4	mod	_	AlignBegin=153620|AlignEnd=1536320|Gloss=must
+4	kà	à	AUX	_	Aspect=Aor|Person=2	0	root	_	AlignBegin=1536320|AlignEnd=1536440|Gloss=2Masc.Aor
+5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=1536440|AlignEnd=1536560|Gloss=do
+6	aikìː	aikìː	NOUN	_	_	5	comp:obj@lvc	_	AlignBegin=1536560|AlignEnd=1536680|Gloss=work
+7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=1536680|AlignEnd=153680|Gloss=PUNCT
+
 # sent_id = HAUZ_BC_CONV_04_1394-1395
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
@@ -291,6 +496,36 @@
 5	anàː	nàː	AUX	_	Aspect=Imp|Person=4	1	parataxis@conj	_	AlignBegin=1550710|AlignEnd=1551010|Gloss=4.Imp
 6	jeːhôːwaː	jeːh-	VERB	_	VerbForm=Vnoun	5	comp:aux	_	AlignBegin=1551010|AlignEnd=1551160|ExtPos=NOUN|Gloss=throw.DIR.Vnoun|wordform=jeːhoː
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1551310|AlignEnd=1551610|Gloss=PUNCT|wordform=/
+
+# sent_id = HAUZ_BC_CONV_04_1400-1401
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 1558942, 1562470
+# phonetic_text = kaː tunàː mîn dà wani / wai shiː Ɗaːlìbiː // anàː gyaːraː -n hanyàː irìː -n wannàn nèː //
+# text = kaː tunàː mîn dà wani //= wai shiː Ɗaːlìbiː //
+# text_en =  You reminded me of someone called Dalibi.
+1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=1558940|AlignEnd=1559130|Gloss=2Masc.Perf
+2	tunàː	tun-	VERB	_	_	1	comp:aux	_	AlignBegin=1559130|AlignEnd=1559310|Gloss=remember
+3	mîn	mîn	PRON	_	Number=Sing|Person=1	2	comp:ben	_	AlignBegin=1559310|AlignEnd=155950|Gloss=1Sing.Dat
+4	dà	dà	ADP	_	_	2	comp:obl	_	AlignBegin=155950|AlignEnd=1559690|Gloss=with
+5	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	4	comp:obj	_	AlignBegin=1559690|AlignEnd=1559870|Gloss=some.Masc
+6	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=1559870|AlignEnd=1560060|Gloss=PUNCT|wordform=/
+7	wai	wai	PART	_	_	9	discourse	_	AlignBegin=1561550|AlignEnd=1561780|Gloss=EVD
+8	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	9	subj	_	AlignBegin=1561780|AlignEnd=1562010|Gloss=3Masc.Nom
+9	Ɗaːlìbiː	Ɗaːlìbiː	PROPN	_	_	1	parataxis	_	AlignBegin=1562010|AlignEnd=1562240|Gloss=Dalibi
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1562240|AlignEnd=1562470|Gloss=PUNCT
+
+# sent_id = HAUZ_BC_CONV_04_1422-1422
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
+# sent_timecode = 1586165, 1586706
+# phonetic_text = doːlè ya daːwoː //
+# text = doːlè ya daːwoː //
+# text_en =  He had to go back.
+1	doːlè	doːlè	ADV	_	_	2	mod	_	AlignBegin=1586160|AlignEnd=158630|Gloss=must
+2	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	0	root	_	AlignBegin=158630|AlignEnd=1586440|Gloss=3Masc.Perf.Bkg
+3	daːwoː	daːw-	VERB	_	_	2	comp:aux	_	AlignBegin=1586440|AlignEnd=1586570|Gloss=return.DIR
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=1586570|AlignEnd=1586710|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1430-1433
 # speaker_id = SP1
