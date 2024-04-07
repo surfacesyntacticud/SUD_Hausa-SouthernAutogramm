@@ -1,3 +1,25 @@
+# sent_id = HAUZ_BC_CONV_01_SP1_004-004
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
+# sent_timecode = 7256, 11097
+# phonetic_text = ita maː || ita maː tanàː zàune à nân / ùngwan Pallàːdân neː ?//
+# text = ita maː || ita maː tanàː zàune à nân |a Ùngwan Pallàːdân neː ?//
+# text_en = She... She lives here too, in Palladan?
+1	ita	ita	PRON	_	Person=3	6	dislocated@subj	_	AlignBegin=7256|AlignEnd=7530|Gloss=3Fem.Nom
+2	maː	maː	PART	_	_	1	discourse	_	AlignBegin=7530|AlignEnd=7804|Gloss=even
+3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=7804|AlignEnd=8078|Gloss=XX
+4	ita	ita	PRON	_	Person=3	1	conj:dicto	_	AlignBegin=8078|AlignEnd=8352|Gloss=3Fem.Nom
+5	maː	maː	PART	_	_	4	discourse	_	AlignBegin=8352|AlignEnd=8626|Gloss=even
+6	tanàː	nàː²	AUX	_	Person=3	0	root	_	AlignBegin=8626|AlignEnd=8900|Gloss=3Fem.Pred/Loc|wordform=nàː
+7	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	6	comp:pred	_	AlignBegin=8900|AlignEnd=9174|Gloss=stay.Stat
+8	à	à	ADP	_	_	7	comp:loc	_	AlignBegin=9174|AlignEnd=9448|Gloss=at
+9	nân	nân	ADV	_	_	8	comp:obj	_	AlignBegin=9448|AlignEnd=9722|Gloss=Prox
+10	|a	|a	PUNCT	_	_	11	punct	_	AlignBegin=9722|AlignEnd=9996|Gloss=GE
+11	Ùngwan	Ùngwan	PROPN	_	_	9	conj:appos	_	AlignBegin=9996|AlignEnd=10133|Gloss=Ungwan
+12	Pallàːdân	Pallàːdân	PROPN	_	_	11	flat:name	_	AlignBegin=10270|AlignEnd=10544|Gloss=Palladan
+13	neː	neː	PART	_	_	11	mod@emp	_	AlignBegin=10544|AlignEnd=10818|Gloss=Ident/Blg
+14	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=10818|AlignEnd=11097|Gloss=GE
+
 # sent_id = HAUZ_BC_CONV_01_SP2_003-003
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
@@ -266,6 +288,62 @@
 10	itàːceː	itàːceː	NOUN	_	_	9	udep	_	AlignBegin=253879|AlignEnd=254062|Gloss=wood
 11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=254062|AlignEnd=255521|Gloss=PUNCT
 
+# sent_id = HAUZ_BC_CONV_01_SP2_107-107
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
+# sent_timecode = 271336, 274422
+# phonetic_text = loːkàciː -ǹ dà akà saːmù / niː har̃ maː naː maː ɓacèː hanyàː // na àbù -ǹ nàn //
+# text = loːkàcîn dà akà saːmù < niː har̃ maː naː maː ɓacè hanyàː na àbin nàn //
+# text_en =  When we met the bull, I got lost because of that.
+1	loːkàcîn	loːkàciː	NOUN	_	Definite=Def	9	mod	_	AlignBegin=271336|AlignEnd=271427|Gloss=time.Def
+2	dà	dà	SCONJ	_	_	1	mod@relcl	_	AlignBegin=271518|AlignEnd=271700|Gloss=COMP
+3	akà	kà	AUX	_	Aspect=Perf|Evident=Bck|Person=4	2	comp:obj	_	AlignBegin=271700|AlignEnd=271882|Gloss=4.Perf.Bkg
+4	saːmù	saːm-	VERB	_	_	3	comp:aux	_	AlignBegin=271882|AlignEnd=272064|Gloss=get
+5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=272064|AlignEnd=272246|Gloss=PUNCT
+6	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	dislocated@subj	_	AlignBegin=272246|AlignEnd=272428|Gloss=1Sing.Nom
+7	har̃	har̃	ADP	_	_	9	mod	_	AlignBegin=272428|AlignEnd=272610|Gloss=until
+8	maː	maː	PART	_	_	7	discourse	_	AlignBegin=272610|AlignEnd=272792|Gloss=even
+9	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=272792|AlignEnd=272974|Gloss=1Sing.Perf
+10	maː	maː	PART	_	_	9	discourse	_	AlignBegin=272974|AlignEnd=273156|Gloss=even
+11	ɓacè	ɓac-	VERB	_	_	9	comp:aux	_	AlignBegin=273156|AlignEnd=273338|Gloss=lose
+12	hanyàː	hanyàː	NOUN	_	_	11	comp:obj	_	AlignBegin=273338|AlignEnd=273520|Gloss=road
+13	na	na	PART	_	Definite=Cons	11	mod	_	AlignBegin=273702|AlignEnd=273884|Gloss=Cons
+14	àbin	àbù	NOUN	_	Definite=Def	13	comp:obj	_	AlignBegin=273884|AlignEnd=273975|Gloss=thing.Def
+15	nàn	nàn	DET	_	_	14	det	_	AlignBegin=274066|AlignEnd=274248|Gloss=Prox
+16	//	//	PUNCT	_	_	9	punct	_	AlignBegin=274248|AlignEnd=274422|Gloss=PUNCT
+
+# sent_id = HAUZ_BC_CONV_01_SP2_115-116_split1
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
+# sent_timecode = 294257, 302944
+# phonetic_text = tundà yakàn saːroː itàːceː / ìdan ya ganiː hakà mài àrhaː / wajen màːsu moːtòː / sai yà ss sayar̃ // yà àbù -ǹ dan &// nân nèː yakèː saːmù -n kuɗiː &// dà zâi sàyaː taːkìː / dà sauraː -n -sù //
+# text = tundà yakàn saːroː itàːceː < ìdan ya ganiː hakà mài àrhaː < wajen màːsu moːtòː < sai yà ss sayar̃ |c yà àbîn //
+# text_en =  As he cuts wood, if he sees something cheap with the lorry drivers then he ss. sells it and...
+1	tundà	tundà	SCONJ	_	_	18	mod	_	AlignBegin=294257|AlignEnd=294473|Gloss=since
+2	yakàn	kàn	AUX	_	Aspect=Hab|Person=3	1	comp:obj	_	AlignBegin=294473|AlignEnd=294689|Gloss=3Masc.Hab
+3	saːroː	saːr-	VERB	_	_	2	comp:aux	_	AlignBegin=294689|AlignEnd=294905|Gloss=fell.DIR
+4	itàːceː	itàːceː	NOUN	_	_	3	comp:obj	_	AlignBegin=294905|AlignEnd=295121|Gloss=wood
+5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=295121|AlignEnd=295337|Gloss=PUNCT
+6	ìdan	ìdan	SCONJ	_	_	18	mod	_	AlignBegin=295337|AlignEnd=295553|Gloss=if
+7	ya	kà	AUX	_	Aspect=Perf|Evident=Bck|Gender=Masc|Person=3	6	comp:obj	_	AlignBegin=295553|AlignEnd=295769|Gloss=3Masc.Perf.Bck
+8	ganiː	ganiː	VERB	_	_	7	comp:aux	_	AlignBegin=295769|AlignEnd=295985|Gloss=see
+9	hakà	hakà	ADV	_	_	8	comp:obl	_	AlignBegin=295985|AlignEnd=296201|Gloss=like_this
+10	mài	mài	NOUN	_	_	8	comp:obj	_	AlignBegin=296201|AlignEnd=296417|Gloss=holder_of
+11	àrhaː	àrhaː	NOUN	_	_	10	compound	_	AlignBegin=296417|AlignEnd=296633|Gloss=cheapness
+12	<	<	PUNCT	_	_	6	punct	_	AlignBegin=296633|AlignEnd=296849|Gloss=PUNCT
+13	wajen	wajen	ADP	_	_	18	mod	_	AlignBegin=296849|AlignEnd=297065|Gloss=around
+14	màːsu	màːsu	PART	_	Number=Plur	13	comp:obj	_	AlignBegin=297065|AlignEnd=297281|Gloss=holder_of.Plur
+15	moːtòː	moːtòː	NOUN	_	_	14	compound	_	AlignBegin=297281|AlignEnd=297497|Gloss=car
+16	<	<	PUNCT	_	_	13	punct	_	AlignBegin=297497|AlignEnd=297713|Gloss=PUNCT
+17	sai	sai	ADV	_	_	18	mod	_	AlignBegin=297713|AlignEnd=297929|Gloss=then
+18	yà	à	AUX	_	Aspect=Aor|Person=3	0	root	_	AlignBegin=297929|AlignEnd=298145|Gloss=3Masc.Aor
+19	ss	X	X	_	_	18	comp:aux	_	AlignBegin=298145|AlignEnd=298361|Gloss=X
+20	sayar̃	say-	VERB	_	_	19	conj:dicto	_	AlignBegin=298361|AlignEnd=298577|Gloss=sell.Cau
+21	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=298577|AlignEnd=298793|Gloss=PUNCT
+22	yà	à	AUX	_	Aspect=Aor|Person=3	18	conj:svc	_	AlignBegin=298793|AlignEnd=299009|Gloss=3Masc.Aor
+23	àbîn	àbîn	NOUN	_	Definite=Def	22	comp:aux	_	AlignBegin=299009|AlignEnd=299117|Gloss=PUNCT
+24	//	//	PUNCT	_	_	18	comp:aux	_	AlignBegin=299009|AlignEnd=299117|Gloss=PUNCT
+
 # sent_id = HAUZ_BC_CONV_01_SP2_128-128
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
@@ -447,4 +525,24 @@
 7	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=557358|AlignEnd=557512|Gloss=3Masc.Perf
 8	ƙoːnèː	ƙoːn-	VERB	_	_	7	comp:aux	_	AlignBegin=557512|AlignEnd=557666|Gloss=dry_up
 9	//	//	PUNCT	_	_	7	punct	_	AlignBegin=557666|AlignEnd=557818|Gloss=PUNCT
+
+# sent_id = HAUZ_BC_CONV_01_SP2_232-233
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
+# sent_timecode = 581782, 583802
+# phonetic_text = kaː sanìː màːsu kiːwòː -ǹ / bàː sun tshikàː kùlaː ba nèː //
+# text = kaː san màːsu kiːwòn < bàː sun cikà kùlaː ba nèː //
+# text_en =  You know, cattle drivers they are not really careful.
+1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	parataxis@discourse	_	AlignBegin=581782|AlignEnd=581941|Gloss=2Masc.Perf
+2	sanìː	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=581941|AlignEnd=582100|Gloss=know
+3	màːsu	màːsu	PART	_	Number=Plur	7	dislocated@subj	_	AlignBegin=582100|AlignEnd=582259|Gloss=holder_of.Plur
+4	kiːwòn	kiːwòː	NOUN	_	Definite=Cons|ExtPos=NOUN	3	compound	_	AlignBegin=582259|AlignEnd=582339|Gloss=cattle_breeding.Cons
+5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=582418|AlignEnd=582577|Gloss=PUNCT
+6	bàː	bàː	PART	_	Polarity=Neg	7	mod	_	AlignBegin=582779|AlignEnd=582925|Gloss=Neg
+7	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=582925|AlignEnd=583071|Gloss=3Plur.Perf
+8	cikà	cik-	VERB	_	_	7	comp:aux	_	AlignBegin=583071|AlignEnd=583217|Gloss=complete
+9	kùlaː	kul	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=583217|AlignEnd=583363|Gloss=pay_attention
+10	ba	ba	PART	_	Polarity=Neg	7	mod	_	AlignBegin=583363|AlignEnd=583509|Gloss=Neg
+11	nèː	neː	PART	_	_	7	mod@emp	_	AlignBegin=583509|AlignEnd=583655|Gloss=Ident/Blg
+12	//	//	PUNCT	_	_	7	punct	_	AlignBegin=583655|AlignEnd=583802|Gloss=PUNCT
 
