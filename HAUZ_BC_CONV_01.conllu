@@ -1,4 +1,4 @@
-# sent_id = HAUZ_BC_CONV_01_SP1_00-002
+pattern { X [upos="AUX", Aspect="Perf" , !Evident] }parataxis@conj# sent_id = HAUZ_BC_CONV_01_SP1_00-002
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode =  627, 1760
@@ -1072,7 +1072,7 @@
 3	zoː	zoː	VERB	_	_	2	comp:aux	_	AlignBegin=137288|AlignEnd=137437|Gloss=come
 4	hakà	hakà	ADV	_	_	2	mod	_	AlignBegin=137437|AlignEnd=137586|Gloss=like_this
 5	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	6	comp:pred	_	AlignBegin=137586|AlignEnd=137735|Gloss=3Masc.Nom
-6	nèː	neː	PART	_	_	7	parataxis@discourse	_	AlignBegin=137735|AlignEnd=137884|Gloss=Ident/Blg
+6	nèː	neː	PART	_	_	7	discourse	_	AlignBegin=137735|AlignEnd=137884|Gloss=Ident/Blg
 7	sukà	kà	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=3	0	root	_	AlignBegin=138033|AlignEnd=138182|Gloss=3Plur.Perf.Bkg
 8	ɗan	ɗan	ADV	_	_	7	mod	_	AlignBegin=138182|AlignEnd=138331|Gloss=little
 9	sàːri	saːr-	VERB	_	_	7	comp:aux	_	AlignBegin=138331|AlignEnd=138405|Gloss=fell
@@ -1957,7 +1957,7 @@
 3	mukà	kà	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=1	2	comp:obj	_	AlignBegin=232830|AlignEnd=233028|Gloss=1Plur.Perf.Bkg
 4	sayar̃	say-	VERB	_	_	3	comp:aux	_	AlignBegin=233028|AlignEnd=233226|Gloss=sell.Cau
 5	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	6	comp:pred	_	AlignBegin=233226|AlignEnd=233424|Gloss=3Masc.Nom
-6	nèː	neː	PART	_	_	7	parataxis@discourse	_	AlignBegin=233424|AlignEnd=233622|Gloss=Ident/Blg
+6	nèː	neː	PART	_	_	7	discourse	_	AlignBegin=233424|AlignEnd=233622|Gloss=Ident/Blg
 7	zaːmù	zaː	AUX	_	Number=Plur|Person=1|Tense=Fut	0	root	_	AlignBegin=233622|AlignEnd=233820|Gloss=1Plur.Fut
 8	ɗan	ɗan	ADV	_	_	7	mod	_	AlignBegin=233820|AlignEnd=234018|Gloss=little
 9	saːmoː	saːm-	VERB	_	_	7	comp:aux	_	AlignBegin=234018|AlignEnd=234216|Gloss=get.DIR
@@ -2016,7 +2016,7 @@
 9	itàːceː	itàːceː	NOUN	_	_	8	comp:obj@lvc	_	AlignBegin=241020|AlignEnd=241246|Gloss=wood
 10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=241246|AlignEnd=241472|Gloss=PUNCT
 11	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	12	comp:pred	_	AlignBegin=241472|AlignEnd=241698|Gloss=3Masc.Nom
-12	nèː	neː	PART	_	_	21	parataxis@discourse	_	AlignBegin=241698|AlignEnd=241924|Gloss=Ident/Blg
+12	nèː	neː	PART	_	_	21	discourse	_	AlignBegin=241698|AlignEnd=241924|Gloss=Ident/Blg
 13	<	<	PUNCT	_	_	12	punct	_	AlignBegin=241924|AlignEnd=242150|Gloss=PUNCT
 14	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	15	det	_	AlignBegin=242150|AlignEnd=242376|Gloss=some.Masc
 15	loːkàciː	loːkàciː	NOUN	_	Definite=Cons	21	mod	_	AlignBegin=242376|AlignEnd=242602|Gloss=time
@@ -2615,7 +2615,7 @@
 # text = tundà kaː san yànzu < baː'àː yîn geːroː à wajèːjên //
 # text_en =  Because you know now we don't do millet at that place.
 1	tundà	tundà	SCONJ	_	_	6	discourse	_	AlignBegin=317593|AlignEnd=317806|Gloss=since
-2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	parataxis@discourse	_	AlignBegin=317806|AlignEnd=318019|Gloss=2Masc.Perf
+2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	discourse	_	AlignBegin=317806|AlignEnd=318019|Gloss=2Masc.Perf
 3	san	san-	VERB	_	_	2	comp:aux	_	AlignBegin=318019|AlignEnd=318232|Gloss=know
 4	yànzu	yànzu	ADV	_	_	6	mod	_	AlignBegin=318232|AlignEnd=318445|Gloss=now
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=318445|AlignEnd=318658|Gloss=PUNCT
@@ -2784,7 +2784,7 @@
 # phonetic_text = kaː sanìː ìdan àbù ya zoː dàwuri / tsuntsuː -a_e sunàː yinwàː / zaːsù dingàː cînyeː wânnan àbù //
 # text = kaː san ìdan àbù ya zoː dàwuri |c tsuntsàːyeː sunàː yinwàː < zaːsù dingà cînyè wânnan àbù //
 # text_en =  You know if the thing grows quickly birds are hungry they will keep on eating the thing.
-1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	10	parataxis@discourse	_	AlignBegin=344138|AlignEnd=344360|Gloss=2Masc.Perf
+1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	10	discourse	_	AlignBegin=344138|AlignEnd=344360|Gloss=2Masc.Perf
 2	san	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=344360|AlignEnd=344582|Gloss=know
 3	ìdan	ìdan	SCONJ	_	_	10	mod	_	AlignBegin=344582|AlignEnd=344804|Gloss=if
 4	àbù	àbù	NOUN	_	_	5	subj	_	AlignBegin=344804|AlignEnd=345026|Gloss=thing
@@ -3285,7 +3285,7 @@
 # phonetic_text = kaː sanìː dai ràːyuwaː -n zamaː -n yànzu //
 # text = kaː san dai ràːyuwan zaman yànzu //
 # text_en =  You kow how life is now.
-1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	4	parataxis@discourse	_	AlignBegin=413473|AlignEnd=413668|Gloss=2Masc.Perf
+1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	4	discourse	_	AlignBegin=413473|AlignEnd=413668|Gloss=2Masc.Perf
 2	sanìː	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=413668|AlignEnd=413863|Gloss=know
 3	dai	dai	PART	_	_	1	discourse	_	AlignBegin=413863|AlignEnd=414058|Gloss=indeed
 4	ràːyuwan	ràːyuwaː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=414058|AlignEnd=414156|Gloss=existence.Cons
@@ -3768,7 +3768,7 @@
 1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=477989|AlignEnd=478175|Gloss=3Masc.Nom
 2	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	1	comp:cleft	_	AlignBegin=478175|AlignEnd=478361|Gloss=3Masc.Perf.Bkg
 3	sâː	sâː	VERB	_	_	2	comp:aux	_	AlignBegin=478361|AlignEnd=478547|Gloss=put
-4	ka	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=2	3	parataxis@discourse	_	AlignBegin=478547|AlignEnd=478733|Gloss=2Masc.Perf.Bkg
+4	ka	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=2	3	discourse	_	AlignBegin=478547|AlignEnd=478733|Gloss=2Masc.Perf.Bkg
 5	ji	jiyàː	VERB	_	_	4	comp:aux	_	AlignBegin=478733|AlignEnd=478919|Gloss=hear
 6	dai	dai	PART	_	_	4	discourse	_	AlignBegin=478919|AlignEnd=479105|Gloss=indeed
 7	dà	dà	ADP	_	_	9	mod	_	AlignBegin=479105|AlignEnd=479291|Gloss=with
@@ -3973,7 +3973,7 @@
 4	=tà	=ta	PRON	_	Person=3|PronType=Prs	3	mod	_	AlignBegin=500907|AlignEnd=500972|Gloss=3Fem
 5	ɗîn	ɗin	DET	_	Definite=Def	3	det	_	AlignBegin=500972|AlignEnd=501165|Gloss=of.Def
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=501165|AlignEnd=501359|Gloss=PUNCT
-7	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	27	parataxis@discourse	_	AlignBegin=501359|AlignEnd=501569|Gloss=2Masc.Perf
+7	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	27	discourse	_	AlignBegin=501359|AlignEnd=501569|Gloss=2Masc.Perf
 8	sanìː	san-	VERB	_	_	7	comp:aux	_	AlignBegin=501569|AlignEnd=501779|Gloss=know
 9	suːnàːyeː	suːnaː	NOUN	_	Number=Plur	27	dislocated@top	_	AlignBegin=501779|AlignEnd=501884|Gloss=name.Plur
 10	|a	|a	PUNCT	_	_	11	punct	_	AlignBegin=501989|AlignEnd=502199|Gloss=PUNCT
@@ -3990,7 +3990,7 @@
 21	tòː	tòː	INTJ	_	_	27	discourse	_	AlignBegin=504234|AlignEnd=504374|Gloss=well
 22	<	<	PUNCT	_	_	21	punct	_	AlignBegin=504374|AlignEnd=504514|Gloss=PUNCT
 23	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	24	comp:pred	_	AlignBegin=504514|AlignEnd=504654|Gloss=3Masc..Nom
-24	nèː	neː	PART	_	_	27	parataxis@discourse	_	AlignBegin=504654|AlignEnd=504794|Gloss=Ident/Blg
+24	nèː	neː	PART	_	_	27	discourse	_	AlignBegin=504654|AlignEnd=504794|Gloss=Ident/Blg
 25	<	<	PUNCT	_	_	24	punct	_	AlignBegin=504794|AlignEnd=504934|Gloss=PUNCT
 26	sai	sai	ADV	_	_	27	mod	_	AlignBegin=504934|AlignEnd=505074|Gloss=then
 27	akà	kà	AUX	_	Aspect=Perf|Evident=Bkg|Person=4	0	root	_	AlignBegin=505074|AlignEnd=505214|Gloss=4.Perf.Bkg
@@ -4262,7 +4262,7 @@
 1	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=539295|AlignEnd=539411|Gloss=3Masc.Perf.Bkg
 2	wucèː	wucèː	VERB	_	_	1	comp:aux	_	AlignBegin=539411|AlignEnd=539527|Gloss=pass_by
 3	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	4	comp:pred	_	AlignBegin=539643|AlignEnd=539858|Gloss=3Masc.Nom
-4	nèː	neː	PART	_	_	6	parataxis@discourse	_	AlignBegin=539858|AlignEnd=540073|Gloss=Ident/Blg
+4	nèː	neː	PART	_	_	6	discourse	_	AlignBegin=539858|AlignEnd=540073|Gloss=Ident/Blg
 5	dai	dai	PART	_	_	4	discourse	_	AlignBegin=540073|AlignEnd=540288|Gloss=indeed
 6	har̃	har̃	SCONJ	_	_	1	mod	_	AlignBegin=540288|AlignEnd=540503|Gloss=until
 7	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	6	comp:obj	_	AlignBegin=540503|AlignEnd=540718|Gloss=3Masc.Perf.Bkg
@@ -4347,7 +4347,7 @@
 20	iskàː	iskàː	NOUN	_	_	19	comp:obj	_	AlignBegin=553945|AlignEnd=554134|Gloss=wind
 21	<	<	PUNCT	_	_	12	punct	_	AlignBegin=554134|AlignEnd=554324|Gloss=PUNCT
 22	tòː	tòː	INTJ	_	_	27	discourse	_	AlignBegin=554786|AlignEnd=554956|Gloss=well
-23	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	27	parataxis@discourse	_	AlignBegin=554956|AlignEnd=555126|Gloss=2Masc.Perf
+23	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	27	discourse	_	AlignBegin=554956|AlignEnd=555126|Gloss=2Masc.Perf
 24	ganiː	ganiː	VERB	_	_	23	comp:aux	_	AlignBegin=555126|AlignEnd=555296|Gloss=see
 25	<	<	PUNCT	_	_	23	punct	_	AlignBegin=555296|AlignEnd=555466|Gloss=PUNCT
 26	àbîn	àbː	NOUN	_	Definite=Def	27	subj	_	AlignBegin=555466|AlignEnd=555587|Gloss=thing.Def
@@ -4399,7 +4399,7 @@
 5	riːjiyoːyiː	riːjìyaː	NOUN	_	Number=Plur	3	comp:obj@lvc	_	AlignBegin=560102|AlignEnd=560206|Gloss=well.Plur
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=560310|AlignEnd=560515|Gloss=PUNCT
 7	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	8	comp:pred	_	AlignBegin=560693|AlignEnd=560879|Gloss=3Masc.Nom
-8	nèː	neː	PART	_	_	10	parataxis@discourse	_	AlignBegin=560879|AlignEnd=561065|Gloss=Ident/Blg
+8	nèː	neː	PART	_	_	10	discourse	_	AlignBegin=560879|AlignEnd=561065|Gloss=Ident/Blg
 9	sai	sai	ADV	_	_	10	mod	_	AlignBegin=561065|AlignEnd=561251|Gloss=then
 10	mukèː	kèː	AUX	_	Aspect=Imp|Evident=Bkg|Number=Plur|Person=1	0	root	_	AlignBegin=561251|AlignEnd=561437|Gloss=1Plur.Imp.Bkg
 11	ɗiːboː	ɗiːboː	VERB	_	_	10	comp:aux	_	AlignBegin=561437|AlignEnd=561623|Gloss=scoop_out.DIR
@@ -4560,7 +4560,7 @@
 # phonetic_text = kaː sanìː màːsu kiːwòː -ǹ / bàː sun tshikàː kùlaː ba nèː //
 # text = kaː san màːsu kiːwòn < bàː sun cikà kùlaː ba nèː //
 # text_en =  You know, cattle drivers they are not really careful.
-1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	parataxis@discourse	_	AlignBegin=581782|AlignEnd=581941|Gloss=2Masc.Perf
+1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	discourse	_	AlignBegin=581782|AlignEnd=581941|Gloss=2Masc.Perf
 2	sanìː	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=581941|AlignEnd=582100|Gloss=know
 3	màːsu	màːsu	NOUN	_	Number=Plur	7	dislocated@subj	_	AlignBegin=582100|AlignEnd=582259|Gloss=holder_of.Plur
 4	kiːwòn	kiːwòː	NOUN	_	Definite=Cons|ExtPos=NOUN	3	compound	_	AlignBegin=582259|AlignEnd=582339|Gloss=cattle_breeding.Cons
@@ -4662,7 +4662,7 @@
 # text = tundà kaː san suː wânnan su nàː dà sarkiː naːsù //
 # text_en =  Because you know those people they have.. their own chief.
 1	tundà	tundà	SCONJ	_	_	6	discourse	_	AlignBegin=595777|AlignEnd=595996|Gloss=since
-2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	parataxis@discourse	_	AlignBegin=595996|AlignEnd=596215|Gloss=2Masc.Perf
+2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	discourse	_	AlignBegin=595996|AlignEnd=596215|Gloss=2Masc.Perf
 3	san	sanìː	VERB	_	_	2	comp:aux	_	AlignBegin=596215|AlignEnd=596434|Gloss=know
 4	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	dislocated@subj	_	AlignBegin=596434|AlignEnd=596653|Gloss=2Plur.Nom
 5	wânnan	wânnan	PRON	_	Definite=Def	4	conj:appos	_	AlignBegin=596653|AlignEnd=596872|Gloss=Def
