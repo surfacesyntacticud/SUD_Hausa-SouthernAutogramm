@@ -16,7 +16,7 @@
 # phonetic_text = ta zoː mù ji tà //
 # text = ta zoː mù jiː tà //
 # text_en =  It has come, let's hear it.
-1	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=1670|AlignEnd=1814|Gloss=3Fem.Perf.Bkg
+1	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=1670|AlignEnd=1814|Gloss=3Fem.Perf.Bkg
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=1814|AlignEnd=1958|Gloss=come
 3	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	1	parataxis	_	AlignBegin=1958|AlignEnd=2102|Gloss=1Plur.Aor
 4	jiː	ji	VERB	_	_	3	comp:aux	_	AlignBegin=2102|AlignEnd=2246|Gloss=hear
@@ -32,7 +32,7 @@
 # text_en =  I'm the one telling it.
 1	dà	dà	ADP	_	_	0	root	_	AlignBegin=3070|AlignEnd=3232|Gloss=with
 2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	comp:obj	_	AlignBegin=3232|AlignEnd=3394|Gloss=1Sing.Nom
-3	akèː	kèː	AUX	_	Aspect=Imp|Evident=Bkg|Person=4	1	comp:cleft	_	AlignBegin=3394|AlignEnd=3556|Gloss=4.Imp.Bkg
+3	akèː	kèː	AUX	_	Aspect=Imp|Background=Yes|Person=4	1	comp:cleft	_	AlignBegin=3394|AlignEnd=3556|Gloss=4.Imp.Bkg
 4	yîː	yi	VERB	_	_	3	comp:aux	_	AlignBegin=3556|AlignEnd=3718|Gloss=do.Vnoun
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=3718|AlignEnd=3881|Gloss=PUNCT
 
@@ -91,7 +91,7 @@
 # text = anàː nan / anàː nan // sai ya cêː / mà Ƙoːƙì / inàː sôn ìn ci ramàː //
 # text_en =  There they were when he told Koki "I want to eat some hemp."
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=13010|AlignEnd=13311|Gloss=then
-2	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=13311|AlignEnd=13612|Gloss=3Masc.Perf.Bkg
+2	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=13311|AlignEnd=13612|Gloss=3Masc.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=13612|AlignEnd=13913|Gloss=say
 4	mà	mà	ADP	_	_	3	comp:ben	_	AlignBegin=14215|AlignEnd=14656|Gloss=Dat
 5	Ƙoːƙì	Ƙoːƙì	PROPN	_	_	4	comp:obj	_	AlignBegin=14656|AlignEnd=15097|Gloss=Manta
@@ -120,7 +120,7 @@
 # text = sai ya jeː cikin m̀~ &&//
 # text_en =  Then he went..
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=18750|AlignEnd=18979|Gloss=then
-2	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root@scrap	_	AlignBegin=18979|AlignEnd=19208|Gloss=3Masc.Perf.Bkg
+2	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root@scrap	_	AlignBegin=18979|AlignEnd=19208|Gloss=3Masc.Perf.Bkg
 3	jeː	jeː	VERB	_	_	2	comp:aux	_	AlignBegin=19208|AlignEnd=19437|Gloss=go
 4	cikin	cikin	ADP	_	_	3	unk@scrap	_	AlignBegin=19437|AlignEnd=19666|Gloss=inside
 5	m̀	m̀	INTJ	_	_	2	discourse	_	AlignBegin=19666|AlignEnd=19895|Gloss=FILL
@@ -134,7 +134,7 @@
 # text = sai ta cêː tòː < ita kòː < ìnaː nèː zaːtà saːmoː wânnan ramàː ?//
 # text_en =  then she said well she, where will she go to find that hemp ?
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=20468|AlignEnd=20573|Gloss=then
-2	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=20573|AlignEnd=20678|Gloss=3Fem.Perf.Bkg
+2	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=20573|AlignEnd=20678|Gloss=3Fem.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=20678|AlignEnd=20783|Gloss=say
 4	tòː	tòː	INTJ	_	_	8	discourse	_	AlignBegin=20783|AlignEnd=20888|Gloss=well
 5	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	8	dislocated@top	_	AlignBegin=20994|AlignEnd=21085|Gloss=3Fem.Nom
@@ -227,10 +227,10 @@
 4	gàrin	gàriː	NOUN	_	Definite=Cons	3	comp:goal	_	AlignBegin=31195|AlignEnd=31287|Gloss=town.Cons|wordform=gàriː
 5	=sù	=sù	PRON	_	Number=Plur|Person=3	4	mod	_	AlignBegin=31379|AlignEnd=31470|Gloss=3Plur
 6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=31745|AlignEnd=32020|Gloss=then
-7	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=32020|AlignEnd=32295|Gloss=3Fem.Perf.Bkg
+7	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=32020|AlignEnd=32295|Gloss=3Fem.Perf.Bkg
 8	saːmoː	saːm-	VERB	_	_	7	comp:aux	_	AlignBegin=32295|AlignEnd=32570|Gloss=get.DIR
 9	sai	sai	ADV	_	_	10	mod	_	AlignBegin=32845|AlignEnd=32983|Gloss=then
-10	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	7	conj:dicto	_	AlignBegin=32983|AlignEnd=33120|Gloss=3Fem.Perf.Bkg
+10	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	7	conj:dicto	_	AlignBegin=32983|AlignEnd=33120|Gloss=3Fem.Perf.Bkg
 11	cêː	cêː	VERB	_	_	10	comp:aux	_	AlignBegin=33395|AlignEnd=33533|Gloss=say
 12	tanàː	nàː	AUX	_	Person=3	11	comp:obj	_	AlignBegin=33945|AlignEnd=34083|Gloss=3Fem.Imp
 13	neːman	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	12	comp:aux	_	AlignBegin=34083|AlignEnd=34220|Gloss=look_for.Cons
@@ -247,7 +247,7 @@
 # text_en =  Ok, then they gave her some. She cooked it.
 1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=35310|AlignEnd=35478|Gloss=well
 2	sai	sai	ADV	_	_	3	mod	_	AlignBegin=35645|AlignEnd=35783|Gloss=then
-3	sukà	kà	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=3	0	root	_	AlignBegin=35783|AlignEnd=35921|Gloss=3Plur.Perf.Bkg
+3	sukà	kà	AUX	_	Aspect=Perf|Background=Yes|Number=Plur|Person=3	0	root	_	AlignBegin=35783|AlignEnd=35921|Gloss=3Plur.Perf.Bkg
 4	baː	baː	VERB	_	_	3	comp:aux	_	AlignBegin=35921|AlignEnd=36059|Gloss=give
 5	tà	tà	PRON	_	Person=3	4	comp:ben	_	AlignBegin=36059|AlignEnd=36197|Gloss=3Fem
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=41410|AlignEnd=41550|Gloss=PUNCT
@@ -260,7 +260,7 @@
 # text = sai sukà baː tà wânnan ramàː //
 # text_en =  Then they gave her some hemp.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=36336|AlignEnd=36537|Gloss=then
-2	sukà	kà	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=3	0	root	_	AlignBegin=36537|AlignEnd=36738|Gloss=3Plur.Perf.Bkg
+2	sukà	kà	AUX	_	Aspect=Perf|Background=Yes|Number=Plur|Person=3	0	root	_	AlignBegin=36537|AlignEnd=36738|Gloss=3Plur.Perf.Bkg
 3	baː	baː	VERB	_	_	2	comp:aux	_	AlignBegin=36738|AlignEnd=36939|Gloss=give|wordform=bâː
 4	tà	tà	PRON	_	Person=3	3	comp:ben	_	AlignBegin=36939|AlignEnd=37140|Gloss=3Fem
 5	wânnan	wânnan	DET	_	Definite=Def	6	det	_	AlignBegin=37140|AlignEnd=37341|Gloss=Def
@@ -275,13 +275,13 @@
 # text = dà sukà baː tà ramàn nan < sai ta zoː //
 # text_en =  When they gave her that hemp, then she arrived.
 1	dà	dà	SCONJ	_	_	8	mod	_	AlignBegin=38380|AlignEnd=38547|Gloss=COMP
-2	sukà	kà	AUX	_	Aspect=Perf|Evident=Bkg|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=38547|AlignEnd=38714|Gloss=3Plur.Perf.Bkg
+2	sukà	kà	AUX	_	Aspect=Perf|Background=Yes|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=38547|AlignEnd=38714|Gloss=3Plur.Perf.Bkg
 3	baː	baː	VERB	_	_	2	comp:aux	_	AlignBegin=38714|AlignEnd=38881|Gloss=give
 4	tà	ta	PRON	_	Person=3	3	comp:ben	_	AlignBegin=38881|AlignEnd=39048|Gloss=3Fem
 5	ramàn	ramàː	NOUN	_	_	3	comp:obj	_	AlignBegin=39048|AlignEnd=39132|Gloss=hemp.Def
 6	nan	nan	DET	_	Definite=Def	5	det	_	AlignBegin=39215|AlignEnd=39382|Gloss=Def
 7	sai	sai	ADV	_	_	8	mod	_	AlignBegin=40154|AlignEnd=40363|Gloss=then
-8	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=40363|AlignEnd=40572|Gloss=3Fem.Perf.Bkg
+8	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=40363|AlignEnd=40572|Gloss=3Fem.Perf.Bkg
 9	zoː	zoː	VERB	_	_	8	comp:aux	_	AlignBegin=40572|AlignEnd=40781|Gloss=come
 10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=40781|AlignEnd=40990|Gloss=PUNCT
 
@@ -292,7 +292,7 @@
 # phonetic_text = sai ta dafàː shi //
 # text = sai ta dafàː shi //
 # text_en =  She cooked it.
-1	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=40990|AlignEnd=41200|Gloss=3Fem.Perf.Bkg
+1	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=40990|AlignEnd=41200|Gloss=3Fem.Perf.Bkg
 2	dafàː	daf-	VERB	_	_	1	comp:aux	_	AlignBegin=41200|AlignEnd=41400|Gloss=cook
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=41400|AlignEnd=41600|Gloss=3Masc
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=41550|AlignEnd=41550|Gloss=PUNCT
@@ -305,7 +305,7 @@
 # text = sai ta dafàː shi //
 # text_en =  then she cooked it.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=41550|AlignEnd=41727|Gloss=then
-2	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=41727|AlignEnd=41904|Gloss=3Fem.Perf.Bkg
+2	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=41727|AlignEnd=41904|Gloss=3Fem.Perf.Bkg
 3	dafàː	daf-	VERB	_	_	2	comp:aux	_	AlignBegin=41904|AlignEnd=42081|Gloss=cook
 4	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=42081|AlignEnd=42258|Gloss=3Masc
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=42258|AlignEnd=42435|Gloss=PUNCT
@@ -331,7 +331,7 @@
 2	ta	kà	AUX	_	Aspect=Perf|Person=3	1	comp:obj	_	AlignBegin=43530|AlignEnd=43680|Gloss=3Fem.Perf.Bkg
 3	dafàː	daf-	VERB	_	_	2	comp:aux	_	AlignBegin=43680|AlignEnd=43830|Gloss=cook
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=44631|AlignEnd=44751|Gloss=then
-5	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=44751|AlignEnd=44871|Gloss=3Fem.Perf.Bkg
+5	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=44751|AlignEnd=44871|Gloss=3Fem.Perf.Bkg
 6	cêː	cêː	VERB	_	_	5	comp:aux	_	AlignBegin=44871|AlignEnd=44991|Gloss=say
 7	tôː	tôː	INTJ	_	_	12	discourse	_	AlignBegin=45110|AlignEnd=45318|Gloss=well
 8	Gizò	Gizò	PROPN	_	_	12	vocative	_	AlignBegin=45318|AlignEnd=45526|Gloss=Spider
@@ -388,7 +388,7 @@
 # text = sai ya cêː / naː saːmù //
 # text_en =  Then he said I got it.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=51520|AlignEnd=51611|Gloss=then
-2	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=51611|AlignEnd=51702|Gloss=3Masc.Perf.Bkg
+2	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=51611|AlignEnd=51702|Gloss=3Masc.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=51702|AlignEnd=51793|Gloss=say
 4	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	3	comp:obj	_	AlignBegin=51885|AlignEnd=52075|Gloss=1Sing.Perf
 5	saːmù	saːm-	VERB	_	_	4	comp:aux	_	AlignBegin=52075|AlignEnd=52265|Gloss=get
@@ -402,7 +402,7 @@
 # text = Ƙoːƙì ya cêː na'àm kin saːmù ?//
 # text_en =  Koki said, I.. did you get some?
 1	Ƙoːƙì	Ƙoːƙì	PROPN	_	_	2	subj	_	AlignBegin=52456|AlignEnd=52676|Gloss=Manta
-2	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=52676|AlignEnd=52896|Gloss=3Masc.Perf.Bkg
+2	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=52676|AlignEnd=52896|Gloss=3Masc.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=52896|AlignEnd=53116|Gloss=say
 4	na'àm	na'àm	INTJ	_	Aspect=Perf	5	discourse	_	AlignBegin=53116|AlignEnd=53336|Gloss=yes
 5	kin	kin	AUX	_	Aspect=Perf|Person=2	3	comp:obj	_	AlignBegin=53686|AlignEnd=53813|Gloss=2Fem.Perf
@@ -437,7 +437,7 @@
 # text = sai ya cêː / ai kòː / naː goːdèː mikì // mː / Ƙoːƙì //
 # text_en =  Then he said, eh indeed, I thank you, eh, Koki!
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=56778|AlignEnd=56852|Gloss=then
-2	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=56852|AlignEnd=56926|Gloss=3Masc.Perf.Bkg
+2	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=56852|AlignEnd=56926|Gloss=3Masc.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=56926|AlignEnd=57000|Gloss=say
 4	ai	ai	INTJ	_	_	6	discourse	_	AlignBegin=57076|AlignEnd=57173|Gloss=indeed
 5	kòː	kòː	PART	_	_	4	discourse	_	AlignBegin=57173|AlignEnd=57270|Gloss=as_for
@@ -490,7 +490,7 @@
 # text = sai ya cêː tòː / sai à neːmoː àbinci //
 # text_en =  Then he said well, let's look for food.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=63204|AlignEnd=63320|Gloss=then
-2	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=63320|AlignEnd=63436|Gloss=3Masc.Perf.Bkg
+2	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=63320|AlignEnd=63436|Gloss=3Masc.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=63436|AlignEnd=63552|Gloss=say
 4	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=63552|AlignEnd=63668|Gloss=well
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=63785|AlignEnd=64160|Gloss=then
@@ -507,7 +507,7 @@
 # text = sai ta c~ &//
 # text_en =  Then she s..
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=65658|AlignEnd=65836|Gloss=then
-2	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root@scrap	_	AlignBegin=65836|AlignEnd=66014|Gloss=3Fem.Perf.Bkg
+2	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root@scrap	_	AlignBegin=65836|AlignEnd=66014|Gloss=3Fem.Perf.Bkg
 3	c~	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=66014|AlignEnd=66192|Gloss=Hesit
 4	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=66192|AlignEnd=66372|Gloss=PUNCT
 
@@ -529,7 +529,7 @@
 # text = sai ta cêː tòː sai ka kaːwoː àbin dà zaː'à neːmoː //
 # text_en = The she said, well, bring the thing to buy.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=66372|AlignEnd=66507|Gloss=then
-2	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=66507|AlignEnd=66642|Gloss=3Fem.Perf.Bkg
+2	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=66507|AlignEnd=66642|Gloss=3Fem.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=66642|AlignEnd=66777|Gloss=say
 4	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=66777|AlignEnd=66912|Gloss=well
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=67273|AlignEnd=67539|Gloss=then
@@ -549,11 +549,11 @@
 # text = sai ya kaːwoː kuɗîn nan ya baː tà //
 # text_en = He gave her the money.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=70572|AlignEnd=70781|Gloss=then
-2	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=70781|AlignEnd=70990|Gloss=3Masc.Perf.Bkg
+2	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=70781|AlignEnd=70990|Gloss=3Masc.Perf.Bkg
 3	kaːwoː	kai	VERB	_	_	2	comp:aux	_	AlignBegin=70990|AlignEnd=71199|Gloss=carry.DIR
 4	kuɗîn	kuɗîː	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=71199|AlignEnd=71303|Gloss=money.Def
 5	nan	nan	DET	_	Definite=Def	4	det	_	AlignBegin=71408|AlignEnd=71617|Gloss=Def
-6	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	2	conj:svc	_	AlignBegin=71617|AlignEnd=71826|Gloss=3Masc.Perf.Bkg
+6	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	2	conj:svc	_	AlignBegin=71617|AlignEnd=71826|Gloss=3Masc.Perf.Bkg
 7	baː	baː	VERB	_	_	6	comp:aux	_	AlignBegin=71826|AlignEnd=72035|Gloss=give|wordform=bâː
 8	tà	tà	PRON	_	Person=3	7	comp:ben	_	AlignBegin=72035|AlignEnd=72244|Gloss=3Fem
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=72244|AlignEnd=72450|Gloss=PUNCT
@@ -566,9 +566,9 @@
 # text = sai ta jeː ta sayoː / mahaɗin dà zaːtà || zaːʔà ci wânnan ramàn //
 # text_en =  Then she went to buy something to add to eat with that hemp.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=72450|AlignEnd=72645|Gloss=then
-2	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=72645|AlignEnd=72840|Gloss=3Fem.Perf.Bkg
+2	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=72645|AlignEnd=72840|Gloss=3Fem.Perf.Bkg
 3	jeː	jeː	VERB	_	_	2	comp:aux	_	AlignBegin=72840|AlignEnd=73035|Gloss=go
-4	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	2	conj:svc	_	AlignBegin=73035|AlignEnd=73230|Gloss=3Fem.Perf.Bkg
+4	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	2	conj:svc	_	AlignBegin=73035|AlignEnd=73230|Gloss=3Fem.Perf.Bkg
 5	sayoː	say-	VERB	_	_	4	comp:aux	_	AlignBegin=73230|AlignEnd=73425|Gloss=sell.DIR
 6	mahaɗin	mahaɗiː	NOUN	_	Definite=Def	5	comp:obj	_	AlignBegin=74135|AlignEnd=74220|Gloss=accompaniment.Cons
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=74306|AlignEnd=74562|Gloss=with
@@ -597,8 +597,8 @@
 # text = sai akà &// ta dakà: shi //
 # text_en =  then they.. she pounded it.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=76446|AlignEnd=76676|Gloss=then
-2	akà	kà	AUX	_	Aspect=Perf|Evident=Bkg|Person=4	0	root	_	AlignBegin=76676|AlignEnd=76906|Gloss=4.Perf.Bkg
-3	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	2	conj:dicto	_	AlignBegin=77543|AlignEnd=77712|Gloss=3Fem.Perf.Bkg
+2	akà	kà	AUX	_	Aspect=Perf|Background=Yes|Person=4	0	root	_	AlignBegin=76676|AlignEnd=76906|Gloss=4.Perf.Bkg
+3	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	2	conj:dicto	_	AlignBegin=77543|AlignEnd=77712|Gloss=3Fem.Perf.Bkg
 4	dakà:	dak-	VERB	_	_	3	comp:aux	_	AlignBegin=77712|AlignEnd=77881|Gloss=pound
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=77881|AlignEnd=78050|Gloss=3Masc
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=78050|AlignEnd=78219|Gloss=PUNCT
@@ -636,7 +636,7 @@
 # phonetic_text = ta kwaɗàntaː mishì //
 # text = ta kwaɗàntaː mishì //
 # text_en =  she mixed it for him.
-1	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=82130|AlignEnd=82366|Gloss=3Fem.Perf.Bkg
+1	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=82130|AlignEnd=82366|Gloss=3Fem.Perf.Bkg
 2	kwaɗàntaː	kwaɗàntaː	VERB	_	_	1	comp:aux	_	AlignBegin=82366|AlignEnd=82602|Gloss=mix
 3	mishì	mishì	PRON	_	Person=3	2	comp:ben	_	AlignBegin=82602|AlignEnd=82838|Gloss=3Masc.Ben
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=82838|AlignEnd=83072|Gloss=PUNCT
@@ -648,7 +648,7 @@
 # phonetic_text = ta &//
 # text = ta &//
 # text_en =  She..
-1	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root@scrap	_	AlignBegin=83727|AlignEnd=83809|Gloss=3Fem.Perf.Bkg
+1	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root@scrap	_	AlignBegin=83727|AlignEnd=83809|Gloss=3Fem.Perf.Bkg
 2	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=83809|AlignEnd=83892|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_02_071
@@ -658,7 +658,7 @@
 # phonetic_text = ta cikàː mishì kwaːnòː dà shiː //
 # text = ta cikà mishì kwaːnòː dà shiː //
 # text_en =  She filled a dish for him.
-1	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=83892|AlignEnd=84131|Gloss=3Fem.Perf.Bkg
+1	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=83892|AlignEnd=84131|Gloss=3Fem.Perf.Bkg
 2	cikàː	cikàː	VERB	_	_	1	comp:aux	_	AlignBegin=84131|AlignEnd=84370|Gloss=fill
 3	mishì	mishì	PRON	_	Person=3	2	comp:ben	_	AlignBegin=84370|AlignEnd=84609|Gloss=3Masc.Ben
 4	kwaːnòː	kwaːnòː	NOUN	_	_	2	comp:obj	_	AlignBegin=84609|AlignEnd=84848|Gloss=dish
@@ -673,11 +673,11 @@
 # phonetic_text = ya ci ya ci ya ci //
 # text = ya ci ya ci ya ci //
 # text_en =  He ate and ate and ate.
-1	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=85566|AlignEnd=85754|Gloss=3Masc.Perf.Bkg
+1	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=85566|AlignEnd=85754|Gloss=3Masc.Perf.Bkg
 2	ci	ci	VERB	_	_	1	comp:aux	_	AlignBegin=85754|AlignEnd=85942|Gloss=eat
-3	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	1	conj:redup	_	AlignBegin=85942|AlignEnd=86130|Gloss=3Masc.Perf.Bkg
+3	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	1	conj:redup	_	AlignBegin=85942|AlignEnd=86130|Gloss=3Masc.Perf.Bkg
 4	ci	ci	VERB	_	_	3	comp:aux	_	AlignBegin=86130|AlignEnd=86318|Gloss=eat
-5	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	3	conj:redup	_	AlignBegin=86318|AlignEnd=86506|Gloss=3Masc.Perf.Bkg
+5	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	3	conj:redup	_	AlignBegin=86318|AlignEnd=86506|Gloss=3Masc.Perf.Bkg
 6	ci	ci	VERB	_	_	5	comp:aux	_	AlignBegin=86506|AlignEnd=86694|Gloss=eat
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=86694|AlignEnd=86879|Gloss=PUNCT
 
@@ -689,9 +689,9 @@
 # text = dà ya ci ya ƙòːshi /
 # text_en =  He ate until he was replete.
 1	dà	dà	SCONJ	_	_	4	mod	_	AlignBegin=87690|AlignEnd=87918|Gloss=COMP
-2	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=87918|AlignEnd=88146|Gloss=3Masc.Perf.Bkg
+2	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=87918|AlignEnd=88146|Gloss=3Masc.Perf.Bkg
 3	ci	ci	VERB	_	_	2	comp:aux	_	AlignBegin=88146|AlignEnd=88374|Gloss=eat
-4	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=88374|AlignEnd=88602|Gloss=3Masc.Perf.Bkg
+4	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=88374|AlignEnd=88602|Gloss=3Masc.Perf.Bkg
 5	ƙòːshi	ƙòːshi	VERB	_	_	4	comp:aux	_	AlignBegin=88602|AlignEnd=88830|Gloss=be_replete
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=88830|AlignEnd=89058|Gloss=PUNCT|wordform=/
 
@@ -703,7 +703,7 @@
 # text = sai ya cêː tòː ìnaː yâːraː ?//
 # text_en =  Then he said well, where are the children?
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=89478|AlignEnd=89664|Gloss=then
-2	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=89664|AlignEnd=89850|Gloss=3Masc.Perf.Bkg
+2	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=89664|AlignEnd=89850|Gloss=3Masc.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=89850|AlignEnd=90036|Gloss=say
 4	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=90036|AlignEnd=90222|Gloss=well
 5	ìnaː	ìnaː	PRON	_	PronType=Int	3	comp:obj	_	AlignBegin=90222|AlignEnd=90408|Gloss=where
@@ -769,7 +769,7 @@
 # phonetic_text = akà kiraː ƴaː \Plur -n -sù //
 # text = akà kira ƴaːƴan =sù //
 # text_en =  They called their children.
-1	akà	kà	AUX	_	Aspect=Perf|Evident=Bkg|Person=4	0	root	_	AlignBegin=96090|AlignEnd=96360|Gloss=4.Perf.Bkg
+1	akà	kà	AUX	_	Aspect=Perf|Background=Yes|Person=4	0	root	_	AlignBegin=96090|AlignEnd=96360|Gloss=4.Perf.Bkg
 2	kira	kiraː	VERB	_	_	1	comp:aux	_	AlignBegin=96360|AlignEnd=96630|Gloss=call
 3	ƴaːƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	2	comp:obj	_	AlignBegin=96630|AlignEnd=96698|Gloss=child.Plur.Cons
 4	=sù	=sù	PRON	_	Number=Plur|Person=3	3	mod@poss	_	AlignBegin=96834|AlignEnd=96900|Gloss=3Plur.Gen
@@ -796,19 +796,19 @@
 # text = koːwaː akà sâː mishì / koːwaː akà sâː mishì / koːwaː akà sâː mishì / koːwa: akà cêː yà ci //
 # text_en =  They gave food to everyone, they gave food to everyone, they gave food to everyone, they told everyone to eat.
 1	koːwaː	koːwaː	ADP	_	_	2	dislocated@comp	_	AlignBegin=100422|AlignEnd=100506|Gloss=everyone
-2	akà	kà	AUX	_	Aspect=Perf|Evident=Bkg|Person=4	0	root	_	AlignBegin=100590|AlignEnd=100758|Gloss=4.Perf.Bkg
+2	akà	kà	AUX	_	Aspect=Perf|Background=Yes|Person=4	0	root	_	AlignBegin=100590|AlignEnd=100758|Gloss=4.Perf.Bkg
 3	sâː	sâː	VERB	_	_	2	comp:aux	_	AlignBegin=100758|AlignEnd=100926|Gloss=put
 4	mishì	mishì	PRON	_	Person=3	3	comp:ben	_	AlignBegin=100926|AlignEnd=101094|Gloss=3Masc.Ben
 5	koːwaː	koːwaː	ADP	_	PronType=Ind	6	dislocated@comp	_	AlignBegin=101264|AlignEnd=101348|Gloss=everyone
-6	akà	kà	AUX	_	Aspect=Perf|Evident=Bkg|Person=4	2	conj:redup	_	AlignBegin=101432|AlignEnd=101600|Gloss=4.Perf.Bkg
+6	akà	kà	AUX	_	Aspect=Perf|Background=Yes|Person=4	2	conj:redup	_	AlignBegin=101432|AlignEnd=101600|Gloss=4.Perf.Bkg
 7	sâː	sâː	VERB	_	_	6	comp:aux	_	AlignBegin=101600|AlignEnd=101768|Gloss=put
 8	mishì	mishì	PRON	_	Person=3	7	comp:ben	_	AlignBegin=101768|AlignEnd=101936|Gloss=3Masc.Ben
 9	koːwaː	koːwaː	CCONJ	_	PronType=Ind	10	dislocated@comp	_	AlignBegin=102104|AlignEnd=102189|Gloss=everyone
-10	akà	kà	AUX	_	Aspect=Perf|Evident=Bkg|Person=4	6	conj:redup	_	AlignBegin=102274|AlignEnd=102444|Gloss=4.Perf.Bkg
+10	akà	kà	AUX	_	Aspect=Perf|Background=Yes|Person=4	6	conj:redup	_	AlignBegin=102274|AlignEnd=102444|Gloss=4.Perf.Bkg
 11	sâː	sâː	VERB	_	_	10	comp:aux	_	AlignBegin=102444|AlignEnd=102614|Gloss=put
 12	mishì	mishì	PRON	_	Person=3	11	comp:ben	_	AlignBegin=102614|AlignEnd=102784|Gloss=3Masc.Ben
 13	koːwa:	koːwa:	PRON	_	PronType=Ind	14	dislocated@comp	_	AlignBegin=102953|AlignEnd=103047|Gloss=everyone
-14	akà	kà	AUX	_	Aspect=Perf|Evident=Bkg|Person=4	10	conj:svc	_	AlignBegin=103141|AlignEnd=103329|Gloss=4.Perf.Bkg
+14	akà	kà	AUX	_	Aspect=Perf|Background=Yes|Person=4	10	conj:svc	_	AlignBegin=103141|AlignEnd=103329|Gloss=4.Perf.Bkg
 15	cêː	cêː	VERB	_	_	14	comp:aux	_	AlignBegin=103329|AlignEnd=103517|Gloss=say
 16	yà	à	AUX	_	Aspect=Aor|Person=3	15	comp:obj	_	AlignBegin=103517|AlignEnd=103705|Gloss=3Masc.Aor
 17	ci	ci	VERB	_	_	16	comp:aux	_	AlignBegin=103705|AlignEnd=103893|Gloss=eat
@@ -822,9 +822,9 @@
 # text = koːwaː ya ci ya ƙòːshi //
 # text_en =  Everyone ate until they were full.
 1	koːwaː	koːwaː	PRON	_	_	2	discourse	_	AlignBegin=105078|AlignEnd=105197|Gloss=everyone
-2	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=105316|AlignEnd=105554|Gloss=3Masc.Perf.Bkg
+2	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=105316|AlignEnd=105554|Gloss=3Masc.Perf.Bkg
 3	ci	ci	VERB	_	_	2	comp:aux	_	AlignBegin=105554|AlignEnd=105792|Gloss=eat
-4	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	2	conj:svc	_	AlignBegin=105792|AlignEnd=106030|Gloss=3Masc.Perf.Bkg
+4	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	2	conj:svc	_	AlignBegin=105792|AlignEnd=106030|Gloss=3Masc.Perf.Bkg
 5	ƙòːshi	ƙòːshi	VERB	_	_	4	comp:aux	_	AlignBegin=106030|AlignEnd=106268|Gloss=be_replete
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=106268|AlignEnd=106506|Gloss=PUNCT
 
@@ -871,7 +871,7 @@
 # phonetic_text = ya cêː wânnan kòː / bàː dai tà ci shi ba //
 # text = ya cêː wânnan kòː / bàː dai tà ciːː shì ba //
 # text_en =  He said that one she should not eat.
-1	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=109206|AlignEnd=109380|Gloss=3Masc.Perf.Bkg
+1	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=109206|AlignEnd=109380|Gloss=3Masc.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=109380|AlignEnd=109554|Gloss=say
 3	wânnan	wânnan	PRON	_	Definite=Def	7	dislocated@subj	_	AlignBegin=109554|AlignEnd=109728|Gloss=Def
 4	kòː	kòː	PART	_	_	3	discourse	_	AlignBegin=109728|AlignEnd=109902|Gloss=as_for
@@ -1032,7 +1032,7 @@
 # phonetic_text = ta cêː yàːyàː zân yi //
 # text = ta cêː yàːyàː zân yi ?//
 # text_en =  She said how shall I do?
-1	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=128268|AlignEnd=128442|Gloss=3Fem.Perf.Bkg
+1	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=128268|AlignEnd=128442|Gloss=3Fem.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=128442|AlignEnd=128616|Gloss=say
 3	yàːyàː	yàːyàː	ADV	_	PronType=Int	2	comp:obj	_	AlignBegin=128616|AlignEnd=128790|Gloss=how
 4	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	3	comp:cleft	_	AlignBegin=128790|AlignEnd=128964|Gloss=1Sing.Fut
@@ -1099,7 +1099,7 @@
 # phonetic_text = ta cêː yàːyàː zân yi ìn jeː ìn saːmoː àbù -ǹ dà hannuː -naː / sa'àː -ǹ nan kuma kà cêː bà zân taɓàː ìn ci ba //
 # text = ta cêː yàːyàː zân yi ìn jeː ìn saːmoː àbîn dà hannuː =naː ?//
 # text_en = She said how shall I do, to pick the thing with my own hands?
-1	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=134022|AlignEnd=134227|Gloss=3Fem.Perf.Bkg
+1	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=134022|AlignEnd=134227|Gloss=3Fem.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=134227|AlignEnd=134432|Gloss=say
 3	yàːyàː	yàːyàː	ADV	_	PronType=Int	2	comp:obj	_	AlignBegin=134432|AlignEnd=134637|Gloss=how
 4	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	3	comp:cleft	_	AlignBegin=134637|AlignEnd=134842|Gloss=1Sing.Fut
@@ -1193,7 +1193,7 @@
 # text = sai ta cèː tòː / shiː kèː nan //
 # text_en =  Then she said, well, that's it!
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=144906|AlignEnd=145022|Gloss=then
-2	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=145022|AlignEnd=145138|Gloss=3Fem.Perf.Bkg
+2	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=145022|AlignEnd=145138|Gloss=3Fem.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=145138|AlignEnd=145254|Gloss=say
 4	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=145254|AlignEnd=145370|Gloss=well
 5	shiːkèːnan	shiːkèːnan	INTJ	_	_	3	comp:obj	_	AlignBegin=145485|AlignEnd=145678|Gloss=OK|wordform=shiː
@@ -1217,7 +1217,7 @@
 # text = sai ta bar̃ shì dà àbinci //
 # text_en =  Then she left him with the food.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=147270|AlignEnd=147414|Gloss=then
-2	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=147414|AlignEnd=147558|Gloss=3Fem.Perf.Bkg
+2	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=147414|AlignEnd=147558|Gloss=3Fem.Perf.Bkg
 3	bar̃	barìː	VERB	_	_	2	comp:aux	_	AlignBegin=147558|AlignEnd=147702|Gloss=leave
 4	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=147702|AlignEnd=147846|Gloss=3Masc
 5	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=147846|AlignEnd=147990|Gloss=with
@@ -1247,7 +1247,7 @@
 # text = sai ta bar̃ shì dà àbinci //
 # text_en = Then she left the food to him.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=149040|AlignEnd=149214|Gloss=then
-2	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=149214|AlignEnd=149388|Gloss=3Fem.Perf.Bkg
+2	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=149214|AlignEnd=149388|Gloss=3Fem.Perf.Bkg
 3	bar̃	barìː	VERB	_	_	2	comp:aux	_	AlignBegin=149388|AlignEnd=149562|Gloss=leave
 4	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=149562|AlignEnd=149736|Gloss=3Masc
 5	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=149736|AlignEnd=149910|Gloss=with
@@ -1274,14 +1274,14 @@
 1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	11	dislocated@comp	_	AlignBegin=151776|AlignEnd=151911|Gloss=3Masc.Nom
 2	kuma	kuma	PART	_	_	1	discourse	_	AlignBegin=151911|AlignEnd=152046|Gloss=also
 3	dà	dà	SCONJ	_	_	11	mod	_	AlignBegin=152046|AlignEnd=152181|Gloss=as
-4	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=152181|AlignEnd=152316|Gloss=3Masc.Perf.Bkg
+4	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=152181|AlignEnd=152316|Gloss=3Masc.Perf.Bkg
 5	ci	ci	VERB	_	_	4	comp:aux	_	AlignBegin=152316|AlignEnd=152451|Gloss=eat
-6	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	4	conj:redup	_	AlignBegin=152451|AlignEnd=152586|Gloss=3Masc.Perf.Bkg
+6	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	4	conj:redup	_	AlignBegin=152451|AlignEnd=152586|Gloss=3Masc.Perf.Bkg
 7	ci	ci	VERB	_	_	6	comp:aux	_	AlignBegin=152586|AlignEnd=152721|Gloss=eat
-8	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	6	conj:redup	_	AlignBegin=152721|AlignEnd=152856|Gloss=3Masc.Perf.Bkg
+8	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	6	conj:redup	_	AlignBegin=152721|AlignEnd=152856|Gloss=3Masc.Perf.Bkg
 9	ci	ci	VERB	_	_	8	comp:aux	_	AlignBegin=152856|AlignEnd=152991|Gloss=eat
 10	àbîn	àbù	NOUN	_	Definite=Def	11	subj	_	AlignBegin=153128|AlignEnd=153210|Gloss=thing.Def
-11	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=153293|AlignEnd=153458|Gloss=3Masc.Perf.Bkg
+11	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=153293|AlignEnd=153458|Gloss=3Masc.Perf.Bkg
 12	yi	yi	VERB	_	_	11	comp:aux	_	AlignBegin=153458|AlignEnd=153623|Gloss=do
 13	mishì	mishì	PRON	_	Person=3	12	comp:ben	_	AlignBegin=153623|AlignEnd=153788|Gloss=3Masc.Ben
 14	yawàː	yawàː	NOUN	_	_	12	comp:pred	_	AlignBegin=153788|AlignEnd=153953|Gloss=quantity
@@ -1296,7 +1296,7 @@
 # text_en =  Then his stomach swelled.
 1	sai	sai	ADV	_	_	3	mod	_	AlignBegin=154920|AlignEnd=155111|Gloss=then
 2	cikìː	cikìː	NOUN	_	_	3	subj	_	AlignBegin=155111|AlignEnd=155302|Gloss=belly
-3	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=155302|AlignEnd=155493|Gloss=3Masc.Perf.Bkg
+3	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=155302|AlignEnd=155493|Gloss=3Masc.Perf.Bkg
 4	bambàr̃eː	bambar̃-	VERB	_	_	3	comp:aux	_	AlignBegin=155493|AlignEnd=155684|Gloss=swell
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=155684|AlignEnd=155874|Gloss=PUNCT
 
@@ -1309,7 +1309,7 @@
 # text_en =  After his stomach swelled, he had diarrhea.
 1	dà	dà	SCONJ	_	_	6	mod	_	AlignBegin=157055|AlignEnd=157259|Gloss=as
 2	cikìː	cikìː	NOUN	_	_	3	subj	_	AlignBegin=157259|AlignEnd=157463|Gloss=belly
-3	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=157463|AlignEnd=157667|Gloss=3Masc.Perf.Bkg
+3	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=157463|AlignEnd=157667|Gloss=3Masc.Perf.Bkg
 4	bambàr̃eː	bambar̃-	VERB	_	_	3	comp:aux	_	AlignBegin=157667|AlignEnd=157871|Gloss=swell
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=158074|AlignEnd=158284|Gloss=then
 6	zaːwòː	zaːwòː	AUX	_	_	0	root	_	AlignBegin=158284|AlignEnd=158494|Gloss=diarrhea
@@ -1333,12 +1333,12 @@
 # text = sai ya cêː / Ƙoːƙì / àlhakinkì ya kaːmàː ni //
 # text_en =  Then he said, Koki, the wrong I did you has been visited on me.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=159900|AlignEnd=160000|Gloss=then
-2	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=160000|AlignEnd=160100|Gloss=3Masc.Perf.Bkg
+2	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=160000|AlignEnd=160100|Gloss=3Masc.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=160100|AlignEnd=160200|Gloss=say
 4	Ƙoːƙì	Ƙoːƙì	PROPN	_	_	7	mod	_	AlignBegin=160298|AlignEnd=160527|Gloss=Manta
 5	àlhakin	àlhakiː	NOUN	_	Definite=Cons	7	subj	_	AlignBegin=161642|AlignEnd=161742|Gloss=sin.Cons|wordform=àlhakiː
 6	=kì	=kì	PRON	_	Gender=Masc|Person=3	5	udep	_	AlignBegin=161842|AlignEnd=161943|Gloss=2Fem.Gen
-7	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=161943|AlignEnd=162244|Gloss=3Masc.Perf.Bkg
+7	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=161943|AlignEnd=162244|Gloss=3Masc.Perf.Bkg
 8	kaːmàː	kaːm-	VERB	_	_	7	comp:aux	_	AlignBegin=162244|AlignEnd=162545|Gloss=catch
 9	ni	ni	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	AlignBegin=162545|AlignEnd=162846|Gloss=1Sing
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=162846|AlignEnd=163148|Gloss=PUNCT
@@ -1407,7 +1407,7 @@
 # text = sai ta cêː tôː / ai kai nèː /
 # text_en =  Then she said well eh, it's your fault!
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=170761|AlignEnd=170918|Gloss=then
-2	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=170918|AlignEnd=171075|Gloss=3Fem.Perf.Bkg
+2	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=170918|AlignEnd=171075|Gloss=3Fem.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=171075|AlignEnd=171232|Gloss=say
 4	tôː	tôː	INTJ	_	_	7	discourse	_	AlignBegin=171232|AlignEnd=171389|Gloss=well
 5	ai	ai	PART	_	_	7	discourse	_	AlignBegin=172049|AlignEnd=172189|Gloss=indeed
@@ -1443,7 +1443,7 @@
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=175436|AlignEnd=175624|Gloss=well
 2	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	4	dislocated@subj	_	AlignBegin=175624|AlignEnd=175812|Gloss=3Fem.Nom
 3	kuma	kuma	PART	_	_	2	discourse	_	AlignBegin=175812|AlignEnd=176000|Gloss=also
-4	ta	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Fem|Person=3	0	root	_	AlignBegin=176000|AlignEnd=176188|Gloss=3Fem.Perf.Bkg
+4	ta	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=176000|AlignEnd=176188|Gloss=3Fem.Perf.Bkg
 5	saːmoː	saːm-	VERB	_	_	4	comp:aux	_	AlignBegin=176188|AlignEnd=176376|Gloss=get.DIR
 6	àbîn	àbù	NOUN	_	Definite=Def	5	comp:obj	_	AlignBegin=176376|AlignEnd=176470|Gloss=thing.Def
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=176564|AlignEnd=176754|Gloss=PUNCT
@@ -1559,10 +1559,10 @@
 # text_en =  Then he lay down and died.
 1	shiːkèːnan	shiːkèːnan	INTJ	_	_	3	discourse	_	AlignBegin=185190|AlignEnd=185347|Gloss=OK|wordform=shiː
 2	sai	sai	ADV	_	_	3	mod	_	AlignBegin=185661|AlignEnd=185818|Gloss=then
-3	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=185818|AlignEnd=185975|Gloss=3Masc.Perf.Bkg
+3	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=185818|AlignEnd=185975|Gloss=3Masc.Perf.Bkg
 4	kwântaː	kwant-	VERB	_	_	3	comp:aux	_	AlignBegin=185975|AlignEnd=186132|Gloss=lie_down
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=186132|AlignEnd=186289|Gloss=then
-6	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	3	parataxis	_	AlignBegin=186289|AlignEnd=186446|Gloss=3Masc.Perf.Bkg
+6	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	3	parataxis	_	AlignBegin=186289|AlignEnd=186446|Gloss=3Masc.Perf.Bkg
 7	mutù	mutù	VERB	_	_	6	comp:aux	_	AlignBegin=186446|AlignEnd=186603|Gloss=die
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=186603|AlignEnd=186756|Gloss=PUNCT
 
@@ -1575,10 +1575,10 @@
 # text_en =  Then he lay down and died.
 1	shiːkèːnan	shiːkèːnan	INTJ	_	_	3	discourse	_	AlignBegin=186180|AlignEnd=186347|Gloss=OK|wordform=shiː
 2	sai	sai	ADV	_	_	3	mod	_	AlignBegin=186681|AlignEnd=186848|Gloss=then
-3	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	0	root	_	AlignBegin=186848|AlignEnd=187015|Gloss=3Masc.Perf.Bkg
+3	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=186848|AlignEnd=187015|Gloss=3Masc.Perf.Bkg
 4	kwântaː	kwant-	VERB	_	_	3	comp:aux	_	AlignBegin=187015|AlignEnd=187182|Gloss=lie_down
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=187182|AlignEnd=187349|Gloss=then
-6	ya	kà	AUX	_	Aspect=Perf|Evident=Bkg|Gender=Masc|Person=3	3	parataxis	_	AlignBegin=187349|AlignEnd=187516|Gloss=3Masc.Perf.Bkg
+6	ya	kà	AUX	_	Aspect=Perf|Background=Yes|Gender=Masc|Person=3	3	parataxis	_	AlignBegin=187349|AlignEnd=187516|Gloss=3Masc.Perf.Bkg
 7	mutù	mutù	VERB	_	_	6	comp:aux	_	AlignBegin=187516|AlignEnd=187683|Gloss=die
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=187683|AlignEnd=187854|Gloss=PUNCT
 
