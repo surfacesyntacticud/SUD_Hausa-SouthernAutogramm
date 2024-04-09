@@ -295,7 +295,7 @@
 # text = bi wancàn hanyàn !//
 # text_en =  Follow this road!
 1	bi	bi	VERB	_	_	0	root	_	AlignBegin=41790|AlignEnd=41993|Gloss=follow.Jus
-2	wancàn	wancàn	DET	_	_	3	det	_	AlignBegin=41993|AlignEnd=42196|Gloss=Dist
+2	wancàn	wancàn	DET	_	Deixis=Dist	3	det	_	AlignBegin=41993|AlignEnd=42196|Gloss=Dist
 3	hanyàn	hanyàn	NOUN	_	_	1	comp:obj	_	AlignBegin=42196|AlignEnd=42298|Gloss=road.Def
 4	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=42399|AlignEnd=42603|Gloss=PUNCT|wordform=/
 
@@ -489,7 +489,7 @@
 3	nèː	neː	PART	_	_	2	mod@emp	_	AlignBegin=62581|AlignEnd=62737|Gloss=Ident/Blg
 4	yaː	yaː	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=62737|AlignEnd=62893|Gloss=3Masc.Perf
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=62893|AlignEnd=63049|Gloss=do
-6	nân	nân	ADV	_	_	5	comp:pred	_	AlignBegin=63049|AlignEnd=63205|Gloss=Prox
+6	nân	nân	ADV	_	Deixis=Prox	5	comp:pred	_	AlignBegin=63049|AlignEnd=63205|Gloss=Prox
 7	dà	dà	PART	_	_	4	parataxis	_	AlignBegin=63205|AlignEnd=63361|Gloss=there_is
 8	àbù	àbù	NOUN	_	_	7	comp:pred	_	AlignBegin=63517|AlignEnd=63669|Gloss=thing
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=63669|AlignEnd=63820|Gloss=PUNCT
@@ -631,7 +631,7 @@
 # text_en =  As for him, he will lie down here and drink his water.
 1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	3	discourse	_	AlignBegin=80070|AlignEnd=80323|Gloss=3Masc.Nom
 2	kòː	kòː	CCONJ	_	_	1	mod	_	AlignBegin=80323|AlignEnd=80576|Gloss=as_for
-3	nân	nân	ADV	_	_	0	root	_	AlignBegin=80576|AlignEnd=80829|Gloss=Prox
+3	nân	nân	ADV	_	Deixis=Prox	0	root	_	AlignBegin=80576|AlignEnd=80829|Gloss=Prox
 4	zâi	zaː	AUX	_	Person=3|Tense=Fut	3	comp:cleft	_	AlignBegin=80829|AlignEnd=81082|Gloss=3Masc..Fut
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=81082|AlignEnd=81335|Gloss=do
 6	kwànciyan	kwànciyaː	NOUN	_	Definite=Cons	5	comp:obj@lvc	_	AlignBegin=81335|AlignEnd=81419|Gloss=lie.Vnoun.Cons|wordform=kwànciyaː
@@ -956,7 +956,7 @@
 3	yi	yi	VERB	_	_	0	root	_	AlignBegin=125603|AlignEnd=125877|Gloss=do.Jus
 4	fànciyan	kwant-	VERB	_	Definite=Cons	3	comp:obj@lvc	_	AlignBegin=125877|AlignEnd=125968|Gloss=lie_down.Vnoun.Cons|wordform=kwànciyaː
 5	=kà	=kà	PRON	_	Person=3	4	udep	_	AlignBegin=126059|AlignEnd=126151|Gloss=2Masc.Gen
-6	nân	nân	ADV	_	_	3	mod	_	AlignBegin=126151|AlignEnd=126425|Gloss=Prox
+6	nân	nân	ADV	_	Deixis=Prox	3	mod	_	AlignBegin=126151|AlignEnd=126425|Gloss=Prox
 7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=126425|AlignEnd=126700|Gloss=PUNCT
 8	kà	à	AUX	_	Aspect=Aor|Person=2	3	conj:coord	_	AlignBegin=126700|AlignEnd=126948|Gloss=2Masc.Aor
 9	shaː	shaː	VERB	_	_	8	comp:aux	_	AlignBegin=126948|AlignEnd=127196|Gloss=drink
@@ -976,7 +976,7 @@
 3	yiwan	ruwaː	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=127524|AlignEnd=127581|Gloss=water.Cons|wordform=ruwaː
 4	=kà	=kà	PRON	_	Person=3	3	mod@poss	_	AlignBegin=127638|AlignEnd=127696|Gloss=2Masc.Gen
 5	à	à	ADP	_	_	2	mod	_	AlignBegin=127696|AlignEnd=127868|Gloss=at
-6	nân	nân	ADV	_	_	5	comp:obj	_	AlignBegin=127868|AlignEnd=128040|Gloss=Prox
+6	nân	nân	ADV	_	Deixis=Prox	5	comp:obj	_	AlignBegin=127868|AlignEnd=128040|Gloss=Prox
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=128040|AlignEnd=128210|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_119-119
@@ -1420,12 +1420,12 @@
 1	yàːyàː	yàːyàː	ADV	_	PronType=Int	0	root	_	AlignBegin=174760|AlignEnd=175018|Gloss=how
 2	dà	dà	ADP	_	_	1	comp:cleft	_	AlignBegin=175018|AlignEnd=175276|Gloss=with/exist
 3	kâi	kâi	NOUN	_	_	2	comp:obj	_	AlignBegin=175276|AlignEnd=175534|Gloss=head
-4	nân	nân	ADV	_	_	1	mod	_	AlignBegin=175534|AlignEnd=175792|Gloss=Prox
+4	nân	nân	ADV	_	Deixis=Prox	1	mod	_	AlignBegin=175534|AlignEnd=175792|Gloss=Prox
 5	|r	|r	PUNCT	_	_	6	punct	_	AlignBegin=175792|AlignEnd=176050|Gloss=PUNCT
 6	yàːyàː	yàːyàː	ADV	_	PronType=Int	1	conj:coord	_	AlignBegin=176050|AlignEnd=176222|Gloss=how
 7	dà	dà	ADP	_	_	6	comp:cleft	_	AlignBegin=176222|AlignEnd=176394|Gloss=with/exist
 8	kâi	kâi	NOUN	_	_	7	comp:obj	_	AlignBegin=176394|AlignEnd=176566|Gloss=head
-9	nân	nân	ADV	_	_	6	mod	_	AlignBegin=176566|AlignEnd=176738|Gloss=Prox
+9	nân	nân	ADV	_	Deixis=Prox	6	mod	_	AlignBegin=176566|AlignEnd=176738|Gloss=Prox
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=176738|AlignEnd=176910|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_166-166
@@ -1823,7 +1823,7 @@
 # text_en =  Let them remove that Rat.
 1	à	à	AUX	_	_	0	root	_	AlignBegin=221415|AlignEnd=221648|Gloss=at
 2	cirè	cir-	VERB	_	_	1	comp:aux	_	AlignBegin=221648|AlignEnd=221881|Gloss=pull
-3	wannàn	wannàn	DET	_	_	4	det	_	AlignBegin=221881|AlignEnd=222114|Gloss=Prox
+3	wannàn	wannàn	DET	_	Deixis=Prox	4	det	_	AlignBegin=221881|AlignEnd=222114|Gloss=Prox
 4	ɓeːr̃ân	ɓeːr̃aː	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=222114|AlignEnd=222230|Gloss=rat.Def
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=222347|AlignEnd=222579|Gloss=PUNCT
 
@@ -1834,7 +1834,7 @@
 # phonetic_text = wannàn ɓeːr̃aː yà fitoː //
 # text = wannàn ɓeːr̃aː yà fitoː //
 # text_en =  Let that Rat come out.
-1	wannàn	wannàn	DET	_	_	2	det	_	AlignBegin=222579|AlignEnd=222827|Gloss=Prox
+1	wannàn	wannàn	DET	_	Deixis=Prox	2	det	_	AlignBegin=222579|AlignEnd=222827|Gloss=Prox
 2	ɓeːr̃aː	ɓeːr̃aː	NOUN	_	_	3	subj	_	AlignBegin=222827|AlignEnd=223075|Gloss=Rat
 3	yà	à	AUX	_	Aspect=Aor|Person=3	0	root	_	AlignBegin=223075|AlignEnd=223323|Gloss=3Masc.Aor
 4	fitoː	fit-	VERB	_	_	3	comp:aux	_	AlignBegin=223323|AlignEnd=223571|Gloss=go.DIR
