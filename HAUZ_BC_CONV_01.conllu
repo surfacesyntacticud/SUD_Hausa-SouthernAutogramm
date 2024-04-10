@@ -1532,36 +1532,28 @@
 6	yâːraː	yaːròː	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=183575|AlignEnd=183648|Gloss=child.Plur
 7	nèː	neː	PART	_	_	6	mod@emp	_	AlignBegin=183721|AlignEnd=183867|Gloss=Ident/Blg
 8	kàman	kàman	ADP	_	_	6	mod	_	AlignBegin=183867|AlignEnd=183940|Gloss=like
-9	=kà	=kà	PRON	_	Gender=Masc|Person=2	8	comp:obj	_	AlignBegin=183940|AlignEnd=184013|Gloss=2Masc
+9	=kà	=kà	PRON	_	Gender=Masc|Person=2	8	udep	_	AlignBegin=183940|AlignEnd=184013|Gloss=2Masc.Gen
 10	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=184013|AlignEnd=184162|Gloss=PUNCT
 
-# sent_id = HAUZ_BC_CONV_01_SP2_067-067_split1
+# sent_id = HAUZ_BC_CONV_01_SP2_067-067
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 184532, 186883
 # phonetic_text = eː / yanàː dà yaːròː \Plur kàmaː -naː waɗàndà sukèː tallàfaː mashì //
-# text = eː //
-# text_en =  Yes.
-1	eː	eː	INTJ	_	_	0	root	_	AlignBegin=184532|AlignEnd=184746|Gloss=yes
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=184746|AlignEnd=184960|Gloss=PUNCT
-
-# sent_id = HAUZ_BC_CONV_01_SP2_067-067_split2
-# speaker_id = SP2
-# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
-# sent_timecode = 184532, 186883
-# phonetic_text = eː / yanàː dà yaːròː \Plur kàmaː -naː waɗàndà sukèː tallàfaː mashì //
-# text = ya nàː dà yâːraː kàmaː =naː waɗàndà sukèː tallàfaː mashì //
-# text_en = He has children like me who are helping him.
-1	yanàː	nàː²	AUX	_	Person=3	0	root	_	AlignBegin=184960|AlignEnd=185174|Gloss=3Masc.Pred/Loc|wordform=nàː
-2	dà	dà	ADP	_	_	1	comp:pred	_	AlignBegin=185174|AlignEnd=185388|Gloss=with
-3	yâːraː	yaːròː	NOUN	_	Number=Plur	2	comp:obj	_	AlignBegin=185388|AlignEnd=185495|Gloss=child.Plur
-4	kàmaː	kàman	ADP	_	_	3	mod	_	AlignBegin=185602|AlignEnd=185709|Gloss=resemblance
-5	=naː	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	AlignBegin=185709|AlignEnd=185816|Gloss=1Sing.Gen
-6	waɗàndà	waɗàndà	PRON	_	Number=Plur|PronType=Rel	8	comp:ben	_	AlignBegin=185816|AlignEnd=186030|Gloss=who.Plur
-7	sukèː	kèː	AUX	_	Aspect=Imp|Number=Plur|Person=3	3	mod@relcl	_	AlignBegin=186030|AlignEnd=186244|Background=Yes|Gloss=3Plur.Imp.Bkg
-8	tallàfaː	tallaf-	VERB	_	_	7	comp:aux	_	AlignBegin=186244|AlignEnd=186458|Gloss=support
-9	mashì	mashì	PRON	_	Person=3	8	comp:ben	_	AlignBegin=186458|AlignEnd=186672|Gloss=3Masc.Dat
-10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=186672|AlignEnd=186883|Gloss=PUNCT
+# text = eː < ya nàː dà yâːraː kàmaː =naː waɗàndà sukèː tallàfaː mashì //
+# text_en = Yes, he has children like me who are helping him.
+1	eː	eː	INTJ	_	_	3	discourse	_	AlignBegin=184532|AlignEnd=184746|Gloss=yes
+2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=184746|AlignEnd=184960|Gloss=PUNCT
+3	yanàː	nàː²	AUX	_	Person=3	0	root	_	AlignBegin=184960|AlignEnd=185174|Gloss=3Masc.Pred/Loc|wordform=nàː
+4	dà	dà	ADP	_	_	3	comp:pred	_	AlignBegin=185174|AlignEnd=185388|Gloss=with
+5	yâːraː	yaːròː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=185388|AlignEnd=185495|Gloss=child.Plur
+6	kàmaː	kàman	ADP	_	_	5	mod	_	AlignBegin=185602|AlignEnd=185709|Gloss=resemblance
+7	=naː	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	6	udep	_	AlignBegin=185709|AlignEnd=185816|Gloss=1Sing.Gen
+8	waɗàndà	waɗàndà	PRON	_	Number=Plur|PronType=Rel	10	comp:ben	_	AlignBegin=185816|AlignEnd=186030|Gloss=who.Plur
+9	sukèː	kèː	AUX	_	Aspect=Imp|Number=Plur|Person=3	5	mod@relcl	_	AlignBegin=186030|AlignEnd=186244|Background=Yes|Gloss=3Plur.Imp.Bkg
+10	tallàfaː	tallaf-	VERB	_	_	9	comp:aux	_	AlignBegin=186244|AlignEnd=186458|Gloss=support
+11	mashì	mashì	PRON	_	Person=3	10	comp:ben	_	AlignBegin=186458|AlignEnd=186672|Gloss=3Masc.Dat
+12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=186672|AlignEnd=186883|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP1_027-027
 # speaker_id = SP1
@@ -2413,7 +2405,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 285296, 291848
 # phonetic_text = tòː shiː wânnan wandà kakèː zàune à wuriː -n -shi yànzu / wandà kukèː wânnan sànaː'àː -n dà noːmaː noːmaː -ǹ / ya dòːgarà dà koː shiː kùwa yakàn kèː yi nan wani àbù / // baːtin noːmaː //
-# text = tòː shiː wânnan wandà ka kèː zàune à wurin =shì yànzu |c wandà kukèː wânnan sànaː'àn noːmaː dà shiː  kèːnan dà noːmàn ya dòːgarà koː kùwa yakàn yi wani àbù baːtin noːmaː ?//
+# text = tòː shiː wânnan wandà ka kèː zàune à wurin =shì yànzu |c wandà kukèː wânnan sànaː'àn noːmaː dà shiː  kèːnan dà noːmàn ya dòːgarà koː kùwa yakàn yi wani àbù baːtin noːmaː ?//
 # text_en =  Well that man that you are staying with now, with whom you are farming, is he relying on farming, or does he do something else apart from farming?
 1	tòː	tòː	PART	_	_	20	discourse	_	AlignBegin=285296|AlignEnd=285483|Gloss=well
 2	shiː	shiː	PRON	_	_	20	dislocated@subj	_	AlignBegin=285483|AlignEnd=285670|Gloss=3Masc.Nom
@@ -2422,8 +2414,8 @@
 5	kakè	kè	AUX	_	_	3	mod@relcl	_	AlignBegin=286231|AlignEnd=286418|Gloss=2Masc.Pred/Loc.Bkg|wordform=kèː
 6	zàune	zaun-	VERB	_	ExtPos=ADV	5	comp:pred	_	AlignBegin=286231|AlignEnd=286418|Gloss=stay.Stat
 7	à	à	ADP	_	ExtPos=ADP	5	comp:loc	_	AlignBegin=286418|AlignEnd=286605|Gloss=at|Idiom=Yes
-8	wurin	wuriː	ADP	_	_	7	compound	_	AlignBegin=286605|AlignEnd=286667|Gloss=place|InIdiom=Yes
-9	=shì	=shi	PRON	_	Gender=Masc	7	comp:obj	_	AlignBegin=286729|AlignEnd=286792|Gloss=3Masc.Gen
+8	wurin	wuriː	NOUN	_	_	7	compound	_	AlignBegin=286605|AlignEnd=286667|Gloss=place.Cons|InIdiom=Yes
+9	=shì	=shì	PRON	_	Gender=Masc	7	udep	_	AlignBegin=286729|AlignEnd=286792|Gloss=3Masc.Gen
 10	yànzu	yànzu	ADV	_	_	5	mod	_	AlignBegin=286792|AlignEnd=286979|Gloss=now
 11	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=286979|AlignEnd=287166|Gloss=PUNCT
 12	wandà	wandà	PRON	_	PronType=Rel	17	comp:obj	_	AlignBegin=287166|AlignEnd=287353|Gloss=who
@@ -3406,7 +3398,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 430184, 432363
 # phonetic_text = shiː wânnan ainihiː -n kàːwuː -ǹ nàːwa wandà mukèː zamaː à wajen -shi /
-# text = shiː wânnan ainihin kàːwûn nàːwa wandà mukèː zamaː à wajenshì //
+# text = shiː wânnan ainihin kàːwûn nàːwa wandà mukèː zamaː à wajen=shì //
 # text_en =  He, that one, is my very uncle who I was staying with.
 1	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	4	discourse	_	AlignBegin=430184|AlignEnd=430382|Gloss=3Masc.Nom
 2	wânnan	wânnan	DET	_	Definite=Def	1	conj:appos	_	AlignBegin=430382|AlignEnd=430580|Gloss=Def
@@ -3417,8 +3409,8 @@
 7	mukèː	kèː	AUX	_	Aspect=Imp|Number=Plur|Person=1	4	mod@relcl	_	AlignBegin=431372|AlignEnd=431570|Background=Yes|Gloss=1Plur.Imp.Bkg
 8	zamaː	zaun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=431570|AlignEnd=431768|Gloss=stay.Vnoun
 9	à	à	ADP	_	ExtPos=ADP	8	comp:obl	_	AlignBegin=431768|AlignEnd=431966|Gloss=at|Idiom=Yes
-10	wajen	wajen	ADP	_	_	9	compound	_	AlignBegin=431966|AlignEnd=432065|Gloss=around|InIdiom=Yes
-11	=shi	=shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=432065|AlignEnd=432164|Gloss=3Masc
+10	wajen	wajeː	NOUN	_	_	9	compound	_	AlignBegin=431966|AlignEnd=432065|Gloss=side.Cons|InIdiom=Yes
+11	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	udep	_	AlignBegin=432065|AlignEnd=432164|Gloss=3Masc.Gen
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=432164|AlignEnd=432363|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_157-157
@@ -3593,7 +3585,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 456477, 460363
 # phonetic_text = tòː shiː wânnan dà kukà ɗiːbàː shiː maː kukàn kai shi kàːsuwaː nèː / koːkòː kukàn baːyar̃ -shi à gidaː nèː dòːmin kù dingàː àmfàːniː dà shiː / /
-# text = tòː shìː wânnan dà kukà ɗìːbaː shiː maː kukàn kai shì kàːsuwaː nèː |c koːkòː kukàn bashshì à gidaː nèː dòːmin kù dingà àmfàːniː dà shiː / /
+# text = tòː shì̀ː wânnan dà kukà ɗìːbaː shiː maː kukàn kai shì kàːsuwaː nèː |c koːkòː kukàn bashshì à gidaː nèː dòːmin kù dingà àmfàːniː dà shiː / /
 # text_en =  Well what you were getting, did you take it to the market, or did you take it home to keep using it?
 1	tòː	tòː	PART	_	_	9	discourse	_	AlignBegin=456477|AlignEnd=456616|Gloss=well
 2	shiː	shiː	PRON	_	Person=3	9	dislocated@comp	_	AlignBegin=456616|AlignEnd=456755|Gloss=3Masc.Nom
@@ -3612,7 +3604,7 @@
 15	koːkòː	koːkòː	CCONJ	_	_	16	cc	_	AlignBegin=458423|AlignEnd=458562|Gloss=or
 16	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	9	conj:coord	_	AlignBegin=458562|AlignEnd=458701|Gloss=2Plur.Hab
 17	baːyar̃	baːyar̃	VERB	_	_	16	comp:aux	_	AlignBegin=458701|AlignEnd=458771|Gloss=give.Cau
-18	=shi	=shi	PRON	_	Gender=Masc|Person=3	17	comp:obj	_	AlignBegin=458771|AlignEnd=458840|Gloss=3Masc
+18	shì	shi	PRON	_	Gender=Masc|Person=3	17	comp:obj	_	AlignBegin=458771|AlignEnd=458840|Gloss=3Masc
 19	à	à	ADP	_	_	17	mod	_	AlignBegin=458840|AlignEnd=458979|Gloss=at
 20	gidaː	gidaː	NOUN	_	_	19	comp:obj	_	AlignBegin=458979|AlignEnd=459118|Gloss=home
 21	nèː	neː	PART	_	_	19	mod@emp	_	AlignBegin=459118|AlignEnd=459257|Gloss=Ident/Blg
