@@ -39,7 +39,7 @@
 # text_en =  Did he enter the classroom?
 1	yaː	yaː	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=5700|AlignEnd=5890|Gloss=3Masc.Perf
 2	shigoː	shig-	VERB	_	_	1	comp:aux	_	AlignBegin=5890|AlignEnd=6080|Gloss=enter.DIR
-3	kilaːs	kilaːː	NOUN	_	Foreign=Yes	2	comp:goal	_	AlignBegin=6080|AlignEnd=6270|Gloss=class|Lang=en
+3	kilaːs	kilas	NOUN	_	Foreign=Yes	2	comp:goal	_	AlignBegin=6080|AlignEnd=6270|Gloss=class|Lang=en
 4	kùwa	kùwa	PART	_	_	1	mod	_	AlignBegin=6270|AlignEnd=6460|Gloss=as_for
 5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=6460|AlignEnd=6652|Gloss=PUNCT
 
@@ -2005,7 +2005,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 255017, 257610
 # phonetic_text = ita kuma yaːrinyàː -ǹ dà ta kai r̃àhoːtòː -ǹ / sai akà kai tà pr̃ison //
-# text = ita kuma yaːrinyàn dà ta kai r̃àhoːtòn / sai akà kai tà pr̃ison //
+# text = ita kuma yaːrinyàn dà ta kai r̃àhoːtòn / sai akà kai tà pr̃izon //
 # text_en =  She, the girl, when she went to report then she was put in prison.
 1	ita	ita	PRON	_	Case=Nom|Person=3|PronType=Prs	10	dislocated@comp	_	AlignBegin=255017|AlignEnd=255189|Gloss=3Fem.Nom
 2	kuma	kuma	PART	_	_	1	mod	_	AlignBegin=255189|AlignEnd=255361|Gloss=too
@@ -2013,13 +2013,13 @@
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=255533|AlignEnd=255705|Gloss=COMP
 5	ta	kà	AUX	_	Aspect=Perf|Person=3	4	comp:obj	_	AlignBegin=255705|AlignEnd=255877|Gloss=3Fem.Perf.Bkg
 6	kai	kai	VERB	_	_	5	comp:aux	_	AlignBegin=255877|AlignEnd=256049|Gloss=carry
-7	r̃àhoːtòn	r̃àhoːtòː	NOUN	_	Definite=Def|Foreign=Yes	6	comp:obj	_	AlignBegin=256049|AlignEnd=256135|Gloss=report.Def|Lang=en|wordform=r̃àhoːtòː
+7	r̃àhoːtòn	r̃àhoːtòː	NOUN	_	Definite=Def	6	comp:obj	_	AlignBegin=256049|AlignEnd=256135|Gloss=report.Def|wordform=r̃àhoːtòː
 8	<	<	PUNCT	_	_	1	punct	_	AlignBegin=256221|AlignEnd=256392|Gloss=PUNCT|wordform=/
 9	sai	sai	ADV	_	_	10	mod	_	AlignBegin=256392|AlignEnd=256595|Gloss=then
 10	akà	kà	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=256595|AlignEnd=256798|Background=Yes|Gloss=4.Perf.Bkg
 11	kai	kai	VERB	_	_	10	comp:aux	_	AlignBegin=256798|AlignEnd=257001|Gloss=carry
 12	tà	tà	AUX	_	Person=3	11	comp:obj	_	AlignBegin=257001|AlignEnd=257204|Gloss=3Fem
-13	pr̃ison	pr̃ison	NOUN	_	Foreign=Yes	11	comp:goal	_	AlignBegin=257204|AlignEnd=257407|Gloss=prison|Lang=en
+13	pr̃izon	pr̃izon	NOUN	_	Foreign=Yes	11	comp:goal	_	AlignBegin=257204|AlignEnd=257407|Gloss=prison|Lang=en
 14	//	//	PUNCT	_	_	10	punct	_	AlignBegin=257407|AlignEnd=257610|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__142
@@ -3087,9 +3087,9 @@
 2	maː	maː	PART	_	_	1	discourse	_	AlignBegin=381681|AlignEnd=381897|Gloss=even
 3	ci	ci	VERB	_	ExtPos=VERB	1	comp:aux	_	AlignBegin=381897|AlignEnd=382113|Gloss=eat|Idiom=Yes
 4	mishì	mishì	PRON	_	Person=3	3	comp:ben	_	AlignBegin=382113|AlignEnd=382329|Gloss=3Masc.Dat|InIdiom=Yes
-5	mutuncìː	mutuncìː	NOUN	_	_	3	comp:obj	_	AlignBegin=382329|AlignEnd=382545|Gloss=dignity|InIdiom=Yes
-6	wai	wai	SCONJ	_	_	3	comp:obj	_	AlignBegin=382545|AlignEnd=382761|Gloss=COMP
-7	son	soː	NOUN	_	Foreign=Yes	6	comp:obj	_	AlignBegin=382980|AlignEnd=383138|Gloss=son|Lang=en
+5	mutuncìː	mutuncìː	NOUN	_	_	3	comp:obj@lvc	_	AlignBegin=382329|AlignEnd=382545|Gloss=dignity|InIdiom=Yes
+6	wai	wai	PART	_	_	7	mod	_	AlignBegin=382545|AlignEnd=382761|Gloss=COMP
+7	son	son	NOUN	_	Foreign=Yes	3	parataxis@comp	_	AlignBegin=382980|AlignEnd=383138|Gloss=son|Lang=en
 8	of	of	ADP	_	Foreign=Yes	7	flat:foreign	_	AlignBegin=383138|AlignEnd=383296|Gloss=of|Lang=en
 9	the	the	ADP	_	Foreign=Yes	8	flat:foreign	_	AlignBegin=383296|AlignEnd=383454|Gloss=the|Lang=en
 10	bitch	bitch	PRON	_	Foreign=Yes	9	flat:foreign	_	AlignBegin=383454|AlignEnd=383612|Gloss=bitch|Lang=en
@@ -3099,7 +3099,7 @@
 14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=384138|AlignEnd=384321|Gloss=PUNCT|wordform=/
 15	mêː	mêː	PART	_	_	12	conj:coord	_	AlignBegin=384321|AlignEnd=384521|Gloss=etc
 16	mêː	mêː	PRON	_	_	15	conj:redup	_	AlignBegin=384521|AlignEnd=384721|Gloss=etc
-17	hakà	hakà	ADV	_	_	15	mod@emp	_	AlignBegin=384721|AlignEnd=384921|Gloss=like_this
+17	hakà	hakà	ADV	_	_	15	mod	_	AlignBegin=384721|AlignEnd=384921|Gloss=like_this
 18	//	//	PUNCT	_	_	1	punct	_	AlignBegin=384921|AlignEnd=385120|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__209
