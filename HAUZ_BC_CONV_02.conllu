@@ -436,14 +436,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 49980, 50926
 # phonetic_text = mallàkiː nèː na kâi -naː //
-# text = mallàkiː nèː na kâinaːnaː //
+# text = mallàkiː nèː na kâinaː //
 # text_en =  They are my own property.
 1	mallàkiː	mallàkiː	NOUN	_	_	2	comp:pred	_	AlignBegin=49980|AlignEnd=50169|Gloss=property
 2	nèː	neː	PART	_	_	0	root	_	AlignBegin=50169|AlignEnd=50358|Gloss=Ident/Blg
 3	na	na	PART	_	Definite=Cons	1	mod	_	AlignBegin=50358|AlignEnd=50547|Gloss=Cons|number=Sing
-4	kâinaː	kâinaː	NOUN	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	comp:obj	_	AlignBegin=50547|AlignEnd=50641|Gloss=1Sing.Reflex
-5	=naː	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	4	mod@poss	_	AlignBegin=50641|AlignEnd=50736|Gloss=1Sing.Gen|InIdiom=Yes
-6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=50736|AlignEnd=50926|Gloss=PUNCT
+4	kâinaː	kâinaː	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	comp:obj	_	AlignBegin=50547|AlignEnd=50641|Gloss=1Sing.Reflex
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=50736|AlignEnd=50926|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_052-052
 # speaker_id = SP1
@@ -2044,10 +2043,10 @@
 # sent_timecode = 214816, 216249
 # phonetic_text = ka cêː / ta basaːwa akà saːmoː /
 # text = ka cêː ta basaːwa akà saːmoː //
-# text_en =  you said that we got it via Basawa
+# text_en = You said that we got it via Basawa.
 1	ka	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=214816|AlignEnd=214995|Gloss=2Masc.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=214995|AlignEnd=215174|Gloss=say
-3	ta	kà	AUX	_	Aspect=Perf|Gender=Fem|Person=3	2	comp:obj	_	AlignBegin=215353|AlignEnd=215532|Background=Yes|Gloss=via
+3	ta	ta	ADP	_	_	2	comp:obj	_	AlignBegin=215353|AlignEnd=215532|Background=Yes|Gloss=via
 4	Basaːwaː	Basaːwaː	PROPN	_	_	3	comp:obj	_	AlignBegin=215532|AlignEnd=215711|Gloss=Basawa|wordform=basaːwa
 5	akà	kà	AUX	_	Aspect=Perf|Person=4	3	comp:cleft	_	AlignBegin=215711|AlignEnd=215890|Background=Yes|Gloss=4.Perf.Bkg
 6	saːmoː	saːm-	VERB	_	_	5	comp:aux	_	AlignBegin=215890|AlignEnd=216069|Gloss=get.DIR
@@ -2756,18 +2755,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 290215, 292380
 # phonetic_text = bâː dà wannàn gàriː dà mùtûm -aː_eː\HLH -n wani gàriː nèː sù jeː sù dingàː faɗàː //
-# text = bâː dà wannàn gàriː dà mùtàːnen wani gàriː nèː sù jeː sù dingà faɗàː //
-# text_en =  It is not with this town that people of another town will start fighting.
-1	bâː	bâː	PART	_	_	0	root	_	AlignBegin=290215|AlignEnd=290359|Gloss=Ident/Blg.Neg
-2	dà	dà	CCONJ	_	_	4	cc@preconj	_	AlignBegin=290359|AlignEnd=290503|Gloss=with
+# text = baː'à dà wannàn gàriː dà mùtàːnen wani gàriː nèː sù jeː sù dingà faɗàː //
+# text_en = There is no town that people of another town would go and pick up a fight with.
+1	baː'à	bâi	AUX	_	Polarity=Neg	0	root	_	AlignBegin=290215|AlignEnd=290359|Gloss=4.Pred/Loc.Neg
+2	dà	dà	CCONJ	_	_	1	comp:pred	_	AlignBegin=290359|AlignEnd=290503|Gloss=with
 3	wannàn	wannàn	DET	_	Deixis=Prox	4	det	_	AlignBegin=290503|AlignEnd=290647|Gloss=Prox
-4	gàriː	gàriː	NOUN	_	_	1	comp:pred	_	AlignBegin=290647|AlignEnd=290791|Gloss=town
-5	dà	dà	CCONJ	_	_	6	cc@relcl	_	AlignBegin=290791|AlignEnd=290935|Gloss=with
-6	mùtàːnen	mùtûm	NOUN	_	Definite=Cons|Number=Plur	4	conj:coord	_	AlignBegin=290935|AlignEnd=290983|Gloss=person.Plur.Cons
+4	gàriː	gàriː	NOUN	_	_	2	comp:obj	_	AlignBegin=290647|AlignEnd=290791|Gloss=town
+5	dà	dà	CCONJ	_	_	4	mod@relcl	_	AlignBegin=290791|AlignEnd=290935|Gloss=with
+6	mùtàːnen	mùtûm	NOUN	_	Definite=Cons|Number=Plur	10	subj	_	AlignBegin=290935|AlignEnd=290983|Gloss=person.Plur.Cons
 7	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	8	det	_	AlignBegin=291079|AlignEnd=291223|Gloss=some.Masc
 8	gàriː	gàriː	NOUN	_	_	6	mod	_	AlignBegin=291223|AlignEnd=291367|Gloss=town
 9	nèː	neː	PART	_	_	8	mod@emp	_	AlignBegin=291367|AlignEnd=291511|Gloss=Ident/Blg
-10	sù	à	AUX	_	Aspect=Aor|Number=Plur|Person=3	1	comp:cleft	_	AlignBegin=291511|AlignEnd=291655|Gloss=3Plur.Aor
+10	sù	à	AUX	_	Aspect=Aor|Number=Plur|Person=3	5	comp:obj	_	AlignBegin=291511|AlignEnd=291655|Gloss=3Plur.Aor
 11	jeː	jeː	VERB	_	_	10	comp:aux	_	AlignBegin=291655|AlignEnd=291799|Gloss=go
 12	sù	à	AUX	_	Aspect=Aor|Number=Plur|Person=3	10	conj:svc	_	AlignBegin=291799|AlignEnd=291943|Gloss=3Plur.Aor
 13	dingà	ding-	VERB	_	_	12	comp:aux	_	AlignBegin=291943|AlignEnd=292087|Gloss=keep_on
@@ -3062,7 +3061,7 @@
 7	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	23	dislocated@top	_	AlignBegin=315977|AlignEnd=316136|Gloss=3Masc.Nom
 8	wânnan	wânnan	DET	_	Definite=Def	9	det	_	AlignBegin=316136|AlignEnd=316295|Gloss=Def
 9	Ùngwan	ùngwaː	VERB	_	Definite=Cons	7	conj:appos	_	AlignBegin=316295|AlignEnd=316375|Gloss=ward.Cons|wordform=ùngwaː
-10	Fulàːniː	Fulàːniː	NOUN	_	_	9	flat:name	_	AlignBegin=316454|AlignEnd=316613|Gloss=Fulanis
+10	Fulàːniː	Fulàːniː	NOUN	_	_	9	flat:name	_	AlignBegin=316454|AlignEnd=316613|Gloss=Fulani
 11	dâː	dâː	ADV	_	_	23	mod	_	AlignBegin=317207|AlignEnd=317434|Gloss=formerly
 12	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	23	dislocated@top	_	AlignBegin=317434|AlignEnd=317661|Gloss=3Masc.Nom
 13	kân	kân	ADP	_	_	12	mod	_	AlignBegin=317888|AlignEnd=317976|Gloss=on_top|wordform=kâi
@@ -3072,7 +3071,7 @@
 17	wânnan	wânnan	DET	_	Definite=Def	18	det	_	AlignBegin=318650|AlignEnd=318886|Gloss=Def
 18	gàriː	gàriː	NOUN	_	_	16	conj:appos	_	AlignBegin=318886|AlignEnd=319122|Gloss=town
 19	Ùngwan	ùngwaː	PROPN	_	Definite=Cons	18	conj:appos	_	AlignBegin=319122|AlignEnd=319240|Gloss=ward.Cons|wordform=ùngwaː
-20	Fulàːniː	Fulàːniː	PROPN	_	Number=Plur	19	flat:name	_	AlignBegin=319358|AlignEnd=319594|Gloss=Fulanis
+20	Fulàːniː	Fulàːniː	PROPN	_	_	19	flat:name	_	AlignBegin=319358|AlignEnd=319594|Gloss=Fulani
 21	<	<	PUNCT	_	_	23	punct	_	AlignBegin=319594|AlignEnd=319830|Gloss=PUNCT
 22	dâː	dâː	ADV	_	_	23	mod	_	AlignBegin=320042|AlignEnd=320203|Gloss=formerly
 23	yanàː	nàː	AUX	_	Aspect=Imp|Person=3	0	root	_	AlignBegin=320203|AlignEnd=320364|Gloss=3Masc.Imp

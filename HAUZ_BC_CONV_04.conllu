@@ -933,7 +933,7 @@
 1	àkwai	àkwai	PART	_	_	17	discourse	_	AlignBegin=107103|AlignEnd=107284|Gloss=there_is
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	1	subj	_	AlignBegin=107284|AlignEnd=107465|Gloss=some.Masc
 3	wandà	wandà	PRON	_	PronType=Rel	2	conj:appos@relcl	_	AlignBegin=107465|AlignEnd=107646|Gloss=who
-4	yakèː	kèː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	3	mod@relcl	_	AlignBegin=107646|AlignEnd=107827|Background=Yes|Gloss=3Sing.Imp.Bkg
+4	yakèː	kèː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	3	mod@relcl	_	AlignBegin=107646|AlignEnd=107827|Background=Yes|Gloss=3Masc.Imp.Bkg
 5	yawàn	yawàː	ADJ	_	Definite=Cons	6	mod	_	AlignBegin=107827|AlignEnd=107917|Gloss=plenty.Cons|wordform=yawàː
 6	wucèːwaː	wut-	VERB	_	_	4	comp:aux	_	AlignBegin=108008|AlignEnd=108098|Gloss=pass_by.Vnoun|wordform=wucèː
 7	ta	ta	ADP	_	_	6	mod	_	AlignBegin=108189|AlignEnd=108370|Gloss=via
@@ -1066,7 +1066,7 @@
 # phonetic_text = wasu kuma / cikin -sù / cikin -sù / cikin -sù fìtinàː nèː //
 # text = wasu kuma / cikinsù / cikinsù / cikinsù fìtinàː neː //
 # text_en =  Some too, inside them, inside them, inside them, there is trouble.
-1	wasu	wasu	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	13	dislocated@top	_	AlignBegin=122606|AlignEnd=122842|Gloss=some.Plur
+1	wasu	wasu	DET	_	Definite=Spec|Number=Plur|PronType=Ind	13	dislocated@top	_	AlignBegin=122606|AlignEnd=122842|Gloss=some.Plur
 2	kuma	kuma	PART	_	_	1	discourse	_	AlignBegin=122842|AlignEnd=123078|Gloss=too
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=123078|AlignEnd=123313|Gloss=PUNCT|wordform=/
 4	cikin	cikin	ADP	_	_	13	subj	_	AlignBegin=123313|AlignEnd=123507|Gloss=inside
@@ -4945,7 +4945,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 617468, 620389
 # phonetic_text = dan yâu / yâu akà cêː makà bâː ka dà shiː //
-# text = dan yâu / yâu akà cêː makà bâː ka dà shiː //
+# text = dan yâu < yâu akà cêː makà baːkà dà shiː //
 # text_en =  Because now, now they say that we don't have anything.
 1	dan	dan	ADV	_	_	5	discourse	_	AlignBegin=617468|AlignEnd=617716|Gloss=because
 2	yâu	yâu	ADV	_	_	5	discourse	_	AlignBegin=617716|AlignEnd=617964|Gloss=today
@@ -4954,11 +4954,10 @@
 5	akà	kà	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=618978|AlignEnd=619154|Background=Yes|Gloss=4.Perf.Bkg
 6	cêː	cêː	VERB	_	_	5	comp:aux	_	AlignBegin=619154|AlignEnd=619330|Gloss=say
 7	makà	kà	PRON	_	Person=4|PronType=Prs	6	comp:ben	_	AlignBegin=619330|AlignEnd=619506|Gloss=2Masc.Dat
-8	bâː	bâː	PART	_	Polarity=Neg	6	comp:obj	_	AlignBegin=619506|AlignEnd=619682|Gloss=there_is_no
-9	ka	ka	PRON	_	Person=2|PronType=Prs	8	subj	_	AlignBegin=619682|AlignEnd=619858|Gloss=2Masc
-10	dà	dà	ADP	_	_	8	comp:pred	_	AlignBegin=619858|AlignEnd=620034|Gloss=with
-11	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=620034|AlignEnd=620210|Gloss=3Masc.Nom
-12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=620210|AlignEnd=620389|Gloss=PUNCT
+8	baːkà	bâi	AUX	_	Gender=Masc|Person=2|Polarity=Neg	6	comp:obj	_	AlignBegin=619506|AlignEnd=619682|Gloss=2Masc.Neg
+9	dà	dà	ADP	_	_	8	comp:pred	_	AlignBegin=619858|AlignEnd=620034|Gloss=with
+10	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=620034|AlignEnd=620210|Gloss=3Masc.Nom
+11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=620210|AlignEnd=620389|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0521-0523
 # speaker_id = SP1
@@ -5701,7 +5700,7 @@
 # phonetic_text = sakkwato -aːwaː\H sukà cêː / saːkar̃ai nàː //
 # text = Sakkwataːwaː sukà cêː saːkar̃ai nàː //
 # text_en =  People of Sokoto say "nàː" .
-1	Sakkwataːwaː	Sakkwataːwaː	PROPN	_	Definite=Cons|Number=Plur	2	subj	_	AlignBegin=699121|AlignEnd=699284|Gloss=Sokoto_people|wordform=sakkwato
+1	Sakkwataːwaː	Sakkwataːwaː	PROPN	_	Number=Plur	2	subj	_	AlignBegin=699121|AlignEnd=699284|Gloss=Sokoto_people|wordform=sakkwato
 2	sukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=699447|AlignEnd=699773|Background=Yes|Gloss=3Plur.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=699773|AlignEnd=700099|Gloss=say
 4	saːkar̃ai	saːkar̃ai	NOUN	_	_	5	comp:pred	_	AlignBegin=700423|AlignEnd=700736|Gloss=fool.Plur
@@ -6766,7 +6765,7 @@
 1	in	in	SCONJ	_	_	8	mod	_	AlignBegin=824075|AlignEnd=824168|Gloss=if
 2	ka	kà	AUX	_	Aspect=Perf|Person=2	1	comp:obj	_	AlignBegin=824168|AlignEnd=824261|Gloss=2Masc.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=824261|AlignEnd=824354|Gloss=say
-4	gaudan	gaudaː	NOUN	_	Definite=Cons|Number=Plur	3	comp:obj	_	AlignBegin=824447|AlignEnd=824555|Gloss=cakes_sp.Cons|wordform=gaudaː
+4	gaudan	gaudaː	NOUN	_	Definite=Cons	3	comp:obj	_	AlignBegin=824447|AlignEnd=824555|Gloss=cakes_sp.Cons|wordform=gaudaː
 5	waːkeː	waːkeː	NOUN	_	_	4	mod	_	AlignBegin=824664|AlignEnd=824881|Gloss=beans
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=824881|AlignEnd=825098|Gloss=PUNCT|wordform=/
 7	sai	sai	ADV	_	_	8	mod	_	AlignBegin=825098|AlignEnd=825176|Gloss=must
@@ -6788,7 +6787,7 @@
 23	an	yaː	AUX	_	Aspect=Imp|Person=4	9	comp:obj	_	AlignBegin=828793|AlignEnd=829015|Gloss=4.Perf
 24	faːrà	faːr-	VERB	_	_	23	comp:aux	_	AlignBegin=829015|AlignEnd=829237|Gloss=begin
 25	gudùn	gud-	VERB	_	Definite=Cons|VerbForm=Vnoun	24	comp:obj	_	AlignBegin=829237|AlignEnd=829311|ExtPos=NOUN|Gloss=run.Vnoun.Cons|wordform=gudù
-26	=kà	=kà	PRON	_	Gender=Masc|Person=3|PronType=Prs	25	udep	_	AlignBegin=829459|AlignEnd=829681|Gloss=Ident/Foc.Bkg.Bkg|wordform=kèː
+26	=kà	=kà	PRON	_	Gender=Masc|Person=3|PronType=Prs	25	udep	_	AlignBegin=829459|AlignEnd=829681|Gloss=2Masc.Gen|wordform=kèː
 27	kèːnan	kèːnan	ADV	_	_	25	mod@emp	_	AlignBegin=829681|AlignEnd=829903|Gloss=Ident/Foc.Bkg
 28	//	//	PUNCT	_	_	8	punct	_	AlignBegin=829903|AlignEnd=830125|Gloss=PUNCT
 
@@ -9495,7 +9494,7 @@
 6	yànzu	yànzu	ADV	_	_	9	mod	_	AlignBegin=1141420|AlignEnd=114160|Gloss=now
 7	fa	fa	PART	_	_	6	discourse	_	AlignBegin=114160|AlignEnd=1141790|Gloss=indeed
 8	<	<	PUNCT	_	_	9	punct	_	AlignBegin=1141790|AlignEnd=1141970|Gloss=PUNCT|wordform=/
-9	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=1141970|AlignEnd=1142150|Gloss=there_is_not
+9	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=1141970|AlignEnd=1142150|Gloss=there_is.Neg
 10	wandà	wandà	PRON	_	PronType=Rel	9	subj	_	AlignBegin=1142150|AlignEnd=1142320|Gloss=who
 11	zâi	zaː	AUX	_	Person=3|Tense=Fut	10	mod@relcl	_	AlignBegin=1142320|AlignEnd=114250|Gloss=3Masc.Fut
 12	wànnan	wànnan	PRON	_	Definite=Def|Deixis=Dist	11	comp:aux	_	AlignBegin=114250|AlignEnd=1142670|Gloss=Dist
@@ -13260,7 +13259,7 @@
 # phonetic_text = bâː wani aikìː -n dà zâi jeː /
 # text = bâː wani aikìn dà zâi jeː /
 # text_en = There was no other work he was going to.
-1	bâː	bâː	PART	_	_	0	root	_	AlignBegin=1590390|AlignEnd=1590490|Gloss=Neg
+1	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=1590390|AlignEnd=1590490|Gloss=there_is.Neg
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	3	det	_	AlignBegin=1590490|AlignEnd=1590590|Gloss=some.Masc
 3	aikìn	aikìː	NOUN	_	Definite=Cons	1	subj	_	AlignBegin=1590590|AlignEnd=1590640|Gloss=work.Def|wordform=aikìː
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=1590690|AlignEnd=159080|Gloss=COMP
