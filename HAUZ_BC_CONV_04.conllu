@@ -2516,7 +2516,7 @@
 2	kâi	kâi	PART	_	_	4	discourse	_	AlignBegin=295811|AlignEnd=296036|Gloss=my
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=296036|AlignEnd=296262|Gloss=PUNCT|wordform=/
 4	yàːyàː	yàːyàː	ADV	_	PronType=Int	0	root	_	AlignBegin=297476|AlignEnd=297698|Gloss=how
-5	kakèː	kà	AUX	_	_	4	comp:cleft	_	AlignBegin=297698|AlignEnd=297920|Gloss=2Masc.Perf.Bkg
+5	kakèː	kà	AUX	_	Aspect=Imp|Gender=Masc|Person=2	4	comp:cleft	_	AlignBegin=297698|AlignEnd=297920|Background=Yes|Gloss=2Masc.Imp.Bkg
 6	ganin	ganiː	VERB	_	Definite=Cons|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=297920|AlignEnd=298031|ExtPos=NOUN|Gloss=see.Vnoun.Cons|wordform=ganiː
 7	ilìmin	ilìmiː	NOUN	_	Definite=Cons	6	udep	_	AlignBegin=298142|AlignEnd=298253|Gloss=knowledge.Cons|wordform=ilìmiː
 8	yâːraː	yaːròː	NOUN	_	Number=Plur	7	mod	_	AlignBegin=298364|AlignEnd=298475|Gloss=child.Plur|wordform=yaːròː
@@ -3848,10 +3848,10 @@
 3	cikin	cikin	ADP	_	_	2	compound	_	AlignBegin=478929|AlignEnd=479061|Gloss=inside|InIdiom=Yes
 4	kwaːnaː	kwaːnaː	NOUN	_	_	2	comp:obj	_	AlignBegin=479061|AlignEnd=479193|Gloss=night
 5	ɗaya	ɗaya	NUM	_	_	4	mod:num	_	AlignBegin=479193|AlignEnd=479325|Gloss=one
-6	kakèː	kà	AUX	_	_	2	comp:cleft	_	AlignBegin=479325|AlignEnd=479457|Gloss=2Masc.Perf.Bkg
+6	kakèː	kà	AUX	_	Aspect=Imp|Gender=Masc|Person=2	2	comp:cleft	_	AlignBegin=479325|AlignEnd=479457|Background=Yes|Gloss=2Masc.Imp.Bkg
 7	gamàː	gam-	VERB	_	_	6	comp:aux	_	AlignBegin=479457|AlignEnd=479589|Gloss=finish
 8	dà	dà	ADP	_	_	7	comp:obl	_	AlignBegin=479589|AlignEnd=479721|Gloss=with
-9	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=479721|AlignEnd=479853|Gloss=3Masc.Nom
+9	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=479721|AlignEnd=479853|Gloss=3Masc.Nom
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=479853|AlignEnd=479982|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0400-0400
@@ -5104,16 +5104,16 @@
 # text = kuma yà cêː makà shiː maː gidan =shì an kwaːna bàʼà ci ba //
 # text_en =  Or he will tell you himself, in his house, they have not eaten for a day.
 1	kuma	kuma	PART	_	_	2	discourse	_	AlignBegin=635130|AlignEnd=635255|Gloss=too
-2	yà	à	AUX	_	Aspect=Aor|Person=3	0	root	_	AlignBegin=635255|AlignEnd=635380|Gloss=3Masc.Aor
+2	yà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=635255|AlignEnd=635380|Gloss=3Masc.Aor
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=635380|AlignEnd=635505|Gloss=say
-4	makà	makà	PRON	_	Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=635505|AlignEnd=635630|Gloss=2Masc.Dat
-5	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	9	dislocated@top	_	AlignBegin=635753|AlignEnd=635884|Gloss=3Masc.Nom
+4	makà	makà	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	comp:ben	_	AlignBegin=635505|AlignEnd=635630|Gloss=2Masc.Dat
+5	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	9	dislocated@top	_	AlignBegin=635753|AlignEnd=635884|Gloss=3Masc.Nom
 6	maː	maː	PART	_	_	5	discourse	_	AlignBegin=635884|AlignEnd=636015|Gloss=even
 7	gidan	gidaː	NOUN	_	Definite=Cons	9	mod	_	AlignBegin=636015|AlignEnd=636059|Gloss=house.Cons|wordform=gidaː
 8	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	mod@poss	_	AlignBegin=636103|AlignEnd=636146|Gloss=3Masc.Gen
 9	an	yaː	AUX	_	Aspect=Perf|Person=4	3	comp:obj	_	AlignBegin=636146|AlignEnd=636277|Gloss=4.Perf
 10	kwaːna	kwaːn-	VERB	_	_	9	comp:aux	_	AlignBegin=636277|AlignEnd=636408|Gloss=spend_night
-11	bàʼà	bài	AUX	_	Polarity=Neg	10	mod	_	AlignBegin=636408|AlignEnd=636539|Gloss=4.Perf.Neg
+11	bàʼà	bài	AUX	_	Person=4|Polarity=Neg	10	mod	_	AlignBegin=636408|AlignEnd=636539|Gloss=4.Perf.Neg
 12	ci	ci	VERB	_	_	11	comp:aux	_	AlignBegin=636539|AlignEnd=636670|Gloss=eat
 13	ba	ba	PART	_	Polarity=Neg	11	mod	_	AlignBegin=636670|AlignEnd=636801|Gloss=Neg
 14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=636801|AlignEnd=636931|Gloss=PUNCT
@@ -5203,14 +5203,14 @@
 # phonetic_text = kai kaː gayàː &// kai~ &// ka~ &// kaː jaː mà kâi -n -kà àbù -ǹ nàn // tùzaːr̃à //
 # text = kai < kaː || kaː jaː mà kânkà àbin nàn || tùzaːr̃à //
 # text_en = You... you... you brought to yourself your own... trouble (?).
-1	kai	kai	PRON	_	PronType=Prs	3	vocative	_	AlignBegin=643301|AlignEnd=643536|Gloss=2Masc.Nom
+1	kai	kai	PRON	_	Gender=Masc|Person=2|PronType=Prs	3	vocative	_	AlignBegin=643301|AlignEnd=643536|Gloss=2Masc.Nom
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=643536|AlignEnd=643771|Gloss=PUNCT
-3	kaː	kà	AUX	_	_	0	root	_	AlignBegin=643771|AlignEnd=643885|Gloss=2Masc.Perf.Bkg
+3	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=643771|AlignEnd=643885|Gloss=2Masc.Perf
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=643885|AlignEnd=643999|Gloss=PUNCT
-5	kaː	kaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	3	conj:dicto	_	AlignBegin=643999|AlignEnd=644131|Gloss=2Masc.Perf
+5	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	3	conj:dicto	_	AlignBegin=643999|AlignEnd=644131|Gloss=2Masc.Perf
 6	jaː	jaː	VERB	_	_	5	comp:aux	_	AlignBegin=644131|AlignEnd=644263|Gloss=draw
 7	mà	mà	ADP	_	_	6	comp:ben	_	AlignBegin=644263|AlignEnd=644395|Gloss=Ben
-8	kânkà	kânkà	PRON	_	PronType=Prs|Reflex=Yes	7	comp:obj	_	AlignBegin=644395|AlignEnd=644439|Gloss=2Masc.Reflex|wordform=kâi
+8	kânkà	kânkà	PRON	_	Gender=Masc|Person=2|PronType=Prs|Reflex=Yes	7	comp:obj	_	AlignBegin=644395|AlignEnd=644439|Gloss=2Masc.Reflex|wordform=kâi
 9	àbin	àbù	NOUN	_	_	8	comp:obj	_	AlignBegin=644527|AlignEnd=644593|Gloss=thing.Def|wordform=àbù
 10	nàn	nàn	DET	_	Deixis=Prox	9	det	_	AlignBegin=644659|AlignEnd=644791|Gloss=Prox
 11	||	||	PUNCT	_	_	12	punct	_	AlignBegin=644791|AlignEnd=644922|Gloss=PUNCT
@@ -8508,13 +8508,13 @@
 1	àmmaː	àmmaː	CCONJ	_	_	18	discourse	_	AlignBegin=1017490|AlignEnd=1017710|ExtPos=CCONJ|Gloss=but
 2	yànzu	yànzu	ADV	_	_	18	mod	_	AlignBegin=1017710|AlignEnd=1017940|Gloss=now
 3	sai	sai	SCONJ	_	_	18	mod	_	AlignBegin=1017940|AlignEnd=1018160|Gloss=must
-4	kà	à	AUX	_	Aspect=Aor|Person=2	3	comp:obj	_	AlignBegin=1018160|AlignEnd=1018380|Gloss=2Masc.Aor
+4	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	3	comp:obj	_	AlignBegin=1018160|AlignEnd=1018380|Gloss=2Masc.Aor
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=1018380|AlignEnd=1018610|Gloss=do
 6	tàfiyàː	tàfiyàː	NOUN	_	_	5	comp:obj@lvc	_	AlignBegin=1018610|AlignEnd=1018830|Gloss=walking
 7	||	||	PUNCT	_	_	9	punct	_	AlignBegin=1018830|AlignEnd=1019050|Gloss=PUNCT|wordform=/
 8	ai	ai	ADV	_	_	9	discourse	_	AlignBegin=1019730|AlignEnd=101990|Gloss=indeed
 9	sai	sai	SCONJ	_	_	3	conj:dicto	_	AlignBegin=101990|AlignEnd=1020070|Gloss=must
-10	kà	à	AUX	_	Aspect=Aor|Person=2	9	conj:obj	_	AlignBegin=1020070|AlignEnd=1020240|Gloss=2Masc.Aor
+10	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	9	conj:obj	_	AlignBegin=1020070|AlignEnd=1020240|Gloss=2Masc.Aor
 11	yi	yi	VERB	_	_	10	comp:aux	_	AlignBegin=1020240|AlignEnd=1020410|Gloss=do
 12	tàfiyàn	tàfiyàː	NOUN	_	Definite=Cons	11	comp:obj@lvc	_	AlignBegin=1020410|AlignEnd=1020490|Gloss=going.Cons|wordform=tàfiyàː
 13	awàː	awàː	NOUN	_	_	12	mod	_	AlignBegin=1020750|AlignEnd=1020970|Gloss=hour
@@ -8522,7 +8522,7 @@
 15	shâː	shâː	ADV	_	_	14	flat:num	_	AlignBegin=1021190|AlignEnd=1021410|Gloss=plus
 16	ukù	ukù	NUM	_	_	15	flat:num	_	AlignBegin=1021410|AlignEnd=1021630|Gloss=three
 17	<	<	PUNCT	_	_	3	punct	_	AlignBegin=1021630|AlignEnd=1021860|Gloss=PUNCT|wordform=/
-18	bàkà	kà	AUX	_	Aspect=Perf|Person=2	0	root	_	AlignBegin=1021860|AlignEnd=1021980|Gloss=1Masc.Perf.Neg|Overlap=HAUZ_BC_CONV_04_0915-0917
+18	bàkà	bài	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=1021860|AlignEnd=1021980|Gloss=1Masc.Perf.Neg|Overlap=HAUZ_BC_CONV_04_0915-0917
 19	ga	ganiː	VERB	_	_	18	comp:aux	_	AlignBegin=1021980|AlignEnd=1022110|Gloss=see
 20	birìː	birìː	NOUN	_	_	19	comp:obj	_	AlignBegin=1022110|AlignEnd=1022240|Gloss=monkey
 21	ba	ba	PART	_	Polarity=Neg	18	mod	_	AlignBegin=1022240|AlignEnd=1022370|Gloss=Neg
@@ -9801,10 +9801,10 @@
 2	ganiː	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=1172610|AlignEnd=1172710|Gloss=see
 3	an	yaː	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=1172710|AlignEnd=1172810|Gloss=4.Perf
 4	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=1172810|AlignEnd=1172910|Gloss=do
-5	bàʼà	bàʼà	AUX	_	_	3	conj:coord	_	AlignBegin=1172910|AlignEnd=1173010|Gloss=4.Perf.Neg
+5	bàʼà	bài	AUX	_	Aspect=Perf|Person=4|Polarity=Neg	3	conj:coord	_	AlignBegin=1172910|AlignEnd=1173010|Gloss=4.Perf.Neg
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=1173010|AlignEnd=1173110|Gloss=do
 7	ba	ba	PART	_	Polarity=Neg	5	mod	_	AlignBegin=1173110|AlignEnd=1173210|Gloss=Neg
-8	kèːnan	kèːnan	PART	_	_	5	mod@emp	_	AlignBegin=1173210|AlignEnd=1173310|Gloss=Ident/Foc.Bkg|wordform=kèː
+8	kèːnan	kèːnan	PART	_	_	5	mod@emp	_	AlignBegin=1173210|AlignEnd=1173310|Background=Yes|Gloss=Ident/Foc.Bkg|wordform=kèː
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=1173410|AlignEnd=1173510|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1052-1052
@@ -11385,7 +11385,7 @@
 # phonetic_text = bàkà cêː bà zaːʼà yi laːlaːcìː ba / à wuriː -ǹ //
 # text = bàkà cêː bà zaːʼà yi laːlaːcìː ba à wurîn !//
 # text_en = You can't say that they won't misbehave in that place!
-1	bàkà	bàkà	AUX	_	Aspect=Perf|Person=2	0	root	_	AlignBegin=1366840|AlignEnd=1366980|Gloss=2Masc.Perf.Neg
+1	bàkà	bài	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=1366840|AlignEnd=1366980|Gloss=2Masc.Perf.Neg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=1366980|AlignEnd=1367110|Gloss=say
 3	bà	bà	PART	_	Polarity=Neg	4	mod	_	AlignBegin=1367110|AlignEnd=1367240|Gloss=Neg
 4	zaːʼà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	2	comp:obj	_	AlignBegin=1367240|AlignEnd=1367370|Gloss=2Sing.Fut
