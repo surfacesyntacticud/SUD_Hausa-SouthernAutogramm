@@ -174,12 +174,12 @@
 # text = koː kuma wai wata daːwàː / wai ita shìnkaːfaː hùːtaː !//
 # text_en =  And there is a type of guinea-corn called "rice can rest".  (NB=acha)
 1	koː	koː	CCONJ	_	_	10	discourse	_	AlignBegin=23565|AlignEnd=23739|Gloss=or
-2	kuma	kuma	PART	_	_	1	discourse	_	AlignBegin=23739|AlignEnd=23913|Gloss=else
-3	wai	wai	PART	_	_	10	mod	_	AlignBegin=23913|AlignEnd=24087|Gloss=EVD
+2	kuma	kuma	PART	_	_	1	discourse	_	AlignBegin=23739|AlignEnd=23913|Gloss=too
+3	wai	wai	PART	_	_	10	discourse	_	AlignBegin=23913|AlignEnd=24087|Gloss=EVD
 4	wata	wata	DET	_	Gender=Fem	5	det	_	AlignBegin=24087|AlignEnd=24261|Gloss=some.Fem
 5	daːwàː	daːwàː	NOUN	_	_	10	dislocated@top	_	AlignBegin=24261|AlignEnd=24435|Gloss=guinea-corn
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=24435|AlignEnd=24606|Gloss=PUNCT|wordform=/
-7	wai	wai	PART	_	_	10	mod	_	AlignBegin=24606|AlignEnd=24881|Gloss=EVD
+7	wai	wai	PART	_	_	10	discourse	_	AlignBegin=24606|AlignEnd=24881|Gloss=EVD
 8	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	10	dislocated@top	_	AlignBegin=24881|AlignEnd=25156|Gloss=3Fem.Nom
 9	shìnkaːfaː	shìnkaːfaː	NOUN	_	_	10	vocative	_	AlignBegin=25156|AlignEnd=25431|Gloss=rice
 10	hùːtaː	huːt-	VERB	_	Mood=Jus	0	root	_	AlignBegin=25431|AlignEnd=25706|Gloss=rest.Jus
@@ -1569,7 +1569,7 @@
 7	jeː	jeː	VERB	_	_	6	comp:aux	_	AlignBegin=184326|AlignEnd=184529|Gloss=go
 8	à	à	AUX	_	Aspect=Aor|Person=4	6	conj:coord	_	AlignBegin=184529|AlignEnd=184732|Gloss=4.Aor
 9	saːmù	saː-	VERB	_	_	8	comp:aux	_	AlignBegin=184732|AlignEnd=184935|Gloss=get
-10	ba	ba	PART	_	Polarity=Neg	3	mod	_	AlignBegin=184935|AlignEnd=185138|Gloss=indeed
+10	ba	ba	PART	_	Polarity=Neg	3	mod	_	AlignBegin=184935|AlignEnd=185138|Gloss=Neg
 11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=185138|AlignEnd=185339|Gloss=PUNCT|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0154-0154
@@ -5349,8 +5349,8 @@
 # phonetic_text = wai kà cêː kaː jeː goːnaː -n bàːba -Q //
 # text = wai kà cêː kaː jeː goːnan bàːbâ ?//
 # text_en = As if you had gone to your father's farm?
-1	wai	wai	PART	_	ExtPos=ADV	4	mod	_	AlignBegin=662853|AlignEnd=663078|Gloss=EVD|Idiom=Yes
-2	kà	à	AUX	_	Aspect=Aor|Person=2	1	unk	_	AlignBegin=663078|AlignEnd=663303|Gloss=2Masc.Aor|InIdiom=Yes
+1	wai	wai	PART	_	ExtPos=ADV	4	discourse	_	AlignBegin=662853|AlignEnd=663078|Gloss=EVD|Idiom=Yes
+2	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	1	unk	_	AlignBegin=663078|AlignEnd=663303|Gloss=2Masc.Aor|InIdiom=Yes
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=663303|AlignEnd=663528|Gloss=say|InIdiom=Yes
 4	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=663528|AlignEnd=663753|Gloss=2Masc.Perf
 5	jeː	jeː	VERB	_	_	4	comp:aux	_	AlignBegin=663753|AlignEnd=663978|Gloss=go
@@ -6523,8 +6523,8 @@
 2	gàː	gàː	PART	_	_	6	parataxis@top	_	AlignBegin=795785|AlignEnd=795925|Gloss=here_is
 3	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	2	subj	_	AlignBegin=795925|AlignEnd=796065|Gloss=some.Masc
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=796065|AlignEnd=796205|Gloss=PUNCT|wordform=/
-5	wai	wai	PART	_	_	6	mod	_	AlignBegin=796205|AlignEnd=796480|Gloss=EVD
-6	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	0	root	_	AlignBegin=796480|AlignEnd=796755|Gloss=3Masc.Nom
+5	wai	wai	PART	_	_	6	discourse	_	AlignBegin=796205|AlignEnd=796480|Gloss=EVD
+6	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=796480|AlignEnd=796755|Gloss=3Masc.Nom
 7	gaudàː	gaudàː	NOUN	_	_	6	comp:pred	_	AlignBegin=796755|AlignEnd=797030|Gloss=cakes_sp
 8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=797030|AlignEnd=797304|Gloss=PUNCT
 
@@ -7159,7 +7159,7 @@
 # phonetic_text = wai ƙwai -n bà- Hausa -èː //
 # text = wai ƙwan Bàhawshèː //
 # text_en =  They call them Hausa eggs.
-1	wai	wai	PART	_	_	2	mod	_	AlignBegin=876969|AlignEnd=877247|Gloss=EVD
+1	wai	wai	PART	_	_	2	discourse	_	AlignBegin=876969|AlignEnd=877247|Gloss=EVD
 2	ƙwan	ƙwai	NOUN	_	Definite=Cons	0	root	_	AlignBegin=877247|AlignEnd=877386|Gloss=egg.Cons|wordform=ƙwai
 3	Bàhawshèː	Bàhawshèː	PROPN	_	_	2	mod	_	AlignBegin=877618|AlignEnd=877711|Gloss=Hausa
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=877803|AlignEnd=878080|Gloss=PUNCT
@@ -7412,10 +7412,10 @@
 # text = àmmaː gaːra kà yaːfàː ta à mangaleː tùkùna > fangaliː //
 # text_en =  But you'd better sow it in a bed first, a watering bed.
 1	àmmaː	àmmaː	SCONJ	_	_	3	discourse	_	AlignBegin=900996|AlignEnd=901164|ExtPos=CCONJ|Gloss=but
-2	gaːra	gaːra	PART	_	_	3	mod	_	AlignBegin=901164|AlignEnd=901332|Gloss=rather
-3	kà	à	AUX	_	Aspect=Aor|Person=2	0	root	_	AlignBegin=901332|AlignEnd=901500|Gloss=2Masc.Aor
+2	gaːra	gaːra	PART	_	_	3	discourse	_	AlignBegin=901164|AlignEnd=901332|Gloss=rather
+3	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=901332|AlignEnd=901500|Gloss=2Masc.Aor
 4	yaːfàː	yaːfàː	VERB	_	_	3	comp:aux	_	AlignBegin=901500|AlignEnd=901668|Gloss=sow
-5	ta	ta	PRON	_	Person=3|PronType=Prs	4	mod	_	AlignBegin=901668|AlignEnd=901836|Gloss=3Fem
+5	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	4	mod	_	AlignBegin=901668|AlignEnd=901836|Gloss=3Fem
 6	à	à	ADP	_	_	4	comp:goal	_	AlignBegin=902002|AlignEnd=902238|Gloss=at
 7	mangaleː	mangaleː	NOUN	_	_	6	comp:obj	_	AlignBegin=902238|AlignEnd=902474|Gloss=mangaleː
 8	tùkùna	tùkùna	NOUN	_	_	4	mod	_	AlignBegin=902474|AlignEnd=902710|Gloss=first
@@ -7871,8 +7871,8 @@
 7	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=946846|AlignEnd=946983|Gloss=with
 8	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	9	det	_	AlignBegin=946983|AlignEnd=947120|Gloss=some.Masc
 9	àbù	àbù	NOUN	_	_	7	comp:obj	_	AlignBegin=947120|AlignEnd=947257|Gloss=thing
-10	wai	wai	PART	_	_	9	mod	_	AlignBegin=947392|AlignEnd=947613|Gloss=EVD
-11	gwandàn	gwandàː	NOUN	_	Definite=Def	10	comp:pred	_	AlignBegin=947613|AlignEnd=947723|Gloss=pawpaw.Cons|wordform=gwandàː
+10	wai	wai	SCONJ	_	_	9	mod@relcl	_	AlignBegin=947392|AlignEnd=947613|Gloss=EVD
+11	gwandàn	gwandàː	NOUN	_	Definite=Def	10	comp:obj	_	AlignBegin=947613|AlignEnd=947723|Gloss=pawpaw.Cons|wordform=gwandàː
 12	daːjìː	daːjìː	NOUN	_	_	11	mod	_	AlignBegin=947834|AlignEnd=948055|Gloss=bush
 13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=948055|AlignEnd=948276|Gloss=PUNCT
 
@@ -10491,10 +10491,10 @@
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=1258910|AlignEnd=1259040|Gloss=PUNCT|wordform=/
 6	yànzu	yànzu	ADV	_	_	8	mod	_	AlignBegin=1259040|AlignEnd=125910|Gloss=now
 7	kuma	kuma	PART	_	_	6	discourse	_	AlignBegin=125910|AlignEnd=1259170|Gloss=too
-8	yaː	yaː	AUX	_	Aspect=Perf|Person=3	0	root	_	AlignBegin=125930|AlignEnd=1259370|Gloss=3Masc.Perf
+8	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=125930|AlignEnd=1259370|Gloss=3Masc.Perf
 9	yi	yi	VERB	_	_	8	comp:aux	_	AlignBegin=1259370|AlignEnd=1259440|Gloss=do
 10	kuɗiː	kuɗiː	NOUN	_	_	9	comp:pred	_	AlignBegin=1259570|AlignEnd=1259640|Gloss=money
-11	fa	fa	PART	_	_	8	mod	_	AlignBegin=1259640|AlignEnd=125970
+11	fa	fa	PART	_	_	8	discourse	_	AlignBegin=1259640|AlignEnd=125970
 12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=1259840|AlignEnd=1259970|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1127-1129
@@ -10763,10 +10763,10 @@
 # text_en =  Whenever you are eating butter, nowadays, there is no way you will catch polio.
 1	duy	dukà	DET	_	_	2	det	_	AlignBegin=1291570|AlignEnd=1291740|Gloss=all
 2	yandà	yandà	ADV	_	PronType=Rel	12	mod	_	AlignBegin=1291740|AlignEnd=1291910|Gloss=how
-3	kakèː	kà	AUX	_	Aspect=Perf|Person=2	2	mod@relcl	_	AlignBegin=1291910|AlignEnd=1292080|Gloss=2Masc.Perf.Bkg
+3	kakèː	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	mod@relcl	_	AlignBegin=1291910|AlignEnd=1292080|Background=Yes|Gloss=2Masc.Perf.Bkg
 4	cîn	ci	VERB	_	Definite=Cons|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=1292080|AlignEnd=1292160|ExtPos=NOUN|Gloss=eat.Vnoun.Cons|wordform=cîː
 5	mân	mai	VERB	_	_	4	comp:obl	_	AlignBegin=1292250|AlignEnd=1292330|Gloss=fat.Cons|wordform=mâi
-6	shaːnuː	sâː	NOUN	_	_	5	compound	_	AlignBegin=1292420|AlignEnd=129250|Gloss=cow.Plur
+6	shaːnuː	sâː	NOUN	_	Number=Plur	5	compound	_	AlignBegin=1292420|AlignEnd=129250|Gloss=cow.Plur
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=1292590|AlignEnd=1292760|Gloss=PUNCT|wordform=/
 8	à	à	ADP	_	_	12	mod	_	AlignBegin=1292760|AlignEnd=1292930|Gloss=at
 9	wannàn	wannàn	DET	_	Deixis=Prox	10	det	_	AlignBegin=1292930|AlignEnd=1293090|Gloss=Prox
@@ -10774,14 +10774,14 @@
 11	<	<	PUNCT	_	_	8	punct	_	AlignBegin=1293260|AlignEnd=1293430|Gloss=PUNCT|wordform=/
 12	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=1293430|AlignEnd=1293560|Gloss=Neg
 13	yandà	yandà	ADV	_	PronType=Rel	12	subj	_	AlignBegin=1293560|AlignEnd=129370|Gloss=how
-14	zaːʼà	zaː	AUX	_	Person=4|Tense=Fut	13	mod@relcl	_	AlignBegin=129370|AlignEnd=1293830|Gloss=2Sing.Fut
+14	zaːʼà	zaː	AUX	_	Number=Sing|Person=4|Tense=Fut	13	mod@relcl	_	AlignBegin=129370|AlignEnd=1293830|Gloss=2Sing.Fut
 15	yi	yi	VERB	_	_	14	comp:aux	_	AlignBegin=1293830|AlignEnd=1293960|Gloss=do
 16	sanyìn	sanyìː	NOUN	_	Definite=Cons	18	subj	_	AlignBegin=1293960|AlignEnd=1294030|Gloss=cold.Cons|wordform=sanyìː
 17	ƙàshiː	ƙàshiː	NOUN	_	_	16	mod	_	AlignBegin=129410|AlignEnd=1294230|Gloss=bone
-18	yà	à	AUX	_	Aspect=Aor|Person=3	15	comp:obj	_	AlignBegin=1294230|AlignEnd=1294370|Gloss=3Masc.Aor
+18	yà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=3	15	comp:obj	_	AlignBegin=1294230|AlignEnd=1294370|Gloss=3Masc.Aor
 19	shìgeː	shig-	VERB	_	_	18	comp:aux	_	AlignBegin=1294370|AlignEnd=1294430|Gloss=enter
-20	kà	kà	PRON	_	PronType=Prs	19	comp:goal	_	AlignBegin=129450|AlignEnd=1294640|Gloss=2Masc
-21	ba	ba	PART	_	Polarity=Neg	12	mod	_	AlignBegin=1294640|AlignEnd=1294770|Gloss=indeed
+20	kà	kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	19	comp:goal	_	AlignBegin=129450|AlignEnd=1294640|Gloss=2Masc
+21	ba	ba	PART	_	Polarity=Neg	12	mod	_	AlignBegin=1294640|AlignEnd=1294770|Gloss=Neg
 22	//	//	PUNCT	_	_	12	punct	_	AlignBegin=1294770|AlignEnd=129490|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1159-1160
@@ -10794,8 +10794,8 @@
 1	suːnan	suːnaː	NOUN	_	Definite=Cons	6	dislocated@subj	_	AlignBegin=129490|AlignEnd=1294990|Gloss=name.Cons|wordform=suːnaː
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	3	det	_	AlignBegin=1295080|AlignEnd=1295250|Gloss=some.Masc
 3	àbù	àbù	NOUN	_	_	1	mod	_	AlignBegin=1295250|AlignEnd=1295420|Gloss=thing
-4	wai	wai	PART	_	_	6	mod	_	AlignBegin=129560|AlignEnd=1295840|Gloss=EVD
-5	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	6	subj	_	AlignBegin=1295840|AlignEnd=1296090|Gloss=3Masc.Nom
+4	wai	wai	PART	_	_	6	discourse	_	AlignBegin=129560|AlignEnd=1295840|Gloss=EVD
+5	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=1295840|AlignEnd=1296090|Gloss=3Masc.Nom
 6	maɗì	maɗì	NOUN	_	_	0	root	_	AlignBegin=1296090|AlignEnd=1296330|Gloss=decoction_sp
 7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=1296330|AlignEnd=1296580|Gloss=PUNCT|wordform=/
 
@@ -13006,8 +13006,8 @@
 4	dà	dà	ADP	_	_	2	comp:obl	_	AlignBegin=155950|AlignEnd=1559690|Gloss=with
 5	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	4	comp:obj	_	AlignBegin=1559690|AlignEnd=1559870|Gloss=some.Masc
 6	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=1559870|AlignEnd=1560060|Gloss=PUNCT|wordform=/
-7	wai	wai	PART	_	_	9	mod	_	AlignBegin=1561550|AlignEnd=1561780|Gloss=EVD
-8	shiː	shiː	PRON	_	Case=Nom|Person=3|PronType=Prs	9	subj	_	AlignBegin=1561780|AlignEnd=1562010|Gloss=3Masc.Nom
+7	wai	wai	PART	_	_	9	discourse	_	AlignBegin=1561550|AlignEnd=1561780|Gloss=EVD
+8	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	9	subj	_	AlignBegin=1561780|AlignEnd=1562010|Gloss=3Masc.Nom
 9	Ɗaːlìbiː	Ɗaːlìbiː	PROPN	_	_	1	parataxis	_	AlignBegin=1562010|AlignEnd=1562240|Gloss=Dalibi
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1562240|AlignEnd=1562470|Gloss=PUNCT
 
