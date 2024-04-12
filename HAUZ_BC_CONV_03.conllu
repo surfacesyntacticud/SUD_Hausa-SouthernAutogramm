@@ -288,7 +288,7 @@
 # text_en =  It's not for God's sake that they come.
 1	dâː	dâː	ADV	_	_	6	discourse	_	AlignBegin=34620|AlignEnd=34851|Gloss=formerly
 2	maː	maː	PART	_	_	1	discourse	_	AlignBegin=34851|AlignEnd=35082|Gloss=even
-3	bàː	bàː	PART	_	_	6	mod	_	AlignBegin=35082|AlignEnd=35313|Gloss=Neg
+3	bàː	bàː	PART	_	Polarity=Neg	6	mod	_	AlignBegin=35082|AlignEnd=35313|Gloss=Neg
 4	dan	dan	ADP	_	_	6	mod	_	AlignBegin=35313|AlignEnd=35544|Gloss=because
 5	Allàː	Allàː	PROPN	_	_	4	comp:obj	_	AlignBegin=35544|AlignEnd=35775|Gloss=God|wordform=allàː
 6	sukèː	kèː	AUX	_	Aspect=Imp|Number=Plur|Person=3	0	root	_	AlignBegin=35775|AlignEnd=36006|Background=Yes|Gloss=3Plur.Imp.Bkg
@@ -800,13 +800,13 @@
 # text_en =  Ah, he can never stop!
 1	ʔm	ʔm	INTJ	_	_	5	discourse	_	AlignBegin=102413|AlignEnd=102531|Gloss=ʔm
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=102531|AlignEnd=102649|Gloss=PUNCT|wordform=/
-3	bàː	bàː	PART	_	_	5	mod	_	AlignBegin=102789|AlignEnd=102912|Gloss=Neg
+3	bàː	bàː	PART	_	Polarity=Neg	5	mod	_	AlignBegin=102789|AlignEnd=102912|Gloss=Neg
 4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=102912|AlignEnd=103035|Gloss=must
-5	yà	à	AUX	_	Aspect=Aor|Person=3	0	root	_	AlignBegin=103035|AlignEnd=103158|Gloss=3Masc.Aor
+5	yà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=103035|AlignEnd=103158|Gloss=3Masc.Aor
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=103158|AlignEnd=103281|Gloss=do
 7	ta	kà	PART	_	Aspect=Iter	8	mod	_	AlignBegin=103281|AlignEnd=103404|Gloss=Iter
 8	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	6	comp:obj@lvc	_	AlignBegin=103404|AlignEnd=103445|Gloss=do.Vnoun.Cons|wordform=yîː
-9	=shì	=shì	PRON	_	Person=3|PronType=Prs	8	udep	_	AlignBegin=103486|AlignEnd=103527|Gloss=3Masc.Gen
+9	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	udep	_	AlignBegin=103486|AlignEnd=103527|Gloss=3Masc.Gen
 10	ba	ba	PART	_	Polarity=Neg	5	mod	_	AlignBegin=103527|AlignEnd=103650|Gloss=Neg
 11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=103650|AlignEnd=103776|Gloss=PUNCT
 
@@ -2826,11 +2826,11 @@
 # text_en =  He said it was no longer his house.
 1	wai	wai	PART	_	_	7	discourse	_	AlignBegin=349945|AlignEnd=350118|Gloss=EVD
 2	ai	ai	INTJ	_	_	7	discourse	_	AlignBegin=350118|AlignEnd=350291|Gloss=indeed
-3	bàː	bàː	PART	_	_	4	mod	_	AlignBegin=350291|AlignEnd=350464|Gloss=Neg
+3	bàː	bàː	PART	_	Polarity=Neg	4	mod	_	AlignBegin=350291|AlignEnd=350464|Gloss=Neg
 4	gidan	gidaː	NOUN	_	Definite=Cons	7	comp:pred	_	AlignBegin=350464|AlignEnd=350522|Gloss=house.Cons|wordform=gidaː
 5	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=350580|AlignEnd=350637|Gloss=3Masc.Gen
 6	ba	ba	PART	_	Polarity=Neg	4	mod	_	AlignBegin=350637|AlignEnd=350810|Gloss=Neg
-7	nèː	neː	PART	_	_	0	root	_	AlignBegin=350810|AlignEnd=350983|Gloss=Ident/Blg
+7	nèː	neː	PART	_	_	0	root	_	AlignBegin=350810|AlignEnd=350983|Gloss=Ident/Foc
 8	yànzu	yànzu	ADV	_	_	7	mod	_	AlignBegin=350983|AlignEnd=351156|Gloss=now
 9	//	//	PUNCT	_	_	7	punct	_	AlignBegin=351156|AlignEnd=351329|Gloss=PUNCT|wordform=/
 
