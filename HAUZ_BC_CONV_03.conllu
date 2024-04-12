@@ -1031,27 +1031,35 @@
 2	shiːkèːnan	shiːkèːnan	INTJ	_	_	0	root	_	AlignBegin=132422|AlignEnd=132608|Gloss=OK|wordform=shiː
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=132980|AlignEnd=133164|Gloss=PUNCT
 
-# sent_id = HAUZ_BC_CONV_03__74
+# sent_id = HAUZ_BC_CONV_03__74_split1
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
-# sent_timecode = 130776, 133954
+# sent_timecode = 130776, 131548
 # phonetic_text = doːlè nèː sàːfaː -ǹ // in na jeː zân ròːƙaː -eː shi yà yi hàƙuriː //
-# text = doːlè nèː sàːfân // in na jeː zân ròːƙeː shì yà yi hàƙuriː //
-# text_en =  Are socks compulsory? When I go, I will beg him to forgive me.
-1	doːlè	doːlè	NOUN	_	_	2	comp:pred	_	AlignBegin=130776|AlignEnd=130969|Gloss=must
-2	nèː	neː	PART	_	_	8	mod	_	AlignBegin=130969|AlignEnd=131162|Gloss=Ident/Blg
-3	sàːfân	sàːfaː	NOUN	_	Definite=Def	8	dislocated@top	_	AlignBegin=131162|AlignEnd=131258|Gloss=socks.Def|wordform=sàːfaː
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=131355|AlignEnd=131548|Gloss=PUNCT
-5	in	in	SCONJ	_	_	8	mod	_	AlignBegin=132356|AlignEnd=132516|Gloss=if
-6	na	kà	AUX	_	Aspect=Perf|Number=Sing|Person=1	5	comp:obj	_	AlignBegin=132516|AlignEnd=132676|Gloss=1Sing.Perf.Bkg
-7	jeː	jeː	VERB	_	_	6	comp:aux	_	AlignBegin=132676|AlignEnd=132836|Gloss=go
-8	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=132836|AlignEnd=132996|Gloss=1Sing.Fut
-9	ròːƙeː	roːƙ-	VERB	_	_	8	comp:obj	_	AlignBegin=132996|AlignEnd=133076|Gloss=beg
-10	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	comp:ben	_	AlignBegin=133156|AlignEnd=133316|Gloss=3Masc
-11	yà	à	AUX	_	Aspect=Aor|Person=3	9	comp:obj	_	AlignBegin=133316|AlignEnd=133476|Gloss=3Masc.Aor
-12	yi	yi	VERB	_	_	11	comp:aux	_	AlignBegin=133476|AlignEnd=133636|Gloss=do
-13	hàƙuriː	hàƙuriː	NOUN	_	_	12	comp:obj@lvc	_	AlignBegin=133636|AlignEnd=133796|Gloss=patience
-14	//	//	PUNCT	_	_	8	punct	_	AlignBegin=133796|AlignEnd=133954|Gloss=PUNCT
+# text = doːlè nèː sàːfân ?//
+# text_en =  Are socks compulsory?
+1	doːlè	doːlè	ADV	_	_	2	comp:pred	_	AlignBegin=130776|AlignEnd=130969|Gloss=must
+2	nèː	neː	PART	_	_	0	root	_	AlignBegin=130969|AlignEnd=131162|Gloss=Ident/Foc
+3	sàːfân	sàːfaː	NOUN	_	Definite=Def	2	dislocated@subj	_	AlignBegin=131162|AlignEnd=131258|Gloss=socks.Def|wordform=sàːfaː
+4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=131355|AlignEnd=131548|Gloss=PUNCT
+
+# sent_id = HAUZ_BC_CONV_03__74_split2
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
+# sent_timecode = 132356, 133954
+# phonetic_text = doːlè nèː sàːfaː -ǹ // in na jeː zân ròːƙaː -eː shi yà yi hàƙuriː //
+# text = in na jeː zân ròːƙeː shì yà yi hàƙuriː //
+# text_en = When I go, I will beg him to forgive me.
+1	in	in	SCONJ	_	_	4	mod	_	AlignBegin=132356|AlignEnd=132516|Gloss=if
+2	na	kà	AUX	_	Aspect=Perf|Number=Sing|Person=1	1	comp:obj	_	AlignBegin=132516|AlignEnd=132676|Background=Yes|Gloss=1Sing.Perf.Bkg
+3	jeː	jeː	VERB	_	_	2	comp:aux	_	AlignBegin=132676|AlignEnd=132836|Gloss=go
+4	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=132836|AlignEnd=132996|Gloss=1Sing.Fut
+5	ròːƙeː	roːƙ-	VERB	_	_	4	comp:obj	_	AlignBegin=132996|AlignEnd=133076|Gloss=beg
+6	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	5	comp:ben	_	AlignBegin=133156|AlignEnd=133316|Gloss=3Masc
+7	yà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=3	5	comp:obj	_	AlignBegin=133316|AlignEnd=133476|Gloss=3Masc.Aor
+8	yi	yi	VERB	_	_	7	comp:aux	_	AlignBegin=133476|AlignEnd=133636|Gloss=do
+9	hàƙuriː	hàƙuriː	NOUN	_	_	8	comp:obj@lvc	_	AlignBegin=133636|AlignEnd=133796|Gloss=patience
+10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=133796|AlignEnd=133954|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__75
 # speaker_id = SP2
