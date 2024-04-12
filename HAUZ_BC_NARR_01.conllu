@@ -363,6 +363,23 @@
 4	aikìː	aikìː	NOUN	_	_	2	comp:obj@lvc	_	AlignBegin=221033|AlignEnd=221224|Gloss=work
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=221224|AlignEnd=221415|Gloss=PUNCT
 
+# sent_id = HAUZ_BC_NARR_01_218-219
+# speaker_id = SP1
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_01.WAV
+# sent_timecode = 232820, 234610
+# phonetic_text = ya cêː / kai bàkà sanìː gàriː -n Gwànjoː ba //
+# text = ya cêː / kai bàkà san gàrin Gwànjoː ba ?//
+# text_en =  He said you, don't you know Gwanjo?
+1	ya	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=232820|AlignEnd=232917|Background=Yes|Gloss=3Masc.Perf.Bkg
+2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=232917|AlignEnd=233014|Gloss=say
+3	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	vocative	_	AlignBegin=233111|AlignEnd=233325|Gloss=2Masc.Nom
+4	bàkà	bài	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	2	comp:obj	_	AlignBegin=233325|AlignEnd=233539|Gloss=2Masc.Perf.Neg
+5	san	sanìː	VERB	_	_	4	comp:aux	_	AlignBegin=233539|AlignEnd=233753|Gloss=know
+6	gàrin	gàriː	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=233753|AlignEnd=233860|Gloss=town.Cons|wordform=gàriː
+7	Gwànjoː	Gwànjoː	PROPN	_	_	6	compound	_	AlignBegin=233967|AlignEnd=234181|Gloss=Gwanjo
+8	ba	ba	PART	_	PartType=Int|Polarity=Neg	4	mod	_	AlignBegin=234181|AlignEnd=234395|Gloss=Neg
+9	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=234395|AlignEnd=234610|Gloss=PUNCT
+
 # sent_id = HAUZ_BC_NARR_01_220-220
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_01.WAV
@@ -372,7 +389,7 @@
 # text_en = Gwanjo?
 1	gàrin	gàriː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=233750|AlignEnd=233858|Gloss=town.Cons|wordform=gàriː
 2	Gwànjoː	Gwànjoː	PROPN	_	_	1	mod	_	AlignBegin=233965|AlignEnd=234180|Gloss=Gwanjo
-3	ba	ba	PART	_	Polarity=Neg|PronType=Int	1	discourse	_	AlignBegin=234180|AlignEnd=234395|Gloss=Neg
+3	ba	ba	PART	_	PartType=Int|Polarity=Neg|PronType=Int	1	discourse	_	AlignBegin=234180|AlignEnd=234395|Gloss=Neg
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=234395|AlignEnd=234610|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_260-260

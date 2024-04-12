@@ -1213,7 +1213,7 @@
 # text = mèː kèː nan ?//
 # text_en =  What is it?
 1	mèː	mèː	PRON	_	_	0	root	_	AlignBegin=140248|AlignEnd=140386|Gloss=what
-2	kèːnan	kèːnan	PART	_	_	1	comp:cleft	_	AlignBegin=140386|AlignEnd=140524|Gloss=Ident/Foc.Bkg|wordform=kèː
+2	kèːnan	kèːnan	PART	_	PartType=Int	1	comp:cleft	_	AlignBegin=140386|AlignEnd=140524|Background=Yes|Gloss=Ident/Foc.Bkg|wordform=kèː
 3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=140662|AlignEnd=140798|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0120-0120
@@ -3153,7 +3153,7 @@
 # text_en =  What ?
 1	dà	dà	PART	_	_	0	root	_	AlignBegin=385918|AlignEnd=386095|Gloss=there_is
 2	mèː	mèː	PRON	_	PronType=Int	1	comp:pred	_	AlignBegin=386095|AlignEnd=386272|Gloss=what
-3	kuma	kuma	PART	_	_	1	discourse	_	AlignBegin=386272|AlignEnd=386449|Gloss=too
+3	kuma	kuma	PART	_	PartType=Int	1	discourse	_	AlignBegin=386272|AlignEnd=386449|Gloss=too
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=386449|AlignEnd=386627|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0319-0320
@@ -3180,7 +3180,7 @@
 1	can	can	ADV	_	_	4	comp:pred	_	AlignBegin=391668|AlignEnd=391834|Gloss=Dist2
 2	goːnan	goːnaː	VERB	_	Definite=Cons|VerbForm=Vnoun	1	conj:appos	_	AlignBegin=391834|AlignEnd=391917|ExtPos=NOUN|Gloss=field.Cons|wordform=goːnaː
 3	daːjìː	daːjìː	NOUN	_	_	2	mod	_	AlignBegin=392000|AlignEnd=392166|Gloss=bush
-4	kèːnan	kèːnan	PART	_	_	0	root	_	AlignBegin=392166|AlignEnd=392332|Gloss=Ident/Foc.Bkg|wordform=kèː
+4	kèːnan	kèːnan	PART	_	PartType=Int	0	root	_	AlignBegin=392166|AlignEnd=392332|Background=Yes|Gloss=Ident/Foc.Bkg|wordform=kèː
 5	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=392498|AlignEnd=392667|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0322-0322
@@ -3482,7 +3482,7 @@
 # text_en =  Which one?
 1	na	na	PART	_	Definite=Cons	3	comp:pred	_	AlignBegin=430201|AlignEnd=430385|Gloss=Cons
 2	wànneː	wànneː	DET	_	Definite=Def	1	comp:obj	_	AlignBegin=430385|AlignEnd=430569|Gloss=which
-3	kèːnan	kèːnan	PART	_	_	0	root	_	AlignBegin=430569|AlignEnd=430753|Gloss=Ident/Foc.Bkg|wordform=kèː
+3	kèːnan	kèːnan	PART	_	PartType=Int	0	root	_	AlignBegin=430569|AlignEnd=430753|Background=Yes|Gloss=Ident/Foc.Bkg|wordform=kèː
 4	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=430937|AlignEnd=431120|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0356-0357
@@ -3507,17 +3507,17 @@
 # text = ìnaː ka ga bàkà ci || bàkà ci dànkalìː dà waːkeː ba ?//
 # text_en =  Where did you see that you did not eat... you did not eat potatoes with beans?
 1	ìnaː	ìnaː	ADV	_	_	0	root	_	AlignBegin=436779|AlignEnd=436924|Gloss=where
-2	ka	kà	AUX	_	Aspect=Perf|Person=2	1	comp:cleft	_	AlignBegin=436924|AlignEnd=437069|Gloss=2Masc.Perf.Bkg
+2	ka	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:cleft	_	AlignBegin=436924|AlignEnd=437069|Background=Yes|Gloss=2Masc.Perf.Bkg
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=437069|AlignEnd=437214|Gloss=see
-4	bàkà	bài	AUX	_	Aspect=Perf|Person=2	3	comp:obj	_	AlignBegin=437360|AlignEnd=437519|Gloss=1Masc.Perf.Neg
+4	bàkà	bài	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	3	comp:obj	_	AlignBegin=437360|AlignEnd=437519|Gloss=1Masc.Perf.Neg
 5	ci	ci	VERB	_	_	4	comp:aux	_	AlignBegin=437519|AlignEnd=437678|Gloss=eat
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=437678|AlignEnd=437837|Gloss=PUNCT
-7	bàkà	bài	AUX	_	Aspect=Perf|Person=2	4	conj:dicto	_	AlignBegin=437837|AlignEnd=438054|Gloss=1Masc.Perf.Neg
+7	bàkà	bài	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	4	conj:dicto	_	AlignBegin=437837|AlignEnd=438054|Gloss=1Masc.Perf.Neg
 8	ci	ci	VERB	_	_	7	comp:aux	_	AlignBegin=438054|AlignEnd=438271|Gloss=eat
 9	dànkalìː	dànkalìː	NOUN	_	_	8	comp:obj	_	AlignBegin=438271|AlignEnd=438488|Gloss=sweet_potatoes
 10	dà	dà	ADP	_	_	8	comp:obl	_	AlignBegin=438488|AlignEnd=438705|Gloss=and
 11	waːkeː	waːkeː	PART	_	_	10	comp:obj	_	AlignBegin=438705|AlignEnd=438922|Gloss=beans
-12	ba	ba	PART	_	Polarity=Neg	7	mod	_	AlignBegin=438922|AlignEnd=439139|Gloss=Neg
+12	ba	ba	PART	_	PartType=Int|Polarity=Neg	7	mod	_	AlignBegin=438922|AlignEnd=439139|Gloss=Neg
 13	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=439139|AlignEnd=439356|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0361-0361
@@ -4765,7 +4765,7 @@
 # text_en =  How could it be?
 1	à	à	ADP	_	_	0	root	_	AlignBegin=599094|AlignEnd=599280|Gloss=at
 2	ìnaː	ìnaː	ADV	_	PronType=Int	1	comp:obj	_	AlignBegin=599280|AlignEnd=599466|Gloss=where
-3	fa	fa	PART	_	_	1	discourse	_	AlignBegin=599466|AlignEnd=599652|Gloss=indeed
+3	fa	fa	PART	_	PartType=Int	1	discourse	_	AlignBegin=599466|AlignEnd=599652|Gloss=indeed
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=599652|AlignEnd=599838|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0501-0501
@@ -5254,7 +5254,7 @@
 # text_en =  What type?
 1	na	na	PART	_	Definite=Cons	0	root	_	AlignBegin=650502|AlignEnd=650696|Gloss=Cons
 2	mèː	mèː	PRON	_	PronType=Int	1	comp:obj	_	AlignBegin=650696|AlignEnd=650890|Gloss=what
-3	kuma	kuma	PART	_	_	1	discourse	_	AlignBegin=650890|AlignEnd=651084|Gloss=too
+3	kuma	kuma	PART	_	PartType=Int	1	discourse	_	AlignBegin=650890|AlignEnd=651084|Gloss=too
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=651084|AlignEnd=651280|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0556-0556
@@ -6550,12 +6550,12 @@
 # phonetic_text = bàʼà yi makà dà tàwsheː ba -Q //
 # text = bàʼà yi makà dà tàwsheː bâ ?//
 # text_en =  Don't they serve it with "*taushe*? (* any soup apart from draw-soup)
-1	bàʼà	bài	AUX	_	Polarity=Neg	0	root	_	AlignBegin=799419|AlignEnd=799632|Gloss=4.Perf.Neg
+1	bàʼà	bài	AUX	_	Aspect=Perf|Person=4|Polarity=Neg	0	root	_	AlignBegin=799419|AlignEnd=799632|Gloss=4.Perf.Neg
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=799632|AlignEnd=799845|Gloss=do
-3	makà	kà	PRON	_	Number=Plur|Person=1|PronType=Prs	2	comp:ben	_	AlignBegin=799845|AlignEnd=800058|Gloss=2Masc.Dat
+3	makà	kà	PRON	_	Gender=Masc|Person=1|PronType=Prs	2	comp:ben	_	AlignBegin=799845|AlignEnd=800058|Gloss=2Masc.Dat
 4	dà	dà	ADP	_	_	2	comp:obl	_	AlignBegin=800058|AlignEnd=800271|Gloss=with
-5	tàwsheː	tàwsheː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=800271|AlignEnd=800484|Gloss=sauce_sp
-6	bâ	ba	PART	_	Polarity=Neg	1	mod	_	AlignBegin=800484|AlignEnd=800590|Gloss=Neg.Quest
+5	tàwsheː	tàwsheː	NOUN	_	_	4	comp:obj	_	AlignBegin=800271|AlignEnd=800484|Gloss=sauce_sp
+6	bâ	ba	PART	_	PartType=Int|Polarity=Neg	1	mod	_	AlignBegin=800484|AlignEnd=800590|Gloss=Neg.Quest
 7	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=800697|AlignEnd=800911|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0690-0691
@@ -7190,13 +7190,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 881502, 883149
 # phonetic_text = kaː ci ƙwai -n bà- Hausa -èː kùwa -Q //
-# text = kaː ci ƙwan Bàhawshèː kùwâ ?//
+# text = kaː ci ƙwan Bàhawshèː kùwâː ?//
 # text_en =  Have you eaten Hausa eggs?
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=881502|AlignEnd=881776|Gloss=2Masc.Perf
 2	ci	ci	VERB	_	_	1	comp:aux	_	AlignBegin=881776|AlignEnd=882050|Gloss=eat
 3	ƙwan	ƙwai	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=882050|AlignEnd=882187|Gloss=egg.Cons|wordform=ƙwai
 4	Bàhawshèː	Bàhawshèː	PROPN	_	_	3	compound	_	AlignBegin=882415|AlignEnd=882506|Gloss=Hausa
-5	kùwâ	kùwa	PART	_	_	1	discourse	_	AlignBegin=882598|AlignEnd=882735|Gloss=as_for.Quest
+5	kùwâː	kùwa	PART	_	PartType=Int	1	discourse	_	AlignBegin=882598|AlignEnd=882735|Gloss=as_for.Quest
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=882872|AlignEnd=883149|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0769-0769
@@ -7950,7 +7950,7 @@
 # text = lùkucì fâː ?//
 # text_en =  What about "lukuci"?
 1	lùkucì	lùkucì	NOUN	_	_	0	root	_	AlignBegin=952460|AlignEnd=952666|Gloss=???
-2	fâ	fa	PART	_	_	1	discourse	_	AlignBegin=952666|AlignEnd=952769|Gloss=indeed.Question
+2	fâ	fa	PART	_	PartType=Int	1	discourse	_	AlignBegin=952666|AlignEnd=952769|Gloss=indeed.Question
 3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=952872|AlignEnd=953079|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0849-0850
@@ -8904,7 +8904,7 @@
 # text_en =  Isn't it a "lukuci"?
 1	bàː	bàː	PART	_	Polarity=Neg	2	mod	_	AlignBegin=1067280|AlignEnd=1067490|Gloss=Neg
 2	lùkucì	lùkucì	NOUN	_	_	0	root	_	AlignBegin=1067490|AlignEnd=106770|Gloss=tree_sp
-3	ba	ba	PART	_	Polarity=Neg	2	mod	_	AlignBegin=106770|AlignEnd=1067910|Gloss=Neg
+3	ba	ba	PART	_	PartType=Int|Polarity=Neg	2	mod	_	AlignBegin=106770|AlignEnd=1067910|Gloss=Neg
 4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=1067910|AlignEnd=1068120|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0954-0954
@@ -9980,7 +9980,7 @@
 2	dai	dai	PART	_	_	1	discourse	_	AlignBegin=1188840|AlignEnd=1189010|Gloss=indeed
 3	na	na	PART	_	Definite=Cons	0	root	_	AlignBegin=1189010|AlignEnd=1189170|Gloss=Cons
 4	Hanwa	Hanwa	PROPN	_	_	3	comp:obj	_	AlignBegin=1189170|AlignEnd=1189340|Gloss=Hanwa
-5	ba	ba	PART	_	Polarity=Neg	3	mod	_	AlignBegin=1189340|AlignEnd=118950|Gloss=Neg
+5	ba	ba	PART	_	PartType=Int|Polarity=Neg	3	mod	_	AlignBegin=1189340|AlignEnd=118950|Gloss=Neg
 6	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=118950|AlignEnd=1189670|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1072-1073
@@ -11712,11 +11712,11 @@
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=1406830|AlignEnd=1406940|Gloss=PUNCT|wordform=/
 6	aː	aː	INTJ	_	_	8	discourse	_	AlignBegin=1407190|AlignEnd=140740|Gloss=FILL
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=140740|AlignEnd=140760|Gloss=PUNCT|wordform=/
-8	bàkà	bài	AUX	_	Aspect=Perf|Person=2	0	root	_	AlignBegin=1407890|AlignEnd=1408020|Gloss=1Masc.Perf.Neg
+8	bàkà	bài	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=1407890|AlignEnd=1408020|Gloss=1Masc.Perf.Neg
 9	gan	ganiː	VERB	_	_	8	comp:aux	_	AlignBegin=1408020|AlignEnd=1408150|Gloss=see
-10	tà	ta	PRON	_	Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=1408150|AlignEnd=1408280|Gloss=3Fem
+10	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=1408150|AlignEnd=1408280|Gloss=3Fem
 11	ba	ba	PART	_	Polarity=Neg	8	mod	_	AlignBegin=1408280|AlignEnd=140840|Gloss=Neg
-12	kèːnan	kèːnan	PART	_	_	8	mod@emp	_	AlignBegin=140840|AlignEnd=1408530|Gloss=Ident/Foc.Bkg|wordform=kèː
+12	kèːnan	kèːnan	PART	_	PartType=Int	8	mod@emp	_	AlignBegin=140840|AlignEnd=1408530|Background=Yes|Gloss=Ident/Foc.Bkg|wordform=kèː
 13	?//	?//	PUNCT	_	_	8	punct	_	AlignBegin=1408660|AlignEnd=1408790|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1268-1268

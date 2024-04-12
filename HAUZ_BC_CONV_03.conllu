@@ -40,7 +40,7 @@
 1	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=5700|AlignEnd=5890|Gloss=3Masc.Perf
 2	shigoː	shig-	VERB	_	_	1	comp:aux	_	AlignBegin=5890|AlignEnd=6080|Gloss=enter.DIR
 3	kilaːs	kilas	NOUN	_	Foreign=Yes	2	comp:goal	_	AlignBegin=6080|AlignEnd=6270|Gloss=class|Lang=en
-4	kùwa	kùwa	PART	_	_	1	discourse	_	AlignBegin=6270|AlignEnd=6460|Gloss=as_for
+4	kùwa	kùwa	PART	_	PartType=Int	1	discourse	_	AlignBegin=6270|AlignEnd=6460|Gloss=as_for
 5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=6460|AlignEnd=6652|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__4
@@ -131,7 +131,7 @@
 # text_en =  And did you understand?
 1	kinàː	nàː	AUX	_	Aspect=Imp|Gender=Fem|Person=2	0	root	_	AlignBegin=16570|AlignEnd=16852|Gloss=2Fem.Imp
 2	gaːnèwaː	gaːn-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=16852|AlignEnd=16993|Gloss=understand.Vnoun|wordform=gaːnèː
-3	kùwa	kùwa	PART	_	_	1	discourse	_	AlignBegin=17134|AlignEnd=17416|Gloss=as_for
+3	kùwa	kùwa	PART	_	PartType=Int	1	discourse	_	AlignBegin=17134|AlignEnd=17416|Gloss=as_for
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=17416|AlignEnd=17700|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__11
@@ -155,7 +155,7 @@
 1	yanàː	nàː²	AUX	_	Gender=Masc|Person=3	0	root	_	AlignBegin=18881|AlignEnd=19087|Gloss=3Masc.Pred/Loc
 2	dà	dà	ADP	_	_	1	comp:pred	_	AlignBegin=19087|AlignEnd=19293|Gloss=with
 3	kir̃kìː	kir̃kìː	NOUN	_	_	2	comp:obj	_	AlignBegin=19293|AlignEnd=19499|Gloss=goodness
-4	kùwa	kùwa	PART	_	_	1	discourse	_	AlignBegin=19499|AlignEnd=19705|Gloss=as_for
+4	kùwa	kùwa	PART	_	PartType=Int	1	discourse	_	AlignBegin=19499|AlignEnd=19705|Gloss=as_for
 5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=19705|AlignEnd=19912|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__13
@@ -232,9 +232,9 @@
 # phonetic_text = bàtà shigoː ba //
 # text = bàtà shigoː ba ?//
 # text_en =  Didn't she come?
-1	bàtà	bài	AUX	_	Aspect=Perf|Person=3|Polarity=Neg	0	root	_	AlignBegin=29244|AlignEnd=29408|Gloss=3Fem.Perf.Neg
+1	bàtà	bài	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Polarity=Neg	0	root	_	AlignBegin=29244|AlignEnd=29408|Gloss=3Fem.Perf.Neg
 2	shigoː	shig-	VERB	_	_	1	comp:aux	_	AlignBegin=29408|AlignEnd=29572|Gloss=enter.DIR
-3	ba	ba	PART	_	Polarity=Neg	1	mod	_	AlignBegin=29572|AlignEnd=29736|Gloss=Neg
+3	ba	ba	PART	_	PartType=Int|Polarity=Neg	1	mod	_	AlignBegin=29572|AlignEnd=29736|Gloss=Neg
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=29736|AlignEnd=29898|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__19
@@ -489,7 +489,7 @@
 6	zâː	zâː	PART	_	_	0	root	_	AlignBegin=62874|AlignEnd=63051|Gloss=All
 7	ki	ki	PRON	_	Gender=Fem|Person=2|PronType=Prs	6	subj	_	AlignBegin=63051|AlignEnd=63228|Gloss=2Fem
 8	makar̃antaː	makar̃antaː	NOUN	_	_	6	comp:goal	_	AlignBegin=63228|AlignEnd=63405|Gloss=school
-9	ba	ba	PART	_	Polarity=Neg	6	mod	_	AlignBegin=63405|AlignEnd=63582|Gloss=Neg
+9	ba	ba	PART	_	PartType=Int|Polarity=Neg	6	mod	_	AlignBegin=63405|AlignEnd=63582|Gloss=Neg
 10	?//	//	PUNCT	_	_	6	punct	_	AlignBegin=63582|AlignEnd=63758|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__37
@@ -733,7 +733,7 @@
 # text_en =  Well what about tomorrow?
 1	tòː	tòː	PART	_	_	2	discourse	_	AlignBegin=94073|AlignEnd=94242|Gloss=well
 2	gòːbe	gòːbe	ADV	_	_	0	root	_	AlignBegin=94242|AlignEnd=94411|Gloss=tomorrow
-3	fa	fa	PART	_	_	2	discourse	_	AlignBegin=94411|AlignEnd=94580|Gloss=indeed
+3	fa	fa	PART	_	PartType=Int	2	discourse	_	AlignBegin=94411|AlignEnd=94580|Gloss=indeed
 4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=94580|AlignEnd=94750|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__54
@@ -1083,7 +1083,7 @@
 2	bà	bà	PART	_	Polarity=Neg	3	mod	_	AlignBegin=135347|AlignEnd=135498|Gloss=Neg
 3	zâi	zaː	AUX	_	Gender=Masc|Person=3|Tense=Fut	0	root	_	AlignBegin=135498|AlignEnd=135649|Gloss=3Masc.Fut
 4	hàƙurà	haƙur-	VERB	_	_	3	comp:aux	_	AlignBegin=135649|AlignEnd=135800|Gloss=be_patient
-5	ba	ba	PART	_	Polarity=Neg	3	mod	_	AlignBegin=135800|AlignEnd=135951|Gloss=Neg
+5	ba	ba	PART	_	PartType=Int|Polarity=Neg	3	mod	_	AlignBegin=135800|AlignEnd=135951|Gloss=Neg
 6	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=135951|AlignEnd=136103|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__77
@@ -1272,7 +1272,7 @@
 1	kin	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=2	0	root	_	AlignBegin=165739|AlignEnd=166007|Gloss=2Fem.Perf
 2	kàlleː	kall-	VERB	_	_	1	comp:aux	_	AlignBegin=166007|AlignEnd=166141|Gloss=watch
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=166275|AlignEnd=166543|Gloss=3Masc
-4	kùwâː	kùwa	PART	_	_	1	discourse	_	AlignBegin=166543|AlignEnd=166677|Gloss=as_for.Quest
+4	kùwâː	kùwa	PART	_	PartType=Int	1	discourse	_	AlignBegin=166543|AlignEnd=166677|Gloss=as_for.Quest
 5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=166811|AlignEnd=167079|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__92
@@ -1282,9 +1282,9 @@
 # phonetic_text = bàkì kàllaː ba ?//
 # text = bàkì kàllaː ba ?//
 # text_en =  Didn't you watch it?
-1	bàkì	bài	AUX	_	Aspect=Perf|Person=2	0	root	_	AlignBegin=167820|AlignEnd=168006|Gloss=2Fem.Perf.Neg
+1	bàkì	bài	AUX	_	Aspect=Perf|Gender=Fem|Person=2|Polarity=Neg	0	root	_	AlignBegin=167820|AlignEnd=168006|Gloss=2Fem.Perf.Neg
 2	kàllaː	kall-	VERB	_	_	1	comp:aux	_	AlignBegin=168006|AlignEnd=168192|Gloss=watch
-3	ba	ba	PART	_	Polarity=Neg	1	mod	_	AlignBegin=168192|AlignEnd=168378|Gloss=Neg
+3	ba	ba	PART	_	PartType=Int|Polarity=Neg	1	mod	_	AlignBegin=168192|AlignEnd=168378|Gloss=Neg
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=168378|AlignEnd=168565|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__93
