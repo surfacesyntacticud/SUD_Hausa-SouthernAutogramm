@@ -5347,7 +5347,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 662853, 664651
 # phonetic_text = wai kà cêː kaː jeː goːnaː -n bàːba -Q //
-# text = wai kà cêː kaː jeː goːnan bàːbâ ?//
+# text = wai kà cêː kaː jeː goːnan bàːbâː ?//
 # text_en = As if you had gone to your father's farm?
 1	wai	wai	PART	_	ExtPos=ADV	4	discourse	_	AlignBegin=662853|AlignEnd=663078|Gloss=EVD|Idiom=Yes
 2	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	1	unk	_	AlignBegin=663078|AlignEnd=663303|Gloss=2Masc.Aor|InIdiom=Yes
@@ -5355,7 +5355,7 @@
 4	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=663528|AlignEnd=663753|Gloss=2Masc.Perf
 5	jeː	jeː	VERB	_	_	4	comp:aux	_	AlignBegin=663753|AlignEnd=663978|Gloss=go
 6	goːnan	goːnaː	NOUN	_	Definite=Cons	5	comp:goal	_	AlignBegin=663978|AlignEnd=664090|Gloss=field.Cons|wordform=goːnaː
-7	bàːbâ	bàːba	NOUN	_	_	6	mod	_	AlignBegin=664203|AlignEnd=664315|Gloss=father.Quest
+7	bàːbâː	bàːba	NOUN	_	PartType=Int	6	mod	_	AlignBegin=664203|AlignEnd=664315|Gloss=father.Quest
 8	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=664428|AlignEnd=664651|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0565-0565
@@ -6036,12 +6036,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 739969, 740964
 # phonetic_text = bàkà ganiː akkùl ba -Q // kâi //
-# text = bàkà ga akkùl bâ =-̀ //
+# text = bàkà ga akkùl bâː =-̀ //
 # text_en =  Didn't you see "akkul"?
-1	bàkà	bài	AUX	_	Aspect=Perf|Person=2	0	root	_	AlignBegin=739969|AlignEnd=740168|Gloss=1Masc.Perf.Neg
+1	bàkà	bài	AUX	_	Aspect=Perf|Gender=Masc|Person=2|Polarity=Neg	0	root	_	AlignBegin=739969|AlignEnd=740168|Gloss=1Masc.Perf.Neg
 2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=740168|AlignEnd=740367|Gloss=see
-3	akkùl	akkùl	NOUN	_	Number=Plur	2	comp:obj	_	AlignBegin=740367|AlignEnd=740566|Gloss=old_cassava
-4	bâ	ba	PART	_	Polarity=Neg	1	mod	_	AlignBegin=740566|AlignEnd=740666|Gloss=Neg.Quest
+3	akkùl	akkùl	NOUN	_	_	2	comp:obj	_	AlignBegin=740367|AlignEnd=740566|Gloss=old_cassava
+4	bâː	ba	PART	_	PartType=Int|Polarity=Neg	1	mod	_	AlignBegin=740566|AlignEnd=740666|Gloss=Neg.Quest
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=740765|AlignEnd=740964|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0634-0634
@@ -6752,7 +6752,7 @@
 14	zaːʼà	zaː	AUX	_	Person=4|Tense=Fut	0	root	_	AlignBegin=822686|AlignEnd=822818|Gloss=4.Fut
 15	cêː	cêː	VERB	_	_	14	comp:aux	_	AlignBegin=822818|AlignEnd=822950|Gloss=say
 16	wànè	wànè	DET	_	Definite=Def|PronType=Int	17	det	_	AlignBegin=823081|AlignEnd=823342|Gloss=which
-17	gaudâː	gaudaː	NOUN	_	_	15	comp:obj	_	AlignBegin=823342|AlignEnd=823472|Gloss=cakes_sp.Quest
+17	gaudâː	gaudaː	NOUN	_	PartType=Int	15	comp:obj	_	AlignBegin=823342|AlignEnd=823472|Gloss=cakes_sp.Quest
 18	//	//	PUNCT	_	_	14	punct	_	AlignBegin=823603|AlignEnd=823864|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0714-0718
@@ -9606,11 +9606,11 @@
 3	koː	koː	SCONJ	_	_	8	mod	_	AlignBegin=1152930|AlignEnd=1153110|Gloss=or
 4	miyàː	miyàː	NOUN	_	_	3	comp:obj	_	AlignBegin=1153110|AlignEnd=115330|Gloss=sauce
 5	zaːkà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	4	comp:cleft	_	AlignBegin=115330|AlignEnd=1153480|Gloss=2Sing.Fut
-6	shâː	shaː	VERB	_	_	5	comp:aux	_	AlignBegin=1153480|AlignEnd=1153570|Gloss=drink.Quest
+6	shâː	shaː	VERB	_	PartType=Int	5	comp:aux	_	AlignBegin=1153480|AlignEnd=1153570|Gloss=drink.Quest
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=1153660|AlignEnd=1153840|Gloss=PUNCT|wordform=/
-8	kà	à	AUX	_	Aspect=Aor|Person=2	2	comp:obj	_	AlignBegin=1154130|AlignEnd=1154320|Gloss=2Masc.Aor
+8	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	2	comp:obj	_	AlignBegin=1154130|AlignEnd=1154320|Gloss=2Masc.Aor
 9	sàːmi	saːm-	VERB	_	_	8	comp:aux	_	AlignBegin=1154320|AlignEnd=1154420|Gloss=get|wordform=saːmù
-10	miyàn	miyàː	NOUN	_	Number=Plur	9	comp:obj	_	AlignBegin=1154510|AlignEnd=1154610|Gloss=sauce.Cons|wordform=miyàː
+10	miyàn	miyàː	NOUN	_	_	9	comp:obj	_	AlignBegin=1154510|AlignEnd=1154610|Gloss=sauce.Cons|wordform=miyàː
 11	tsòːfàffiː	tsoːhoː	NOUN	_	Number=Plur	10	mod	_	AlignBegin=1154710|AlignEnd=115480|Gloss=old.Plur|wordform=tsoːhoː
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=115490|AlignEnd=1155090|Gloss=PUNCT
 
@@ -10123,17 +10123,17 @@
 7	yànzu	yànzu	ADV	_	_	18	mod	_	AlignBegin=1212590|AlignEnd=1212730|Gloss=now
 8	dai	dai	PART	_	_	7	discourse	_	AlignBegin=1212730|AlignEnd=1212860|Gloss=indeed
 9	<	<	PUNCT	_	_	7	punct	_	AlignBegin=1212860|AlignEnd=12130|Gloss=PUNCT|wordform=/
-10	Fulàːniː	Fulàːniː	PROPN	_	Definite=Cons	18	dislocated@top	_	AlignBegin=12130|AlignEnd=1213360|Gloss=Fulani.Plur
+10	Fulàːniː	Fulàːniː	PROPN	_	Definite=Cons|Number=Plur	18	dislocated@top	_	AlignBegin=12130|AlignEnd=1213360|Gloss=Fulani.Plur
 11	na	na	PART	_	Definite=Cons	10	mod	_	AlignBegin=1213360|AlignEnd=1213720|Gloss=Cons
 12	Zagèːzàgiː	Zagèːzàgiː	PROPN	_	_	11	comp:obj	_	AlignBegin=1213720|AlignEnd=1214080|Gloss=Zaria_inhabitant
 13	<	<	PUNCT	_	_	10	punct	_	AlignBegin=1214080|AlignEnd=1214440|Gloss=PUNCT|wordform=/
 14	in	in	SCONJ	_	_	18	mod	_	AlignBegin=1214440|AlignEnd=1214770|Gloss=if
 15	sunàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=3	14	comp:obj	_	AlignBegin=1214770|AlignEnd=1215110|Gloss=3Plur.Imp
-16	shaʼàniː	shaʼàniː	NOUN	_	Number=Plur	15	comp:aux	_	AlignBegin=1215110|AlignEnd=1215440|Gloss=occasion
+16	shaʼàniː	shaʼàniː	NOUN	_	_	15	comp:aux	_	AlignBegin=1215110|AlignEnd=1215440|Gloss=occasion
 17	<	<	PUNCT	_	_	14	punct	_	AlignBegin=1215440|AlignEnd=1215780|Gloss=PUNCT|wordform=/
-18	kaː	kaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=1217020|AlignEnd=1217270|Gloss=2Masc.Perf
+18	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=1217020|AlignEnd=1217270|Gloss=2Masc.Perf
 19	taɓà	taɓ-	VERB	_	_	18	comp:aux	_	AlignBegin=1217270|AlignEnd=1217530|Gloss=already
-20	zuwâː	zoː	VERB	_	VerbForm=Vnoun	19	comp:obj	_	AlignBegin=1217530|AlignEnd=1217660|ExtPos=NOUN|Gloss=go.Vnoun.Quest
+20	zuwâː	zoː	VERB	_	PartType=Int|VerbForm=Vnoun	19	comp:obj	_	AlignBegin=1217530|AlignEnd=1217660|ExtPos=NOUN|Gloss=go.Vnoun.Quest
 21	?//	?//	PUNCT	_	_	18	punct	_	AlignBegin=1217780|AlignEnd=1218040|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1086-1093
