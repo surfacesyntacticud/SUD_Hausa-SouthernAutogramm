@@ -4875,20 +4875,20 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 610097, 613690
 # phonetic_text = indàː dai am bi yandà àbù -ǹ takèː // anàː dai yîː nèː dai / kawài dukà dai //
-# text = indàː dai an bi yandà àbîn takèː > anàː dai yîː nèː dai < kawài //
-# text_en =  If we look at how things are, we can't do anyting.
+# text = indàː dai an bi yandà àbîn takèː > anàː dai yîː neː dai < kawài //
+# text_en =  If we look at how things are, we can't do anything, at all.
 1	indàː	indàː	ADV	_	_	9	mod	_	AlignBegin=610097|AlignEnd=610312|Gloss=if.IRR
 2	dai	dai	PART	_	_	1	discourse	_	AlignBegin=610312|AlignEnd=610527|Gloss=indeed
 3	an	yaː	AUX	_	Aspect=Perf|Person=3	1	comp:obj	_	AlignBegin=610527|AlignEnd=610742|Gloss=4.Perf
 4	bi	bi	VERB	_	_	3	comp:aux	_	AlignBegin=610742|AlignEnd=610957|Gloss=follow
 5	yandà	yandà	ADV	_	PronType=Rel	4	comp:obj	_	AlignBegin=610957|AlignEnd=611172|Gloss=how
-6	àbîn	àbù	NOUN	_	Number=Plur	7	subj	_	AlignBegin=611172|AlignEnd=611280|Gloss=thing.Def|wordform=àbù
-7	takèː	takèː	AUX	_	_	5	mod@relcl	_	AlignBegin=611387|AlignEnd=611602|Gloss=3Fem.Imp.Bkg
+6	àbîn	àbù	NOUN	_	_	7	subj	_	AlignBegin=611172|AlignEnd=611280|Gloss=thing.Def|wordform=àbù
+7	takèː	takèː	AUX	_	Gender=Fem|Person=3	5	mod@relcl	_	AlignBegin=611387|AlignEnd=611602|Background=Yes|Gloss=3Fem.Imp.Bkg
 8	<	<	PUNCT	_	_	1	punct	_	AlignBegin=611602|AlignEnd=611817|Gloss=PUNCT
 9	anàː	nàː	AUX	_	Aspect=Imp|Person=4	0	root	_	AlignBegin=612082|AlignEnd=612234|Gloss=4.Imp
 10	dai	dai	PART	_	_	9	discourse	_	AlignBegin=612234|AlignEnd=612386|Gloss=indeed
-11	yîː	yi	VERB	_	PronType=Int	9	comp:aux	_	AlignBegin=612386|AlignEnd=612538|Gloss=do.Vnoun
-12	nèː	neː	PART	_	_	11	mod@emp	_	AlignBegin=612538|AlignEnd=612690|Gloss=Ident/Foc
+11	yîː	yi	VERB	_	_	9	comp:aux	_	AlignBegin=612386|AlignEnd=612538|Gloss=do.Vnoun
+12	neː	neː	PART	_	_	11	mod@emp	_	AlignBegin=612538|AlignEnd=612690|Gloss=Ident/Foc
 13	dai	dai	PART	_	_	9	discourse	_	AlignBegin=612690|AlignEnd=612842|Gloss=indeed
 14	>	>	PUNCT	_	_	15	punct	_	AlignBegin=612842|AlignEnd=612994|Gloss=PUNCT|wordform=/
 15	kawài	kawài	ADV	_	_	9	mod	_	AlignBegin=612994|AlignEnd=613168|Gloss=only
@@ -8754,13 +8754,13 @@
 # text = tundà bân taɓà mântâːwaː / nan / goːnan daːjìː //
 # text_en =  I have not forgotten there the bush farm.
 1	tundà	tundà	SCONJ	_	_	2	discourse	_	AlignBegin=1046730|AlignEnd=1047070|Gloss=since
-2	bân	bâi	AUX	_	_	0	root	_	AlignBegin=1047070|AlignEnd=104740|Gloss=1Sing.Imp.Neg
+2	bân	bâi	AUX	_	Number=Sing|Person=1|Polarity=Neg	0	root	_	AlignBegin=1047070|AlignEnd=104740|Gloss=1Sing.Imp.Neg
 3	taɓà	taɓ-	VERB	_	_	2	comp:aux	_	AlignBegin=104740|AlignEnd=1047730|Gloss=have_already
 4	mântaːwàː	mant-	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=1047730|AlignEnd=104790|ExtPos=NOUN|Gloss=forget.Vnoun|wordform=mântaː
 5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=1048060|AlignEnd=104840|Gloss=PUNCT|wordform=/
-6	nan	nan	ADV	_	Definite=Def	4	comp:obj	_	AlignBegin=104840|AlignEnd=1048610|Gloss=Def
-7	||	||	PUNCT	_	_	6	punct	_	AlignBegin=1048610|AlignEnd=1048820|Gloss=PUNCT|wordform=/
-8	goːnan	goːnaː	NOUN	_	PronType=Int	6	conj:dicto	_	AlignBegin=1049110|AlignEnd=1049280|Gloss=field.Cons|wordform=goːnaː
+6	nan	nan	ADV	_	Definite=Def	2	dislocated:obj@mod	_	AlignBegin=104840|AlignEnd=1048610|Gloss=Def
+7	|a	|a	PUNCT	_	_	6	punct	_	AlignBegin=1048610|AlignEnd=1048820|Gloss=PUNCT|wordform=/
+8	goːnan	goːnaː	NOUN	_	_	6	conj:appos	_	AlignBegin=1049110|AlignEnd=1049280|Gloss=field.Cons|wordform=goːnaː
 9	daːjìː	daːjìː	NOUN	_	_	8	mod	_	AlignBegin=1049460|AlignEnd=104980|Gloss=bush
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=104980|AlignEnd=1050150|Gloss=PUNCT
 
