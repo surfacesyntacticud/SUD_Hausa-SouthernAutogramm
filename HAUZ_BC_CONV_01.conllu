@@ -1351,7 +1351,7 @@
 # phonetic_text = mài suːnaː / àlhaːjì iːdi //
 # text = mài suːnaː Àlhaːjì Iːdi //
 # text_en =  His is called Alhaji Idi.
-1	mài	mài	PART	_	_	0	root	_	AlignBegin=163272|AlignEnd=163438|Gloss=holder_of
+1	mài	mài	NOUN	_	_	0	root	_	AlignBegin=163272|AlignEnd=163438|Gloss=holder_of
 2	suːnaː	suːnaː	NOUN	_	_	1	compound	_	AlignBegin=163438|AlignEnd=163604|Gloss=name
 3	Àlhaːjì	Àlhaːjì	PROPN	_	_	2	mod	_	AlignBegin=163770|AlignEnd=163936|Gloss=Alhaji|Overlap=HAUZ_BC_CONV_01_SP2_060-60
 4	Iːdi	Iːdi	PROPN	_	_	3	flat:name	_	AlignBegin=163936|AlignEnd=164102|Gloss=Idi
@@ -1764,7 +1764,7 @@
 7	wânnan	wânnan	DET	_	Definite=Def	8	det	_	AlignBegin=205553|AlignEnd=205774|Gloss=Def
 8	kàːkaː	kàːkaː	NOUN	_	_	6	comp:obj	_	AlignBegin=205774|AlignEnd=205995|Gloss=grand-mother
 9	nàːwa	nàːwa	PRON	_	Number=Sing|Person=1|PronType=Prs	8	mod@poss	_	AlignBegin=205995|AlignEnd=206216|Gloss=1Sing.Gen
-10	mài	mài	PART	_	_	8	mod	_	AlignBegin=206437|AlignEnd=206547|Gloss=holder_of
+10	mài	mài	NOUN	_	_	8	mod	_	AlignBegin=206437|AlignEnd=206547|Gloss=holder_of
 11	suːnaː	suːnaː	NOUN	_	_	10	compound	_	AlignBegin=206547|AlignEnd=206658|Gloss=name
 12	Taːbi	Taːbi	PROPN	_	_	11	mod	_	AlignBegin=206879|AlignEnd=206989|Gloss=Tabi
 13	wandà	wandà	PRON	_	PronType=Rel	16	udep	_	AlignBegin=206989|AlignEnd=207100|Gloss=whom
@@ -2481,11 +2481,11 @@
 7	ya	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	comp:obj	_	AlignBegin=295553|AlignEnd=295769|Background=Yes|Gloss=3Masc.Perf.Bkg
 8	ganiː	ganiː	VERB	_	_	7	comp:aux	_	AlignBegin=295769|AlignEnd=295985|Gloss=see
 9	hakà	hakà	ADV	_	_	8	comp:obl	_	AlignBegin=295985|AlignEnd=296201|Gloss=like_this
-10	mài	mài	PART	_	_	8	comp:obj	_	AlignBegin=296201|AlignEnd=296417|Gloss=holder_of
+10	mài	mài	NOUN	_	_	8	comp:obj	_	AlignBegin=296201|AlignEnd=296417|Gloss=holder_of
 11	àrhaː	àrhaː	NOUN	_	_	10	compound	_	AlignBegin=296417|AlignEnd=296633|Gloss=cheapness
 12	<	<	PUNCT	_	_	6	punct	_	AlignBegin=296633|AlignEnd=296849|Gloss=PUNCT
 13	wajen	wajen	ADP	_	_	18	mod	_	AlignBegin=296849|AlignEnd=297065|Gloss=around
-14	màːsu	màːsu	PART	_	Number=Plur	13	comp:obj	_	AlignBegin=297065|AlignEnd=297281|Gloss=holder_of.Plur
+14	màːsu	màːsu	NOUN	_	Number=Plur	13	comp:obj	_	AlignBegin=297065|AlignEnd=297281|Gloss=holder_of.Plur
 15	moːtòː	moːtòː	NOUN	_	_	14	compound	_	AlignBegin=297281|AlignEnd=297497|Gloss=car
 16	<	<	PUNCT	_	_	13	punct	_	AlignBegin=297497|AlignEnd=297713|Gloss=PUNCT
 17	sai	sai	ADV	_	_	18	mod	_	AlignBegin=297713|AlignEnd=297929|Gloss=then
@@ -3140,7 +3140,7 @@
 # phonetic_text = duk noːmaː -n raːniː -ǹ / baːmàː màː yîː -n -shi dà yawàː sòːsai //
 # text = duk noːman raːnîn < baːmàː yîn =shi dà yawàː sòːsai //
 # text_en =  All dry season farming, we don't do much.
-1	duk	dukà	DET	_	PronType=Tot	2	det	_	AlignBegin=394442|AlignEnd=394649|Gloss=all
+1	duk	dukà	DET	_	_	2	det	_	AlignBegin=394442|AlignEnd=394649|Gloss=all
 2	noːman	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	5	dislocated@comp	_	AlignBegin=394649|AlignEnd=394753|Gloss=farm.Vnoun.Cons
 3	raːnîn	raːniː	NOUN	_	Definite=Def	2	compound	_	AlignBegin=394856|AlignEnd=394960|Gloss=dry_season.Def
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=395063|AlignEnd=395270|Gloss=PUNCT
@@ -3193,7 +3193,7 @@
 4	mukè	kè	AUX	_	Number=Plur|Person=1	3	comp:obj	_	AlignBegin=401125|AlignEnd=401306|Background=Yes|Gloss=1Plurur.Pred/Loc.Bkg|wordform=kèː
 5	dà	dà	ADP	_	_	4	comp:loc	_	AlignBegin=401306|AlignEnd=401487|Gloss=with
 6	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=401487|AlignEnd=401668|Gloss=3Masc.Nom
-7	dun	dukà	DET	_	PronType=Tot	8	det	_	AlignBegin=401849|AlignEnd=402030|Gloss=all
+7	dun	dukà	DET	_	_	8	det	_	AlignBegin=401849|AlignEnd=402030|Gloss=all
 8	ruwan	ruwaː	NOUN	_	Definite=Cons	13	dislocated@top	_	AlignBegin=402030|AlignEnd=402120|Gloss=water.Cons|wordform=ruwaː
 9	dà	dà	SCONJ	_	_	8	mod@relcl	_	AlignBegin=402211|AlignEnd=402392|Gloss=COMP
 10	mukè	kè	AUX	_	Number=Plur|Person=1	9	comp:obj	_	AlignBegin=402392|AlignEnd=402573|Background=Yes|Gloss=1Plurur.Pred/Loc.Bkg|wordform=kèː
@@ -3387,7 +3387,7 @@
 5	iyà	iyàː	VERB	_	_	4	mod@relcl	_	AlignBegin=428660|AlignEnd=428878|Gloss=can
 6	tunàːwaː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=428878|AlignEnd=428987|Gloss=think.Vnoun
 7	loːkàcîn	loːkàciː	NOUN	_	Definite=Def	6	mod	_	AlignBegin=429096|AlignEnd=429205|Gloss=time.Def
-8	mài	mài	PART	_	_	6	udep	_	AlignBegin=429314|AlignEnd=429532|Gloss=holder_of
+8	mài	mài	NOUN	_	_	6	udep	_	AlignBegin=429314|AlignEnd=429532|Gloss=holder_of
 9	gidan	gidaː	NOUN	_	Definite=Cons	8	compound	_	AlignBegin=429532|AlignEnd=429605|Gloss=home.Cons
 10	=mù	=mù	PRON	_	Number=Plur|Person=1|PronType=Prs	8	mod@poss	_	AlignBegin=429678|AlignEnd=429750|Gloss=1Plur.Gen
 11	sòːsai	sòːsai	ADV	_	_	4	mod	_	AlignBegin=429750|AlignEnd=429968|Gloss=quite
@@ -3678,7 +3678,7 @@
 # phonetic_text = ìdan mukà jeː dà shiː mukà kai mà gùndumàn basaːwa / /
 # text = ìdan mukà jeː dà shiː mukà kai mà Gùndumàn Basaːwa //
 # text_en =  When we move it, we take it to Gunduman Basawa.
-1	ìdan	ìdan	ADV	_	_	6	mod	_	AlignBegin=467537|AlignEnd=467674|Gloss=if
+1	ìdan	ìdan	SCONJ	_	_	6	mod	_	AlignBegin=467537|AlignEnd=467674|Gloss=if
 2	mukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=1	1	comp:obj	_	AlignBegin=467674|AlignEnd=467811|Background=Yes|Gloss=1Plur.Perf.Bkg
 3	jeː	jeːyàː	VERB	_	_	2	comp:aux	_	AlignBegin=467811|AlignEnd=467948|Gloss=go
 4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=467948|AlignEnd=468085|Gloss=with
@@ -4554,7 +4554,7 @@
 # text_en =  You know, cattle drivers they are not really careful.
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	discourse	_	AlignBegin=581782|AlignEnd=581941|Gloss=2Masc.Perf
 2	sanìː	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=581941|AlignEnd=582100|Gloss=know
-3	màːsu	màːsu	PART	_	Number=Plur	7	dislocated@subj	_	AlignBegin=582100|AlignEnd=582259|Gloss=holder_of.Plur
+3	màːsu	màːsu	NOUN	_	Number=Plur	7	dislocated@subj	_	AlignBegin=582100|AlignEnd=582259|Gloss=holder_of.Plur
 4	kiːwòn	kiːwòː	NOUN	_	Definite=Cons|ExtPos=NOUN	3	compound	_	AlignBegin=582259|AlignEnd=582339|Gloss=cattle_breeding.Cons
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=582418|AlignEnd=582577|Gloss=PUNCT
 6	bàː	bàː	PART	_	Polarity=Neg	7	mod	_	AlignBegin=582779|AlignEnd=582925|Gloss=Neg
