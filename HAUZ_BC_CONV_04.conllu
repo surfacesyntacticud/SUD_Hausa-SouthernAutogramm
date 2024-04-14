@@ -870,7 +870,7 @@
 10	bàn	bài	AUX	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Neg	8	conj:dicto	_	AlignBegin=98087|AlignEnd=98242|Gloss=1Sing.Perf.Neg
 11	shaː	shaː	VERB	_	_	10	comp:aux	_	AlignBegin=98242|AlignEnd=98397|Gloss=drink
 12	ba	ba	PART	_	Polarity=Neg	10	mod	_	AlignBegin=98397|AlignEnd=98552|Gloss=Neg
-13	dan	dan	SCONJ	_	_	10	mod	_	AlignBegin=98708|AlignEnd=98833|Gloss=because
+13	dan	don	SCONJ	_	_	10	mod	_	AlignBegin=98708|AlignEnd=98833|Gloss=because
 14	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	13	comp:obj	_	AlignBegin=98833|AlignEnd=98958|Gloss=2Masc.Perf
 15	san	sanìː	VERB	_	_	14	comp:aux	_	AlignBegin=98958|AlignEnd=99083|Gloss=know
 16	baːnàː	bâi	AUX	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Neg	15	comp:obj	_	AlignBegin=99083|AlignEnd=99208|Gloss=1Sing.Prog.Neg
@@ -968,7 +968,7 @@
 # phonetic_text = dan in ya sha sai an nuːnàː mashì hanyàː -n gidaː //
 # text = don in ya sha sai an nuːnàː mashì hanyàn gidaː //
 # text_en =  Because when he drinks, they have to show him the way back to his house.
-1	dan	dan	ADV	_	_	6	discourse	_	AlignBegin=111871|AlignEnd=111986|Gloss=because
+1	dan	don	SCONJ	_	_	6	discourse	_	AlignBegin=111871|AlignEnd=111986|Gloss=because
 2	in	in	SCONJ	_	_	6	mod	_	AlignBegin=111986|AlignEnd=112101|Gloss=if
 3	ya	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=112101|AlignEnd=112216|Background=Yes|Gloss=3Masc.Perf.Bkg
 4	sha	sha	VERB	_	_	3	comp:aux	_	AlignBegin=112216|AlignEnd=112331|Gloss=drink
@@ -2663,18 +2663,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 314903, 317735
 # phonetic_text = dan zân tunàː kàːfin mài gidaː -n -mù yà ràsu / inàː bâː kà làːbaːr̃ìː //
-# text = don zân tunà kàːfin mài gidanmù yà ràsu / inàː baː kà làːbaːr̃ìː //
+# text = don zân tunàː kàːfin mài gidanmù yà ràsu / inàː baː kà làːbaːr̃ìː //
 # text_en =  As I remember when our father died, I will tell you a story.
-1	dan	dan	SCONJ	_	_	11	mod	_	AlignBegin=314903|AlignEnd=315094|Gloss=because
-2	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	1	comp:obj	_	AlignBegin=315094|AlignEnd=315285|Gloss=1Sing.Fut
-3	tunà	tun-	VERB	_	_	2	comp:obj	_	AlignBegin=315285|AlignEnd=315476|Gloss=remember
-4	kàːfin	kàːfin	SCONJ	_	_	3	comp:obj	_	AlignBegin=315476|AlignEnd=315667|Gloss=before
+1	dan	dan	SCONJ	_	_	11	discourse	_	AlignBegin=314903|AlignEnd=315094|Gloss=because
+2	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	11	discourse	_	AlignBegin=315094|AlignEnd=315285|Gloss=1Sing.Fut
+3	tunàː	tun-	VERB	_	_	2	comp:aux	_	AlignBegin=315285|AlignEnd=315476|Gloss=remember
+4	kàːfin	kàːfin	SCONJ	_	_	11	mod	_	AlignBegin=315476|AlignEnd=315667|Gloss=before
 5	mài	mài	NOUN	_	_	8	subj	_	AlignBegin=315667|AlignEnd=315858|Gloss=holder_of
 6	gidan	gidaː	NOUN	_	Definite=Cons	5	compound	_	AlignBegin=315858|AlignEnd=315922|Gloss=house.Cons|wordform=gidaː
 7	=mù	=mù	PRON	_	Number=Plur|Person=1|PronType=Prs	5	mod@poss	_	AlignBegin=315986|AlignEnd=316049|Gloss=1Plur.Gen
 8	yà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=3	4	comp:obj	_	AlignBegin=316049|AlignEnd=316240|Gloss=3Masc.Aor
 9	ràsu	ras-	VERB	_	_	8	comp:aux	_	AlignBegin=316240|AlignEnd=316431|Gloss=die
-10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=316431|AlignEnd=316621|Gloss=PUNCT|wordform=/
+10	<	<	PUNCT	_	_	4	punct	_	AlignBegin=316431|AlignEnd=316621|Gloss=PUNCT|wordform=/
 11	inàː	nàː	AUX	_	Number=Sing|Person=1	0	root	_	AlignBegin=316907|AlignEnd=317073|Gloss=1Sing.Imp
 12	baː	baː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	11	comp:aux	_	AlignBegin=317073|AlignEnd=317239|Gloss=give.Vnoun
 13	kà	kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	12	comp:ben	_	AlignBegin=317239|AlignEnd=317405|Gloss=2Masc.Aor
@@ -3028,7 +3028,7 @@
 # phonetic_text = dan yànzu / koː kyàutaː / ka yi wà mùtûm / kaː ɗàukaː -i maː mìliyàn ka bâː shi / yandà ka sanìː bàkà ɗàukaː -i koːmeː kaː bâː shi ba //
 # text = dan yànzu < koː kyàutaː >+ ka: yi wà mùtûm kaː ɗàuki maː mìliyàn ka baː shì < yandà ka sanìː bàkà ɗàuki koːmeː kaː baː shì ba //
 # text_en =  Because now, even as a gift to somebody, if you take even one million to give him, you know that you haven't taken anything to give him.
-1	dan	dan	ADV	_	_	22	discourse	_	AlignBegin=369268|AlignEnd=369465|Gloss=because
+1	dan	don	SCONJ	_	_	22	discourse	_	AlignBegin=369268|AlignEnd=369465|Gloss=because
 2	yànzu	yànzu	ADV	_	_	22	mod	_	AlignBegin=369465|AlignEnd=369662|Gloss=now
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=369662|AlignEnd=369858|Gloss=PUNCT|wordform=/
 4	koː	koː	SCONJ	_	_	22	mod	_	AlignBegin=369858|AlignEnd=370067|Gloss=even_if
@@ -4046,7 +4046,7 @@
 # phonetic_text = dan kaː sanìː / shiː nèː mài taːrà ribìɗiː / nan dà nan //
 # text = dan kaː san / shiː nèː mài taːrà ribìɗiː / nan dà nan //
 # text_en =  Because you know, it (millet stalk) is what produces good warm ashes instantly.
-1	dan	dan	ADV	_	_	6	discourse	_	AlignBegin=503570|AlignEnd=503693|Gloss=because
+1	dan	don	SCONJ	_	_	6	discourse	_	AlignBegin=503570|AlignEnd=503693|Gloss=because
 2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	discourse	_	AlignBegin=503693|AlignEnd=503816|Gloss=2Masc.Perf
 3	sanìː	sanìː	VERB	_	_	2	comp:aux	_	AlignBegin=503816|AlignEnd=503939|Gloss=know
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=503939|AlignEnd=504062|Gloss=PUNCT|wordform=/
@@ -4058,7 +4058,7 @@
 10	>	>	PUNCT	_	_	11	punct	_	AlignBegin=504922|AlignEnd=505095|Gloss=PUNCT|wordform=/
 11	nan	nan	ADV	_	Definite=Def	6	comp:pred	_	AlignBegin=505095|AlignEnd=505229|Gloss=Def
 12	dà	dà	CCONJ	_	_	13	cc	_	AlignBegin=505229|AlignEnd=505363|Gloss=with
-13	nan	nan	DET	_	Definite=Def	11	conj:coord	_	AlignBegin=505363|AlignEnd=505497|Gloss=Def
+13	nan	nan	ADV	_	Definite=Def	11	conj:coord	_	AlignBegin=505363|AlignEnd=505497|Gloss=Def
 14	//	//	PUNCT	_	_	6	punct	_	AlignBegin=505497|AlignEnd=505631|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0424-0428
@@ -4682,8 +4682,8 @@
 # phonetic_text = dan sarkiː -aCunaː\HL sukà &// bàsù cirèː bàːkiː -n -sù / à màganàː -n sìyaːsàː -n ƙasaː //
 # text = dan saraːkunàː sukà || bàsù cirè bàːkin =sù à màganàn sìyaːsàn ƙasaː //
 # text_en =  Because the traditional rulers... did not close their mouths... about national politics.
-1	dan	dan	ADV	_	_	3	discourse	_	AlignBegin=588011|AlignEnd=588282|Gloss=because
-2	saraːkunàː	sarkiː	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=588282|AlignEnd=588418|Gloss=king.Plur|wordform=sarkiː
+1	dan	don	SCONJ	_	_	3	discourse	_	AlignBegin=588011|AlignEnd=588282|Gloss=because
+2	saraːkunàː	sarkiː	NOUN	_	Number=Plur	3	subj	_	AlignBegin=588282|AlignEnd=588418|Gloss=king.Plur|wordform=sarkiː
 3	sukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=588553|AlignEnd=588824|Background=Yes|Gloss=3Plur.Perf.Bkg
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=588824|AlignEnd=589095|Gloss=PUNCT
 5	bàsù	bài	AUX	_	Aspect=Perf|Number=Plur|Person=1|Polarity=Neg	3	conj:dicto	_	AlignBegin=589095|AlignEnd=589394|Gloss=2Plur.Perf.Neg
@@ -4924,7 +4924,7 @@
 # phonetic_text = dan àlʼamàr̃iː -uCaː\HL -ǹ sun canzàː //
 # text = dan alʼamur̃àn sun canzàː //
 # text_en =  Because things have changed.
-1	dan	dan	ADV	_	_	3	discourse	_	AlignBegin=614972|AlignEnd=615247|Gloss=because
+1	dan	don	SCONJ	_	_	3	discourse	_	AlignBegin=614972|AlignEnd=615247|Gloss=because
 2	alʼamur̃àn	àlʼamàr̃iː	NOUN	_	Number=Plur	3	subj	_	AlignBegin=615247|AlignEnd=615339|Gloss=affairs.Plur.PUNCT|wordform=àlʼamàr̃iː
 3	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=615522|AlignEnd=615797|Gloss=3Plur.Perf
 4	canzàː	canz-	VERB	_	_	3	comp:aux	_	AlignBegin=615797|AlignEnd=616072|Gloss=change
@@ -4947,7 +4947,7 @@
 # phonetic_text = dan yâu / yâu akà cêː makà bâː ka dà shiː //
 # text = dan yâu < yâu akà cêː makà baːkà dà shiː //
 # text_en =  Because now, now they say that we don't have anything.
-1	dan	dan	ADV	_	_	5	discourse	_	AlignBegin=617468|AlignEnd=617716|Gloss=because
+1	dan	don	SCONJ	_	_	5	discourse	_	AlignBegin=617468|AlignEnd=617716|Gloss=because
 2	yâu	yâu	ADV	_	_	5	discourse	_	AlignBegin=617716|AlignEnd=617964|Gloss=today
 3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=617964|AlignEnd=618213|Gloss=PUNCT|wordform=/
 4	yâu	yâu	ADV	_	_	2	conj:dicto	_	AlignBegin=618802|AlignEnd=618978|Gloss=today
@@ -5458,14 +5458,14 @@
 # sent_timecode = 675848, 677614
 # phonetic_text = Allàː ji kâi -n Najùːme / bàː dan yaː mutù ba //
 # text = Allàː ji kân Najùːme / bàː don yaː mutù ba //
-# text_en =  May God have pity on Najume althought he isn't dead.
+# text_en =  May God have pity on Najume not because he's dead.
 1	Allàː	Allàː	PROPN	_	_	2	subj	_	AlignBegin=675848|AlignEnd=676037|Gloss=God
 2	ji	ji	VERB	_	Mood=Imp	0	root	_	AlignBegin=676037|AlignEnd=676226|Gloss=hear.Imp
 3	kân	kân	ADP	_	_	2	comp:obj	_	AlignBegin=676226|AlignEnd=676320|Gloss=head.Cons|wordform=kâi
 4	Najùːme	Najùːme	PROPN	_	_	3	comp:obj	_	AlignBegin=676415|AlignEnd=676604|Gloss=Najume
 5	>	>	PUNCT	_	_	7	punct	_	AlignBegin=676604|AlignEnd=676791|Gloss=PUNCT|wordform=/
 6	bàː	bàː	PART	_	Polarity=Neg	7	mod	_	AlignBegin=676791|AlignEnd=676928|Gloss=Neg
-7	dan	dan	SCONJ	_	_	2	mod	_	AlignBegin=676928|AlignEnd=677065|Gloss=because
+7	dan	don	SCONJ	_	_	2	mod	_	AlignBegin=676928|AlignEnd=677065|Gloss=because
 8	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	7	comp:obj	_	AlignBegin=677065|AlignEnd=677202|Gloss=3Masc.Perf
 9	mutù	mutù	VERB	_	_	8	comp:aux	_	AlignBegin=677202|AlignEnd=677339|Gloss=die
 10	ba	ba	PART	_	Polarity=Neg	7	mod	_	AlignBegin=677339|AlignEnd=677476|Gloss=Neg
@@ -10216,7 +10216,7 @@
 # phonetic_text = dan bà zân tunàː ba / gidaː -n su Usèːna //
 # text = don bà zân tunàː ba / gidan su Usèːna //
 # text_en =  Because I remember it was in Huseina's house.
-1	dan	dan	ADV	_	_	3	discourse	_	AlignBegin=1226460|AlignEnd=1226580|Gloss=because
+1	dan	don	SCONJ	_	_	3	discourse	_	AlignBegin=1226460|AlignEnd=1226580|Gloss=because
 2	bà	bà	PART	_	Polarity=Neg	3	mod	_	AlignBegin=1226580|AlignEnd=122670|Gloss=Neg
 3	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=122670|AlignEnd=1226820|Gloss=1Sing.Fut
 4	tunàː	tun-	VERB	_	VerbForm=Vnoun	3	comp:aux	_	AlignBegin=1226820|AlignEnd=1226950|ExtPos=NOUN|Gloss=remember
@@ -10523,9 +10523,9 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1263846, 1267469
 # phonetic_text = dan / in kanàː sôː -n kà sàːmaː -eː shi / yànzu -n indà zaːkà sàːmaː -eː shi / sai kaː jeː tudùnwàda //
-# text = don < in kanàː sôn kà sàːme shi < yànzun indà zaːkà sàːmeː shi < sai kaː jeː Tudùn-Wàda //
+# text = dan < in kanàː sôn kà sàːme shi < yànzun indà zaːkà sàːmeː shi < sai kaː jeː Tudùn-Wàda //
 # text_en =  Because if you want to get it, now, if you want to get it, you have to go to Tudun Wada.
-1	don	don	ADV	_	_	17	discourse	_	AlignBegin=1263850|AlignEnd=1263940|Gloss=because
+1	dan	don	SCONJ	_	_	17	discourse	_	AlignBegin=1263850|AlignEnd=1263940|Gloss=because
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1263940|AlignEnd=1264040|Gloss=PUNCT|wordform=/
 3	in	in	SCONJ	_	_	17	mod	_	AlignBegin=1264040|AlignEnd=1264210|Gloss=if
 4	kanàː	nàː	AUX	_	Gender=Masc|Person=2	3	comp:obj	_	AlignBegin=1264210|AlignEnd=1264380|Gloss=2Masc.Imp
@@ -11704,7 +11704,7 @@
 # phonetic_text = dan gaskiyaː // aː / aː / bàkà ganiː tà ba kèː nan // taː cìka / dam //
 # text = dan gaskiyaː < aː ?// aː < bàkà gan tà ba kèːnan <
 # text_en =  Really, my my didn't you see her?
-1	dan	dan	ADV	_	_	8	discourse	_	AlignBegin=1405820|AlignEnd=1406040|Gloss=because
+1	dan	don	SCONJ	_	_	8	discourse	_	AlignBegin=1405820|AlignEnd=1406040|Gloss=because
 2	gaskiyaː	gaskiyaː	NOUN	_	_	8	discourse	_	AlignBegin=1406040|AlignEnd=1406260|Gloss=truth
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=1406260|AlignEnd=1406490|Gloss=PUNCT
 4	aː	aː	INTJ	_	_	8	discourse	_	AlignBegin=1406720|AlignEnd=1406830|Gloss=FILL
@@ -11782,7 +11782,7 @@
 # phonetic_text = dan in bàː yànzu ta jeː ɗaːkìː -n mijìː -n -tà ba in ka ba &// kà bâː tà shèːkaràː gùdaː sai taː lAllàːceː //
 # text = don in bàː yànzu ta jeː ɗaːkìn mijìntà baː in ka ba || kà baː tà shèːkaràː gùdaː sai taː lallàːceː //
 # text_en =  Because if she doesn't go now to stay with her husband... just give her one year and she will get spoilt.
-1	dan	dan	ADV	_	_	21	discourse	_	AlignBegin=1417440|AlignEnd=1417590|Gloss=because
+1	dan	don	SCONJ	_	_	21	discourse	_	AlignBegin=1417440|AlignEnd=1417590|Gloss=because
 2	in	in	SCONJ	_	_	21	mod	_	AlignBegin=1417590|AlignEnd=1417740|Gloss=if
 3	bàː	bàː	PART	_	Polarity=Neg	4	mod	_	AlignBegin=1417740|AlignEnd=1417890|Gloss=Neg
 4	yànzu	yànzu	ADV	_	_	2	comp:obj	_	AlignBegin=1417890|AlignEnd=1418040|Gloss=now
@@ -11813,7 +11813,7 @@
 # phonetic_text = dan àbù -uCaː\HL -ǹ hakà su kèː //
 # text = dan abuːbuwàn hakà sukè //
 # text_en =  Because that's the way things are.
-1	dan	dan	ADV	_	_	3	discourse	_	AlignBegin=1422310|AlignEnd=1422470|Gloss=because
+1	dan	don	SCONJ	_	_	3	discourse	_	AlignBegin=1422310|AlignEnd=1422470|Gloss=because
 2	abuːbuwàn	abuːbuwàː	NOUN	_	Definite=Def|Number=Plur	3	dislocated@top	_	AlignBegin=1422470|AlignEnd=1422520|Gloss=thing.Plur.Def
 3	hakà	hakà	ADV	_	_	0	root	_	AlignBegin=1422630|AlignEnd=1422790|Gloss=like_this
 4	sukè	kè	AUX	_	Number=Plur|Person=3	3	comp:cleft	_	AlignBegin=1422950|AlignEnd=1423110|Background=Yes|Gloss=3Plur.Pred/Loc.Bkg|wordform=kèː
