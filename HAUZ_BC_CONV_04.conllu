@@ -1147,7 +1147,7 @@
 # phonetic_text = wai XX wai an ganiː wani mài maːgàniː / shaː kà ji gar̃as //
 # text = wai || wai an ga wani mài maːgàniː shaː kà ji gar̃as //
 # text_en =  They say, they say that they saw someone selling medicine saying "Drink and you'll feel good".
-1	wai	wai	PART	_	_	4	discourse	_	AlignBegin=131470|AlignEnd=131691|Gloss=EVD
+1	wai	wai	SCONJ	_	_	4	discourse	_	AlignBegin=131470|AlignEnd=131691|Gloss=EVD
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=131691|AlignEnd=131912|Gloss=PUNCT
 3	wai	wai	SCONJ	_	_	1	conj:dicto	_	AlignBegin=131912|AlignEnd=132133|Gloss=EVD
 4	an	yaː	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=132133|AlignEnd=132354|Gloss=4.Perf
@@ -1155,7 +1155,7 @@
 6	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	7	det	_	AlignBegin=132575|AlignEnd=132796|Gloss=some.Masc
 7	mài	mài	NOUN	_	_	5	comp:obj	_	AlignBegin=132796|AlignEnd=133017|Gloss=holder_of
 8	maːgàniː	maːgàniː	NOUN	_	_	7	compound	_	AlignBegin=133017|AlignEnd=133238|Gloss=medicine
-9	shaː	shaː	VERB	_	Mood=Jus	8	conj:appos	_	AlignBegin=133636|AlignEnd=133848|Gloss=drink.Jus
+9	shaː	shaː	VERB	_	Mood=Imp	7	conj:appos	_	AlignBegin=133636|AlignEnd=133848|Gloss=drink.Imp
 10	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	9	conj:coord	_	AlignBegin=133848|AlignEnd=134060|Gloss=2Masc.Aor
 11	ji	ji	VERB	_	_	10	comp:aux	_	AlignBegin=134060|AlignEnd=134272|Gloss=feel
 12	gar̃as	gar̃as	IDEO	_	_	11	comp:pred	_	AlignBegin=134272|AlignEnd=134484|Gloss=well_being
@@ -5161,18 +5161,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 639895, 641565
 # phonetic_text = kà jeː wuriː -n mài màːtaː wai / kanàː neːmaː -n baːshìː //
-# text = kà jeː wurin mài màːtaː wai kanàː neːman baːshìː //
-# text_en =  should go to a married man and ask for a loan.
+# text = kà jeː wurin mài màːtaː wai kanàː neːman baːshìː !//
+# text_en = Go to a married man and ask for a loan!
 1	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=639895|AlignEnd=640023|Gloss=2Masc.Aor
 2	jeː	jeː	VERB	_	_	1	comp:aux	_	AlignBegin=640023|AlignEnd=640151|Gloss=go
 3	wurin	wuriː	NOUN	_	_	2	comp:obl	_	AlignBegin=640151|AlignEnd=640215|Gloss=at|wordform=wuriː
 4	mài	mài	NOUN	_	_	3	mod	_	AlignBegin=640279|AlignEnd=640407|Gloss=holder_of
 5	màːtaː	màːtaː	NOUN	_	_	4	compound	_	AlignBegin=640407|AlignEnd=640535|Gloss=wife
-6	wai	wai	SCONJ	_	_	2	comp:obj	_	AlignBegin=640535|AlignEnd=640663|Gloss=EVD
-7	kanàː	nàː	AUX	_	Gender=Masc|Person=2	6	comp:obj	_	AlignBegin=640790|AlignEnd=640984|Gloss=2Masc.Imp
-8	neːman	neːm-	VERB	_	Definite=Cons	7	comp:aux	_	AlignBegin=640984|AlignEnd=641081|Gloss=look_for.Vnoun.Cons|wordform=neːmaː
+6	wai	wai	SCONJ	_	_	7	discourse	_	AlignBegin=640535|AlignEnd=640663|Gloss=EVD
+7	kanàː	nàː	AUX	_	Gender=Masc|Person=2	1	parataxis	_	AlignBegin=640790|AlignEnd=640984|Gloss=2Masc.Imp
+8	neːman	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=640984|AlignEnd=641081|Gloss=look_for.Vnoun.Cons|wordform=neːmaː
 9	baːshìː	baːshìː	NOUN	_	_	8	mod	_	AlignBegin=641178|AlignEnd=641372|Gloss=loan
-10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=641372|AlignEnd=641565|Gloss=PUNCT
+10	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=641372|AlignEnd=641565|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0545-0545
 # speaker_id = SP2
@@ -5983,7 +5983,7 @@
 # phonetic_text = gàː shi nan wai shiː wani àbù wai shiː / tazar̃gàdèː //
 # text = gàː shi nan wai shiː &//
 # text_en = There's what...
-1	gàː	gàː	PART	_	_	5	discourse	_	AlignBegin=732547|AlignEnd=732820|Gloss=here_is
+1	gàː	gàː	PART	_	_	5	dislocated	_	AlignBegin=732547|AlignEnd=732820|Gloss=here_is
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	1	subj	_	AlignBegin=732820|AlignEnd=733093|Gloss=3Masc
 3	nan	nan	ADV	_	Definite=Def	1	comp:pred	_	AlignBegin=733093|AlignEnd=733365|Gloss=Def
 4	wai	wai	SCONJ	_	_	5	mod	_	AlignBegin=734224|AlignEnd=734348|Gloss=EVD
@@ -5998,8 +5998,8 @@
 # text = wani àbù wai shiː tazar̃gàdèː //
 # text_en = There's something they call "tagargaje".
 1	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	2	det	_	AlignBegin=734472|AlignEnd=734596|Gloss=some.Masc
-2	àbù	àbù	NOUN	_	_	5	dislocated@top	_	AlignBegin=734596|AlignEnd=734720|Gloss=thing
-3	wai	wai	SCONJ	_	_	5	mod	_	AlignBegin=734720|AlignEnd=734844|Gloss=EVD
+2	àbù	àbù	NOUN	_	_	5	dislocated	_	AlignBegin=734596|AlignEnd=734720|Gloss=thing
+3	wai	wai	SCONJ	_	_	5	discourse	_	AlignBegin=734720|AlignEnd=734844|Gloss=EVD
 4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	subj	_	AlignBegin=734844|AlignEnd=734968|Gloss=3Masc.Nom
 5	tazar̃gàdèː	tazar̃gàdèː	NOUN	_	_	0	root	_	AlignBegin=735094|AlignEnd=735446|Gloss=herb_sp
 6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=735446|AlignEnd=735797|Gloss=PUNCT
@@ -7871,7 +7871,7 @@
 7	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=946846|AlignEnd=946983|Gloss=with
 8	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	9	det	_	AlignBegin=946983|AlignEnd=947120|Gloss=some.Masc
 9	àbù	àbù	NOUN	_	_	7	comp:obj	_	AlignBegin=947120|AlignEnd=947257|Gloss=thing
-10	wai	wai	SCONJ	_	_	9	mod@relcl	_	AlignBegin=947392|AlignEnd=947613|Gloss=EVD
+10	wai	wai	SCONJ	_	_	9	mod	_	AlignBegin=947392|AlignEnd=947613|Gloss=EVD
 11	gwandàn	gwandàː	NOUN	_	Definite=Def	10	comp:obj	_	AlignBegin=947613|AlignEnd=947723|Gloss=pawpaw.Cons|wordform=gwandàː
 12	daːjìː	daːjìː	NOUN	_	_	11	mod	_	AlignBegin=947834|AlignEnd=948055|Gloss=bush
 13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=948055|AlignEnd=948276|Gloss=PUNCT
