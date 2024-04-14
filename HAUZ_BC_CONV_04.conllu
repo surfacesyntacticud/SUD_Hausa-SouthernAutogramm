@@ -1363,7 +1363,7 @@
 16	akèː	kèː	AUX	_	Aspect=Prog|Person=4	15	comp:obj	_	AlignBegin=161460|AlignEnd=161670|Background=Yes|Gloss=4.Prog.Bkg
 17	jiːmàː	jeːm-	VERB	_	VerbForm=Vnoun	16	comp:aux	_	AlignBegin=161670|AlignEnd=161880|ExtPos=NOUN|Gloss=tan.Vnoun
 18	à	à	ADP	_	_	17	comp:obl	_	AlignBegin=161880|AlignEnd=162090|Gloss=at
-19	nan	nan	NOUN	_	Definite=Def	18	comp:obj	_	AlignBegin=162090|AlignEnd=162300|Gloss=Def
+19	nan	nan	ADV	_	Definite=Def	18	comp:obj	_	AlignBegin=162090|AlignEnd=162300|Gloss=Def
 20	gidan	gidaː	NOUN	_	Definite=Cons	19	conj:appos	_	AlignBegin=162300|AlignEnd=162370|Gloss=house.Cons|wordform=gidaː
 21	=kù	=kù	PRON	_	Number=Plur|Person=3|PronType=Prs	20	mod@poss	_	AlignBegin=162440|AlignEnd=162510|Gloss=2Plur.Gen
 22	//	//	PUNCT	_	_	12	punct	_	AlignBegin=162510|AlignEnd=162716|Gloss=PUNCT
@@ -3493,7 +3493,7 @@
 # text = na noːman daːwàː dà dànkalìː //
 # text_en =  That of the farming of guinea-corn and sweet potatoes.
 1	na	na	PART	_	Definite=Cons	0	root	_	AlignBegin=431464|AlignEnd=431781|Gloss=Cons
-2	noːman	noːmaː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	1	comp:pred	_	AlignBegin=431781|AlignEnd=431939|Gloss=farm.Vnoun.Cons|wordform=noːmaː
+2	noːman	noːmaː	NOUN	_	Definite=Cons	1	comp:obj	_	AlignBegin=431781|AlignEnd=431939|Gloss=farming.Cons|wordform=noːmaː
 3	daːwàː	daːwàː	NOUN	_	_	2	mod	_	AlignBegin=433944|AlignEnd=434190|Gloss=guinea-corn
 4	dà	dà	CCONJ	_	_	5	cc	_	AlignBegin=434190|AlignEnd=434436|Gloss=and
 5	dànkalìː	dànkalìː	NOUN	_	_	2	conj:coord	_	AlignBegin=434436|AlignEnd=434682|Gloss=sweet_potatoes
@@ -5629,7 +5629,7 @@
 4	ya	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=3	3	comp:cleft	_	AlignBegin=692132|AlignEnd=692318|Background=Yes|Gloss=3Masc.Perf.Bkg
 5	baː	baː	VERB	_	_	4	comp:aux	_	AlignBegin=692318|AlignEnd=692504|Gloss=give
 6	dà	dà	ADP	_	_	5	comp:obl	_	AlignBegin=692504|AlignEnd=692690|Gloss=with
-7	ràkeː	ràkeː	VERB	_	_	6	comp:obj	_	AlignBegin=692690|AlignEnd=692876|Gloss=sugar-cane
+7	ràkeː	ràkeː	NOUN	_	_	6	comp:obj	_	AlignBegin=692690|AlignEnd=692876|Gloss=sugar-cane
 8	nèː	neː	PART	_	_	7	mod@emp	_	AlignBegin=692876|AlignEnd=693062|Gloss=Ident/Foc
 9	<	<	PUNCT	_	_	3	punct	_	AlignBegin=693062|AlignEnd=693249|Gloss=PUNCT|wordform=/
 
@@ -5704,7 +5704,7 @@
 2	sukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=699447|AlignEnd=699773|Background=Yes|Gloss=3Plur.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=699773|AlignEnd=700099|Gloss=say
 4	saːkar̃ai	saːkar̃ai	NOUN	_	Number=Plur	5	comp:pred	_	AlignBegin=700423|AlignEnd=700736|Gloss=fool.Plur
-5	nàː	nàː	PART	_	_	3	comp:obj	_	AlignBegin=700736|AlignEnd=701049|Gloss=Pred/Loc
+5	nàː	naː	PART	_	_	3	comp:obj	_	AlignBegin=700736|AlignEnd=701049|Gloss=Pred/Loc
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=701049|AlignEnd=701361|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0601-0601
@@ -6232,7 +6232,7 @@
 4	abuːbuwàn	àbù	NOUN	_	Number=Plur	5	comp:pred	_	AlignBegin=766441|AlignEnd=766502|Gloss=thing.Plur.Def|wordform=àbù
 5	nèː	neː	PART	_	_	0	root@scrap	_	AlignBegin=766625|AlignEnd=766809|Gloss=Ident/Foc
 6	sukèː	kèː	AUX	_	Number=Plur|Person=3	5	comp:cleft	_	AlignBegin=766809|AlignEnd=766993|Background=Yes|Gloss=3Plur.Imp.Bkg
-7	sôː	sôː	PRON	_	_	6	mod	_	AlignBegin=766993|AlignEnd=767177|Gloss=wanting
+7	sôː	soː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=766993|AlignEnd=767177|Gloss=want.Vnoun
 8	sù	à	AUX	_	Aspect=Aor|Number=Plur|Person=3	7	comp:obj	_	AlignBegin=767177|AlignEnd=767361|Gloss=3Plur.Aor
 9	&//	&//	PUNCT	_	_	5	punct	_	AlignBegin=767361|AlignEnd=767545|Gloss=PUNCT
 
@@ -10090,7 +10090,7 @@
 13	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1207390|AlignEnd=1207730|Gloss=PUNCT|wordform=/
 14	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=1207730|AlignEnd=1208060|Gloss=3Plur.Prog
 15	yankàn	yank-	VERB	_	Definite=Cons	14	comp:aux	_	AlignBegin=1208060|AlignEnd=1208230|Gloss=slaughter.Vnoun.Cons|wordform=yankàː
-16	naːmàː	naːmàː	PRON	_	Person=1	15	udep	_	AlignBegin=1208390|AlignEnd=1208730|Gloss=meat
+16	naːmàː	naːmàː	NOUN	_	Person=1	15	udep	_	AlignBegin=1208390|AlignEnd=1208730|Gloss=meat
 17	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	14	conj:svc	_	AlignBegin=1208730|AlignEnd=1209060|Gloss=3Plur.Prog
 18	cîː	ci	VERB	_	VerbForm=Vnoun	17	comp:aux	_	AlignBegin=1209060|AlignEnd=1209390|ExtPos=NOUN|Gloss=eat.Vnoun
 19	//	//	PUNCT	_	_	14	punct	_	AlignBegin=1209390|AlignEnd=1209720|Gloss=PUNCT
