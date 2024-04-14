@@ -7169,12 +7169,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 878080, 880368
 # phonetic_text = èː tòː / ai na yi makà na zaːmàni: kèː nan ai / /
-# text = èː tòː / ai na yi makà na zaːmàni: kèː nan ai / /
+# text = eː tòː < ai na yi makà na zaːmàni: kèːnan ai !//
 # text_en =  Well then, I've called it the modern way for you!
-1	eː	eː	INTJ	_	_	7	discourse	_	AlignBegin=878080|AlignEnd=878250|Gloss=èː|wordform=èː
+1	eː	eː	INTJ	_	_	5	discourse	_	AlignBegin=878080|AlignEnd=878250|Gloss=èː|wordform=èː
 2	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=878250|AlignEnd=878420|Gloss=well
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=878420|AlignEnd=878589|Gloss=PUNCT|wordform=/
-4	ai	ai	ADV	_	_	5	mod	_	AlignBegin=878589|AlignEnd=878751|Gloss=indeed
+4	ai	ai	INTJ	_	_	5	mod	_	AlignBegin=878589|AlignEnd=878751|Gloss=indeed
 5	na	kà	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=878751|AlignEnd=878913|Background=Yes|Gloss=1Sing.Perf.Bkg
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=878913|AlignEnd=879075|Gloss=do
 7	makà	makà	PRON	_	Gender=Masc|Person=2|PronType=Prs	6	comp:ben	_	AlignBegin=879075|AlignEnd=879237|Gloss=2Masc.Dat
@@ -7182,8 +7182,7 @@
 9	zaːmàni:	zaːmàni:	NOUN	_	_	8	comp:obj	_	AlignBegin=879399|AlignEnd=879561|Gloss=time
 10	kèːnan	kèːnan	PART	_	_	9	mod@emp	_	AlignBegin=879561|AlignEnd=879723|Background=Yes|Gloss=Ident/Foc.Bkg|wordform=kèː
 11	ai	ai	INTJ	_	_	7	mod	_	AlignBegin=879885|AlignEnd=880047|Gloss=indeed
-12	<	<	PUNCT	_	_	2	punct	_	AlignBegin=880047|AlignEnd=880209|Gloss=PUNCT|wordform=/
-13	<	<	PUNCT	_	_	2	punct	_	AlignBegin=880209|AlignEnd=880368|Gloss=PUNCT|wordform=/
+12	!//	!//	PUNCT	_	_	5	punct	_	AlignBegin=880047|AlignEnd=880209|Gloss=PUNCT|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0768-0768
 # speaker_id = SP1
@@ -9081,7 +9080,7 @@
 # phonetic_text = bàː gà yandà yànzu / Maːlàn gar̃bà yaː yanyànkaː wuriː -ǹ yaː sayar̃ //
 # text = X yànzu < Maːlàn Gar̃bà yaː yanyànkà wurîn yaː sayar̃ //
 # text_en =  [XX] now Malam Garba has divided the place to sell it.
-1	X	X	PART	_	_	6	unk@scrap	_	AlignBegin=1085430|AlignEnd=1085580|Gloss=X
+1	X	X	X	_	_	6	unk@scrap	_	AlignBegin=1085430|AlignEnd=1085580|Gloss=X
 2	yànzu	yànzu	ADV	_	_	6	mod	_	AlignBegin=108590|AlignEnd=1086060|Gloss=now
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=1086060|AlignEnd=1086220|Gloss=PUNCT|wordform=/
 4	Maːlàn	Maːlàn	PROPN	_	Definite=Cons	6	subj	_	AlignBegin=1086220|AlignEnd=1086410|Gloss=Malam
