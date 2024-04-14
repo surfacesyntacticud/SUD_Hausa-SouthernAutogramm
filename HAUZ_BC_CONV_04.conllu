@@ -2040,15 +2040,15 @@
 # phonetic_text = èː sai dai kà X &// èː akà shânyaː koː doːlè kà tsayàː kusa //
 # text = eː akà shânyaː kòː doːlè kà tsayàː kusa //
 # text_en = Er, if you dry it, you must stay nearby.
-1	eː	eː	INTJ	_	_	6	discourse	_	AlignBegin=243633|AlignEnd=243819|Gloss=FILL|wordform=èː
-2	akà	kà	AUX	_	Aspect=Perf|Person=4	6	mod	_	AlignBegin=243819|AlignEnd=244005|Background=Yes|Gloss=4.Perf.Bkg
+1	eː	eː	INTJ	_	_	5	discourse	_	AlignBegin=243633|AlignEnd=243819|Gloss=FILL|wordform=èː
+2	akà	kà	AUX	_	Aspect=Perf|Person=4	5	mod	_	AlignBegin=243819|AlignEnd=244005|Background=Yes|Gloss=4.Perf.Bkg
 3	shânyaː	shany-	VERB	_	_	2	comp:aux	_	AlignBegin=244005|AlignEnd=244191|Gloss=dry
 4	kòː	kòː	PART	_	_	2	discourse	_	AlignBegin=244191|AlignEnd=244377|Gloss=what
-5	doːlè	doːlè	ADV	_	_	6	mod	_	AlignBegin=244377|AlignEnd=244563|Gloss=must
-6	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=244563|AlignEnd=244749|Gloss=2Masc.Aor
+5	doːlè	doːlè	ADV	_	_	0	root	_	AlignBegin=244377|AlignEnd=244563|Gloss=must
+6	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	5	comp:cleft	_	AlignBegin=244563|AlignEnd=244749|Gloss=2Masc.Aor
 7	tsayàː	tsay-	VERB	_	_	6	comp:aux	_	AlignBegin=244749|AlignEnd=244935|Gloss=stand
 8	kusa	kusa	ADV	_	_	7	mod	_	AlignBegin=244935|AlignEnd=245121|Gloss=near
-9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=245121|AlignEnd=245307|Gloss=PUNCT
+9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=245121|AlignEnd=245307|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0198-0198
 # speaker_id = SP2
@@ -2576,22 +2576,22 @@
 # phonetic_text = koː dai dà bàː mù yi ba / yànzu doːlè
 # text = koː dai dà bàmù yi ba < yànzu doːlè mwâː sâː ƴaːƴan =mù sù yi //
 # text_en =  Although we didn't do it, now it's necessary to make our children go.
-1	koː	koː	SCONJ	_	ExtPos=SCONJ	10	mod	_	AlignBegin=307605|AlignEnd=307732|ExtPos=SCONJ|Gloss=or|Idiom=Yes
+1	koː	koː	SCONJ	_	ExtPos=SCONJ	9	mod	_	AlignBegin=307605|AlignEnd=307732|ExtPos=SCONJ|Gloss=or|Idiom=Yes
 2	dai	dai	PART	_	_	1	discourse	_	AlignBegin=307732|AlignEnd=307859|Gloss=indeed|InIdiom=Yes
 3	dà	dà	SCONJ	_	_	1	unk	_	AlignBegin=307859|AlignEnd=307986|Gloss=as|InIdiom=Yes
 4	bàmù	bài	AUX	_	Aspect=Perf|Number=Plur|Person=1|Polarity=Neg	1	comp:obj	_	AlignBegin=308113|AlignEnd=308240|Gloss=1Plur.Perf.Neg
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=308240|AlignEnd=308367|Gloss=do
 6	ba	ba	PART	_	Polarity=Neg	4	mod	_	AlignBegin=308367|AlignEnd=308494|Gloss=Neg
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=308494|AlignEnd=308623|Gloss=PUNCT|wordform=/
-8	yànzu	yànzu	ADV	_	_	10	mod	_	AlignBegin=309261|AlignEnd=309423|Gloss=now
-9	doːlè	doːlè	ADV	_	_	10	mod	_	AlignBegin=309423|AlignEnd=309585|Gloss=must
-10	mwâː	yâː	AUX	_	Number=Plur|Person=1|Tense=Pred	0	root	_	AlignBegin=309585|AlignEnd=309747|Gloss=1Plur.Pred
+8	yànzu	yànzu	ADV	_	_	9	mod	_	AlignBegin=309261|AlignEnd=309423|Gloss=now
+9	doːlè	doːlè	ADV	_	_	0	root	_	AlignBegin=309423|AlignEnd=309585|Gloss=must
+10	mwâː	yâː	AUX	_	Number=Plur|Person=1|Tense=Pred	9	comp:cleft	_	AlignBegin=309585|AlignEnd=309747|Gloss=1Plur.Pred
 11	sâː	sâː	VERB	_	_	10	comp:aux	_	AlignBegin=309747|AlignEnd=309909|Gloss=put
-12	ƴaːƴan	ɗaː	NOUN	_	Number=Plur	11	comp:ben	_	AlignBegin=309909|AlignEnd=310071|Gloss=child.Plur.Cons
+12	ƴaːƴan	ɗaː	NOUN	_	Number=Plur	14	subj	_	AlignBegin=309909|AlignEnd=310071|Gloss=child.Plur.Cons
 13	=mù	=mù	PRON	_	Number=Plur|Person=1|PronType=Prs	12	mod@poss	_	AlignBegin=310071|AlignEnd=310233|Gloss=1Plur.Gen
 14	sù	à	AUX	_	Number=Plur|Person=3	11	comp:obj	_	AlignBegin=310233|AlignEnd=310395|Gloss=3Plur.Aor
 15	yi	yi	VERB	_	_	14	comp:aux	_	AlignBegin=310395|AlignEnd=310554|Gloss=do
-16	//	//	PUNCT	_	_	10	punct	_	AlignBegin=310395|AlignEnd=310554|Gloss=PUNCT
+16	//	//	PUNCT	_	_	9	punct	_	AlignBegin=310395|AlignEnd=310554|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0261-0261
 # speaker_id = SP2
@@ -6313,7 +6313,7 @@
 6	àlʼàːduː	àlʼaːdàː	NOUN	_	Number=Plur	11	dislocated@top	_	AlignBegin=773751|AlignEnd=773918|Gloss=custom.Plur|wordform=àlʼaːdàː
 7	na	na	PART	_	Definite=Cons	6	mod	_	AlignBegin=774085|AlignEnd=774419|Gloss=Cons
 8	gar̃gaːjiyaː	gar̃gaːjiyaː	NOUN	_	_	7	comp:obj	_	AlignBegin=774419|AlignEnd=774753|Gloss=old_times
-9	<	<	PUNCT	_	_	11	punct	_	AlignBegin=774753|AlignEnd=775089|Gloss=PUNCT|wordform=/
+9	<	<	PUNCT	_	_	6	punct	_	AlignBegin=774753|AlignEnd=775089|Gloss=PUNCT|wordform=/
 10	doːlè	doːlè	ADV	_	_	11	comp:pred	_	AlignBegin=775089|AlignEnd=775281|Gloss=must
 11	nèː	neː	PART	_	_	0	root	_	AlignBegin=775281|AlignEnd=775473|Gloss=Ident/Foc
 12	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	11	comp:cleft	_	AlignBegin=775473|AlignEnd=775665|Gloss=1Plur.Aor
@@ -8547,19 +8547,19 @@
 # phonetic_text = in bàː dai / yaː kaːmàː doːlè // kiːlà sai dai koː na wàːsaː //
 # text = in bàː dai yaː kaːmàː doːlè kiːlà sai dai kòː na wàːsaː //
 # text_en =  Except if it has been caught , certainly, may be, except for entertainment.
-1	in	in	SCONJ	_	_	0	root	_	AlignBegin=102380|AlignEnd=1023890|AttachTo=HAUZ_BC_CONV_04_0910-0913|Gloss=if|Rel=mod
+1	in	in	SCONJ	_	_	6	mod	_	AlignBegin=102380|AlignEnd=1023890|AttachTo=HAUZ_BC_CONV_04_0910-0913|Gloss=if|Rel=mod
 2	bàː	bàː	PART	_	Polarity=Neg	1	compound	_	AlignBegin=1023890|AlignEnd=1023990|Gloss=Neg
 3	dai	dai	PART	_	_	2	discourse	_	AlignBegin=1023990|AlignEnd=1024080|Gloss=indeed
 4	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=1024180|AlignEnd=1024330|Gloss=3Masc.Perf
 5	kaːmàː	kaːmàː	VERB	_	_	4	comp:aux	_	AlignBegin=1024330|AlignEnd=1024480|Gloss=catch
-6	doːlè	doːlè	ADV	_	_	11	mod	_	AlignBegin=1024480|AlignEnd=1024630|Gloss=must
-7	kiːlà	kiːlà	ADV	_	_	11	mod	_	AlignBegin=1024780|AlignEnd=1024920|Gloss=may_be
+6	doːlè	doːlè	ADV	_	_	0	root	_	AlignBegin=1024480|AlignEnd=1024630|Gloss=must
+7	kiːlà	kiːlà	ADV	_	_	6	conj:dicto	_	AlignBegin=1024780|AlignEnd=1024920|Gloss=may_be
 8	sai	sai	ADV	_	_	11	mod	_	AlignBegin=1024920|AlignEnd=1025060|Gloss=only
 9	dai	dai	PART	_	_	8	discourse	_	AlignBegin=1025060|AlignEnd=102520|Gloss=indeed
 10	kòː	kòː	PART	_	_	8	discourse	_	AlignBegin=102520|AlignEnd=1025340|Gloss=as_for
-11	na	na	PART	_	Definite=Cons	5	mod	_	AlignBegin=1025340|AlignEnd=1025480|Gloss=Cons
+11	na	na	PART	_	Definite=Cons	7	comp:cleft	_	AlignBegin=1025340|AlignEnd=1025480|Gloss=Cons
 12	wàːsaː	wàːsaː	NOUN	_	_	11	comp:obj	_	AlignBegin=1025480|AlignEnd=1025620|Gloss=playing
-13	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1025620|AlignEnd=1025760|Gloss=PUNCT
+13	//	//	PUNCT	_	_	6	punct	_	AlignBegin=1025620|AlignEnd=1025760|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0918-0918
 # speaker_id = SP2
@@ -11536,11 +11536,11 @@
 # phonetic_text = tòː / kaː ganiː doːlè in anàː haɗàː kàːfaɗàː / ɗaya -n biyu sai yaː fàːru //
 # text = tòː / kaː ga doːlè in anàː haɗà kàːfaɗàː / ɗayan biyu sai yaː fàːru //
 # text_en =  Well, you see, it is certain, if you get together, something will happen.
-1	tòː	tòː	INTJ	_	_	14	discourse	_	AlignBegin=1382140|AlignEnd=1382210|Gloss=well
+1	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=1382140|AlignEnd=1382210|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1382210|AlignEnd=1382270|Gloss=PUNCT|wordform=/
-3	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	14	discourse	_	AlignBegin=1382270|AlignEnd=1382460|Gloss=2Masc.Perf
+3	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	discourse	_	AlignBegin=1382270|AlignEnd=1382460|Gloss=2Masc.Perf
 4	ga	ganiː	VERB	_	_	3	comp:aux	_	AlignBegin=1382460|AlignEnd=1382640|Gloss=see
-5	doːlè	doːlè	ADV	_	_	14	mod	_	AlignBegin=1382640|AlignEnd=1382820|Gloss=must
+5	doːlè	doːlè	ADV	_	_	0	root	_	AlignBegin=1382640|AlignEnd=1382820|Gloss=must
 6	in	in	SCONJ	_	_	14	mod	_	AlignBegin=1382820|AlignEnd=1383010|Gloss=if
 7	anàː	nàː	AUX	_	Aspect=Prog|Person=4	6	comp:obj	_	AlignBegin=1383010|AlignEnd=1383190|Gloss=4.Prog
 8	haɗà	haɗ-	VERB	_	_	7	comp:aux	_	AlignBegin=1383190|AlignEnd=1383370|Gloss=join
@@ -11549,9 +11549,9 @@
 11	ɗayan	ɗayan	NUM	_	Definite=Cons	14	subj	_	AlignBegin=1384570|AlignEnd=1384650|Gloss=one.Cons|Overlap=HAUZ_BC_CONV_04_1244-1247|wordform=ɗaya
 12	biyu	biyu	NUM	_	_	11	mod	_	AlignBegin=1384720|AlignEnd=1384870|Gloss=two
 13	sai	sai	ADV	_	_	14	mod	_	AlignBegin=1384870|AlignEnd=1385020|Gloss=must
-14	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=1385020|AlignEnd=1385170|Gloss=3Masc.Perf
+14	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	comp:cleft	_	AlignBegin=1385020|AlignEnd=1385170|Gloss=3Masc.Perf
 15	fàːru	faːr-	VERB	_	_	14	comp:aux	_	AlignBegin=1385170|AlignEnd=1385320|Gloss=happen
-16	//	//	PUNCT	_	_	14	punct	_	AlignBegin=1385320|AlignEnd=1385480|Gloss=PUNCT
+16	//	//	PUNCT	_	_	5	punct	_	AlignBegin=1385320|AlignEnd=1385480|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1243-1243
 # speaker_id = SP2
@@ -12783,14 +12783,14 @@
 # phonetic_text = à loːkàciː -ǹ nan doːlè kà yi aikìː //
 # text = à loːkàcîn nan doːlêː kà yi aikìː //
 # text_en =  At that time, you had to work.
-1	à	à	ADP	_	_	5	mod	_	AlignBegin=1528880|AlignEnd=1529040|Gloss=at
+1	à	à	ADP	_	_	4	mod	_	AlignBegin=1528880|AlignEnd=1529040|Gloss=at
 2	loːkàcîn	loːkàciː	NOUN	_	_	1	comp:obj	_	AlignBegin=1529040|AlignEnd=1529120|Gloss=time.Def|wordform=loːkàciː
 3	nan	nan	DET	_	Definite=Def	2	det	_	AlignBegin=152920|AlignEnd=1529350|Gloss=Def
-4	doːlè	doːlè	ADV	_	_	5	mod	_	AlignBegin=1529350|AlignEnd=1529510|Gloss=must
-5	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=1529510|AlignEnd=1529670|Gloss=2Masc.Aor
+4	doːlè	doːlè	ADV	_	_	0	root	_	AlignBegin=1529350|AlignEnd=1529510|Gloss=must
+5	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	4	comp:cleft	_	AlignBegin=1529510|AlignEnd=1529670|Gloss=2Masc.Aor
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=1529670|AlignEnd=1529820|Gloss=do|Overlap=HAUZ_BC_CONV_04_1383-1383
 7	aikìː	aikìː	NOUN	_	_	6	comp:obj@lvc	_	AlignBegin=1529820|AlignEnd=1529980|Gloss=work
-8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=1529980|AlignEnd=1530140|Gloss=PUNCT
+8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=1529980|AlignEnd=1530140|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1381-1382
 # speaker_id = SP1
@@ -12860,13 +12860,13 @@
 # phonetic_text = tôː ai doːlè kà yi aikìː //
 # text = tôː ai doːlè kà yi aikìː //
 # text_en =  Well, you had to work.
-1	tôː	tôː	INTJ	_	_	4	discourse	_	AlignBegin=1535960|AlignEnd=1536080|Gloss=well
-2	ai	ai	INTJ	_	_	4	discourse	_	AlignBegin=1536080|AlignEnd=153620|Gloss=indeed
-3	doːlè	doːlè	ADV	_	_	4	mod	_	AlignBegin=153620|AlignEnd=1536320|Gloss=must
-4	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=1536320|AlignEnd=1536440|Gloss=2Masc.Aor
+1	tôː	tôː	INTJ	_	_	3	discourse	_	AlignBegin=1535960|AlignEnd=1536080|Gloss=well
+2	ai	ai	INTJ	_	_	3	discourse	_	AlignBegin=1536080|AlignEnd=153620|Gloss=indeed
+3	doːlè	doːlè	ADV	_	_	0	root	_	AlignBegin=153620|AlignEnd=1536320|Gloss=must
+4	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	3	comp:cleft	_	AlignBegin=1536320|AlignEnd=1536440|Gloss=2Masc.Aor
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=1536440|AlignEnd=1536560|Gloss=do
 6	aikìː	aikìː	NOUN	_	_	5	comp:obj@lvc	_	AlignBegin=1536560|AlignEnd=1536680|Gloss=work
-7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=1536680|AlignEnd=153680|Gloss=PUNCT
+7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=1536680|AlignEnd=153680|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1388-1390
 # speaker_id = SP2
@@ -13227,10 +13227,10 @@
 # phonetic_text = doːlè ya daːwoː //
 # text = doːlè ya daːwoː //
 # text_en =  He had to go back.
-1	doːlè	doːlè	ADV	_	_	2	mod	_	AlignBegin=1586160|AlignEnd=158630|Gloss=must
-2	ya	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=158630|AlignEnd=1586440|Background=Yes|Gloss=3Masc.Perf.Bkg
+1	doːlè	doːlè	ADV	_	_	0	root	_	AlignBegin=1586160|AlignEnd=158630|Gloss=must
+2	ya	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:cleft	_	AlignBegin=158630|AlignEnd=1586440|Background=Yes|Gloss=3Masc.Perf.Bkg
 3	daːwoː	daːw-	VERB	_	_	2	comp:aux	_	AlignBegin=1586440|AlignEnd=1586570|Gloss=return.DIR
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=1586570|AlignEnd=1586710|Gloss=PUNCT
+4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1586570|AlignEnd=1586710|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1423-1424
 # speaker_id = SP1
