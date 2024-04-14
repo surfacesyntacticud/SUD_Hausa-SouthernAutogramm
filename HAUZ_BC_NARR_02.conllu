@@ -32,8 +32,8 @@
 # text_en =  I'm the one telling it.
 1	dà	dà	ADP	_	_	0	root	_	AlignBegin=3070|AlignEnd=3232|Gloss=with
 2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	comp:obj	_	AlignBegin=3232|AlignEnd=3394|Gloss=1Sing.Nom
-3	akèː	kèː	AUX	_	Aspect=Imp|Person=4	1	comp:cleft	_	AlignBegin=3394|AlignEnd=3556|Background=Yes|Gloss=4.Imp.Bkg
-4	yîː	yi	VERB	_	_	3	comp:aux	_	AlignBegin=3556|AlignEnd=3718|Gloss=do.Vnoun
+3	akèː	kèː	AUX	_	Aspect=Prog|Person=4	1	comp:cleft	_	AlignBegin=3394|AlignEnd=3556|Background=Yes|Gloss=4.Prog.Bkg
+4	yîː	yi	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=3556|AlignEnd=3718|Gloss=do.Vnoun
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=3718|AlignEnd=3881|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_02_004
@@ -365,7 +365,7 @@
 4	àbin	àbù	NOUN	_	Definite=Cons	8	dislocated@comp	_	AlignBegin=49352|AlignEnd=49444|Gloss=thing.Cons
 5	dà	dà	SCONJ	_	_	4	mod@relcl	_	AlignBegin=49536|AlignEnd=49720|Gloss=COMP
 6	kakèː	kèː	AUX	_	Gender=Masc|Person=2	5	comp:obj	_	AlignBegin=49720|AlignEnd=49904|Background=Yes|Gloss=2Masc.Imp.Bkg
-7	sôː	soː	VERB	_	_	6	comp:aux	_	AlignBegin=49904|AlignEnd=50088|Gloss=want.Vnoun
+7	sôː	soː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=49904|AlignEnd=50088|Gloss=want.Vnoun
 8	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=50088|AlignEnd=50272|Gloss=2Masc.Perf
 9	saːmù	saːm-	VERB	_	_	8	comp:aux	_	AlignBegin=50272|AlignEnd=50456|Gloss=get
 10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=50456|AlignEnd=50640|Gloss=PUNCT
@@ -980,8 +980,8 @@
 4	ba	ba	PART	_	Polarity=Neg	3	mod	_	AlignBegin=123201|AlignEnd=123380|Gloss=Neg
 5	in	in	SCONJ	_	_	1	conj:coord	_	AlignBegin=123380|AlignEnd=123559|Gloss=if
 6	dai	dai	PART	_	_	5	discourse	_	AlignBegin=123559|AlignEnd=123738|Gloss=indeed
-7	sunàː	nàː	AUX	_	Aspect=Imp|Number=Plur|Person=3	5	comp:obj	_	AlignBegin=123738|AlignEnd=123917|Gloss=3Plur.Imp
-8	sôː	soː	VERB	_	_	7	comp:aux	_	AlignBegin=123917|AlignEnd=124096|Gloss=want.Vnoun
+7	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	5	comp:obj	_	AlignBegin=123738|AlignEnd=123917|Gloss=3Plur.Prog
+8	sôː	soː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=123917|AlignEnd=124096|Gloss=want.Vnoun
 9	sù	à	AUX	_	Aspect=Aor|Number=Plur|Person=3	8	comp:obj	_	AlignBegin=124096|AlignEnd=124275|Gloss=3Plur.Aor
 10	zaunàː	zaun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=124275|AlignEnd=124454|Gloss=stay
 11	laːfiyàː	laːfiyàː	NOUN	_	_	10	comp:pred	_	AlignBegin=124454|AlignEnd=124633|Gloss=happiness
@@ -1180,8 +1180,8 @@
 # phonetic_text = yanàː iyàː -wàː kùwa //
 # text = yanàː iyàːwaːwaː kùwa //
 # text_en =  It's possible too.
-1	yanàː	nàː	AUX	_	Aspect=Imp|Gender=Masc|Person=3	0	root	_	AlignBegin=142966|AlignEnd=143242|Gloss=3Masc.Imp
-2	iyàːwaː	iyàːwaː	VERB	_	_	1	comp:aux	_	AlignBegin=143242|AlignEnd=143380|Gloss=can.Vnoun
+1	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=142966|AlignEnd=143242|Gloss=3Masc.Prog
+2	iyàːwaː	iyàːwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=143242|AlignEnd=143380|Gloss=can.Vnoun
 3	kùwa	kùwa	PART	_	_	1	discourse	_	AlignBegin=143518|AlignEnd=143794|Gloss=as_for
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=143794|AlignEnd=144070|Gloss=PUNCT
 
