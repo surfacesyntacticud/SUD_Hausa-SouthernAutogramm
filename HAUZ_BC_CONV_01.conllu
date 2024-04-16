@@ -1756,7 +1756,7 @@
 # text = dan tun loːkàcin dà nakè wajen wânnan kàːkaː nàːwa mài suːnaː Taːbi wandà akèː fi kiràn =tà dà Mài Ƙoːsai < àː shiː || ita ta sâː ni à fir̃aːmar̃i sùkûːl dan taː ɗaukoː nì tun à wajen iyàːyeː =naː //
 # text_en = Because ever since I had been with that grand-mother of mine, named Rabi but who is better known as the doughnut seller, well he.. she is the one who put me in primary school because she took me over from my parents.
 1	dan	don	SCONJ	_	_	23	discourse	_	AlignBegin=204227|AlignEnd=204448|Gloss=because
-2	tun	tun	AUX	_	_	23	mod	_	AlignBegin=204448|AlignEnd=204669|Gloss=since
+2	tun	tun	ADP	_	_	23	mod	_	AlignBegin=204448|AlignEnd=204669|Gloss=since
 3	loːkàcin	loːkàciː	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=204669|AlignEnd=204779|Gloss=time.Cons
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=204890|AlignEnd=205111|Gloss=COMP
 5	nakè	kè	AUX	_	Number=Sing|Person=1	4	comp:obj	_	AlignBegin=205111|AlignEnd=205332|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
@@ -2470,7 +2470,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 294257, 302944
 # phonetic_text = tundà yakàn saːroː itàːceː / ìdan ya ganiː hakà mài àrhaː / wajen màːsu moːtòː / sai yà ss sayar̃ // yà àbù -ǹ dan &// nân nèː yakèː saːmù -n kuɗiː &// dà zâi sàyaː taːkìː / dà sauraː -n -sù //
-# text = tundà yakàn saːroː itàːceː < ìdan ya ganiː hakà mài àrhaː < wajen màːsu moːtòː < sai yà ss sayar̃ |c yà àbîn //
+# text = tundà yakàn saːroː itàːceː < ìdan ya ganiː hakà mài àrhaː < wajen màːsu moːtòː < sai yà s~ sayar̃ |c yà àbîn //
 # text_en =  As he cuts wood, if he sees something cheap with the lorry drivers then he ss. sells it and...
 1	tundà	tundà	SCONJ	_	_	18	mod	_	AlignBegin=294257|AlignEnd=294473|Gloss=since
 2	yakàn	kàn	AUX	_	Aspect=Hab|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=294473|AlignEnd=294689|Gloss=3Masc.Hab
@@ -2490,8 +2490,8 @@
 16	<	<	PUNCT	_	_	13	punct	_	AlignBegin=297497|AlignEnd=297713|Gloss=PUNCT
 17	sai	sai	ADV	_	_	18	mod	_	AlignBegin=297713|AlignEnd=297929|Gloss=then
 18	yà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=297929|AlignEnd=298145|Gloss=3Masc.Aor
-19	ss	X	X	_	_	18	comp:aux	_	AlignBegin=298145|AlignEnd=298361|Gloss=X
-20	sayar̃	say-	VERB	_	_	19	conj:dicto	_	AlignBegin=298361|AlignEnd=298577|Gloss=sell.Cau
+19	s~	sayar̃	VERB	_	Voice=Cau	18	comp:aux	_	AlignBegin=298145|AlignEnd=298361|Gloss=buy.Cau
+20	sayar̃	say-	VERB	_	Voice=Cau	19	conj:dicto	_	AlignBegin=298361|AlignEnd=298577|Gloss=sell.Cau
 21	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=298577|AlignEnd=298793|Gloss=PUNCT
 22	yà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=3	18	conj:svc	_	AlignBegin=298793|AlignEnd=299009|Gloss=3Masc.Aor
 23	àbîn	àbîn	NOUN	_	Definite=Def	22	comp:aux	_	AlignBegin=299009|AlignEnd=299117|Gloss=PUNCT
@@ -3727,7 +3727,7 @@
 1	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	12	dislocated@top	_	AlignBegin=472305|AlignEnd=472524|Gloss=3Fem.Nom
 2	suːnan	suːnaː	NOUN	_	Definite=Cons	12	dislocated@top	_	AlignBegin=472524|AlignEnd=472634|Gloss=name.Cons
 3	wânnan	wânnan	DET	_	Definite=Def	4	det	_	AlignBegin=472743|AlignEnd=472962|Gloss=Def
-4	tsoːhuwaː	tsoːhuwaː	ADV	_	ExtPos=NOUN	2	mod	_	AlignBegin=472962|AlignEnd=473181|Gloss=old_woman
+4	tsoːhuwaː	tsoːhuwaː	NOUN	_	ExtPos=NOUN	2	mod	_	AlignBegin=472962|AlignEnd=473181|Gloss=old_woman
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=473181|AlignEnd=473400|Gloss=PUNCT
 6	ìdan	ìdan	SCONJ	_	_	12	mod	_	AlignBegin=473400|AlignEnd=473619|Gloss=if
 7	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	6	comp:obj	_	AlignBegin=473619|AlignEnd=473838|Gloss=1Sing.Fut
