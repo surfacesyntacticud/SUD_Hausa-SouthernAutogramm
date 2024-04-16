@@ -5699,12 +5699,12 @@
 # sent_timecode = 699121, 701361
 # phonetic_text = sakkwato -aːwaː\H sukà cêː / saːkar̃ai nàː //
 # text = Sakkwataːwaː sukà cêː saːkar̃ai nàː //
-# text_en =  People of Sokoto say "nàː" .
+# text_en =  People of Sokoto say "saːkar̃ai nàː" .
 1	Sakkwataːwaː	Sakkwataːwaː	PROPN	_	_	2	subj	_	AlignBegin=699121|AlignEnd=699284|Gloss=Sokoto_people|wordform=sakkwato
 2	sukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=699447|AlignEnd=699773|Background=Yes|Gloss=3Plur.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=699773|AlignEnd=700099|Gloss=say
-4	saːkar̃ai	saːkar̃ai	NOUN	_	Number=Plur	5	comp:pred	_	AlignBegin=700423|AlignEnd=700736|Gloss=fool.Plur
-5	nàː	naː	PART	_	_	3	comp:obj	_	AlignBegin=700736|AlignEnd=701049|Gloss=Pred/Loc
+4	saːkar̃ai	X	X	_	_	5	comp:pred	_	AlignBegin=700423|AlignEnd=700736|Gloss=X
+5	nàː	X	X	_	_	3	comp:obj	_	AlignBegin=700736|AlignEnd=701049|Gloss=X
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=701049|AlignEnd=701361|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0601-0601
@@ -10085,7 +10085,7 @@
 8	<	<	PUNCT	_	_	11	punct	_	AlignBegin=1205730|AlignEnd=1206060|Gloss=PUNCT|wordform=/
 9	wandà	wandà	PRON	_	PronType=Rel	10	mod	_	AlignBegin=1206060|AlignEnd=120640|Gloss=whose
 10	sâː	sâː	NOUN	_	_	11	subj	_	AlignBegin=120640|AlignEnd=1206730|Gloss=cow
-11	nàː	naː	AUX	_	Person=1	1	mod@relcl	_	AlignBegin=1206730|AlignEnd=1207060|Gloss=Imp
+11	nàː	nàː	AUX	_	Aspect=Prog	1	mod@relcl	_	AlignBegin=1206730|AlignEnd=1207060|Gloss=Prog
 12	gudùː	gud-	VERB	_	VerbForm=Vnoun	11	comp:aux	_	AlignBegin=1207060|AlignEnd=1207390|ExtPos=NOUN|Gloss=run.Vnoun
 13	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1207390|AlignEnd=1207730|Gloss=PUNCT|wordform=/
 14	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=1207730|AlignEnd=1208060|Gloss=3Plur.Prog
