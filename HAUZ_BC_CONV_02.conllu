@@ -275,7 +275,7 @@
 12	wasu	wasu	DET	_	Number=Plur	14	det	_	AlignBegin=35364|AlignEnd=35581|Gloss=some.Plur
 13	ɗan	ɗan	ADV	_	_	14	mod	_	AlignBegin=35581|AlignEnd=35798|Gloss=little
 14	dabboːbiː	dabboːbiː	NOUN	_	Number=Plur	11	comp:obj	_	AlignBegin=35798|AlignEnd=35906|Gloss=cattle.Plur
-15	muː	muː	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	parataxis:parenth	_	AlignBegin=36015|AlignEnd=36232|Gloss=1Plur.Nom
+15	muː	muː	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	dislocated@subj	_	AlignBegin=36015|AlignEnd=36232|Gloss=1Plur.Nom
 16	maː	maː	PART	_	_	15	discourse	_	AlignBegin=36232|AlignEnd=36449|Gloss=even
 17	>	>	PUNCT	_	_	18	punct	_	AlignBegin=36449|AlignEnd=36665|Gloss=PUNCT
 18	kàman	kàman	ADP	_	_	14	mod	_	AlignBegin=36822|AlignEnd=37129|Gloss=like
@@ -471,7 +471,7 @@
 # sent_timecode = 51943, 57710
 # phonetic_text = tòː / suː waɗànnan àkwiyàː -iː\LH dà kukèː kiːwàːtaː -wàː / kaː ganiː kiːwòː -ǹ / yaː kasànceː cêːwaː / tundà an cêː dâː maː noːmaː dà kiːwòː / shiː nèː dà kyâu //
 # text = tòː < suː waɗànnan àwàːkiː dà kukèː kiːwàːtâːwaː < kaː ganiː kiːwòn < yaː kasànceː cêːwaː tundà an cêː dâː maː noːmaː dà kiːwòː < shiː nèː dà kyâu //
-# text_en =  Well, those goats that you are rearing, you see, rearing animals, it now happens that, as they say, farming and rearing animals is good.
+# text_en =  Well, those goats that you are rearing, you see, rearing animals, it now happens that, as they said, farming and rearing animals is good.
 1	tòː	tòː	INTJ	_	_	14	discourse	_	AlignBegin=51943|AlignEnd=52145|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=52145|AlignEnd=52348|Gloss=PUNCT
 3	suː	suː	PRON	_	Number=Plur|Person=2|PronType=Prs	14	dislocated@subj	_	AlignBegin=52348|AlignEnd=52570|Gloss=2Plur.Nom
@@ -488,10 +488,10 @@
 14	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=54580|AlignEnd=54784|Gloss=3Masc.Perf
 15	kasànceː	kasant-	VERB	_	_	14	comp:aux	_	AlignBegin=54784|AlignEnd=54988|Gloss=become
 16	cêːwaː	cêːwaː	SCONJ	_	_	15	comp:pred	_	AlignBegin=54988|AlignEnd=55192|Gloss=COMP
-17	tundà	tundà	SCONJ	_	_	16	parataxis:parenth	_	AlignBegin=55394|AlignEnd=55543|Gloss=since
+17	tundà	tundà	SCONJ	_	_	27	mod	_	AlignBegin=55394|AlignEnd=55543|Gloss=since
 18	an	yaː	AUX	_	Aspect=Perf|Person=4	17	comp:obj	_	AlignBegin=55543|AlignEnd=55692|Gloss=4.Perf
 19	cêː	cêː	VERB	_	_	18	comp:aux	_	AlignBegin=55692|AlignEnd=55841|Gloss=say
-20	dâː	dâː	ADV	_	_	27	mod	_	AlignBegin=55841|AlignEnd=55990|Gloss=formerly
+20	dâː	dâː	ADV	_	_	19	mod	_	AlignBegin=55841|AlignEnd=55990|Gloss=formerly
 21	maː	maː	PART	_	_	20	discourse	_	AlignBegin=55990|AlignEnd=56139|Gloss=even
 22	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	27	dislocated@top	_	AlignBegin=56139|AlignEnd=56288|Gloss=farm.Vnoun
 23	dà	dà	CCONJ	_	_	24	cc	_	AlignBegin=56288|AlignEnd=56437|Gloss=and
@@ -1521,7 +1521,7 @@
 3	jîn	ji	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=161552|AlignEnd=161628|Gloss=hear.Vnoun.Cons|wordform=jîː
 4	daːɗin	daːɗiː	NOUN	_	Definite=Cons	3	comp:obj	_	AlignBegin=161704|AlignEnd=161780|Gloss=pleasure.Cons|wordform=daːɗiː
 5	zamaː	zaun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	mod	_	AlignBegin=161856|AlignEnd=162008|Gloss=stay.Vnoun
-6	dà	dà	ADP	_	_	5	mod:obl	_	AlignBegin=162008|AlignEnd=162160|Gloss=with
+6	dà	dà	ADP	_	_	5	comp:obl	_	AlignBegin=162008|AlignEnd=162160|Gloss=with
 7	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=162160|AlignEnd=162312|Gloss=3Masc.Nom
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=162312|AlignEnd=162460|Gloss=PUNCT
 
@@ -1605,7 +1605,7 @@
 # text = tundà yànzu < shèːkàruː inàː ganin shèːkàrun =shì àƙallà hakà zaːsù kai wajen sàbà'in hakà //
 # text_en =  Becauce, now, as for his age, I think he is at least seventy.
 1	tundà	tundà	SCONJ	_	_	5	discourse	_	AlignBegin=168315|AlignEnd=168568|Gloss=since
-2	yànzu	yànzu	ADV	_	_	5	mod:obj	_	AlignBegin=168568|AlignEnd=168821|Gloss=now
+2	yànzu	yànzu	ADV	_	_	5	mod	_	AlignBegin=168568|AlignEnd=168821|Gloss=now
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=168821|AlignEnd=169074|Gloss=PUNCT
 4	shèːkàruː	shèːkaràː	NOUN	_	Number=Plur	5	dislocated@subj	_	AlignBegin=169074|AlignEnd=169200|Gloss=year.Plur
 5	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	0	root	_	AlignBegin=169327|AlignEnd=169580|Gloss=1Sing.Prog
@@ -1938,7 +1938,7 @@
 # text_en =  Those fathers of us who came, all (of them), that old woman is the one who... gave birth to them.
 1	wannàn	wannàn	DET	_	Deixis=Prox	2	det	_	AlignBegin=201783|AlignEnd=202018|Gloss=Prox
 2	mahàifin	mahàifiː	NOUN	_	Definite=Cons|Gender=Masc	13	dislocated@top	_	AlignBegin=202065|AlignEnd=202112|Gloss=genitor.Masc.Cons
-3	=mù	=mù	PRON	_	Number=Plur|Person=1|PronType=Prs	2	mod:obj@poss	_	AlignBegin=202206|AlignEnd=202253|Gloss=1Plur
+3	=mù	=mù	PRON	_	Number=Plur|Person=1|PronType=Prs	2	mod@poss	_	AlignBegin=202206|AlignEnd=202253|Gloss=1Plur
 4	wandà	wandà	PRON	_	PronType=Rel	5	subj	_	AlignBegin=202253|AlignEnd=202488|Gloss=who
 5	sukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=3	2	mod@relcl	_	AlignBegin=202488|AlignEnd=202723|Background=Yes|Gloss=3Plur.Perf.Bkg
 6	fitoː	fitoː	VERB	_	_	5	comp:aux	_	AlignBegin=202723|AlignEnd=202958|Gloss=go.DIR
