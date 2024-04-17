@@ -108,21 +108,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 15895, 22877
 # phonetic_text = àkwai sa'àː -ǹ dà dà ìdan zân iyàː tunàː -wàː / à baːya na barìː bâː kà làːbaːr̃ìː -ǹ cêːwaː / àː -ːːː / mun taɓàː yîː -n wata shèːkaràː dà mukà yi / mun saːmù -i àmfàːniː sòːsai //
-# text = tundà àkwai sa'àn dà dà ìdan zân iyà tunàːwaː < à baːya na bar̃ baː kà làːbaːr̃ìn cêːwaː àː mun taɓà yîn wata shèːkaràː dà mukà yi mun sàːmi àmfàːniː sòːsai //
+# text = Tundà àkwai sa'àn dà dà ìdan zân iyà tunàːwaː < à baːya na bar̃ baː kà làːbaːr̃ìn cêːwaː àː mun taɓà yîn wata shèːkaràː dà mukà yi mun sàːmi àmfàːniː sòːsai //
 # text_en =  there is one time that, if I remember well, before, I stopped telling you that er.. we already did one year when we had a very good production.
 1	tundà	tundà	SCONJ	_	_	2	discourse	_	AlignBegin=15895|AlignEnd=15993|Gloss=since
 2	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=16286|AlignEnd=16435|Gloss=there_is
 3	sa'àn	sa'àn	NOUN	_	Definite=Def	2	subj	_	AlignBegin=16435|AlignEnd=16509|Gloss=time.Def
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=16584|AlignEnd=16733|Gloss=COMP
 5	dà	dà	SCONJ	_	_	4	conj:dicto	_	AlignBegin=16733|AlignEnd=16882|Gloss=COMP
-6	ìdan	ìdan	SCONJ	_	_	13	mod	_	AlignBegin=16882|AlignEnd=17031|Gloss=if
+6	ìdan	ìdan	SCONJ	_	_	13	discourse	_	AlignBegin=16882|AlignEnd=17031|Gloss=if
 7	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	6	comp:obj	_	AlignBegin=17031|AlignEnd=17180|Gloss=1Sing.Fut
 8	iyà	iyàː	VERB	_	_	7	comp:aux	_	AlignBegin=17180|AlignEnd=17329|Gloss=be_able
 9	tunàːwaː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=17329|AlignEnd=17403|Gloss=think.Vnoun
 10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=17478|AlignEnd=17628|Gloss=PUNCT
 11	à	à	ADP	_	_	13	mod	_	AlignBegin=17628|AlignEnd=17826|Gloss=at
 12	baːya	baːya	ADV	_	_	11	comp:obj	_	AlignBegin=17826|AlignEnd=18024|Gloss=behind
-13	na	na	PART	_	Definite=Cons	5	comp:obj	_	AlignBegin=18024|AlignEnd=18222|Gloss=Cons
+13	na	na	PART	_	Definite=Cons	5	parataxis@parenth	_	AlignBegin=18024|AlignEnd=18222|Gloss=Cons
 14	bar̃	barìː	VERB	_	_	13	comp:obj	_	AlignBegin=18222|AlignEnd=18420|Gloss=leave
 15	baː	baː	VERB	_	_	14	comp:obj	_	AlignBegin=18420|AlignEnd=18618|Gloss=give|wordform=bâː
 16	kà	kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	15	comp:ben	_	AlignBegin=18618|AlignEnd=18816|Gloss=2Masc
@@ -133,11 +133,11 @@
 21	taɓà	taɓ-	VERB	_	_	20	comp:aux	_	AlignBegin=20236|AlignEnd=20422|Gloss=experience
 22	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	21	comp:obj	_	AlignBegin=20422|AlignEnd=20515|Gloss=do.Vnoun.Cons|wordform=yîː
 23	wata	wata	DET	_	Gender=Fem	24	det	_	AlignBegin=20608|AlignEnd=20794|Gloss=some.Fem
-24	shèːkaràː	shèːkaràː	NOUN	_	_	22	comp:obj@lvc	_	AlignBegin=20794|AlignEnd=20980|Gloss=year
-25	dà	dà	SCONJ	_	_	24	mod@relcl	_	AlignBegin=20980|AlignEnd=21166|Gloss=COMP
+24	shèːkaràː	shèːkaràː	NOUN	_	_	28	mod	_	AlignBegin=20794|AlignEnd=20980|Gloss=year
+25	dà	dà	SCONJ	_	_	28	mod	_	AlignBegin=20980|AlignEnd=21166|Gloss=COMP
 26	mukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=1	25	comp:obj	_	AlignBegin=21166|AlignEnd=21352|Background=Yes|Gloss=1Plur.Perf.Bkg
 27	yi	yi	VERB	_	_	26	comp:aux	_	AlignBegin=21352|AlignEnd=21538|Gloss=do
-28	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	26	conj:coord	_	AlignBegin=21728|AlignEnd=21958|Gloss=1Plur.Perf
+28	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	5	conj:obj	_	AlignBegin=21728|AlignEnd=21958|Gloss=1Plur.Perf
 29	sàːmi	sàːmi	VERB	_	_	28	comp:aux	_	AlignBegin=21958|AlignEnd=22073|Gloss=get
 30	àmfàːniː	àmfàːniː	NOUN	_	_	29	comp:obj	_	AlignBegin=22188|AlignEnd=22418|Gloss=crops
 31	sòːsai	sòːsai	ADV	_	_	29	mod	_	AlignBegin=22418|AlignEnd=22648|Gloss=quite
@@ -158,44 +158,43 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 23244, 30050
 # phonetic_text = wânnan kàːwuː -ǹ nàːwa //
-# text = tòː shiː wânnan àmfàːnîn dà na saːmù || dà mukà saːmù |c koː ìn cêː dà mukà saːmù tun < niː nèː dà ainihin Àlhajì wandà nikè zàune à wajen =shì |a wânnan kàːwûn nàːwa //
+# text = tòː shiː wânnan àmfàːnîn dà na saːmù || dà mukà saːmù |c koː ìn cêː dà mukà saːmù tun niː nèː dà ainihin Àlhajì wandà nikè zàune à wajen =shì |a wânnan kàːwûn nàːwa &//
 # text_en = Well those crops that I got, that we got, or should I say that we got since.. it was me and.. the very Alhaji with whom I am staying, that uncle of mine.
-1	tòː	tòː	INTJ	_	_	22	discourse	_	AlignBegin=23244|AlignEnd=23451|Gloss=well
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	22	dislocated@top	_	AlignBegin=23451|AlignEnd=23658|Gloss=3Masc.Nom
+1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=23244|AlignEnd=23451|Gloss=well
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root@scrap	_	AlignBegin=23451|AlignEnd=23658|Gloss=3Masc.Nom
 3	wânnan	wânnan	DET	_	Definite=Def	4	det	_	AlignBegin=23658|AlignEnd=23865|Gloss=Def
 4	àmfàːnîn	àmfàːnîː	NOUN	_	Definite=Def	2	conj:appos	_	AlignBegin=23865|AlignEnd=23969|Gloss=crops.Def
 5	dà	dà	SCONJ	_	_	4	mod@relcl	_	AlignBegin=24072|AlignEnd=24279|Gloss=COMP
 6	na	kà	AUX	_	_	5	comp:obj	_	AlignBegin=24279|AlignEnd=24486|Gloss=1Sing.Perf.Bkg
 7	saːmù	saːm-	VERB	_	_	6	comp:aux	_	AlignBegin=24486|AlignEnd=24693|Gloss=get
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=24693|AlignEnd=24897|Gloss=PUNCT
-9	dà	dà	ADP	_	_	5	conj:dicto@relcl	_	AlignBegin=25329|AlignEnd=25477|Gloss=COMP
+9	dà	dà	ADP	_	_	5	conj:dicto	_	AlignBegin=25329|AlignEnd=25477|Gloss=COMP
 10	mukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=1	9	comp:obj	_	AlignBegin=25477|AlignEnd=25625|Background=Yes|Gloss=1Plur.Perf.Bkg
 11	saːmù	saːmù	VERB	_	_	10	comp:aux	_	AlignBegin=25625|AlignEnd=25773|Gloss=get
 12	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=25773|AlignEnd=25923|Gloss=PUNCT
 13	koː	koː	CCONJ	_	_	16	cc	_	AlignBegin=25923|AlignEnd=26051|Gloss=or
-14	ìn	à	AUX	_	Aspect=Aor|Number=Sing|Person=1	16	parataxis:obj@discourse	_	AlignBegin=26051|AlignEnd=26179|Gloss=1Sing.Aor
+14	ìn	à	AUX	_	Aspect=Aor|Number=Sing|Person=1	16	discourse	_	AlignBegin=26051|AlignEnd=26179|Gloss=1Sing.Aor
 15	cêː	cêː	VERB	_	_	14	comp:obj	_	AlignBegin=26179|AlignEnd=26307|Gloss=say
-16	dà	dà	SCONJ	_	_	9	conj:coord@relcl	_	AlignBegin=26307|AlignEnd=26435|Gloss=COMP
+16	dà	dà	SCONJ	_	_	9	conj:coord	_	AlignBegin=26307|AlignEnd=26435|Gloss=COMP
 17	mukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=1	16	comp:obj	_	AlignBegin=26435|AlignEnd=26563|Background=Yes|Gloss=1Plur.Perf.Bkg
 18	saːmù	saː-	VERB	_	_	17	comp:aux	_	AlignBegin=26563|AlignEnd=26691|Gloss=get
-19	tun	tun	ADV	_	_	18	mod	_	AlignBegin=26691|AlignEnd=26819|Gloss=since
-20	<	<	PUNCT	_	_	22	punct	_	AlignBegin=26819|AlignEnd=26950|Gloss=PUNCT
-21	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	comp:pred	_	AlignBegin=26950|AlignEnd=27137|Gloss=1Sing.Nom
-22	nèː	neː	PART	_	_	0	root	_	AlignBegin=27137|AlignEnd=27324|Gloss=Ident/Foc
-23	dà	dà	SCONJ	_	_	25	cc	_	AlignBegin=27324|AlignEnd=27418|Gloss=COMP
-24	ainihin	ainihiː	ADJ	_	Definite=Cons	25	mod	_	AlignBegin=27661|AlignEnd=27767|Gloss=really|wordform=ainihiː
-25	Àlhajì	Àlhajì	PROPN	_	_	22	conj:coord	_	AlignBegin=27873|AlignEnd=28085|Gloss=Alhaji
-26	wandà	wandà	PRON	_	PronType=Rel	29	comp:obj	_	AlignBegin=28085|AlignEnd=28297|Gloss=who
-27	nikè	kè	AUX	_	Number=Sing|Person=1	25	mod@relcl	_	AlignBegin=28297|AlignEnd=28509|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
-28	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	27	comp:pred	_	AlignBegin=28509|AlignEnd=28721|Gloss=stay.Stat
-29	à	à	ADP	_	ExtPos=ADP	28	comp:loc	_	AlignBegin=28721|AlignEnd=28933|Gloss=at|Idiom=Yes
-30	wajen	wajeː	NOUN	_	_	29	compound	_	AlignBegin=28933|AlignEnd=29039|Gloss=side.Cons|InIdiom=Yes
-31	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	29	comp:obj	_	AlignBegin=29039|AlignEnd=29145|Gloss=3Masc.Gen
-32	|a	|a	PUNCT	_	_	34	punct	_	AlignBegin=29145|AlignEnd=29358|Gloss=PUNCT
-33	wânnan	wânnan	DET	_	Definite=Def	34	det	_	AlignBegin=29358|AlignEnd=29531|Gloss=Def
-34	kàːwûn	kàːwuː	NOUN	_	Definite=Def	25	conj:appos	_	AlignBegin=29531|AlignEnd=29617|Gloss=uncle.Def
-35	nàːwa	nàːwa	PRON	_	Number=Sing|Person=1|PronType=Prs	34	mod@poss	_	AlignBegin=29704|AlignEnd=29877|Gloss=1Sing.Gen
-36	//	//	PUNCT	_	_	22	punct	_	AlignBegin=29877|AlignEnd=30050|Gloss=PUNCT
+19	tun	tun	SCONJ	_	_	18	mod	_	AlignBegin=26691|AlignEnd=26819|Gloss=since
+20	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	comp:pred	_	AlignBegin=26950|AlignEnd=27137|Gloss=1Sing.Nom
+21	nèː	neː	PART	_	_	19	comp:obj	_	AlignBegin=27137|AlignEnd=27324|Gloss=Ident/Foc
+22	dà	dà	SCONJ	_	_	24	cc	_	AlignBegin=27324|AlignEnd=27418|Gloss=COMP
+23	ainihin	ainihiː	ADV	_	Definite=Cons	24	discourse	_	AlignBegin=27661|AlignEnd=27767|Gloss=really|wordform=ainihiː
+24	Àlhajì	Àlhajì	PROPN	_	_	21	conj:coord	_	AlignBegin=27873|AlignEnd=28085|Gloss=Alhaji
+25	wandà	wandà	PRON	_	PronType=Rel	28	comp:obj	_	AlignBegin=28085|AlignEnd=28297|Gloss=who
+26	nikè	kè	AUX	_	Number=Sing|Person=1	24	mod@relcl	_	AlignBegin=28297|AlignEnd=28509|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
+27	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	26	comp:pred	_	AlignBegin=28509|AlignEnd=28721|Gloss=stay.Stat
+28	à	à	ADP	_	ExtPos=ADP	27	comp:loc	_	AlignBegin=28721|AlignEnd=28933|Gloss=at|Idiom=Yes
+29	wajen	wajeː	NOUN	_	_	28	compound	_	AlignBegin=28933|AlignEnd=29039|Gloss=side.Cons|InIdiom=Yes
+30	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	28	comp:obj	_	AlignBegin=29039|AlignEnd=29145|Gloss=3Masc.Gen
+31	|a	|a	PUNCT	_	_	33	punct	_	AlignBegin=29145|AlignEnd=29358|Gloss=PUNCT
+32	wânnan	wânnan	DET	_	Definite=Def	33	det	_	AlignBegin=29358|AlignEnd=29531|Gloss=Def
+33	kàːwûn	kàːwuː	NOUN	_	Definite=Def	24	conj:appos	_	AlignBegin=29531|AlignEnd=29617|Gloss=uncle.Def
+34	nàːwa	nàːwa	PRON	_	Number=Sing|Person=1|PronType=Prs	33	mod@poss	_	AlignBegin=29704|AlignEnd=29877|Gloss=1Sing.Gen
+35	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=29877|AlignEnd=30050|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_021-021
 # speaker_id = SP1
