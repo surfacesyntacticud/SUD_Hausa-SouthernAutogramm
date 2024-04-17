@@ -6520,7 +6520,7 @@
 # text = tòː gàː wani / wai shiː gaudàː //
 # text_en =  Well there's what they call "gauda*". (* type of cake)
 1	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=795645|AlignEnd=795785|Gloss=well
-2	gàː	gàː	PART	_	_	6	parataxis@top	_	AlignBegin=795785|AlignEnd=795925|Gloss=here_is
+2	gàː	gàː	PART	_	_	6	dislocated	_	AlignBegin=795785|AlignEnd=795925|Gloss=here_is
 3	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	2	subj	_	AlignBegin=795925|AlignEnd=796065|Gloss=some.Masc
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=796065|AlignEnd=796205|Gloss=PUNCT|wordform=/
 5	wai	wai	SCONJ	_	_	6	discourse	_	AlignBegin=796205|AlignEnd=796480|Gloss=EVD
@@ -7112,7 +7112,7 @@
 # phonetic_text = gàː kuma wai àbù wai shiː / dànkalìː -n Tuːr̃ai -aːwaː\H //
 # text = gàː kuma wai àbù wai shiː < dànkalìn Tuːr̃aːwaː //
 # text_en =  There also that thing called European potatoes.
-1	gàː	gàː	PART	_	_	8	parataxis@top	_	AlignBegin=869175|AlignEnd=869304|Gloss=here_is
+1	gàː	gàː	PART	_	_	8	dislocated	_	AlignBegin=869175|AlignEnd=869304|Gloss=here_is
 2	kuma	kuma	PART	_	_	1	discourse	_	AlignBegin=869304|AlignEnd=869433|Gloss=too
 3	wai	wai	SCONJ	_	_	1	discourse	_	AlignBegin=869433|AlignEnd=869562|Gloss=EVD
 4	àbù	àbù	NOUN	_	_	1	subj	_	AlignBegin=869562|AlignEnd=869691|Gloss=thing
@@ -7178,10 +7178,10 @@
 5	na	kà	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=878751|AlignEnd=878913|Background=Yes|Gloss=1Sing.Perf.Bkg
 6	yi	yi	VERB	_	_	5	comp:aux	_	AlignBegin=878913|AlignEnd=879075|Gloss=do
 7	makà	makà	PRON	_	Gender=Masc|Person=2|PronType=Prs	6	comp:ben	_	AlignBegin=879075|AlignEnd=879237|Gloss=2Masc.Dat
-8	na	na	PART	_	Definite=Cons	7	comp:obj	_	AlignBegin=879237|AlignEnd=879399|Gloss=Cons
+8	na	na	PART	_	Definite=Cons	6	mod	_	AlignBegin=879237|AlignEnd=879399|Gloss=Cons
 9	zaːmàni:	zaːmàni:	NOUN	_	_	8	comp:obj	_	AlignBegin=879399|AlignEnd=879561|Gloss=time
-10	kèːnan	kèːnan	PART	_	_	9	mod@emp	_	AlignBegin=879561|AlignEnd=879723|Background=Yes|Gloss=Ident/Foc.Bkg|wordform=kèː
-11	ai	ai	INTJ	_	_	7	mod	_	AlignBegin=879885|AlignEnd=880047|Gloss=indeed
+10	kèːnan	kèːnan	PART	_	_	8	mod@emp	_	AlignBegin=879561|AlignEnd=879723|Background=Yes|Gloss=Ident/Foc.Bkg|wordform=kèː
+11	ai	ai	INTJ	_	_	5	mod	_	AlignBegin=879885|AlignEnd=880047|Gloss=indeed
 12	!//	!//	PUNCT	_	_	5	punct	_	AlignBegin=880047|AlignEnd=880209|Gloss=PUNCT|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_0768-0768
@@ -7905,8 +7905,8 @@
 # text_en =  That's... that's what d'you call it?
 1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=949909|AlignEnd=950124|Gloss=here_is
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=950124|AlignEnd=950339|Gloss=PUNCT
-3	gàː	gàː	PART	_	_	1	conj:coord	_	AlignBegin=950339|AlignEnd=950458|Gloss=here_is
-4	àbîn	àbù	NOUN	_	Definite=Def	3	subj:aux	_	AlignBegin=950458|AlignEnd=950518|Gloss=thing.Def|wordform=àbù
+3	gàː	gàː	PART	_	_	1	conj:dicto	_	AlignBegin=950339|AlignEnd=950458|Gloss=here_is
+4	àbîn	àbù	NOUN	_	Definite=Def	3	subj	_	AlignBegin=950458|AlignEnd=950518|Gloss=thing.Def|wordform=àbù
 5	nan	nan	DET	_	Definite=Def	4	det	_	AlignBegin=950577|AlignEnd=950696|Gloss=Def
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=950696|AlignEnd=950816|Gloss=PUNCT
 
@@ -8970,7 +8970,7 @@
 2	kanyàn	kanyàː	NOUN	_	Definite=Cons	1	comp:obj	_	AlignBegin=1075120|AlignEnd=1075250|Gloss=ebony_tree.Cons|wordform=kanyàː
 3	Ɗambàːba	Ɗambàːba	PROPN	_	_	2	mod	_	AlignBegin=1075660|AlignEnd=1076150|Gloss=Dambaba
 4	//=	//=	PUNCT	_	_	3	punct	_	AlignBegin=1076150|AlignEnd=1076650|Gloss=PUNCT|wordform=/
-5	àkwai	àkwai	PART	_	_	1	parataxis@conj	_	AlignBegin=1076650|AlignEnd=1076970|Gloss=there_is
+5	àkwai	àkwai	PART	_	_	1	parataxis	_	AlignBegin=1076650|AlignEnd=1076970|Gloss=there_is
 6	tsaːmiyan	tsaːmiyaː	NOUN	_	Definite=Cons	5	subj	_	AlignBegin=1076970|AlignEnd=1077130|Gloss=tamarind.Cons|wordform=tsaːmiyaː
 7	Dattì	Dattì	PROPN	_	_	6	mod	_	AlignBegin=1077280|AlignEnd=107760|Gloss=Datti
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=107760|AlignEnd=1077910|Gloss=PUNCT
@@ -9287,7 +9287,7 @@
 10	wânnan	wânnan	PRON	_	Definite=Def	9	comp:obj	_	AlignBegin=1112940|AlignEnd=1113270|Gloss=Def
 11	sukèː	kèː	AUX	_	Number=Plur|Person=3	10	unk@scrap	_	AlignBegin=111470|AlignEnd=1114980|Background=Yes|Gloss=3Plur.Imp.Bkg
 12	X	X	X	_	_	11	unk@scrap	_	AlignBegin=1114980|AlignEnd=1115270|Gloss=X
-13	Zagèːzàgiː	Zagèːzàgiː	PROPN	_	_	12	unk:scrap	_	AlignBegin=1115660|AlignEnd=111640|Gloss=Zaria_inhabitant
+13	Zagèːzàgiː	Zagèːzàgiː	PROPN	_	_	12	unk@scrap	_	AlignBegin=1115660|AlignEnd=111640|Gloss=Zaria_inhabitant
 14	heː	heː	INTJ	_	_	13	unk@scrap	_	AlignBegin=1118120|AlignEnd=1118340|Gloss=heː
 15	Turùnku	Turùnku	PROPN	_	_	14	unk@scrap	_	AlignBegin=1118340|AlignEnd=1118560|Gloss=Turunku
 16	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1118560|AlignEnd=1118780|Gloss=PUNCT
