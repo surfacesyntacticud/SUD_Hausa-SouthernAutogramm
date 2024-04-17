@@ -2483,7 +2483,7 @@
 # phonetic_text = dukà àbù -uCaː\HL -ǹ sun zoː wandà sukà yi àbù -n nàn //
 # text = du' abuːbuwàn sun zoː > wandà sukà yi àbin nàn //
 # text_en =  All the things have gone, which used to do these.
-1	du'	dukà	DET	_	_	2	det@subj	_	AlignBegin=292948|AlignEnd=293112|Gloss=all
+1	du'	dukà	DET	_	_	2	det	_	AlignBegin=292948|AlignEnd=293112|Gloss=all
 2	abuːbuwàn	àbù	NOUN	_	Number=Plur	3	subj	_	AlignBegin=293112|AlignEnd=293167|Gloss=thing.Plur.PUNCT|wordform=àbù
 3	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=293276|AlignEnd=293440|Gloss=3Plur.Perf
 4	zoː	zoː	VERB	_	_	3	comp:aux	_	AlignBegin=293440|AlignEnd=293604|Gloss=come
@@ -6900,7 +6900,7 @@
 7	ba	ba	PART	_	Polarity=Neg	5	mod	_	AlignBegin=841697|AlignEnd=841821|Gloss=Neg
 8	<	<	PUNCT	_	_	5	punct	_	AlignBegin=841821|AlignEnd=841948|Gloss=PUNCT|wordform=/
 9	dâː	dâː	ADV	_	_	21	mod	_	AlignBegin=841948|AlignEnd=842325|Gloss=formerly
-10	waːkeː	waːkeː	NOUN	_	_	21	dislocated:obj@top	_	AlignBegin=842325|AlignEnd=842702|Gloss=beans
+10	waːkeː	waːkeː	NOUN	_	_	21	dislocated@top	_	AlignBegin=842325|AlignEnd=842702|Gloss=beans
 11	ai	ai	INTJ	_	_	10	discourse	_	AlignBegin=842702|AlignEnd=843079|Gloss=indeed
 12	<	<	PUNCT	_	_	10	punct	_	AlignBegin=843079|AlignEnd=843455|Gloss=PUNCT|wordform=/
 13	dâː	dâː	SCONJ	_	_	21	mod	_	AlignBegin=843884|AlignEnd=844030|Gloss=formerly
@@ -8750,13 +8750,13 @@
 # sent_timecode = 1046733, 1050150
 # phonetic_text = tundà bân taɓàː mântaː -wàː / nan / goːnaː -n daːjìː //
 # text = tundà bân taɓà mântâːwaː / nan / goːnan daːjìː //
-# text_en =  I have not forgotten there the bush farm.
+# text_en =  I have not forgotten, there, the bush farm.
 1	tundà	tundà	SCONJ	_	_	2	discourse	_	AlignBegin=1046730|AlignEnd=1047070|Gloss=since
 2	bân	bâi	AUX	_	Number=Sing|Person=1|Polarity=Neg	0	root	_	AlignBegin=1047070|AlignEnd=104740|Gloss=1Sing.Imp.Neg
 3	taɓà	taɓ-	VERB	_	_	2	comp:aux	_	AlignBegin=104740|AlignEnd=1047730|Gloss=have_already
 4	mântaːwàː	mant-	VERB	_	VerbForm=Vnoun	3	comp:obj	_	AlignBegin=1047730|AlignEnd=104790|ExtPos=NOUN|Gloss=forget.Vnoun|wordform=mântaː
 5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=1048060|AlignEnd=104840|Gloss=PUNCT|wordform=/
-6	nan	nan	ADV	_	Definite=Def	2	dislocated:obj@mod	_	AlignBegin=104840|AlignEnd=1048610|Gloss=Def
+6	nan	nan	ADV	_	Definite=Def	2	dislocated@mod	_	AlignBegin=104840|AlignEnd=1048610|Gloss=Def
 7	|a	|a	PUNCT	_	_	6	punct	_	AlignBegin=1048610|AlignEnd=1048820|Gloss=PUNCT|wordform=/
 8	goːnan	goːnaː	NOUN	_	_	6	conj:appos	_	AlignBegin=1049110|AlignEnd=1049280|Gloss=field.Cons|wordform=goːnaː
 9	daːjìː	daːjìː	NOUN	_	_	8	mod	_	AlignBegin=1049460|AlignEnd=104980|Gloss=bush
@@ -10016,8 +10016,8 @@
 # sent_timecode = 1193917, 1195058
 # phonetic_text = eː kuma dà wânnan &//
 # text = eː kuma dà wânnan //
-# text_en =  Yes, there are those.
-1	eː	eː	INTJ	_	_	3	discourse@scrap	_	AlignBegin=1193920|AlignEnd=1194140|Gloss=yes
+# text_en =  Yes, those too.
+1	eː	eː	INTJ	_	_	3	discourse	_	AlignBegin=1193920|AlignEnd=1194140|Gloss=yes
 2	kuma	kuma	PART	_	_	1	discourse	_	AlignBegin=1194140|AlignEnd=1194370|Gloss=too
 3	dà	dà	PART	_	_	0	root	_	AlignBegin=1194370|AlignEnd=119460|Gloss=with/exist
 4	wânnan	wânnan	PRON	_	Definite=Def	3	subj	_	AlignBegin=119460|AlignEnd=1194830|Gloss=Def
