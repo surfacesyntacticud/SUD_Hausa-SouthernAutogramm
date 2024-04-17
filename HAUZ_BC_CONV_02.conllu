@@ -185,12 +185,12 @@
 23	dà	dà	SCONJ	_	_	25	cc	_	AlignBegin=27324|AlignEnd=27418|Gloss=COMP
 24	ainihin	ainihiː	ADJ	_	Definite=Cons	25	mod	_	AlignBegin=27661|AlignEnd=27767|Gloss=really|wordform=ainihiː
 25	Àlhajì	Àlhajì	PROPN	_	_	22	conj:coord	_	AlignBegin=27873|AlignEnd=28085|Gloss=Alhaji
-26	wandà	wandà	PRON	_	PronType=Rel	25	conj:appos@relcl	_	AlignBegin=28085|AlignEnd=28297|Gloss=who
-27	nikè	kè	AUX	_	Number=Sing|Person=1	26	mod@relcl	_	AlignBegin=28297|AlignEnd=28509|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
+26	wandà	wandà	PRON	_	PronType=Rel	29	comp:obj	_	AlignBegin=28085|AlignEnd=28297|Gloss=who
+27	nikè	kè	AUX	_	Number=Sing|Person=1	25	mod@relcl	_	AlignBegin=28297|AlignEnd=28509|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
 28	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	27	comp:pred	_	AlignBegin=28509|AlignEnd=28721|Gloss=stay.Stat
-29	à	à	ADP	_	ExtPos=ADP	27	comp:loc	_	AlignBegin=28721|AlignEnd=28933|Gloss=at|Idiom=Yes
+29	à	à	ADP	_	ExtPos=ADP	28	comp:loc	_	AlignBegin=28721|AlignEnd=28933|Gloss=at|Idiom=Yes
 30	wajen	wajeː	NOUN	_	_	29	compound	_	AlignBegin=28933|AlignEnd=29039|Gloss=side.Cons|InIdiom=Yes
-31	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	29	udep	_	AlignBegin=29039|AlignEnd=29145|Gloss=3Masc.Gen
+31	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	29	comp:obj	_	AlignBegin=29039|AlignEnd=29145|Gloss=3Masc.Gen
 32	|a	|a	PUNCT	_	_	34	punct	_	AlignBegin=29145|AlignEnd=29358|Gloss=PUNCT
 33	wânnan	wânnan	DET	_	Definite=Def	34	det	_	AlignBegin=29358|AlignEnd=29531|Gloss=Def
 34	kàːwûn	kàːwuː	NOUN	_	Definite=Def	25	conj:appos	_	AlignBegin=29531|AlignEnd=29617|Gloss=uncle.Def
@@ -2487,7 +2487,7 @@
 # text = in ka jeː basaːwa yànzu < tòː màganàn dà akèː kà taːshì kà jeː basaːwa |c zaːkà ga gàrîn //
 # text_en =  If you go to Basawa now, what I'm saying is that you should go to Basawa, you will see the village.
 1	in	in	SCONJ	_	_	11	mod	_	AlignBegin=259896|AlignEnd=260041|Gloss=if
-2	ka	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj@discourse	_	AlignBegin=260041|AlignEnd=260186|Background=Yes|Gloss=2Masc.Perf.Bkg
+2	ka	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=260041|AlignEnd=260186|Background=Yes|Gloss=2Masc.Perf.Bkg
 3	jeː	jeː	VERB	_	_	2	comp:aux	_	AlignBegin=260186|AlignEnd=260331|Gloss=go
 4	Basaːwaː	Basaːwaː	PROPN	_	_	3	comp:goal	_	AlignBegin=260331|AlignEnd=260476|Gloss=Basawa|wordform=basaːwa
 5	yànzu	yànzu	ADV	_	_	3	mod	_	AlignBegin=260476|AlignEnd=260621|Gloss=now
@@ -2523,7 +2523,7 @@
 # sent_timecode = 262851, 265689
 # phonetic_text = àkwai kuːkàː / àkwai dai irìː -n shuːkàː -eː\LHLH irìː -ǹ na mùtûm -aː_eː\HLH -n dâː //
 # text = àkwai kuːkàː |c àkwai dai irìn shùːke-shùːke irìn na mutàːnen dâː //
-# text_en =  there are baobab trees, there are indeed all sort of plants like in the old times.
+# text_en = There are baobab trees, there are indeed all sort of plants like in the old times.
 1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=262851|AlignEnd=263108|Gloss=there_is
 2	kuːkàː	kuːkàː	NOUN	_	_	1	subj	_	AlignBegin=263108|AlignEnd=263365|Gloss=baobab
 3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=263365|AlignEnd=263621|Gloss=PUNCT
@@ -2741,7 +2741,7 @@
 7	irìn	irìː	NOUN	_	Definite=Cons	6	comp:obj	_	AlignBegin=287007|AlignEnd=287088|Gloss=type.Cons|wordform=irìː
 8	yaːƙìː	yaːƙìː	NOUN	_	_	7	mod	_	AlignBegin=287169|AlignEnd=287331|Gloss=war
 9	kàman	kàman	SCONJ	_	ExtPos=ADV	12	discourse	_	AlignBegin=287491|AlignEnd=287653|Gloss=like|Idiom=Yes|wordform=kàmar̃
-10	à	à	AUX	_	Aspect=Aor|Person=4	9	comp:obj@relcl	_	AlignBegin=287653|AlignEnd=287815|Gloss=4.Aor|InIdiom=Yes
+10	à	à	AUX	_	Aspect=Aor|Person=4	9	comp:obj	_	AlignBegin=287653|AlignEnd=287815|Gloss=4.Aor|InIdiom=Yes
 11	cêː	cêː	VERB	_	_	10	comp:aux	_	AlignBegin=287815|AlignEnd=287977|Gloss=say|InIdiom=Yes
 12	dàgà	dàgà	ADP	_	_	6	comp:obl	_	AlignBegin=287977|AlignEnd=288058|Gloss=from
 13	ʔèʔèʔe	ʔèʔèʔe	INTJ	_	_	17	discourse	_	AlignBegin=288300|AlignEnd=288438|Gloss=FILL

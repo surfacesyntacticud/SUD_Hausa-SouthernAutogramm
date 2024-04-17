@@ -928,15 +928,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 108914, 110115
 # phonetic_text = in ya shaː fa sai an tuntùɗaː shi //
-# text = àkwai wani wandà yakèː yawàn wucèːwaː ta ƙoːfàr̃ gidan =mù < in ya shaː fa sai an tuntùɗaː shi //
+# text = àkwai wani wandà yakè yawàn wucèːwaː ta ƙoːfàr̃ gidan =mù < in ya shaː fa sai an tuntùɗaː shi //
 # text_en = There is somebody who often walks pass our house door, when he drinks, they have to carry him away.
-1	àkwai	àkwai	PART	_	_	17	discourse	_	AlignBegin=107103|AlignEnd=107284|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	17	dislocated	_	AlignBegin=107103|AlignEnd=107284|Gloss=there_is
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	1	subj	_	AlignBegin=107284|AlignEnd=107465|Gloss=some.Masc
-3	wandà	wandà	PRON	_	PronType=Rel	2	conj:appos@relcl	_	AlignBegin=107465|AlignEnd=107646|Gloss=who
-4	yakèː	kèː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	3	mod@relcl	_	AlignBegin=107646|AlignEnd=107827|Background=Yes|Gloss=3Masc.Prog.Bkg
-5	yawàn	yawàː	NOUN	_	Definite=Cons	6	udep	_	AlignBegin=107827|AlignEnd=107917|Gloss=plenty.Cons|wordform=yawàː
-6	wucèːwaː	wut-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=108008|AlignEnd=108098|Gloss=pass_by.Vnoun|wordform=wucèː
-7	ta	ta	ADP	_	_	6	udep	_	AlignBegin=108189|AlignEnd=108370|Gloss=via
+3	wandà	wandà	PRON	_	PronType=Rel	4	subj	_	AlignBegin=107465|AlignEnd=107646|Gloss=who
+4	yakè	kè	AUX	_	Gender=Masc|Person=3	2	mod@relcl	_	AlignBegin=107646|AlignEnd=107827|Background=Yes|Gloss=3Masc.Pred/Loc.Bkg
+5	yawàn	yawàː	NOUN	_	Definite=Cons	4	comp:pred	_	AlignBegin=107827|AlignEnd=107917|Gloss=plenty.Cons|wordform=yawàː
+6	wucèːwaː	wut-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	mod	_	AlignBegin=108008|AlignEnd=108098|Gloss=pass_by.Vnoun|wordform=wucèː
+7	ta	ta	ADP	_	_	4	comp:loc	_	AlignBegin=108189|AlignEnd=108370|Gloss=via
 8	ƙoːfàr̃	ƙoːfàː	VERB	_	_	7	comp:obj	_	AlignBegin=108370|AlignEnd=108460|Gloss=door.Cons.Fem
 9	gidan	gidaː	NOUN	_	Definite=Cons	8	mod	_	AlignBegin=108551|AlignEnd=108611|Gloss=home.Cons|wordform=gidaː
 10	=mù	=mù	PRON	_	Number=Plur|Person=1|PronType=Prs	9	mod@poss	_	AlignBegin=108671|AlignEnd=108732|Gloss=1Plur.Gen
@@ -1874,8 +1874,8 @@
 1	àmmaː	àmmaː	CCONJ	_	_	9	discourse	_	AlignBegin=222948|AlignEnd=223176|ExtPos=CCONJ|Gloss=but
 2	na	na	PART	_	Definite=Cons	9	dislocated@top	_	AlignBegin=223176|AlignEnd=223404|Gloss=Cons
 3	yànzûn	yànzu	ADV	_	_	2	comp:obj	_	AlignBegin=223404|AlignEnd=223518|Gloss=now.Def|wordform=yànzu
-4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=223632|AlignEnd=223860|Gloss=PUNCT|wordform=/
-5	na	na	PART	_	Definite=Cons	2	comp:dicto@top	_	AlignBegin=224144|AlignEnd=224307|Gloss=Cons
+4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=223632|AlignEnd=223860|Gloss=PUNCT|wordform=/
+5	na	na	PART	_	Definite=Cons	2	conj:dicto	_	AlignBegin=224144|AlignEnd=224307|Gloss=Cons
 6	yànzu	yànzu	ADV	_	_	5	comp:obj	_	AlignBegin=224307|AlignEnd=224470|Gloss=now
 7	sai	sai	ADV	_	_	9	mod	_	AlignBegin=224470|AlignEnd=224633|Gloss=only
 8	dai	dai	PART	_	_	7	discourse	_	AlignBegin=224633|AlignEnd=224796|Gloss=indeed
@@ -5327,7 +5327,7 @@
 # phonetic_text = àkwai wani ràkeː dà na shaː / sai dà ya taɓoː mîn kwanyaː //
 # text = àkwai wani ràkeː dà na shaː / sai dà ya taɓoː mîn kwanyaː //
 # text_en =  There is one sugar cane, when I ate it, it blew my mind.
-1	àkwai	àkwai	PART	_	_	10	discourse	_	AlignBegin=658948|AlignEnd=659098|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	10	dislocated	_	AlignBegin=658948|AlignEnd=659098|Gloss=there_is
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	3	det	_	AlignBegin=659098|AlignEnd=659248|Gloss=some.Masc
 3	ràkeː	ràkeː	NOUN	_	_	1	subj	_	AlignBegin=659248|AlignEnd=659398|Gloss=sugar-cane
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=659398|AlignEnd=659548|Gloss=COMP
@@ -6976,7 +6976,7 @@
 1	eː	eː	INTJ	_	_	3	discourse	_	AlignBegin=855632|AlignEnd=855873|Gloss=yes
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=855873|AlignEnd=856114|Gloss=PUNCT
 3	mài	mài	NOUN	_	_	0	root	_	AlignBegin=856114|AlignEnd=856278|Gloss=holder_of
-4	yîː	yi	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	compound:aux	_	AlignBegin=856278|AlignEnd=856442|Gloss=do.Vnoun
+4	yîː	yi	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	compound	_	AlignBegin=856278|AlignEnd=856442|Gloss=do.Vnoun
 5	à	à	ADP	_	_	4	mod	_	AlignBegin=856442|AlignEnd=856606|Gloss=at
 6	samà	samà	ADV	_	_	5	comp:obj	_	AlignBegin=856606|AlignEnd=856770|Gloss=up
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=856770|AlignEnd=856934|Gloss=PUNCT
@@ -9388,7 +9388,7 @@
 # text_en =  Well, if you go there, you will see women holding a hoe.
 1	tòː	tòː	INTJ	_	_	9	discourse	_	AlignBegin=1128490|AlignEnd=1128690|Gloss=well
 2	in	in	SCONJ	_	_	9	mod	_	AlignBegin=1128690|AlignEnd=1128880|Gloss=if
-3	ka	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	comp:obj@discourse	_	AlignBegin=1128880|AlignEnd=1129070|Background=Yes|Gloss=2Masc.Perf.Bkg
+3	ka	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=2	2	comp:obj	_	AlignBegin=1128880|AlignEnd=1129070|Background=Yes|Gloss=2Masc.Perf.Bkg
 4	jeː	jeː	VERB	_	_	3	comp:aux	_	AlignBegin=1129070|AlignEnd=1129260|Gloss=go
 5	nan	nan	ADV	_	Definite=Def	4	mod	_	AlignBegin=1129260|AlignEnd=1129460|Gloss=Def
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=1129460|AlignEnd=1129650|Gloss=PUNCT|wordform=/
@@ -10587,7 +10587,7 @@
 4	yànzu	yànzu	ADV	_	_	3	conj:appos	_	AlignBegin=1273360|AlignEnd=1273670|Gloss=now
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=1273670|AlignEnd=1273970|Gloss=PUNCT|wordform=/
 6	in	in	SCONJ	_	_	20	mod	_	AlignBegin=1274390|AlignEnd=1274530|Gloss=if
-7	ka	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	comp:obj@discourse	_	AlignBegin=1274530|AlignEnd=1274670|Background=Yes|Gloss=2Masc.Perf.Bkg
+7	ka	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	comp:obj	_	AlignBegin=1274530|AlignEnd=1274670|Background=Yes|Gloss=2Masc.Perf.Bkg
 8	jeː	jeː	VERB	_	_	7	comp:aux	_	AlignBegin=1274670|AlignEnd=1274810|Gloss=go
 9	yànzu	yànzu	ADV	_	_	8	mod	_	AlignBegin=1274810|AlignEnd=1274950|Gloss=now
 10	maː	maː	PART	_	_	9	discourse	_	AlignBegin=1274950|AlignEnd=1275080|Gloss=even
