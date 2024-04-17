@@ -1467,7 +1467,7 @@
 1	kuma	kuma	PART	_	_	3	discourse	_	AlignBegin=172664|AlignEnd=172840|Gloss=too
 2	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	comp:pred	_	AlignBegin=172840|AlignEnd=173016|Gloss=3Plur.Nom
 3	nèː	neː	PART	_	_	0	root	_	AlignBegin=173016|AlignEnd=173192|Gloss=Ident/Foc
-4	màːsu	màːsu	NOUN	_	Number=Plur	3	dislocated@subj	_	AlignBegin=173192|AlignEnd=173368|Gloss=holder_of.Plur
+4	màːsu	màːsu	PART	_	Number=Plur	3	dislocated@subj	_	AlignBegin=173192|AlignEnd=173368|Gloss=holder_of.Plur
 5	ɗan	ɗan	ADV	_	_	6	mod	_	AlignBegin=173368|AlignEnd=173544|Gloss=DIM
 6	kaːwoː	kay	VERB	_	_	4	compound	_	AlignBegin=173544|AlignEnd=173720|Gloss=carry.DIR
 7	kuɗîn	kuɗiː	NOUN	_	_	6	comp:obj	_	AlignBegin=173720|AlignEnd=173808|Gloss=money.Def|wordform=kuɗiː
@@ -2181,7 +2181,7 @@
 7	ya	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=259545|AlignEnd=259742|Gloss=3Masc
 8	nan	nan	ADV	_	Definite=Def	6	comp:loc	_	AlignBegin=259742|AlignEnd=259939|Gloss=Def
 9	gàː	gàː	PART	_	_	6	conj:coord	_	AlignBegin=259939|AlignEnd=260136|Gloss=here_is
-10	màːsu	màːsu	NOUN	_	Number=Plur	9	subj	_	AlignBegin=260136|AlignEnd=260333|Gloss=holder_of.Plur
+10	màːsu	màːsu	PART	_	Number=Plur	9	subj	_	AlignBegin=260136|AlignEnd=260333|Gloss=holder_of.Plur
 11	furaː	furaː	NOUN	_	_	10	compound	_	AlignBegin=260333|AlignEnd=260530|Gloss=gruel
 12	nan	nan	DET	_	Definite=Def	9	comp:loc	_	AlignBegin=260530|AlignEnd=260727|Gloss=Def
 13	kawài	kawài	ADV	_	_	9	mod	_	AlignBegin=260727|AlignEnd=260924|Gloss=only
@@ -5327,13 +5327,13 @@
 # phonetic_text = àkwai wani ràkeː dà na shaː / sai dà ya taɓoː mîn kwanyaː //
 # text = àkwai wani ràkeː dà na shaː / sai dà ya taɓoː mîn kwanyaː //
 # text_en =  There is one sugar cane, when I ate it, it blew my mind.
-1	àkwai	àkwai	PART	_	_	10	parataxis:discourse	_	AlignBegin=658948|AlignEnd=659098|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	10	discourse	_	AlignBegin=658948|AlignEnd=659098|Gloss=there_is
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	3	det	_	AlignBegin=659098|AlignEnd=659248|Gloss=some.Masc
 3	ràkeː	ràkeː	NOUN	_	_	1	subj	_	AlignBegin=659248|AlignEnd=659398|Gloss=sugar-cane
-4	dà	dà	SCONJ	_	_	10	mod	_	AlignBegin=659398|AlignEnd=659548|Gloss=COMP
+4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=659398|AlignEnd=659548|Gloss=COMP
 5	na	na	PART	_	Definite=Cons	4	comp:obj	_	AlignBegin=659548|AlignEnd=659698|Gloss=Cons
 6	shaː	shaː	VERB	_	_	5	comp:obj	_	AlignBegin=659698|AlignEnd=659848|Gloss=drink
-7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=659848|AlignEnd=659998|Gloss=PUNCT|wordform=/
+7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=659848|AlignEnd=659998|Gloss=PUNCT|wordform=/
 8	sai	sai	ADV	_	_	10	mod	_	AlignBegin=659998|AlignEnd=660167|ExtPos=ADV|Gloss=must
 9	dà	dà	SCONJ	_	_	8	unk	_	AlignBegin=660167|AlignEnd=660336|Gloss=as
 10	ya	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=660336|AlignEnd=660505|Background=Yes|Gloss=3Masc.Perf.Bkg
@@ -6069,7 +6069,7 @@
 6	yànzu	yànzu	ADV	_	_	12	mod	_	AlignBegin=744772|AlignEnd=744957|Gloss=now
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=744957|AlignEnd=745142|Gloss=PUNCT|wordform=/
 8	dâː	dâː	ADV	_	_	12	mod	_	AlignBegin=745142|AlignEnd=745361|Gloss=formerly
-9	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	12	parataxis:discourse	_	AlignBegin=745361|AlignEnd=745580|Gloss=2Masc.Perf
+9	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	12	discourse	_	AlignBegin=745361|AlignEnd=745580|Gloss=2Masc.Perf
 10	ganiː	ganiː	VERB	_	_	9	comp:aux	_	AlignBegin=745580|AlignEnd=745799|Gloss=see
 11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=745799|AlignEnd=746017|Gloss=PUNCT|wordform=/
 12	jàːkiː	jàːkiː	NOUN	_	_	0	root	_	AlignBegin=746376|AlignEnd=746576|Gloss=donkey
@@ -8588,7 +8588,7 @@
 6	dà	dà	ADP	_	_	5	udep	_	AlignBegin=1027190|AlignEnd=1027320|Gloss=with
 7	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=1027320|AlignEnd=1027440|Gloss=3Masc.Nom
 8	>	>	PUNCT	_	_	9	punct	_	AlignBegin=1027440|AlignEnd=1027570|Gloss=PUNCT
-9	màːsu	màːsu	NOUN	_	Number=Plur	4	dislocated@subj	_	AlignBegin=102810|AlignEnd=1028240|Gloss=holder_of.Plur
+9	màːsu	màːsu	PART	_	Number=Plur	4	dislocated@subj	_	AlignBegin=102810|AlignEnd=1028240|Gloss=holder_of.Plur
 10	wàːsaː	wàːsaː	NOUN	_	_	9	compound	_	AlignBegin=1028240|AlignEnd=1028380|Gloss=playing
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=1028380|AlignEnd=1028510|Gloss=PUNCT
 
@@ -8611,7 +8611,7 @@
 # text_en = Except for entertainers.
 1	sai	sai	ADV	_	_	3	discourse	_	AlignBegin=102930|AlignEnd=102950|Gloss=only
 2	dai	dai	PART	_	_	1	discourse	_	AlignBegin=102950|AlignEnd=1029690|Gloss=indeed
-3	màːsu	màːsu	NOUN	_	Number=Plur	0	root	_	AlignBegin=1029690|AlignEnd=1029880|Gloss=holder_of.Plur
+3	màːsu	màːsu	PART	_	Number=Plur	0	root	_	AlignBegin=1029690|AlignEnd=1029880|Gloss=holder_of.Plur
 4	wàːsaː	wàːsaː	NOUN	_	_	3	compound	_	AlignBegin=1029880|AlignEnd=1030080|Gloss=playing
 5	fa	fa	PART	_	_	3	discourse	_	AlignBegin=1030080|AlignEnd=1030270|Gloss=indeed
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=1030270|AlignEnd=1030460|Gloss=PUNCT
@@ -9302,7 +9302,7 @@
 1	na	na	PART	_	Definite=Cons	4	subj	_	AlignBegin=1119940|AlignEnd=1120120|Gloss=Cons
 2	Turùnku	Turùnku	PROPN	_	_	1	comp:obj	_	AlignBegin=1120120|AlignEnd=1120290|Gloss=Turunku
 3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=1120290|AlignEnd=1120470|Gloss=PUNCT|wordform=/
-4	màːsu	màːsu	NOUN	_	Number=Plur	0	root	_	AlignBegin=1120470|AlignEnd=1120680|Gloss=holder_of.Plur
+4	màːsu	màːsu	PART	_	Number=Plur	0	root	_	AlignBegin=1120470|AlignEnd=1120680|Gloss=holder_of.Plur
 5	kaurin	kauriː	ADJ	_	Definite=Cons	6	mod	_	AlignBegin=1120680|AlignEnd=1120890|Gloss=thick.Cons
 6	cinyàː	cinyàː	NOUN	_	_	4	compound	_	AlignBegin=1120890|AlignEnd=112110|Gloss=thigh
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=112110|AlignEnd=1121310|Gloss=PUNCT
@@ -12951,7 +12951,7 @@
 # phonetic_text = màːsu jâː nàː jâː //
 # text = màːsu jâː nàː jâː //
 # text_en =  Those removing (the earth) were removing it.
-1	màːsu	màːsu	NOUN	_	Number=Plur	3	subj	_	AlignBegin=1551610|AlignEnd=1551820|Gloss=holder_of.Plur
+1	màːsu	màːsu	PART	_	Number=Plur	3	subj	_	AlignBegin=1551610|AlignEnd=1551820|Gloss=holder_of.Plur
 2	jâː	jaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	1	compound	_	AlignBegin=1551820|AlignEnd=1552040|Gloss=pull.Vnoun
 3	nàː	nàː	AUX	_	Person=1	0	root	_	AlignBegin=1552040|AlignEnd=1552260|Gloss=Imp
 4	jâː	jâː	VERB	_	_	3	comp:aux	_	AlignBegin=1552260|AlignEnd=1552470|Gloss=pulling
