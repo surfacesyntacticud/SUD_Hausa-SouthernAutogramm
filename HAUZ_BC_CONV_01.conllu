@@ -1195,7 +1195,7 @@
 # phonetic_text = har̃ yà zuwàː yâu tanàː nan koː kùwa ?//
 # text = har̃ yà zuwàː yâu tanàː nan koː kùwa ?//
 # text_en = Up till now, she is still here, or else?
-1	har̃	har̃	ADP	_	ExtPos=ADP	5	mod	_	AlignBegin=149994|AlignEnd=150129|Gloss=until|Idiom=Yes
+1	har̃	hat	ADP	_	ExtPos=ADP	5	mod	_	AlignBegin=149994|AlignEnd=150129|Gloss=until|Idiom=Yes
 2	yà	yà	ADP	_	_	1	unk	_	AlignBegin=150129|AlignEnd=150264|Gloss=like|InIdiom=Yes
 3	zuwàː	zuwàː	ADP	_	_	2	unk	_	AlignBegin=150264|AlignEnd=150399|Gloss=towards|InIdiom=Yes
 4	yâu	yâu	ADV	_	_	1	comp:obj	_	AlignBegin=150399|AlignEnd=150534|Gloss=today
@@ -1498,7 +1498,7 @@
 10	dà	dà	ADP	_	_	9	mod	_	AlignBegin=179887|AlignEnd=180048|Gloss=with
 11	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=180048|AlignEnd=180209|Gloss=3Masc.Nom
 12	kèːnan	kèːnan	PART	_	_	11	mod@emp	_	AlignBegin=180209|AlignEnd=180370|Background=Yes|Gloss=Ident/Foc.Bkg
-13	har̃	har̃	ADP	_	_	6	mod	_	AlignBegin=180531|AlignEnd=180692|Gloss=until
+13	har̃	hat	ADP	_	_	6	mod	_	AlignBegin=180531|AlignEnd=180692|Gloss=until
 14	gòːbe	gòːbe	ADV	_	_	13	comp:obj	_	AlignBegin=180692|AlignEnd=180853|Gloss=tomorrow
 15	//	//	PUNCT	_	_	6	punct	_	AlignBegin=180853|AlignEnd=181010|Gloss=PUNCT
 
@@ -1738,7 +1738,7 @@
 20	dà	dà	CCONJ	_	_	21	cc	_	AlignBegin=201838|AlignEnd=202044|Gloss=and
 21	sauran	sauraː	NOUN	_	Definite=Cons	18	conj:coord	_	AlignBegin=202044|AlignEnd=202113|Gloss=remainder|wordform=sauraː
 22	=sù	=su	PRON	_	Number=Plur|Person=3|PronType=Prs	21	mod	_	AlignBegin=202182|AlignEnd=202250|Gloss=3Plur
-23	har̃	har̃	CCONJ	_	_	25	cc	_	AlignBegin=202716|AlignEnd=202853|Gloss=until
+23	har̃	hat	CCONJ	_	_	25	cc	_	AlignBegin=202716|AlignEnd=202853|Gloss=until
 24	Allàː	Allàː	PROPN	_	_	25	subj	_	AlignBegin=202853|AlignEnd=202990|Gloss=God
 25	ya	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=3	14	conj:coord	_	AlignBegin=202990|AlignEnd=203127|Background=Yes|Gloss=3Masc.Perf.Bkg
 26	sâː	sâː	VERB	_	_	25	comp:aux	_	AlignBegin=203127|AlignEnd=203264|Gloss=put
@@ -2289,24 +2289,25 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 271336, 274422
 # phonetic_text = loːkàciː -ǹ dà akà saːmù / niː har̃ maː naː maː ɓacèː hanyàː // na àbù -ǹ nàn //
-# text = loːkàcîn dà akà saːmù < niː har̃ maː naː maː ɓacè hanyàː na àbin nàn //
+# text = loːkàcîn dà akà saːmù < niː han niː maː naː maː ɓacè hanyàː na àbin nàn //
 # text_en =  When we met the bull, I got lost because of that.
-1	loːkàcîn	loːkàciː	NOUN	_	Definite=Def	9	mod	_	AlignBegin=271336|AlignEnd=271427|Gloss=time.Def
+1	loːkàcîn	loːkàciː	NOUN	_	Definite=Def	10	mod	_	AlignBegin=271336|AlignEnd=271427|Gloss=time.Def
 2	dà	dà	SCONJ	_	_	1	mod@relcl	_	AlignBegin=271518|AlignEnd=271700|Gloss=COMP
 3	akà	kà	AUX	_	Aspect=Perf|Person=4	2	comp:obj	_	AlignBegin=271700|AlignEnd=271882|Background=Yes|Gloss=4.Perf.Bkg
 4	saːmù	saːm-	VERB	_	_	3	comp:aux	_	AlignBegin=271882|AlignEnd=272064|Gloss=get
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=272064|AlignEnd=272246|Gloss=PUNCT
-6	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	dislocated@subj	_	AlignBegin=272246|AlignEnd=272428|Gloss=1Sing.Nom
-7	har̃	har̃	ADP	_	_	9	mod	_	AlignBegin=272428|AlignEnd=272610|Gloss=until
-8	maː	maː	ADV	_	_	7	mod	_	AlignBegin=272610|AlignEnd=272792|Gloss=even
-9	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=272792|AlignEnd=272974|Gloss=1Sing.Perf
-10	maː	maː	PART	_	_	9	discourse	_	AlignBegin=272974|AlignEnd=273156|Gloss=even
-11	ɓacè	ɓac-	VERB	_	_	9	comp:aux	_	AlignBegin=273156|AlignEnd=273338|Gloss=lose
-12	hanyàː	hanyàː	NOUN	_	_	11	comp:obj	_	AlignBegin=273338|AlignEnd=273520|Gloss=road
-13	na	na	PART	_	Definite=Cons	11	mod	_	AlignBegin=273702|AlignEnd=273884|Gloss=Cons
-14	àbin	àbù	NOUN	_	Definite=Def	13	comp:obj	_	AlignBegin=273884|AlignEnd=273975|Gloss=thing.Def
-15	nàn	nàn	DET	_	Deixis=Prox	14	det	_	AlignBegin=274066|AlignEnd=274248|Gloss=Prox
-16	//	//	PUNCT	_	_	9	punct	_	AlignBegin=274248|AlignEnd=274422|Gloss=PUNCT
+6	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	dislocated@subj	_	AlignBegin=272246|AlignEnd=272428|Gloss=1Sing.Nom
+7	han	hat	ADV	_	_	8	mod	_	AlignBegin=272428|AlignEnd=272610|Gloss=until
+8	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1	10	dislocated@subj	_	AlignBegin=272610|AlignEnd=272792|Gloss=1Sing.Nom
+9	maː	maː	ADV	_	_	8	discourse	_	AlignBegin=272610|AlignEnd=272792|Gloss=even
+10	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=272792|AlignEnd=272974|Gloss=1Sing.Perf
+11	maː	maː	PART	_	_	10	discourse	_	AlignBegin=272974|AlignEnd=273156|Gloss=even
+12	ɓacè	ɓac-	VERB	_	_	10	comp:aux	_	AlignBegin=273156|AlignEnd=273338|Gloss=lose
+13	hanyàː	hanyàː	NOUN	_	_	12	comp:obj	_	AlignBegin=273338|AlignEnd=273520|Gloss=road
+14	na	na	PART	_	Definite=Cons	12	mod	_	AlignBegin=273702|AlignEnd=273884|Gloss=Cons
+15	àbin	àbù	NOUN	_	Definite=Def	14	comp:obj	_	AlignBegin=273884|AlignEnd=273975|Gloss=thing.Def
+16	nàn	nàn	DET	_	Deixis=Prox	15	det	_	AlignBegin=274066|AlignEnd=274248|Gloss=Prox
+17	//	//	PUNCT	_	_	10	punct	_	AlignBegin=274248|AlignEnd=274422|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_108-108
 # speaker_id = SP2
@@ -4249,7 +4250,7 @@
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	comp:pred	_	AlignBegin=539643|AlignEnd=539858|Gloss=3Masc.Nom
 4	nèː	neː	PART	_	_	6	discourse	_	AlignBegin=539858|AlignEnd=540073|Gloss=Ident/Foc
 5	dai	dai	PART	_	_	4	discourse	_	AlignBegin=540073|AlignEnd=540288|Gloss=indeed
-6	har̃	har̃	SCONJ	_	_	1	mod	_	AlignBegin=540288|AlignEnd=540503|Gloss=until
+6	har̃	hat	SCONJ	_	_	1	mod	_	AlignBegin=540288|AlignEnd=540503|Gloss=until
 7	ya	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	comp:obj	_	AlignBegin=540503|AlignEnd=540718|Background=Yes|Gloss=3Masc.Perf.Bkg
 8	koːmàː	koːm-	VERB	_	_	7	comp:aux	_	AlignBegin=540718|AlignEnd=540933|Gloss=become
 9	kòːgin	kòːgiː	NOUN	_	Definite=Cons	8	comp:pred	_	AlignBegin=540933|AlignEnd=541041|Gloss=river.Cons

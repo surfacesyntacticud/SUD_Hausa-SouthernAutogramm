@@ -242,7 +242,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_03.WAV
 # sent_timecode = 42662, 45317
 # phonetic_text = sai akà yi ta duːkàː -n -shì / har̃ akà yi mishì ciːwòː //
-# text = sai akà yi ta duːkànshì / har̃ akà yi mishì ciːwòː //
+# text = sai akà ji ta duːkàn =shì akà yi mishì ciːwòː //
 # text_en =  Then they kept beating him until he was wounded.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=42662|AlignEnd=42875|Gloss=then
 2	akà	kà	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=42875|AlignEnd=43088|Background=Yes|Gloss=4.Perf.Bkg
@@ -250,12 +250,11 @@
 4	ta	ta	PART	_	Aspect=Iter	5	mod	_	AlignBegin=43301|AlignEnd=43514|Gloss=Iter
 5	duːkàn	doːk-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	comp:obj@lvc	_	AlignBegin=43514|AlignEnd=43585|Gloss=beat.Vnoun.Cons|wordform=duːkàː
 6	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	5	udep	_	AlignBegin=43656|AlignEnd=43727|Gloss=3Masc..Gen
-7	har̃	har̃	SCONJ	_	_	3	mod	_	AlignBegin=43940|AlignEnd=44170|Gloss=until
-8	akà	kà	AUX	_	Aspect=Perf|Person=4	7	comp:obj	_	AlignBegin=44170|AlignEnd=44400|Background=Yes|Gloss=4.Perf.Bkg
-9	yi	yi	VERB	_	_	8	comp:aux	_	AlignBegin=44400|AlignEnd=44630|Gloss=do
-10	mishì	mishì	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	comp:ben	_	AlignBegin=44630|AlignEnd=44860|Gloss=3Masc.Ben
-11	ciːwòː	ciːwòː	NOUN	_	_	9	comp:obj@lvc	_	AlignBegin=44860|AlignEnd=45090|Gloss=wound
-12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=45090|AlignEnd=45317|Gloss=PUNCT
+7	akà	kà	AUX	_	Aspect=Perf|Person=4	2	conj:svc	_	AlignBegin=44170|AlignEnd=44400|Background=Yes|Gloss=4.Perf.Bkg
+8	ji	ji	VERB	_	_	7	comp:aux	_	AlignBegin=44400|AlignEnd=44630|Gloss=feel
+9	mishì	mishì	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	comp:ben	_	AlignBegin=44630|AlignEnd=44860|Gloss=3Masc.Ben
+10	ciːwòː	ciːwòː	NOUN	_	_	8	comp:obj@lvc	_	AlignBegin=44860|AlignEnd=45090|Gloss=wound
+11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=45090|AlignEnd=45317|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_03_29-29
 # speaker_id = SP
