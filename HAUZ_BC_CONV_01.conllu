@@ -1165,7 +1165,7 @@
 # text_en = We were running, we were hiding.
 1	munàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=1	0	root	_	AlignBegin=147598|AlignEnd=147811|Gloss=1Plur.Prog
 2	gudùː	gud-	VERB	_	_	1	comp:aux	_	AlignBegin=147811|AlignEnd=148024|Gloss=run
-3	munàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=1	1	conj:coord	_	AlignBegin=148024|AlignEnd=148237|Gloss=1Plur.Prog
+3	munàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=1	1	conj:svc	_	AlignBegin=148024|AlignEnd=148237|Gloss=1Plur.Prog
 4	ɓoːyèːwaː	ɓoːy-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=148237|AlignEnd=148343|Gloss=hide.Vnoun
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=148450|AlignEnd=148664|Gloss=PUNCT
 
@@ -1864,10 +1864,10 @@
 4	daːjìn	daːjìː	NOUN	_	Definite=Def	3	comp:goal	_	AlignBegin=220185|AlignEnd=220263|Gloss=bush.Def
 5	nan	nan	DET	_	Definite=Def	4	det	_	AlignBegin=220342|AlignEnd=220499|Gloss=Def
 6	|c	 |c	PUNCT	_	_	9	punct	_	AlignBegin=220499|AlignEnd=220654|Gloss=PUNCT
-7	sai	sai	ADV	_	ExtPos=ADV	9	cc	_	AlignBegin=220876|AlignEnd=221054|Gloss=then|Idiom=Yes
+7	sai	sai	ADV	_	ExtPos=ADV	9	mod	_	AlignBegin=220876|AlignEnd=221054|Gloss=then|Idiom=Yes
 8	dà	dà	SCONJ	_	_	7	unk	_	AlignBegin=221054|AlignEnd=221232|Gloss=as|InIdiom=Yes
 9	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	2	conj:coord	_	AlignBegin=221410|AlignEnd=221588|Gloss=1Plur.Aor
-10	ɗan	ɗan	ADV	_	_	9	mod	_	AlignBegin=221588|AlignEnd=221766|Gloss=little
+10	ɗan	ɗan	ADV	_	_	11	mod	_	AlignBegin=221588|AlignEnd=221766|Gloss=little
 11	yiwoː	yi	VERB	_	_	9	comp:aux	_	AlignBegin=221766|AlignEnd=221944|Gloss=do.DIR
 12	itàːceː	itàːceː	NOUN	_	_	11	comp:obj@lvc	_	AlignBegin=221944|AlignEnd=222122|Gloss=wood
 13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=222122|AlignEnd=222302|Gloss=PUNCT
@@ -2389,7 +2389,7 @@
 # text_en =  They went and they .. caught that bull who was in that XX.
 1	sukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=282638|AlignEnd=282875|Background=Yes|Gloss=3Plur.Perf.Bkg
 2	zoː	zoː	VERB	_	_	1	comp:aux	_	AlignBegin=282875|AlignEnd=283112|Gloss=come
-3	sukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=3	1	conj:coord	_	AlignBegin=283112|AlignEnd=283349|Background=Yes|Gloss=3Plur.Perf.Bkg
+3	sukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=3	1	conj:svc	_	AlignBegin=283112|AlignEnd=283349|Background=Yes|Gloss=3Plur.Perf.Bkg
 4	kaːmàː	kaːm-	VERB	_	_	3	comp:aux	_	AlignBegin=283349|AlignEnd=283586|Gloss=catch
 5	wânnan	wânnan	DET	_	Definite=Def	6	det	_	AlignBegin=283586|AlignEnd=283823|Gloss=Def
 6	sâː	sâː	NOUN	_	_	4	comp:obj	_	AlignBegin=283823|AlignEnd=284060|Gloss=bull
@@ -4051,52 +4051,45 @@
 9	Basaːwaː	Basaːwaː	PROPN	_	_	8	compound	_	AlignBegin=512858|AlignEnd=512988|Gloss=Basawa|wordform=basaːwa
 10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=512988|AlignEnd=513114|Gloss=PUNCT
 
-# sent_id = HAUZ_BC_CONV_01_SP2_189-189
+# sent_id = HAUZ_BC_CONV_01_SP2_189-190
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
-# sent_timecode = 513114, 515607
-# phonetic_text = ita su wânnan bàːsa / sànaːʔàː -n -ta / shiː nèː irìː irìː //
-# text = ita su wânnan Bàːsa < sànaːʔàn =ta < shiː nèː irìː-irìː //
-# text_en =  She, that Basa, her job it's all sorts.
+# sent_timecode = 513114, 520029
+# phonetic_text = ita su wânnan bàːsa / sànaːʔàː -n -ta / shiː nèː irìː irìː // saidàː irìː -ǹ / tsoːhoː \Plur -n tùmaːtìr̃ / dà irìː -n su joːgaleː / irìː -n su ramàː / dà dai sauraː -n -sù //
+# text = ita su wânnan Bàːsa < sànaːʔàn =ta < shiː nèː irìː-irìː |a sai dà irìn tsòːfàffin tùmaːtìr̃ |c dà irìn su joːgaleː |c irìn su ramàː |c dà dai sauran =sù //
+# text_en =  She, that Basa, her job it's all sorts, like old tomatoes, like zogale, like hemp, etc.
 1	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	10	dislocated@top	_	AlignBegin=513114|AlignEnd=513322|Gloss=3Fem.Nom
 2	su	su	DET	_	Number=Plur	4	det	_	AlignBegin=513322|AlignEnd=513530|Gloss=Plur
 3	wânnan	wânnan	DET	_	Definite=Def	4	det	_	AlignBegin=513530|AlignEnd=513738|Gloss=Def
 4	Bàːsa	Bàːsa	PROPN	_	_	1	conj:appos	_	AlignBegin=513738|AlignEnd=513946|Gloss=Basa
-5	<	<	PUNCT	_	_	6	punct	_	AlignBegin=513946|AlignEnd=514154|Gloss=PUNCT
+5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=513946|AlignEnd=514154|Gloss=PUNCT
 6	sànaːʔàn	sànaːʔàː	NOUN	_	Definite=Cons	10	dislocated@subj	_	AlignBegin=514154|AlignEnd=514223|Gloss=profession.Cons
 7	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	6	mod@poss	_	AlignBegin=514292|AlignEnd=514362|Gloss=3Fem.Gen|wordform==ta
 8	<	<	PUNCT	_	_	6	punct	_	AlignBegin=514362|AlignEnd=514570|Gloss=PUNCT
 9	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=514570|AlignEnd=514778|Gloss=3Masc.Nom
 10	nèː	neː	PART	_	_	0	root	_	AlignBegin=514778|AlignEnd=514986|Gloss=Ident/Foc
-11	irìː-irìː	irìː-irìː	ADV	_	_	10	comp:cleft	_	AlignBegin=514986|AlignEnd=515194|Gloss=all_sorts
-12	//	//	PUNCT	_	_	10	punct	_	AlignBegin=515402|AlignEnd=515607|Gloss=PUNCT
-
-# sent_id = HAUZ_BC_CONV_01_SP2_190-190
-# speaker_id = SP2
-# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
-# sent_timecode = 515607, 520029
-# phonetic_text = saidàː irìː -ǹ / tsoːhoː \Plur -n tùmaːtìr̃ / dà irìː -n su joːgaleː / irìː -n su ramàː / dà dai sauraː -n -sù //
-# text = saidà irìn -ǹ tsòːfàffin tùmaːtìr̃ |c dà irìn -n su joːgaleː |c irìː -n su ramàː |c dà dai sauraː -n -sù //
-# text_en =  Selling like old tomatoes, like zogale, like hemp, etc.
-1	saidà	say-	VERB	_	Voice=Cau	0	root	_	AlignBegin=515607|AlignEnd=515840|Gloss=sell.Cau
-2	irìn	irìː	NOUN	_	Definite=Cons	1	comp:obj	_	AlignBegin=515840|AlignEnd=515956|Gloss=type.Cons
-3	tsòːfàffin	tsoːhoː	ADJ	_	Definite=Cons|Number=Plur	4	mod	_	AlignBegin=516306|AlignEnd=516364|Gloss=old.Plur.Cons
-4	tùmaːtìr̃	tùmaːtìr̃	NOUN	_	_	2	mod	_	AlignBegin=516480|AlignEnd=516539|Gloss=tomato
-5	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=516772|AlignEnd=517005|Gloss=PUNCT
-6	dà	dà	ADP	_	_	7	cc	_	AlignBegin=517005|AlignEnd=517238|Gloss=and
-7	irìn	irìː	NOUN	_	Definite=Cons	2	conj:coord	_	AlignBegin=517238|AlignEnd=517354|Gloss=type.Cons
-8	su	su	DET	_	Number=Plur	9	det	_	AlignBegin=517471|AlignEnd=517704|Gloss=Plur
-9	joːgaleː	joːgaleː	NOUN	_	_	7	mod	_	AlignBegin=517704|AlignEnd=517937|Gloss=bitterleaf
-10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=517937|AlignEnd=518170|Gloss=PUNCT
-11	irìn	irìː	NOUN	_	Definite=Cons	7	conj:coord	_	AlignBegin=518170|AlignEnd=518286|Gloss=Cons|wordform=irìː
-12	su	su	DET	_	Number=Plur	13	det	_	AlignBegin=518403|AlignEnd=518636|Gloss=Plur
-13	ramàː	ramàː	NOUN	_	_	11	mod	_	AlignBegin=518636|AlignEnd=518869|Gloss=hemp
-14	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=518869|AlignEnd=519102|Gloss=PUNCT
-15	dà	dà	ADP	_	_	17	cc	_	AlignBegin=519102|AlignEnd=519335|Gloss=and
-16	dai	dai	PART	_	_	15	discourse	_	AlignBegin=519335|AlignEnd=519568|Gloss=indeed
-17	sauran	saura	NOUN	_	Definite=Cons	11	conj:coord	_	AlignBegin=519568|AlignEnd=519646|Gloss=remainder.Cons|wordform=sauraː
-18	=sù	=sù	PRON	_	Number=Plur|Person=3|PronType=Prs	17	mod	_	AlignBegin=519724|AlignEnd=519801|Gloss=3Plur
-19	//	//	PUNCT	_	_	1	punct	_	AlignBegin=519801|AlignEnd=520029|Gloss=PUNCT
+11	irìː-irìː	irìː-irìː	ADJ	_	_	10	comp:pred	_	AlignBegin=514986|AlignEnd=515194|Gloss=all_sorts
+12	|a	|a	PUNCT	_	_	17	punct	_	AlignBegin=515402|AlignEnd=515607|Gloss=PUNCT
+13	sai	sai	ADV	_	_	17	mod	_	AlignBegin=515607|AlignEnd=515840|Gloss=then
+14	dà	dà	CCONJ	_	Voice=Cau	17	cc@preconj	_	AlignBegin=515607|AlignEnd=515840|Gloss=sell.Cau
+15	irìn	irìː	NOUN	_	Definite=Cons	17	discourse	_	AlignBegin=515840|AlignEnd=515956|Gloss=type.Cons
+16	tsòːfàffin	tsoːhoː	ADJ	_	Definite=Cons|Number=Plur	17	mod	_	AlignBegin=516306|AlignEnd=516364|Gloss=old.Plur.Cons
+17	tùmaːtìr̃	tùmaːtìr̃	NOUN	_	_	11	conj:appos	_	AlignBegin=516480|AlignEnd=516539|Gloss=tomato
+18	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=516772|AlignEnd=517005|Gloss=PUNCT
+19	dà	dà	CCONJ	_	_	22	cc	_	AlignBegin=517005|AlignEnd=517238|Gloss=and
+20	irìn	irìː	NOUN	_	Definite=Cons	22	discourse	_	AlignBegin=517238|AlignEnd=517354|Gloss=type.Cons
+21	su	su	DET	_	Number=Plur	22	det	_	AlignBegin=517471|AlignEnd=517704|Gloss=Plur
+22	joːgaleː	joːgaleː	NOUN	_	_	17	conj:coord	_	AlignBegin=517704|AlignEnd=517937|Gloss=bitterleaf
+23	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=517937|AlignEnd=518170|Gloss=PUNCT
+24	irìn	irìː	NOUN	_	Definite=Cons	26	discourse	_	AlignBegin=518170|AlignEnd=518286|Gloss=Cons|wordform=irìː
+25	su	su	DET	_	Number=Plur	26	det	_	AlignBegin=518403|AlignEnd=518636|Gloss=Plur
+26	ramàː	ramàː	NOUN	_	_	22	conj:coord	_	AlignBegin=518636|AlignEnd=518869|Gloss=hemp
+27	|c	|c	PUNCT	_	_	30	punct	_	AlignBegin=518869|AlignEnd=519102|Gloss=PUNCT
+28	dà	dà	CCONJ	_	_	30	cc	_	AlignBegin=519102|AlignEnd=519335|Gloss=and
+29	dai	dai	PART	_	_	28	discourse	_	AlignBegin=519335|AlignEnd=519568|Gloss=indeed
+30	sauran	saura	NOUN	_	Definite=Cons	26	conj:coord	_	AlignBegin=519568|AlignEnd=519646|Gloss=remainder.Cons|wordform=sauraː
+31	=sù	=sù	PRON	_	Number=Plur|Person=3|PronType=Prs	30	mod	_	AlignBegin=519724|AlignEnd=519801|Gloss=3Plur
+32	//	//	PUNCT	_	_	10	punct	_	AlignBegin=519801|AlignEnd=520029|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP1_106-106
 # speaker_id = SP1
