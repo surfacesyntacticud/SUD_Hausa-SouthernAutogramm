@@ -4877,7 +4877,7 @@
 # phonetic_text = indàː dai am bi yandà àbù -ǹ takèː // anàː dai yîː nèː dai / kawài dukà dai //
 # text = indàː dai an bi yandà àbîn takèː > anàː dai yîː neː dai < kawài //
 # text_en =  If we look at how things are, we can't do anything, at all.
-1	indàː	indàː	ADV	_	_	9	mod	_	AlignBegin=610097|AlignEnd=610312|Gloss=if.IRR
+1	indàː	indàː	SCONJ	_	_	9	mod	_	AlignBegin=610097|AlignEnd=610312|Gloss=if.IRR
 2	dai	dai	PART	_	_	1	discourse	_	AlignBegin=610312|AlignEnd=610527|Gloss=indeed
 3	an	yaː	AUX	_	Aspect=Perf|Person=3	1	comp:obj	_	AlignBegin=610527|AlignEnd=610742|Gloss=4.Perf
 4	bi	bi	VERB	_	_	3	comp:aux	_	AlignBegin=610742|AlignEnd=610957|Gloss=follow
@@ -6772,13 +6772,13 @@
 8	kà	à	AUX	_	Aspect=Aor|Person=2	0	root	_	AlignBegin=825176|AlignEnd=825254|Gloss=2Masc.Aor
 9	ga	ganiː	VERB	_	_	8	comp:aux	_	AlignBegin=825254|AlignEnd=825332|Gloss=see
 10	tôː	tôː	INTJ	_	_	23	discourse	_	AlignBegin=825332|AlignEnd=825410|Gloss=well
-11	in	in	ADP	_	_	23	mod	_	AlignBegin=825964|AlignEnd=826158|Gloss=if
+11	in	in	SCONJ	_	_	23	mod	_	AlignBegin=825964|AlignEnd=826158|Gloss=if
 12	hiːr̃a	hiːr̃a	NOUN	_	_	11	comp:obj	_	AlignBegin=826158|AlignEnd=826352|Gloss=chatting
-13	akèː	kèː	AUX	_	Aspect=Prog|Person=4	12	comp:pred	_	AlignBegin=826352|AlignEnd=826546|Background=Yes|Gloss=4.Prog.Bkg
+13	akèː	kèː	AUX	_	Aspect=Prog|Person=4	12	comp:cleft	_	AlignBegin=826352|AlignEnd=826546|Background=Yes|Gloss=4.Prog.Bkg
 14	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=826546|AlignEnd=826739|Gloss=PUNCT|wordform=/
 15	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	dislocated@subj	_	AlignBegin=827298|AlignEnd=827464|Gloss=1Sing.Nom
-16	fa	fa	PART	_	_	17	discourse	_	AlignBegin=827464|AlignEnd=827630|Gloss=indeed
-17	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	13	conj:coord	_	AlignBegin=827630|AlignEnd=827796|Gloss=1Sing.Prog
+16	fa	fa	PART	_	_	15	discourse	_	AlignBegin=827464|AlignEnd=827630|Gloss=indeed
+17	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	12	conj:coord	_	AlignBegin=827630|AlignEnd=827796|Gloss=1Sing.Prog
 18	ganin	gani	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	17	comp:aux	_	AlignBegin=827796|AlignEnd=827879|Gloss=see.Vnoun.Cons|wordform=ganiː
 19	zân	zaː	AUX	_	Number=Sing|Person=1|Tense=Fut	18	udep	_	AlignBegin=827962|AlignEnd=828128|Gloss=1Sing.Fut
 20	jeː	jeː	VERB	_	_	19	comp:aux	_	AlignBegin=828128|AlignEnd=828294|Gloss=go
@@ -11340,8 +11340,8 @@
 # sent_timecode = 1361972, 1362635
 # phonetic_text = illàː -ǹ taː fi yawàː //
 # text = illàn taː fi yawàː //
-# text_en =  It has more disadvantages.
-1	illàn	illàː	ADV	_	_	2	discourse	_	AlignBegin=1361970|AlignEnd=1362040|Gloss=disadvantage.Def|wordform=illàː
+# text_en = The disadvantages are more.
+1	illàn	illàː	NOUN	_	Definite=Def	2	discourse	_	AlignBegin=1361970|AlignEnd=1362040|Gloss=disadvantage.Def|wordform=illàː
 2	taː	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=136210|AlignEnd=1362240|Gloss=3Fem.Perf
 3	fi	fi	VERB	_	_	2	comp:aux	_	AlignBegin=1362240|AlignEnd=1362370|Gloss=exceed
 4	yawàː	yawàː	NOUN	_	_	3	comp:obj	_	AlignBegin=1362370|AlignEnd=136250|Gloss=quantity
@@ -12756,24 +12756,24 @@
 # text_en =  At night.
 1	na	na	PART	_	Definite=Cons	0	root	_	AlignBegin=1525760|AlignEnd=1525940|AttachTo=HAUZ_BC_CONV_04_1374-1376|Gloss=Cons|Rel=mod
 2	dareː	dareː	NOUN	_	_	1	comp:obj	_	AlignBegin=1525940|AlignEnd=1526120|Gloss=night
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1526120|AlignEnd=152630|Gloss=PUNCT
+3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1526120|AlignEnd=1526120|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1379-1379
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
-# sent_timecode = 1526901, 1528595
+# sent_timecode = 1526900, 1528880
 # phonetic_text = sai dà akà ƙaːràƙeː aikìː -n nan dà dareː //
 # text = sai dà akà ƙaːràƙè aikìn nan dà dàddàddareː //
 # text_en =  We had to finish the work in the night.
-1	sai	sai	ADV	_	ExtPos=ADV	3	mod	_	AlignBegin=152690|AlignEnd=1527090|Gloss=then|Idiom=Yes
+1	sai	sai	ADV	_	ExtPos=ADV	3	mod	_	AlignBegin=1526120|AlignEnd=1527090|Gloss=then|Idiom=Yes
 2	dà	dà	SCONJ	_	_	1	unk	_	AlignBegin=1527090|AlignEnd=1527280|Gloss=as|InIdiom=Yes
 3	akà	kà	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=1527280|AlignEnd=1527460|Background=Yes|Gloss=4.Perf.Bkg
 4	ƙaːràƙè	ƙaːraƙ-	VERB	_	_	3	comp:aux	_	AlignBegin=1527460|AlignEnd=1527650|Gloss=finish
 5	aikìn	aikìː	NOUN	_	_	4	comp:obj	_	AlignBegin=1527650|AlignEnd=1527750|Gloss=work.Def|wordform=aikìː
 6	nan	nan	DET	_	Definite=Def	5	det	_	AlignBegin=1527840|AlignEnd=1528030|Gloss=Def
 7	dà	dà	ADP	_	_	4	mod	_	AlignBegin=1528030|AlignEnd=1528220|Gloss=with
-8	dàddareː	dàddareː	NOUN	_	_	7	comp:obj	_	AlignBegin=1528220|AlignEnd=152840|Gloss=night
-9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=152840|AlignEnd=152860|Gloss=PUNCT
+8	dàddareː	dàddareː	NOUN	_	_	7	comp:obj	_	AlignBegin=1528220|AlignEnd=1528400|Gloss=night
+9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=1528880|AlignEnd=1528880|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1380-1380
 # speaker_id = SP1

@@ -529,9 +529,9 @@
 1	kàːfin	kàːfin	ADP	_	_	11	mod	_	AlignBegin=64709|AlignEnd=64949|Gloss=before
 2	hakà	hakà	ADV	_	_	1	comp:obj	_	AlignBegin=64949|AlignEnd=65189|Gloss=like_this
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=65189|AlignEnd=65429|Gloss=PUNCT
-4	baːyan	baːyan	SCONJ	_	ExtPos=SCONJ	11	mod	_	AlignBegin=65429|AlignEnd=65669|Gloss=after|Idiom=Yes
-5	ìdan	ìdan	SCONJ	_	_	4	unk	_	AlignBegin=65669|AlignEnd=65909|Gloss=if|InIdiom=Yes
-6	ta	kà	AUX	_	Aspect=Perf|Gender=Fem|Person=3	4	comp:obj	_	AlignBegin=65909|AlignEnd=66149|Background=Yes|Gloss=3Fem.Perf.Bkg
+4	baːyan	baːyan	SCONJ	_	_	11	mod	_	AlignBegin=65429|AlignEnd=65669|Gloss=after
+5	ìdan	ìdan	SCONJ	_	_	4	conj:dicto	_	AlignBegin=65669|AlignEnd=65909|Gloss=if
+6	ta	kà	AUX	_	Aspect=Perf|Gender=Fem|Person=3	5	comp:obj	_	AlignBegin=65909|AlignEnd=66149|Background=Yes|Gloss=3Fem.Perf.Bkg
 7	jeː	jeːyàː	VERB	_	_	6	comp:aux	_	AlignBegin=66149|AlignEnd=66389|Gloss=go
 8	saidà	saidàː	VERB	_	_	7	compound:svc	_	AlignBegin=66389|AlignEnd=66629|Gloss=sell
 9	ƙoːsân	ƙoːsai	NOUN	_	Definite=Def	8	comp:obj	_	AlignBegin=66629|AlignEnd=66749|Gloss=doughnut.Def
@@ -3967,7 +3967,7 @@
 5	ɗîn	ɗin	DET	_	Definite=Def	3	det	_	AlignBegin=500972|AlignEnd=501165|Gloss=of.Def
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=501165|AlignEnd=501359|Gloss=PUNCT
 7	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	27	discourse	_	AlignBegin=501359|AlignEnd=501569|Gloss=2Masc.Perf
-8	sanìː	san-	VERB	_	_	7	comp:aux	_	AlignBegin=501569|AlignEnd=501779|Gloss=know
+8	san	sanìː	VERB	_	_	7	comp:aux	_	AlignBegin=501569|AlignEnd=501779|Gloss=know
 9	suːnàːyeː	suːnaː	NOUN	_	Number=Plur	27	dislocated@top	_	AlignBegin=501779|AlignEnd=501884|Gloss=name.Plur
 10	|a	|a	PUNCT	_	_	11	punct	_	AlignBegin=501989|AlignEnd=502199|Gloss=PUNCT
 11	irìn	irìː	NOUN	_	Definite=Def	9	conj:appos	_	AlignBegin=502199|AlignEnd=502304|Gloss=type.Def
@@ -4057,7 +4057,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 513114, 520029
 # phonetic_text = ita su wânnan bàːsa / sànaːʔàː -n -ta / shiː nèː irìː irìː // saidàː irìː -ǹ / tsoːhoː \Plur -n tùmaːtìr̃ / dà irìː -n su joːgaleː / irìː -n su ramàː / dà dai sauraː -n -sù //
-# text = ita su wânnan Bàːsa < sànaːʔàn =ta < shiː nèː irìː-irìː |a sai dà irìn tsòːfàffin tùmaːtìr̃ |c dà irìn su joːgaleː |c irìn su ramàː |c dà dai sauran =sù //
+# text = ita su wânnan Bàːsa < sànaːʔàn =ta < shiː nèː irìː-irìː > sai dà irìn tsòːfàffin tùmaːtìr̃ |c dà irìn su joːgaleː |c irìn su ramàː |c dà dai sauran =sù //
 # text_en =  She, that Basa, her job it's all sorts, like old tomatoes, like zogale, like hemp, etc.
 1	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	10	dislocated@top	_	AlignBegin=513114|AlignEnd=513322|Gloss=3Fem.Nom
 2	su	su	DET	_	Number=Plur	4	det	_	AlignBegin=513322|AlignEnd=513530|Gloss=Plur
@@ -4070,19 +4070,19 @@
 9	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=514570|AlignEnd=514778|Gloss=3Masc.Nom
 10	nèː	neː	PART	_	_	0	root	_	AlignBegin=514778|AlignEnd=514986|Gloss=Ident/Foc
 11	irìː-irìː	irìː-irìː	ADJ	_	_	10	comp:pred	_	AlignBegin=514986|AlignEnd=515194|Gloss=all_sorts
-12	|a	|a	PUNCT	_	_	17	punct	_	AlignBegin=515402|AlignEnd=515607|Gloss=PUNCT
-13	sai	sai	ADV	_	_	17	mod	_	AlignBegin=515607|AlignEnd=515840|Gloss=then
-14	dà	dà	CCONJ	_	_	17	cc@preconj	_	AlignBegin=515607|AlignEnd=515840|Gloss=and
-15	irìn	irìː	NOUN	_	Definite=Cons	17	discourse	_	AlignBegin=515840|AlignEnd=515956|Gloss=type.Cons
+12	>	>	PUNCT	_	_	13	punct	_	AlignBegin=515402|AlignEnd=515607|Gloss=PUNCT
+13	sai	sai	ADV	_	ExtPos=ADP	11	mod	_	AlignBegin=515607|AlignEnd=515840|Gloss=then|Idiom=Yes
+14	dà	dà	CCONJ	_	_	13	unk	_	AlignBegin=515607|AlignEnd=515840|Gloss=and|InIdiom=Yes
+15	irìn	irìn	ADP	_	_	17	discourse	_	AlignBegin=515840|AlignEnd=515956|Gloss=like
 16	tsòːfàffin	tsoːhoː	ADJ	_	Definite=Cons|Number=Plur	17	mod	_	AlignBegin=516306|AlignEnd=516364|Gloss=old.Plur.Cons
-17	tùmaːtìr̃	tùmaːtìr̃	NOUN	_	_	11	conj:appos	_	AlignBegin=516480|AlignEnd=516539|Gloss=tomato
+17	tùmaːtìr̃	tùmaːtìr̃	NOUN	_	_	13	comp:obj	_	AlignBegin=516480|AlignEnd=516539|Gloss=tomato
 18	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=516772|AlignEnd=517005|Gloss=PUNCT
 19	dà	dà	CCONJ	_	_	22	cc	_	AlignBegin=517005|AlignEnd=517238|Gloss=and
-20	irìn	irìː	NOUN	_	Definite=Cons	22	discourse	_	AlignBegin=517238|AlignEnd=517354|Gloss=type.Cons
+20	irìn	irìn	ADP	_	Definite=Cons	22	discourse	_	AlignBegin=517238|AlignEnd=517354|Gloss=like
 21	su	su	DET	_	Number=Plur	22	det	_	AlignBegin=517471|AlignEnd=517704|Gloss=Plur
 22	joːgaleː	joːgaleː	NOUN	_	_	17	conj:coord	_	AlignBegin=517704|AlignEnd=517937|Gloss=bitterleaf
 23	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=517937|AlignEnd=518170|Gloss=PUNCT
-24	irìn	irìː	NOUN	_	Definite=Cons	26	discourse	_	AlignBegin=518170|AlignEnd=518286|Gloss=Cons|wordform=irìː
+24	irìn	irìn	ADP	_	Definite=Cons	26	discourse	_	AlignBegin=518170|AlignEnd=518286|Gloss=like|wordform=irìː
 25	su	su	DET	_	Number=Plur	26	det	_	AlignBegin=518403|AlignEnd=518636|Gloss=Plur
 26	ramàː	ramàː	NOUN	_	_	22	conj:coord	_	AlignBegin=518636|AlignEnd=518869|Gloss=hemp
 27	|c	|c	PUNCT	_	_	30	punct	_	AlignBegin=518869|AlignEnd=519102|Gloss=PUNCT
@@ -4471,7 +4471,7 @@
 1	akàn	kàn	AUX	_	Aspect=Hab|Person=4	0	root	_	AlignBegin=570426|AlignEnd=570607|Gloss=4.Hab
 2	sàːmi	saːm-	VERB	_	_	1	comp:aux	_	AlignBegin=570607|AlignEnd=570788|Gloss=get
 3	matsalaː	matsalaː	NOUN	_	_	2	mod	_	AlignBegin=570788|AlignEnd=570969|Gloss=problem
-4	irìn	irìː	NOUN	_	Definite=Def	3	mod	_	AlignBegin=570969|AlignEnd=571059|Gloss=type.Def
+4	irìn	irìn	ADP	_	_	3	mod	_	AlignBegin=570969|AlignEnd=571059|Gloss=like
 5	na	na	PART	_	Definite=Cons	4	mod	_	AlignBegin=571150|AlignEnd=571331|Gloss=Cons
 6	wânnan	wânnan	PRON	_	Definite=Def	5	comp:obj	_	AlignBegin=571331|AlignEnd=571512|Gloss=Def
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=571512|AlignEnd=571691|Gloss=PUNCT
@@ -4523,7 +4523,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 578788, 581782
 # phonetic_text = dabbàː -oCi / sukàn zoː wani zubìː in mutà / shaːːː / dà kèː &//
-# text = dabboːbiː < sukàn zoː wani zubìː in mutà~ || shaː~ dà kèː &//
+# text = dabboːbiː < sukàn zoː wani zubìː in mutàː~ || shaː~ dà kèː &//
 # text_en =  Cattle come sometimes when peo.. cow.. who...
 1	dabboːbiː	dabbàː	NOUN	_	Number=Plur	3	dislocated@subj	_	AlignBegin=578788|AlignEnd=578930|Gloss=domestic_animals.Plur
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=579071|AlignEnd=579354|Gloss=PUNCT
@@ -4531,8 +4531,8 @@
 4	zoː	zoː	VERB	_	_	3	comp:aux	_	AlignBegin=579590|AlignEnd=579826|Gloss=come
 5	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	6	det	_	AlignBegin=579826|AlignEnd=580062|Gloss=some.Masc
 6	zubìː	zubìː	NOUN	_	_	4	mod	_	AlignBegin=580062|AlignEnd=580298|Gloss=time
-7	in	in	ADP	_	_	4	mod	_	AlignBegin=580298|AlignEnd=580534|Gloss=if
-8	mutà~	mùtûm	NOUN	_	Number=Plur	7	comp:obj	_	AlignBegin=580534|AlignEnd=580770|Gloss=person.Plur
+7	in	in	SCONJ	_	_	4	mod	_	AlignBegin=580298|AlignEnd=580534|Gloss=if
+8	mutàː~	mùtûm	NOUN	_	Number=Plur	7	unk@scrap	_	AlignBegin=580534|AlignEnd=580770|Gloss=person.Plur
 9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=580770|AlignEnd=581003|Gloss=PUNCT
 10	shaː~	sâː	NOUN	_	Number=Plur	8	conj:dicto	_	AlignBegin=581003|AlignEnd=581296|Gloss=cow.Plur
 11	dà	dà	SCONJ	_	_	10	mod@relcl	_	AlignBegin=581589|AlignEnd=581653|Gloss=COMP
