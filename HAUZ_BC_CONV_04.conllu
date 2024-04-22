@@ -2836,7 +2836,7 @@
 2	yâːraː	yaːròː	NOUN	_	Number=Plur	1	comp:obj	_	AlignBegin=342426|AlignEnd=342569|Gloss=child.Plur|wordform=yaːròː
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=342712|AlignEnd=342998|Gloss=PUNCT|wordform=/
 4	saː	saː	VERB	_	Mood=Imp	0	root	_	AlignBegin=344378|AlignEnd=344605|Gloss=put.Imp
-5	jàkaː	jàkaː	VERB	_	_	4	comp:obj	_	AlignBegin=344605|AlignEnd=344832|Gloss=bag
+5	jàkaː	jàkaː	NOUN	_	_	4	comp:obj	_	AlignBegin=344605|AlignEnd=344832|Gloss=bag
 6	àshìr̃in	àshìr̃in	NUM	_	Definite=Def	5	mod:num	_	AlignBegin=344832|AlignEnd=345059|Gloss=twenty
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=345059|AlignEnd=345286|Gloss=PUNCT
 
@@ -3379,7 +3379,7 @@
 8	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	5	conj:dicto	_	AlignBegin=417545|AlignEnd=417770|Gloss=3Plur.Perf
 9	manà	manà	PRON	_	Number=Plur|Person=1|PronType=Prs	8	comp:ben	_	AlignBegin=417770|AlignEnd=417995|Gloss=1Plur.Dat
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=417995|AlignEnd=418221|Gloss=PUNCT
-11	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	8	conj:coord	_	AlignBegin=418221|AlignEnd=418393|Gloss=3Plur.Perf
+11	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	8	conj:dicto	_	AlignBegin=418221|AlignEnd=418393|Gloss=3Plur.Perf
 12	manà	manà	PRON	_	Number=Plur|Person=1|PronType=Prs	11	comp:ben	_	AlignBegin=418393|AlignEnd=418565|Gloss=1Plur.Ben
 13	gaːtaː	gaːta	NOUN	_	_	11	comp:obj@lvc	_	AlignBegin=418565|AlignEnd=418737|Gloss=pampering
 14	//	//	PUNCT	_	_	5	punct	_	AlignBegin=418737|AlignEnd=418907|Gloss=PUNCT
@@ -3843,7 +3843,7 @@
 # phonetic_text = kai à cikin kwaːnaː ɗaya kakèː gamàː dà shiː //
 # text = eː à cikin kwaːnaː ɗaya kakèː gamàː dà shiː //
 # text_en = Eh! he would finish it in one day.
-1	eː	eː	INTJ	_	_	2	discourse	_	AlignBegin=478665|AlignEnd=478797|Gloss=eh
+1	eː	eː	INTJ	_	_	2	vocative	_	AlignBegin=478665|AlignEnd=478797|Gloss=eh
 2	à	à	ADP	_	ExtPos=ADP	0	root	_	AlignBegin=478797|AlignEnd=478929|Gloss=at|Idiom=Yes
 3	cikin	cikin	ADP	_	_	2	compound	_	AlignBegin=478929|AlignEnd=479061|Gloss=inside|InIdiom=Yes
 4	kwaːnaː	kwaːnaː	NOUN	_	_	2	comp:obj	_	AlignBegin=479061|AlignEnd=479193|Gloss=night
@@ -4099,7 +4099,7 @@
 # phonetic_text = kawài / sai dai kà jeː kà ɗaukoː dànkalìː kà r̃ibìɗaː / dà kaː ci kà tàfi yaːwoː //
 # text = kawài < sai dai kà jeː kà ɗakkoː dànkalìː kà r̃ibìɗaː //
 # text_en =  Simply, you take the sweet potatoes, you eat till you're full.
-1	kawài	kawài	NOUN	_	_	5	discourse	_	AlignBegin=510956|AlignEnd=511085|Gloss=only
+1	kawài	kawài	INTJ	_	_	5	discourse	_	AlignBegin=510956|AlignEnd=511085|Gloss=only
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=511085|AlignEnd=511214|Gloss=PUNCT|wordform=/
 3	sai	sai	ADV	_	_	5	mod	_	AlignBegin=511214|AlignEnd=511435|Gloss=then
 4	dai	dai	PART	_	_	3	discourse	_	AlignBegin=511435|AlignEnd=511656|Gloss=indeed
@@ -4416,10 +4416,10 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 546659, 547081
 # phonetic_text = kai //
-# text = kai //
+# text = kai !//
 # text_en =  My!
-1	kai	kai	PART	_	_	0	root	_	AlignBegin=546659|AlignEnd=546870|Gloss=eh
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=546870|AlignEnd=547081|Gloss=PUNCT
+1	kai	kai	INTJ	_	_	0	root	_	AlignBegin=546659|AlignEnd=546870|Gloss=eh
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=546870|AlignEnd=547081|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0461-0466
 # speaker_id = SP2
@@ -7819,13 +7819,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 940556, 944510
 # phonetic_text = gaudaː -ǹ maː / nân gàbaː ai zaːkà ji / wani / in ka yi mishì màganàː / bà zâi sanìː tà ba //
-# text = gaudân maː < nân gàbaː ai zaːkà ji wani < in ka yi mishì màganàː < bà zâi san tà ba //
+# text = gaudân maː < nân gàba ai zaːkà ji wani < in ka yi mishì màganàː < bà zâi san tà ba //
 # text_en =  As for "gauda", in the future, you will hear somebody, if you talk to him, he will not know it.
 1	gaudân	gaudaː	NOUN	_	_	7	mod	_	AlignBegin=940556|AlignEnd=940654|Gloss=cakes_sp.Def|wordform=gaudaː
 2	maː	maː	PART	_	_	1	discourse	_	AlignBegin=940751|AlignEnd=940946|Gloss=even
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=940946|AlignEnd=941141|Gloss=PUNCT|wordform=/
 4	nân	nân	ADV	_	Deixis=Prox	7	mod	_	AlignBegin=941141|AlignEnd=941321|Gloss=Prox
-5	gàbaː	gàbaː	ADV	_	_	4	comp:obj	_	AlignBegin=941321|AlignEnd=941501|Gloss=front
+5	gàba	gàba	ADV	_	_	4	comp:obj	_	AlignBegin=941321|AlignEnd=941501|Gloss=front
 6	ai	ai	INTJ	_	_	4	discourse	_	AlignBegin=941501|AlignEnd=941681|Gloss=indeed
 7	zaːkà	zaː	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=941681|AlignEnd=941861|Gloss=2Sing.Fut
 8	ji	ji	VERB	_	_	7	comp:aux	_	AlignBegin=941861|AlignEnd=942041|Gloss=hear
@@ -11020,7 +11020,7 @@
 1	kà	à	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=1321680|AlignEnd=1321880|Gloss=2Masc.Aor
 2	gan	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=1321880|AlignEnd=1322090|Gloss=see
 3	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=1322090|AlignEnd=132230|Gloss=3Fem
-4	jaː	jaː	INTJ	_	_	2	comp:pred	_	AlignBegin=132230|AlignEnd=132250|Gloss=red
+4	jaː	jaː	ADJ	_	_	2	comp:pred	_	AlignBegin=132230|AlignEnd=132250|Gloss=red
 5	kàman	kàman	ADP	_	_	4	mod	_	AlignBegin=1322710|AlignEnd=1322920|Gloss=like|wordform=kàmar̃
 6	jauraː	jauraː	NOUN	_	_	5	comp:obj	_	AlignBegin=1322920|AlignEnd=1323120|Gloss=??
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1323120|AlignEnd=1323330|Gloss=PUNCT
@@ -11761,7 +11761,7 @@
 # text = wânnan kawâi / à cêː yaːrinyàn nan / tanàː ɗaːkìn mijìntà //
 # text_en =  That one, it's as if that girl is married.
 1	wânnan	wânnan	PRON	_	Definite=Def	4	dislocated@top	_	AlignBegin=1414040|AlignEnd=141420|Gloss=Def
-2	kawài	kawài	NOUN	_	_	1	mod	_	AlignBegin=141420|AlignEnd=1414360|Gloss=only
+2	kawài	kawài	INTJ	_	_	1	mod	_	AlignBegin=141420|AlignEnd=1414360|Gloss=only
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1414360|AlignEnd=1414520|Gloss=PUNCT|wordform=/
 4	à	à	AUX	_	Aspect=Aor|Person=4	0	root	_	AlignBegin=1414520|AlignEnd=1414640|Gloss=4.Aor
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=1414640|AlignEnd=1414760|Gloss=say
@@ -12954,7 +12954,7 @@
 1	màːsu	màːsu	PART	_	Number=Plur	3	subj	_	AlignBegin=1551610|AlignEnd=1551820|Gloss=holder_of.Plur
 2	jâː	jaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	1	compound	_	AlignBegin=1551820|AlignEnd=1552040|Gloss=pull.Vnoun
 3	nàː	nàː	AUX	_	Person=1	0	root	_	AlignBegin=1552040|AlignEnd=1552260|Gloss=Imp
-4	jâː	jâː	VERB	_	_	3	comp:aux	_	AlignBegin=1552260|AlignEnd=1552470|Gloss=pulling
+4	jâː	jâː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=1552260|AlignEnd=1552470|Gloss=pull.Vnoun
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=1552470|AlignEnd=1552690|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1397-1397
@@ -13209,7 +13209,7 @@
 1	dà	dà	SCONJ	_	_	7	mod	_	AlignBegin=158420|AlignEnd=158430|Gloss=as
 2	ya	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=158430|AlignEnd=1584380|Background=Yes|Gloss=3Masc.Perf.Bkg
 3	taːshì	taːs-	VERB	_	_	2	comp:aux	_	AlignBegin=1584380|AlignEnd=1584480|Gloss=rise
-4	kawài	kawài	NOUN	_	_	1	mod	_	AlignBegin=1584480|AlignEnd=1584560|Gloss=only
+4	kawài	kawài	INTJ	_	_	1	mod	_	AlignBegin=1584480|AlignEnd=1584560|Gloss=only
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1584560|AlignEnd=1584650|Gloss=PUNCT|wordform=/
 6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=1584650|AlignEnd=1584770|Gloss=then
 7	ya	kà	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=1584770|AlignEnd=1584880|Background=Yes|Gloss=3Masc.Perf.Bkg
@@ -13613,7 +13613,7 @@
 12	jàkaː	jàkaː	NOUN	_	_	10	mod	_	AlignBegin=1633370|AlignEnd=1633740|Gloss=bag
 13	tàlàːtin	tàlàːtin	NUM	_	Definite=Cons	12	mod:num	_	AlignBegin=1633740|AlignEnd=1634120|Gloss=forty
 14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=1634120|AlignEnd=163450|Gloss=PUNCT|wordform=/
-15	jàkaː	jàkaː	AUX	_	_	12	conj:coord	_	AlignBegin=1634910|AlignEnd=1635240|Gloss=bag
+15	jàkaː	jàkaː	NOUN	_	_	12	conj:coord	_	AlignBegin=1634910|AlignEnd=1635240|Gloss=bag
 16	àshìr̃in	àshìr̃in	NUM	_	Definite=Def	15	mod:num	_	AlignBegin=1635240|AlignEnd=1635570|Gloss=twenty
 17	//	//	PUNCT	_	_	5	punct	_	AlignBegin=1635570|AlignEnd=163590|Gloss=PUNCT|wordform=/
 

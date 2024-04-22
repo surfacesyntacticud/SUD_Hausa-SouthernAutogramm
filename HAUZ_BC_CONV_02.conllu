@@ -373,18 +373,18 @@
 # sent_timecode = 43081, 46309
 # phonetic_text = tòː yànzu maː / màganàː -ǹ dà akèː yîː dan / garkèː / yaː faːràː yàːɗu -wàː //
 # text = tòː yànzu maː < màganàn dà akèː yîː dan garkèː < yaː faːrà yàːɗuwàː //
-# text_en =  Well now, what we are talking about.. flocks of animals, it has started to spread.
+# text_en =  Well now, what we are talking about.. flocks of animals, it has started to grow.
 1	tòː	tòː	INTJ	_	_	12	discourse	_	AlignBegin=43081|AlignEnd=43215|Gloss=well
 2	yànzu	yànzu	ADV	_	_	12	mod	_	AlignBegin=43215|AlignEnd=43349|Gloss=now
 3	maː	maː	PART	_	_	2	discourse	_	AlignBegin=43349|AlignEnd=43483|Gloss=even
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=43483|AlignEnd=43619|Gloss=PUNCT
-5	màganàn	màganàː	NOUN	_	Definite=Def	12	subj	_	AlignBegin=43619|AlignEnd=43719|Gloss=speech.Def
+5	màganàn	màganàː	NOUN	_	Definite=Def	12	dislocated@top	_	AlignBegin=43619|AlignEnd=43719|Gloss=speech.Def
 6	dà	dà	SCONJ	_	_	5	mod@relcl	_	AlignBegin=43819|AlignEnd=44019|Gloss=COMP
 7	akèː	kèː	AUX	_	Aspect=Prog|Person=4	6	comp:obj	_	AlignBegin=44019|AlignEnd=44219|Background=Yes|Gloss=4.Prog.Bkg
 8	yîː	yi	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=44219|AlignEnd=44419|Gloss=do.Vnoun
-9	dan	don	ADP	_	_	8	mod	_	AlignBegin=44419|AlignEnd=44619|Gloss=because
-10	garkèː	garkèː	NOUN	_	_	9	comp:obj	_	AlignBegin=44822|AlignEnd=45072|Gloss=flock
-11	<	<	PUNCT	_	_	12	punct	_	AlignBegin=45072|AlignEnd=45321|Gloss=PUNCT
+9	dan	don	SCONJ	_	_	12	discourse	_	AlignBegin=44419|AlignEnd=44619|Gloss=because
+10	garkèː	garkèː	NOUN	_	_	12	subj	_	AlignBegin=44822|AlignEnd=45072|Gloss=flock
+11	<	<	PUNCT	_	_	10	punct	_	AlignBegin=45072|AlignEnd=45321|Gloss=PUNCT
 12	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=45321|AlignEnd=45568|Gloss=3Masc.Perf
 13	faːrà	faːr-	VERB	_	_	12	comp:aux	_	AlignBegin=45568|AlignEnd=45815|Gloss=begin
 14	yàːɗuwàː	yaɗ-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	13	comp:obj	_	AlignBegin=45815|AlignEnd=45939|Gloss=spread.Vnoun
@@ -1045,7 +1045,7 @@
 # phonetic_text = irìː -ǹ na gar̃gajiyaː -ːːː / bà zâi yi ba / tundà bàː àmfàːniː ba nèː wandà mukèː dà shiː // kàmar̃ yandà kàːkaː -anniː\LH -n -mù dà -ːːː sukèː bâː mù làːbaːr̃ìː can baːya //
 # text = irìn na gar̃gajiyaː < bà zâi yi ba > tundà bàː àmfàːniː ba nèː wandà mukè dà shiː > kàmar̃ yandà kàːkànnin =mù dà sukèː baː mù làːbaːr̃ìː can baːya //
 # text_en =  Manure... won't do since we don't use it like our grandfathers used to tell us in the old days.
-1	irìn	irìː	VERB	_	Definite=Def	6	dislocated@subj	_	AlignBegin=116298|AlignEnd=116404|Gloss=type.Def|wordform=irìː
+1	irìn	irìː	NOUN	_	Definite=Def	6	dislocated@subj	_	AlignBegin=116298|AlignEnd=116404|Gloss=type.Def|wordform=irìː
 2	na	na	PART	_	Definite=Cons	1	comp:obj	_	AlignBegin=116511|AlignEnd=116724|Gloss=Cons
 3	gar̃gajiyaː	gar̃gajiyaː	NOUN	_	_	2	comp:obj	_	AlignBegin=116724|AlignEnd=116830|Gloss=old_times
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=116937|AlignEnd=117151|Gloss=PUNCT
