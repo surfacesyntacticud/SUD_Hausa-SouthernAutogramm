@@ -1318,7 +1318,7 @@
 # phonetic_text = yàːyàː ya kèː // kâi //
 # text = kâi !//
 # text_en = Wow!
-1	kâi	kâi	PART	_	_	0	root	_	AlignBegin=171758|AlignEnd=171896|Gloss=my
+1	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=171758|AlignEnd=171896|Gloss=my
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=171896|AlignEnd=172035|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__96
@@ -1468,7 +1468,7 @@
 # phonetic_text = ka //
 # text = ka !//
 # text_en =  You don't say!
-1	ka	ka	PART	_	_	0	root	_	AlignBegin=187633|AlignEnd=187873|Gloss=ka
+1	ka	ka	INTJ	_	_	0	root	_	AlignBegin=187633|AlignEnd=187873|Gloss=ka
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=187873|AlignEnd=188113|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__108
@@ -3477,7 +3477,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 424651, 426756
 # phonetic_text = naː cêː mà ƙanèː -ǹ / wai yaː kashèː bàːba -n -shì / mêː mêː yaː sâː //
-# text = yanàː cêː mà ƙanèn wai yaː kashè bàːban =shì mêː-mêː //
+# text = yanàː cêː mà ƙanèn wai yaː kashè bàːban =shì mêː-mêː mêː //
 # text_en = He told the younger brother that he had killed his father, etc.
 1	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=424651|AlignEnd=424764|Gloss=3Masc.Prog
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=424764|AlignEnd=424877|Gloss=say
@@ -3489,7 +3489,8 @@
 8	bàːban	bàːba	NOUN	_	Definite=Cons	7	comp:obj	_	AlignBegin=425678|AlignEnd=425729|Gloss=father.Cons|wordform=bàːba
 9	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	mod	_	AlignBegin=425780|AlignEnd=425832|Gloss=3Masc
 10	mêː-mêː	mêː-mêː	PART	_	_	6	conj:coord	_	AlignBegin=425986|AlignEnd=426063|Gloss=etc
-11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=426602|AlignEnd=426756|Gloss=PUNCT
+11	mêː	mêː	PART	_	_	10	conj:redup	_	AlignBegin=426063|AlignEnd=426140|Gloss=etc.
+12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=426602|AlignEnd=426756|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__234
 # speaker_id = SP1

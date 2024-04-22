@@ -2513,7 +2513,7 @@
 # text = àmmaː kâːi / yàː kakèː ganin ilìmin yâːraː kuma yànzu //
 # text_en =  But, what do you think of young people's education now?
 1	àmmaː	àmmaː	CCONJ	_	_	4	discourse	_	AlignBegin=295586|AlignEnd=295811|ExtPos=CCONJ|Gloss=but
-2	kâi	kâi	PART	_	_	4	discourse	_	AlignBegin=295811|AlignEnd=296036|Gloss=my
+2	kâi	kâi	INTJ	_	_	4	discourse	_	AlignBegin=295811|AlignEnd=296036|Gloss=my
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=296036|AlignEnd=296262|Gloss=PUNCT|wordform=/
 4	yàːyàː	yàːyàː	ADV	_	PronType=Int	0	root	_	AlignBegin=297476|AlignEnd=297698|Gloss=how
 5	kakèː	kèː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	4	comp:cleft	_	AlignBegin=297698|AlignEnd=297920|Background=Yes|Gloss=2Masc.Prog.Bkg
@@ -3379,7 +3379,7 @@
 8	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	5	conj:dicto	_	AlignBegin=417545|AlignEnd=417770|Gloss=3Plur.Perf
 9	manà	manà	PRON	_	Number=Plur|Person=1|PronType=Prs	8	comp:ben	_	AlignBegin=417770|AlignEnd=417995|Gloss=1Plur.Dat
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=417995|AlignEnd=418221|Gloss=PUNCT
-11	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	8	conj:dicto	_	AlignBegin=418221|AlignEnd=418393|Gloss=3Plur.Perf
+11	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	8	conj:coord	_	AlignBegin=418221|AlignEnd=418393|Gloss=3Plur.Perf
 12	manà	manà	PRON	_	Number=Plur|Person=1|PronType=Prs	11	comp:ben	_	AlignBegin=418393|AlignEnd=418565|Gloss=1Plur.Ben
 13	gaːtaː	gaːta	NOUN	_	_	11	comp:obj@lvc	_	AlignBegin=418565|AlignEnd=418737|Gloss=pampering
 14	//	//	PUNCT	_	_	5	punct	_	AlignBegin=418737|AlignEnd=418907|Gloss=PUNCT
@@ -3843,7 +3843,7 @@
 # phonetic_text = kai à cikin kwaːnaː ɗaya kakèː gamàː dà shiː //
 # text = eː à cikin kwaːnaː ɗaya kakèː gamàː dà shiː //
 # text_en = Eh! he would finish it in one day.
-1	eː	eː	INTJ	_	_	2	vocative	_	AlignBegin=478665|AlignEnd=478797|Gloss=eh
+1	eː	eː	INTJ	_	_	2	discourse	_	AlignBegin=478665|AlignEnd=478797|Gloss=eh
 2	à	à	ADP	_	ExtPos=ADP	0	root	_	AlignBegin=478797|AlignEnd=478929|Gloss=at|Idiom=Yes
 3	cikin	cikin	ADP	_	_	2	compound	_	AlignBegin=478929|AlignEnd=479061|Gloss=inside|InIdiom=Yes
 4	kwaːnaː	kwaːnaː	NOUN	_	_	2	comp:obj	_	AlignBegin=479061|AlignEnd=479193|Gloss=night
@@ -3874,7 +3874,7 @@
 # phonetic_text = kâi wannàn bàːba naːmù Allàː yà tsarèː |a shiː ya haƙà wani raːmìn dànkalìː //
 # text = kâi wannàn bàːba naːmù Allàː yà tsarèː < shiː ya haƙà wani raːmìn dànkalìː //
 # text_en = My! that father of ours, May God protect him, he dug a hole for potatoes.
-1	kâi	kâi	PART	_	_	10	discourse	_	AlignBegin=481198|AlignEnd=481372|Gloss=my
+1	kâi	kâi	INTJ	_	_	10	discourse	_	AlignBegin=481198|AlignEnd=481372|Gloss=my
 2	wannàn	wannàn	DET	_	Deixis=Prox	3	det	_	AlignBegin=481372|AlignEnd=481546|Gloss=Prox
 3	bàːba	bàːba	NOUN	_	_	10	dislocated@subj	_	AlignBegin=481721|AlignEnd=481903|Gloss=father
 4	naːmù	naːmù	PRON	_	Number=Plur|Person=1|PronType=Prs	3	mod@poss	_	AlignBegin=481903|AlignEnd=482085|Gloss=1Plur.Gen
@@ -5449,8 +5449,8 @@
 # phonetic_text = kâi //
 # text = kâːi //
 # text_en =  My!
-1	kâi	kâi	PART	_	_	0	root	_	AlignBegin=675229|AlignEnd=675539|Gloss=my
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=675539|AlignEnd=675848|Gloss=PUNCT
+1	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=675229|AlignEnd=675539|Gloss=my
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=675539|AlignEnd=675848|Gloss=PUNCT|wordform=//
 
 # sent_id = HAUZ_BC_CONV_04_0574-0575
 # speaker_id = SP1
@@ -6051,7 +6051,7 @@
 # phonetic_text = bàkà ganiː akkùl ba -Q // kâi //
 # text = kâi !//
 # text_en =  My!
-1	kâi	kâi	PART	_	_	0	root	_	AlignBegin=743532|AlignEnd=743717|Gloss=my
+1	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=743532|AlignEnd=743717|Gloss=my
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=743717|AlignEnd=743902|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0635-0638
@@ -6962,7 +6962,7 @@
 12	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=853233|AlignEnd=853432|Gloss=there_is
 13	ɗan	ɗan	ADJ	_	_	12	subj	_	AlignBegin=853432|AlignEnd=853631|Gloss=DIM
 14	kwaːnaː	kwaːnaː	NOUN	_	_	13	compound	_	AlignBegin=853631|AlignEnd=853830|Gloss=night
-15	maː	maː	ADV	_	_	14	discourse	_	AlignBegin=853830|AlignEnd=854029|Gloss=even
+15	maː	maː	PART	_	_	14	discourse	_	AlignBegin=853830|AlignEnd=854029|Gloss=even
 16	àr̃bàʼin	àr̃bàʼin	NUM	_	Definite=Def	14	mod:num	_	AlignBegin=854230|AlignEnd=854518|Gloss=forty
 17	//	//	PUNCT	_	_	12	punct	_	AlignBegin=854518|AlignEnd=854805|Gloss=PUNCT
 
@@ -7102,7 +7102,7 @@
 # phonetic_text = kâi //
 # text = kâːi !//
 # text_en =  Wow!
-1	kâi	kâi	PART	_	_	0	root	_	AlignBegin=869175|AlignEnd=869427|Gloss=my
+1	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=869175|AlignEnd=869427|Gloss=my
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=869427|AlignEnd=869679|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0757-0759
@@ -8423,8 +8423,8 @@
 # phonetic_text = kâi //
 # text = kâːi //
 # text_en =  My!
-1	kâi	kâi	PART	_	_	0	root	_	AlignBegin=1010490|AlignEnd=1010720|Gloss=my
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1010720|AlignEnd=1010940|Gloss=PUNCT
+1	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=1010490|AlignEnd=1010720|Gloss=my
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=1010720|AlignEnd=1010940|Gloss=PUNCT|wordform=//
 
 # sent_id = HAUZ_BC_CONV_04_0904-0904
 # speaker_id = SP2
@@ -8741,7 +8741,7 @@
 # phonetic_text = kâi //
 # text = kâːi !//
 # text_en =  My!
-1	kâi	kâi	PART	_	_	0	root	_	AlignBegin=1045770|AlignEnd=1046040|Gloss=my
+1	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=1045770|AlignEnd=1046040|Gloss=my
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=1046040|AlignEnd=1046320|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0936-0938
@@ -9143,7 +9143,7 @@
 # phonetic_text = kâi //
 # text = kâi !//
 # text_en =  My!
-1	kâi	kâi	PART	_	_	0	root	_	AlignBegin=1093270|AlignEnd=1093440|Gloss=my
+1	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=1093270|AlignEnd=1093440|Gloss=my
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=1093440|AlignEnd=1093610|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0981-0982
@@ -10143,7 +10143,7 @@
 # text_en =  OK. My! Myself, I went, and I ate butter like mad.
 1	yâwwaː	yâwwaː	INTJ	_	_	7	discourse	_	AlignBegin=1209870|AlignEnd=1210330|Gloss=OK
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1210330|AlignEnd=121080|Gloss=PUNCT
-3	kâi	kâi	PART	_	_	7	discourse	_	AlignBegin=1211060|AlignEnd=1211260|Gloss=my
+3	kâi	kâi	INTJ	_	_	7	discourse	_	AlignBegin=1211060|AlignEnd=1211260|Gloss=my
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=1211260|AlignEnd=1211460|Gloss=PUNCT
 5	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	dislocated@subj	_	AlignBegin=121860|AlignEnd=1218760|Gloss=1Sing.Nom
 6	kòː	kòː	PART	_	_	5	discourse	_	AlignBegin=1218760|AlignEnd=1218920|Gloss=as_for
@@ -11044,8 +11044,8 @@
 # phonetic_text = kâi //
 # text = kâi //
 # text_en =  My!
-1	kâi	kâi	PART	_	_	0	root	_	AlignBegin=1324760|AlignEnd=1324940|Gloss=my
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1324940|AlignEnd=1325110|Gloss=PUNCT
+1	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=1324760|AlignEnd=1324940|Gloss=my
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=1324940|AlignEnd=1325110|Gloss=PUNCT|wordform=//
 
 # sent_id = HAUZ_BC_CONV_04_1188-1190
 # speaker_id = SP2
@@ -11109,8 +11109,8 @@
 # phonetic_text = kâi //
 # text = kâːi //
 # text_en =  My!
-1	kâi	kâi	PART	_	_	0	root	_	AlignBegin=1332060|AlignEnd=1332260|Gloss=my
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1332260|AlignEnd=1332450|Gloss=PUNCT
+1	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=1332060|AlignEnd=1332260|Gloss=my
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=1332260|AlignEnd=1332450|Gloss=PUNCT|wordform=//
 
 # sent_id = HAUZ_BC_CONV_04_1195-1195
 # speaker_id = SP1
@@ -11462,10 +11462,10 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1374484, 1374983
 # phonetic_text = kâi //
-# text = kâːi //
+# text = kâːi !//
 # text_en =  My!
-1	kâi	kâi	PART	_	_	0	root	_	AlignBegin=1374480|AlignEnd=1374730|Gloss=my
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1374730|AlignEnd=1374980|Gloss=PUNCT
+1	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=1374480|AlignEnd=1374730|Gloss=my
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=1374730|AlignEnd=1374980|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1234-1235
 # speaker_id = SP1
@@ -12690,7 +12690,7 @@
 # phonetic_text = kâi //
 # text = kâi !//
 # text_en =  My!
-1	kâi	kâi	PART	_	_	0	root	_	AlignBegin=1515890|AlignEnd=1516250|Gloss=my
+1	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=1515890|AlignEnd=1516250|Gloss=my
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=1516250|AlignEnd=151660|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1372-1373
@@ -13515,7 +13515,7 @@
 # text = kâːi /
 # text_en =  My!
 1	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=1617480|AlignEnd=1617790|Gloss=my
-2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1617790|AlignEnd=1618110|Gloss=PUNCT|wordform=/
+2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=1617790|AlignEnd=1618110|Gloss=PUNCT|wordform=/
 
 # sent_id = HAUZ_BC_CONV_04_1451-1451
 # speaker_id = SP1
