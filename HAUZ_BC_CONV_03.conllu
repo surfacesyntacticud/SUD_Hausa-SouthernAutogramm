@@ -80,7 +80,7 @@
 # text_en =  Did he give us an assignment ?
 1	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=11620|AlignEnd=11796|Gloss=3Masc.Perf
 2	baː	baː	VERB	_	_	1	comp:aux	_	AlignBegin=11796|AlignEnd=11972|Gloss=give
-3	mù	mù	PRON	_	Number=Plur|Person=1|PronType=Prs	2	comp:ben	_	AlignBegin=11972|AlignEnd=12148|Gloss=1Plur
+3	mù	mu	PRON	_	Number=Plur|Person=1|PronType=Prs	2	comp:ben	_	AlignBegin=11972|AlignEnd=12148|Gloss=1Plur
 4	àsaːmèn	àsaːmèː	NOUN	_	Foreign=Yes	2	comp:obj	_	AlignBegin=12148|AlignEnd=12324|Gloss=assignment|Lang=en
 5	koː	koː	CCONJ	_	PartType=Int	1	discourse	_	AlignBegin=12324|AlignEnd=12500|Gloss=or
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=12500|AlignEnd=12677|Gloss=PUNCT
@@ -1949,7 +1949,7 @@
 4	jeː	jeː	VERB	_	_	3	comp:aux	_	AlignBegin=243995|AlignEnd=244128|Gloss=go
 5	ta	kà	AUX	_	Aspect=Perf|Gender=Fem|Person=3	3	conj:svc	_	AlignBegin=244128|AlignEnd=244261|Background=Yes|Gloss=3Fem.Perf.Bkg
 6	faɗàː	faɗ-	VERB	_	_	5	comp:aux	_	AlignBegin=244261|AlignEnd=244394|Gloss=tell
-7	mà	mà	ADP	_	_	6	comp:ben	_	AlignBegin=244394|AlignEnd=244527|Gloss=Ben
+7	mà	mà	ADP	_	Case=Dat	6	comp:obl	_	AlignBegin=244394|AlignEnd=244527|Gloss=Dat
 8	sarkîn	sarkiː	NOUN	_	Definite=Def	7	comp:obj	_	AlignBegin=244527|AlignEnd=244593|Gloss=king.Def|wordform=sarkiː
 9	wai	wai	SCONJ	_	_	15	discourse	_	AlignBegin=244796|AlignEnd=244945|Gloss=COMP
 10	gàː	gàː	PART	_	_	15	discourse	_	AlignBegin=244945|AlignEnd=245094|Gloss=here_is
@@ -1959,11 +1959,11 @@
 14	<	<	PUNCT	_	_	13	punct	_	AlignBegin=245541|AlignEnd=245692|Gloss=PUNCT|wordform=/
 15	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	6	comp:obj	_	AlignBegin=245692|AlignEnd=245897|Gloss=3Fem.Prog
 16	kai	kai	VERB	_	_	15	comp:aux	_	AlignBegin=245897|AlignEnd=246102|Gloss=carry
-17	mishì	mishì	PRON	_	Gender=Masc|Person=3|PronType=Prs	16	comp:ben	_	AlignBegin=246102|AlignEnd=246307|Gloss=3Masc.Dat
+17	mishì	mishì	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	16	comp.obl	_	AlignBegin=246102|AlignEnd=246307|Gloss=3Masc.Dat
 18	|c	|c	PUNCT	_	_	19	punct	_	AlignBegin=246307|AlignEnd=246512|Gloss=PUNCT|wordform=/
 19	tà	à	AUX	_	Aspect=Aor|Gender=Fem|Person=3	15	conj:coord	_	AlignBegin=247060|AlignEnd=247277|Gloss=3Fem.Aor
 20	kai	kai	VERB	_	_	19	comp:aux	_	AlignBegin=247277|AlignEnd=247494|Gloss=carry
-21	mà	mà	ADP	_	_	20	comp:obl	_	AlignBegin=247494|AlignEnd=247711|Gloss=Ben
+21	mà	mà	ADP	_	Case=Dat	20	comp:obl	_	AlignBegin=247494|AlignEnd=247711|Gloss=Dat
 22	su	su	DET	_	Number=Plur	23	det	_	AlignBegin=247711|AlignEnd=247928|Gloss=Plur
 23	Èmeːka	Èmeːka	PROPN	_	_	21	comp:obj	_	AlignBegin=247928|AlignEnd=248145|Gloss=Emeka
 24	àbinci	àbinci	NOUN	_	_	20	comp:obj	_	AlignBegin=248145|AlignEnd=248362|Gloss=food
@@ -3481,7 +3481,7 @@
 # text_en = He told the younger brother that he had killed his father, etc.
 1	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=424651|AlignEnd=424764|Gloss=3Masc.Prog
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=424764|AlignEnd=424877|Gloss=say
-3	mà	mà	ADP	_	Case=Dat	2	comp:obl	_	AlignBegin=424877|AlignEnd=424990|Gloss=Ben
+3	mà	mà	ADP	_	Case=Dat	2	comp:obl	_	AlignBegin=424877|AlignEnd=424990|Gloss=Dat
 4	ƙanèn	ƙanèː	NOUN	_	Definite=Def	3	comp:aux	_	AlignBegin=424990|AlignEnd=425046|Gloss=younger_brother.Def|wordform=ƙanèː
 5	wai	wai	SCONJ	_	_	2	comp:obj	_	AlignBegin=425216|AlignEnd=425370|Gloss=COMP
 6	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	comp:obj	_	AlignBegin=425370|AlignEnd=425524|Gloss=3Masc.Perf
