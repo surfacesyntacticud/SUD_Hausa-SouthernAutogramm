@@ -1310,7 +1310,7 @@
 1	kàːwûn	kàːwu	NOUN	_	Definite=Def	3	dislocated@subj	_	AlignBegin=160401|AlignEnd=160471|Gloss=uncle.Def
 2	naːkà	naːkà	PRON	_	Gender=Masc|Person=2|PronType=Prs	1	mod@poss	_	AlignBegin=160540|AlignEnd=160679|Gloss=2Masc.Gen
 3	yanàː	nàː²	AUX	_	Gender=Masc|Person=3	0	root	_	AlignBegin=160679|AlignEnd=160818|Gloss=3Masc.Pred/Ident|wordform=nàː
-4	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	parataxis@parenth	_	AlignBegin=160818|AlignEnd=160957|Gloss=3Masc.Nom
+4	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=160818|AlignEnd=160957|Gloss=3Masc.Nom
 5	maː	maː	PART	_	_	4	discourse	_	AlignBegin=160957|AlignEnd=161096|Gloss=even
 6	à	à	ADP	_	_	3	comp:loc	_	AlignBegin=161096|AlignEnd=161235|Gloss=at
 7	Ùngwan	Ùngwan	PROPN	_	Definite=Cons	6	comp:obj	_	AlignBegin=161235|AlignEnd=161305|Gloss=ward.Cons
@@ -1605,7 +1605,7 @@
 5	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=189373|AlignEnd=189433|Gloss=do.Vnoun.Cons
 6	sànaː'àn	sànaː'àː	NOUN	_	Definite=Cons	5	comp:obj@lvc	_	AlignBegin=189492|AlignEnd=189552|Gloss=profession.Cons
 7	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=189611|AlignEnd=189730|Gloss=farm.Vnoun
-8	dà	dà	ADP	_	_	6	mod	_	AlignBegin=189730|AlignEnd=189849|Gloss=with
+8	dà	dà	ADP	_	_	5	comp:obl	_	AlignBegin=189730|AlignEnd=189849|Gloss=with
 9	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=189849|AlignEnd=189968|Gloss=2Plur.Nom
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=189968|AlignEnd=190084|Gloss=PUNCT
 
@@ -1877,55 +1877,51 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 229590, 232074
 # phonetic_text = à dawà mù ɗaukàː mù jeː kàːsuwaː // sai mù sayar̃ //
-# text = baːyan mun yiwoː itàːceː < ìdan mukà ga ganyeː à hanyàː ( kàman yandà na baː kà làːbaːrìː à baːya ) su dìnkiː |c su joːgaleː < mukàn ɗiːboː ( dà su ramàː hakà ) à dawà mù ɗaukàː mù jeː kàːsuwaː |c sai mù sayar̃ //
+# text = baːyan mun yiwoː itàːceː < ìdan mukà ga ganyeː à hanyàː kàman yandà na baː kà làːbaːrìː à baːya su dìnkiː |c su joːgaleː < mukàn ɗiːboː dà su ramàː hakà à dawà mù ɗaukàː mù jeː kàːsuwaː |c sai mù sayar̃ //
 # text_en = After gathering some wood, if we saw some leaves on the way, (like I told you before), tree leaves, bitterleaves, we would pick them, (hemp too), take them to the market then we would sell them.
-1	baːyan	baːyan	SCONJ	_	_	28	mod	_	AlignBegin=222548|AlignEnd=222744|Gloss=after
+1	baːyan	baːyan	SCONJ	_	_	26	mod	_	AlignBegin=222548|AlignEnd=222744|Gloss=after
 2	mun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1	1	comp:obj	_	AlignBegin=222744|AlignEnd=222940|Gloss=1Plur.Perf
 3	yiwoː	yiwoː	VERB	_	_	2	comp:aux	_	AlignBegin=222940|AlignEnd=223136|Gloss=do.DIR
 4	itàːceː	itàːceː	NOUN	_	_	3	comp:obj	_	AlignBegin=223136|AlignEnd=223332|Gloss=wood
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=223332|AlignEnd=223528|Gloss=PUNCT
-6	ìdan	ìdan	SCONJ	_	_	28	mod	_	AlignBegin=223528|AlignEnd=223724|Gloss=if
+6	ìdan	ìdan	SCONJ	_	_	26	mod	_	AlignBegin=223528|AlignEnd=223724|Gloss=if
 7	mukà	kà	AUX	_	Aspect=Perf|Number=Plur|Person=1	6	comp:obj	_	AlignBegin=223724|AlignEnd=223920|Background=Yes|Gloss=1Plur.Perf.Bkg
 8	ga	ganiː	VERB	_	_	7	comp:aux	_	AlignBegin=223920|AlignEnd=224116|Gloss=see
 9	ganyeː	ganyeː	NOUN	_	_	8	comp:obj	_	AlignBegin=224116|AlignEnd=224312|Gloss=foliage
 10	à	à	ADP	_	_	8	comp:obl	_	AlignBegin=224312|AlignEnd=224508|Gloss=at
 11	hanyàː	hanyaː	NOUN	_	_	10	comp:obj	_	AlignBegin=224508|AlignEnd=224704|Gloss=road
-12	(	(	PUNCT	_	_	13	punct	_	AlignBegin=224704|AlignEnd=224900|Gloss=PUNCT
-13	kàman	kàman	ADP	_	_	6	parataxis@parenth	_	AlignBegin=224900|AlignEnd=225096|Gloss=like
-14	yandà	yandà	ADV	_	PronType=Rel	13	comp:obj	_	AlignBegin=225096|AlignEnd=225292|Gloss=how
-15	na	kà	AUX	_	Aspect=Perf|Number=Sing|Person=1	14	mod@relcl	_	AlignBegin=225292|AlignEnd=225488|Background=Yes|Gloss=1Sing.Perf.Bkg
-16	baː	baː	VERB	_	_	15	comp:aux	_	AlignBegin=225488|AlignEnd=225684|Gloss=give|wordform=bâː
-17	kà	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	16	comp:ben	_	AlignBegin=225684|AlignEnd=225880|Gloss=2Masc
-18	làːbaːrìː	làːbaːrìː	NOUN	_	_	16	comp:obj	_	AlignBegin=225880|AlignEnd=226076|Gloss=news
-19	à	at	ADP	_	_	15	mod	_	AlignBegin=226272|AlignEnd=226468|Gloss=at
-20	baːya	baːya	ADV	_	_	19	comp:obj	_	AlignBegin=226468|AlignEnd=226664|Gloss=behind
-21	)	)	PUNCT	_	_	13	punct	_	AlignBegin=226664|AlignEnd=226860|Gloss=PUNCT
-22	su	su	DET	_	Number=Plur	23	mod	_	AlignBegin=226860|AlignEnd=227056|Gloss=Plur
-23	dìnkiː	dìnkiː	NOUN	_	_	9	conj:appos	_	AlignBegin=227056|AlignEnd=227252|Gloss=edible_leaves
-24	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=227252|AlignEnd=227448|Gloss=PUNCT
-25	su	su	DET	_	Number=Plur	26	mod	_	AlignBegin=227448|AlignEnd=227644|Gloss=Plur
-26	joːgaleː	joːgaleː	NOUN	_	_	23	conj:coord	_	AlignBegin=227644|AlignEnd=227840|Gloss=bitterleaf
-27	<	<	PUNCT	_	_	28	punct	_	AlignBegin=227840|AlignEnd=228036|Gloss=PUNCT
-28	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=228036|AlignEnd=228232|Gloss=1Plur.Hab
-29	ɗiːboː	ɗiːboː	VERB	_	_	28	comp:aux	_	AlignBegin=228232|AlignEnd=228428|Gloss=scoop_out.DIR
-30	(	(	PUNCT	_	_	33	punct	_	AlignBegin=228428|AlignEnd=228624|Gloss=PUNCT
-31	dà	dà	ADP	_	_	33	cc	_	AlignBegin=228624|AlignEnd=228820|Gloss=and
-32	su	su	DET	_	Number=Plur	33	det	_	AlignBegin=228820|AlignEnd=229016|Gloss=Plur
-33	ramàː	ramàː	NOUN	_	_	29	parataxis@parenth	_	AlignBegin=229016|AlignEnd=229212|Gloss=hemp
-34	hakà	hakà	ADV	_	_	33	mod	_	AlignBegin=229212|AlignEnd=229408|Gloss=like_this
-35	)	)	PUNCT	_	_	33	punct	_	AlignBegin=229408|AlignEnd=229590|Gloss=PUNCT
-36	à	à	ADP	_	_	28	mod	_	AlignBegin=229590|AlignEnd=229785|Gloss=at
-37	dawà	dawà	ADV	_	_	36	comp:obj	_	AlignBegin=229785|AlignEnd=229980|Gloss=in_the_bush
-38	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	28	conj:coord	_	AlignBegin=229980|AlignEnd=230175|Gloss=1Plur.Aor
-39	ɗaukàː	ɗauk-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	38	comp:aux	_	AlignBegin=230175|AlignEnd=230370|Gloss=taking
-40	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	38	conj:svc	_	AlignBegin=230370|AlignEnd=230565|Gloss=1Plur.Aor
-41	jeː	jeː	VERB	_	_	40	comp:aux	_	AlignBegin=230565|AlignEnd=230760|Gloss=go
-42	kàːsuwaː	kàːsuwaː	NOUN	_	_	41	comp:pred	_	AlignBegin=230760|AlignEnd=230955|Gloss=market
-43	|c	|c	PUNCT	_	_	45	punct	_	AlignBegin=230955|AlignEnd=231147|Gloss=PUNCT
-44	sai	sai	ADV	_	_	45	mod	_	AlignBegin=231360|AlignEnd=231538|Gloss=then
-45	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	40	conj:coord	_	AlignBegin=231538|AlignEnd=231716|Gloss=1Plur.Aor
-46	sayar̃	say-	VERB	_	_	45	comp:aux	_	AlignBegin=231716|AlignEnd=231894|Gloss=sell.Cau
-47	//	//	PUNCT	_	_	28	punct	_	AlignBegin=231894|AlignEnd=232074|Gloss=PUNCT
+12	kàman	kàman	ADP	_	_	9	mod	_	AlignBegin=224900|AlignEnd=225096|Gloss=like
+13	yandà	yandà	ADV	_	PronType=Rel	12	comp:obj	_	AlignBegin=225096|AlignEnd=225292|Gloss=how
+14	na	kà	AUX	_	Aspect=Perf|Number=Sing|Person=1	13	mod@relcl	_	AlignBegin=225292|AlignEnd=225488|Background=Yes|Gloss=1Sing.Perf.Bkg
+15	baː	baː	VERB	_	_	14	comp:aux	_	AlignBegin=225488|AlignEnd=225684|Gloss=give|wordform=bâː
+16	kà	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	15	comp:ben	_	AlignBegin=225684|AlignEnd=225880|Gloss=2Masc
+17	làːbaːrìː	làːbaːrìː	NOUN	_	_	15	comp:obj	_	AlignBegin=225880|AlignEnd=226076|Gloss=news
+18	à	at	ADP	_	_	14	mod	_	AlignBegin=226272|AlignEnd=226468|Gloss=at
+19	baːya	baːya	ADV	_	_	18	comp:obj	_	AlignBegin=226468|AlignEnd=226664|Gloss=behind
+20	su	su	DET	_	Number=Plur	21	mod	_	AlignBegin=226860|AlignEnd=227056|Gloss=Plur
+21	dìnkiː	dìnkiː	NOUN	_	_	9	conj:appos	_	AlignBegin=227056|AlignEnd=227252|Gloss=edible_leaves
+22	|c	|c	PUNCT	_	_	24	punct	_	AlignBegin=227252|AlignEnd=227448|Gloss=PUNCT
+23	su	su	DET	_	Number=Plur	24	mod	_	AlignBegin=227448|AlignEnd=227644|Gloss=Plur
+24	joːgaleː	joːgaleː	NOUN	_	_	21	conj:coord	_	AlignBegin=227644|AlignEnd=227840|Gloss=bitterleaf
+25	<	<	PUNCT	_	_	26	punct	_	AlignBegin=227840|AlignEnd=228036|Gloss=PUNCT
+26	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=228036|AlignEnd=228232|Gloss=1Plur.Hab
+27	ɗiːboː	ɗiːboː	VERB	_	_	26	comp:aux	_	AlignBegin=228232|AlignEnd=228428|Gloss=scoop_out.DIR
+28	dà	dà	ADP	_	_	30	cc	_	AlignBegin=228624|AlignEnd=228820|Gloss=and
+29	su	su	DET	_	Number=Plur	30	det	_	AlignBegin=228820|AlignEnd=229016|Gloss=Plur
+30	ramàː	ramàː	NOUN	_	_	24	conj:coord	_	AlignBegin=229016|AlignEnd=229212|Gloss=hemp
+31	hakà	hakà	ADV	_	_	30	mod	_	AlignBegin=229212|AlignEnd=229408|Gloss=like_this
+32	à	à	ADP	_	_	27	mod	_	AlignBegin=229590|AlignEnd=229785|Gloss=at
+33	dawà	dawà	ADV	_	_	32	comp:obj	_	AlignBegin=229785|AlignEnd=229980|Gloss=in_the_bush
+34	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	26	conj:coord	_	AlignBegin=229980|AlignEnd=230175|Gloss=1Plur.Aor
+35	ɗaukàː	ɗauk-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	34	comp:aux	_	AlignBegin=230175|AlignEnd=230370|Gloss=taking
+36	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	34	conj:svc	_	AlignBegin=230370|AlignEnd=230565|Gloss=1Plur.Aor
+37	jeː	jeː	VERB	_	_	36	comp:aux	_	AlignBegin=230565|AlignEnd=230760|Gloss=go
+38	kàːsuwaː	kàːsuwaː	NOUN	_	_	37	comp:pred	_	AlignBegin=230760|AlignEnd=230955|Gloss=market
+39	|c	|c	PUNCT	_	_	41	punct	_	AlignBegin=230955|AlignEnd=231147|Gloss=PUNCT
+40	sai	sai	ADV	_	_	41	mod	_	AlignBegin=231360|AlignEnd=231538|Gloss=then
+41	mù	à	AUX	_	Aspect=Aor|Number=Plur|Person=1	36	conj:coord	_	AlignBegin=231538|AlignEnd=231716|Gloss=1Plur.Aor
+42	sayar̃	say-	VERB	_	_	41	comp:aux	_	AlignBegin=231716|AlignEnd=231894|Gloss=sell.Cau
+43	//	//	PUNCT	_	_	26	punct	_	AlignBegin=231894|AlignEnd=232074|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP1_088-088
 # speaker_id = SP1
