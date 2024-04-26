@@ -306,9 +306,9 @@
 # phonetic_text = bi wancàn hanyàː -ǹ / kì tàfi kì bi //
 # text = kì tàfi kì bi !//
 # text_en = Go and follow it!
-1	kì	à	AUX	_	Gender=Fem|Person=2	0	root	_	AlignBegin=42603|AlignEnd=42778|Gloss=2Fem.Aor
+1	kì	à	AUX	_	Aspect=Aor|Gender=Fem|Person=2	0	root	_	AlignBegin=42603|AlignEnd=42778|Gloss=2Fem.Aor
 2	tàfi	tàfi	VERB	_	_	1	comp:aux	_	AlignBegin=42778|AlignEnd=42953|Gloss=go
-3	kì	à	AUX	_	Gender=Fem|Person=2	1	conj:svc	_	AlignBegin=42953|AlignEnd=43128|Gloss=2Fem.Aor
+3	kì	à	AUX	_	Aspect=Aor|Gender=Fem|Person=2	1	conj:svc	_	AlignBegin=42953|AlignEnd=43128|Gloss=2Fem.Aor
 4	bi	bi	VERB	_	_	3	comp:aux	_	AlignBegin=43128|AlignEnd=43303|Gloss=follow
 5	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=43303|AlignEnd=43477|Gloss=PUNCT
 
@@ -327,7 +327,7 @@
 6	kuma	kuma	PART	_	_	5	discourse	_	AlignBegin=45474|AlignEnd=45722|Gloss=also
 7	yanàː	nàː	AUX	_	Gender=Masc|Person=3	0	root	_	AlignBegin=45970|AlignEnd=46165|Gloss=3Masc.Imp
 8	sôn	sôː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=46165|AlignEnd=46263|Gloss=want.Vnoun.Cons|wordform=sôː
-9	à	à	AUX	_	Person=4	8	comp:obj	_	AlignBegin=46360|AlignEnd=46555|Gloss=4.Aor
+9	à	à	AUX	_	Aspect=Aor|Person=4	8	comp:obj	_	AlignBegin=46360|AlignEnd=46555|Gloss=4.Aor
 10	cêː	cêː	VERB	_	_	9	comp:aux	_	AlignBegin=46360|AlignEnd=46555|Gloss=say
 11	zâi	zaː	AUX	_	Gender=Masc|Person=3|Tense=Fut	10	comp:obj	_	AlignBegin=46750|AlignEnd=46899|Gloss=3Masc..Fut
 12	biː	bi	VERB	_	_	11	comp:aux	_	AlignBegin=46899|AlignEnd=47048|Gloss=follow
@@ -1821,7 +1821,7 @@
 # phonetic_text = à cirèː wannàn ɓeːr̃aː -ǹ //
 # text = à cirè wannàn ɓeːr̃ân //
 # text_en =  Let them remove that Rat.
-1	à	à	AUX	_	_	0	root	_	AlignBegin=221415|AlignEnd=221648|Gloss=at
+1	à	à	AUX	_	Aspect=Aor	0	root	_	AlignBegin=221415|AlignEnd=221648|Gloss=4.Aor
 2	cirè	cir-	VERB	_	_	1	comp:aux	_	AlignBegin=221648|AlignEnd=221881|Gloss=pull
 3	wannàn	wannàn	DET	_	Deixis=Prox|PronType=Dem	4	det	_	AlignBegin=221881|AlignEnd=222114|Gloss=Prox
 4	ɓeːr̃ân	ɓeːr̃aː	NOUN	_	Definite=Def	2	comp:obj	_	AlignBegin=222114|AlignEnd=222230|Gloss=rat.Def
