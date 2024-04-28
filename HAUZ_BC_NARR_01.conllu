@@ -426,13 +426,13 @@
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=54001|AlignEnd=54171|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=54171|AlignEnd=54342|Gloss=PUNCT
 3	shiːkèːnan	shiːkèːnaː	INTJ	_	_	4	discourse	_	AlignBegin=54939|AlignEnd=55050|Gloss=OK|wordform=shiː
-4	sunàː	sunàː	AUX	_	Number=Plur|Person=3	0	root	_	AlignBegin=55383|AlignEnd=55542|Gloss=3Plur.Imp
+4	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=55383|AlignEnd=55542|Gloss=3Plur.Prog
 5	tàfe	taf-	VERB	_	_	4	comp:aux	_	AlignBegin=55542|AlignEnd=55701|Gloss=go.Stat
 6	dai	dai	PART	_	_	4	discourse	_	AlignBegin=55701|AlignEnd=55860|Gloss=indeed
-7	sunàː	sunàː	AUX	_	Number=Plur|Person=3	4	conj:redup	_	AlignBegin=56019|AlignEnd=56185|Gloss=3Plur.Imp
+7	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	4	conj:redup	_	AlignBegin=56019|AlignEnd=56185|Gloss=3Plur.Prog
 8	tàfe	taf-	VERB	_	_	7	comp:aux	_	AlignBegin=56185|AlignEnd=56351|Gloss=go.Stat
 9	dai	dai	PART	_	_	7	discourse	_	AlignBegin=56351|AlignEnd=56517|Gloss=indeed
-10	sunàː	sunàː	AUX	_	Number=Plur|Person=3	7	conj:redup	_	AlignBegin=56681|AlignEnd=56875|Gloss=3Plur.Imp
+10	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	7	conj:redup	_	AlignBegin=56681|AlignEnd=56875|Gloss=3Plur.Prog
 11	tàfe	taf-	VERB	_	_	10	comp:aux	_	AlignBegin=56875|AlignEnd=57069|Gloss=go.Stat
 12	dai	dai	PART	_	_	10	discourse	_	AlignBegin=57069|AlignEnd=57263|Gloss=indeed
 13	bàsù	bàsù	AUX	_	Aspect=PerfNeg|Number=Plur|Person=2|Polarity=Neg	10	parataxis	_	AlignBegin=58029|AlignEnd=58249|Gloss=3Plur.Perf.Neg
@@ -650,7 +650,7 @@
 # text = àsheː yanàː nan yanàː yiran / ɓeːr̃aː yà zoː //
 # text_en =  Indeed he is there waiting for.. Rat to arrive.
 1	àsheː	àsheː	INTJ	_	_	2	discourse	_	AlignBegin=83460|AlignEnd=83709|Gloss=indeed
-2	yanàː	sunàː	AUX	_	Gender=Masc|Person=3	0	root	_	AlignBegin=83709|AlignEnd=83958|Gloss=3Masc.Imp
+2	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=83709|AlignEnd=83958|Gloss=3Masc.Prog
 3	nan	nan	ADV	_	Definite=Def	2	comp:loc	_	AlignBegin=83958|AlignEnd=84207|Gloss=Def
 4	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	parataxis	_	AlignBegin=84207|AlignEnd=84456|Gloss=3Masc.Prog
 5	jiran	jiraː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=84456|AlignEnd=84580|Gloss=wait.Vnoun.Cons|wordform=yiraː
@@ -2241,8 +2241,8 @@
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=270938|AlignEnd=271142|Gloss=3Masc
 4	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=271142|AlignEnd=271346|Gloss=with
 5	kuma	kuma	PART	_	_	4	discourse	_	AlignBegin=271346|AlignEnd=271550|Gloss=also
-6	mài	mài	PART	_	_	4	comp:obj	_	AlignBegin=271550|AlignEnd=271754|Gloss=holder_of
-7	tàimakoː	tàimakoː	NOUN	_	_	6	compound	_	AlignBegin=271754|AlignEnd=271958|Gloss=helping
+6	mài	mài	PART	_	ExtPos=NOUN	4	comp:obj	_	AlignBegin=271550|AlignEnd=271754|Gloss=holder_of|Idiom=Yes
+7	tàimakoː	tàimakoː	NOUN	_	_	6	compound	_	AlignBegin=271754|AlignEnd=271958|Gloss=helping|InIdiom=Yes
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=271958|AlignEnd=272159|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_261-261
