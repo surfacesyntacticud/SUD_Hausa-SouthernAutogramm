@@ -426,13 +426,13 @@
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=54001|AlignEnd=54171|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=54171|AlignEnd=54342|Gloss=PUNCT
 3	shiːkèːnan	shiːkèːnaː	INTJ	_	_	4	discourse	_	AlignBegin=54939|AlignEnd=55050|Gloss=OK|wordform=shiː
-4	sunàː	sunàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=55383|AlignEnd=55542|Gloss=3Plur.Prog
+4	sunàː	sunàː	AUX	_	Number=Plur|Person=3	0	root	_	AlignBegin=55383|AlignEnd=55542|Gloss=3Plur.Imp
 5	tàfe	taf-	VERB	_	_	4	comp:aux	_	AlignBegin=55542|AlignEnd=55701|Gloss=go.Stat
 6	dai	dai	PART	_	_	4	discourse	_	AlignBegin=55701|AlignEnd=55860|Gloss=indeed
-7	sunàː	sunàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	4	conj:redup	_	AlignBegin=56019|AlignEnd=56185|Gloss=3Plur.Prog
+7	sunàː	sunàː	AUX	_	Number=Plur|Person=3	4	conj:redup	_	AlignBegin=56019|AlignEnd=56185|Gloss=3Plur.Imp
 8	tàfe	taf-	VERB	_	_	7	comp:aux	_	AlignBegin=56185|AlignEnd=56351|Gloss=go.Stat
 9	dai	dai	PART	_	_	7	discourse	_	AlignBegin=56351|AlignEnd=56517|Gloss=indeed
-10	sunàː	sunàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	7	conj:redup	_	AlignBegin=56681|AlignEnd=56875|Gloss=3Plur.Prog
+10	sunàː	sunàː	AUX	_	Number=Plur|Person=3	7	conj:redup	_	AlignBegin=56681|AlignEnd=56875|Gloss=3Plur.Imp
 11	tàfe	taf-	VERB	_	_	10	comp:aux	_	AlignBegin=56875|AlignEnd=57069|Gloss=go.Stat
 12	dai	dai	PART	_	_	10	discourse	_	AlignBegin=57069|AlignEnd=57263|Gloss=indeed
 13	bàsù	bàsù	AUX	_	Aspect=PerfNeg|Number=Plur|Person=2|Polarity=Neg	10	parataxis	_	AlignBegin=58029|AlignEnd=58249|Gloss=3Plur.Perf.Neg
@@ -650,7 +650,7 @@
 # text = àsheː yanàː nan yanàː yiran / ɓeːr̃aː yà zoː //
 # text_en =  Indeed he is there waiting for.. Rat to arrive.
 1	àsheː	àsheː	INTJ	_	_	2	discourse	_	AlignBegin=83460|AlignEnd=83709|Gloss=indeed
-2	yanàː	sunàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=83709|AlignEnd=83958|Gloss=3Masc.Prog
+2	yanàː	sunàː	AUX	_	Gender=Masc|Person=3	0	root	_	AlignBegin=83709|AlignEnd=83958|Gloss=3Masc.Imp
 3	nan	nan	ADV	_	Definite=Def	2	comp:loc	_	AlignBegin=83958|AlignEnd=84207|Gloss=Def
 4	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	parataxis	_	AlignBegin=84207|AlignEnd=84456|Gloss=3Masc.Prog
 5	jiran	jiraː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=84456|AlignEnd=84580|Gloss=wait.Vnoun.Cons|wordform=yiraː
@@ -928,7 +928,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_01.WAV
 # sent_timecode = 121745, 124616
 # phonetic_text = ya cêː // aːʔàː / bà zâː ka mângajàː ba / kà shaː ruwaː ba //
-# text = ya cêː aːʔàː bà zâː ka mângajàː ba kà shaː yiwaː ba //
+# text = ya cêː aːʔàː bà zâː ka Mângajàː ba kà shaː yiwaː ba //
 # text_en =  He said "No, you're not going to Mangaja to drink rater (sic)."
 1	ya	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=121745|AlignEnd=121848|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=121848|AlignEnd=121951|Gloss=say
@@ -936,7 +936,7 @@
 4	bà	bà	PART	_	Polarity=Neg	5	mod	_	AlignBegin=122454|AlignEnd=122650|Gloss=Neg
 5	zâː	zâː	PART	_	_	2	comp:obj	_	AlignBegin=122650|AlignEnd=122846|Gloss=All
 6	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	subj	_	AlignBegin=122846|AlignEnd=123042|Gloss=2Masc
-7	mângajàː	mângaj-	VERB	_	_	5	comp:goal	_	AlignBegin=123042|AlignEnd=123238|Gloss=Mangaja
+7	Mângajàː	Mângajàː	PROPN	_	_	5	comp:goal	_	AlignBegin=123042|AlignEnd=123238|Gloss=Mangaja
 8	ba	ba	PART	_	Polarity=Neg	5	mod	_	AlignBegin=123238|AlignEnd=123434|Gloss=Neg
 9	kà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=2	5	mod	_	AlignBegin=123629|AlignEnd=123826|Gloss=2Masc.Aor
 10	shaː	shaː	VERB	_	_	9	comp:aux	_	AlignBegin=123826|AlignEnd=124023|Gloss=drink
@@ -2241,8 +2241,8 @@
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=270938|AlignEnd=271142|Gloss=3Masc
 4	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=271142|AlignEnd=271346|Gloss=with
 5	kuma	kuma	PART	_	_	4	discourse	_	AlignBegin=271346|AlignEnd=271550|Gloss=also
-6	mài	mài	PART	_	ExtPos=NOUN	4	comp:obj	_	AlignBegin=271550|AlignEnd=271754|Gloss=holder_of|Idiom=Yes
-7	tàimakoː	tàimakoː	NOUN	_	_	6	compound	_	AlignBegin=271754|AlignEnd=271958|Gloss=helping|InIdiom=Yes
+6	mài	mài	PART	_	_	4	comp:obj	_	AlignBegin=271550|AlignEnd=271754|Gloss=holder_of
+7	tàimakoː	tàimakoː	NOUN	_	_	6	compound	_	AlignBegin=271754|AlignEnd=271958|Gloss=helping
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=271958|AlignEnd=272159|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_261-261
