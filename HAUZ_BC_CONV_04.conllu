@@ -1559,18 +1559,18 @@
 # sent_timecode = 182207, 185339
 # phonetic_text = in dai bàː dai / wannàn zaːʼà jeː à saːmù ba /
 # text = in dai bàː dai wannàn zaːʼà jeː à saːmù ba //
-# text_en = Except if indeed you go and get these things for him.
-1	in	in	SCONJ	_	_	3	mod	_	AlignBegin=182207|AlignEnd=182471|Gloss=if
+# text_en = Except if indeed these, you go and get them.
+1	in	in	SCONJ	_	_	6	discourse	_	AlignBegin=182207|AlignEnd=182471|Gloss=if
 2	dai	dai	PART	_	_	1	discourse	_	AlignBegin=182471|AlignEnd=182735|Gloss=indeed
-3	bàː	bàː	PART	_	Polarity=Neg	0	root	_	AlignBegin=182735|AlignEnd=182999|Gloss=Neg
+3	bàː	bàː	PART	_	Polarity=Neg	6	mod	_	AlignBegin=182735|AlignEnd=182999|Gloss=Neg
 4	dai	dai	PART	_	_	3	discourse	_	AlignBegin=182999|AlignEnd=183263|Gloss=indeed
-5	wannàn	wannàn	DET	_	Deixis=Prox|PronType=Dem	3	comp:pred	_	AlignBegin=183920|AlignEnd=184123|Gloss=Prox
-6	zaːʼà	zaːsù/zâːsu	AUX	_	Number=Sing|Person=2|Tense=Fut	3	comp:cleft	_	AlignBegin=184123|AlignEnd=184326|Gloss=2Sing.Fut
+5	wannàn	wannàn	PRON	_	Deixis=Prox|PronType=Dem	6	dislocated@comp	_	AlignBegin=183920|AlignEnd=184123|Gloss=Prox
+6	zaːʼà	zaːsù/zâːsu	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=184123|AlignEnd=184326|Gloss=2Sing.Fut
 7	jeː	jeː	VERB	_	_	6	comp:aux	_	AlignBegin=184326|AlignEnd=184529|Gloss=go
 8	à	sù	AUX	_	Aspect=Aor|Person=4	6	conj:coord	_	AlignBegin=184529|AlignEnd=184732|Gloss=4.Aor
 9	saːmù	saː-	VERB	_	_	8	comp:aux	_	AlignBegin=184732|AlignEnd=184935|Gloss=get
-10	ba	ba	PART	_	Polarity=Neg	3	mod	_	AlignBegin=184935|AlignEnd=185138|Gloss=Neg
-11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=185138|AlignEnd=185339|Gloss=PUNCT
+10	ba	ba	PART	_	Polarity=Neg	6	mod	_	AlignBegin=184935|AlignEnd=185138|Gloss=Neg
+11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=185138|AlignEnd=185339|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0154-0154
 # speaker_id = SP2
@@ -1578,7 +1578,7 @@
 # sent_timecode = 185339, 187457
 # phonetic_text = tòː shiː nèː maː in an ɗan jeː an saːmù -i kaːyaː -n haɗìː -n //
 # text = tòː shiː nèː maː in an ɗan jeː an sàːmi kaːyan haɗîn //
-# text_en = Well, that's if you give him the ingredients.
+# text_en = Well, that's if you go and get the ingredients (yourself).
 1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=185339|AlignEnd=185502|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=185502|AlignEnd=185665|Gloss=3Masc.Nom
 3	nèː	neː~ceː/naː~taː	PART	_	_	0	root	_	AlignBegin=185665|AlignEnd=185828|Gloss=Ident/Foc
