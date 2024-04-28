@@ -613,7 +613,7 @@
 # text = ayàː nawà kikà kaːwoː ?//
 # text_en =  How many verses did you bring?
 1	ayàː	ayàː	NOUN	_	_	0	root	_	AlignBegin=74321|AlignEnd=74535|Gloss=verse
-2	nawà	nawà	NUM	_	PronType=Int	1	det	_	AlignBegin=74535|AlignEnd=74749|Gloss=how_many
+2	nawà	nawà	NUM	_	PronType=Int	1	mod:num	_	AlignBegin=74535|AlignEnd=74749|Gloss=how_many
 3	kikà	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=2	1	comp:cleft	_	AlignBegin=74749|AlignEnd=74963|Background=Yes|Gloss=2Fem.Perf.Bkg
 4	kaːwoː	kaːwoː	VERB	_	_	3	comp:aux	_	AlignBegin=74963|AlignEnd=75177|Gloss=carry.DIR
 5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=75177|AlignEnd=75389|Gloss=PUNCT
@@ -630,7 +630,7 @@
 3	naː	sun	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=76502|AlignEnd=76752|Gloss=1Sing.Perf
 4	kaːwoː	kay	VERB	_	_	3	comp:aux	_	AlignBegin=76752|AlignEnd=77002|Gloss=carry.DIR
 5	ayàː	ayàː	NOUN	_	_	4	comp:obj	_	AlignBegin=77002|AlignEnd=77252|Gloss=verse
-6	bìyar̃	bìyar̃	NUM	_	_	5	mod@num	_	AlignBegin=77252|AlignEnd=77502|Gloss=five
+6	bìyar̃	bìyar̃	NUM	_	_	5	mod:num	_	AlignBegin=77252|AlignEnd=77502|Gloss=five
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=77502|AlignEnd=77750|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__47
@@ -1205,7 +1205,7 @@
 # text_en =  At what time shall we go?
 1	dà	dà	ADP	_	_	0	root	_	AlignBegin=154225|AlignEnd=154415|Gloss=with
 2	ƙarfèː	ƙarfèː	NOUN	_	_	1	comp:obj	_	AlignBegin=154415|AlignEnd=154605|Gloss=o'_clock
-3	nawà	nawà	NUM	_	_	2	mod@num	_	AlignBegin=154605|AlignEnd=154795|Gloss=how_many.Gen
+3	nawà	nawà	NUM	_	_	2	mod:num	_	AlignBegin=154605|AlignEnd=154795|Gloss=how_many.Gen
 4	zaːmù	zaːsù/zâːsu	AUX	_	Number=Plur|Person=1|Tense=Fut	1	comp:cleft	_	AlignBegin=154795|AlignEnd=154985|Gloss=1Plur.Fut
 5	jeː	jeː	VERB	_	_	4	comp:aux	_	AlignBegin=154985|AlignEnd=155175|Gloss=go
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=155175|AlignEnd=155367|Gloss=PUNCT
