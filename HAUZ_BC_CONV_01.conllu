@@ -1352,7 +1352,7 @@
 # text = mài suːnaː Àlhaːjì Iːdi //
 # text_en =  His is called Alhaji Idi.
 1	mài	mài	PART	_	_	0	root	_	AlignBegin=163272|AlignEnd=163438|Gloss=holder_of
-2	suːnaː	suːnaː	NOUN	_	_	1	compound	_	AlignBegin=163438|AlignEnd=163604|Gloss=name
+2	suːnaː	suːnaː	NOUN	_	_	1	comp:obj	_	AlignBegin=163438|AlignEnd=163604|Gloss=name
 3	Àlhaːjì	Àlhaːjì	PROPN	_	_	2	mod	_	AlignBegin=163770|AlignEnd=163936|Gloss=Alhaji|Overlap=HAUZ_BC_CONV_01_SP2_060-60
 4	Iːdi	Iːdi	PROPN	_	_	3	flat:name	_	AlignBegin=163936|AlignEnd=164102|Gloss=Idi
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=164102|AlignEnd=164269|Gloss=PUNCT
@@ -1764,8 +1764,8 @@
 7	wânnan	wânnan	DET	_	Definite=Def	8	det	_	AlignBegin=205553|AlignEnd=205774|Gloss=Def
 8	kàːkaː	kàːkaː	NOUN	_	_	6	comp:obj	_	AlignBegin=205774|AlignEnd=205995|Gloss=grand-mother
 9	nàːwa	nàːwa	PRON	_	Number=Sing|Person=1|PronType=Prs	8	mod@poss	_	AlignBegin=205995|AlignEnd=206216|Gloss=1Sing.Gen
-10	mài	mài	PART	_	_	8	mod	_	AlignBegin=206437|AlignEnd=206547|Gloss=holder_of
-11	suːnaː	suːnaː	NOUN	_	_	10	compound	_	AlignBegin=206547|AlignEnd=206658|Gloss=name
+10	mài	mài	PART	_	_	8	mod	_	AlignBegin=206437|AlignEnd=206547|Extpos=NOUN|Gloss=holder_of
+11	suːnaː	suːnaː	NOUN	_	_	10	comp:obj	_	AlignBegin=206547|AlignEnd=206658|Gloss=name
 12	Taːbi	Taːbi	PROPN	_	_	11	mod	_	AlignBegin=206879|AlignEnd=206989|Gloss=Tabi
 13	wandà	wandà	PRON	_	PronType=Rel	16	udep	_	AlignBegin=206989|AlignEnd=207100|Gloss=whom
 14	akèː	kèː/kà	AUX	_	Aspect=Prog.Bkg|Person=4	8	mod@relcl	_	AlignBegin=207321|AlignEnd=207431|Background=Yes|Gloss=4.Prog.Bkg
@@ -2477,9 +2477,9 @@
 6	ìdan	ìdan	SCONJ	_	_	18	mod	_	AlignBegin=295337|AlignEnd=295553|Gloss=if
 7	ya	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	6	comp:obj	_	AlignBegin=295553|AlignEnd=295769|Background=Yes|Gloss=3Masc.Perf.Bkg
 8	ganiː	ganiː	VERB	_	_	7	comp:aux	_	AlignBegin=295769|AlignEnd=295985|Gloss=see
-9	hakà	hakà	ADV	_	_	8	comp:obl	_	AlignBegin=295985|AlignEnd=296201|Gloss=like_this
-10	mài	mài	PART	_	_	8	comp:obj	_	AlignBegin=296201|AlignEnd=296417|Gloss=holder_of
-11	àrhaː	àrhaː	NOUN	_	_	10	compound	_	AlignBegin=296417|AlignEnd=296633|Gloss=cheapness
+9	hakà	hakà	ADV	_	_	8	mod	_	AlignBegin=295985|AlignEnd=296201|Gloss=like_this
+10	mài	mài	PART	_	ExtPos=ADJ	8	mod	_	AlignBegin=296201|AlignEnd=296417|Gloss=holder_of|Idiom=Yes
+11	àrhaː	àrhaː	NOUN	_	_	10	compound	_	AlignBegin=296417|AlignEnd=296633|Gloss=cheapness|InIdiom=Yes
 12	<	<	PUNCT	_	_	6	punct	_	AlignBegin=296633|AlignEnd=296849|Gloss=PUNCT
 13	wajen	wajen	ADP	_	_	18	mod	_	AlignBegin=296849|AlignEnd=297065|Gloss=around
 14	màːsu	màːsu	PART	_	Number=Plur	13	comp:obj	_	AlignBegin=297065|AlignEnd=297281|Gloss=holder_of.Plur
@@ -3384,8 +3384,8 @@
 5	iyà	iyàː	VERB	_	_	4	mod@relcl	_	AlignBegin=428660|AlignEnd=428878|Gloss=can
 6	tunàːwaː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=428878|AlignEnd=428987|Gloss=think.Vnoun
 7	loːkàcin	loːkàciː	NOUN	_	Definite=Cons	6	comp:obj	_	AlignBegin=429096|AlignEnd=429205|Gloss=time.Cons
-8	mài	mài	PART	_	_	7	mod	_	AlignBegin=429314|AlignEnd=429532|Gloss=holder_of
-9	gidan	gidaː	NOUN	_	Definite=Cons	8	compound	_	AlignBegin=429532|AlignEnd=429605|Gloss=home.Cons
+8	mài	mài	PART	_	ExtPos=NOUN	7	mod	_	AlignBegin=429314|AlignEnd=429532|Gloss=holder_of|Idiom=Yes
+9	gidan	gidaː	NOUN	_	Definite=Cons	8	compound	_	AlignBegin=429532|AlignEnd=429605|Gloss=home.Cons|InIdiom=Yes
 10	=mù	=mù	PRON	_	Number=Plur|Person=1|PronType=Prs	8	mod@poss	_	AlignBegin=429678|AlignEnd=429750|Gloss=1Plur.Gen
 11	sòːsai	sòːsai	ADV	_	_	6	mod	_	AlignBegin=429750|AlignEnd=429968|Gloss=quite
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=429968|AlignEnd=430184|Gloss=PUNCT
