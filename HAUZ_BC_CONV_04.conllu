@@ -2512,11 +2512,11 @@
 # phonetic_text = àmmaː kâi / yàːyàː kakèː ganiː -n ilìmiː -n yaːròː -aː\FH kuma yànzu //
 # text = àmmaː kâːi / yàː kakèː ganin ilìmin yâːraː kuma yànzu //
 # text_en =  But, what do you think of young people's education now?
-1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	4	discourse	_	AlignBegin=295586|AlignEnd=295811|Gloss=but
+1	àmmaː	àmmaː	CCONJ	_	_	4	discourse	_	AlignBegin=295586|AlignEnd=295811|Gloss=but
 2	kâi	kâi	INTJ	_	_	4	discourse	_	AlignBegin=295811|AlignEnd=296036|Gloss=my
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=296036|AlignEnd=296262|Gloss=PUNCT
 4	yàːyàː	yàːyàː	ADV	_	PronType=Int	0	root	_	AlignBegin=297476|AlignEnd=297698|Gloss=how
-5	kakèː	kèː/kà	AUX	_	Aspect=Prog.Bkg|Gender=Masc|Person=2	4	comp:cleft	_	AlignBegin=297698|AlignEnd=297920|Background=Yes|Gloss=2Masc.Prog.Bkg
+5	kakèː	kèː/kà	AUX	_	Aspect=ProgBkg|Gender=Masc|Person=2	4	comp:cleft	_	AlignBegin=297698|AlignEnd=297920|Background=Yes|Gloss=2Masc.Prog.Bkg
 6	ganin	ganiː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	5	comp:aux	_	AlignBegin=297920|AlignEnd=298031|Gloss=see.Vnoun.Cons|wordform=ganiː
 7	ilìmin	ilìmiː	NOUN	_	Definite=Cons	6	udep	_	AlignBegin=298142|AlignEnd=298253|Gloss=knowledge.Cons|wordform=ilìmiː
 8	yâːraː	yaːròː	NOUN	_	Number=Plur	7	mod	_	AlignBegin=298364|AlignEnd=298475|Gloss=child.Plur|wordform=yaːròː
@@ -2560,10 +2560,10 @@
 # phonetic_text = àmmaː fa yànzu mukèː ganiː -n àmfàːniː -n kàr̃àːtuː -ǹ //
 # text = àmmaː fa yànzu mukèː ganin àmfàːnin kàr̃àːtûn //
 # text_en =  But today we see the utility of education.
-1	àmmaː	àmmaː	CCONJ	_	ExtPos=CCONJ	3	discourse	_	AlignBegin=304179|AlignEnd=304430|Gloss=but
+1	àmmaː	àmmaː	CCONJ	_	_	3	discourse	_	AlignBegin=304179|AlignEnd=304430|Gloss=but
 2	fa	fa	PART	_	_	1	discourse	_	AlignBegin=304430|AlignEnd=304681|Gloss=indeed
 3	yànzu	yànzu	ADV	_	_	0	root	_	AlignBegin=304681|AlignEnd=304932|Gloss=now
-4	mukèː	kèː/kà	AUX	_	Aspect=Prog.Bkg|Number=Plur|Person=1	3	comp:cleft	_	AlignBegin=304932|AlignEnd=305183|Background=Yes|Gloss=1Plur.Prog.Bkg
+4	mukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=1	3	comp:cleft	_	AlignBegin=304932|AlignEnd=305183|Background=Yes|Gloss=1Plur.Prog.Bkg
 5	ganin	ganiː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=305183|AlignEnd=305309|Gloss=see.Vnoun.Cons|wordform=ganiː
 6	àmfàːnin	àmfàːniː	NOUN	_	_	5	udep	_	AlignBegin=305434|AlignEnd=305560|Gloss=utility.Cons|wordform=àmfàːniː
 7	kàr̃àːtûn	kàr̃àːtuː	NOUN	_	_	6	mod	_	AlignBegin=305685|AlignEnd=305811|Gloss=education.Def|wordform=kàr̃àːtuː
@@ -8186,7 +8186,7 @@
 7	gàː	gàː	PART	_	_	11	discourse	_	AlignBegin=983967|AlignEnd=984157|Gloss=here_is
 8	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	subj	_	AlignBegin=984157|AlignEnd=984347|Gloss=3Masc
 9	abuːbuwàː	àbù	NOUN	_	Number=Plur	11	subj	_	AlignBegin=984347|AlignEnd=984442|Gloss=thing.Plur|wordform=àbù
-10	duy	dukà	PRON	_	_	11	subj	_	AlignBegin=984725|AlignEnd=984913|Gloss=all
+10	duy	dukà	DET	_	_	9	det	_	AlignBegin=984725|AlignEnd=984913|Gloss=all
 11	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=984913|AlignEnd=985101|Gloss=3Masc.Perf
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=985101|AlignEnd=985290|Gloss=PUNCT
 13	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	11	conj:dicto	_	AlignBegin=985290|AlignEnd=985497|Gloss=3Masc.Perf
