@@ -45,7 +45,7 @@
 # text_en =  It's the story of Gizo And Koki.
 1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=6570|AlignEnd=6911|Gloss=there_is
 2	Gizò	Gizò	PROPN	_	_	1	subj	_	AlignBegin=6911|AlignEnd=7252|Gloss=Spider
-3	nèː	neː/naː	PART	_	_	2	mod@emp	_	AlignBegin=7252|AlignEnd=7593|Gloss=Ident/Foc
+3	nèː	neː~ceː/naː~taː	PART	_	_	2	mod@emp	_	AlignBegin=7252|AlignEnd=7593|Gloss=Ident/Foc
 4	dà	dà	CCONJ	_	_	5	cc	_	AlignBegin=7934|AlignEnd=8275|Gloss=and
 5	Ƙoːƙì	Ƙoːƙì	PROPN	_	_	2	conj:coord	_	AlignBegin=8275|AlignEnd=8616|Gloss=Manta
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=8616|AlignEnd=8960|Gloss=PUNCT
@@ -66,7 +66,7 @@
 # sent_timecode = 10421, 11670
 # text = anàː nan / anàː nan ||
 # text_en = There they were.
-1	inàː	nàː	AUX	_	Aspect=Prog|Person=1	0	root	_	AlignBegin=10421|AlignEnd=10636|Gloss=1.Pred/Loc
+1	inàː	nàː	AUX	_	Person=1	0	root	_	AlignBegin=10421|AlignEnd=10636|Gloss=1.Pred/Loc
 2	naː~	X	X	_	_	1	unk@scrap	_	AlignBegin=10636|AlignEnd=10851|Gloss=X
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=10851|AlignEnd=11066|Gloss=PUNCT
 4	anàː	nàː	AUX	_	Aspect=Prog|Person=4	1	conj:dicto	_	AlignBegin=11066|AlignEnd=11267|Gloss=4.Pred/Loc
@@ -95,7 +95,7 @@
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=13612|AlignEnd=13913|Gloss=say
 4	mà	mà	ADP	_	Case=Dat	3	comp:obl	_	AlignBegin=14215|AlignEnd=14656|Gloss=Dat
 5	Ƙoːƙì	Ƙoːƙì	PROPN	_	_	4	comp:obj	_	AlignBegin=14656|AlignEnd=15097|Gloss=Manta
-6	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	3	comp:obj	_	AlignBegin=15538|AlignEnd=15979|Gloss=1Sing.Prog
+6	inàː	nàː	AUX	_	Number=Sing|Person=1	3	comp:obj	_	AlignBegin=15538|AlignEnd=15979|Gloss=1Sing.Prog
 7	sôn	soː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=15979|AlignEnd=16199|Gloss=want.Vnoun.Cons|wordform=sôː
 8	ìn	sù	AUX	_	Aspect=Aor|Number=Sing|Person=1	7	udep	_	AlignBegin=16420|AlignEnd=16861|Gloss=1Sing.Aor
 9	ci	ci	VERB	_	_	8	comp:aux	_	AlignBegin=16861|AlignEnd=17302|Gloss=eat
@@ -140,7 +140,7 @@
 5	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	8	dislocated@top	_	AlignBegin=20994|AlignEnd=21085|Gloss=3Fem.Nom
 6	kòː	kòː	PART	_	_	5	discourse	_	AlignBegin=21085|AlignEnd=21176|Gloss=as_for
 7	ìnaː	ìnaː	ADV	_	PronType=Int	8	comp:pred	_	AlignBegin=21267|AlignEnd=21537|Gloss=where
-8	nèː	neː/naː	PART	_	_	3	comp:obj	_	AlignBegin=21537|AlignEnd=21807|Gloss=Ident/Foc
+8	nèː	neː~ceː/naː~taː	PART	_	_	3	comp:obj	_	AlignBegin=21537|AlignEnd=21807|Gloss=Ident/Foc
 9	zaːtà	zaːsù/zâːsu	AUX	_	Gender=Fem|Person=4|Tense=Fut	8	comp:cleft	_	AlignBegin=21807|AlignEnd=21942|Gloss=3Fem.Fut
 10	saːmoː	saːm-	VERB	_	_	9	comp:aux	_	AlignBegin=22077|AlignEnd=22347|Gloss=get.DIR
 11	wânnan	wânnan	DET	_	Definite=Def	12	det	_	AlignBegin=22347|AlignEnd=22617|Gloss=Def
@@ -232,10 +232,10 @@
 9	sai	sai	ADV	_	_	10	mod	_	AlignBegin=32845|AlignEnd=32983|Gloss=then
 10	ta	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	7	conj:dicto	_	AlignBegin=32983|AlignEnd=33120|Background=Yes|Gloss=3Fem.Perf.Bkg
 11	cêː	cêː	VERB	_	_	10	comp:aux	_	AlignBegin=33395|AlignEnd=33533|Gloss=say
-12	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	11	comp:obj	_	AlignBegin=33945|AlignEnd=34083|Gloss=3Fem.Prog
+12	tanàː	nàː	AUX	_	Gender=Fem|Person=3	11	comp:obj	_	AlignBegin=33945|AlignEnd=34083|Gloss=3Fem.Prog
 13	neːman	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	12	comp:aux	_	AlignBegin=34083|AlignEnd=34220|Gloss=look_for.Cons
 14	ramàː	ramàː	NOUN	_	_	13	udep	_	AlignBegin=34358|AlignEnd=34495|Gloss=hemp
-15	nèː	neː/naː	PART	_	_	14	mod@emp	_	AlignBegin=34770|AlignEnd=34908|Gloss=Ident/Foc
+15	nèː	neː~ceː/naː~taː	PART	_	_	14	mod@emp	_	AlignBegin=34770|AlignEnd=34908|Gloss=Ident/Foc
 16	//	//	PUNCT	_	_	7	punct	_	AlignBegin=34908|AlignEnd=35045|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_02_022-023
@@ -1412,7 +1412,7 @@
 4	tôː	tôː	INTJ	_	_	7	discourse	_	AlignBegin=171232|AlignEnd=171389|Gloss=well
 5	ai	ai	INTJ	_	_	7	discourse	_	AlignBegin=172049|AlignEnd=172189|Gloss=indeed
 6	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	comp:pred	_	AlignBegin=172189|AlignEnd=172329|Gloss=2Masc.Nom
-7	nèː	neː/naː	PART	_	_	3	comp:obj	_	AlignBegin=172329|AlignEnd=172469|Gloss=Ident/Foc
+7	nèː	neː~ceː/naː~taː	PART	_	_	3	comp:obj	_	AlignBegin=172329|AlignEnd=172469|Gloss=Ident/Foc
 8	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=172469|AlignEnd=172608|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_02_142-144
