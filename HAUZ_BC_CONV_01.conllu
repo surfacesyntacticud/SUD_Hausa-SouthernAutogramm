@@ -3349,14 +3349,14 @@
 19	irìn	irìː	NOUN	_	Definite=Cons	20	discourse	_	AlignBegin=423786|AlignEnd=423907|Gloss=type.Cons
 20	su	su	DET	_	Number=Plur	18	conj:dicto	_	AlignBegin=424028|AlignEnd=424270|Gloss=Plur
 21	kaːbeːjìː	kaːbeːjìː	NOUN	_	_	16	comp:obj	_	AlignBegin=424270|AlignEnd=424512|Gloss=cabbage
-22	|c	|c	PUNCT	_	_	28	punct	_	AlignBegin=424512|AlignEnd=424754|Gloss=PUNCT
-23	dà	dà	CCONJ	_	_	28	cc	_	AlignBegin=424754|AlignEnd=424996|Gloss=and
+22	|c	|c	PUNCT	_	_	25	punct	_	AlignBegin=424512|AlignEnd=424754|Gloss=PUNCT
+23	dà	dà	CCONJ	_	_	25	cc	_	AlignBegin=424754|AlignEnd=424996|Gloss=and
 24	heː	heː	INTJ	_	_	23	discourse	_	AlignBegin=424996|AlignEnd=425238|Gloss=FILL
-25	saurân	saura	NOUN	_	Definite=Def	23	comp:obj	_	AlignBegin=425238|AlignEnd=425359|Gloss=remainder.Def
-26	irìn	irìː	NOUN	_	Definite=Cons	28	discourse	_	AlignBegin=425480|AlignEnd=425561|Gloss=type.Cons
+25	saurân	saura	NOUN	_	Definite=Def	21	conj:coord	_	AlignBegin=425238|AlignEnd=425359|Gloss=remainder.Def
+26	irìn	irìn	ADP	_	_	25	mod	_	AlignBegin=425480|AlignEnd=425561|Gloss=like
 27	su	su	DET	_	Number=Plur	28	det	_	AlignBegin=425964|AlignEnd=426206|Gloss=Plur
-28	tùmaːtìr̃	tùmaːtìr̃	NOUN	_	_	25	conj:appos	_	AlignBegin=426206|AlignEnd=426448|Gloss=tomatoes
-29	hakà	hakà	ADV	_	_	10	mod	_	AlignBegin=426448|AlignEnd=426690|Gloss=like_this
+28	tùmaːtìr̃	tùmaːtìr̃	NOUN	_	_	26	comp:obj	_	AlignBegin=426206|AlignEnd=426448|Gloss=tomatoes
+29	hakà	hakà	ADV	_	_	28	mod	_	AlignBegin=426448|AlignEnd=426690|Gloss=like_this
 30	//	//	PUNCT	_	_	9	punct	_	AlignBegin=426690|AlignEnd=426940|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_154-154
@@ -3859,12 +3859,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 490444, 490975
 # phonetic_text = ƴaː \Plur -ǹ suː nèː /
-# text = ƴaːƴân suː nèː &//
-# text_en =  Those children are ..
-1	ƴaːƴân	ɗaː	NOUN	_	Definite=Def|Number=Plur	3	dislocated@top	_	AlignBegin=490444|AlignEnd=490488|Gloss=child.Plur.Def
+# text = ƴaːƴân suː nèː //
+# text_en =  They are the children.
+1	ƴaːƴân	ɗaː	NOUN	_	Definite=Def|Number=Plur	3	subj	_	AlignBegin=490444|AlignEnd=490488|Gloss=child.Plur.Def
 2	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	comp:pred	_	AlignBegin=490577|AlignEnd=490710|Gloss=2Plur.Nom
-3	nèː	neː/naː	PART	_	_	0	root@scrap	_	AlignBegin=490710|AlignEnd=490843|Gloss=Ident/Foc
-4	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=490843|AlignEnd=490975|Gloss=PUNCT
+3	nèː	neː/naː	PART	_	_	0	root	_	AlignBegin=490710|AlignEnd=490843|Gloss=Ident/Foc
+4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=490843|AlignEnd=490975|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_177-178
 # speaker_id = SP2
@@ -3892,7 +3892,7 @@
 # text_en =  Those are her children.
 1	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	comp:pred	_	AlignBegin=492726|AlignEnd=492896|Gloss=2Plur.Nom
 2	nèː	neː/naː	PART	_	_	0	root	_	AlignBegin=492896|AlignEnd=493066|Gloss=Ident/Foc
-3	ƴaːƴân	ɗaː	NOUN	_	Definite=Def|Number=Plur	2	comp:cleft	_	AlignBegin=493066|AlignEnd=493123|Gloss=child.Plur.Def
+3	ƴaːƴân	ɗaː	NOUN	_	Definite=Def|Number=Plur	2	dislocated@subj	_	AlignBegin=493066|AlignEnd=493123|Gloss=child.Plur.Def
 4	naːtà	naːtà	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	mod@poss	_	AlignBegin=493236|AlignEnd=493406|Gloss=3Fem.Gen
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=493406|AlignEnd=493578|Gloss=PUNCT
 
