@@ -1013,9 +1013,9 @@
 # text = su soːjoːjîn kèːnan //
 # text_en = Those soldiers!
 1	su	su	DET	_	Number=Plur	2	det	_	AlignBegin=133071|AlignEnd=133241|Gloss=Plur
-2	soːjoːjîn	soːjà	NOUN	_	Number=Plur	0	root	_	AlignBegin=133241|AlignEnd=133298|Gloss=soldier.Plur
-3	kèːnan	kèːnan/aC	PART	_	_	2	mod@emp	_	AlignBegin=133411|AlignEnd=133581|Background=Yes|Gloss=Ident/Foc.Bkg
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=133751|AlignEnd=133920|Gloss=PUNCT
+2	soːjoːjîn	soːjà	NOUN	_	Number=Plur	3	comp:pred	_	AlignBegin=133241|AlignEnd=133298|Gloss=soldier.Plur
+3	kèːnan	kèːnan/aC	PART	_	_	0	root	_	AlignBegin=133411|AlignEnd=133581|Background=Yes|Gloss=Ident/Foc.Bkg
+4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=133751|AlignEnd=133920|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_044-044_split1
 # speaker_id = SP2
@@ -1114,7 +1114,7 @@
 3	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	4	det	_	AlignBegin=142432|AlignEnd=142619|Gloss=some.Masc
 4	zubìn	zubìː	NOUN	_	Definite=Def	11	mod	_	AlignBegin=142619|AlignEnd=142713|Gloss=time.Def
 5	maː	maː	PART	_	_	4	discourse	_	AlignBegin=142806|AlignEnd=142993|Gloss=even
-6	à	à	ADP	_	_	11	conj:coord	_	AlignBegin=143180|AlignEnd=143367|Gloss=at
+6	à	à	ADP	_	_	11	mod	_	AlignBegin=143180|AlignEnd=143367|Gloss=at
 7	gidàːjên	gidaː	NOUN	_	Definite=Def|Number=Plur	6	comp:obj	_	AlignBegin=143367|AlignEnd=143429|Gloss=house.Plur.Def
 8	naːmù	naːmù	PRON	_	Number=Plur|Person=1|PronType=Prs	7	mod@poss	_	AlignBegin=143554|AlignEnd=143741|Gloss=1Plur.Gen
 9	<	<	PUNCT	_	_	6	punct	_	AlignBegin=143741|AlignEnd=143928|Gloss=PUNCT
@@ -2818,7 +2818,7 @@
 # text = àmmaː àlhamdù lìllaːhì < à kân noːman =mù mukàn noːmà waːkeː |c mukàn noːmà masàr̃aː |c mukàn noːmà daːwàː //
 # text_en =  But thank God as for our farming, we farm.. beans, we farm maize, we farm guinea-corn.
 1	àmmaː	àmmaː	CCONJ	_	_	9	discourse	_	AlignBegin=349929|AlignEnd=350196|Gloss=but
-2	àlhamdù	àlhamdù	INTJ	_	ExtPos=INTJ|Foreign=Yes	9	discourse	_	AlignBegin=350196|AlignEnd=350463|Gloss=alhamdu|Idiom=Yes|Lang=ar
+2	àlhamdù	àlhamdù	INTJ	_	Foreign=Yes	9	discourse	_	AlignBegin=350196|AlignEnd=350463|Gloss=alhamdu|Idiom=Yes|Lang=ar
 3	lìllaːhì	lìllaːhì	INTJ	_	Foreign=Yes	2	flat:foreign	_	AlignBegin=350463|AlignEnd=350730|Gloss=lìllaːhì|InIdiom=Yes|Lang=ar
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=350730|AlignEnd=350997|Gloss=PUNCT
 5	à	à	ADP	_	ExtPos=ADP	9	dislocated@top	_	AlignBegin=350997|AlignEnd=351264|Gloss=on|Idiom=Yes
