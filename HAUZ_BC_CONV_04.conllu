@@ -5694,18 +5694,18 @@
 5	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=699103|AlignEnd=699257|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0599-0600
+# text = Sakkwataːwaː sukà cêː saːkar̃ai nàː //
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 699121, 701361
 # phonetic_text = sakkwato -aːwaː\H sukà cêː / saːkar̃ai nàː //
-# text = Sakkwataːwaː sukà cêː saːkar̃ai nàː //
-# text_en =  People of Sokoto say "saːkar̃ai nàː" .
-1	Sakkwataːwaː	Sakkwataːwaː	PROPN	_	_	2	subj	_	AlignBegin=699121|AlignEnd=699284|Gloss=Sokoto_people|wordform=sakkwato
-2	sukà	sukà/sunkà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	0	root	_	AlignBegin=699447|AlignEnd=699773|Background=Yes|Gloss=3Plur.Perf.Bkg
+# text_en =  It's the People of Sokoto who say "saːkar̃ai nàː" .
+1	Sakkwataːwaː	Sakkwataːwaː	PROPN	_	_	0	root	_	AlignBegin=699121|AlignEnd=699284|Gloss=Sokoto_people|wordform=sakkwato
+2	sukà	sukà/sunkà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	1	comp:cleft	_	AlignBegin=699447|AlignEnd=699773|Background=Yes|Gloss=3Plur.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=699773|AlignEnd=700099|Gloss=say
-4	saːkar̃ai	X	X	_	_	5	comp:pred	_	AlignBegin=700423|AlignEnd=700736|Gloss=X
+4	saːkar̃ai	X	X	_	_	5	subj	_	AlignBegin=700423|AlignEnd=700736|Gloss=X
 5	nàː	X	X	_	_	3	comp:obj	_	AlignBegin=700736|AlignEnd=701049|Gloss=X
-6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=701049|AlignEnd=701361|Gloss=PUNCT
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=701049|AlignEnd=701361|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0601-0601
 # speaker_id = SP2
@@ -6519,14 +6519,14 @@
 # phonetic_text = tòː gàː wani / wai shiː gaudàː //
 # text = tòː gàː wani / wai shiː gaudàː //
 # text_en =  Well there's what they call "gauda*". (* type of cake)
-1	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=795645|AlignEnd=795785|Gloss=well
-2	gàː	gàː	PART	_	_	6	dislocated	_	AlignBegin=795785|AlignEnd=795925|Gloss=here_is
+1	tòː	tòː	INTJ	_	_	7	discourse	_	AlignBegin=795645|AlignEnd=795785|Gloss=well
+2	gàː	gàː	PART	_	_	7	dislocated	_	AlignBegin=795785|AlignEnd=795925|Gloss=here_is
 3	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	2	subj	_	AlignBegin=795925|AlignEnd=796065|Gloss=some.Masc
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=796065|AlignEnd=796205|Gloss=PUNCT
-5	wai	wai	SCONJ	_	_	6	discourse	_	AlignBegin=796205|AlignEnd=796480|Gloss=EVD
-6	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=796480|AlignEnd=796755|Gloss=3Masc.Nom
-7	gaudàː	gaudàː	NOUN	_	_	6	comp:pred	_	AlignBegin=796755|AlignEnd=797030|Gloss=cakes_sp
-8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=797030|AlignEnd=797304|Gloss=PUNCT
+5	wai	wai	SCONJ	_	_	7	discourse	_	AlignBegin=796205|AlignEnd=796480|Gloss=EVD
+6	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	subj	_	AlignBegin=796480|AlignEnd=796755|Gloss=3Masc.Nom
+7	gaudàː	gaudàː	NOUN	_	_	0	root	_	AlignBegin=796755|AlignEnd=797030|Gloss=cakes_sp
+8	//	//	PUNCT	_	_	7	punct	_	AlignBegin=797030|AlignEnd=797304|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0687-0688
 # speaker_id = SP1
