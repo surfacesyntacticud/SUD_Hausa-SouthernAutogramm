@@ -1335,7 +1335,7 @@
 # text_en =  true, there is, yes.
 1	dà	dà	ADP	_	_	3	mod	_	AlignBegin=142520|AlignEnd=142650|Gloss=with
 2	gàske	gàske	ADV	_	_	1	comp:obj	_	AlignBegin=142650|AlignEnd=142780|Gloss=truly
-3	àkwai	àkwai	PART	_	_	0	root@scrap	_	AlignBegin=142780|AlignEnd=142910|Gloss=there_is
+3	àkwai	àkwai	PredPART	_	_	0	root@scrap	_	AlignBegin=142780|AlignEnd=142910|Gloss=there_is
 4	eː	eː	INTJ	_	_	3	discourse	_	AlignBegin=142910|AlignEnd=143040|Gloss=FILL
 5	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=143040|AlignEnd=143168|Gloss=PUNCT
 
@@ -1557,8 +1557,8 @@
 23	àː	àː	INTJ	_	_	24	discourse	_	AlignBegin=165825|AlignEnd=165891|Gloss=FILL
 24	àbîn	àbù	NOUN	_	Definite=Def	21	comp:obj	_	AlignBegin=166094|AlignEnd=166172|Gloss=thing.Def|wordform=àbù
 25	nan	nan	DET	_	Definite=Def	24	det	_	AlignBegin=166250|AlignEnd=166406|Gloss=Def
-26	ɗin	ɗin	DET	_	_	24	det	_	AlignBegin=166406|AlignEnd=166484|Gloss=of
-27	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	24	mod@poss	_	AlignBegin=166484|AlignEnd=166562|Gloss=3Masc.Gen
+26	ɗin	ɗin	ADP	_	_	24	mod@poss	_	AlignBegin=166406|AlignEnd=166484|Gloss=of|Link=Yes
+27	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	26	comp:obj	_	AlignBegin=166484|AlignEnd=166562|Gloss=3Masc.Gen
 28	neː	neː/naː	PART	_	_	24	mod@emp	_	AlignBegin=166562|AlignEnd=166718|Gloss=Ident/Foc
 29	//	//	PUNCT	_	_	10	punct	_	AlignBegin=166718|AlignEnd=166872|Gloss=PUNCT
 
@@ -2795,7 +2795,7 @@
 # text_en =  This thing of theirs, it's war indeed.
 1	àbin	àbù	NOUN	_	_	7	dislocated@subj	_	AlignBegin=292526|AlignEnd=292600|Gloss=thing.Def|wordform=àbù
 2	nàn	nàn	DET	_	Deixis=Prox|PronType=Dem	1	det	_	AlignBegin=292673|AlignEnd=292820|Gloss=Prox
-3	ɗin	ɗin	PART	_	Definite=Cons	1	mod@poss	_	AlignBegin=292820|AlignEnd=292894|Gloss=Cons
+3	ɗin	ɗin	ADP	_	Definite=Cons	1	mod@poss	_	AlignBegin=292820|AlignEnd=292894|Gloss=of|Link=Yes
 4	=sù	=sù	PRON	_	Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=292894|AlignEnd=292967|Gloss=3Plur.Gen
 5	eː	eː	INTJ	_	_	7	discourse	_	AlignBegin=292967|AlignEnd=293114|Gloss=FILL
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=293114|AlignEnd=293261|Gloss=PUNCT
