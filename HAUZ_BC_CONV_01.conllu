@@ -602,7 +602,7 @@
 1	sa'ànnan	sa'ànan	ADV	_	_	4	mod	_	AlignBegin=76777|AlignEnd=76910|Gloss=then
 2	kuma	kuma	TopPART	_	_	1	discourse	_	AlignBegin=77309|AlignEnd=77575|Gloss=also
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=77575|AlignEnd=77841|Gloss=PUNCT
-4	àkwai	àkwai	PART	_	_	0	root@scrap	_	AlignBegin=77841|AlignEnd=78107|Gloss=there_is
+4	àkwai	àkwai	PredPART	_	_	0	root@scrap	_	AlignBegin=77841|AlignEnd=78107|Gloss=there_is
 5	wasu	wasu	DET	_	Definite=Spec|Number=Plur|PronType=Ind	6	det	_	AlignBegin=78107|AlignEnd=78373|Gloss=some.Plur
 6	raːnaː	raːnaː	NOUN	_	_	4	subj	_	AlignBegin=78373|AlignEnd=78639|Gloss=day
 7	wandà	wandà	PRON	_	PronType=Rel	9	mod	_	AlignBegin=78639|AlignEnd=78905|Gloss=which
@@ -769,7 +769,7 @@
 11	à	at	ADP	_	_	14	mod	_	AlignBegin=103001|AlignEnd=103191|Gloss=at
 12	daːjìn	daːjìː	NOUN	_	Definite=Def	11	comp:obj	_	AlignBegin=103191|AlignEnd=103286|Gloss=bush.Def
 13	<	<	PUNCT	_	_	14	punct	_	AlignBegin=103381|AlignEnd=103571|Gloss=PUNCT
-14	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=103571|AlignEnd=103761|Gloss=there_is
+14	àkwai	àkwai	PredPART	_	_	0	root	_	AlignBegin=103571|AlignEnd=103761|Gloss=there_is
 15	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	16	det	_	AlignBegin=103761|AlignEnd=103951|Gloss=some.Masc
 16	àbin	àbù	NOUN	_	Definite=Cons	14	subj	_	AlignBegin=104141|AlignEnd=104236|Gloss=thing.Cons
 17	tsòːroː	tsòːroː	NOUN	_	_	16	compound	_	AlignBegin=104331|AlignEnd=104521|Gloss=fear
@@ -1432,7 +1432,7 @@
 # text_en =  He, nobody..
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	dislocated@top	_	AlignBegin=173385|AlignEnd=173509|Gloss=3Masc.Nom
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=173509|AlignEnd=173633|Gloss=PUNCT
-3	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=173633|AlignEnd=173757|Gloss=Neg
+3	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=173633|AlignEnd=173757|Gloss=Neg
 4	wandà	wandà	PRON	_	PronType=Rel	3	subj	_	AlignBegin=173757|AlignEnd=173881|Gloss=who
 5	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	4	mod@relcl	_	AlignBegin=173881|AlignEnd=174005|Gloss=3Masc.Perf
 6	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=174005|AlignEnd=174126|Gloss=PUNCT
@@ -2155,7 +2155,7 @@
 # phonetic_text = bâː ginìː -e2 //
 # text = bâː gìne-gìne //
 # text_en =  There were no buildings.
-1	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=258124|AlignEnd=258338|Gloss=Neg
+1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=258124|AlignEnd=258338|Gloss=Neg
 2	gìne-gìne	ginìː	NOUN	_	ExtPos=NOUN|Number=Plur	1	subj	_	AlignBegin=258338|AlignEnd=258445|Gloss=building.Plur
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=258552|AlignEnd=258767|Gloss=PUNCT
 
@@ -3161,7 +3161,7 @@
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	comp:pred	_	AlignBegin=397575|AlignEnd=397802|Gloss=3Masc.Nom
 4	nèː	neː/naː	PART	_	_	0	root	_	AlignBegin=397802|AlignEnd=398029|Gloss=Ident/Foc
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=398029|AlignEnd=398256|Gloss=PUNCT
-6	bâː	bâː	PART	_	Polarity=Neg	4	comp:cleft	_	AlignBegin=398256|AlignEnd=398483|Gloss=Neg
+6	bâː	bâː	PredPART	_	Polarity=Neg	4	comp:cleft	_	AlignBegin=398256|AlignEnd=398483|Gloss=Neg
 7	ruwaː	ruwaː	NOUN	_	_	6	subj	_	AlignBegin=398483|AlignEnd=398710|Gloss=water
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=398710|AlignEnd=398938|Gloss=PUNCT
 
@@ -3172,7 +3172,7 @@
 # phonetic_text = bâː ràːfiː -uka sòːsai //
 # text = bâː raːfukàː sòːsai //
 # text_en =  There are not enough rivers.
-1	bâː	bâː	PART	_	Polarity=Neg	0	root	_	AlignBegin=399165|AlignEnd=399423|Gloss=Neg
+1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=399165|AlignEnd=399423|Gloss=Neg
 2	raːfukàː	ràːfiː	NOUN	_	Number=Plur	1	subj	_	AlignBegin=399423|AlignEnd=399552|Gloss=river.Plur
 3	sòːsai	sòːsai	ADV	_	_	1	mod	_	AlignBegin=399681|AlignEnd=399939|Gloss=quite
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=399939|AlignEnd=400196|Gloss=PUNCT
@@ -3694,7 +3694,7 @@
 # phonetic_text = àkwai wata tsoːhuwaː / wandà ita suːnaː -n -tà / bàːsà //
 # text = àkwai wata tsoːhuwaː wandà ita suːnan =tà Bàːsà //
 # text_en =  There is one old woman, named Basa.
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=469186|AlignEnd=469412|Gloss=there_is
+1	àkwai	àkwai	PredPART	_	_	0	root	_	AlignBegin=469186|AlignEnd=469412|Gloss=there_is
 2	wata	wata	DET	_	Definite=Spec|Gender=Fem|PronType=Ind	3	det	_	AlignBegin=469412|AlignEnd=469638|Gloss=some.Fem
 3	tsoːhuwaː	tsoːhuwaː	NOUN	_	ExtPos=NOUN	1	subj	_	AlignBegin=469638|AlignEnd=469864|Gloss=old_woman
 4	wandà	wandà	PRON	_	PronType=Rel	6	mod@poss	_	AlignBegin=470090|AlignEnd=470316|Gloss=who
@@ -3875,7 +3875,7 @@
 # text_en =  I think there is Adamu, then Mustapha.
 1	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	0	root	_	AlignBegin=490975|AlignEnd=491165|Gloss=1Sing.Prog
 2	ganiː	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=491165|AlignEnd=491355|Gloss=see
-3	àkwai	àkwai	PART	_	_	2	comp:obj	_	AlignBegin=491355|AlignEnd=491545|Gloss=there_is
+3	àkwai	àkwai	PredPART	_	_	2	comp:obj	_	AlignBegin=491355|AlignEnd=491545|Gloss=there_is
 4	su	su	DET	_	Number=Plur	5	det	_	AlignBegin=491545|AlignEnd=491735|Gloss=Plur
 5	Àdàːmu	Àdàːmu	PROPN	_	_	3	subj	_	AlignBegin=491735|AlignEnd=491925|Gloss=Adamu
 6	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=491925|AlignEnd=492116|Gloss=PUNCT
@@ -4103,7 +4103,7 @@
 6	na	na~ta	ADP	_	Definite=Cons	5	mod	_	AlignBegin=520843|AlignEnd=520934|Gloss=that_of
 7	Basaːwaː	Basaːwaː	PROPN	_	_	6	comp:obj	_	AlignBegin=521115|AlignEnd=521205|Gloss=Basawa|wordform=basaːwa
 8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=521205|AlignEnd=521296|Gloss=PUNCT
-9	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=521477|AlignEnd=521658|Gloss=there_is
+9	àkwai	àkwai	PredPART	_	_	0	root	_	AlignBegin=521477|AlignEnd=521658|Gloss=there_is
 10	raːfuffukàː	ràːfiː	NOUN	_	Number=Plur	9	subj	_	AlignBegin=521658|AlignEnd=521748|Gloss=river.Plur
 11	nèː	neː/naː	PART	_	_	10	mod@emp	_	AlignBegin=521839|AlignEnd=522020|Gloss=Ident/Foc
 12	dà	dà	ADP	_	_	10	mod	_	AlignBegin=522020|AlignEnd=522201|Gloss=with
@@ -4171,7 +4171,7 @@
 # phonetic_text = àkwai ràːfiː / gùdaː ɗaya / wandà yakèː shiː nèː ya ɗiːbàː //
 # text = àkwai ràːfiː gùdaː ɗaya wandà yakè shiː nèː ya ɗiːbàː //
 # text_en =  There is a river, which he was using.
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=529760|AlignEnd=529991|Gloss=there_is
+1	àkwai	àkwai	PredPART	_	_	0	root	_	AlignBegin=529760|AlignEnd=529991|Gloss=there_is
 2	ràːfiː	ràːfiː	NOUN	_	_	1	subj	_	AlignBegin=529991|AlignEnd=530222|Gloss=river
 3	gùdaː	gùdaː	NUM	_	_	2	mod:num	_	AlignBegin=530453|AlignEnd=530684|Gloss=unit
 4	ɗaya	ɗaya	NUM	_	_	3	flat:num	_	AlignBegin=530684|AlignEnd=530915|Gloss=one
@@ -4588,7 +4588,7 @@
 8	tunàːwaː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:obj	_	AlignBegin=587625|AlignEnd=587701|Gloss=think.Vnoun
 9	maː	maː	TopPART	_	_	5	discourse	_	AlignBegin=587776|AlignEnd=587927|Gloss=even
 10	<	<	PUNCT	_	_	5	punct	_	AlignBegin=587927|AlignEnd=588078|Gloss=PUNCT
-11	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=588078|AlignEnd=588237|Gloss=there_is
+11	àkwai	àkwai	PredPART	_	_	0	root	_	AlignBegin=588078|AlignEnd=588237|Gloss=there_is
 12	sa'àn	sa'àː	NOUN	_	Definite=Cons	11	subj	_	AlignBegin=588237|AlignEnd=588317|Gloss=time.Cons
 13	dà	dà	SCONJ	_	_	12	mod@relcl	_	AlignBegin=588396|AlignEnd=588555|Gloss=COMP
 14	sukà	sukà/sunkà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	13	comp:obj	_	AlignBegin=588555|AlignEnd=588714|Background=Yes|Gloss=3Plur.Perf.Bkg
