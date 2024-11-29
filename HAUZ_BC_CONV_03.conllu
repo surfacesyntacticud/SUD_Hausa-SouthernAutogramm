@@ -816,11 +816,12 @@
 # phonetic_text = niː dai zân jeː nèː kawài //
 # text = niː dai zân jeː nèː kawâi //
 # text_en =  Me, I will merely go.
+# validated_by = B-CARON
 1	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	dislocated@subj	_	AlignBegin=104408|AlignEnd=104565|Gloss=1Sing.Nom
 2	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=104565|AlignEnd=104722|Gloss=indeed
 3	zân	zaːsù/zâːsu	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=104722|AlignEnd=104879|Gloss=1Sing.Fut
 4	jeː	jeː	VERB	_	_	3	comp:aux	_	AlignBegin=104879|AlignEnd=105036|Gloss=go
-5	nèː	neː/naː	PART	_	_	4	mod@emp	_	AlignBegin=105036|AlignEnd=105193|Gloss=Ident/Foc
+5	nèː	neː/naː	ModPART	_	_	4	discourse@foc	_	AlignBegin=105036|AlignEnd=105193|Gloss=Ident/Foc
 6	kawài	kawài	INTJ	_	_	3	mod	_	AlignBegin=105193|AlignEnd=105350|Gloss=only
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=105350|AlignEnd=105506|Gloss=PUNCT
 
@@ -1623,13 +1624,14 @@
 # phonetic_text = ita maː an kashèː iyàːyeː -n -tà nèː //
 # text = ita maː an kashè iyàːyentà neː //
 # text_en =  She too, her parents had been killed..
+# validated_by = B-CARON
 1	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	3	dislocated@top	_	AlignBegin=204960|AlignEnd=205163|Gloss=3Fem.Nom
 2	maː	maː	TopPART	_	_	1	discourse	_	AlignBegin=205163|AlignEnd=205366|Gloss=even
 3	an	sun	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=205366|AlignEnd=205569|Gloss=4.Perf
 4	kashè	kas-	VERB	_	_	3	comp:aux	_	AlignBegin=205569|AlignEnd=205772|Gloss=kill
 5	iyàːyen	iyàːyeː	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=205772|AlignEnd=205840|Gloss=relatives.Cons|wordform=iyàːyeː
 6	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=205908|AlignEnd=205975|Gloss=3Fem.Gen
-7	neː	neː/naː	PART	_	_	5	mod@emp	_	AlignBegin=205975|AlignEnd=206178|Gloss=Ident/Foc
+7	neː	neː/naː	ModPART	_	_	5	discourse@foc	_	AlignBegin=205975|AlignEnd=206178|Gloss=Ident/Foc
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=206178|AlignEnd=206378|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__119
@@ -2110,6 +2112,7 @@
 # phonetic_text = tòː shiː sai ya jeː ya sâː mà bàːba -n -shì poison nèː //
 # text = tòː shiː sai ya jeː ya sâː mà bàːbanshì poison nèː //
 # text_en =  Well then he went to poison his father.
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=268166|AlignEnd=268328|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	dislocated@subj	_	AlignBegin=268328|AlignEnd=268490|Gloss=3Masc.Nom
 3	sai	sai	ADV	_	_	4	mod	_	AlignBegin=268490|AlignEnd=268652|Gloss=then
@@ -2121,7 +2124,7 @@
 9	bàːban	bàːba	NOUN	_	Definite=Cons	8	comp:obj	_	AlignBegin=269462|AlignEnd=269516|Gloss=father.Cons|wordform=bàːba
 10	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=269570|AlignEnd=269624|Gloss=3Masc.Gen
 11	poison	poison	NOUN	_	Foreign=Yes	7	comp:obj	_	AlignBegin=269624|AlignEnd=269786|Gloss=poison|Lang=en
-12	nèː	neː/naː	PART	_	_	11	mod@emp	_	AlignBegin=269786|AlignEnd=269948|Gloss=Ident/Foc
+12	nèː	neː/naː	ModPART	_	_	11	discourse@foc	_	AlignBegin=269786|AlignEnd=269948|Gloss=Ident/Foc
 13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=269948|AlignEnd=270107|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__148
@@ -2262,11 +2265,12 @@
 # phonetic_text = barìː tà ɗaukoː mishì nèː yà sâː //
 # text = bàri tà ɗaukoː mishì nèː yà sâː //
 # text_en =  Let her bring it to him to put it in.
+# validated_by = B-CARON
 1	bàri	bàri	VERB	_	_	2	mod	_	AlignBegin=286213|AlignEnd=286371|Gloss=Jus
 2	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	0	root	_	AlignBegin=286371|AlignEnd=286529|Gloss=3Fem.Aor
 3	ɗaukoː	ɗauk-	VERB	_	_	2	comp:aux	_	AlignBegin=286529|AlignEnd=286687|Gloss=take.DIR
 4	mishì	mishì	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=286687|AlignEnd=286845|Gloss=3Masc.Dat
-5	nèː	neː/naː	PART	_	_	4	mod@emp	_	AlignBegin=286845|AlignEnd=287003|Gloss=Ident/Foc
+5	nèː	neː/naː	ModPART	_	_	4	discourse@foc	_	AlignBegin=286845|AlignEnd=287003|Gloss=Ident/Foc
 6	yà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=3	3	mod	_	AlignBegin=287003|AlignEnd=287161|Gloss=3Masc.Aor
 7	sâː	sâː	VERB	_	_	6	comp:aux	_	AlignBegin=287161|AlignEnd=287319|Gloss=put
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=287319|AlignEnd=287474|Gloss=PUNCT
@@ -2497,6 +2501,7 @@
 # phonetic_text = so wandà ya cêː mishì / zâi yàdda nèː / mêː mêː mêː mêː hakà //
 # text = sòː wandà ya cêː mishì < zâi yàdda nèː |c mêː-mêː mêː-mêː hakà //
 # text_en =  So, the one who told him... he will agree, etc.
+# validated_by = B-CARON
 1	sòː	sòː	INTJ	_	Foreign=Yes	7	discourse	_	AlignBegin=310889|AlignEnd=311179|Gloss=so|Lang=en
 2	wandà	wandà	PRON	_	PronType=Rel	7	dislocated@subj	_	AlignBegin=311179|AlignEnd=311469|Gloss=who
 3	ya	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	2	mod@relcl	_	AlignBegin=311469|AlignEnd=311759|Background=Yes|Gloss=3Masc.Perf.Bkg
@@ -2505,7 +2510,7 @@
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=312339|AlignEnd=312627|Gloss=PUNCT
 7	zâi	zaːsù/zâːsu	AUX	_	Gender=Masc|Person=3|Tense=Fut	0	root	_	AlignBegin=312627|AlignEnd=312778|Gloss=3Masc.Fut
 8	yàdda	yar̃d-	VERB	_	_	7	mod	_	AlignBegin=312778|AlignEnd=312929|Gloss=agree
-9	nèː	neː/naː	PART	_	_	7	mod@emp	_	AlignBegin=312929|AlignEnd=313080|Gloss=Ident/Foc
+9	nèː	neː/naː	ModPART	_	_	7	discourse@foc	_	AlignBegin=312929|AlignEnd=313080|Gloss=Ident/Foc
 10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=313080|AlignEnd=313230|Gloss=PUNCT
 11	mêː-mêː	mêː-mêː	X	_	_	7	conj:coord	_	AlignBegin=313230|AlignEnd=313426|Gloss=etc
 12	mêː-mêː	mêː-mêː	X	_	_	11	conj:redup	_	AlignBegin=313426|AlignEnd=313622|Gloss=etc
@@ -2600,9 +2605,10 @@
 # phonetic_text = ta gudù nèː kawài //
 # text = ta gudù neː kawài //
 # text_en = She merely ran away.
+# validated_by = B-CARON
 1	ta	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=323742|AlignEnd=323899|Background=Yes|Gloss=3Fem.Perf.Bkg
 2	gudù	gud-	VERB	_	_	1	comp:aux	_	AlignBegin=323899|AlignEnd=324056|Gloss=run
-3	neː	neː/naː	PART	_	_	2	mod@emp	_	AlignBegin=324056|AlignEnd=324213|Gloss=Ident/Foc
+3	neː	neː/naː	ModPART	_	_	2	discourse@foc	_	AlignBegin=324056|AlignEnd=324213|Gloss=Ident/Foc
 4	kawài	kawài	ADV	_	_	1	mod	_	AlignBegin=324213|AlignEnd=324370|Gloss=only
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=324370|AlignEnd=324526|Gloss=PUNCT
 

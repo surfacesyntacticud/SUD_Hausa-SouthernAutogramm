@@ -20,6 +20,7 @@
 # phonetic_text = àː niː / inàː zàune à gàriː -n fallàːdân nèː // wajen wata kàːkaː -naː //
 # text = àː niː < i nàː zàune à gàrin Pallàːdân nèː |c wajen wata kàːkaː =naː //
 # text_en = Well, me, I live in the village of Palladan with a grandmother of mine.
+# validated_by = B-CARON
 1	àː	àː	INTJ	_	_	4	discourse	_	AlignBegin=1760|AlignEnd=1974|Gloss=FILL
 2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	dislocated@subj	_	AlignBegin=1974|AlignEnd=2188|Gloss=1Sing.Nom
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=2188|AlignEnd=2402|Gloss=PUNCT
@@ -28,7 +29,7 @@
 6	à	at	ADP	_	_	5	comp:loc	_	AlignBegin=2830|AlignEnd=3044|Gloss=at
 7	gàrin	gàriː	NOUN	_	Definite=Cons	6	comp:obj	_	AlignBegin=3044|AlignEnd=3151|Gloss=town.Cons
 8	Pallàːdân	Pallàːdân	PROPN	_	_	7	compound	_	AlignBegin=3258|AlignEnd=3472|Gloss=Palladan|wordform=fallàːdân
-9	nèː	neː/naː	PART	_	_	6	mod@emp	_	AlignBegin=3472|AlignEnd=3686|Gloss=Ident/Foc
+9	nèː	neː/naː	ModPART	_	_	6	discourse@foc	_	AlignBegin=3472|AlignEnd=3686|Gloss=Ident/Foc
 10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=3686|AlignEnd=3900|Gloss=PUNCT
 11	wajen	wajen	ADP	_	_	6	conj:appos	_	AlignBegin=3900|AlignEnd=4114|Gloss=around
 12	wata	wata	DET	_	Definite=Spec|Gender=Fem	13	det	_	AlignBegin=4114|AlignEnd=4328|Gloss=some.Fem
@@ -75,6 +76,7 @@
 # phonetic_text = ita maː || ita maː tanàː zàune à nân / ùngwan Pallàːdân neː ?//
 # text = ita maː || ita maː tanàː zàune à nân |a Ùngwan Pallàːdân neː ?//
 # text_en = She... She lives here too, in Palladan?
+# validated_by = B-CARON
 1	ita	ita	PRON	_	Gender=Fem|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=7256|AlignEnd=7530|Gloss=3Fem.Nom
 2	maː	maː	TopPART	_	_	1	discourse	_	AlignBegin=7530|AlignEnd=7804|Gloss=even
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=7804|AlignEnd=8078|Gloss=XX
@@ -87,7 +89,7 @@
 10	|a	|a	PUNCT	_	_	11	punct	_	AlignBegin=9722|AlignEnd=9996|Gloss=GE
 11	Ùngwan	Ùngwan	PROPN	_	_	9	conj:appos	_	AlignBegin=9996|AlignEnd=10133|Gloss=Ungwan
 12	Pallàːdân	Pallàːdân	PROPN	_	_	11	flat:name	_	AlignBegin=10270|AlignEnd=10544|Gloss=Palladan
-13	neː	neː/naː	PART	_	PartType=Int	6	mod@emp	_	AlignBegin=10544|AlignEnd=10818|Gloss=Ident/Foc
+13	neː	neː/naː	ModPART	_	PartType=Int	6	discourse@foc	_	AlignBegin=10544|AlignEnd=10818|Gloss=Ident/Foc
 14	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=10818|AlignEnd=11097|Gloss=GE
 
 # sent_id = HAUZ_BC_CONV_01_SP2_003-003
@@ -97,13 +99,14 @@
 # phonetic_text = eː tanàː zàune à / ùngwaː -n -ːːː / fulàːniː nèː /  fallàːdân //
 # text = eː tanàː zàune à Ùngwan Fulàːniː nèː |a Pallàːdân //
 # text_en =  Yes, she is in.. the quarter of the Fulanis. In Palladan.
+# validated_by = B-CARON
 1	eː	eː	INTJ	_	_	2	discourse	_	AlignBegin=11097|AlignEnd=11317|Gloss=yes
 2	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=11317|AlignEnd=11537|Gloss=3Fem.Ident/loc
 3	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=11537|AlignEnd=11757|Gloss=stay.Stat
 4	à	à	ADP	_	_	3	comp:loc	_	AlignBegin=11757|AlignEnd=11977|Gloss=at
 5	Ùngwan	Ùngwan	PROPN	_	Definite=Cons	4	comp:obj	_	AlignBegin=12197|AlignEnd=12270|Gloss=ward.Cons
 6	Fulàːniː	Fulàːniː	PROPN	_	Definite=Cons	5	flat:name	_	AlignBegin=12197|AlignEnd=12270|Gloss=Fulani
-7	nèː	neː/naː	PART	_	_	5	mod@emp	_	AlignBegin=12857|AlignEnd=13077|Gloss=Ident/Foc
+7	nèː	neː/naː	ModPART	_	_	5	discourse@foc	_	AlignBegin=12857|AlignEnd=13077|Gloss=Ident/Foc
 8	|a	|a	PUNCT	_	_	9	punct	_	AlignBegin=13077|AlignEnd=13297|Gloss=PUNCT
 9	Pallàːdân	Pallàːdân	PROPN	_	_	5	conj:appos	_	AlignBegin=13297|AlignEnd=13517|Gloss=Palladan|wordform=fallàːdân
 10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=13517|AlignEnd=13733|Gloss=PUNCT
@@ -330,6 +333,7 @@
 # phonetic_text = eː ìdan ta yi shi / à nan ùngwanfìlàːni takàn ɗaukàː nèː tà rabàː mà makar̃antaː -uː /
 # text = ìdan ta yiː shì < à nan Ùngwan Fìlàːni takàn ɗaukàː neː tà rabàː mà màkàr̃àntuː //
 # text_en = When she has made them, there in the Fulani quarters, she takes them to sell in the schools.
+# validated_by = B-CARON
 1	ìdan	ìdan	SCONJ	_	_	6	mod	_	AlignBegin=40893|AlignEnd=41071|Gloss=if
 2	ta	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=41071|AlignEnd=41249|Background=Yes|Gloss=3Fem.Perf.Bkg
 3	yiː	yi	VERB	_	_	2	comp:aux	_	AlignBegin=41249|AlignEnd=41427|Gloss=do
@@ -341,7 +345,7 @@
 9	Fìlàːni	Fìlàːni	PROPN	_	_	8	flat:name	_	AlignBegin=42139|AlignEnd=42317|Gloss=Fulani
 10	takàn	kàn	AUX	_	Aspect=Hab|Gender=Fem|Person=3	6	comp:cleft	_	AlignBegin=42317|AlignEnd=42495|Gloss=3Fem.Hab
 11	ɗaukàː	ɗauk-	VERB	_	_	10	comp:aux	_	AlignBegin=42495|AlignEnd=42673|Gloss=take
-12	neː	neː/naː	PART	_	_	10	mod@emp	_	AlignBegin=42673|AlignEnd=42851|Gloss=Ident/Foc
+12	neː	neː/naː	ModPART	_	_	10	discourse@foc	_	AlignBegin=42673|AlignEnd=42851|Gloss=Ident/Foc
 13	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	10	conj:svc	_	AlignBegin=42851|AlignEnd=43029|Gloss=3Fem.Aor
 14	rabàː	rab-	VERB	_	_	13	comp:aux	_	AlignBegin=43029|AlignEnd=43207|Gloss=share
 15	mà	mà	ADP	_	_	14	comp:obl	_	AlignBegin=43207|AlignEnd=43385|Gloss=Dat
@@ -649,6 +653,7 @@
 # phonetic_text = tòː shiː wânnan dìnkin ɗîn kukàn saidàː neː ?// koː kukànːːː / bash shì neː à gidaː //
 # text = tòː shiː wânnan dìnkîn ɗîn kukàn saidàː neː ?// koː kukànːːː / bash shì neː à gidaː //
 # text_en = Well those leaves, did you sell them or did you... give it to the (people of the) house ?
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=86378|AlignEnd=86543|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	dislocated@comp	_	AlignBegin=86543|AlignEnd=86708|Gloss=3Masc.Nom
 3	wânnan	wânnan	DET	_	Definite=Def	4	det	_	AlignBegin=86708|AlignEnd=86873|Gloss=Def
@@ -656,13 +661,13 @@
 5	ɗîn	ɗin	DET	_	Definite=Def	4	det	_	AlignBegin=87038|AlignEnd=87203|Gloss=of.Def
 6	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	0	root	_	AlignBegin=87203|AlignEnd=87368|Gloss=2Plur.Hab
 7	saidàː	saidàː	VERB	_	_	6	comp:aux	_	AlignBegin=87368|AlignEnd=87533|Gloss=sell
-8	neː	neː/naː	PART	_	_	7	mod@emp	_	AlignBegin=87533|AlignEnd=87698|Gloss=Ident/Foc
+8	neː	neː/naː	ModPART	_	_	7	discourse@foc	_	AlignBegin=87533|AlignEnd=87698|Gloss=Ident/Foc
 9	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=87698|AlignEnd=87863|Gloss=PUNCT
 10	koː	koː	CCONJ	_	_	11	cc	_	AlignBegin=87863|AlignEnd=88028|Gloss=or
 11	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	6	conj:coord	_	AlignBegin=88028|AlignEnd=88193|Gloss=2Plur.Hab
 12	bash	baː	VERB	_	_	11	comp:aux	_	AlignBegin=88358|AlignEnd=88523|Gloss=give.Cau
 13	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	12	comp:obj	_	AlignBegin=88523|AlignEnd=88688|Gloss=3Masc
-14	neː	neː/naː	PART	_	_	13	mod@emp	_	AlignBegin=88688|AlignEnd=88853|Gloss=Ident/Foc
+14	neː	neː/naː	ModPART	_	_	13	discourse@foc	_	AlignBegin=88688|AlignEnd=88853|Gloss=Ident/Foc
 15	à	à	ADP	_	_	11	mod	_	AlignBegin=88853|AlignEnd=89018|Gloss=at
 16	gidaː	gidaː	NOUN	_	_	15	comp:obj	_	AlignBegin=89018|AlignEnd=89183|Gloss=home
 17	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=89183|AlignEnd=89355|Gloss=PUNCT
@@ -674,6 +679,7 @@
 # phonetic_text = yâwwaː / àlhamdù lìllaːhì // akàn dafàː nèː //
 # text = yâwwaː < àlhamdù lìllaːhì < akàn dafàː neː //
 # text_en =  Yes, God be praised We would cook them.
+# validated_by = B-CARON
 1	yâwwaː	yâwwaː	INTJ	_	_	6	discourse	_	AlignBegin=89355|AlignEnd=89557|Gloss=OK
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=89557|AlignEnd=89759|Gloss=PUNCT
 3	àlhamdù	àlhamdù	INTJ	_	Foreign=Yes	6	discourse	_	AlignBegin=89759|AlignEnd=89961|Gloss=alhamdu|Lang=ar
@@ -681,7 +687,7 @@
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=90163|AlignEnd=90366|Gloss=PUNCT
 6	akàn	kàn	AUX	_	Aspect=Hab|Person=4	0	root	_	AlignBegin=90366|AlignEnd=90556|Gloss=4.Hab
 7	dafàː	daf-	VERB	_	_	6	comp:aux	_	AlignBegin=90556|AlignEnd=90746|Gloss=cook
-8	nèː	neː/naː	PART	_	_	7	mod@emp	_	AlignBegin=90746|AlignEnd=90936|Gloss=Ident/Foc
+8	nèː	neː/naː	ModPART	_	_	7	discourse@foc	_	AlignBegin=90746|AlignEnd=90936|Gloss=Ident/Foc
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=90936|AlignEnd=91124|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_030-030
@@ -1287,6 +1293,7 @@
 # phonetic_text = baːyan ràsu -waː -n -tà / inàː zàune à wajen kàːwuː -naː nèː //
 # text = baːyan ràsuwan =tà < inàː zàune à wajen kàːwuː =naː nèː //
 # text_en =  After her death I lived with my uncle.
+# validated_by = B-CARON
 1	baːyan	baːyaː	ADP	_	_	5	mod	_	AlignBegin=157961|AlignEnd=158161|Gloss=after
 2	ràsuwan	ras-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	1	comp:obj	_	AlignBegin=158161|AlignEnd=158211|Gloss=die.Vnoun.Cons
 3	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	udep	_	AlignBegin=158311|AlignEnd=158361|Gloss=3Fem.Gen
@@ -1297,7 +1304,7 @@
 8	wajen	wajen	ADP	_	_	7	compound	_	AlignBegin=159161|AlignEnd=159361|Gloss=around|InIdiom=Yes
 9	kàːwuː	kàːwu	NOUN	_	_	7	comp:obj	_	AlignBegin=159361|AlignEnd=159461|Gloss=uncle
 10	=naː	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	9	mod@poss	_	AlignBegin=159461|AlignEnd=159561|Gloss=1Sing.Gen
-11	nèː	neː/naː	PART	_	_	9	mod@emp	_	AlignBegin=159561|AlignEnd=159761|Gloss=Ident/Foc
+11	nèː	neː/naː	ModPART	_	_	9	discourse@foc	_	AlignBegin=159561|AlignEnd=159761|Gloss=Ident/Foc
 12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=159761|AlignEnd=159960|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP1_022-022
@@ -1524,13 +1531,14 @@
 # phonetic_text = tòː shiː / yanàː dà yaːròː \Plur nèː kàman -kà //
 # text = tòː shiː / ya nàː dà yâːraː nèː kàman kà ?//
 # text_en =  Well he, does he have children like you?
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=182845|AlignEnd=182991|Gloss=well
 2	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	dislocated@subj	_	AlignBegin=182991|AlignEnd=183137|Gloss=3Masc.Nom
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=183137|AlignEnd=183283|Gloss=PUNCT
 4	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=183283|AlignEnd=183429|Gloss=3Masc.Pred/Loc|wordform=nàː
 5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=183429|AlignEnd=183575|Gloss=with
 6	yâːraː	yaːròː	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=183575|AlignEnd=183648|Gloss=child.Plur
-7	nèː	neː/naː	PART	_	_	6	mod@emp	_	AlignBegin=183721|AlignEnd=183867|Gloss=Ident/Foc
+7	nèː	neː/naː	ModPART	_	_	6	discourse@foc	_	AlignBegin=183721|AlignEnd=183867|Gloss=Ident/Foc
 8	kàman	kàman	ADP	_	_	6	mod	_	AlignBegin=183867|AlignEnd=183940|Gloss=like
 9	=kà	=kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=183940|AlignEnd=184013|Gloss=2Masc.Gen
 10	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=184013|AlignEnd=184162|Gloss=PUNCT
@@ -1616,6 +1624,7 @@
 # phonetic_text = tòː suː maː / sunàː nan à zàune nèː à wânnan gàriː na fallàːdân //
 # text = tòː suː maː < su nàː nan à zàune nèː à wânnan gàriː na Pallàːdân //
 # text_en =  Well they too, they are staying in the village of Palladan.
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=190084|AlignEnd=190233|Gloss=well
 2	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	dislocated@subj	_	AlignBegin=190233|AlignEnd=190382|Gloss=2Plur.Nom
 3	maː	maː	TopPART	_	_	2	discourse	_	AlignBegin=190382|AlignEnd=190531|Gloss=even
@@ -1624,7 +1633,7 @@
 6	nan	nan	ADV	_	Definite=Def	5	comp:loc	_	AlignBegin=190829|AlignEnd=190978|Gloss=Def
 7	à	à	ADP	_	_	5	comp:pred	_	AlignBegin=190978|AlignEnd=191127|Gloss=at
 8	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	7	comp:obj	_	AlignBegin=191127|AlignEnd=191276|Gloss=stay.Stat
-9	nèː	neː/naː	PART	_	_	8	mod@emp	_	AlignBegin=191276|AlignEnd=191425|Gloss=Ident/Foc
+9	nèː	neː/naː	ModPART	_	_	8	discourse@foc	_	AlignBegin=191276|AlignEnd=191425|Gloss=Ident/Foc
 10	à	à	ADP	_	_	8	mod	_	AlignBegin=191425|AlignEnd=191574|Gloss=at
 11	wânnan	wânnan	DET	_	Definite=Def	12	det	_	AlignBegin=191574|AlignEnd=191723|Gloss=Def
 12	gàriː	gàriː	NOUN	_	_	10	comp:obj	_	AlignBegin=191723|AlignEnd=191872|Gloss=town
@@ -1672,12 +1681,13 @@
 # phonetic_text = / yànzu inàː ma- tsayàː -iː\H -n yaːròː -n -shi nèː //
 # text = yànzu i nàː matsayin yaːròn =shi nèː //
 # text_en =  Now I stand for his son.
+# validated_by = B-CARON
 1	yànzu	yànzu	ADV	_	_	2	mod	_	AlignBegin=195267|AlignEnd=195462|Gloss=now
 2	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	0	root	_	AlignBegin=195462|AlignEnd=195657|Gloss=1Sing.Pred/Loc|wordform=nàː
 3	matsayin	matsayiː	NOUN	_	Definite=Cons	2	comp:pred	_	AlignBegin=195657|AlignEnd=195706|Gloss=position.Cons
 4	yaːròn	yaːròː	NOUN	_	Definite=Cons	3	mod	_	AlignBegin=195852|AlignEnd=195917|Gloss=boy.Cons|wordform=yaːròː
 5	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=195982|AlignEnd=196047|Gloss=3Masc..Gen|wordform==shi
-6	nèː	neː/naː	PART	_	_	4	mod@emp	_	AlignBegin=196047|AlignEnd=196242|Gloss=Ident/Foc
+6	nèː	neː/naː	ModPART	_	_	4	discourse@foc	_	AlignBegin=196047|AlignEnd=196242|Gloss=Ident/Foc
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=196242|AlignEnd=196436|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_074-074
@@ -2555,6 +2565,7 @@
 # phonetic_text = shiː har̃kàː -n noːmaː / àːːː / yakàn kasànceː kàman noːmaː nèː /
 # text = shiː har̃kàn noːmaː < àː yakàn kasànceː kàman noːmaː nèː //
 # text_en =  The profession of farmer, er.. it has become like farming.
+# validated_by = B-CARON
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=306378|AlignEnd=306698|Gloss=3Masc.Nom
 2	har̃kàn	har̃kàn	NOUN	_	Definite=Cons|ExtPos=NOUN	1	conj:appos	_	AlignBegin=306698|AlignEnd=306858|Gloss=profession.Cons
 3	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	compound	_	AlignBegin=307018|AlignEnd=307338|Gloss=farm.Vnoun
@@ -2564,7 +2575,7 @@
 7	kasànceː	kasant-	VERB	_	_	6	comp:aux	_	AlignBegin=308618|AlignEnd=308938|Gloss=become
 8	kàman	kàman	ADP	_	_	7	comp:pred	_	AlignBegin=308938|AlignEnd=309258|Gloss=like
 9	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=309258|AlignEnd=309578|Gloss=farm.Vnoun
-10	nèː	neː/naː	PART	_	_	9	mod@emp	_	AlignBegin=309578|AlignEnd=309898|Gloss=Ident/Foc
+10	nèː	neː/naː	ModPART	_	_	9	discourse@foc	_	AlignBegin=309578|AlignEnd=309898|Gloss=Ident/Foc
 11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=309898|AlignEnd=310212|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_119-119
@@ -2887,6 +2898,7 @@
 # phonetic_text = tòː / shiː wânnan noːmaː dà kukàn yi kukàn waɗànnan saːmù bùhuː -una / / kukàn sar̃r̃àfaː su nèː // kù fitar̃ dà su: / kù zuwàː can kàːsuwaː kù sayar̃ koː kùwa zaːsù zoː sù yi ta sàyeː à gidaː //
 # text = tòː |c shiː wânnan noːmaː dà kukàn yi kukàn saːmù waɗànnan buhunàː kukàn sar̃r̃àfaː su nèː |c kù fitar̃ dà su: < kù zoː can kàːsuwaː kù sayar̃ koː kùwa zaːsù zoː sù yi ta sàyeː à gidaː ?//
 # text_en =  Well that farming that you do and get those sacks, do you manage it yourself and take them to the market to sell or do they come and buy at home?
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	13	discourse	_	AlignBegin=363040|AlignEnd=363210|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=363210|AlignEnd=363380|Gloss=PUNCT
 3	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	13	dislocated@comp	_	AlignBegin=363380|AlignEnd=363550|Gloss=3Masc.Nom
@@ -2902,7 +2914,7 @@
 13	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	0	root	_	AlignBegin=365250|AlignEnd=365284|Gloss=2Plur.Hab
 14	sar̃r̃àfaː	sar̃r̃àfaː	VERB	_	_	13	comp:aux	_	AlignBegin=365284|AlignEnd=365318|Gloss=manage
 15	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=365318|AlignEnd=365352|Gloss=3Plur
-16	nèː	neː/naː	PART	_	_	15	mod@emp	_	AlignBegin=365352|AlignEnd=365386|Gloss=Ident/Foc
+16	nèː	neː/naː	ModPART	_	_	15	discourse@foc	_	AlignBegin=365352|AlignEnd=365386|Gloss=Ident/Foc
 17	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=365386|AlignEnd=365420|Gloss=PUNCT
 18	kù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=2	13	conj:coord	_	AlignBegin=366439|AlignEnd=366567|Gloss=2Plur.Aor
 19	fitar̃	fitar̃	VERB	_	_	18	comp:aux	_	AlignBegin=366567|AlignEnd=366695|Gloss=take_out.Cau
@@ -3183,6 +3195,7 @@
 # phonetic_text = ɗan ràːfiː -uka -ǹ dà mukèː dà shiː / duk ruwaː -n dà mukèː dà shiː / mukàn yi / ʔèʔè / riːjìyaː -oCi nèː hakà / à wajen / goːnaː \Plur -ǹ naːmù //
 # text = ɗan raːfukàn dà mu kèː dà shiː / dun ruwaː -n dà mu kèː dà shiː / mukàn yi ʔèʔè riːjiyoːyiː -oCi nèː hakà à wajen gòːnàkîn naːmù //
 # text_en =  The little rivers that we have, all the water that we have, we do.. er.. wells, near our fields.
+# validated_by = B-CARON
 1	ɗan	ɗan	ADJ	_	_	2	mod	_	AlignBegin=400582|AlignEnd=400763|Gloss=little
 2	raːfukàn	ràːfiː	NOUN	_	Definite=Def|Number=Plur	13	dislocated@top	_	AlignBegin=400763|AlignEnd=400823|Gloss=river.Plur.Def
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=400944|AlignEnd=401125|Gloss=COMP
@@ -3199,7 +3212,7 @@
 14	yi	yi	VERB	_	_	13	comp:aux	_	AlignBegin=403297|AlignEnd=403478|Gloss=do
 15	ʔèʔè	ʔèʔè	INTJ	_	_	16	discourse	_	AlignBegin=403659|AlignEnd=403840|Gloss=FILL
 16	riːjiyoːyiː	riːjìyaː	NOUN	_	Number=Plur	14	comp:obj@lvc	_	AlignBegin=404021|AlignEnd=404111|Gloss=well.Plur
-17	nèː	neː/naː	PART	_	_	16	mod@emp	_	AlignBegin=404202|AlignEnd=404383|Gloss=Ident/Foc
+17	nèː	neː/naː	ModPART	_	_	16	discourse@foc	_	AlignBegin=404202|AlignEnd=404383|Gloss=Ident/Foc
 18	hakà	hakà	ADV	_	_	16	mod	_	AlignBegin=404383|AlignEnd=404564|Gloss=like_this
 19	à	à	ADP	_	ExtPos=ADP	14	comp:obl	_	AlignBegin=404745|AlignEnd=404926|Gloss=at|Idiom=Yes
 20	wajen	wajen	ADP	_	_	19	compound	_	AlignBegin=404926|AlignEnd=405107|Gloss=around|InIdiom=Yes
@@ -3288,6 +3301,7 @@
 # phonetic_text = tòː yànzu indà kukèː noːmaː -n raːniː -ǹ / kukàn noːmàː kàman mèː neː dà mèː neː // à indà kukèː noːmaː -ǹ //
 # text = tòː yànzu indà kukèː noːman raːnîn > kukàn noːmà kàman mèː neː dà mèː neː </ à indà kukèː noːmân //
 # text_en =  Well now when you do dry season farming, what do you farm where you farm.
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	8	discourse	_	AlignBegin=415769|AlignEnd=415937|Gloss=well
 2	yànzu	yànzu	ADV	_	_	8	mod	_	AlignBegin=415937|AlignEnd=416105|Gloss=now
 3	indà	indà	ADV	_	PronType=Rel	8	mod	_	AlignBegin=416105|AlignEnd=416273|Gloss=where
@@ -3299,10 +3313,10 @@
 9	noːmàː	noːm-	VERB	_	_	8	comp:aux	_	AlignBegin=417113|AlignEnd=417281|Gloss=farm
 10	kàman	kàman	ADP	_	_	9	mod	_	AlignBegin=417281|AlignEnd=417449|Gloss=like
 11	mèː	mèː	PRON	_	_	10	comp:obj	_	AlignBegin=417449|AlignEnd=417617|Gloss=what
-12	neː	neː/naː	PART	_	_	11	mod@emp	_	AlignBegin=417617|AlignEnd=417785|Gloss=Ident/Foc
+12	neː	neː/naː	ModPART	_	_	11	discourse@foc	_	AlignBegin=417617|AlignEnd=417785|Gloss=Ident/Foc
 13	dà	dà	CCONJ	_	_	14	cc	_	AlignBegin=417785|AlignEnd=417953|Gloss=and
 14	mèː	mèː	PRON	_	_	11	conj:coord	_	AlignBegin=417953|AlignEnd=418121|Gloss=what
-15	neː	neː/naː	PART	_	_	14	mod@emp	_	AlignBegin=418121|AlignEnd=418289|Gloss=Ident/Foc
+15	neː	neː/naː	ModPART	_	_	14	discourse@foc	_	AlignBegin=418121|AlignEnd=418289|Gloss=Ident/Foc
 16	>	>	PUNCT	_	_	17	punct	_	AlignBegin=418289|AlignEnd=418463|Gloss=PUNCT
 17	à	à	ADP	_	_	8	mod	_	AlignBegin=418710|AlignEnd=418854|Gloss=at
 18	indà	indà	ADV	_	_	17	comp:obj	_	AlignBegin=418854|AlignEnd=418998|Gloss=COMP.LOC
@@ -3583,6 +3597,7 @@
 # phonetic_text = tòː shiː wânnan dà kukà ɗiːbàː shiː maː kukàn kai shi kàːsuwaː nèː / koːkòː kukàn baːyar̃ -shi à gidaː nèː dòːmin kù dingàː àmfàːniː dà shiː / /
 # text = tòː shì̀ː wânnan dà kukà ɗìːbaː shiː maː kukàn kai shì kàːsuwaː nèː |c koːkòː kukàn bashshì à gidaː nèː dòːmin kù dingà àmfàːniː dà shiː / /
 # text_en =  Well what you were getting, did you take it to the market, or did you take it home to keep using it?
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	9	discourse	_	AlignBegin=456477|AlignEnd=456616|Gloss=well
 2	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	dislocated@comp	_	AlignBegin=456616|AlignEnd=456755|Gloss=3Masc.Nom
 3	wânnan	wânnan	PRON	_	Definite=Def	2	conj:appos	_	AlignBegin=456755|AlignEnd=456894|Gloss=Def
@@ -3595,7 +3610,7 @@
 10	kai	kai	VERB	_	_	9	comp:aux	_	AlignBegin=457728|AlignEnd=457867|Gloss=carry
 11	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=457867|AlignEnd=458006|Gloss=3Masc
 12	kàːsuwaː	kàːsuwaː	NOUN	_	_	10	comp:goal	_	AlignBegin=458006|AlignEnd=458145|Gloss=market
-13	nèː	neː/naː	PART	_	_	12	mod@emp	_	AlignBegin=458145|AlignEnd=458284|Gloss=Ident/Foc
+13	nèː	neː/naː	ModPART	_	_	12	discourse@foc	_	AlignBegin=458145|AlignEnd=458284|Gloss=Ident/Foc
 14	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=458284|AlignEnd=458423|Gloss=PUNCT
 15	koːkòː	koːkòː	CCONJ	_	_	16	cc	_	AlignBegin=458423|AlignEnd=458562|Gloss=or
 16	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	9	conj:coord	_	AlignBegin=458562|AlignEnd=458701|Gloss=2Plur.Hab
@@ -3603,7 +3618,7 @@
 18	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=458771|AlignEnd=458840|Gloss=3Masc
 19	à	à	ADP	_	_	17	mod	_	AlignBegin=458840|AlignEnd=458979|Gloss=at
 20	gidaː	gidaː	NOUN	_	_	19	comp:obj	_	AlignBegin=458979|AlignEnd=459118|Gloss=home
-21	nèː	neː/naː	PART	_	_	19	mod@emp	_	AlignBegin=459118|AlignEnd=459257|Gloss=Ident/Foc
+21	nèː	neː/naː	ModPART	_	_	19	discourse@foc	_	AlignBegin=459118|AlignEnd=459257|Gloss=Ident/Foc
 22	dòːmin	dòːmin	SCONJ	_	_	17	mod	_	AlignBegin=459257|AlignEnd=459396|Gloss=because
 23	kù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=2	22	comp:obj	_	AlignBegin=459396|AlignEnd=459535|Gloss=2Plur.Aor
 24	dingà	dingàː	VERB	_	_	23	comp:aux	_	AlignBegin=459535|AlignEnd=459674|Gloss=keep_on
@@ -3650,6 +3665,7 @@
 # phonetic_text = dan muː ìdan mukà ɗiːbàː / munàː zuwàː dà shiː nèː // èːːː àːːː &// &// gùndumàn basaːwa //
 # text = dan muː ìdan mukà ɗiːbàː < munàː zuwàː dà shiː nèː èː à Gùndumàn Basaːwa //
 # text_en =  Because after we have harvested, we took it er.. to Gunduman Basawa.
+# validated_by = B-CARON
 1	dan	don	SCONJ	_	_	7	discourse	_	AlignBegin=462582|AlignEnd=462827|Gloss=because
 2	muː	muː	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	dislocated@subj	_	AlignBegin=462827|AlignEnd=463072|Gloss=1Plur.Nom
 3	ìdan	ìdan	SCONJ	_	_	7	mod	_	AlignBegin=463072|AlignEnd=463317|Gloss=if
@@ -3660,7 +3676,7 @@
 8	zuwàː	zoː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=464297|AlignEnd=464542|Gloss=go.Vnoun
 9	dà	dà	ADP	_	_	8	comp:obl	_	AlignBegin=464542|AlignEnd=464787|Gloss=with
 10	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=464787|AlignEnd=465032|Gloss=3Masc.Nom
-11	nèː	neː/naː	PART	_	_	10	mod@emp	_	AlignBegin=465032|AlignEnd=465277|Gloss=Ident/Foc
+11	nèː	neː/naː	ModPART	_	_	10	discourse@foc	_	AlignBegin=465032|AlignEnd=465277|Gloss=Ident/Foc
 12	èː	èː	INTJ	_	_	13	discourse	_	AlignBegin=465522|AlignEnd=465644|Gloss=FILL
 13	à	à	ADP	_	_	8	comp:obl	_	AlignBegin=465644|AlignEnd=465767|Gloss=at
 14	Gùndumàn	Gùndumàn	PROPN	_	Definite=Cons	13	comp:obj	_	AlignBegin=466257|AlignEnd=466339|Gloss=ward.Cons
@@ -3753,6 +3769,7 @@
 # phonetic_text = shiː ya sâː ka ji dai dà farkoː nakèː bâː kà làːbarìː -ǹ cêːwaː eːːː / inàː zàune nèː à gùndumàn basaːwa / /
 # text = shiː ya sâː ka ji dai dà farkoː nakèː baː kà làːbarìn cêːwaː eː i nàː zàune nèː à Gùndumàn Basaːwaː //
 # text_en = That's why you hear first I told you that er.. I live at Gunduman Basawa.
+# validated_by = B-CARON
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=477989|AlignEnd=478175|Gloss=3Masc.Nom
 2	ya	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	comp:cleft	_	AlignBegin=478175|AlignEnd=478361|Background=Yes|Gloss=3Masc.Perf.Bkg
 3	sâː	sâː	VERB	_	_	2	comp:aux	_	AlignBegin=478361|AlignEnd=478547|Gloss=put
@@ -3769,7 +3786,7 @@
 14	eː	eː	INTJ	_	_	15	discourse	_	AlignBegin=480407|AlignEnd=480593|Gloss=FILL
 15	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	13	comp:obj	_	AlignBegin=480779|AlignEnd=480965|Gloss=1Sing.Pred/Loc|wordform=nàː
 16	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	15	comp:pred	_	AlignBegin=480965|AlignEnd=481151|Gloss=stay.Stat
-17	nèː	neː/naː	PART	_	_	16	mod@emp	_	AlignBegin=481151|AlignEnd=481337|Gloss=Ident/Foc
+17	nèː	neː/naː	ModPART	_	_	16	discourse@foc	_	AlignBegin=481151|AlignEnd=481337|Gloss=Ident/Foc
 18	à	à	ADP	_	_	16	comp:obl	_	AlignBegin=481337|AlignEnd=481523|Gloss=at
 19	Gùndumàn	Gùndumàn	PROPN	_	Definite=Cons	18	comp:obj	_	AlignBegin=481523|AlignEnd=481709|Gloss=ward.Cons
 20	Basaːwaː	Basaːwaː	PROPN	_	ExtPos=NOUN	19	flat:name	_	AlignBegin=481709|AlignEnd=481895|Gloss=Basawa|wordform=basaːwa
@@ -4094,6 +4111,7 @@
 # phonetic_text = tòː / shiː wânnan gùndumàː na basaːwa / àkwai ràːfiː \Plur nèː dà yawàː dà kukèː saːmùː -n ruwaː kukèː XX dà àmfàːniː -n -ku // koːkòː kukàn jeː wani wuriː nèː kù ɗiːboː ruwaː / kù zoː kù yi àmfàːniː dà shiː à nân //
 # text = tòː |c shiː wânnan gùndumàː na Basaːwaː < àkwai raːfuffukàː nèː dà yawàː dà kukèː saːmùn ruwaː kukè dà àmfàːnin =ku |c koːkòː kukàn jeː wani wuriː nèː kù ɗiːboː ruwaː < kù zoː kù yi àmfàːniː dà shiː à nân ?//
 # text_en =  Well that district of Basawa, do you have many rivers where you get water to water your plantations, or do you go somewhere else to get water and use it there?
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	9	discourse	_	AlignBegin=520029|AlignEnd=520210|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=520210|AlignEnd=520391|Gloss=PUNCT
 3	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	dislocated@top	_	AlignBegin=520391|AlignEnd=520481|Gloss=3Masc.Nom
@@ -4104,7 +4122,7 @@
 8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=521205|AlignEnd=521296|Gloss=PUNCT
 9	àkwai	àkwai	PredPART	_	_	0	root	_	AlignBegin=521477|AlignEnd=521658|Gloss=there_is
 10	raːfuffukàː	ràːfiː	NOUN	_	Number=Plur	9	subj	_	AlignBegin=521658|AlignEnd=521748|Gloss=river.Plur
-11	nèː	neː/naː	PART	_	_	10	mod@emp	_	AlignBegin=521839|AlignEnd=522020|Gloss=Ident/Foc
+11	nèː	neː/naː	ModPART	_	_	10	discourse@foc	_	AlignBegin=521839|AlignEnd=522020|Gloss=Ident/Foc
 12	dà	dà	ADP	_	_	10	mod	_	AlignBegin=522020|AlignEnd=522201|Gloss=with
 13	yawàː	yawàː	NOUN	_	_	12	comp:obj	_	AlignBegin=522201|AlignEnd=522382|Gloss=quantity
 14	dà	dà	SCONJ	_	_	10	mod@relcl	_	AlignBegin=522382|AlignEnd=522563|Gloss=COMP
@@ -4121,7 +4139,7 @@
 25	jeː	jeː	VERB	_	_	24	comp:aux	_	AlignBegin=524373|AlignEnd=524554|Gloss=go
 26	wani	wani	DET	_	Gender=Masc	27	det	_	AlignBegin=524554|AlignEnd=524735|Gloss=some.Masc
 27	wuriː	wuriː	NOUN	_	_	25	comp:goal	_	AlignBegin=524735|AlignEnd=524916|Gloss=place
-28	nèː	neː/naː	PART	_	_	27	mod@emp	_	AlignBegin=524916|AlignEnd=525097|Gloss=Ident/Foc
+28	nèː	neː/naː	ModPART	_	_	27	discourse@foc	_	AlignBegin=524916|AlignEnd=525097|Gloss=Ident/Foc
 29	kù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=2	24	conj:coord	_	AlignBegin=525097|AlignEnd=525278|Gloss=2Plur.Aor
 30	ɗiːboː	ɗiːboː	VERB	_	_	29	comp:aux	_	AlignBegin=525278|AlignEnd=525459|Gloss=scoop_out.DIR
 31	ruwaː	ruwaː	NOUN	_	_	30	comp:obj	_	AlignBegin=525459|AlignEnd=525640|Gloss=water
@@ -4541,6 +4559,7 @@
 # phonetic_text = kaː sanìː màːsu kiːwòː -ǹ / bàː sun tshikàː kùlaː ba nèː //
 # text = kaː san màːsu kiːwòn < bàː sun cikà kùlaː ba nèː //
 # text_en =  You know, cattle drivers they are not really careful.
+# validated_by = B-CARON
 1	kaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	discourse	_	AlignBegin=581782|AlignEnd=581941|Gloss=2Masc.Perf
 2	sanìː	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=581941|AlignEnd=582100|Gloss=know
 3	màːsu	màːsu	ADP	_	Number=Plur|PronType=Rel	7	dislocated@subj	_	AlignBegin=582100|AlignEnd=582259|Gloss=having.Plur|Linker=Yes
@@ -4551,7 +4570,7 @@
 8	cikà	cik-	VERB	_	_	7	comp:aux	_	AlignBegin=583071|AlignEnd=583217|Gloss=complete
 9	kùlaː	kul	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=583217|AlignEnd=583363|Gloss=pay_attention
 10	ba	ba	ADV	_	Polarity=Neg	7	mod	_	AlignBegin=583363|AlignEnd=583509|Gloss=Neg
-11	nèː	neː/naː	PART	_	_	7	mod@emp	_	AlignBegin=583509|AlignEnd=583655|Gloss=Ident/Foc
+11	nèː	neː/naː	ModPART	_	_	7	discourse@foc	_	AlignBegin=583509|AlignEnd=583655|Gloss=Ident/Foc
 12	//	//	PUNCT	_	_	7	punct	_	AlignBegin=583655|AlignEnd=583802|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_234-235

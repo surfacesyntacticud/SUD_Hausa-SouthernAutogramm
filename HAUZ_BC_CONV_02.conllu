@@ -47,6 +47,7 @@
 # phonetic_text = wandà shiː wânnan ìdan kukà saidàː shi wannàn / kaːyaː -akiː\HLHH -ǹ dà kukèː saːmùː na noːmaː -n raːniː / shiː maː kukà haɗàː kuɗiː -ǹ nèː dà wancàn kù sar̃r̃àfaː wani àbù koːkòː yàːyàː kukèː yi dà kuɗiː -ǹ //
 # text = wandà shiː wânnan ìdan kukà saidàː shi wannàn < kaːyàyyakîn dà kukèː saːmùː na noːman raːniː < shiː maː kukà haɗà kuɗîn neː dà wancàn kù sar̃r̃àfà wani àbù koː kòː yàːyàː kukèː yi dà kuɗîn ?//
 # text_en =  What you are selling, when you sell it, the things that you get from your dry season farming, the money, do you ad it to the other one to invest in something or how do you do with that money?
+# validated_by = B-CARON
 1	wandà	wandà	PRON	_	PronType=Rel	20	dislocated@top	_	AlignBegin=7718|AlignEnd=7913|Gloss=which|Overlap=HAUZ_BC_CONV_02_003-003
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	1	conj:dicto	_	AlignBegin=7913|AlignEnd=8108|Gloss=3Masc.Nom
 3	wânnan	wânnan	DET	_	Definite=Def	2	conj:appos	_	AlignBegin=8108|AlignEnd=8303|Gloss=Def
@@ -69,7 +70,7 @@
 20	kukà	sukà/sunkà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=2	0	root	_	AlignBegin=11383|AlignEnd=11548|AttachTo=HAUZ_BC_CONV_02_003-003|Background=Yes|Gloss=2Plur.Perf.Bkg|Rel=mod@relcl
 21	haɗà	haɗ-	VERB	_	_	20	comp:aux	_	AlignBegin=11548|AlignEnd=11713|Gloss=join
 22	kuɗîn	kuɗîː	NOUN	_	Definite=Def	21	comp:obj	_	AlignBegin=11713|AlignEnd=11795|Gloss=money.Def
-23	neː	neː/naː	PART	_	_	22	mod@emp	_	AlignBegin=11878|AlignEnd=12043|Gloss=Ident/Foc
+23	neː	neː/naː	ModPART	_	_	22	discourse@foc	_	AlignBegin=11878|AlignEnd=12043|Gloss=Ident/Foc
 24	dà	dà	ADP	_	_	21	comp:obl	_	AlignBegin=12043|AlignEnd=12208|Gloss=with
 25	wancàn	wancàn	PRON	_	Deixis=Remt|PronType=Dem	24	comp:obj	_	AlignBegin=12208|AlignEnd=12373|Gloss=Rmt
 26	kù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=2	20	conj:coord	_	AlignBegin=12373|AlignEnd=12538|Gloss=2Plur.Aor
@@ -563,6 +564,7 @@
 # phonetic_text = tòː yànzu ya kasànceː cêːwaː yànzu / in kukà saːmù -i wânnan kuɗiː kukàn sar̃r̃àfaː su nèː wajen sayoː dabbàː -oːCiː\H /
 # text = tòː yànzu yaː kasànceː cêːwaː yànzu < in kukà sàːmi wânnan kuɗiː kukàn sar̃r̃àfaː su nèː wajen sayoː dabboːbiː //
 # text_en =  Well now it happens that if you get some money, you invest it in buying animals.
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=58832|AlignEnd=59070|Gloss=well
 2	yànzu	yànzu	ADV	_	_	3	mod	_	AlignBegin=59070|AlignEnd=59308|Gloss=now
 3	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=59308|AlignEnd=59546|Gloss=3Masc.Perf
@@ -578,7 +580,7 @@
 13	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	5	comp:obj	_	AlignBegin=61456|AlignEnd=61647|Gloss=2Plur.Hab
 14	sar̃r̃àfaː	sar̃r̃àfaː	VERB	_	_	13	comp:aux	_	AlignBegin=61647|AlignEnd=61838|Gloss=invest
 15	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=61838|AlignEnd=62029|Gloss=3Plur
-16	nèː	neː/naː	PART	_	_	14	mod@emp	_	AlignBegin=62029|AlignEnd=62220|Gloss=Ident/Foc
+16	nèː	neː/naː	ModPART	_	_	14	discourse@foc	_	AlignBegin=62029|AlignEnd=62220|Gloss=Ident/Foc
 17	wajen	wajen	SCONJ	_	_	14	comp:obl	_	AlignBegin=62220|AlignEnd=62411|Gloss=by
 18	sayoː	say-	VERB	_	_	17	comp:obj	_	AlignBegin=62411|AlignEnd=62602|Gloss=sell.DIR
 19	dabboːbiː	dabboːbiː	NOUN	_	Number=Plur	18	comp:obj	_	AlignBegin=62602|AlignEnd=62698|Gloss=cattle.Plur
@@ -601,6 +603,7 @@
 # phonetic_text = yà kasànceː cêːwaː tòː / kàman wajen ɓangarèː -n / noːmaː -n kàːkaː dà kukàn yi / kukàn sayoː dabbàː -oːCiː\H nèː sukàn mukù / tayàː ku aikìː koː / kòː kuː nèː kukàn dukà wannàn aikìː //
 # text = yaː kasànceː cêːwaː tòː < kàman wajen ɓangarèn noːman kàːkaː dà kukàn yi < kukàn sayoː dabboːbiː nèː sukàn mukù tayàː ku aikìː kòː koː kuː nèː kukàn dukà wannàn aikìː //
 # text_en =  It happens that well, like in the area of the rainy season farming that you are doing, you buy animals that you use for your work, or do you do all the work yourself?
+# validated_by = B-CARON
 1	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=63229|AlignEnd=63363|Gloss=3Masc.Perf
 2	kasànceː	kasant-	VERB	_	_	1	comp:aux	_	AlignBegin=63363|AlignEnd=63497|Gloss=become
 3	cêːwaː	cêːwaː	SCONJ	_	_	2	comp:obj	_	AlignBegin=63497|AlignEnd=63631|Gloss=COMP
@@ -618,7 +621,7 @@
 15	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	3	comp:obj	_	AlignBegin=65874|AlignEnd=66052|Gloss=2Plur.Hab
 16	sayoː	sayoː	VERB	_	_	15	comp:aux	_	AlignBegin=66052|AlignEnd=66230|Gloss=sell.DIR
 17	dabboːbiː	dabboːbiː	NOUN	_	Number=Plur	16	comp:obj	_	AlignBegin=66230|AlignEnd=66319|Gloss=cattle.Plur
-18	nèː	neː/naː	PART	_	_	17	mod@emp	_	AlignBegin=66408|AlignEnd=66586|Gloss=Ident/Foc
+18	nèː	neː/naː	ModPART	_	_	17	discourse@foc	_	AlignBegin=66408|AlignEnd=66586|Gloss=Ident/Foc
 19	sukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=3	15	conj:coord	_	AlignBegin=66586|AlignEnd=66764|Gloss=3Plur.Hab
 20	mukù	mukù	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	19	comp:obl	_	AlignBegin=66764|AlignEnd=66942|Gloss=2.Plur.Dat
 21	tayàː	tay-	VERB	_	_	19	comp:obj@lvc	_	AlignBegin=67261|AlignEnd=67420|Gloss=assist
@@ -936,6 +939,7 @@
 # phonetic_text = wàːtòː -ǹ / shiː wânnan noːmaː dà kukàn yi / kukàn yi dà -ːːː / àmfàːniː dà taːkìː -ǹ / bàtuːr̃èː nèː koː / kukàn yi àmfàːniː dà taːkìː nèː na gar̃gajiyaː //
 # text = wàːtòn < shiː wânnan noːmaː dà kukàn yi < kukàn yi dà àmfàːniː dà taːkìn Bàtuːr̃èː nèː koː kukàn yi àmfàːniː dà taːkìː nèː na gar̃gajiyaː //
 # text_en =  I mean, that farming that you are doing, do you do it with... chemical fertilizers or do you use manure?
+# validated_by = B-CARON
 1	wàːtòn	wàːtòː	CCONJ	_	Definite=Def	10	cc	_	AlignBegin=103036|AlignEnd=103093|Gloss=that_is.Def|wordform=wàːtòː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=103150|AlignEnd=103265|Gloss=PUNCT
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	dislocated@comp	_	AlignBegin=103265|AlignEnd=103419|Gloss=3Masc.Nom
@@ -952,14 +956,14 @@
 14	dà	dà	ADP	_	_	13	comp:obl	_	AlignBegin=105469|AlignEnd=105709|Gloss=with
 15	taːkìn	taːkìː	NOUN	_	Definite=Def	14	comp:obj	_	AlignBegin=105709|AlignEnd=105829|Gloss=manure.Def|wordform=taːkìː
 16	Bàtuːr̃èː	Bàtuːr̃èː	PROPN	_	_	15	compound	_	AlignBegin=106190|AlignEnd=106341|Gloss=European
-17	nèː	neː/naː	PART	_	_	15	mod@emp	_	AlignBegin=106341|AlignEnd=106492|Gloss=Ident/Foc
+17	nèː	neː/naː	ModPART	_	_	15	discourse@foc	_	AlignBegin=106341|AlignEnd=106492|Gloss=Ident/Foc
 18	koː	koː	CCONJ	_	_	19	cc	_	AlignBegin=106492|AlignEnd=106643|Gloss=or
 19	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	10	conj:coord	_	AlignBegin=106794|AlignEnd=106996|Gloss=2Plur.Hab
 20	yi	yi	VERB	_	_	19	comp:aux	_	AlignBegin=106996|AlignEnd=107198|Gloss=do
 21	àmfàːniː	àmfàːniː	NOUN	_	_	20	comp:obj@lvc	_	AlignBegin=107198|AlignEnd=107400|Gloss=using
 22	dà	dà	ADP	_	_	21	comp:obl	_	AlignBegin=107400|AlignEnd=107602|Gloss=with
 23	taːkìː	taːkìː	NOUN	_	_	22	comp:obj	_	AlignBegin=107602|AlignEnd=107804|Gloss=manure
-24	nèː	neː/naː	PART	_	_	23	mod@emp	_	AlignBegin=107804|AlignEnd=108006|Gloss=Ident/Foc
+24	nèː	neː/naː	ModPART	_	_	23	discourse@foc	_	AlignBegin=107804|AlignEnd=108006|Gloss=Ident/Foc
 25	na	na~ta	ADP	_	Definite=Cons	23	mod	_	AlignBegin=108006|AlignEnd=108208|Gloss=of
 26	gar̃gajiyaː	gar̃gajiyaː	NOUN	_	_	25	comp:obj	_	AlignBegin=108208|AlignEnd=108410|Gloss=old_times
 27	//	//	PUNCT	_	_	10	punct	_	AlignBegin=108410|AlignEnd=108612|Gloss=PUNCT
@@ -1171,11 +1175,12 @@
 # phonetic_text = yawanciː zaːsù ɗiːbàː -i taːkìː nèː /
 # text = yawanciː zaːsù ɗèbi taːkìː nèː //
 # text_en =  Most of the time they used manure.
+# validated_by = B-CARON
 1	yawanciː	yawanciː	NOUN	_	_	2	dislocated@subj	_	AlignBegin=130743|AlignEnd=130959|Gloss=majority
 2	zaːsù	zaːsù/zâːsu	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=130959|AlignEnd=131175|Gloss=3Plur.Fut
 3	ɗèbi	ɗiːb-	VERB	_	_	2	comp:aux	_	AlignBegin=131175|AlignEnd=131283|Gloss=scoop_out
 4	taːkìː	taːkìː	NOUN	_	_	3	comp:obj	_	AlignBegin=131391|AlignEnd=131607|Gloss=manure
-5	nèː	neː/naː	PART	_	_	4	mod@emp	_	AlignBegin=131607|AlignEnd=131823|Gloss=Ident/Foc
+5	nèː	neː/naː	ModPART	_	_	4	discourse@foc	_	AlignBegin=131607|AlignEnd=131823|Gloss=Ident/Foc
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=131823|AlignEnd=132042|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_150-150
@@ -1532,6 +1537,7 @@
 # phonetic_text = tòː shiː zamaː -ǹ dà kukèː dà shiː yànzu / yaː tsuːfa nèː yànzu / koː kòː shiː har̃ yànzu yanàː dà dai àː -ːːː / àbù -ǹ nan ɗin -shì nèː //
 # text = tòː shiː zaman dà ku kèː dà shiː yànzu < yaː tsuːfa neː yànzu |c kòː koː shiː har̃ yànzu ya nàː dà dai àː àbîn nan ɗin =shì nèː //
 # text_en =  Well the way you are staying with him now, is he old now, or now, does he have er... that thing of his ?
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	10	discourse	_	AlignBegin=162156|AlignEnd=162325|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	dislocated@top	_	AlignBegin=162325|AlignEnd=162494|Gloss=3Masc.Nom
 3	zaman	zaun-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	2	conj:appos	_	AlignBegin=162494|AlignEnd=162578|Gloss=stay.Vnoun.Cons|wordform=zamaː
@@ -1543,7 +1549,7 @@
 9	<	<	PUNCT	_	_	10	punct	_	AlignBegin=163508|AlignEnd=163680|Gloss=PUNCT
 10	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=163879|AlignEnd=164055|Gloss=3Masc.Perf
 11	tsuːfa	tsuːf-	VERB	_	_	10	comp:aux	_	AlignBegin=164055|AlignEnd=164231|Gloss=get_old
-12	nèː	neː/naː	PART	_	_	11	mod@emp	_	AlignBegin=164231|AlignEnd=164407|Gloss=Ident/Foc
+12	nèː	neː/naː	ModPART	_	_	11	discourse@foc	_	AlignBegin=164231|AlignEnd=164407|Gloss=Ident/Foc
 13	yànzu	yànzu	ADV	_	_	10	mod	_	AlignBegin=164407|AlignEnd=164583|Gloss=now
 14	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=164583|AlignEnd=164761|Gloss=PUNCT
 15	koː	koː	CCONJ	_	_	20	cc	_	AlignBegin=164761|AlignEnd=164894|Gloss=or
@@ -1559,7 +1565,7 @@
 25	nan	nan	DET	_	Definite=Def	24	det	_	AlignBegin=166250|AlignEnd=166406|Gloss=Def
 26	ɗin	ɗin	ADP	_	_	24	mod@poss	_	AlignBegin=166406|AlignEnd=166484|Gloss=of|Link=Yes
 27	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	26	comp:obj	_	AlignBegin=166484|AlignEnd=166562|Gloss=3Masc.Gen
-28	neː	neː/naː	PART	_	_	24	mod@emp	_	AlignBegin=166562|AlignEnd=166718|Gloss=Ident/Foc
+28	neː	neː/naː	ModPART	_	_	24	discourse@foc	_	AlignBegin=166562|AlignEnd=166718|Gloss=Ident/Foc
 29	//	//	PUNCT	_	_	10	punct	_	AlignBegin=166718|AlignEnd=166872|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_187-187
@@ -2196,6 +2202,7 @@
 # phonetic_text = tòː wai shiː wânnan / gùndumàː na basaːwa / an saːmoː tà nèː / ta dàliːlìː wânnan tsoːhuwaː bàːsa //
 # text = tòː wai shiː wânnan gùndumàː na Basaːwaː < an saːmoː tà nèː ta dàliːlì wânnan tsoːhuwaː Bàːsa //
 # text_en =  Well they say that this, this district of Basawa, we got it(s name) because of that old woman Basa.
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	9	discourse	_	AlignBegin=227065|AlignEnd=227209|Gloss=well
 2	wai	wai	ADV	_	_	9	discourse	_	AlignBegin=227209|AlignEnd=227353|Gloss=EVD
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	9	dislocated@subj	_	AlignBegin=227353|AlignEnd=227497|Gloss=3Masc.Nom
@@ -2207,7 +2214,7 @@
 9	an	sun	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=229156|AlignEnd=229400|Gloss=4.Perf
 10	saːmoː	saːmoː	VERB	_	_	9	comp:aux	_	AlignBegin=229400|AlignEnd=229644|Gloss=get.DIR
 11	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=229644|AlignEnd=229888|Gloss=3Fem
-12	nèː	neː/naː	PART	_	_	11	mod@emp	_	AlignBegin=229888|AlignEnd=230132|Gloss=Ident/Foc
+12	nèː	neː/naː	ModPART	_	_	11	discourse@foc	_	AlignBegin=229888|AlignEnd=230132|Gloss=Ident/Foc
 13	ta	ta	ADP	_	ExtPos=ADP	10	comp:obl	_	AlignBegin=230914|AlignEnd=231188|Gloss=via|Idiom=Yes
 14	dàliːlì	dàliːlìː	NOUN	_	_	13	comp:obj	_	AlignBegin=231188|AlignEnd=231462|Gloss=cause|InIdiom=Yes
 15	wânnan	wânnan	DET	_	Definite=Def	16	det	_	AlignBegin=231462|AlignEnd=231736|Gloss=Def
@@ -2684,6 +2691,7 @@
 # phonetic_text = eː / shiː ita wânnan gaːnuwaː / an saːmoː tà nèː / dòːmin dukà gàriː -ǹ dà akà cêː makà àkwai gaːnuwaː / ta dàliːlìː -n eː -ːːː / yaːƙìː //
 # text = eː < shiː ita wânnan gaːnuwaː < an saːmoː tà nèː dòːmin dug gàrin dà akà cêː makà àkwai gaːnuwaː ta dàliːlìn eː yaːƙìː //
 # text_en =  Eh, this, that rampart, we got it because all the towns that they tell you there is a rampart, it's because of er... war.
+# validated_by = B-CARON
 1	eː	eː	INTJ	_	_	8	discourse	_	AlignBegin=278374|AlignEnd=278486|Gloss=FILL
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=278486|AlignEnd=278597|Gloss=PUNCT
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	dislocated@top	_	AlignBegin=278597|AlignEnd=278809|Gloss=3Masc.Nom
@@ -2694,7 +2702,7 @@
 8	an	sun	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=280091|AlignEnd=280260|Gloss=4.Perf
 9	saːmoː	saːm-	VERB	_	_	8	comp:aux	_	AlignBegin=280260|AlignEnd=280429|Gloss=get.DIR
 10	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=280429|AlignEnd=280598|Gloss=3Fem
-11	nèː	neː/naː	PART	_	_	10	mod@emp	_	AlignBegin=280598|AlignEnd=280767|Gloss=Ident/Foc
+11	nèː	neː/naː	ModPART	_	_	10	discourse@foc	_	AlignBegin=280598|AlignEnd=280767|Gloss=Ident/Foc
 12	dòːmin	dòːmin	SCONJ	_	_	9	mod	_	AlignBegin=280936|AlignEnd=281121|Gloss=because
 13	dug	dukà	DET	_	PronType=Tot	14	det	_	AlignBegin=281121|AlignEnd=281306|Gloss=all
 14	gàrin	gàriː	NOUN	_	Definite=Cons	21	dislocated@top	_	AlignBegin=281306|AlignEnd=281398|Gloss=town.Cons|wordform=gàriː
@@ -2757,6 +2765,7 @@
 # phonetic_text = bâː dà wannàn gàriː dà mùtûm -aː_eː\HLH -n wani gàriː nèː sù jeː sù dingàː faɗàː //
 # text = baː'à dà wannàn gàriː dà mùtàːnen wani gàriː nèː sù jeː sù dingà faɗàː //
 # text_en = There is no town that people of another town would go and pick up a fight with.
+# validated_by = B-CARON
 1	baː'à	baːsàː/baːsù	AUX	_	Aspect=ProgNeg|Person=4|Polarity=Neg	0	root	_	AlignBegin=290215|AlignEnd=290359|Gloss=4.Pred/Loc.Neg
 2	dà	dà	CCONJ	_	_	1	comp:pred	_	AlignBegin=290359|AlignEnd=290503|Gloss=with
 3	wannàn	wannàn	DET	_	Deixis=Prox|PronType=Dem	4	det	_	AlignBegin=290503|AlignEnd=290647|Gloss=Prox
@@ -2765,7 +2774,7 @@
 6	mùtàːnen	mùtûm	NOUN	_	Definite=Cons|Number=Plur	10	subj	_	AlignBegin=290935|AlignEnd=290983|Gloss=person.Plur.Cons
 7	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	8	det	_	AlignBegin=291079|AlignEnd=291223|Gloss=some.Masc
 8	gàriː	gàriː	NOUN	_	_	6	mod	_	AlignBegin=291223|AlignEnd=291367|Gloss=town
-9	nèː	neː/naː	PART	_	_	8	mod@emp	_	AlignBegin=291367|AlignEnd=291511|Gloss=Ident/Foc
+9	nèː	neː/naː	ModPART	_	_	8	discourse@foc	_	AlignBegin=291367|AlignEnd=291511|Gloss=Ident/Foc
 10	sù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=3	5	comp:obj	_	AlignBegin=291511|AlignEnd=291655|Gloss=3Plur.Aor
 11	jeː	jeː	VERB	_	_	10	comp:aux	_	AlignBegin=291655|AlignEnd=291799|Gloss=go
 12	sù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=3	10	conj:svc	_	AlignBegin=291799|AlignEnd=291943|Gloss=3Plur.Aor
@@ -3214,13 +3223,14 @@
 # phonetic_text = suː kuma waɗànnan / sun taːsoː nèː / dàgà wani gàriː / wandà akèː kiràː -n -shì / ƙauyèː / can r̃icifà //
 # text = suː kuma waɗànnan > sun taːsoː nèː dàgà wani gàriː wandà akèː kiràː-n =shì ƙauyèː < can R̃icipà //
 # text_en =  As for them, they came from another town that they call a village, there in Richipa.
+# validated_by = B-CARON
 1	suː	suː	PRON	_	Number=Plur|Person=3|PronType=Prs	5	dislocated@subj	_	AlignBegin=332002|AlignEnd=332185|Gloss=3Plur.Nom
 2	kuma	kuma	TopPART	_	_	1	discourse	_	AlignBegin=332185|AlignEnd=332368|Gloss=too
 3	waɗànnan	waɗànnan	DET	_	Definite=Cons|Number=Plur	1	conj:appos	_	AlignBegin=332368|AlignEnd=332551|Gloss=Def.Plur
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=332551|AlignEnd=332733|Gloss=PUNCT
 5	sun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=332733|AlignEnd=332903|Gloss=3Plur.Perf
 6	taːsoː	taːsoː	VERB	_	_	5	comp:aux	_	AlignBegin=332903|AlignEnd=333073|Gloss=leave.DIR
-7	nèː	neː/naː	PART	_	_	6	mod@emp	_	AlignBegin=333073|AlignEnd=333243|Gloss=Ident/Foc
+7	nèː	neː/naː	ModPART	_	_	6	discourse@foc	_	AlignBegin=333073|AlignEnd=333243|Gloss=Ident/Foc
 8	dàgà	dàgà	ADP	_	_	6	comp:obl	_	AlignBegin=333616|AlignEnd=333812|Gloss=from
 9	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	10	det	_	AlignBegin=333812|AlignEnd=334008|Gloss=some.Masc
 10	gàriː	gàriː	NOUN	_	_	8	comp:obj	_	AlignBegin=334008|AlignEnd=334204|Gloss=town
