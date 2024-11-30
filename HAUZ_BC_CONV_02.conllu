@@ -417,20 +417,23 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 47051, 49980
 # phonetic_text = tun inàː dà -ːːː / àkwiyàː -ai\LH maː yànzu wandà yakèː wânnan nàː -wàː nèː //
-# text = tun inàː dà àwàːkai maː yànzu wandà yakè wânnan nàːwaː nèː //
+# text = tun i nàː dà àwàːkai maː yànzu wandà ya kè wânnan nàːwaː nèː //
 # text_en =  Since I have .. goats that now are mine.
-1	tun	tun	SCONJ	_	_	2	discourse	_	AlignBegin=47051|AlignEnd=47264|Gloss=since
-2	inàː	nàː/kè	AUX	_	Aspect=Prog|Number=Sing|Person=1	0	root	_	AlignBegin=47264|AlignEnd=47477|Gloss=1Sing.Pred/Loc
-3	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=47477|AlignEnd=47583|Gloss=with
-4	àwàːkai	àkwiyàː	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=47904|AlignEnd=48020|Gloss=goat.Plur
-5	maː	maː	TopPART	_	_	4	discourse	_	AlignBegin=48135|AlignEnd=48366|Gloss=even
-6	yànzu	yànzu	ADV	_	_	2	mod	_	AlignBegin=48366|AlignEnd=48597|Gloss=now
-7	wandà	wandà	PRON	_	ExtPos=PRON|PronType=Rel	8	subj	_	AlignBegin=48597|AlignEnd=48828|Gloss=which
-8	yakè	kè	AUX	_	Aspect=ProgLocBkg|Gender=Masc|Person=3	4	mod@relcl	_	AlignBegin=48828|AlignEnd=49059|Background=Yes|Gloss=3Masc.Pred/Loc.Bkg
-9	wânnan	wânnan	PRON	_	Definite=Def	11	subj	_	AlignBegin=49059|AlignEnd=49290|Gloss=Def
-10	nàːwaː	nàːwaː	PRON	_	Number=Sing|Person=1|PronType=Prs	11	comp:pred	_	AlignBegin=49290|AlignEnd=49406|Gloss=1Sing.Gen
-11	nèː	neː/ceː	AUX	_	_	8	comp:cleft	_	AlignBegin=49521|AlignEnd=49752|Gloss=Foc/Ident
-12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=49752|AlignEnd=49980|Gloss=PUNCT
+# validated_by = B-CARON
+1	tun	tun	SCONJ	_	_	3	discourse	_	AlignBegin=47051|AlignEnd=47264|Gloss=since
+2	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=47264|AlignEnd=47477|Gloss=1Sing
+3	nàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	0	root	_	AlignBegin=47264|AlignEnd=47477|Gloss=1Sing.Pred/Loc
+4	dà	dà	ADP	_	_	3	comp:pred	_	AlignBegin=47477|AlignEnd=47583|Gloss=with
+5	àwàːkai	àkwiyàː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=47904|AlignEnd=48020|Gloss=goat.Plur
+6	maː	maː	TopPART	_	_	5	discourse	_	AlignBegin=48135|AlignEnd=48366|Gloss=even
+7	yànzu	yànzu	ADV	_	_	3	mod	_	AlignBegin=48366|AlignEnd=48597|Gloss=now
+8	wandà	wandà	PRON	_	ExtPos=PRON|PronType=Rel	10	dislocated@subj	_	AlignBegin=48597|AlignEnd=48828|Gloss=which
+9	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=48828|AlignEnd=49059|Gloss=3Masc
+10	kè	naː/kè	AUX	_	_	5	mod@relcl	_	AlignBegin=48828|AlignEnd=49059|Background=Yes|Gloss=Pred/Loc.Bkg
+11	wânnan	wânnan	PRON	_	Definite=Def	13	subj	_	AlignBegin=49059|AlignEnd=49290|Gloss=Def
+12	nàːwaː	nàːwaː	PRON	_	Number=Sing|Person=1|PronType=Prs	13	comp:pred	_	AlignBegin=49290|AlignEnd=49406|Gloss=1Sing.Gen
+13	nèː	neː/ceː	AUX	_	_	10	comp:cleft	_	AlignBegin=49521|AlignEnd=49752|Gloss=Foc/Ident
+14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=49752|AlignEnd=49980|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_051-051
 # speaker_id = SP2

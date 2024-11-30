@@ -2704,19 +2704,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 319569, 323661
 # phonetic_text = inàː ajìː biyu / munàː &// jar̃r̃àbâːwaː akà aikoː yaː ràsu //
-# text = inàː ajìː biyu |c munàː jar̃r̃àbâːwaː akà aikoː yaː ràsu //
+# text = i nàː ajìː biyu mu nàː jar̃r̃àbâːwaː akà aikoː yaː ràsu //
 # text_en =  I was in second grade, we were... taking the exams when they told me he had died.
-1	inàː	nàː/kè	AUX	_	Aspect=Prog|Number=Sing|Person=1	7	mod	_	AlignBegin=319569|AlignEnd=319805|Gloss=1Sing.Pred/Loc
-2	ajìː	ajìː	NOUN	_	_	1	comp:pred	_	AlignBegin=319805|AlignEnd=320041|Gloss=classroom
-3	biyu	biyu	NUM	_	_	2	mod:num	_	AlignBegin=320041|AlignEnd=320277|Gloss=two
-4	|c	|c	PUNCT	_	_	5	punct	_	AlignBegin=320277|AlignEnd=320515|Gloss=PUNCT
-5	munàː	nàː/kèː	AUX	_	Aspect=Prog|Number=Plur|Person=1	1	parataxis	_	AlignBegin=321939|AlignEnd=322197|Gloss=1Plur.Prog
-6	jar̃r̃àbâːwaː	jar̃r̃àbâːwaː	NOUN	_	_	5	comp:aux	_	AlignBegin=322455|AlignEnd=322656|Gloss=examination
-7	akà	sukà/sunkà	AUX	_	Aspect=PerfBkg|Person=4	0	root	_	AlignBegin=322656|AlignEnd=322857|Background=Yes|Gloss=4.Perf.Bkg
-8	aikoː	aik-	VERB	_	_	7	comp:obj	_	AlignBegin=322857|AlignEnd=323058|Gloss=send.DIR
-9	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	8	comp:obj	_	AlignBegin=323058|AlignEnd=323259|Gloss=3Masc.Perf
-10	ràsu	ras-	VERB	_	_	9	comp:aux	_	AlignBegin=323259|AlignEnd=323460|Gloss=die
-11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=323460|AlignEnd=323661|Gloss=PUNCT
+# validated_by = B-CARON
+1	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=319569|AlignEnd=319805|Gloss=1Sing
+2	nàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	8	mod	_	AlignBegin=319569|AlignEnd=319805|Gloss=1Sing.Pred/Loc
+3	ajìː	ajìː	NOUN	_	_	2	comp:pred	_	AlignBegin=319805|AlignEnd=320041|Gloss=classroom
+4	biyu	biyu	NUM	_	_	3	mod:num	_	AlignBegin=320041|AlignEnd=320277|Gloss=two
+5	mu	mu	PRON	_	Number=Plur|Person=1|PronType=Prs	6	subj	_	AlignBegin=321939|AlignEnd=322197|Gloss=1Plur
+6	nàː	nàː/kè	AUX	_	_	8	mod	_	AlignBegin=321939|AlignEnd=322197|Gloss=Pred/Loc
+7	jar̃r̃àbâːwaː	jar̃r̃àbâːwaː	NOUN	_	_	6	comp:pred	_	AlignBegin=322455|AlignEnd=322656|Gloss=examination
+8	akà	sukà/sunkà	AUX	_	Aspect=PerfBkg|Person=4	0	root	_	AlignBegin=322656|AlignEnd=322857|Background=Yes|Gloss=4.Perf.Bkg
+9	aikoː	aik-	VERB	_	_	8	comp:obj	_	AlignBegin=322857|AlignEnd=323058|Gloss=send.DIR
+10	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	9	comp:obj	_	AlignBegin=323058|AlignEnd=323259|Gloss=3Masc.Perf
+11	ràsu	ras-	VERB	_	_	10	comp:aux	_	AlignBegin=323259|AlignEnd=323460|Gloss=die
+12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=323460|AlignEnd=323661|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0273-0274
 # speaker_id = SP1
@@ -5841,22 +5843,24 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 712388, 716019
 # phonetic_text = dukà sunàː wàinaː // dà Tìne mài wàinaː / dà Làːmìnde mài wàinaː //
-# text = dus sunàː wàinaː > dà Tìne mài wàinaː / dà Làːmìnde mài wàinaː //
+# text = dus su nàː wàinaː > dà Tìne mài wàinaː |c dà Làːmìnde mài wàinaː //
 # text_en =  They all sell pancakes, both Tine the pancake seller, and Laminde the pancake seller.
-1	dus	dukà	PRON	_	_	2	subj	_	AlignBegin=712388|AlignEnd=712578|Gloss=all
-2	sunàː	nàː/kè	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=712578|AlignEnd=712768|Gloss=3Plur.Prog
-3	wàinaː	wàinaː	NOUN	_	_	2	comp:pred	_	AlignBegin=712768|AlignEnd=712958|Gloss=pancakes
-4	>	>	PUNCT	_	_	6	punct	_	AlignBegin=712958|AlignEnd=713149|Gloss=PUNCT
-5	dà	dà	CCONJ	_	_	6	cc@preconj	_	AlignBegin=713914|AlignEnd=714164|Gloss=and
-6	Tìne	Tìne	PROPN	_	_	2	dislocated@subj	_	AlignBegin=714164|AlignEnd=714414|Gloss=Tine
-7	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing|PronType=Rel	6	conj:appos	_	AlignBegin=714414|AlignEnd=714664|Gloss=having|Idiom=Yes|Linker=Yes
-8	wàinaː	wàinaː	NOUN	_	_	7	comp:obj	_	AlignBegin=714664|AlignEnd=714914|Gloss=pancakes|InIdiom=Yes
-9	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=714914|AlignEnd=715165|Gloss=PUNCT
-10	dà	dà	CCONJ	_	_	11	cc	_	AlignBegin=715165|AlignEnd=715336|Gloss=and
-11	Làːmìnde	Làːmìnde	PROPN	_	_	6	conj:coord	_	AlignBegin=715336|AlignEnd=715507|Gloss=Laminde
-12	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing|PronType=Rel	11	conj:appos	_	AlignBegin=715507|AlignEnd=715678|Gloss=having|Idiom=Yes|Linker=Yes
-13	wàinaː	wàinaː	NOUN	_	_	12	comp:obj	_	AlignBegin=715678|AlignEnd=715849|Gloss=pancakes|InIdiom=Yes
-14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=715849|AlignEnd=716019|Gloss=PUNCT
+# validated_by = B-CARON
+1	dus	dukà	PRON	_	_	3	dislocated@subj	_	AlignBegin=712388|AlignEnd=712578|Gloss=all
+2	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=712578|AlignEnd=712768|Gloss=3Plur
+3	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=712578|AlignEnd=712768|Gloss=Pred/Loc
+4	wàinaː	wàinaː	NOUN	_	_	3	comp:pred	_	AlignBegin=712768|AlignEnd=712958|Gloss=pancakes
+5	>	>	PUNCT	_	_	7	punct	_	AlignBegin=712958|AlignEnd=713149|Gloss=PUNCT
+6	dà	dà	CCONJ	_	_	7	cc@preconj	_	AlignBegin=713914|AlignEnd=714164|Gloss=and
+7	Tìne	Tìne	PROPN	_	_	3	dislocated@subj	_	AlignBegin=714164|AlignEnd=714414|Gloss=Tine
+8	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing|PronType=Rel	7	conj:appos	_	AlignBegin=714414|AlignEnd=714664|Gloss=having|Idiom=Yes|Linker=Yes
+9	wàinaː	wàinaː	NOUN	_	_	8	comp:obj	_	AlignBegin=714664|AlignEnd=714914|Gloss=pancakes|InIdiom=Yes
+10	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=714914|AlignEnd=715165|Gloss=PUNCT
+11	dà	dà	CCONJ	_	_	12	cc	_	AlignBegin=715165|AlignEnd=715336|Gloss=and
+12	Làːmìnde	Làːmìnde	PROPN	_	_	7	conj:coord	_	AlignBegin=715336|AlignEnd=715507|Gloss=Laminde
+13	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing|PronType=Rel	12	conj:appos	_	AlignBegin=715507|AlignEnd=715678|Gloss=having|Idiom=Yes|Linker=Yes
+14	wàinaː	wàinaː	NOUN	_	_	13	comp:obj	_	AlignBegin=715678|AlignEnd=715849|Gloss=pancakes|InIdiom=Yes
+15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=715849|AlignEnd=716019|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0613-0613
 # speaker_id = SP2
@@ -5873,16 +5877,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 716863, 719436
 # phonetic_text = àmmaː Làːmìnde -ǹ maː tanàː dàddawaː // baːyan wàinaː -ǹ //
-# text = àmmaː Làːmìndên maː tanàː dàddawaː baːyan wàinân //
+# text = àmmaː Làːmìndên maː ta nàː dàddawaː baːyan wàinân //
 # text_en =  But that Laminde, she is selling locust-bean cakes ("daddawa") in addition to those pancakes ("waina")..
-1	àmmaː	àmmaː	CCONJ	_	_	4	discourse	_	AlignBegin=716863|AlignEnd=717082|Gloss=but
-2	Làːmìndên	Làːmìnde	PROPN	_	_	4	dislocated@subj	_	AlignBegin=717082|AlignEnd=717192|Gloss=Laminde.Def|wordform=Làːmìnde
+# validated_by = B-CARON
+1	àmmaː	àmmaː	CCONJ	_	_	5	cc	_	AlignBegin=716863|AlignEnd=717082|Gloss=but
+2	Làːmìndên	Làːmìnde	PROPN	_	_	5	dislocated@subj	_	AlignBegin=717082|AlignEnd=717192|Gloss=Laminde.Def|wordform=Làːmìnde
 3	maː	maː	TopPART	_	_	2	discourse	_	AlignBegin=717301|AlignEnd=717520|Gloss=even
-4	tanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=717520|AlignEnd=717739|Gloss=3Fem.Prog
-5	dàddawaː	dàddawaː	NOUN	_	_	4	comp:pred	_	AlignBegin=717739|AlignEnd=717958|Gloss=seasoning_sp
-6	baːyan	baːyan	ADP	_	_	4	mod	_	AlignBegin=718811|AlignEnd=719019|Gloss=after
-7	wàinân	wàinaː	NOUN	_	_	6	comp:obj	_	AlignBegin=719019|AlignEnd=719123|Gloss=pancakes.Def|wordform=wàinaː
-8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=719227|AlignEnd=719436|Gloss=PUNCT
+4	ta	ta	PRON	_	_	5	subj	_	AlignBegin=717520|AlignEnd=717739|Gloss=3Fem
+5	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=717520|AlignEnd=717739|Gloss=Pred/Loc
+6	dàddawaː	dàddawaː	NOUN	_	_	5	comp:pred	_	AlignBegin=717739|AlignEnd=717958|Gloss=seasoning_sp
+7	baːyan	baːyan	ADP	_	_	5	mod	_	AlignBegin=718811|AlignEnd=719019|Gloss=after
+8	wàinân	wàinaː	NOUN	_	_	7	comp:obj	_	AlignBegin=719019|AlignEnd=719123|Gloss=pancakes.Def|wordform=wàinaː
+9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=719227|AlignEnd=719436|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0616-0616
 # speaker_id = SP2
