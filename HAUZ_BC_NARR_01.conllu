@@ -85,22 +85,24 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_01.WAV
 # sent_timecode = 14540, 18515
 # phonetic_text = dà ta ganiː zoːmoː yanàː kwànce // sai ta jeː ta cêː mashì /
-# text = dà ta ga zoːmoː yanàː kwànce <+ sai ta jeː ta cêː mashì /
+# text = dà ta ga zoːmoː ya nàː kwànce < sai ta jeː ta cêː mashì //+
 # text_en =  When she saw rabbit he was sleeping. Then she went and told him.
-1	dà	dà	SCONJ	_	_	9	mod	_	AlignBegin=14540|AlignEnd=14786|Gloss=COMP
+# validated_by = B-CARON
+1	dà	dà	SCONJ	_	_	10	mod	_	AlignBegin=14540|AlignEnd=14786|Gloss=COMP
 2	ta	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=14786|AlignEnd=15032|Background=Yes|Gloss=3Fem.Perf.Bkg
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=15032|AlignEnd=15278|Gloss=see
-4	zoːmoː	zoːmoː	NOUN	_	_	3	comp:obj	_	AlignBegin=15278|AlignEnd=15524|Gloss=Rabbit
-5	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	4	mod@relcl	_	AlignBegin=15524|AlignEnd=15770|Gloss=3Masc.Pred/Loc
-6	kwànce	kwant-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	5	comp:pred	_	AlignBegin=15770|AlignEnd=16016|Gloss=lie.Part
-7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=16016|AlignEnd=16262|Gloss=PUNCT
-8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=17100|AlignEnd=17302|Gloss=then
-9	ta	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=17302|AlignEnd=17504|Background=Yes|Gloss=3Fem.Perf.Bkg
-10	jeː	jeː	VERB	_	_	9	comp:aux	_	AlignBegin=17504|AlignEnd=17706|Gloss=go
-11	ta	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	9	conj:svc	_	AlignBegin=17706|AlignEnd=17908|Background=Yes|Gloss=3Fem.Perf.Bkg
-12	cêː	cêː	VERB	_	_	11	comp:aux	_	AlignBegin=17908|AlignEnd=18110|Gloss=say|Overlap=HAUZ_BC_NARR_01_013-014
-13	mashì	mashì	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	12	comp:obl	_	AlignBegin=18110|AlignEnd=18312|Gloss=3Masc.Dat
-14	//+	//+	PUNCT	_	_	9	punct	_	AlignBegin=18312|AlignEnd=18515|Gloss=PUNCT
+4	zoːmoː	zoːmoː	NOUN	_	_	6	dislocated@subj	_	AlignBegin=15278|AlignEnd=15524|Gloss=Rabbit
+5	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=15524|AlignEnd=15770|Gloss=3Masc
+6	nàː	nàː/kè	AUX	_	_	3	comp:obj	_	AlignBegin=15524|AlignEnd=15770|Gloss=Pred/Loc
+7	kwànce	kwant-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	6	comp:pred	_	AlignBegin=15770|AlignEnd=16016|Gloss=lie.Part
+8	<	<	PUNCT	_	_	1	punct	_	AlignBegin=16016|AlignEnd=16262|Gloss=PUNCT
+9	sai	sai	ADV	_	_	10	mod	_	AlignBegin=17100|AlignEnd=17302|Gloss=then
+10	ta	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=17302|AlignEnd=17504|Background=Yes|Gloss=3Fem.Perf.Bkg
+11	jeː	jeː	VERB	_	_	10	comp:aux	_	AlignBegin=17504|AlignEnd=17706|Gloss=go
+12	ta	sukà/sunkà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	10	conj:svc	_	AlignBegin=17706|AlignEnd=17908|Background=Yes|Gloss=3Fem.Perf.Bkg
+13	cêː	cêː	VERB	_	_	12	comp:aux	_	AlignBegin=17908|AlignEnd=18110|Gloss=say|Overlap=HAUZ_BC_NARR_01_013-014
+14	mashì	mashì	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	13	comp:obl	_	AlignBegin=18110|AlignEnd=18312|Gloss=3Masc.Dat
+15	//+	//+	PUNCT	_	_	10	punct	_	AlignBegin=18312|AlignEnd=18515|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_012-012
 # speaker_id = SP2

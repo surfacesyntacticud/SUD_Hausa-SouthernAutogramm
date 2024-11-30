@@ -3459,25 +3459,27 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 350430, 353314
 # phonetic_text = tòː / shiː maː yanàː dà wa / ainihin l làːbaː / taːr̃iːhìː / à wânnan gàriː //
-# text = tòː < shiː maː yanàː dà wa~ || ainihin l~ làːbaː~ || taːr̃iːhìː à wânnan gàriː //
+# text = tòː < shiː maː ya nàː dà wa~ || ainihin l~ làːbaː~ || taːr̃iːhìː à wânnan gàriː //
 # text_en =  Well, he too he has a... true sstor... history in this town.
-1	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=350430|AlignEnd=350492|Gloss=well
+# validated_by = B-CARON
+1	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=350430|AlignEnd=350492|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=350492|AlignEnd=350553|Gloss=PUNCT
-3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	dislocated@subj	_	AlignBegin=350553|AlignEnd=350680|Gloss=3Masc.Nom
+3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=350553|AlignEnd=350680|Gloss=3Masc.Nom
 4	maː	maː	TopPART	_	_	3	discourse	_	AlignBegin=350680|AlignEnd=350807|Gloss=even
-5	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=350807|AlignEnd=350934|Gloss=3Masc.Pred/Loc
-6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=350934|AlignEnd=351061|Gloss=with
-7	wa~	wa~	X	_	_	6	comp:obj	_	AlignBegin=351061|AlignEnd=351188|Gloss=HESIT
-8	||	||	PUNCT	_	_	10	punct	_	AlignBegin=351188|AlignEnd=351313|Gloss=PUNCT
-9	ainihin	ainihiː	ADJ	_	Definite=Cons	10	mod	_	AlignBegin=351313|AlignEnd=351556|Gloss=real.Cons
-10	l~	l~	X	_	_	7	conj:dicto	_	AlignBegin=351556|AlignEnd=351799|Gloss=HESIT
-11	làːbaː~	làːbaːrìː	NOUN	_	_	10	conj:dicto	_	AlignBegin=351799|AlignEnd=352042|Gloss=story
-12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=352042|AlignEnd=352284|Gloss=PUNCT
-13	taːr̃iːhìː	taːr̃iːhìː	NOUN	_	_	11	conj:dicto	_	AlignBegin=352284|AlignEnd=352502|Gloss=history
-14	à	à	ADP	_	_	13	mod	_	AlignBegin=352720|AlignEnd=352868|Gloss=on
-15	wânnan	wânnan	DET	_	Definite=Def	16	det	_	AlignBegin=352868|AlignEnd=353016|Gloss=Def
-16	gàriː	gàriː	NOUN	_	_	14	comp:obj	_	AlignBegin=353016|AlignEnd=353164|Gloss=town
-17	//	//	PUNCT	_	_	5	punct	_	AlignBegin=353164|AlignEnd=353314|Gloss=PUNCT
+5	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=350807|AlignEnd=350934|Gloss=3Masc
+6	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=350807|AlignEnd=350934|Gloss=Pred/Loc
+7	dà	dà	ADP	_	_	6	comp:pred	_	AlignBegin=350934|AlignEnd=351061|Gloss=with
+8	wa~	wa~	X	_	_	7	comp:obj	_	AlignBegin=351061|AlignEnd=351188|Gloss=HESIT
+9	||	||	PUNCT	_	_	11	punct	_	AlignBegin=351188|AlignEnd=351313|Gloss=PUNCT
+10	ainihin	ainihiː	ADJ	_	Definite=Cons	11	mod	_	AlignBegin=351313|AlignEnd=351556|Gloss=real.Cons
+11	l~	l~	X	_	_	8	conj:dicto	_	AlignBegin=351556|AlignEnd=351799|Gloss=HESIT
+12	làːbaː~	làːbaːrìː	NOUN	_	_	11	conj:dicto	_	AlignBegin=351799|AlignEnd=352042|Gloss=story
+13	||	||	PUNCT	_	_	14	punct	_	AlignBegin=352042|AlignEnd=352284|Gloss=PUNCT
+14	taːr̃iːhìː	taːr̃iːhìː	NOUN	_	_	12	conj:dicto	_	AlignBegin=352284|AlignEnd=352502|Gloss=history
+15	à	à	ADP	_	_	14	mod	_	AlignBegin=352720|AlignEnd=352868|Gloss=on
+16	wânnan	wânnan	DET	_	Definite=Def	17	det	_	AlignBegin=352868|AlignEnd=353016|Gloss=Def
+17	gàriː	gàriː	NOUN	_	_	15	comp:obj	_	AlignBegin=353016|AlignEnd=353164|Gloss=town
+18	//	//	PUNCT	_	_	6	punct	_	AlignBegin=353164|AlignEnd=353314|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_391-391
 # speaker_id = SP1

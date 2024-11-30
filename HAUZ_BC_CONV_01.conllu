@@ -1341,15 +1341,17 @@
 # phonetic_text = shiː / kàːwuː -naː yanàː wannàn ùnguwaː -n fulàːniː //
 # text = shiː < kàːwuː =naː ya nàː wannàn Ùngwan Fulàːniː //
 # text_en =  He, my uncle, he is at the Fulanis' quater.
-1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	dislocated@subj	_	AlignBegin=161656|AlignEnd=161858|Gloss=3Masc.Nom
+# validated_by = B-CARON
+1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	dislocated@subj	_	AlignBegin=161656|AlignEnd=161858|Gloss=3Masc.Nom
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=161858|AlignEnd=162060|Gloss=PUNCT
 3	kàːwuː	kàːwu	NOUN	_	_	1	conj:appos	_	AlignBegin=162060|AlignEnd=162127|Gloss=uncle
 4	=naː	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	3	mod@poss	_	AlignBegin=162127|AlignEnd=162194|Gloss=1Sing.Gen
-5	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=162194|AlignEnd=162262|Gloss=3Masc.Pred/Loc|wordform=nàː
-6	wannàn	wannàn	DET	_	PronType=Dem	7	det	_	AlignBegin=162464|AlignEnd=162565|Deixis=Prox|Gloss=Prox
-7	Ùngwan	Ùngwan	PROPN	_	Definite=Cons	5	comp:pred	_	AlignBegin=162565|AlignEnd=162666|Gloss=Ungwan
-8	Fulàːniː	Fulàːniː	PROPN	_	Definite=Cons	7	flat:name	_	AlignBegin=162565|AlignEnd=162666|Gloss=Fulani
-9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=163070|AlignEnd=163272|Gloss=PUNCT
+5	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=162194|AlignEnd=162262|Gloss=3Masc|wordform=nàː
+6	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=162194|AlignEnd=162262|Gloss=Pred/Loc
+7	wannàn	wannàn	DET	_	PronType=Dem	8	det	_	AlignBegin=162464|AlignEnd=162565|Deixis=Prox|Gloss=Prox
+8	Ùngwan	Ùngwan	PROPN	_	Definite=Cons	6	comp:pred	_	AlignBegin=162565|AlignEnd=162666|Gloss=Ungwan
+9	Fulàːniː	Fulàːniː	PROPN	_	Definite=Cons	8	flat:name	_	AlignBegin=162565|AlignEnd=162666|Gloss=Fulani
+10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=163070|AlignEnd=163272|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_058-058
 # speaker_id = SP2
@@ -1469,7 +1471,8 @@
 # phonetic_text = ìdan dai noːmaː nèː / har̃kàː -n noːmaː nèː / yanàː ɗaya dàgà cikin wânnan har̃kàː -n /
 # text = ìdan dai noːmaː nèː < har̃kàn noːmaː nèː < ya nàː ɗaya dàgà cikin wânnan har̃kàn //
 # text_en =  As far as farming is concerned, the profession of farmer, he is the first in the profession.
-1	ìdan	ìdan	SCONJ	_	_	10	mod	_	AlignBegin=175547|AlignEnd=175737|Gloss=if
+# validated_by = B-CARON
+1	ìdan	ìdan	SCONJ	_	_	11	mod	_	AlignBegin=175547|AlignEnd=175737|Gloss=if
 2	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=175737|AlignEnd=175927|Gloss=indeed
 3	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:pred	_	AlignBegin=175927|AlignEnd=176117|Gloss=farm.Vnoun
 4	nèː	neː/ceː	AUX	_	_	1	comp:obj	_	AlignBegin=176117|AlignEnd=176307|Gloss=Foc/Ident
@@ -1478,13 +1481,14 @@
 7	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	mod	_	AlignBegin=176687|AlignEnd=176877|Gloss=farm.Vnoun
 8	nèː	neː/ceː	AUX	_	_	4	conj:dicto	_	AlignBegin=176877|AlignEnd=177067|Gloss=Foc/Ident
 9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=177067|AlignEnd=177257|Gloss=PUNCT
-10	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=177257|AlignEnd=177447|Gloss=3Masc.Pred/Loc|wordform=nàː
-11	ɗaya	ɗaya	NUM	_	_	10	comp:pred	_	AlignBegin=177447|AlignEnd=177637|Gloss=one
-12	dàgà	dàgà	ADP	_	_	11	mod	_	AlignBegin=177637|AlignEnd=177827|Gloss=from
-13	cikin	cikin	ADP	_	_	12	comp:obj	_	AlignBegin=177827|AlignEnd=178017|Gloss=inside
-14	wânnan	wânnan	DET	_	Definite=Def	15	det	_	AlignBegin=178017|AlignEnd=178207|Gloss=Def
-15	har̃kàn	har̃kàː	NOUN	_	Definite=Def	13	comp:obj	_	AlignBegin=178207|AlignEnd=178302|Gloss=profession.Def
-16	//	//	PUNCT	_	_	10	punct	_	AlignBegin=178397|AlignEnd=178591|Gloss=PUNCT
+10	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	11	subj	_	AlignBegin=177257|AlignEnd=177447|Gloss=3Masc|wordform=nàː
+11	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=177257|AlignEnd=177447|Gloss=Pred/Loc
+12	ɗaya	ɗaya	NUM	_	_	11	comp:pred	_	AlignBegin=177447|AlignEnd=177637|Gloss=one
+13	dàgà	dàgà	ADP	_	_	12	mod	_	AlignBegin=177637|AlignEnd=177827|Gloss=from
+14	cikin	cikin	ADP	_	_	13	comp:obj	_	AlignBegin=177827|AlignEnd=178017|Gloss=inside
+15	wânnan	wânnan	DET	_	Definite=Def	16	det	_	AlignBegin=178017|AlignEnd=178207|Gloss=Def
+16	har̃kàn	har̃kàː	NOUN	_	Definite=Def	14	comp:obj	_	AlignBegin=178207|AlignEnd=178302|Gloss=profession.Def
+17	//	//	PUNCT	_	_	11	punct	_	AlignBegin=178397|AlignEnd=178591|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_023-023
 # speaker_id = SP1
@@ -1529,19 +1533,20 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 182845, 184162
 # phonetic_text = tòː shiː / yanàː dà yaːròː \Plur nèː kàman -kà //
-# text = tòː shiː / ya nàː dà yâːraː nèː kàman kà ?//
+# text = tòː shiː < ya nàː dà yâːraː nèː kàman =kà ?//
 # text_en =  Well he, does he have children like you?
 # validated_by = B-CARON
-1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=182845|AlignEnd=182991|Gloss=well
-2	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	dislocated@subj	_	AlignBegin=182991|AlignEnd=183137|Gloss=3Masc.Nom
+1	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=182845|AlignEnd=182991|Gloss=well
+2	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	5	dislocated@subj	_	AlignBegin=182991|AlignEnd=183137|Gloss=3Masc.Nom
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=183137|AlignEnd=183283|Gloss=PUNCT
-4	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=183283|AlignEnd=183429|Gloss=3Masc.Pred/Loc|wordform=nàː
-5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=183429|AlignEnd=183575|Gloss=with
-6	yâːraː	yaːròː	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=183575|AlignEnd=183648|Gloss=child.Plur
-7	nèː	neː/ceː	AUX	_	_	6	discourse@foc	_	AlignBegin=183721|AlignEnd=183867|Gloss=Foc/Ident
-8	kàman	kàman	ADP	_	_	6	mod	_	AlignBegin=183867|AlignEnd=183940|Gloss=like
-9	=kà	=kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=183940|AlignEnd=184013|Gloss=2Masc.Gen
-10	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=184013|AlignEnd=184162|Gloss=PUNCT
+4	ya	ya	PRON	_	Aspect=Prog|Gender=Masc|Person=3	5	subj	_	AlignBegin=183283|AlignEnd=183429|Gloss=3Masc|wordform=nàː
+5	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=183283|AlignEnd=183429|Gloss=Pred/Loc
+6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=183429|AlignEnd=183575|Gloss=with
+7	yâːraː	yaːròː	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=183575|AlignEnd=183648|Gloss=child.Plur
+8	nèː	neː/ceː	AUX	_	_	7	discourse@foc	_	AlignBegin=183721|AlignEnd=183867|Gloss=Foc/Ident
+9	kàman	kàman	ADP	_	_	7	mod	_	AlignBegin=183867|AlignEnd=183940|Gloss=like
+10	=kà	=kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	9	comp:obj	_	AlignBegin=183940|AlignEnd=184013|Gloss=2Masc.Gen
+11	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=184013|AlignEnd=184162|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_067-067
 # speaker_id = SP2
@@ -1554,7 +1559,7 @@
 1	eː	eː	INTJ	_	_	4	discourse	_	AlignBegin=184532|AlignEnd=184746|Gloss=yes
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=184746|AlignEnd=184960|Gloss=PUNCT
 3	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=184960|AlignEnd=185174|Gloss=3Masc.Pred/Loc|wordform=nàː
-4	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=184960|AlignEnd=185174|Gloss=Pred/Loc
+4	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=184960|AlignEnd=185174|Gloss=Pred/Loc
 5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=185174|AlignEnd=185388|Gloss=with
 6	yâːraː	yaːròː	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=185388|AlignEnd=185495|Gloss=child.Plur
 7	kàmaː	kàmaː	NOUN	_	Definite=Cons|ExtPos=ADP	6	mod	_	AlignBegin=185602|AlignEnd=185709|Gloss=resemblance.Cons

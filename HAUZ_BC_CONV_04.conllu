@@ -1041,26 +1041,28 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 118267, 121336
 # phonetic_text = àmmaː in dàː yanàː dà aureː yaː màllàkaː -i hankàliː -n -shì / dàː dukà bà zâi yi wânnan ba //
-# text = àmmaː indàː yanàː dà aureː yaː màllàki hankàlin =shì < dàː dukà bà zâi yi wânnan ba //
+# text = àmmaː indàː ya nàː dà aureː yaː màllàki hankàlin =shì < dàː dukà bà zâi yi wânnan ba //
 # text_en =  But if he had married and controled himself, he would not do all these things.
-1	àmmaː	àmmaː	CCONJ	_	_	14	discourse	_	AlignBegin=118267|AlignEnd=118481|Gloss=but
-2	indàː	indàː	SCONJ	_	_	14	mod	_	AlignBegin=118481|AlignEnd=118695|Gloss=if
-3	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=118909|AlignEnd=119123|Gloss=3Masc.Pred/Loc
-4	dà	dà	ADP	_	_	3	comp:pred	_	AlignBegin=119123|AlignEnd=119337|Gloss=with
-5	aureː	aureː	NOUN	_	_	4	comp:obj	_	AlignBegin=119337|AlignEnd=119551|Gloss=wedding
-6	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	3	conj:coord	_	AlignBegin=119551|AlignEnd=119765|Gloss=3Masc.Perf
-7	màllàki	mallak-	VERB	_	_	6	comp:aux	_	AlignBegin=119765|AlignEnd=119872|Gloss=possess
-8	hankàlin	hankàliː	NOUN	_	Definite=Cons	7	comp:obj	_	AlignBegin=119979|AlignEnd=120050|Gloss=mind.Cons|wordform=hankàliː
-9	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	mod@poss	_	AlignBegin=120121|AlignEnd=120193|Gloss=3Masc.Gen
-10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=120193|AlignEnd=120411|Gloss=PUNCT
-11	dàː	dàː	SCONJ	_	_	14	mod	_	AlignBegin=120411|AlignEnd=120527|Gloss=IRR
-12	dukà	dukà	DET	_	_	14	dislocated	_	AlignBegin=120527|AlignEnd=120643|Gloss=all
-13	bà	bà	ADV	_	Polarity=Neg	14	mod	_	AlignBegin=120643|AlignEnd=120759|Gloss=Neg
-14	zâi	zaːsù/zâːsu	AUX	_	Gender=Masc|Person=3|Tense=Fut	0	root	_	AlignBegin=120759|AlignEnd=120875|Gloss=3Masc.Fut
-15	yi	yi	VERB	_	_	14	comp:aux	_	AlignBegin=120875|AlignEnd=120991|Gloss=do
-16	wânnan	wânnan	PRON	_	Definite=Def	15	comp:obj	_	AlignBegin=120991|AlignEnd=121107|Gloss=Def
-17	ba	ba	ADV	_	Polarity=Neg	14	mod	_	AlignBegin=121107|AlignEnd=121223|Gloss=Neg
-18	//	//	PUNCT	_	_	14	punct	_	AlignBegin=121223|AlignEnd=121336|Gloss=PUNCT
+# validated_by = B-CARON
+1	àmmaː	àmmaː	CCONJ	_	_	15	discourse	_	AlignBegin=118267|AlignEnd=118481|Gloss=but
+2	indàː	indàː	SCONJ	_	_	15	mod	_	AlignBegin=118481|AlignEnd=118695|Gloss=if
+3	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=118909|AlignEnd=119123|Gloss=3Masc
+4	nàː	nàː/kè	AUX	_	_	2	comp:obj	_	AlignBegin=118909|AlignEnd=119123|Gloss=Pred/Loc
+5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=119123|AlignEnd=119337|Gloss=with
+6	aureː	aureː	NOUN	_	_	5	comp:obj	_	AlignBegin=119337|AlignEnd=119551|Gloss=wedding
+7	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	4	conj:coord	_	AlignBegin=119551|AlignEnd=119765|Gloss=3Masc.Perf
+8	màllàki	mallak-	VERB	_	_	7	comp:aux	_	AlignBegin=119765|AlignEnd=119872|Gloss=possess
+9	hankàlin	hankàliː	NOUN	_	Definite=Cons	8	comp:obj	_	AlignBegin=119979|AlignEnd=120050|Gloss=mind.Cons|wordform=hankàliː
+10	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=120121|AlignEnd=120193|Gloss=3Masc.Gen
+11	<	<	PUNCT	_	_	2	punct	_	AlignBegin=120193|AlignEnd=120411|Gloss=PUNCT
+12	dàː	dàː	SCONJ	_	_	15	mod	_	AlignBegin=120411|AlignEnd=120527|Gloss=IRR
+13	dukà	dukà	DET	_	_	15	dislocated	_	AlignBegin=120527|AlignEnd=120643|Gloss=all
+14	bà	bà	ADV	_	Polarity=Neg	15	mod	_	AlignBegin=120643|AlignEnd=120759|Gloss=Neg
+15	zâi	zaːsù/zâːsu	AUX	_	Gender=Masc|Person=3|Tense=Fut	0	root	_	AlignBegin=120759|AlignEnd=120875|Gloss=3Masc.Fut
+16	yi	yi	VERB	_	_	15	comp:aux	_	AlignBegin=120875|AlignEnd=120991|Gloss=do
+17	wânnan	wânnan	PRON	_	Definite=Def	16	comp:obj	_	AlignBegin=120991|AlignEnd=121107|Gloss=Def
+18	ba	ba	ADV	_	Polarity=Neg	15	mod	_	AlignBegin=121107|AlignEnd=121223|Gloss=Neg
+19	//	//	PUNCT	_	_	15	punct	_	AlignBegin=121223|AlignEnd=121336|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0103-0106
 # speaker_id = SP1
@@ -11276,44 +11278,50 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1350167, 1354450
 # phonetic_text = sai an yi boːkòː / kuma / boːkòː yanàː dà daːɗiː /
-# text = sai an yi boːkòː / kuma / boːkòː yanàː dà daːɗiː /
+# text = sai an yi boːkòː |c kuma < boːkòː ya nàː dà daːɗiː //
 # text_en =  They must go to school and shool is nice.
+# validated_by = B-CARON
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=1350170|AlignEnd=1350340|Gloss=must
 2	an	sun	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=1350340|AlignEnd=1350520|Gloss=4.Perf
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=1350520|AlignEnd=135070|Gloss=do
 4	boːkòː	boːkòː	NOUN	_	_	3	comp:obj@lvc	_	AlignBegin=135070|AlignEnd=1350870|Gloss=school
-5	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=1350870|AlignEnd=1351050|Gloss=PUNCT
-6	kuma	kuma	CCONJ	_	_	9	cc	_	AlignBegin=1351390|AlignEnd=1351780|Gloss=too
+5	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=1350870|AlignEnd=1351050|Gloss=PUNCT
+6	kuma	kuma	CCONJ	_	_	10	cc	_	AlignBegin=1351390|AlignEnd=1351780|Gloss=too
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=1351780|AlignEnd=1352170|Gloss=PUNCT
-8	boːkòː	boːkòː	NOUN	_	_	9	subj	_	AlignBegin=1352540|AlignEnd=1352920|Gloss=school
-9	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	conj:coord	_	AlignBegin=1352920|AlignEnd=135330|Gloss=3Masc.Pred/Loc
-10	dà	dà	ADP	_	_	9	comp:pred	_	AlignBegin=135330|AlignEnd=1353680|Gloss=with
-11	daːɗiː	daːɗiː	NOUN	_	_	10	comp:obj	_	AlignBegin=1353680|AlignEnd=1354070|Gloss=pleasure
-12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=1354070|AlignEnd=1354450|Gloss=PUNCT
+8	boːkòː	boːkòː	NOUN	_	_	10	dislocated@subj	_	AlignBegin=1352540|AlignEnd=1352920|Gloss=school
+9	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=1352920|AlignEnd=135330|Gloss=3Masc
+10	nàː	nàː/kè	AUX	_	_	2	conj:coord	_	AlignBegin=1352920|AlignEnd=135330|Gloss=Pred/Loc
+11	dà	dà	ADP	_	_	10	comp:pred	_	AlignBegin=135330|AlignEnd=1353680|Gloss=with
+12	daːɗiː	daːɗiː	NOUN	_	_	11	comp:obj	_	AlignBegin=1353680|AlignEnd=1354070|Gloss=pleasure
+13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=1354070|AlignEnd=1354450|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1212-1212
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1354450, 1355109
 # phonetic_text = yanàː dà illàː //
-# text = yanàː dà illàː //
+# text = ya nàː dà illàː //
 # text_en =  It has disadvantgages.
-1	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=1354450|AlignEnd=1354620|Gloss=3Masc.Pred/Loc
-2	dà	dà	ADP	_	_	1	comp:pred	_	AlignBegin=1354620|AlignEnd=1354780|Gloss=with
-3	illàː	illàː	NOUN	_	_	2	comp:obj	_	AlignBegin=1354780|AlignEnd=1354940|Gloss=disadvantage
-4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1354940|AlignEnd=1355110|Gloss=PUNCT
+# validated_by = B-CARON
+1	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=1354450|AlignEnd=1354620|Gloss=3Masc
+2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=1354450|AlignEnd=1354620|Gloss=Pred/Loc
+3	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=1354620|AlignEnd=1354780|Gloss=with
+4	illàː	illàː	NOUN	_	_	3	comp:obj	_	AlignBegin=1354780|AlignEnd=1354940|Gloss=disadvantage
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=1354940|AlignEnd=1355110|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1213-1213
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1355627, 1356447
 # phonetic_text = yanàː dà illàː //
-# text = yanàː dà illàː //
+# text = ya nàː dà illàː //
 # text_en =  It has disadvantages.
-1	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=1355630|AlignEnd=1355830|Gloss=3Masc.Pred/Loc
-2	dà	dà	ADP	_	_	1	comp:pred	_	AlignBegin=1355830|AlignEnd=1356040|Gloss=with
-3	illàː	illàː	NOUN	_	_	2	comp:obj	_	AlignBegin=1356040|AlignEnd=1356240|Gloss=disadvantage
-4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1356240|AlignEnd=1356450|Gloss=PUNCT
+# validated_by = B-CARON
+1	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=1355630|AlignEnd=1355830|Gloss=3Masc
+2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=1355630|AlignEnd=1355830|Gloss=Pred/Loc
+3	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=1355830|AlignEnd=1356040|Gloss=with
+4	illàː	illàː	NOUN	_	_	3	comp:obj	_	AlignBegin=1356040|AlignEnd=1356240|Gloss=disadvantage
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=1356240|AlignEnd=1356450|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1214-1214
 # speaker_id = SP1

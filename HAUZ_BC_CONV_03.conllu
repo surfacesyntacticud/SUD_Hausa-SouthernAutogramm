@@ -150,25 +150,29 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 18881, 19912
 # phonetic_text = yanàː dà kir̃kìː kùwa //
-# text = yanàː dà kir̃kìː kùwa ?//
+# text = ya nàː dà kir̃kìː kùwa ?//
 # text_en =  And is he good?
-1	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=18881|AlignEnd=19087|Gloss=3Masc.Pred/Loc
-2	dà	dà	ADP	_	_	1	comp:pred	_	AlignBegin=19087|AlignEnd=19293|Gloss=with
-3	kir̃kìː	kir̃kìː	NOUN	_	_	2	comp:obj	_	AlignBegin=19293|AlignEnd=19499|Gloss=goodness
-4	kùwa	kùwa	TopPART	_	_	1	discourse	_	AlignBegin=19499|AlignEnd=19705|Gloss=as_for|PartType=Int
-5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=19705|AlignEnd=19912|Gloss=PUNCT
+# validated_by = B-CARON
+1	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=18881|AlignEnd=19087|Gloss=3Masc
+2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=18881|AlignEnd=19087|Gloss=Pred/Loc
+3	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=19087|AlignEnd=19293|Gloss=with
+4	kir̃kìː	kir̃kìː	NOUN	_	_	3	comp:obj	_	AlignBegin=19293|AlignEnd=19499|Gloss=goodness
+5	kùwa	kùwa	TopPART	_	_	2	discourse	_	AlignBegin=19499|AlignEnd=19705|Gloss=as_for|PartType=Int
+6	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=19705|AlignEnd=19912|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__13
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 20149, 21084
 # phonetic_text = yanàː dà kir̃kìː //
-# text = yanàː dà kir̃kìː //
+# text = ya nàː dà kir̃kìː //
 # text_en =  He's good.
-1	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=20149|AlignEnd=20383|Gloss=3Masc.Pred/Loc
-2	dà	dà	ADP	_	_	1	comp:pred	_	AlignBegin=20383|AlignEnd=20617|Gloss=with
-3	kir̃kìː	kir̃kìː	NOUN	_	_	2	comp:obj	_	AlignBegin=20617|AlignEnd=20851|Gloss=goodness
-4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=20851|AlignEnd=21084|Gloss=PUNCT
+# validated_by = B-CARON
+1	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=20149|AlignEnd=20383|Gloss=3Masc
+2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=20149|AlignEnd=20383|Gloss=Pred/Loc
+3	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=20383|AlignEnd=20617|Gloss=with
+4	kir̃kìː	kir̃kìː	NOUN	_	_	3	comp:obj	_	AlignBegin=20617|AlignEnd=20851|Gloss=goodness
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=20851|AlignEnd=21084|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__14
 # speaker_id = SP1
@@ -2132,8 +2136,9 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 270921, 273411
 # phonetic_text = tòː dâːmaː yaː daːwoː dà wânnan bùdurwaː -ǹ naː -shì / dà yanàː ƙauyèː //
-# text = tòː dâːmaː yaː daːwoː dà wânnan bùdurwân naːshì dà yanàː ƙauyèː //
+# text = tòː dâːmaː yaː daːwoː dà wânnan bùdurwân naːshì dà ya nàː ƙauyèː //
 # text_en =  Well originally he had come back with that girlfriend of his, who was in the village.
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=270921|AlignEnd=271118|Gloss=well
 2	dâːmaː	dâːmaː	ADV	_	_	3	mod	_	AlignBegin=271118|AlignEnd=271315|Gloss=originally
 3	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=271315|AlignEnd=271512|Gloss=3Masc.Perf
@@ -2143,9 +2148,10 @@
 7	bùdurwân	bùdurwaː	NOUN	_	Definite=Def	5	comp:obj	_	AlignBegin=272103|AlignEnd=272201|Gloss=girlfriend.Def|wordform=bùdurwaː
 8	naːshì	naːshì	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	mod@poss	_	AlignBegin=272300|AlignEnd=272398|Gloss=3Masc.Gen
 9	dà	dà	SCONJ	_	_	7	mod@relcl	_	AlignBegin=272694|AlignEnd=272873|Gloss=COMP
-10	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	9	comp:obj	_	AlignBegin=272873|AlignEnd=273052|Gloss=3Masc.Pred/Loc
-11	ƙauyèː	ƙauyèː	NOUN	_	_	10	comp:pred	_	AlignBegin=273052|AlignEnd=273231|Gloss=village
-12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=273231|AlignEnd=273411|Gloss=PUNCT
+10	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	11	subj	_	AlignBegin=272873|AlignEnd=273052|Gloss=3Masc
+11	nàː	nàː/kè	AUX	_	_	9	comp:obj	_	AlignBegin=272873|AlignEnd=273052|Gloss=Pred/Loc
+12	ƙauyèː	ƙauyèː	NOUN	_	_	11	comp:pred	_	AlignBegin=273052|AlignEnd=273231|Gloss=village
+13	//	//	PUNCT	_	_	3	punct	_	AlignBegin=273231|AlignEnd=273411|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__149
 # speaker_id = SP1
@@ -2956,19 +2962,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 364604, 366628
 # phonetic_text = tòː / kuma shiː wâː -ǹ / yanàː dà wani àboːkiː //
-# text = tòː / kuma shiː wân / yanàː dà wani àboːkiː //
+# text = tòː < kuma shiː wân < ya nàː dà wani àboːkiː //
 # text_en =  Well, as for the elder brother, he had a friend.
-1	tòː	tòː	INTJ	_	_	7	discourse	_	AlignBegin=364604|AlignEnd=364744|Gloss=well
+# validated_by = B-CARON
+1	tòː	tòː	INTJ	_	_	8	discourse	_	AlignBegin=364604|AlignEnd=364744|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=364744|AlignEnd=364884|Gloss=PUNCT
-3	kuma	kuma	TopPART	_	_	7	discourse	_	AlignBegin=364884|AlignEnd=365024|Gloss=too
-4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=365024|AlignEnd=365164|Gloss=3Masc.Nom
+3	kuma	kuma	CCONJ	_	_	8	cc	_	AlignBegin=364884|AlignEnd=365024|Gloss=too
+4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	dislocated@subj	_	AlignBegin=365024|AlignEnd=365164|Gloss=3Masc.Nom
 5	wân	wâː	NOUN	_	Definite=Def	4	conj:appos	_	AlignBegin=365164|AlignEnd=365234|Gloss=elder_brother.Def|wordform=wâː
 6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=365304|AlignEnd=365441|Gloss=PUNCT
-7	yanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=365441|AlignEnd=365678|Gloss=3Masc.Pred/Loc
-8	dà	dà	ADP	_	_	7	comp:pred	_	AlignBegin=365678|AlignEnd=365915|Gloss=with
-9	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	10	det	_	AlignBegin=365915|AlignEnd=366152|Gloss=some.Masc
-10	àboːkiː	àboːkiː	NOUN	_	_	8	comp:obj	_	AlignBegin=366152|AlignEnd=366389|Gloss=friend
-11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=366389|AlignEnd=366628|Gloss=PUNCT
+7	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	subj	_	AlignBegin=365441|AlignEnd=365678|Gloss=3Masc
+8	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=365441|AlignEnd=365678|Gloss=Pred/Loc
+9	dà	dà	ADP	_	_	8	comp:pred	_	AlignBegin=365678|AlignEnd=365915|Gloss=with
+10	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	11	det	_	AlignBegin=365915|AlignEnd=366152|Gloss=some.Masc
+11	àboːkiː	àboːkiː	NOUN	_	_	9	comp:obj	_	AlignBegin=366152|AlignEnd=366389|Gloss=friend
+12	//	//	PUNCT	_	_	8	punct	_	AlignBegin=366389|AlignEnd=366628|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__201
 # speaker_id = SP1
