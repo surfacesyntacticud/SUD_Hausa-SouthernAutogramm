@@ -660,7 +660,7 @@
 # text = tòː kyâː hàɗu dà maːlàmîn dai //
 # text_en =  Well, sooner or later you will see the teacher indeed!
 1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=80060|AlignEnd=80276|Gloss=well
-2	kyâː	swâː/asu	AUX	_	Gender=Fem|Person=2|Tense=Pred	0	root	_	AlignBegin=80276|AlignEnd=80492|Gloss=2Fem.Pred
+2	kyâː	swâː/asu	AUX	_	Gender=Fem|Person=2|Tense=Predict	0	root	_	AlignBegin=80276|AlignEnd=80492|Gloss=2Fem.Predict
 3	hàɗu	hàɗu	VERB	_	_	2	comp:aux	_	AlignBegin=80492|AlignEnd=80708|Gloss=gather
 4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=80708|AlignEnd=80924|Gloss=with
 5	maːlàmîn	maːlàmiː	NOUN	_	Definite=Def	4	comp:obj	_	AlignBegin=80924|AlignEnd=81032|Gloss=teacher.Def|wordform=maːlàmiː
@@ -940,7 +940,7 @@
 # text_en =  Well, sooner or later you will meet him.
 1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=120458|AlignEnd=120613|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=120613|AlignEnd=120768|Gloss=PUNCT
-3	kyâː	swâː/asu	AUX	_	Gender=Fem|Person=2|Tense=Pred	0	root	_	AlignBegin=120768|AlignEnd=120923|Gloss=2Fem.Pred
+3	kyâː	swâː/asu	AUX	_	Gender=Fem|Person=2|Tense=Predict	0	root	_	AlignBegin=120768|AlignEnd=120923|Gloss=2Fem.Predict
 4	gàmu	gam-	VERB	_	_	3	comp:aux	_	AlignBegin=120923|AlignEnd=121078|Gloss=meet
 5	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=121078|AlignEnd=121233|Gloss=with
 6	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=121233|AlignEnd=121388|Gloss=3Masc.Nom
@@ -2634,11 +2634,12 @@
 # phonetic_text = kin sanìː ita bàːƙuwaː cèː //
 # text = kin san ita bàːƙuwaː cèː //
 # text_en =  You know, she was a stranger.
+# validated_by = B-CARON
 1	kin	sun	AUX	_	Aspect=Perf|Gender=Fem|Person=2	5	discourse	_	AlignBegin=325965|AlignEnd=326160|Gloss=2Fem.Perf
 2	sanìː	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=326160|AlignEnd=326355|Gloss=know
 3	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	5	subj	_	AlignBegin=326355|AlignEnd=326550|Gloss=3Fem.Nom
-4	bàːƙuwaː	bàːƙuwaː	NOUN	_	_	5	comp:pred	_	AlignBegin=326550|AlignEnd=326745|Gloss=stranger.F
-5	cèː	neː/naː	PART	_	Gender=Fem	0	root	_	AlignBegin=326745|AlignEnd=326940|Gloss=Ident/Foc.Fem
+4	bàːƙuwaː	bàːƙuwaː	NOUN	_	Gender=Fem	5	comp:pred	_	AlignBegin=326550|AlignEnd=326745|Gloss=stranger.Fem
+5	cèː	neː/naː	AUX	_	Gender=Fem	0	root	_	AlignBegin=326745|AlignEnd=326940|Gloss=Ident/Foc.Fem
 6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=326940|AlignEnd=327136|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__182
