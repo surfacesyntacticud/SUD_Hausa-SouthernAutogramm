@@ -1396,11 +1396,12 @@
 # phonetic_text = yanàː ta girmaː / cikìː yanàː ta girmaː /
 # text = yanàː ta girmaː / cikìː yanàː ta girmaː /
 # text_en =  It kept growing bigger, his belly kept growing bigger.
+# validated_by = B-CARON
 1	yanàː	nàː/kèː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=170190|AlignEnd=170432|Gloss=3Masc.Prog
 2	ta	ta	ADP	_	Aspect=Iter	1	comp:aux	_	AlignBegin=170432|AlignEnd=170674|Gloss=Iter
 3	girmaː	girm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=170674|AlignEnd=170916|Gloss=grow.Vnoun
 4	cikìː	cikìː	NOUN	_	_	5	subj	_	AlignBegin=171159|AlignEnd=171395|Gloss=belly
-5	yanàː	nàː/kèː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	1	parataxis	_	AlignBegin=171395|AlignEnd=171631|Gloss=3Masc.Prog
+5	yanàː	nàː/kèː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	1	conj:redup	_	AlignBegin=171395|AlignEnd=171631|Gloss=3Masc.Prog
 6	ta	ta	ADP	_	Aspect=Iter	5	comp:aux	_	AlignBegin=171631|AlignEnd=171867|Gloss=Iter
 7	girmaː	girm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=171867|AlignEnd=172103|Gloss=grow.Vnoun
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=172103|AlignEnd=172340|Gloss=PUNCT

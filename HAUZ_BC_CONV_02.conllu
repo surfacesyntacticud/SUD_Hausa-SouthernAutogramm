@@ -188,7 +188,7 @@
 24	Àlhajì	Àlhajì	PROPN	_	_	21	conj:coord	_	AlignBegin=27873|AlignEnd=28085|Gloss=Alhaji
 25	wandà	wandà	PRON	_	PronType=Rel	24	mod@relcl	_	AlignBegin=28085|AlignEnd=28297|Gloss=who
 26	ni	ni	PRON	_	Aspect=ProgLocBkg|Number=Sing|Person=1	27	subj	_	AlignBegin=28297|AlignEnd=28509|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
-27	kè	nàː/kè	AUX	_	Aspect=ProgLocBkg|Number=Sing|Person=1	25	comp:obj	_	AlignBegin=28297|AlignEnd=28509|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
+27	kè	nàː/kè	AUX	_	Aspect=ProgLocBkg|Number=Sing|Person=1	25	udep	_	AlignBegin=28297|AlignEnd=28509|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
 28	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	27	comp:pred	_	AlignBegin=28509|AlignEnd=28721|Gloss=stay.Stat
 29	à	à	ADP	_	ExtPos=ADP	28	comp:loc	_	AlignBegin=28721|AlignEnd=28933|Gloss=at|Idiom=Yes
 30	wajen	wajeː	NOUN	_	Definite=Cons	29	compound	_	AlignBegin=28933|AlignEnd=29039|Gloss=side.Cons|InIdiom=Yes
@@ -429,12 +429,12 @@
 5	àwàːkai	àkwiyàː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=47904|AlignEnd=48020|Gloss=goat.Plur
 6	maː	maː	TopPART	_	_	5	discourse	_	AlignBegin=48135|AlignEnd=48366|Gloss=even
 7	yànzu	yànzu	ADV	_	_	3	mod	_	AlignBegin=48366|AlignEnd=48597|Gloss=now
-8	wandà	wandà	PRON	_	ExtPos=PRON|PronType=Rel	10	dislocated@subj	_	AlignBegin=48597|AlignEnd=48828|Gloss=which
+8	wandà	wandà	PRON	_	ExtPos=PRON|PronType=Rel	5	mod@relcl	_	AlignBegin=48597|AlignEnd=48828|Gloss=which
 9	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=48828|AlignEnd=49059|Gloss=3Masc
-10	kè	naː/kè	AUX	_	_	5	mod@relcl	_	AlignBegin=48828|AlignEnd=49059|Background=Yes|Gloss=Pred/Loc.Bkg
+10	kè	naː/kè	AUX	_	_	8	discourse@foc	_	AlignBegin=48828|AlignEnd=49059|Background=Yes|Gloss=Pred/Loc.Bkg
 11	wânnan	wânnan	PRON	_	Definite=Def	13	subj	_	AlignBegin=49059|AlignEnd=49290|Gloss=Def
 12	nàːwaː	nàːwaː	PRON	_	Number=Sing|Person=1|PronType=Prs	13	comp:pred	_	AlignBegin=49290|AlignEnd=49406|Gloss=1Sing.Gen
-13	nèː	neː/ceː	AUX	_	_	10	comp:cleft	_	AlignBegin=49521|AlignEnd=49752|Gloss=Foc/Ident
+13	nèː	neː/ceː	AUX	_	_	8	comp:obj	_	AlignBegin=49521|AlignEnd=49752|Gloss=Foc/Ident
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=49752|AlignEnd=49980|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_051-051
@@ -728,44 +728,46 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 80339, 90250
 # phonetic_text = tundà yànzu munàː dà sâː -uː\H / wandà -ːːː / àː -ːːː / mukèː àmfàːniː dà suː / wajen hùːɗaː -n farkoː / dà kuma hùːɗaː na kàrkeː X /
-# text = yànzu mu nàː dà gàrmaː na || wandà yakèː munàː haɗàːwaː dà shaːnuː yà manà àbîn nàn tundà yànzu mu nàː dà shaːnuː wandà àː mukèː àmfàːniː dà suː wajen hùːɗan farkoː dà kuma hùːɗaː na kàrkeː //
+# text = yànzu munàː dà gàrmaː na || wandà ya kè munàː haɗàːwaː dà shaːnuː yà manà àbîn nàn tundà yànzu munàː dà shaːnuː wandà àː mukèː àmfàːniː dà suː wajen hùːɗan farkoː dà kuma hùːɗaː na kàrkeː //
 # text_en =  Now, we have a plough that we use with cows, to do that thing, since now, we have cattle, that er.. we use for the first billowing and also for the final billowing.
+# validated_by = B-CARON
 1	yànzu	yànzu	ADV	_	_	2	mod	_	AlignBegin=80339|AlignEnd=80527|Gloss=now
 2	munàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=1	0	root	_	AlignBegin=80527|AlignEnd=80715|Gloss=1Plur.Prog|wordform=nàː
 3	dà	dà	ADP	_	_	2	comp:loc	_	AlignBegin=80715|AlignEnd=80809|Gloss=with
 4	gàrmaː	gàrmaː	NOUN	_	_	3	comp:obj	_	AlignBegin=81093|AlignEnd=81359|Gloss=plough
 5	na	na~ta	ADP	_	Definite=Cons	4	mod	_	AlignBegin=81850|AlignEnd=81924|Gloss=of
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=81998|AlignEnd=82146|Gloss=PUNCT
-7	wandà	wandà	PRON	_	ExtPos=PRON|PronType=Rel	5	conj:dicto	_	AlignBegin=82146|AlignEnd=82358|Gloss=which|Idiom=Yes
-8	yakèː	kèː/kà	AUX	_	Aspect=ProgBkg|Gender=Masc|Person=3	7	unk	_	AlignBegin=82358|AlignEnd=82570|Background=Yes|Gloss=3Masc.Prog.Bkg|InIdiom=Yes
-9	munàː	nàː/kèː	AUX	_	Aspect=Prog|Number=Plur|Person=1	7	comp:obj	_	AlignBegin=82570|AlignEnd=82782|Gloss=1Plur.Prog
-10	haɗàːwaː	haɗàːwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=82782|AlignEnd=82888|Gloss=join.Vnoun
-11	dà	dà	ADP	_	_	10	comp:obl	_	AlignBegin=82994|AlignEnd=83206|Gloss=COMP
-12	shaːnuː	shaːnuː	NOUN	_	Number=Plur	11	comp:obj	_	AlignBegin=83206|AlignEnd=83312|Gloss=cow.Plur
-13	yà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=3	10	mod	_	AlignBegin=83628|AlignEnd=83768|Gloss=3Masc.Aor
-14	manà	manàː	PRON	_	Number=Plur|Person=1|PronType=Prs	13	comp:obl	_	AlignBegin=83768|AlignEnd=83908|Gloss=1Plur
-15	àbîn	àbîː	NOUN	_	Definite=Def	13	comp:obj	_	AlignBegin=83908|AlignEnd=83978|Gloss=thing.Def
-16	nàn	nàn	DET	_	PronType=Dem	15	det	_	AlignBegin=84048|AlignEnd=84188|Deixis=Prox|Gloss=Prox
-17	tundà	tundà	SCONJ	_	_	13	mod	_	AlignBegin=84326|AlignEnd=84644|Gloss=since
-18	yànzu	yànzu	ADV	_	_	19	mod	_	AlignBegin=84644|AlignEnd=84963|Gloss=now
-19	munàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=1	17	comp:obj	_	AlignBegin=84963|AlignEnd=85153|Gloss=1Plur.Prog|wordform=nàː
-20	dà	dà	ADP	_	_	19	comp:loc	_	AlignBegin=85153|AlignEnd=85343|Gloss=COMP
-21	shaːnuː	shaːnuː	NOUN	_	Number=Plur	20	comp:obj	_	AlignBegin=85343|AlignEnd=85438|Gloss=cow.Plur
-22	wandà	wandà	PRON	_	PronType=Rel	21	mod@relcl	_	AlignBegin=86042|AlignEnd=86237|Gloss=which
-23	àː	àː	INTJ	_	_	24	discourse	_	AlignBegin=86821|AlignEnd=86868|Gloss=FILL
-24	mukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=1	22	comp:obj	_	AlignBegin=87008|AlignEnd=87197|Background=Yes|Gloss=1Plur.Prog.Bkg
-25	àmfàːniː	àmfàːniː	NOUN	_	_	24	comp:aux	_	AlignBegin=87197|AlignEnd=87386|Gloss=using
-26	dà	dà	ADP	_	_	25	comp:obl	_	AlignBegin=87386|AlignEnd=87575|Gloss=with
-27	suː	suː	PRON	_	Number=Plur|Person=2|PronType=Prs	26	comp:obj	_	AlignBegin=87575|AlignEnd=87764|Gloss=2Plur.Nom|Resumpt=Yes
-28	wajen	wajen	ADP	_	_	25	comp:obl	_	AlignBegin=88133|AlignEnd=88396|Gloss=around
-29	hùːɗan	hùːɗan	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	28	comp:obj	_	AlignBegin=88396|AlignEnd=88528|Gloss=billow.Vnoun.Cons|wordform=hùːɗaː
-30	farkoː	farkoː	NOUN	_	_	29	mod	_	AlignBegin=88659|AlignEnd=88922|Gloss=beginning
-31	dà	dà	CCONJ	_	_	33	cc	_	AlignBegin=89186|AlignEnd=89338|Gloss=and
-32	kuma	kuma	TopPART	_	_	31	discourse	_	AlignBegin=89338|AlignEnd=89490|Gloss=also
-33	hùːɗaː	hùːɗaː	NOUN	_	_	29	conj:coord	_	AlignBegin=89490|AlignEnd=89642|Gloss=billowing
-34	na	na~ta	ADP	_	Definite=Cons	33	mod	_	AlignBegin=89642|AlignEnd=89794|Gloss=of
-35	kàrkeː	kàrkeː	NOUN	_	_	34	comp:obj	_	AlignBegin=89794|AlignEnd=89946|Gloss=finish
-36	//	//	PUNCT	_	_	2	punct	_	AlignBegin=90098|AlignEnd=90250|Gloss=PUNCT
+7	wandà	wandà	PRON	_	ExtPos=PRON|PronType=Rel	5	conj:dicto	_	AlignBegin=82146|AlignEnd=82358|Gloss=which
+8	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	subj	_	AlignBegin=82358|AlignEnd=82570|Gloss=3Masc
+9	kè	nàː/kè	AUX	_	_	7	discourse@foc	_	AlignBegin=82358|AlignEnd=82570|Background=Yes|Gloss=Pred/Loc.Bkg
+10	munàː	nàː/kèː	AUX	_	Aspect=Prog|Number=Plur|Person=1	7	comp:obj	_	AlignBegin=82570|AlignEnd=82782|Gloss=1Plur.Prog
+11	haɗàːwaː	haɗàːwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	10	comp:aux	_	AlignBegin=82782|AlignEnd=82888|Gloss=join.Vnoun
+12	dà	dà	ADP	_	_	11	comp:obl	_	AlignBegin=82994|AlignEnd=83206|Gloss=COMP
+13	shaːnuː	shaːnuː	NOUN	_	Number=Plur	12	comp:obj	_	AlignBegin=83206|AlignEnd=83312|Gloss=cow.Plur
+14	yà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=3	11	mod	_	AlignBegin=83628|AlignEnd=83768|Gloss=3Masc.Aor
+15	manà	manàː	PRON	_	Number=Plur|Person=1|PronType=Prs	14	comp:obl	_	AlignBegin=83768|AlignEnd=83908|Gloss=1Plur
+16	àbîn	àbîː	NOUN	_	Definite=Def	14	comp:obj	_	AlignBegin=83908|AlignEnd=83978|Gloss=thing.Def
+17	nàn	nàn	DET	_	PronType=Dem	16	det	_	AlignBegin=84048|AlignEnd=84188|Deixis=Prox|Gloss=Prox
+18	tundà	tundà	SCONJ	_	_	14	mod	_	AlignBegin=84326|AlignEnd=84644|Gloss=since
+19	yànzu	yànzu	ADV	_	_	20	mod	_	AlignBegin=84644|AlignEnd=84963|Gloss=now
+20	munàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=1	18	comp:obj	_	AlignBegin=84963|AlignEnd=85153|Gloss=1Plur.Prog|wordform=nàː
+21	dà	dà	ADP	_	_	20	comp:loc	_	AlignBegin=85153|AlignEnd=85343|Gloss=COMP
+22	shaːnuː	shaːnuː	NOUN	_	Number=Plur	21	comp:obj	_	AlignBegin=85343|AlignEnd=85438|Gloss=cow.Plur
+23	wandà	wandà	PRON	_	PronType=Rel	22	mod@relcl	_	AlignBegin=86042|AlignEnd=86237|Gloss=which
+24	àː	àː	INTJ	_	_	25	discourse	_	AlignBegin=86821|AlignEnd=86868|Gloss=FILL
+25	mukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=1	23	udep	_	AlignBegin=87008|AlignEnd=87197|Background=Yes|Gloss=1Plur.Prog.Bkg
+26	àmfàːniː	àmfàːniː	NOUN	_	_	25	comp:aux	_	AlignBegin=87197|AlignEnd=87386|Gloss=using
+27	dà	dà	ADP	_	_	26	comp:obl	_	AlignBegin=87386|AlignEnd=87575|Gloss=with
+28	suː	suː	PRON	_	Number=Plur|Person=2|PronType=Prs	27	comp:obj	_	AlignBegin=87575|AlignEnd=87764|Gloss=2Plur.Nom|Resumpt=Yes
+29	wajen	wajen	ADP	_	_	26	comp:obl	_	AlignBegin=88133|AlignEnd=88396|Gloss=around
+30	hùːɗan	hùːɗan	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	29	comp:obj	_	AlignBegin=88396|AlignEnd=88528|Gloss=billow.Vnoun.Cons|wordform=hùːɗaː
+31	farkoː	farkoː	NOUN	_	_	30	mod	_	AlignBegin=88659|AlignEnd=88922|Gloss=beginning
+32	dà	dà	CCONJ	_	_	34	cc	_	AlignBegin=89186|AlignEnd=89338|Gloss=and
+33	kuma	kuma	TopPART	_	_	32	discourse	_	AlignBegin=89338|AlignEnd=89490|Gloss=also
+34	hùːɗaː	hùːɗaː	NOUN	_	_	30	conj:coord	_	AlignBegin=89490|AlignEnd=89642|Gloss=billowing
+35	na	na~ta	ADP	_	Definite=Cons	34	mod	_	AlignBegin=89642|AlignEnd=89794|Gloss=of
+36	kàrkeː	kàrkeː	NOUN	_	_	35	comp:obj	_	AlignBegin=89794|AlignEnd=89946|Gloss=finish
+37	//	//	PUNCT	_	_	2	punct	_	AlignBegin=90098|AlignEnd=90250|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_088-088
 # speaker_id = SP1
@@ -1054,6 +1056,7 @@
 # phonetic_text = irìː -ǹ na gar̃gajiyaː -ːːː / bà zâi yi ba / tundà bàː àmfàːniː ba nèː wandà mukèː dà shiː // kàmar̃ yandà kàːkaː -anniː\LH -n -mù dà -ːːː sukèː bâː mù làːbaːr̃ìː can baːya //
 # text = irìn na gar̃gajiyaː < bà zâi yi ba > tundà bàː àmfàːniː ba nèː wandà mukè dà shiː > kàmar̃ yandà kàːkànnin =mù dà sukèː baː mù làːbaːr̃ìː can baːya //
 # text_en =  Manure... won't do since we don't use it like our grandfathers used to tell us in the old days.
+# validated_by = B-CARON
 1	irìn	irìː	NOUN	_	Definite=Def	6	dislocated@subj	_	AlignBegin=116298|AlignEnd=116404|Gloss=type.Def|wordform=irìː
 2	na	na~ta	ADP	_	Definite=Cons	1	comp:obj	_	AlignBegin=116511|AlignEnd=116724|Gloss=of
 3	gar̃gajiyaː	gar̃gajiyaː	NOUN	_	_	2	comp:obj	_	AlignBegin=116724|AlignEnd=116830|Gloss=old_times
@@ -1064,12 +1067,12 @@
 8	ba	ba	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=117530|AlignEnd=117597|Gloss=Neg
 9	>	>	PUNCT	_	_	10	punct	_	AlignBegin=117597|AlignEnd=117664|Gloss=PUNCT
 10	tundà	tundà	SCONJ	_	_	6	mod	_	AlignBegin=117664|AlignEnd=117802|Gloss=since
-11	bàː	bàː	ADV	_	Polarity=Neg	12	mod	_	AlignBegin=117802|AlignEnd=117940|Gloss=Neg
-12	àmfàːniː	àmfàːniː	NOUN	_	_	14	comp:pred	_	AlignBegin=117940|AlignEnd=118078|Gloss=use
+11	bàː	bàː	PredPART	_	Polarity=Neg	10	comp:obj	_	AlignBegin=117802|AlignEnd=117940|Gloss=Neg
+12	àmfàːniː	àmfàːniː	NOUN	_	_	11	subj	_	AlignBegin=117940|AlignEnd=118078|Gloss=use
 13	ba	ba	ADV	_	Polarity=Neg	12	mod	_	AlignBegin=118078|AlignEnd=118216|Gloss=Neg
-14	nèː	neː/ceː	AUX	_	_	10	comp:obj	_	AlignBegin=118216|AlignEnd=118354|Gloss=Foc/Ident
-15	wandà	wandà	PRON	_	PronType=Rel	17	comp:obj	_	AlignBegin=118354|AlignEnd=118492|Gloss=which
-16	mukè	kè	AUX	_	Aspect=ProgLocBkg|Number=Plur|Person=1	12	mod@relcl	_	AlignBegin=118492|AlignEnd=118630|Background=Yes|Gloss=1Plur.Pred/Loc.Bkg
+14	nèː	neː/ceː	AUX	_	_	12	discourse@foc	_	AlignBegin=118216|AlignEnd=118354|Gloss=Foc/Ident
+15	wandà	wandà	PRON	_	PronType=Rel	12	mod@relcl	_	AlignBegin=118354|AlignEnd=118492|Gloss=which
+16	mukè	kè	AUX	_	Aspect=ProgLocBkg|Number=Plur|Person=1	15	comp:obj	_	AlignBegin=118492|AlignEnd=118630|Background=Yes|Gloss=1Plur.Pred/Loc.Bkg
 17	dà	dà	ADP	_	_	16	comp:loc	_	AlignBegin=118630|AlignEnd=118768|Gloss=with
 18	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=118768|AlignEnd=118906|Gloss=3Masc.Nom|Resumpt=Yes
 19	>	>	PUNCT	_	_	20	punct	_	AlignBegin=118906|AlignEnd=119048|Gloss=PUNCT
@@ -1454,11 +1457,12 @@
 # phonetic_text = wannàn shiː kuma wandà ya zoː ya shuːkàː / yaː shuːkàː wannàn / bài sâː dà àbù -ǹ nan zaː'à ganiː -ːːː / bàː -ːːː X ʔàʔè -ːːː X
 # text = wannàn shiː kuma wandà ya zoː ya shuːkàː || yaː shuːkàː wannàn |c bài sâː dà àbîn nan zaː'à ga bàː ʔàʔè &//
 # text_en =  The one who has planted who has planted that thing and who has not put any of that thing, you will see... he won't er er...
+# validated_by = B-CARON
 1	wannàn	wannàn	DET	_	PronType=Dem	19	dislocated@top	_	AlignBegin=153245|AlignEnd=153398|Deixis=Prox|Gloss=Prox
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	1	conj:coord	_	AlignBegin=153398|AlignEnd=153551|Gloss=3Masc.Nom
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	19	dislocated@top	_	AlignBegin=153398|AlignEnd=153551|Gloss=3Masc.Nom
 3	kuma	kuma	TopPART	_	_	2	discourse	_	AlignBegin=153551|AlignEnd=153704|Gloss=too
-4	wandà	wandà	PRON	_	PronType=Rel	5	subj	_	AlignBegin=153704|AlignEnd=153857|Gloss=who
-5	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	2	mod@relcl	_	AlignBegin=153857|AlignEnd=154010|Background=Yes|Gloss=3Masc.Perf.Bkg
+4	wandà	wandà	PRON	_	PronType=Rel	19	dislocated@top	_	AlignBegin=153704|AlignEnd=153857|Gloss=who
+5	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	4	mod@relcl	_	AlignBegin=153857|AlignEnd=154010|Background=Yes|Gloss=3Masc.Perf.Bkg
 6	zoː	zoː	VERB	_	_	5	comp:aux	_	AlignBegin=154010|AlignEnd=154163|Gloss=come
 7	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	5	conj:svc	_	AlignBegin=154163|AlignEnd=154316|Background=Yes|Gloss=3Masc.Perf.Bkg
 8	shuːkàː	shuːk-	VERB	_	_	7	comp:aux	_	AlignBegin=154316|AlignEnd=154469|Gloss=harvest
@@ -1503,7 +1507,7 @@
 3	wânnan	wânnan	PRON	_	Definite=Def	2	conj:appos	_	AlignBegin=157909|AlignEnd=158096|Gloss=Def
 4	wandà	wandà	PRON	_	PronType=Rel	3	mod@relcl	_	AlignBegin=158096|AlignEnd=158283|Gloss=who
 5	ka	ka	PRON	_	Aspect=ProgLocBkg|Gender=Masc|Person=2	6	subj	_	AlignBegin=158283|AlignEnd=158470|Background=Yes|Gloss=2Masc.Pred/Loc.Bkg
-6	kè	naː/kè	AUX	_	Aspect=ProgLocBkg|Gender=Masc|Person=2	4	comp:obj	_	AlignBegin=158283|AlignEnd=158470|Background=Yes|Gloss=2Masc.Pred/Loc.Bkg
+6	kè	naː/kè	AUX	_	Aspect=ProgLocBkg|Gender=Masc|Person=2	4	udep	_	AlignBegin=158283|AlignEnd=158470|Background=Yes|Gloss=2Masc.Pred/Loc.Bkg
 7	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	6	comp:pred	_	AlignBegin=158470|AlignEnd=158657|Gloss=stay.Stat
 8	à	à	ADP	_	ExtPos=ADP	7	comp:obl	_	AlignBegin=158657|AlignEnd=158844|Gloss=at|Idiom=Yes
 9	wurin	wuriː	NOUN	_	Definite=Cons	8	compound	_	AlignBegin=158844|AlignEnd=158906|Gloss=place.Cons|InIdiom=Yes|wordform=wuriː
@@ -1949,11 +1953,12 @@
 # phonetic_text = wannàn ma- hàifaː -iː\HLH -n -mù wandà sukà fitoː ɗîn / dukà wânnan tsoːhuwaː ita nèː ta -ːːː / hàifaː -eː su //
 # text = wannàn mahàifin =mù wandà sùkà fitoː ɗîn < duw wânnan tsoːhuwaː ita nèː ta hàifeː su //
 # text_en =  Those fathers of us who came, all (of them), that old woman is the one who... gave birth to them.
+# validated_by = B-CARON
 1	wannàn	wannàn	DET	_	PronType=Dem	2	det	_	AlignBegin=201783|AlignEnd=202018|Deixis=Prox|Gloss=Prox
 2	mahàifin	mahàifiː	NOUN	_	Definite=Cons|Gender=Masc	13	dislocated@top	_	AlignBegin=202065|AlignEnd=202112|Gloss=genitor.Masc.Cons
 3	=mù	=mù	PRON	_	Number=Plur|Person=1|PronType=Prs	2	mod:poss	_	AlignBegin=202206|AlignEnd=202253|Gloss=1Plur
-4	wandà	wandà	PRON	_	PronType=Rel	5	subj	_	AlignBegin=202253|AlignEnd=202488|Gloss=who
-5	sukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	2	mod@relcl	_	AlignBegin=202488|AlignEnd=202723|Background=Yes|Gloss=3Plur.Perf.Bkg
+4	wandà	wandà	PRON	_	PronType=Rel	2	mod@relcl	_	AlignBegin=202253|AlignEnd=202488|Gloss=who
+5	sukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	4	comp:obj	_	AlignBegin=202488|AlignEnd=202723|Background=Yes|Gloss=3Plur.Perf.Bkg
 6	fitoː	fitoː	VERB	_	_	5	comp:aux	_	AlignBegin=202723|AlignEnd=202958|Gloss=go.DIR
 7	ɗîn	ɗin	DET	_	Definite=Def	4	det	_	AlignBegin=202958|AlignEnd=203193|Gloss=of.Def
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=203193|AlignEnd=203427|Gloss=PUNCT
@@ -2977,6 +2982,7 @@
 # phonetic_text = tòː shiː kuma wânnan ùngwaː -n fulàːniː / dà kakèː màganàː wandà wânnan kàːkaː naːkù ta taːsoː à cikin -shì / shiː wânnan kuma mài nèː nèː asaliː -ǹ taːr̃iːhiː -n gàriː -ǹ //
 # text = tòː shiː kuma wânnan Ùngwan Fulàːniː dà kakèː màganàː wandà wânnan kàːkaː naːkù ta taːsoː à cikin =shì < shiː wânnan kuma mèːneːnèː asalin taːr̃iːhin gàrîn ?//
 # text_en =  Well as for that Fulani ward, that you are talking about, and you say your grandmother was from there, as for it, what is the original history of the town?
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	23	discourse	_	AlignBegin=306284|AlignEnd=306471|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	23	dislocated@subj	_	AlignBegin=306471|AlignEnd=306658|Gloss=3Masc.Nom
 3	kuma	kuma	TopPART	_	_	2	discourse	_	AlignBegin=306658|AlignEnd=306845|Gloss=too
@@ -2986,11 +2992,11 @@
 7	dà	dà	SCONJ	_	_	5	mod@relcl	_	AlignBegin=307829|AlignEnd=308025|Gloss=COMP
 8	kakèː	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=2	7	comp:obj	_	AlignBegin=308025|AlignEnd=308221|Background=Yes|Gloss=2Masc.Perf.Bkg
 9	màganàː	màganàː	NOUN	_	_	8	comp:aux	_	AlignBegin=308221|AlignEnd=308417|Gloss=speech
-10	wandà	wandà	PRON	_	PronType=Rel	15	comp:source	_	AlignBegin=308417|AlignEnd=308613|Gloss=which
+10	wandà	wandà	PRON	_	PronType=Rel	5	mod@relcl	_	AlignBegin=308417|AlignEnd=308613|Gloss=which
 11	wânnan	wânnan	DET	_	Definite=Def	12	det	_	AlignBegin=308613|AlignEnd=308809|Gloss=Def
 12	kàːkaː	kàːkaː	NOUN	_	_	14	subj	_	AlignBegin=308809|AlignEnd=309005|Gloss=grand-parent
 13	naːkù	naːkù	PRON	_	Case=Gen|Number=Plur|Person=2	12	mod:poss	_	AlignBegin=309005|AlignEnd=309201|Gloss=2Plur.Gen
-14	ta	sukà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	5	mod@relcl	_	AlignBegin=309201|AlignEnd=309397|Background=Yes|Gloss=3Fem.Perf.Bkg
+14	ta	sukà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	10	comp:obj	_	AlignBegin=309201|AlignEnd=309397|Background=Yes|Gloss=3Fem.Perf.Bkg
 15	taːsoː	taːsoː	VERB	_	_	14	comp:aux	_	AlignBegin=309397|AlignEnd=309593|Gloss=leave.DIR
 16	à	à	ADP	_	ExtPos=ADP	15	comp:obl	_	AlignBegin=309593|AlignEnd=309789|Gloss=at|Idiom=Yes
 17	cikin	cikiː	NOUN	_	Definite=Cons	16	compound	_	AlignBegin=309789|AlignEnd=309887|Gloss=inside.Cons|InIdiom=Yes
@@ -3165,8 +3171,9 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 324121, 329296
 # phonetic_text = kaː ganiː dai na farkoː / àkwai shiː / ainihin wânnan gidaː naːmù / wandà akèː cêː mashì gidaː -n / àlhajì iːdi //
-# text = kaː ganiː dai na farkoː < àkwai shiː |a ainihin wânnan gidaː naːmù |a wandà akèː cêː mashì gidan Àlhajì Iːdi //
+# text = kaː ganiː dai na farkoː < àkwai shiː > ainihin wânnan gidaː naːmù |a wandà akèː cêː mashì gidan Àlhajì Iːdi //
 # text_en =  You see, the first one, is really our own ward which they call the ward of Alhaji Idi.
+# validated_by = B-CARON
 1	kaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	discourse	_	AlignBegin=324121|AlignEnd=324346|Gloss=2Masc.Perf
 2	ganiː	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=324346|AlignEnd=324571|Gloss=see
 3	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=324571|AlignEnd=324796|Gloss=indeed
@@ -3180,9 +3187,9 @@
 11	wânnan	wânnan	DET	_	Definite=Def	12	det	_	AlignBegin=326371|AlignEnd=326596|Gloss=Def
 12	gidaː	gidaː	NOUN	_	_	8	conj:appos	_	AlignBegin=326596|AlignEnd=326821|Gloss=house
 13	naːmù	naːmù	PRON	_	Number=Plur|Person=1|PronType=Prs	12	mod:poss	_	AlignBegin=326821|AlignEnd=327046|Gloss=1Plur.Gen
-14	|a	|a	PUNCT	_	_	16	punct	_	AlignBegin=327046|AlignEnd=327271|Gloss=PUNCT
-15	wandà	wandà	PRON	_	PronType=Rel	17	comp:obl	_	AlignBegin=327271|AlignEnd=327496|Gloss=which
-16	akèː	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	12	mod@relcl	_	AlignBegin=327496|AlignEnd=327721|Background=Yes|Gloss=4.Prog.Bkg
+14	>	>	PUNCT	_	_	15	punct	_	AlignBegin=327046|AlignEnd=327271|Gloss=PUNCT
+15	wandà	wandà	PRON	_	PronType=Rel	12	mod@relcl	_	AlignBegin=327271|AlignEnd=327496|Gloss=which
+16	akèː	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	15	comp:obj	_	AlignBegin=327496|AlignEnd=327721|Background=Yes|Gloss=4.Prog.Bkg
 17	cêː	cêː	VERB	_	_	16	comp:aux	_	AlignBegin=327721|AlignEnd=327946|Gloss=say
 18	mashì	mashì	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	17	comp:obl	_	AlignBegin=327946|AlignEnd=328171|Gloss=3Masc.Dat
 19	gidan	gidaː	NOUN	_	Definite=Cons	17	comp:pred	_	AlignBegin=328171|AlignEnd=328283|Gloss=house.Cons|wordform=gidaː
@@ -3242,13 +3249,13 @@
 8	dàgà	dàgà	ADP	_	_	6	comp:obl	_	AlignBegin=333616|AlignEnd=333812|Gloss=from
 9	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	10	det	_	AlignBegin=333812|AlignEnd=334008|Gloss=some.Masc
 10	gàriː	gàriː	NOUN	_	_	8	comp:obj	_	AlignBegin=334008|AlignEnd=334204|Gloss=town
-11	wandà	wandà	PRON	_	PronType=Rel	13	udep	_	AlignBegin=334678|AlignEnd=334940|Gloss=which
-12	akèː	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	10	mod@relcl	_	AlignBegin=334940|AlignEnd=335202|Background=Yes|Gloss=4.Prog.Bkg
+11	wandà	wandà	PRON	_	PronType=Rel	10	mod@relcl	_	AlignBegin=334678|AlignEnd=334940|Gloss=which
+12	akèː	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	11	comp:obj	_	AlignBegin=334940|AlignEnd=335202|Background=Yes|Gloss=4.Prog.Bkg
 13	kiràn	kir-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	12	comp:aux	_	AlignBegin=335202|AlignEnd=335289|Gloss=call.Vnoun.Cons|wordform=kiràː
-14	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	13	udep	_	AlignBegin=335376|AlignEnd=335464|Gloss=3Masc|Resumpt=Yes
+14	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	13	comp@expl	_	AlignBegin=335376|AlignEnd=335464|Gloss=3Masc|Resumpt=Yes
 15	ƙauyèː	ƙauyèː	NOUN	_	_	13	comp:pred	_	AlignBegin=335726|AlignEnd=335927|Gloss=village
 16	>	>	PUNCT	_	_	17	punct	_	AlignBegin=335927|AlignEnd=336128|Gloss=PUNCT
-17	can	can	ADV	_	_	6	mod	_	AlignBegin=336128|AlignEnd=336316|Gloss=Rmt2
+17	can	can	ADV	_	_	10	conj:appos	_	AlignBegin=336128|AlignEnd=336316|Gloss=Rmt2
 18	R̃icipà	R̃icipà	PROPN	_	_	17	conj:appos	_	AlignBegin=336316|AlignEnd=336504|Gloss=Richipa
 19	//	//	PUNCT	_	_	5	punct	_	AlignBegin=336504|AlignEnd=336693|Gloss=PUNCT
 
@@ -3434,12 +3441,13 @@
 # phonetic_text = wandà akèː cêː mâi mà'aːzù // anàː cêː mài dattì //
 # text = wandà akèː cêː mâi Mà'aːzù //
 # text_en =  that they call Ma'azu,
-1	wandà	wandà	PRON	_	PronType=Rel	2	comp:obl	_	AlignBegin=348022|AlignEnd=348209|Gloss=who|Overlap=HAUZ_BC_CONV_02_380-380
-2	akèː	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	0	root	_	AlignBegin=348209|AlignEnd=348396|AttachTo=HAUZ_BC_CONV_02_380-380|Background=Yes|Gloss=4.Prog.Bkg|Rel=mod@relcl
+# validated_by = B-CARON
+1	wandà	wandà	PRON	_	PronType=Rel	0	root	_	AlignBegin=348022|AlignEnd=348209|Gloss=who|Overlap=HAUZ_BC_CONV_02_380-380
+2	akèː	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	1	udep	_	AlignBegin=348209|AlignEnd=348396|AttachTo=HAUZ_BC_CONV_02_380-380|Background=Yes|Gloss=4.Prog.Bkg|Rel=mod@relcl
 3	cêː	cêː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=348396|AlignEnd=348583|Gloss=say.Vnoun
-4	mâi	mâi	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=348583|AlignEnd=348770|Gloss=3Masc.Dat
+4	mâi	mâi	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl@expl	_	AlignBegin=348583|AlignEnd=348770|Gloss=3Masc.Dat
 5	Mà'aːzù	Mà'aːzù	PROPN	_	_	3	comp:pred	_	AlignBegin=348770|AlignEnd=348957|Gloss=Ma'azu
-6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=348957|AlignEnd=349144|Gloss=PUNCT
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=348957|AlignEnd=349144|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_383-383
 # speaker_id = SP1
@@ -3617,16 +3625,17 @@
 # phonetic_text = sai kuma gidaː -n dir̃ùm // wandà akà fi sanìː -n -shì dà mài bindigàː //
 # text = sai kuma gidan Dir̃ùm |c wandà akà fi sanìnshì dà Mài Bindigàː //
 # text_en = Then there is Dirum's ward whom is best known as the Hunter.
+# validated_by = B-CARON
 1	sai	sai	ADV	_	_	3	mod	_	AlignBegin=364680|AlignEnd=364865|Gloss=then
 2	kuma	kuma	TopPART	_	_	1	discourse	_	AlignBegin=364865|AlignEnd=365050|Gloss=too
 3	gidan	gidaː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=365050|AlignEnd=365142|Gloss=house.Cons|wordform=gidaː
 4	Dir̃ùm	Dir̃ùm	NOUN	_	_	3	compound	_	AlignBegin=365235|AlignEnd=365420|Gloss=Dirum
-5	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=365420|AlignEnd=365607|Gloss=PUNCT
-6	wandà	wandà	PRON	_	PronType=Rel	9	udep	_	AlignBegin=365842|AlignEnd=366017|Gloss=who
-7	akà	sukà	AUX	_	Aspect=PerfBkg|Person=4	4	mod@relcl	_	AlignBegin=366017|AlignEnd=366192|Background=Yes|Gloss=4.Perf.Bkg
+5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=365420|AlignEnd=365607|Gloss=PUNCT
+6	wandà	wandà	PRON	_	PronType=Rel	4	mod@relcl	_	AlignBegin=365842|AlignEnd=366017|Gloss=who
+7	akà	sukà	AUX	_	Aspect=PerfBkg|Person=4	6	udep	_	AlignBegin=366017|AlignEnd=366192|Background=Yes|Gloss=4.Perf.Bkg
 8	fi	fi	VERB	_	_	7	comp:aux	_	AlignBegin=366192|AlignEnd=366367|Gloss=exceed
 9	sanìn	san-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	8	comp:obj	_	AlignBegin=366367|AlignEnd=366425|Gloss=know.Vnoun.Cons|wordform=sanìː
-10	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	udep	_	AlignBegin=366483|AlignEnd=366542|Gloss=3Masc.Gen
+10	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	comp@expl	_	AlignBegin=366483|AlignEnd=366542|Gloss=3Masc.Gen
 11	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=366542|AlignEnd=366717|Gloss=with
 12	Mài	Mài	PROPN	_	_	11	comp:obj	_	AlignBegin=366717|AlignEnd=366892|Gloss=Mai
 13	Bindigàː	Bindigàː	PROPN	_	_	12	flat:name	_	AlignBegin=366892|AlignEnd=367067|Gloss=gun
