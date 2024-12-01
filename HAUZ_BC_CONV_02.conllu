@@ -188,7 +188,7 @@
 24	Àlhajì	Àlhajì	PROPN	_	_	21	conj:coord	_	AlignBegin=27873|AlignEnd=28085|Gloss=Alhaji
 25	wandà	wandà	PRON	_	PronType=Rel	24	mod@relcl	_	AlignBegin=28085|AlignEnd=28297|Gloss=who
 26	ni	ni	PRON	_	Aspect=ProgLocBkg|Number=Sing|Person=1	27	subj	_	AlignBegin=28297|AlignEnd=28509|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
-27	kè	nàː/kè	AUX	_	Aspect=ProgLocBkg|Number=Sing|Person=1	25	udep	_	AlignBegin=28297|AlignEnd=28509|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
+27	kè	nàː/kè	AUX	_	_	25	udep	_	AlignBegin=28297|AlignEnd=28509|Background=Yes|Gloss=Pred/Loc.Bkg
 28	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	27	comp:pred	_	AlignBegin=28509|AlignEnd=28721|Gloss=stay.Stat
 29	à	à	ADP	_	ExtPos=ADP	28	comp:loc	_	AlignBegin=28721|AlignEnd=28933|Gloss=at|Idiom=Yes
 30	wajen	wajeː	NOUN	_	Definite=Cons	29	compound	_	AlignBegin=28933|AlignEnd=29039|Gloss=side.Cons|InIdiom=Yes
@@ -425,7 +425,7 @@
 1	tun	tun	SCONJ	_	_	3	discourse	_	AlignBegin=47051|AlignEnd=47264|Gloss=since
 2-3	inàː	_	_	_	_	_	_	_	_
 2	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=47264|AlignEnd=47477|Gloss=1Sing
-3	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=47264|AlignEnd=47477|Gloss=Pred/Loc
+3	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=47264|AlignEnd=47477|Gloss=Pred/Loc
 4	dà	dà	ADP	_	_	3	comp:pred	_	AlignBegin=47477|AlignEnd=47583|Gloss=with
 5	àwàːkai	àkwiyàː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=47904|AlignEnd=48020|Gloss=goat.Plur
 6	maː	maː	TopPART	_	_	5	discourse	_	AlignBegin=48135|AlignEnd=48366|Gloss=even
@@ -1508,7 +1508,7 @@
 3	wânnan	wânnan	PRON	_	Definite=Def	2	conj:appos	_	AlignBegin=157909|AlignEnd=158096|Gloss=Def
 4	wandà	wandà	PRON	_	PronType=Rel	3	mod@relcl	_	AlignBegin=158096|AlignEnd=158283|Gloss=who
 5	ka	ka	PRON	_	Aspect=ProgLocBkg|Gender=Masc|Person=2	6	subj	_	AlignBegin=158283|AlignEnd=158470|Background=Yes|Gloss=2Masc.Pred/Loc.Bkg
-6	kè	naː/kè	AUX	_	Aspect=ProgLocBkg|Gender=Masc|Person=2	4	udep	_	AlignBegin=158283|AlignEnd=158470|Background=Yes|Gloss=2Masc.Pred/Loc.Bkg
+6	kè	nàː/kè	AUX	_	_	4	udep	_	AlignBegin=158283|AlignEnd=158470|Background=Yes|Gloss=Pred/Loc.Bkg
 7	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	6	comp:pred	_	AlignBegin=158470|AlignEnd=158657|Gloss=stay.Stat
 8	à	à	ADP	_	ExtPos=ADP	7	comp:obl	_	AlignBegin=158657|AlignEnd=158844|Gloss=at|Idiom=Yes
 9	wurin	wuriː	NOUN	_	Definite=Cons	8	compound	_	AlignBegin=158844|AlignEnd=158906|Gloss=place.Cons|InIdiom=Yes|wordform=wuriː
@@ -2639,7 +2639,7 @@
 5	g~	g~	NOUN	_	_	4	subj	_	AlignBegin=271007|AlignEnd=271204|Gloss=HESIT
 6	gaːnuwaː	gaːnuwaː	NOUN	_	_	5	conj:dicto	_	AlignBegin=271204|AlignEnd=271401|Gloss=rampart
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=271401|AlignEnd=271600|Gloss=PUNCT
-8	kuma	kuma	TopPART	_	_	9	discourse	_	AlignBegin=271882|AlignEnd=272108|Gloss=too
+8	kuma	kuma	CCONJ	_	_	9	cc	_	AlignBegin=271882|AlignEnd=272108|Gloss=too
 9	àkwai	àkwai	PredPART	_	_	0	root	_	AlignBegin=272108|AlignEnd=272334|Gloss=there_is
 10	kuːkoːkiː	kuːkàː	NOUN	_	Number=Plur	9	subj	_	AlignBegin=272334|AlignEnd=272447|Gloss=baobab.Plur
 11	//	//	PUNCT	_	_	9	punct	_	AlignBegin=272560|AlignEnd=272786|Gloss=PUNCT
@@ -3004,7 +3004,7 @@
 18	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	16	comp:obj	_	AlignBegin=309887|AlignEnd=309985|Gloss=3Masc.Gen
 19	<	<	PUNCT	_	_	2	punct	_	AlignBegin=309985|AlignEnd=310178|Gloss=PUNCT
 20	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	23	dislocated@top	_	AlignBegin=310341|AlignEnd=310503|Gloss=3Masc.Nom
-21	wânnan	wânnan	DET	_	Definite=Def	20	conj:appos	_	AlignBegin=310503|AlignEnd=310665|Gloss=Def
+21	wânnan	wânnan	PRON	_	Definite=Def	20	conj:appos	_	AlignBegin=310503|AlignEnd=310665|Gloss=this_one
 22	kuma	kuma	TopPART	_	_	21	discourse	_	AlignBegin=310665|AlignEnd=310827|Gloss=too
 23	mèːneːnèː	mèːneːnèː	PRON	_	PronType=Int	0	root	_	AlignBegin=310827|AlignEnd=310989|Gloss=what
 24	asalin	asalin	NOUN	_	Definite=Def	23	comp:cleft	_	AlignBegin=311313|AlignEnd=311394|Gloss=origins.Def|wordform=asaliː
@@ -3315,7 +3315,7 @@
 1	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	dislocated@subj	_	AlignBegin=340478|AlignEnd=340600|Gloss=3Plur.Nom
 2	maː	maː	TopPART	_	_	1	discourse	_	AlignBegin=340600|AlignEnd=340722|Gloss=even
 3	su	su	PRON	_	Aspect=Prog|Number=Plur|Person=3	4	subj	_	AlignBegin=340722|AlignEnd=340844|Gloss=3Plur.Pred/Loc
-4	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=340722|AlignEnd=340844|Gloss=Pred/Loc
+4	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=340722|AlignEnd=340844|Gloss=Pred/Loc
 5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=340844|AlignEnd=340966|Gloss=with
 6	taːr̃iːhìː	taːr̃àː	NOUN	_	_	5	comp:obj	_	AlignBegin=341088|AlignEnd=341240|Gloss=history
 7	kèːnan	neː/ceː	AUX	_	_	6	discourse@foc	_	AlignBegin=341240|AlignEnd=341392|Background=Yes|Gloss=Foc/Ident.Bkg|wordform=kèː
