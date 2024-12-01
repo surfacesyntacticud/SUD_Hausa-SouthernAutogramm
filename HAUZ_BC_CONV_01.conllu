@@ -18,14 +18,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 1760, 4751
 # phonetic_text = àː niː / inàː zàune à gàriː -n fallàːdân nèː // wajen wata kàːkaː -naː //
-# text = àː niː < i nàː zàune à gàrin Pallàːdân nèː |c wajen wata kàːkaː =naː //
+# text = àː niː < inàː zàune à gàrin Pallàːdân nèː |c wajen wata kàːkaː =naː //
 # text_en = Well, me, I live in the village of Palladan with a grandmother of mine.
 # validated_by = B-CARON
 1	àː	àː	INTJ	_	_	5	discourse	_	AlignBegin=1760|AlignEnd=1974|Gloss=FILL
 2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	dislocated@subj	_	AlignBegin=1974|AlignEnd=2188|Gloss=1Sing.Nom
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=2188|AlignEnd=2402|Gloss=PUNCT
-4	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=2402|AlignEnd=2616|Gloss=1Sing|wordform=nàː
-5	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=2402|AlignEnd=2616|Gloss=Pred/Loc
+4-5	inàː	_	_	_	_	_	_	_	_
+4	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=2402|AlignEnd=2616|Gloss=1Sing
+5	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=2402|AlignEnd=2616|Gloss=Pred/Loc
 6	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	5	comp:pred	_	AlignBegin=2616|AlignEnd=2830|Gloss=stay.Stat
 7	à	at	ADP	_	_	6	comp:loc	_	AlignBegin=2830|AlignEnd=3044|Gloss=at
 8	gàrin	gàriː	NOUN	_	Definite=Cons	7	comp:obj	_	AlignBegin=3044|AlignEnd=3151|Gloss=town.Cons
@@ -85,7 +86,7 @@
 4	ita	ita	PRON	_	Gender=Fem|Person=3|PronType=Prs	1	conj:dicto	_	AlignBegin=8078|AlignEnd=8352|Gloss=3Fem.Nom
 5	maː	maː	TopPART	_	_	4	discourse	_	AlignBegin=8352|AlignEnd=8626|Gloss=even
 6	ta	ta	PRON	_	Aspect=Prog|Gender=Fem|Person=3	7	subj	_	AlignBegin=8626|AlignEnd=8900|Gloss=3Fem.Pred/Loc|wordform=nàː
-7	nàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=8626|AlignEnd=8900|Gloss=3Fem.Pred/Loc
+7	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=8626|AlignEnd=8900|Gloss=Pred/Loc
 8	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	7	comp:pred	_	AlignBegin=8900|AlignEnd=9174|Gloss=stay.Stat
 9	à	à	ADP	_	_	7	comp:pred	_	AlignBegin=9174|AlignEnd=9448|Gloss=at
 10	nân	nân	ADV	_	PronType=Dem	9	comp:obj	_	AlignBegin=9448|AlignEnd=9722|Deixis=Prox|Gloss=Prox
@@ -864,13 +865,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 117074, 118310
 # phonetic_text = loːkàciː -ǹ niː inàː ɗan ƙàramiː //
-# text = loːkàcîn niː i nàː ɗan ƙàramiː //
+# text = loːkàcîn niː inàː ɗan ƙàramiː //
 # text_en =  At that time I was small.
 # validated_by = B-CARON
 1	loːkàcîn	loːkàciː	NOUN	_	Definite=Def	4	dislocated@mod	_	AlignBegin=117074|AlignEnd=117177|Gloss=time.Def
 2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	dislocated@subj	_	AlignBegin=117280|AlignEnd=117486|Gloss=1Sing.Nom
+3-4	inàː	_	_	_	_	_	_	_	_
 3	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=117486|AlignEnd=117692|Gloss=1Sing
-4	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=117486|AlignEnd=117692|Gloss=Pred/Loc
+4	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=117486|AlignEnd=117692|Gloss=Pred/Loc
 5	ɗan	ɗan	ADV	_	_	6	mod	_	AlignBegin=117692|AlignEnd=117898|Gloss=little
 6	ƙàramiː	ƙàramiː	ADJ	_	_	4	comp:pred	_	AlignBegin=117898|AlignEnd=118104|Gloss=small
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=118104|AlignEnd=118310|Gloss=PUNCT
@@ -1290,7 +1292,7 @@
 5	dai	dai	TopPART	_	_	2	discourse	_	AlignBegin=156624|AlignEnd=156772|Gloss=indeed
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=156772|AlignEnd=156920|Gloss=PUNCT
 7	ka	ka	PRON	_	Aspect=Prog|Gender=Masc|Person=2	8	subj	_	AlignBegin=157068|AlignEnd=157216|Gloss=2Masc.Pred/Loc|wordform=nàː
-8	nàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	0	root	_	AlignBegin=157068|AlignEnd=157216|Gloss=2Masc.Pred/Loc
+8	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=157068|AlignEnd=157216|Gloss=Pred/Loc
 9	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	8	comp:pred	_	AlignBegin=157216|AlignEnd=157364|Gloss=stay.Stat
 10	à	à	ADP	_	ExtPos=ADP	8	comp:pred	_	AlignBegin=157364|AlignEnd=157512|Gloss=at|Idiom=Yes
 11	wajen	wajen	ADP	_	_	10	compound	_	AlignBegin=157512|AlignEnd=157660|Gloss=around|InIdiom=Yes
@@ -1302,15 +1304,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 157961, 159960
 # phonetic_text = baːyan ràsu -waː -n -tà / inàː zàune à wajen kàːwuː -naː nèː //
-# text = baːyan ràsuwan =tà < i nàː zàune à wajen kàːwuː =naː nèː //
+# text = baːyan ràsuwan =tà < nàː zàune à wajen kàːwuː =naː nèː //
 # text_en =  After her death I lived with my uncle.
 # validated_by = B-CARON
 1	baːyan	baːyaː	ADP	_	_	6	mod	_	AlignBegin=157961|AlignEnd=158161|Gloss=after
 2	ràsuwan	ras-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	1	comp:obj	_	AlignBegin=158161|AlignEnd=158211|Gloss=die.Vnoun.Cons
 3	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	udep	_	AlignBegin=158311|AlignEnd=158361|Gloss=3Fem.Gen
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=158361|AlignEnd=158561|Gloss=PUNCT
-5	i	i	PRON	_	Aspect=Prog|Number=Sing|Person=1	6	subj	_	AlignBegin=158561|AlignEnd=158761|Gloss=1Sing.Ident/loc
-6	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=158561|AlignEnd=158761|Gloss=Pred/Loc
+5-6	inàː	_	_	_	_	_	_	_	_
+5	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=158561|AlignEnd=158761|Gloss=1Sing
+6	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=158561|AlignEnd=158761|Gloss=Pred/Loc
 7	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	6	comp:pred	_	AlignBegin=158761|AlignEnd=158961|Gloss=stay.Stat
 8	à	à	ADP	_	ExtPos=ADP	7	comp:loc	_	AlignBegin=158961|AlignEnd=159161|Gloss=at|Idiom=Yes
 9	wajen	wajen	ADP	_	_	8	compound	_	AlignBegin=159161|AlignEnd=159361|Gloss=around|InIdiom=Yes
@@ -1682,7 +1685,7 @@
 5	kasànceː	kasant-	VERB	_	_	4	comp:aux	_	AlignBegin=193009|AlignEnd=193183|Gloss=become
 6	kàman	kàman	ADP	_	_	8	discourse	_	AlignBegin=193183|AlignEnd=193357|Gloss=as_if
 7	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	8	subj	_	AlignBegin=193357|AlignEnd=193531|Gloss=2Masc
-8	nàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	5	comp:pred	_	AlignBegin=193357|AlignEnd=193531|Gloss=2Masc.Pred/Loc
+8	nàː	nàː	AUX	_	_	5	comp:pred	_	AlignBegin=193357|AlignEnd=193531|Gloss=Pred/Loc
 9	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	8	dislocated@subj	_	AlignBegin=193531|AlignEnd=193705|Gloss=2Masc.Nom
 10	maː	maː	TopPART	_	_	9	discourse	_	AlignBegin=193705|AlignEnd=193879|Gloss=even
 11	kàman	kàman	ADP	_	_	8	comp:pred	_	AlignBegin=193879|AlignEnd=194053|Gloss=like
@@ -1707,12 +1710,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 195072, 196436
 # phonetic_text = / yànzu inàː ma- tsayàː -iː\H -n yaːròː -n -shi nèː //
-# text = yànzu i nàː matsayin yaːròn =shì nèː //
+# text = yànzu nàː matsayin yaːròn =shì nèː //
 # text_en =  Now I stand for his son.
 # validated_by = B-CARON
 1	yànzu	yànzu	ADV	_	_	3	mod	_	AlignBegin=195267|AlignEnd=195462|Gloss=now
-2	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=195462|AlignEnd=195657|Gloss=1Sing|wordform=nàː
-3	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=195462|AlignEnd=195657|Gloss=Pred/Loc
+2-3	inàː	_	_	_	_	_	_	_	_
+2	i	i	PRON	_	Number=Sing|PronType=Prs	3	subj	_	AlignBegin=195462|AlignEnd=195657|Gloss=1Sing
+3	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=195462|AlignEnd=195657|Gloss=Pred/Loc
 4	matsayin	matsayiː	NOUN	_	Definite=Cons	3	comp:pred	_	AlignBegin=195657|AlignEnd=195706|Gloss=position.Cons
 5	yaːròn	yaːròː	NOUN	_	Definite=Cons	4	mod	_	AlignBegin=195852|AlignEnd=195917|Gloss=boy.Cons|wordform=yaːròː
 6	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	5	mod:poss	_	AlignBegin=195982|AlignEnd=196047|Gloss=3Masc..Gen|wordform==shi
@@ -1741,11 +1745,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 198142, 198860
 # phonetic_text = inàː hannuː -n -shi //=
-# text = i nàː hannun =shi //
+# text = nàː hannun =shi //
 # text_en =  I am in his hands,
 # validated_by = B-CARON
-1	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=198142|AlignEnd=198381|Gloss=1Sing|wordform=nàː
-2	nàː	nàː/kèː	AUX	_	_	0	root	_	AlignBegin=198142|AlignEnd=198381|Gloss=Pred/Loc
+1-2	inàː	_	_	_	_	_	_	_	_
+1	i	i	PRON	_	Number=Sing|PronType=Prs	2	root	_	AlignBegin=198142|AlignEnd=198381|Gloss=1Sing
+2	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=198142|AlignEnd=198381|Gloss=Pred/Loc
 3	hannun	hannuː	NOUN	_	Definite=Cons	2	comp:pred	_	AlignBegin=198381|AlignEnd=198461|Gloss=hand.Cons
 4	=shi	=shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	mod	_	AlignBegin=198541|AlignEnd=198620|Gloss=3Masc
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=198620|AlignEnd=198860|Gloss=PUNCT
@@ -3812,7 +3817,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 477989, 482258
 # phonetic_text = shiː ya sâː ka ji dai dà farkoː nakèː bâː kà làːbarìː -ǹ cêːwaː eːːː / inàː zàune nèː à gùndumàn basaːwa / /
-# text = shiː ya sâː ka ji dai dà farkoː nakèː baː kà làːbarìn cêːwaː eː i nàː zàune nèː à Gùndumàn Basaːwaː //
+# text = shiː ya sâː ka ji dai dà farkoː nakèː baː kà làːbarìn cêːwaː eː nàː zàune nèː à Gùndumàn Basaːwaː //
 # text_en = That's why you hear first I told you that er.. I live at Gunduman Basawa.
 # validated_by = B-CARON
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=477989|AlignEnd=478175|Gloss=3Masc.Nom
@@ -3829,8 +3834,9 @@
 12	làːbarìn	làːbarìː	NOUN	_	Definite=Cons	10	comp:obj	_	AlignBegin=480035|AlignEnd=480128|Gloss=story.Cons
 13	cêːwaː	cêːwaː	SCONJ	_	_	12	comp:obj	_	AlignBegin=480221|AlignEnd=480407|Gloss=COMP
 14	eː	eː	INTJ	_	_	16	discourse	_	AlignBegin=480407|AlignEnd=480593|Gloss=FILL
-15	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=480779|AlignEnd=480965|Gloss=1Sing|wordform=nàː
-16	nàː	nàː/kè	AUX	_	_	13	comp:obj	_	AlignBegin=480779|AlignEnd=480965|Gloss=Pred/Loc
+15-16	inàː	_	_	_	_	_	_	_	_
+15	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=480779|AlignEnd=480965|Gloss=1Sing
+16	nàː	nàː	AUX	_	_	13	comp:obj	_	AlignBegin=480779|AlignEnd=480965|Gloss=Pred/Loc
 17	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	16	comp:pred	_	AlignBegin=480965|AlignEnd=481151|Gloss=stay.Stat
 18	nèː	neː/ceː	AUX	_	_	17	discourse@foc	_	AlignBegin=481151|AlignEnd=481337|Gloss=Foc/Ident
 19	à	à	ADP	_	_	17	comp:obl	_	AlignBegin=481337|AlignEnd=481523|Gloss=at

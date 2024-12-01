@@ -419,12 +419,13 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 47051, 49980
 # phonetic_text = tun inàː dà -ːːː / àkwiyàː -ai\LH maː yànzu wandà yakèː wânnan nàː -wàː nèː //
-# text = tun i nàː dà àwàːkai maː yànzu wandà ya kè wânnan nàːwaː nèː //
+# text = tun inàː dà àwàːkai maː yànzu wandà ya kè wânnan nàːwaː nèː //
 # text_en =  Since I have .. goats that now are mine.
 # validated_by = B-CARON
 1	tun	tun	SCONJ	_	_	3	discourse	_	AlignBegin=47051|AlignEnd=47264|Gloss=since
+2-3	inàː	_	_	_	_	_	_	_	_
 2	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=47264|AlignEnd=47477|Gloss=1Sing
-3	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=47264|AlignEnd=47477|Gloss=Pred/Loc
+3	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=47264|AlignEnd=47477|Gloss=Pred/Loc
 4	dà	dà	ADP	_	_	3	comp:pred	_	AlignBegin=47477|AlignEnd=47583|Gloss=with
 5	àwàːkai	àkwiyàː	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=47904|AlignEnd=48020|Gloss=goat.Plur
 6	maː	maː	TopPART	_	_	5	discourse	_	AlignBegin=48135|AlignEnd=48366|Gloss=even
@@ -3314,7 +3315,7 @@
 1	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	dislocated@subj	_	AlignBegin=340478|AlignEnd=340600|Gloss=3Plur.Nom
 2	maː	maː	TopPART	_	_	1	discourse	_	AlignBegin=340600|AlignEnd=340722|Gloss=even
 3	su	su	PRON	_	Aspect=Prog|Number=Plur|Person=3	4	subj	_	AlignBegin=340722|AlignEnd=340844|Gloss=3Plur.Pred/Loc
-4	nàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=340722|AlignEnd=340844|Gloss=3Plur.Pred/Loc
+4	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=340722|AlignEnd=340844|Gloss=Pred/Loc
 5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=340844|AlignEnd=340966|Gloss=with
 6	taːr̃iːhìː	taːr̃àː	NOUN	_	_	5	comp:obj	_	AlignBegin=341088|AlignEnd=341240|Gloss=history
 7	kèːnan	neː/ceː	AUX	_	_	6	discourse@foc	_	AlignBegin=341240|AlignEnd=341392|Background=Yes|Gloss=Foc/Ident.Bkg|wordform=kèː

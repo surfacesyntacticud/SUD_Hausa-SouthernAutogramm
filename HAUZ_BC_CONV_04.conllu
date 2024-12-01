@@ -1014,17 +1014,20 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 115639, 116822
 # phonetic_text = koːdà yakèː bâi dà aureː nèː kai /
-# text = koːdà yakè bâi dà aureː nèː kai /
+# text = koːdà ya kè bâi dà aureː nèː kai !//
 # text_en =  Although he is not married, wow!
 # validated_by = B-CARON
-1	koːdà	koːdà	SCONJ	_	ExtPos=SCONJ	7	mod	_	AlignBegin=115639|AlignEnd=115787|Gloss=although|Idiom=Yes
-2	yakè	kè	AUX	_	Aspect=ProgLocBkg|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=115787|AlignEnd=115935|Background=Yes|Gloss=3Masc.Pred/Loc.Bkg|InIdiom=Yes
-3	bâi	nàː/kè	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	1	comp:obj	_	AlignBegin=115935|AlignEnd=116083|Gloss=3Masc.Pred/Loc.Neg
-4	dà	dà	ADP	_	_	3	comp:pred	_	AlignBegin=116083|AlignEnd=116231|Gloss=with
-5	aureː	aureː	NOUN	_	_	4	comp:obj	_	AlignBegin=116231|AlignEnd=116379|Gloss=wedding
-6	nèː	neː/ceː	AUX	_	_	3	discourse@foc	_	AlignBegin=116379|AlignEnd=116527|Gloss=Foc/Ident
-7	kai	kai	PRON	_	_	0	root	_	AlignBegin=116527|AlignEnd=116675|Gloss=eh
-8	!//	!//	PUNCT	_	_	7	punct	_	AlignBegin=116675|AlignEnd=116822|Gloss=PUNCT
+1	koːdà	koːdà	SCONJ	_	ExtPos=SCONJ	9	mod	_	AlignBegin=115639|AlignEnd=115787|Gloss=although|Idiom=Yes
+2	ya	ya	PRON	_	Aspect=ProgLocBkg|Gender=Masc|Person=3	3	subj	_	AlignBegin=115787|AlignEnd=115935|Background=Yes|Gloss=3Masc.Pred/Loc.Bkg|InIdiom=Yes
+3	kè	kè	AUX	_	Aspect=ProgLocBkg|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=115787|AlignEnd=115935|Background=Yes|Gloss=3Masc.Pred/Loc.Bkg|InIdiom=Yes
+4-5	bâi	_	_	_	_	_	_	_	_
+4	baː	baː	PredPART	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	1	comp:obj	_	AlignBegin=115935|AlignEnd=116083|Gloss=3Masc.Pred/Loc.Neg
+5	yà	yà	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	4	subj	_	AlignBegin=115935|AlignEnd=116083|Gloss=3Masc.Pred/Loc.Neg
+6	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=116083|AlignEnd=116231|Gloss=with
+7	aureː	aureː	NOUN	_	_	6	comp:obj	_	AlignBegin=116231|AlignEnd=116379|Gloss=wedding
+8	nèː	neː/ceː	AUX	_	_	4	discourse@foc	_	AlignBegin=116379|AlignEnd=116527|Gloss=Foc/Ident
+9	kai	kai	PRON	_	_	0	root	_	AlignBegin=116527|AlignEnd=116675|Gloss=eh
+10	!//	!//	PUNCT	_	_	9	punct	_	AlignBegin=116675|AlignEnd=116822|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0100-0100
 # speaker_id = SP1
@@ -1303,18 +1306,20 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 152384, 154444
 # phonetic_text = shiː kèː nan kanàː zàune sai kà sâː injìː yà yi //
-# text = shiː kèː nan kanàː zàune sai kà sâː injìː yà yi //
+# text = shiːkèːnan ka nàː zàune sai kà sâː injìː yà yi //
 # text_en = Now, you are sitting, you let an engine do it.
-1	shiːkèːnan	shiːkèːnan	INTJ	_	_	2	discourse	_	AlignBegin=152384|AlignEnd=152556|Gloss=OK|wordform=shiː
-2	kanàː	nàː/kè	AUX	_	Aspect=Prog|Gender=Masc|Person=2	0	root	_	AlignBegin=152900|AlignEnd=153072|Gloss=2Masc.Pred/Loc
-3	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	2	comp:pred	_	AlignBegin=153072|AlignEnd=153244|Gloss=stay.Stat
-4	sai	sai	ADV	_	_	5	mod	_	AlignBegin=153244|AlignEnd=153416|Gloss=then
-5	kà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=2	2	conj:coord	_	AlignBegin=153416|AlignEnd=153588|Gloss=2Masc.Aor
-6	sâː	sâː	VERB	_	_	5	comp:aux	_	AlignBegin=153588|AlignEnd=153760|Gloss=put
-7	injìː	injìː	NOUN	_	_	6	comp:obj	_	AlignBegin=153760|AlignEnd=153932|Gloss=machine
-8	yà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=3	6	mod	_	AlignBegin=153932|AlignEnd=154104|Gloss=3Masc.Aor
-9	yi	yi	VERB	_	_	8	comp:aux	_	AlignBegin=154104|AlignEnd=154276|Gloss=do
-10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=154276|AlignEnd=154444|Gloss=PUNCT
+# validated_by = B-CARON
+1	shiːkèːnan	shiːkèːnan	INTJ	_	_	3	discourse	_	AlignBegin=152384|AlignEnd=152556|Gloss=OK|wordform=shiː
+2	ka	ka	PRON	_	Aspect=Prog|Gender=Masc|Person=2	3	subj	_	AlignBegin=152900|AlignEnd=153072|Gloss=2Masc.Pred/Loc
+3	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=152900|AlignEnd=153072|Gloss=Pred/Loc
+4	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	3	comp:pred	_	AlignBegin=153072|AlignEnd=153244|Gloss=stay.Stat
+5	sai	sai	CCONJ	_	_	6	cc	_	AlignBegin=153244|AlignEnd=153416|Gloss=then
+6	kà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=2	3	conj:coord	_	AlignBegin=153416|AlignEnd=153588|Gloss=2Masc.Aor
+7	sâː	sâː	VERB	_	_	6	comp:aux	_	AlignBegin=153588|AlignEnd=153760|Gloss=put
+8	injìː	injìː	NOUN	_	_	7	comp:obj	_	AlignBegin=153760|AlignEnd=153932|Gloss=machine
+9	yà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=3	7	mod	_	AlignBegin=153932|AlignEnd=154104|Gloss=3Masc.Aor
+10	yi	yi	VERB	_	_	9	comp:aux	_	AlignBegin=154104|AlignEnd=154276|Gloss=do
+11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=154276|AlignEnd=154444|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0129-0129
 # speaker_id = SP2
@@ -2708,11 +2713,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 319569, 323661
 # phonetic_text = inàː ajìː biyu / munàː &// jar̃r̃àbâːwaː akà aikoː yaː ràsu //
-# text = i nàː ajìː biyu mu nàː jar̃r̃àbâːwaː akà aikoː yaː ràsu //
+# text = inàː ajìː biyu mu nàː jar̃r̃àbâːwaː akà aikoː yaː ràsu //
 # text_en =  I was in second grade, we were... taking the exams when they told me he had died.
 # validated_by = B-CARON
+1-2	inàː	_	_	_	_	_	_	_	_
 1	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=319569|AlignEnd=319805|Gloss=1Sing
-2	nàː	nàː/kè	AUX	_	_	8	mod	_	AlignBegin=319569|AlignEnd=319805|Gloss=Pred/Loc
+2	nàː	nàː	AUX	_	_	8	mod	_	AlignBegin=319569|AlignEnd=319805|Gloss=Pred/Loc
 3	ajìː	ajìː	NOUN	_	_	2	comp:pred	_	AlignBegin=319805|AlignEnd=320041|Gloss=classroom
 4	biyu	biyu	NUM	_	_	3	mod:num	_	AlignBegin=320041|AlignEnd=320277|Gloss=two
 5	mu	mu	PRON	_	Number=Plur|Person=1|PronType=Prs	6	subj	_	AlignBegin=321939|AlignEnd=322197|Gloss=1Plur
@@ -3909,23 +3915,24 @@
 15	//	//	PUNCT	_	_	10	punct	_	AlignBegin=484354|AlignEnd=484570|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0404-0404
-# text = wandà dâː munàː ƴan yâːraː < sai mun barìː //
+# text = wandà dâː mu nàː ƴan yâːraː < sai mun barìː //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 485414, 487551
 # phonetic_text = wandà dâː munàː ƴan yâːraː < sai mun barìː //
 # text_en = When we were young, we just waited.
 # validated_by = B-CARON
-1	wandà	wandà	PRON	_	PronType=Rel	8	mod	_	AlignBegin=485414|AlignEnd=485614|Gloss=when
-2	dâː	dâː	ADV	_	_	3	mod	_	AlignBegin=485614|AlignEnd=485814|Gloss=formerly
-3	munàː	nàː/kè	AUX	_	Aspect=Prog|Number=Plur|Person=1	1	mod@relcl	_	AlignBegin=485814|AlignEnd=486014|Gloss=1Plur.Pred/Loc
-4	ƴan	ɗan	ADJ	_	Number=Plur	5	mod	_	AlignBegin=486014|AlignEnd=486214|Gloss=small.Plur
-5	yâːraː	yaːròː	NOUN	_	Number=Plur	3	comp:pred	_	AlignBegin=486214|AlignEnd=486314|Gloss=child.Plur|wordform=yaːròː
-6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=486414|AlignEnd=486612|Gloss=PUNCT
-7	sai	sai	ADV	_	_	8	mod	_	AlignBegin=486984|AlignEnd=487173|Gloss=then
-8	mun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	AlignBegin=487173|AlignEnd=487362|Gloss=1Plur.Perf
-9	barìː	barìː	VERB	_	_	8	comp:aux	_	AlignBegin=487362|AlignEnd=487551|Gloss=leave
-10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=487362|AlignEnd=487551|Gloss=PUNCT
+1	wandà	wandà	PRON	_	PronType=Rel	9	mod	_	AlignBegin=485414|AlignEnd=485614|Gloss=when
+2	dâː	dâː	ADV	_	_	4	mod	_	AlignBegin=485614|AlignEnd=485814|Gloss=formerly
+3	mu	mu	PRON	_	Aspect=Prog|Number=Plur|Person=1	4	subj	_	AlignBegin=485814|AlignEnd=486014|Gloss=1Plur.Pred/Loc
+4	nàː	nàː	AUX	_	_	1	mod@relcl	_	AlignBegin=485814|AlignEnd=486014|Gloss=Pred/Loc
+5	ƴan	ɗan	ADJ	_	Number=Plur	6	mod	_	AlignBegin=486014|AlignEnd=486214|Gloss=small.Plur
+6	yâːraː	yaːròː	NOUN	_	Number=Plur	4	comp:pred	_	AlignBegin=486214|AlignEnd=486314|Gloss=child.Plur|wordform=yaːròː
+7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=486414|AlignEnd=486612|Gloss=PUNCT
+8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=486984|AlignEnd=487173|Gloss=then
+9	mun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=1	0	root	_	AlignBegin=487173|AlignEnd=487362|Gloss=1Plur.Perf
+10	barìː	barìː	VERB	_	_	9	comp:aux	_	AlignBegin=487362|AlignEnd=487551|Gloss=leave
+11	//	//	PUNCT	_	_	9	punct	_	AlignBegin=487362|AlignEnd=487551|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0407-408
 # speaker_id = SP1
@@ -4970,8 +4977,9 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 617468, 620389
 # phonetic_text = dan yâu / yâu akà cêː makà bâː ka dà shiː //
-# text = dan yâu < yâu akà cêː makà baːkà dà shiː //
+# text = dan yâu < yâu akà cêː makà baː kà dà shiː //
 # text_en =  Because now, now they say that we don't have anything.
+# validated_by = B-CARON
 1	dan	don	SCONJ	_	_	5	discourse	_	AlignBegin=617468|AlignEnd=617716|Gloss=because
 2	yâu	yâu	ADV	_	_	5	discourse	_	AlignBegin=617716|AlignEnd=617964|Gloss=today
 3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=617964|AlignEnd=618213|Gloss=PUNCT
@@ -4979,10 +4987,11 @@
 5	akà	sukà	AUX	_	Aspect=PerfBkg|Person=4	0	root	_	AlignBegin=618978|AlignEnd=619154|Background=Yes|Gloss=4.Perf.Bkg
 6	cêː	cêː	VERB	_	_	5	comp:aux	_	AlignBegin=619154|AlignEnd=619330|Gloss=say
 7	makà	makà	PRON	_	Case=Dat|Gender=Masc|Person=4|PronType=Prs	6	comp:obl	_	AlignBegin=619330|AlignEnd=619506|Gloss=2Masc.Dat
-8	baːkà	nàː/kè	AUX	_	Aspect=ProgNeg|Gender=Masc|Person=2|Polarity=Neg	6	comp:obj	_	AlignBegin=619506|AlignEnd=619682|Gloss=2Masc.Pred/Loc.Neg
-9	dà	dà	ADP	_	_	8	comp:pred	_	AlignBegin=619858|AlignEnd=620034|Gloss=with
-10	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=620034|AlignEnd=620210|Gloss=3Masc.Nom
-11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=620210|AlignEnd=620389|Gloss=PUNCT
+8	baː	baː	PredPART	_	Polarity=Neg	6	comp:obj	_	AlignBegin=619506|AlignEnd=619682|Gloss=Pred/Loc.Neg
+9	kà	kà	PRON	_	Gender=Masc|Person=2|PronType=Prs	8	subj	_	AlignBegin=619506|AlignEnd=619682|Gloss=2Masc
+10	dà	dà	ADP	_	_	8	comp:pred	_	AlignBegin=619858|AlignEnd=620034|Gloss=with
+11	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=620034|AlignEnd=620210|Gloss=3Masc.Nom
+12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=620210|AlignEnd=620389|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0521-0523
 # speaker_id = SP1
@@ -5093,23 +5102,25 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 632845, 634659
 # phonetic_text = sai yà cêː makà / àbù -n dà yakèː dà shiː / shiː maː gàː shi //
-# text = sai yà cêː makà àbin dà yakè dà shiː < shiː maː gàː shi //
+# text = sai yà cêː makà àbin dà ya kè dà shiː < shiː maː gàː shi //
 # text_en =  Then he will tell you, this is all he has.
+# validated_by = B-CARON
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=632845|AlignEnd=632944|Gloss=then
 2	yà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=632944|AlignEnd=633043|Gloss=3Masc.Aor
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=633043|AlignEnd=633142|Gloss=say
 4	makà	makà	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=633142|AlignEnd=633241|Gloss=2Masc.Dat
-5	àbin	àbù	NOUN	_	Definite=Cons	13	dislocated@top	_	AlignBegin=633340|AlignEnd=633395|Gloss=thing.Cons|wordform=àbù
+5	àbin	àbù	NOUN	_	Definite=Cons	14	dislocated@top	_	AlignBegin=633340|AlignEnd=633395|Gloss=thing.Cons|wordform=àbù
 6	dà	dà	SCONJ	_	_	5	mod@relcl	_	AlignBegin=633450|AlignEnd=633560|Gloss=COMP
-7	yakè	nàː/kè	AUX	_	Aspect=ProgLocBkg|Gender=Masc|Person=3	6	comp:obj	_	AlignBegin=633560|AlignEnd=633670|Background=Yes|Gloss=3Masc.Pred/Loc.Bkg
-8	dà	dà	ADP	_	_	7	comp:pred	_	AlignBegin=633670|AlignEnd=633780|Gloss=with
-9	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=633780|AlignEnd=633890|Gloss=3Masc.Nom
-10	<	<	PUNCT	_	_	5	punct	_	AlignBegin=633890|AlignEnd=634000|Gloss=PUNCT
-11	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	13	dislocated@subj	_	AlignBegin=634000|AlignEnd=634132|Gloss=3Masc.Nom
-12	maː	maː	TopPART	_	_	11	discourse	_	AlignBegin=634132|AlignEnd=634264|Gloss=even
-13	gàː	gàː	PredPART	_	_	3	comp:obj	_	AlignBegin=634264|AlignEnd=634396|Gloss=here_is
-14	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	13	subj	_	AlignBegin=634396|AlignEnd=634528|Gloss=3Masc
-15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=634528|AlignEnd=634659|Gloss=PUNCT
+7	ya	ya	PRON	_	Aspect=ProgLocBkg|Gender=Masc|Person=3	8	subj	_	AlignBegin=633560|AlignEnd=633670|Background=Yes|Gloss=3Masc.Pred/Loc.Bkg
+8	kè	kè	AUX	_	Aspect=ProgLocBkg|Gender=Masc|Person=3	6	comp:obj	_	AlignBegin=633560|AlignEnd=633670|Background=Yes|Gloss=3Masc.Pred/Loc.Bkg
+9	dà	dà	ADP	_	_	8	comp:pred	_	AlignBegin=633670|AlignEnd=633780|Gloss=with
+10	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=633780|AlignEnd=633890|Gloss=3Masc.Nom
+11	<	<	PUNCT	_	_	5	punct	_	AlignBegin=633890|AlignEnd=634000|Gloss=PUNCT
+12	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	14	dislocated@subj	_	AlignBegin=634000|AlignEnd=634132|Gloss=3Masc.Nom
+13	maː	maː	TopPART	_	_	12	discourse	_	AlignBegin=634132|AlignEnd=634264|Gloss=even
+14	gàː	gàː	PredPART	_	_	3	comp:obj	_	AlignBegin=634264|AlignEnd=634396|Gloss=here_is
+15	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	14	subj	_	AlignBegin=634396|AlignEnd=634528|Gloss=3Masc
+16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=634528|AlignEnd=634659|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0536-0536
 # speaker_id = SP2
@@ -5448,15 +5459,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 671178, 672311
 # phonetic_text = sai kà cêː munàː Màƙàrfiː kai //
-# text = sai kà cêː munàː Màƙàrfiː kai //
+# text = sai kà cêː mu nàː Màƙàrfiː kai //
 # text_en =  You could say we were in Makarfi.
+# validated_by = B-CARON
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=671178|AlignEnd=671340|Gloss=must
 2	kà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=671340|AlignEnd=671502|Gloss=2Masc.Aor
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=671502|AlignEnd=671664|Gloss=say
-4	munàː	nàː/kè	AUX	_	Aspect=Prog|Number=Plur|Person=1	3	comp:obj	_	AlignBegin=671664|AlignEnd=671826|Gloss=1Plur.Pred/Loc
-5	Màƙàrfiː	Màƙàrfiː	PROPN	_	_	4	comp:pred	_	AlignBegin=671826|AlignEnd=671988|Gloss=Makarfi
-6	kai	kai	INTJ	_	_	2	discourse	_	AlignBegin=671988|AlignEnd=672150|Gloss=eh
-7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=672150|AlignEnd=672311|Gloss=PUNCT
+4	mu	mu	PRON	_	Aspect=Prog|Number=Plur|Person=1	5	subj	_	AlignBegin=671664|AlignEnd=671826|Gloss=1Plur.Pred/Loc
+5	nàː	nàː	AUX	_	_	3	comp:obj	_	AlignBegin=671664|AlignEnd=671826|Gloss=Pred/Loc
+6	Màƙàrfiː	Màƙàrfiː	PROPN	_	_	5	comp:pred	_	AlignBegin=671826|AlignEnd=671988|Gloss=Makarfi
+7	kai	kai	INTJ	_	_	2	discourse	_	AlignBegin=671988|AlignEnd=672150|Gloss=eh
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=672150|AlignEnd=672311|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0572-0572
 # speaker_id = SP2
@@ -6921,8 +6934,9 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 840041, 846115
 # phonetic_text = mː // tòː bàː gàː shi ba / dâː waːkeː ai / dâː waːkeː ai / kaː sanìː muː / kalàː ɗaya mukèː dà shiː //
-# text = mː < tòː bàː gàː shi ba / dâː waːkeː ai / dâː waːkeː ai / kaː san muː / kalàː ɗaya mukè dà shiː //
+# text = mː < tòː bàː gàː shi ba < dâː waːkeː ai < dâː waːkeː ai < kaː sanìː muː < kalàː ɗaya mu kè dà shiː //
 # text_en =  Mm. Isn't it true now, formerly, beans, formerly, beans, you know, we, we only had one type.
+# validated_by = B-CARON
 1	mː	mː	INTJ	_	_	21	discourse	_	AlignBegin=840041|AlignEnd=840341|Gloss=BKL
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=840341|AlignEnd=840642|Gloss=PUNCT
 3	tòː	tòː	INTJ	_	_	21	discourse	_	AlignBegin=841201|AlignEnd=841325|Gloss=well
@@ -6945,10 +6959,11 @@
 20	<	<	PUNCT	_	_	19	punct	_	AlignBegin=844916|AlignEnd=845064|Gloss=PUNCT
 21	kalàː	kalàː	NOUN	_	_	0	root	_	AlignBegin=845064|AlignEnd=845239|Gloss=type
 22	ɗaya	ɗaya	NUM	_	_	21	mod:num	_	AlignBegin=845239|AlignEnd=845414|Gloss=one
-23	mukè	nàː/kè	AUX	_	Aspect=ProgLocBkg|Number=Plur|Person=1	21	comp:cleft	_	AlignBegin=845414|AlignEnd=845589|Background=Yes|Gloss=1Plur.Pred/Loc.Bkg
-24	dà	dà	ADP	_	_	23	comp:pred	_	AlignBegin=845589|AlignEnd=845764|Gloss=with
-25	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	24	comp:obj	_	AlignBegin=845764|AlignEnd=845939|Gloss=3Masc.Nom
-26	//	//	PUNCT	_	_	21	punct	_	AlignBegin=845939|AlignEnd=846115|Gloss=PUNCT
+23	mu	mu	PRON	_	Aspect=ProgLocBkg|Number=Plur|Person=1	24	subj	_	AlignBegin=845414|AlignEnd=845589|Background=Yes|Gloss=1Plur.Pred/Loc.Bkg
+24	kè	kè	AUX	_	Aspect=ProgLocBkg|Number=Plur|Person=1	21	comp:cleft	_	AlignBegin=845414|AlignEnd=845589|Background=Yes|Gloss=1Plur.Pred/Loc.Bkg
+25	dà	dà	ADP	_	_	24	comp:pred	_	AlignBegin=845589|AlignEnd=845764|Gloss=with
+26	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	25	comp:obj	_	AlignBegin=845764|AlignEnd=845939|Gloss=3Masc.Nom
+27	//	//	PUNCT	_	_	21	punct	_	AlignBegin=845939|AlignEnd=846115|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0734-0738
 # speaker_id = SP1
@@ -8017,16 +8032,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 956443, 957915
 # phonetic_text = àmmaː wajen dà sukèː dà shiː fa //
-# text = àmmaː wajen dà sukè dà shiː fa //
+# text = àmmaː wajen dà su kè dà shiː fa !//
 # text_en =  But there is a place where they have them.
+# validated_by = B-CARON
 1	àmmaː	àmmaː	CCONJ	_	_	2	discourse	_	AlignBegin=956443|AlignEnd=956627|Gloss=but
-2	wajen	wajen	ADP	_	_	0	root	_	AlignBegin=956627|AlignEnd=956811|Gloss=around
+2	wajen	wajen	NOUN	_	Definite=Cons	0	root	_	AlignBegin=956627|AlignEnd=956811|Gloss=place.Cons
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=956811|AlignEnd=956995|Gloss=COMP
-4	sukè	nàː/kè	AUX	_	Aspect=ProgLocBkg|Number=Plur|Person=3	3	comp:obj	_	AlignBegin=956995|AlignEnd=957179|Background=Yes|Gloss=3Plur.Pred/Loc.Bkg
-5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=957179|AlignEnd=957363|Gloss=with
-6	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=957363|AlignEnd=957547|Gloss=3Masc.Nom
-7	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=957547|AlignEnd=957731|Gloss=indeed
-8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=957731|AlignEnd=957915|Gloss=PUNCT
+4	su	su	PRON	_	Aspect=ProgLocBkg|Number=Plur|Person=3	5	subj	_	AlignBegin=956995|AlignEnd=957179|Background=Yes|Gloss=3Plur.Pred/Loc.Bkg
+5	kè	kè	AUX	_	Aspect=ProgLocBkg|Number=Plur|Person=3	3	comp:obj	_	AlignBegin=956995|AlignEnd=957179|Background=Yes|Gloss=Pred/Loc.Bkg
+6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=957179|AlignEnd=957363|Gloss=with
+7	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=957363|AlignEnd=957547|Gloss=3Masc.Nom
+8	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=957547|AlignEnd=957731|Gloss=indeed
+9	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=957731|AlignEnd=957915|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0853-0853
 # speaker_id = SP1
@@ -8894,15 +8911,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1062410, 1065495
 # phonetic_text = wannàn / mèː takèː dà suːnaː // tunàː mîn //
-# text = wannàn < mèː takè dà suːnaː ?//
+# text = wannàn < mèː ta kè dà suːnaː ?//
 # text_en =  That one, what's its name?
-1	wannàn	wannàn	PRON	_	PronType=Dem	3	mod	_	AlignBegin=1062410|AlignEnd=1062650|Deixis=Prox|Gloss=Prox
+# validated_by = B-CARON
+1	wannàn	wannàn	PRON	_	PronType=Dem	3	dislocated@top	_	AlignBegin=1062410|AlignEnd=1062650|Deixis=Prox|Gloss=Prox
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1062650|AlignEnd=106290|Gloss=PUNCT
 3	mèː	mèː	PRON	_	_	0	root	_	AlignBegin=1063220|AlignEnd=106340|Gloss=what
-4	takè	nàː/kè	AUX	_	Aspect=ProgLocBkg|Gender=Fem|Person=3	3	comp:cleft	_	AlignBegin=106340|AlignEnd=1063570|Background=Yes|Gloss=3Fem.Pred/Loc.Bkg
-5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=1063570|AlignEnd=1063740|Gloss=with
-6	suːnaː	suːnaː	NOUN	_	_	5	comp:obj	_	AlignBegin=1063740|AlignEnd=1063910|Gloss=name
-7	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=1063910|AlignEnd=1064080|Gloss=PUNCT
+4	ta	ta	PRON	_	Aspect=ProgLocBkg|Gender=Fem|Person=3	3	comp:cleft	_	AlignBegin=106340|AlignEnd=1063570|Background=Yes|Gloss=3Fem.Pred/Loc.Bkg
+5	kè	kè	AUX	_	Aspect=ProgLocBkg|Gender=Fem|Person=3	4	comp:cleft	_	AlignBegin=106340|AlignEnd=1063570|Background=Yes|Gloss=3Fem.Pred/Loc.Bkg
+6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=1063570|AlignEnd=1063740|Gloss=with
+7	suːnaː	suːnaː	NOUN	_	_	6	comp:obj	_	AlignBegin=1063740|AlignEnd=1063910|Gloss=name
+8	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=1063910|AlignEnd=1064080|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0951-0951
 # speaker_id = SP1
@@ -9883,15 +9902,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1174281, 1180500
 # phonetic_text = tòː / kaː sanìː kuma / tut tu &// kàmar̃ / maƙwàbtaː -n -mù / tundà kaː ganiː munàː dà maƙwàbtaː / Fulàːniː // Fulàːniː //
-# text = tundà kaː ga munàː dà maƙwàbtaː //
+# text = tundà kaː ga mu nàː dà maƙwàbtaː //
 # text_en =  Because, you see, we have neighbours...
-1	tundà	tundà	SCONJ	_	_	4	discourse	_	AlignBegin=1178730|AlignEnd=1178980|Gloss=since
-2	kaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=2	4	discourse	_	AlignBegin=1178980|AlignEnd=1179240|Gloss=2Masc.Perf
+# validated_by = B-CARON
+1	tundà	tundà	SCONJ	_	_	5	discourse	_	AlignBegin=1178730|AlignEnd=1178980|Gloss=since
+2	kaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	discourse	_	AlignBegin=1178980|AlignEnd=1179240|Gloss=2Masc.Perf
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=1179240|AlignEnd=1179490|Gloss=see
-4	munàː	nàː/kè	AUX	_	Aspect=Prog|Number=Plur|Person=1	0	root	_	AlignBegin=1179490|AlignEnd=1179740|Gloss=1Plur.Pred/Loc
-5	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=1179740|AlignEnd=1179990|Gloss=with
-6	maƙwàbtaː	maƙwàbciː	NOUN	_	Number=Plur	5	comp:obj	_	AlignBegin=1179990|AlignEnd=1180250|Gloss=neighbour.Plur
-7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=1180250|AlignEnd=1180500|Gloss=PUNCT
+4	mu	mu	PRON	_	Aspect=Prog|Number=Plur|Person=1	5	subj	_	AlignBegin=1179490|AlignEnd=1179740|Gloss=1Plur.Pred/Loc
+5	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=1179490|AlignEnd=1179740|Gloss=Pred/Loc
+6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=1179740|AlignEnd=1179990|Gloss=with
+7	maƙwàbtaː	maƙwàbciː	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=1179990|AlignEnd=1180250|Gloss=neighbour.Plur
+8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=1180250|AlignEnd=1180500|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1057-1057
 # speaker_id = SP1
@@ -11816,7 +11837,7 @@
 7	nan	nan	DET	_	Definite=Def	6	det	_	AlignBegin=1414880|AlignEnd=14150|Gloss=Def
 8	<	<	PUNCT	_	_	6	punct	_	AlignBegin=14150|AlignEnd=1415120|Gloss=PUNCT
 9	ta	ta	PRON	_	Aspect=Prog|Gender=Fem|Person=3	10	subj	_	AlignBegin=1415120|AlignEnd=1415320|Gloss=3Fem.Pred/Loc
-10	nàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	5	comp:obj	_	AlignBegin=1415120|AlignEnd=1415320|Gloss=3Fem.Pred/Loc
+10	nàː	nàː	AUX	_	_	5	comp:obj	_	AlignBegin=1415120|AlignEnd=1415320|Gloss=Pred/Loc
 11	ɗaːkìn	ɗaːkìː	NOUN	_	Definite=Cons	10	comp:pred	_	AlignBegin=1415320|AlignEnd=1415430|Gloss=hut.Cons|wordform=ɗaːkìː
 12	mijìn	mijìː	NOUN	_	Definite=Cons	11	comp:obj	_	AlignBegin=1415530|AlignEnd=141560|Gloss=husband.Cons|wordform=mijìː
 13	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	12	mod:poss	_	AlignBegin=1415670|AlignEnd=1415740|Gloss=3Fem.Gen
