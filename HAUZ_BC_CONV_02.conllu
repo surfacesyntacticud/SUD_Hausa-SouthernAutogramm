@@ -1055,7 +1055,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 116298, 121537
 # phonetic_text = irìː -ǹ na gar̃gajiyaː -ːːː / bà zâi yi ba / tundà bàː àmfàːniː ba nèː wandà mukèː dà shiː // kàmar̃ yandà kàːkaː -anniː\LH -n -mù dà -ːːː sukèː bâː mù làːbaːr̃ìː can baːya //
-# text = irìn na gar̃gajiyaː < bà zâi yi ba > tundà bàː àmfàːniː ba nèː wandà mukè dà shiː > kàmar̃ yandà kàːkànnin =mù dà sukèː baː mù làːbaːr̃ìː can baːya //
+# text = irìn na gar̃gajiyaː < bà zâi yi ba > tundà bàː àmfàːniː ba nèː wandà mu kè dà shiː > kàman yandà kàːkànnin =mù dà sukèː baː mù làːbaːr̃ìː can baːya //
 # text_en =  Manure... won't do since we don't use it like our grandfathers used to tell us in the old days.
 # validated_by = B-CARON
 1	irìn	irìː	NOUN	_	Definite=Def	6	dislocated@subj	_	AlignBegin=116298|AlignEnd=116404|Gloss=type.Def|wordform=irìː
@@ -1068,27 +1068,28 @@
 8	ba	ba	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=117530|AlignEnd=117597|Gloss=Neg
 9	>	>	PUNCT	_	_	10	punct	_	AlignBegin=117597|AlignEnd=117664|Gloss=PUNCT
 10	tundà	tundà	SCONJ	_	_	6	mod	_	AlignBegin=117664|AlignEnd=117802|Gloss=since
-11	bàː	bàː	PredPART	_	Polarity=Neg	10	comp:obj	_	AlignBegin=117802|AlignEnd=117940|Gloss=Neg
-12	àmfàːniː	àmfàːniː	NOUN	_	_	11	subj	_	AlignBegin=117940|AlignEnd=118078|Gloss=use
+11	bàː	bàː	ADV	_	Polarity=Neg	12	mod	_	AlignBegin=117802|AlignEnd=117940|Gloss=Neg
+12	àmfàːniː	àmfàːniː	NOUN	_	_	14	comp:pred	_	AlignBegin=117940|AlignEnd=118078|Gloss=use
 13	ba	ba	ADV	_	Polarity=Neg	12	mod	_	AlignBegin=118078|AlignEnd=118216|Gloss=Neg
-14	nèː	neː/ceː	AUX	_	_	12	discourse@foc	_	AlignBegin=118216|AlignEnd=118354|Gloss=Foc/Ident
+14	nèː	neː/ceː	AUX	_	_	10	comp:obj	_	AlignBegin=118216|AlignEnd=118354|Gloss=Foc/Ident
 15	wandà	wandà	PRON	_	PronType=Rel	12	mod@relcl	_	AlignBegin=118354|AlignEnd=118492|Gloss=which
-16	mukè	kè	AUX	_	Aspect=ProgLocBkg|Number=Plur|Person=1	15	comp:obj	_	AlignBegin=118492|AlignEnd=118630|Background=Yes|Gloss=1Plur.Pred/Loc.Bkg
-17	dà	dà	ADP	_	_	16	comp:loc	_	AlignBegin=118630|AlignEnd=118768|Gloss=with
-18	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	17	comp:obj	_	AlignBegin=118768|AlignEnd=118906|Gloss=3Masc.Nom|Resumpt=Yes
-19	>	>	PUNCT	_	_	20	punct	_	AlignBegin=118906|AlignEnd=119048|Gloss=PUNCT
-20	kàman	kàman	ADP	_	_	16	mod	_	AlignBegin=119048|AlignEnd=119274|Gloss=like|wordform=kàmar̃
-21	yandà	yandà	ADV	_	PronType=Rel	20	comp:obj	_	AlignBegin=119274|AlignEnd=119500|Gloss=how
-22	kàːkànnin	kàːkaː	NOUN	_	Definite=Cons|Number=Plur	21	mod@relcl	_	AlignBegin=119500|AlignEnd=119556|Gloss=grand-parent.Plur.Cons
-23	=mù	=mù	PRON	_	Number=Plur|Person=1|PronType=Prs	22	mod:poss	_	AlignBegin=119668|AlignEnd=119726|Gloss=1Plur.Gen
-24	dà	dà	SCONJ	_	_	22	mod@relcl	_	AlignBegin=119726|AlignEnd=119839|Gloss=COMP
-25	sukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=3	24	comp:obj	_	AlignBegin=119952|AlignEnd=120178|Background=Yes|Gloss=3Plur.Prog.Bkg
-26	baː	baː	VERB	_	_	25	mod	_	AlignBegin=120178|AlignEnd=120404|Gloss=give
-27	mù	mu	PRON	_	Number=Plur|Person=1	26	comp:ben	_	AlignBegin=120404|AlignEnd=120630|Gloss=1Plur
-28	làːbaːr̃ìː	làːbaːr̃ìː	NOUN	_	_	26	comp:obj	_	AlignBegin=120630|AlignEnd=120856|Gloss=story
-29	can	can	ADV	_	_	26	mod	_	AlignBegin=120856|AlignEnd=121082|Gloss=Rmt+
-30	baːya	baːya	ADV	_	_	29	mod	_	AlignBegin=121082|AlignEnd=121308|Gloss=behind
-31	//	//	PUNCT	_	_	6	punct	_	AlignBegin=121308|AlignEnd=121537|Gloss=PUNCT
+16	mu	mu	AUX	_	Aspect=ProgLocBkg|Number=Plur|Person=1	17	subj	_	AlignBegin=118492|AlignEnd=118630|Background=Yes|Gloss=1Plur.Pred/Loc.Bkg
+17	kè	nàː/kè.Bkg	AUX	_	_	15	comp:obj	_	AlignBegin=118492|AlignEnd=118630|Background=Yes|Gloss=Pred/Loc.Bkg
+18	dà	dà	ADP	_	_	17	comp:pred	_	AlignBegin=118630|AlignEnd=118768|Gloss=with
+19	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	18	comp:obj	_	AlignBegin=118768|AlignEnd=118906|Gloss=3Masc.Nom|Resumpt=Yes
+20	>	>	PUNCT	_	_	21	punct	_	AlignBegin=118906|AlignEnd=119048|Gloss=PUNCT
+21	kàman	kàman	ADP	_	_	17	mod	_	AlignBegin=119048|AlignEnd=119274|Gloss=like|wordform=kàmar̃
+22	yandà	yandà	ADV	_	PronType=Rel	21	comp:obj	_	AlignBegin=119274|AlignEnd=119500|Gloss=how
+23	kàːkànnin	kàːkaː	NOUN	_	Definite=Cons|Number=Plur	22	mod@relcl	_	AlignBegin=119500|AlignEnd=119556|Gloss=grand-parent.Plur.Cons
+24	=mù	=mù	PRON	_	Number=Plur|Person=1|PronType=Prs	23	mod:poss	_	AlignBegin=119668|AlignEnd=119726|Gloss=1Plur.Gen
+25	dà	dà	SCONJ	_	_	23	mod@relcl	_	AlignBegin=119726|AlignEnd=119839|Gloss=COMP
+26	sukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=3	25	comp:obj	_	AlignBegin=119952|AlignEnd=120178|Background=Yes|Gloss=3Plur.Prog.Bkg
+27	baː	baː	VERB	_	_	26	mod	_	AlignBegin=120178|AlignEnd=120404|Gloss=give
+28	mù	mu	PRON	_	Number=Plur|Person=1	27	comp:ben	_	AlignBegin=120404|AlignEnd=120630|Gloss=1Plur
+29	làːbaːr̃ìː	làːbaːr̃ìː	NOUN	_	_	27	comp:obj	_	AlignBegin=120630|AlignEnd=120856|Gloss=story
+30	can	can	ADV	_	_	27	mod	_	AlignBegin=120856|AlignEnd=121082|Gloss=Rmt+
+31	baːya	baːya	ADV	_	_	30	mod	_	AlignBegin=121082|AlignEnd=121308|Gloss=behind
+32	//	//	PUNCT	_	_	6	punct	_	AlignBegin=121308|AlignEnd=121537|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_134-134
 # speaker_id = SP1
@@ -1547,38 +1548,39 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 162156, 166872
 # phonetic_text = tòː shiː zamaː -ǹ dà kukèː dà shiː yànzu / yaː tsuːfa nèː yànzu / koː kòː shiː har̃ yànzu yanàː dà dai àː -ːːː / àbù -ǹ nan ɗin -shì nèː //
-# text = tòː shiː zaman dà ku kèː dà shiː yànzu < yaː tsuːfa neː yànzu |c kòː koː shiː har̃ yànzu ya nàː dà dai àː àbîn nan ɗin =shì nèː //
+# text = tòː shiː zaman dà ku kè dà shiː yànzu < yaː tsuːfa nèː yànzu |c koː kòː shiː har̃ yànzu yanàː dà dai àː àbîn nan ɗin =shì neː //
 # text_en =  Well the way you are staying with him now, is he old now, or now, does he have er... that thing of his ?
 # validated_by = B-CARON
-1	tòː	tòː	INTJ	_	_	10	discourse	_	AlignBegin=162156|AlignEnd=162325|Gloss=well
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	dislocated@top	_	AlignBegin=162325|AlignEnd=162494|Gloss=3Masc.Nom
+1	tòː	tòː	INTJ	_	_	11	discourse	_	AlignBegin=162156|AlignEnd=162325|Gloss=well
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	11	dislocated@top	_	AlignBegin=162325|AlignEnd=162494|Gloss=3Masc.Nom
 3	zaman	zaun-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	2	conj:appos	_	AlignBegin=162494|AlignEnd=162578|Gloss=stay.Vnoun.Cons|wordform=zamaː
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=162663|AlignEnd=162832|Gloss=COMP
-5	kukè	kè	AUX	_	Aspect=ProgLocBkg|Number=Plur|Person=2	4	comp:obj	_	AlignBegin=162832|AlignEnd=163001|Background=Yes|Gloss=2Plur.Pred/Loc.Bkg|wordform=kèː
-6	dà	dà	ADP	_	_	5	comp:loc	_	AlignBegin=163001|AlignEnd=163170|Gloss=with
-7	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=163170|AlignEnd=163339|Gloss=3Masc.Nom
-8	yànzu	yànzu	ADV	_	_	5	mod	_	AlignBegin=163339|AlignEnd=163508|Gloss=now
-9	<	<	PUNCT	_	_	10	punct	_	AlignBegin=163508|AlignEnd=163680|Gloss=PUNCT
-10	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=163879|AlignEnd=164055|Gloss=3Masc.Perf
-11	tsuːfa	tsuːf-	VERB	_	_	10	comp:aux	_	AlignBegin=164055|AlignEnd=164231|Gloss=get_old
-12	nèː	neː/ceː	AUX	_	_	11	discourse@foc	_	AlignBegin=164231|AlignEnd=164407|Gloss=Foc/Ident
-13	yànzu	yànzu	ADV	_	_	10	mod	_	AlignBegin=164407|AlignEnd=164583|Gloss=now
-14	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=164583|AlignEnd=164761|Gloss=PUNCT
-15	koː	koː	CCONJ	_	_	20	cc	_	AlignBegin=164761|AlignEnd=164894|Gloss=or
-16	kòː	kùwa	TopPART	_	_	15	discourse	_	AlignBegin=164894|AlignEnd=165027|Gloss=else
-17	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	20	dislocated@subj	_	AlignBegin=165027|AlignEnd=165160|Gloss=3Masc.Nom
-18	har̃	hat	ADP	_	_	20	mod	_	AlignBegin=165160|AlignEnd=165293|Gloss=up_to
-19	yànzu	yànzu	ADV	_	_	18	comp:obj	_	AlignBegin=165293|AlignEnd=165426|Gloss=now
-20	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	10	conj:coord	_	AlignBegin=165426|AlignEnd=165559|Gloss=3Masc.Prog|wordform=nàː
-21	dà	dà	ADP	_	_	20	comp:loc	_	AlignBegin=165559|AlignEnd=165692|Gloss=with
-22	dai	dai	TopPART	_	_	21	discourse	_	AlignBegin=165692|AlignEnd=165825|Gloss=indeed
-23	àː	àː	INTJ	_	_	24	discourse	_	AlignBegin=165825|AlignEnd=165891|Gloss=FILL
-24	àbîn	àbù	NOUN	_	Definite=Def	21	comp:obj	_	AlignBegin=166094|AlignEnd=166172|Gloss=thing.Def|wordform=àbù
-25	nan	nan	DET	_	Definite=Def	24	det	_	AlignBegin=166250|AlignEnd=166406|Gloss=Def
-26	ɗin	ɗin	ADP	_	_	24	mod:poss	_	AlignBegin=166406|AlignEnd=166484|Gloss=of|Link=Yes
-27	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	26	comp:obj	_	AlignBegin=166484|AlignEnd=166562|Gloss=3Masc.Gen
-28	neː	neː/ceː	AUX	_	_	24	discourse@foc	_	AlignBegin=166562|AlignEnd=166718|Gloss=Foc/Ident
-29	//	//	PUNCT	_	_	10	punct	_	AlignBegin=166718|AlignEnd=166872|Gloss=PUNCT
+5	ku	ku	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	AlignBegin=162832|AlignEnd=163001|Background=Yes|Gloss=2Plur|wordform=kèː
+6	kè	nàː/kè.Bkg	AUX	_	_	4	comp:obj	_	AlignBegin=162832|AlignEnd=163001|Background=Yes|Gloss=Pred/Loc.Bkg|wordform=kèː
+7	dà	dà	ADP	_	_	6	comp:pred	_	AlignBegin=163001|AlignEnd=163170|Gloss=with
+8	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=163170|AlignEnd=163339|Gloss=3Masc.Nom
+9	yànzu	yànzu	ADV	_	_	6	mod	_	AlignBegin=163339|AlignEnd=163508|Gloss=now
+10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=163508|AlignEnd=163680|Gloss=PUNCT
+11	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=163879|AlignEnd=164055|Gloss=3Masc.Perf
+12	tsuːfa	tsuːf-	VERB	_	_	11	comp:aux	_	AlignBegin=164055|AlignEnd=164231|Gloss=get_old
+13	nèː	neː/ceː	AUX	_	_	12	discourse@foc	_	AlignBegin=164231|AlignEnd=164407|Gloss=Foc/Ident
+14	yànzu	yànzu	ADV	_	_	11	mod	_	AlignBegin=164407|AlignEnd=164583|Gloss=now
+15	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=164583|AlignEnd=164761|Gloss=PUNCT
+16	koː	koː	CCONJ	_	_	21	cc	_	AlignBegin=164761|AlignEnd=164894|Gloss=or
+17	kòː	kùwa	TopPART	_	_	16	discourse	_	AlignBegin=164894|AlignEnd=165027|Gloss=else
+18	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	21	dislocated@subj	_	AlignBegin=165027|AlignEnd=165160|Gloss=3Masc.Nom
+19	har̃	hat	ADP	_	_	21	mod	_	AlignBegin=165160|AlignEnd=165293|Gloss=up_to
+20	yànzu	yànzu	ADV	_	_	19	comp:obj	_	AlignBegin=165293|AlignEnd=165426|Gloss=now
+21	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	11	conj:coord	_	AlignBegin=165426|AlignEnd=165559|Gloss=3Masc.Prog|wordform=nàː
+22	dà	dà	ADP	_	_	21	comp:loc	_	AlignBegin=165559|AlignEnd=165692|Gloss=with
+23	dai	dai	TopPART	_	_	22	discourse	_	AlignBegin=165692|AlignEnd=165825|Gloss=indeed
+24	àː	àː	INTJ	_	_	25	discourse	_	AlignBegin=165825|AlignEnd=165891|Gloss=FILL
+25	àbîn	àbù	NOUN	_	Definite=Def	22	comp:obj	_	AlignBegin=166094|AlignEnd=166172|Gloss=thing.Def|wordform=àbù
+26	nan	nan	DET	_	Definite=Def	25	det	_	AlignBegin=166250|AlignEnd=166406|Gloss=Def
+27	ɗin	ɗin	ADP	_	_	25	mod:poss	_	AlignBegin=166406|AlignEnd=166484|Gloss=of|Link=Yes
+28	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	27	comp:obj	_	AlignBegin=166484|AlignEnd=166562|Gloss=3Masc.Gen
+29	neː	neː/ceː	AUX	_	_	25	discourse@foc	_	AlignBegin=166562|AlignEnd=166718|Gloss=Foc/Ident
+30	//	//	PUNCT	_	_	11	punct	_	AlignBegin=166718|AlignEnd=166872|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_187-187
 # speaker_id = SP2

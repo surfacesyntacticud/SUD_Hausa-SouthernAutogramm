@@ -203,13 +203,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_01.WAV
 # sent_timecode = 31869, 33030
 # phonetic_text = ta cêː dàkeː nakèː //
-# text = ta cêː dàke nakè //
+# text = ta cêː dàke na kè //
 # text_en =  She said I am beating (you).
+# validated_by = B-CARON
 1	ta	sukà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=31869|AlignEnd=32101|Background=Yes|Gloss=3Fem.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=32101|AlignEnd=32333|Gloss=say
 3	dàke	dak-	VERB	_	_	2	comp:obj	_	AlignBegin=32333|AlignEnd=32565|Gloss=pound.Stat
-4	nakè	kè	AUX	_	Aspect=ProgLocBkg|Number=Sing|Person=1	3	comp:cleft	_	AlignBegin=32565|AlignEnd=32797|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
-5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=32797|AlignEnd=33030|Gloss=PUNCT
+4	na	na	PRON	_	Aspect=ProgLocBkg|Number=Sing|Person=1	5	comp:pred	_	AlignBegin=32565|AlignEnd=32797|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
+5	kè	nàː/kè.Bkg	AUX	_	_	3	comp:cleft	_	AlignBegin=32565|AlignEnd=32797|Background=Yes|Gloss=Pred/Loc.Bkg
+6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=32797|AlignEnd=33030|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_022-022
 # speaker_id = SP1

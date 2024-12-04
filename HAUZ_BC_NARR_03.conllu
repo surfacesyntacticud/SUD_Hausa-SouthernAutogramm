@@ -90,15 +90,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_03.WAV
 # sent_timecode = 16328, 19925
 # phonetic_text = sai ya cêː tòː shiː maː barìː yà tàfi dâː maː à jiːniyo kilaːs yakèː //
-# text = dâː maː à jiːniyo kilaːs yakè //
+# text = dâː maː à jiːniyo kilaːs ya kè //
 # text_en = Actually he was in junior class.
+# validated_by = B-CARON
 1	dâː	dâː	ADV	_	_	3	mod	_	AlignBegin=18228|AlignEnd=18470|Gloss=formerly
 2	maː	maː	TopPART	_	_	1	discourse	_	AlignBegin=18470|AlignEnd=18712|Gloss=even
 3	à	à	ADP	_	_	0	root	_	AlignBegin=18712|AlignEnd=18954|Gloss=at
-4	jiːniyo	jiːniyo	ADJ	_	Foreign=Yes	3	comp:obj	_	AlignBegin=18954|AlignEnd=19196|Gloss=junior|Lang=en
-5	kilaːs	kilaːs	NOUN	_	Foreign=Yes	4	flat:foreign	_	AlignBegin=19196|AlignEnd=19438|Gloss=class|Lang=en
-6	yakè	kè	AUX	_	Aspect=ProgLocBkg|Gender=Masc|Person=3	3	comp:cleft	_	AlignBegin=19438|AlignEnd=19680|Background=Yes|Gloss=3Masc.Pred/Loc.Bkg
-7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=19680|AlignEnd=19925|Gloss=PUNCT
+4	jiːniyo	jiːniyo	ADJ	_	Foreign=Yes	5	mod	_	AlignBegin=18954|AlignEnd=19196|Gloss=junior|Lang=en
+5	kilaːs	kilaːs	NOUN	_	Foreign=Yes	3	comp:obj	_	AlignBegin=19196|AlignEnd=19438|Gloss=class|Lang=en
+6	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	subj	_	AlignBegin=19438|AlignEnd=19680|Background=Yes|Gloss=3Masc
+7	kè	nàː/kè.Bkg	AUX	_	_	3	comp:cleft	_	AlignBegin=19438|AlignEnd=19680|Background=Yes|Gloss=Pred/Loc.Bkg
+8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=19680|AlignEnd=19925|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_03_12-12
 # speaker_id = SP
