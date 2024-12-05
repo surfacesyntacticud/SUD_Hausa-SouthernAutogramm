@@ -1142,13 +1142,14 @@
 # phonetic_text = tòː gà &// gàː wani maː à nân //
 # text = tòː gàː || gàː wani maː à nân //
 # text_en =  Well, there... there's even one here.
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=131195|AlignEnd=131447|Gloss=well
 2	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=131447|AlignEnd=131699|Gloss=here_is
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=131699|AlignEnd=131951|GE=|Gloss=PUNCT|nWord=3
 4	gàː	gàː	PredPART	_	_	2	conj:dicto	_	AlignBegin=131951|AlignEnd=132203|Gloss=here_is
 5	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	4	subj	_	AlignBegin=132203|AlignEnd=132455|Gloss=some.Masc
 6	maː	maː	TopPART	_	_	5	discourse	_	AlignBegin=132455|AlignEnd=132707|Gloss=even
-7	à	à	ADP	_	_	4	comp:loc	_	AlignBegin=132707|AlignEnd=132959|Gloss=at
+7	à	à	ADP	_	_	4	comp:pred	_	AlignBegin=132707|AlignEnd=132959|Gloss=at
 8	nân	nân	ADV	_	PronType=Dem	7	comp:obj	_	AlignBegin=132959|AlignEnd=133211|Deixis=Prox|Gloss=Prox
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=133211|AlignEnd=133461|Gloss=PUNCT
 
@@ -1646,21 +1647,23 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 190244, 192089
 # phonetic_text = Muːsaː Yàngaː shiː maː yanàː cikin wandà sukà ɗan taɓàː à dâː //
-# text = Muːsaː Yàngaː shiː maː yanàː cikin wandà sukà ɗan taɓàː à dâː //
+# text = Muːsaː Yàngaː shiː maː ya nàː cikin wandà sukà ɗan taɓàː à dâː //
 # text_en =  Musa Yanga, he's among those who used to do a little in the old days.
-1	Muːsaː	muːsaː	NOUN	_	_	5	dislocated@subj	_	AlignBegin=190244|AlignEnd=190386|Gloss=Musa
+# validated_by = B-CARON
+1	Muːsaː	muːsaː	NOUN	_	_	6	dislocated@subj	_	AlignBegin=190244|AlignEnd=190386|Gloss=Musa
 2	Yàngaː	Yàngaː	PROPN	_	_	1	flat:name	_	AlignBegin=190386|AlignEnd=190528|Gloss=Yanga
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	1	conj:appos	_	AlignBegin=190528|AlignEnd=190670|Gloss=3Masc.Nom
 4	maː	maː	TopPART	_	_	3	discourse	_	AlignBegin=190670|AlignEnd=190812|Gloss=even
-5	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=190812|AlignEnd=190954|Gloss=3Masc.Imp
-6	cikin	cikin	ADP	_	_	5	comp:loc	_	AlignBegin=190954|AlignEnd=191096|Gloss=inside
-7	wandà	wandà	PRON	_	PronType=Rel	6	comp:obj	_	AlignBegin=191096|AlignEnd=191238|Gloss=who
-8	sukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	7	mod@relcl	_	AlignBegin=191238|AlignEnd=191380|Background=Yes|Gloss=3Plur.Perf.Bkg
-9	ɗan	ɗan	ADV	_	_	10	mod	_	AlignBegin=191380|AlignEnd=191522|Gloss=DIM
-10	taɓàː	taɓ-	VERB	_	_	8	comp:aux	_	AlignBegin=191522|AlignEnd=191664|Gloss=touch
-11	à	à	ADP	_	_	10	mod	_	AlignBegin=191664|AlignEnd=191806|Gloss=at
-12	dâː	dâː	ADV	_	_	11	comp:obj	_	AlignBegin=191806|AlignEnd=191948|Gloss=formerly
-13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=191948|AlignEnd=192089|Gloss=PUNCT
+5	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=190812|AlignEnd=190954|Gloss=3Masc
+6	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=190812|AlignEnd=190954|Gloss=Pred/Loc
+7	cikin	cikin	ADP	_	_	6	comp:pred	_	AlignBegin=190954|AlignEnd=191096|Gloss=inside
+8	wandà	wandà	PRON	_	PronType=Rel	7	comp:obj	_	AlignBegin=191096|AlignEnd=191238|Gloss=who
+9	sukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	8	mod@relcl	_	AlignBegin=191238|AlignEnd=191380|Background=Yes|Gloss=3Plur.Perf.Bkg
+10	ɗan	ɗan	ADV	_	_	11	mod	_	AlignBegin=191380|AlignEnd=191522|Gloss=DIM
+11	taɓàː	taɓ-	VERB	_	_	9	comp:aux	_	AlignBegin=191522|AlignEnd=191664|Gloss=touch
+12	à	à	ADP	_	_	11	mod	_	AlignBegin=191664|AlignEnd=191806|Gloss=at
+13	dâː	dâː	ADV	_	_	12	comp:obj	_	AlignBegin=191806|AlignEnd=191948|Gloss=formerly
+14	//	//	PUNCT	_	_	6	punct	_	AlignBegin=191948|AlignEnd=192089|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0159-0159
 # speaker_id = SP2
@@ -4405,8 +4408,9 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 539996, 545285
 # phonetic_text = dâː in / iskàː -n bazaraː ya huːràː / zaːkà ji kàmar̃ / kàmar̃ kaɗà kà taːshì / in kanàː koː &// in kanàː gìndiː -n in -wàː //
-# text = dâː in iskàn bazaraː ya huːràː < zaːkà ji kàmar̃ < kàmar̃ kaɗà kà taːshì in kanàː koː || in kanàː gìndin inwàː //
+# text = dâː in iskàn bazaraː ya huːràː < zaːkà ji kàman < kàman kaɗà kà taːshì in kanàː koː || in ka nàː gìndin inwàː //
 # text_en =  In the old days if the wind of the hot season is blowing, you will feel like like you should not get up if you are... if you are in the shade.
+# validated_by = B-CARON
 1	dâː	dâː	ADV	_	_	8	mod	_	AlignBegin=539996|AlignEnd=540186|Gloss=formerly
 2	in	in	SCONJ	_	_	8	mod	_	AlignBegin=540186|AlignEnd=540376|Gloss=if
 3	iskàn	iskàː	NOUN	_	Definite=Cons	5	subj	_	AlignBegin=540565|AlignEnd=540673|Gloss=wind.Cons|wordform=iskàː
@@ -4427,10 +4431,11 @@
 18	koː	kùwa	TopPART	_	_	17	discourse	_	AlignBegin=544233|AlignEnd=544372|Gloss=as_for
 19	||	||	PUNCT	_	_	20	punct	_	AlignBegin=544372|AlignEnd=544510|Gloss=PUNCT
 20	in	in	SCONJ	_	_	16	conj:dicto	_	AlignBegin=544510|AlignEnd=544665|Gloss=if
-21	kanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	20	comp:obj	_	AlignBegin=544665|AlignEnd=544820|Gloss=2Masc.Pred/Loc
-22	gìndin	gìndin	ADP	_	_	21	comp:loc	_	AlignBegin=544820|AlignEnd=544898|Gloss=beneath|wordform=gìndiː
-23	inwàː	inwàː	NOUN	_	_	22	comp:obj	_	AlignBegin=544975|AlignEnd=545053|Gloss=shade|wordform=in
-24	//	//	PUNCT	_	_	8	punct	_	AlignBegin=545130|AlignEnd=545285|Gloss=PUNCT
+21	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	22	subj	_	AlignBegin=544665|AlignEnd=544820|Gloss=2Masc
+22	nàː	nàː/kè	AUX	_	_	20	comp:obj	_	AlignBegin=544665|AlignEnd=544820|Gloss=Pred/Loc
+23	gìndin	gìndin	ADP	_	_	22	comp:pred	_	AlignBegin=544820|AlignEnd=544898|Gloss=beneath|wordform=gìndiː
+24	inwàː	inwàː	NOUN	_	_	23	comp:obj	_	AlignBegin=544975|AlignEnd=545053|Gloss=shade|wordform=in
+25	//	//	PUNCT	_	_	8	punct	_	AlignBegin=545130|AlignEnd=545285|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0459-0459
 # speaker_id = SP2
@@ -5004,19 +5009,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 621250, 623200
 # phonetic_text = tòː kai fa / kanàː cikin baƙiː -n / taːshìː -n
-# text = tòː kai fa / kanàː cikin baƙin / taːshìn râi //
+# text = tòː kai fa < ka nàː cikin baƙin || taːshìn râi //
 # text_en =  Well and you, you are sad... angry.
-1	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=621250|AlignEnd=621342|Gloss=well
-2	kai	kai	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	dislocated@top	_	AlignBegin=621342|AlignEnd=621434|Gloss=2.Masc.Nom
+# validated_by = B-CARON
+1	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=621250|AlignEnd=621342|Gloss=well
+2	kai	kai	PRON	_	Gender=Masc|Person=2|PronType=Prs	6	dislocated@top	_	AlignBegin=621342|AlignEnd=621434|Gloss=2.Masc.Nom
 3	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=621434|AlignEnd=621526|Gloss=indeed
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=621526|AlignEnd=621620|Gloss=PUNCT
-5	kanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	0	root	_	AlignBegin=621620|AlignEnd=621860|Gloss=2Masc.Imp
-6	cikin	cikin	ADP	_	_	5	comp:loc	_	AlignBegin=621860|AlignEnd=622100|Gloss=inside
-7	baƙin	baƙiː	ADJ	_	Definite=Cons	10	mod	_	AlignBegin=622100|AlignEnd=622220|Gloss=black.Cons|wordform=baƙiː
-8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=622340|AlignEnd=622578|Gloss=PUNCT
-9	taːshìn	taːs-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	7	conj:dicto	_	AlignBegin=622578|AlignEnd=622682|Gloss=rise.Vnoun.Cons|wordform=taːshìː
-10	râi	râi	NOUN	_	_	6	comp:obj	_	AlignBegin=622785|AlignEnd=622992|Gloss=heart
-11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=622992|AlignEnd=623200|Gloss=PUNCT
+5	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	6	subj	_	AlignBegin=621620|AlignEnd=621860|Gloss=2Masc
+6	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=621620|AlignEnd=621860|Gloss=Pred/Loc
+7	cikin	cikin	ADP	_	_	6	comp:pred	_	AlignBegin=621860|AlignEnd=622100|Gloss=inside
+8	baƙin	baƙiː	ADJ	_	Definite=Cons	11	mod	_	AlignBegin=622100|AlignEnd=622220|Gloss=black.Cons|wordform=baƙiː
+9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=622340|AlignEnd=622578|Gloss=PUNCT
+10	taːshìn	taːs-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	8	conj:dicto	_	AlignBegin=622578|AlignEnd=622682|Gloss=rise.Vnoun.Cons|wordform=taːshìː
+11	râi	râi	NOUN	_	_	7	comp:obj	_	AlignBegin=622785|AlignEnd=622992|Gloss=heart
+12	//	//	PUNCT	_	_	6	punct	_	AlignBegin=622992|AlignEnd=623200|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0524-0524
 # speaker_id = SP2
@@ -7579,19 +7586,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 914173, 916367
 # phonetic_text = mː // hm̌ː // ài sai ruwaː yanàː gab dà faːɗìː / ruwan bazaraː /
-# text = ai sai ruwaː yanàː gab dà faːɗìː // ruwan bazaraː >
+# text = ai sai ruwaː ya nàː gab dà faːɗìː > ruwan bazaraː //
 # text_en = Eh, wait until the rain is about to fall, the hot season rains.
-1	ai	ai	INTJ	_	_	4	discourse	_	AlignBegin=914173|AlignEnd=914337|Gloss=eh
-2	sai	sai	ADV	_	_	4	mod	_	AlignBegin=914337|AlignEnd=914501|Gloss=only
-3	ruwaː	ruwaː	NOUN	_	_	4	subj	_	AlignBegin=914501|AlignEnd=914665|Gloss=water
-4	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=914665|AlignEnd=914829|Gloss=3Masc.Imp
-5	gab	gab	ADP	_	_	4	comp:loc	_	AlignBegin=914829|AlignEnd=914993|Gloss=close
-6	dà	dà	ADP	_	_	5	compound	_	AlignBegin=914993|AlignEnd=915157|Gloss=with
-7	faːɗìː	faːɗ-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=915157|AlignEnd=915321|Gloss=fall.Vnoun
-8	>	>	PUNCT	_	_	9	punct	_	AlignBegin=915321|AlignEnd=915489|Gloss=PUNCT
-9	ruwan	ruwaː	NOUN	_	Definite=Cons	4	dislocated@subj	_	AlignBegin=915489|AlignEnd=915782|Gloss=water
-10	bazaraː	bazaraː	NOUN	_	_	9	compound	_	AlignBegin=915782|AlignEnd=916075|Gloss=hot_season
-11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=916075|AlignEnd=916367|Gloss=PUNCT
+# validated_by = B-CARON
+1	ai	ai	INTJ	_	_	5	discourse	_	AlignBegin=914173|AlignEnd=914337|Gloss=eh
+2	sai	sai	ADV	_	_	5	mod	_	AlignBegin=914337|AlignEnd=914501|Gloss=only
+3	ruwaː	ruwaː	NOUN	_	_	5	dislocated@subj	_	AlignBegin=914501|AlignEnd=914665|Gloss=water
+4	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	5	subj	_	AlignBegin=914665|AlignEnd=914829|Gloss=3Masc
+5	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=914665|AlignEnd=914829|Gloss=Pred/Loc
+6	gab	gab	ADP	_	_	5	comp:pred	_	AlignBegin=914829|AlignEnd=914993|Gloss=close
+7	dà	dà	ADP	_	_	6	comp:obj	_	AlignBegin=914993|AlignEnd=915157|Gloss=with
+8	faːɗìː	faːɗ-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:obj	_	AlignBegin=915157|AlignEnd=915321|Gloss=fall.Vnoun
+9	>	>	PUNCT	_	_	10	punct	_	AlignBegin=915321|AlignEnd=915489|Gloss=PUNCT
+10	ruwan	ruwaː	NOUN	_	Definite=Cons	5	dislocated@subj	_	AlignBegin=915489|AlignEnd=915782|Gloss=water
+11	bazaraː	bazaraː	NOUN	_	_	10	compound	_	AlignBegin=915782|AlignEnd=916075|Gloss=hot_season
+12	//	//	PUNCT	_	_	5	punct	_	AlignBegin=916075|AlignEnd=916367|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0804-0804
 # speaker_id = SP1
@@ -12571,14 +12580,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1500060, 1501081
 # phonetic_text = baː kà jîː // kanàː iːhùː / kanàː kâi -n //
-# text = kanàː iːhùː |c kanàː kân //
+# text = kanàː iːhùː //= ka nàː kân //
 # text_en = You are groaning, you are on it.
+# validated_by = B-CARON
 1	kanàː	nàː/kèː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	0	root	_	AlignBegin=1500060|AlignEnd=1500240|Gloss=2Masc.Prog
 2	iːhùː	iːhùː	NOUN	_	_	1	comp:aux	_	AlignBegin=1500240|AlignEnd=1500430|Gloss=shouting
-3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=1500430|AlignEnd=1500610|Gloss=PUNCT
-4	kanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	1	conj:svc	_	AlignBegin=1500610|AlignEnd=1500770|Gloss=2Masc.Imp
-5	kân	kân	ADP	_	_	4	comp:loc	_	AlignBegin=1500770|AlignEnd=1500850|Gloss=top|wordform=kâi
-6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1500930|AlignEnd=1501080|Gloss=PUNCT
+3	//=	//=	PUNCT	_	_	5	punct	_	AlignBegin=1500430|AlignEnd=1500610|Gloss=PUNCT
+4	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	subj	_	AlignBegin=1500610|AlignEnd=1500770|Gloss=2Masc
+5	nàː	nàː/kè	AUX	_	_	1	parataxis	_	AlignBegin=1500610|AlignEnd=1500770|Gloss=Pred/Loc
+6	kân	kân	ADP	_	_	5	comp:pred	_	AlignBegin=1500770|AlignEnd=1500850|Gloss=top|wordform=kâi
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1500930|AlignEnd=1501080|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1352-1352
 # speaker_id = SP2
