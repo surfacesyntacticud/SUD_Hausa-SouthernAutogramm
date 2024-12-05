@@ -568,7 +568,7 @@
 8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=70929|AlignEnd=71224|Gloss=then
 9	mù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=1	5	conj:coord	_	AlignBegin=71224|AlignEnd=71519|Gloss=1Plur.Aor
 10	tàfi	taf-	VERB	_	_	9	comp:aux	_	AlignBegin=71519|AlignEnd=71814|Gloss=go
-11	daːjì	daːjì	ADV	_	_	10	comp:goal	_	AlignBegin=71814|AlignEnd=72109|Gloss=in_the_bush
+11	daːjì	daːjì	ADV	_	_	10	comp:G	_	AlignBegin=71814|AlignEnd=72109|Gloss=in_the_bush
 12	//	//	PUNCT	_	_	1	punct	_	AlignBegin=72109|AlignEnd=72399|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_023-023
@@ -831,7 +831,7 @@
 16	indà	indà	ADV	_	PronType=Rel	24	dislocated@subj	_	AlignBegin=110340|AlignEnd=110640|Gloss=where
 17	mukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=1	16	mod@relcl	_	AlignBegin=110640|AlignEnd=110940|Background=Yes|Gloss=1Plur.Prog.Bkg
 18	zuwàː	zoː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	17	comp:aux	_	AlignBegin=110940|AlignEnd=111240|Gloss=go.Vnoun
-19	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	18	comp:goal	_	AlignBegin=111240|AlignEnd=111390|Gloss=do.Vnoun.Cons
+19	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	18	comp:G	_	AlignBegin=111240|AlignEnd=111390|Gloss=do.Vnoun.Cons
 20	wânnan	wânnan	DET	_	Definite=Def	21	det	_	AlignBegin=111540|AlignEnd=111840|Gloss=Def
 21	itàːceː	itàːceː	NOUN	_	_	19	comp:obj	_	AlignBegin=111840|AlignEnd=112140|Gloss=wood
 22	<	<	PUNCT	_	_	16	punct	_	AlignBegin=112140|AlignEnd=112440|Gloss=PUNCT
@@ -1840,9 +1840,9 @@
 35	ɗaukoː	ɗaukoː	VERB	_	_	34	comp:aux	_	AlignBegin=212576|AlignEnd=212754|Gloss=take.DIR
 36	nì	ni	PRON	_	Number=Sing|Person=1|PronType=Prs	35	comp:obj	_	AlignBegin=212754|AlignEnd=212932|Gloss=1Sing
 37	tun	tun	ADV	_	_	35	mod	_	AlignBegin=213110|AlignEnd=213288|Gloss=since
-38	à	à	ADP	_	ExtPos=ADP	35	comp:source	_	AlignBegin=213288|AlignEnd=213466|Gloss=at|Idiom=Yes
+38	à	à	ADP	_	ExtPos=ADP	35	comp:obl	_	AlignBegin=213288|AlignEnd=213466|Gloss=at|Idiom=Yes
 39	wajen	wajen	ADP	_	_	38	compound	_	AlignBegin=213466|AlignEnd=213644|Gloss=around|InIdiom=Yes
-40	iyàːyeː	iyàːyeː	NOUN	_	_	38	comp:obj	_	AlignBegin=213644|AlignEnd=213733|Gloss=relatives
+40	iyàːyeː	iyàːyeː	NOUN	_	_	38	comp:obl	_	AlignBegin=213644|AlignEnd=213733|Gloss=relatives
 41	=naː	=naː	PRON	_	Number=Sing|Person=1|PronType=Prs	40	mod:poss	_	AlignBegin=213733|AlignEnd=213822|Gloss=1Sing.Gen
 42	//	//	PUNCT	_	_	24	punct	_	AlignBegin=213822|AlignEnd=214003|Gloss=PUNCT
 
@@ -1910,7 +1910,7 @@
 1	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	2	dislocated@top	_	AlignBegin=219714|AlignEnd=219871|Gloss=3Fem.Nom
 2	mù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=219871|AlignEnd=220028|Gloss=1Plur.Aor
 3	jeː	jeː	VERB	_	_	2	comp:aux	_	AlignBegin=220028|AlignEnd=220185|Gloss=go
-4	daːjìn	daːjìː	NOUN	_	Definite=Def	3	comp:goal	_	AlignBegin=220185|AlignEnd=220263|Gloss=bush.Def
+4	daːjìn	daːjìː	NOUN	_	Definite=Def	3	comp:G	_	AlignBegin=220185|AlignEnd=220263|Gloss=bush.Def
 5	nan	nan	DET	_	Definite=Def	4	det	_	AlignBegin=220342|AlignEnd=220499|Gloss=Def
 6	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=220499|AlignEnd=220654|Gloss=PUNCT
 7	sai	sai	ADV	_	ExtPos=ADV	9	mod	_	AlignBegin=220876|AlignEnd=221054|Gloss=then|Idiom=Yes
@@ -2050,7 +2050,7 @@
 5	dà	dà	SCONJ	_	_	4	mod@relcl	_	AlignBegin=240116|AlignEnd=240342|Gloss=COMP
 6	mukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=1	5	comp:obj	_	AlignBegin=240342|AlignEnd=240568|Background=Yes|Gloss=1Plur.Prog.Bkg
 7	zuwàː	zoː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=240568|AlignEnd=240794|Gloss=go.Vnoun
-8	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	7	comp:goal	_	AlignBegin=240794|AlignEnd=240907|Gloss=do.Vnoun.Cons
+8	yîn	yi	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	7	comp:G	_	AlignBegin=240794|AlignEnd=240907|Gloss=do.Vnoun.Cons
 9	itàːceː	itàːceː	NOUN	_	_	8	comp:obj	_	AlignBegin=241020|AlignEnd=241246|Gloss=wood
 10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=241246|AlignEnd=241472|Gloss=PUNCT
 11	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	12	comp:pred	_	AlignBegin=241472|AlignEnd=241698|Gloss=3Masc.Nom
@@ -2242,7 +2242,7 @@
 7	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=261802|AlignEnd=261961|Background=Yes|Gloss=3Masc.Perf.Bkg
 8	koːmàː	koːm-	VERB	_	_	7	comp:aux	_	AlignBegin=261961|AlignEnd=262120|Gloss=go_back
 9	wânnan	wânnan	DET	_	Definite=Def	10	det	_	AlignBegin=262120|AlignEnd=262279|Gloss=Def
-10	daːjìː	daːjìː	NOUN	_	_	8	comp:goal	_	AlignBegin=262279|AlignEnd=262438|Gloss=bush
+10	daːjìː	daːjìː	NOUN	_	_	8	comp:G	_	AlignBegin=262279|AlignEnd=262438|Gloss=bush
 11	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	7	conj:svc	_	AlignBegin=262438|AlignEnd=262597|Background=Yes|Gloss=3Masc.Perf.Bkg
 12	jeː	jeː	VERB	_	_	11	comp:aux	_	AlignBegin=262597|AlignEnd=262756|Gloss=go
 13	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	11	conj:svc	_	AlignBegin=262756|AlignEnd=262915|Background=Yes|Gloss=3Masc.Perf.Bkg
@@ -2876,6 +2876,7 @@
 # phonetic_text = àmmaː àlhamdù lìllaːhì / àkân noːmaː -n -mù mukàn noːmàː / waːkeː / mukàn noːmàː masàr̃aː / mukàn noːmàː daːwàː //
 # text = àmmaː àlhamdù lìllaːhì < à kân noːman =mù mukàn noːmà waːkeː |c mukàn noːmà masàr̃aː |c mukàn noːmà daːwàː //
 # text_en =  But thank God as for our farming, we farm.. beans, we farm maize, we farm guinea-corn.
+# validated_by = B-CARON
 1	àmmaː	àmmaː	CCONJ	_	_	9	discourse	_	AlignBegin=349929|AlignEnd=350196|Gloss=but
 2	àlhamdù	àlhamdù	INTJ	_	Foreign=Yes	9	discourse	_	AlignBegin=350196|AlignEnd=350463|Gloss=alhamdu|Idiom=Yes|Lang=ar
 3	lìllaːhì	lìllaːhì	INTJ	_	Foreign=Yes	2	flat:foreign	_	AlignBegin=350463|AlignEnd=350730|Gloss=lìllaːhì|InIdiom=Yes|Lang=ar
@@ -2894,7 +2895,7 @@
 16	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=353667|AlignEnd=353934|Gloss=PUNCT
 17	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	13	conj:coord	_	AlignBegin=353934|AlignEnd=354201|Gloss=1Plur.Hab
 18	noːmà	noːmàː	VERB	_	_	17	comp:aux	_	AlignBegin=354201|AlignEnd=354468|Gloss=farm
-19	daːwàː	daːwàː	NOUN	_	_	18	comp:goal	_	AlignBegin=354468|AlignEnd=354735|Gloss=guinea-corn
+19	daːwàː	daːwàː	NOUN	_	_	18	comp:obj	_	AlignBegin=354468|AlignEnd=354735|Gloss=guinea-corn
 20	//	//	PUNCT	_	_	9	punct	_	AlignBegin=354735|AlignEnd=354996|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_131-131
@@ -2972,7 +2973,7 @@
 22	|c	|c	PUNCT	_	_	23	punct	_	AlignBegin=366951|AlignEnd=367079|Gloss=PUNCT
 23	kù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=2	18	conj:svc	_	AlignBegin=367079|AlignEnd=367207|Gloss=2Plur.Aor
 24	zoː	zoː	VERB	_	_	23	comp:aux	_	AlignBegin=367207|AlignEnd=367335|Gloss=go
-25	can	can	ADV	_	_	24	comp:goal	_	AlignBegin=367335|AlignEnd=367463|Gloss=Rmt2
+25	can	can	ADV	_	_	24	comp:G	_	AlignBegin=367335|AlignEnd=367463|Gloss=Rmt2
 26	kàːsuwaː	kàːsuwaː	NOUN	_	_	25	conj:appos	_	AlignBegin=367463|AlignEnd=367591|Gloss=market
 27	kù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=2	23	conj:svc	_	AlignBegin=367591|AlignEnd=367719|Gloss=2Plur.Aor
 28	sayar̃	sayar̃	VERB	_	_	27	comp:aux	_	AlignBegin=367719|AlignEnd=367847|Gloss=sell.Cau
@@ -4198,7 +4199,7 @@
 25	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	9	conj:coord	_	AlignBegin=524192|AlignEnd=524373|Gloss=2Plur.Hab
 26	jeː	jeː	VERB	_	_	25	comp:aux	_	AlignBegin=524373|AlignEnd=524554|Gloss=go
 27	wani	wani	DET	_	Gender=Masc	28	det	_	AlignBegin=524554|AlignEnd=524735|Gloss=some.Masc
-28	wuriː	wuriː	NOUN	_	_	26	comp:goal	_	AlignBegin=524735|AlignEnd=524916|Gloss=place
+28	wuriː	wuriː	NOUN	_	_	26	comp:G	_	AlignBegin=524735|AlignEnd=524916|Gloss=place
 29	nèː	neː/ceː	AUX	_	_	28	discourse@foc	_	AlignBegin=524916|AlignEnd=525097|Gloss=Foc/Ident
 30	kù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=2	25	conj:coord	_	AlignBegin=525097|AlignEnd=525278|Gloss=2Plur.Aor
 31	ɗiːboː	ɗiːboː	VERB	_	_	30	comp:aux	_	AlignBegin=525278|AlignEnd=525459|Gloss=scoop_out.DIR
@@ -4283,16 +4284,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 535025, 536575
 # phonetic_text = ya tahoː ya jeː / ùngwaː -n riːmiː /
-# text = ya tahoː ya jeː |c/ Ùngwan Riːmiː /
+# text = ya tahoː ya jeː Ùngwan Riːmiː //
 # text_en =  it starts and goes to.. Ungwan Rimi.
+# validated_by = B-CARON
 1	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=535025|AlignEnd=535219|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	tahoː	tahoː	VERB	_	_	1	comp:aux	_	AlignBegin=535219|AlignEnd=535413|Gloss=go.DIR
 3	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	conj:svc	_	AlignBegin=535413|AlignEnd=535607|Background=Yes|Gloss=3Masc.Perf.Bkg
 4	jeː	jeː	VERB	_	_	3	comp:aux	_	AlignBegin=535607|AlignEnd=535801|Gloss=go
-5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=535801|AlignEnd=535995|Gloss=PUNCT
-6	Ùngwan	Ùngwan	PROPN	_	Definite=Cons	4	comp:goal	_	AlignBegin=535995|AlignEnd=536092|Gloss=ward.Cons
-7	Riːmiː	Riːmiː	PROPN	_	_	6	flat:foreign	_	AlignBegin=536189|AlignEnd=536383|Gloss=Rimi
-8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=536383|AlignEnd=536575|Gloss=PUNCT
+5	Ùngwan	Ùngwan	PROPN	_	Definite=Cons	4	comp:G	_	AlignBegin=535995|AlignEnd=536092|Gloss=ward.Cons
+6	Riːmiː	Riːmiː	PROPN	_	_	5	flat:name	_	AlignBegin=536189|AlignEnd=536383|Gloss=Rimi
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=536383|AlignEnd=536575|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_196-196
 # speaker_id = SP2
@@ -4674,7 +4675,7 @@
 14	sukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	13	comp:obj	_	AlignBegin=588555|AlignEnd=588714|Background=Yes|Gloss=3Plur.Perf.Bkg
 15	taɓà	taɓ-	VERB	_	_	14	comp:aux	_	AlignBegin=588714|AlignEnd=588873|Gloss=experience
 16	zuwàː	zoː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	15	comp:obj	_	AlignBegin=588873|AlignEnd=589032|Gloss=go.Vnoun
-17	nân	nân	ADV	_	PronType=Dem	16	comp:goal	_	AlignBegin=589032|AlignEnd=589191|Deixis=Prox|Gloss=Prox
+17	nân	nân	ADV	_	PronType=Dem	16	comp:G	_	AlignBegin=589032|AlignEnd=589191|Deixis=Prox|Gloss=Prox
 18	mukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=1	14	conj:coord	_	AlignBegin=589191|AlignEnd=589350|Background=Yes|Gloss=1Plur.Perf.Bkg
 19	yi	yi	VERB	_	_	18	comp:aux	_	AlignBegin=589350|AlignEnd=589509|Gloss=do
 20	ɗan	ɗan	ADJ	_	_	19	comp:obj	_	AlignBegin=589509|AlignEnd=589668|Gloss=little

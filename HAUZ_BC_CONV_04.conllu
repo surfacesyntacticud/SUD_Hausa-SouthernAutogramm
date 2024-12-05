@@ -2269,7 +2269,7 @@
 11	zuwàː	zoː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	10	comp:aux	_	AlignBegin=268472|AlignEnd=268736|Gloss=go.Vnoun
 12	maː	maː	TopPART	_	_	11	discourse	_	AlignBegin=268736|AlignEnd=269000|Gloss=even
 13	ɗan	ɗan	ADJ	_	_	14	mod	_	AlignBegin=269262|AlignEnd=269495|Gloss=little
-14	wurin	wuriː	NOUN	_	Definite=Cons	11	comp:goal	_	AlignBegin=269495|AlignEnd=269611|Gloss=place.Cons|wordform=wuriː
+14	wurin	wuriː	NOUN	_	Definite=Cons	11	comp:G	_	AlignBegin=269495|AlignEnd=269611|Gloss=place.Cons|wordform=wuriː
 15	fr̃imar̃y	fr̃imar̃y	NOUN	_	_	14	compound	_	AlignBegin=269728|AlignEnd=269961|Gloss=primary|Lang=en
 16	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=269961|AlignEnd=270194|Gloss=PUNCT
 
@@ -3392,6 +3392,7 @@
 # phonetic_text = yànzu < mutànen =mù sun iyàːyen =mù sun manà || sun manà gaːtaː //
 # text = yànzu < mutànen =mù sun iyàːyen =mù sun manà || sun manà gaːtaː //
 # text_en =  Now, our people have... our parents have... they have spoilt us...
+# validated_by = B-CARON
 1	yànzu	yànzu	ADV	_	_	5	mod	_	AlignBegin=415185|AlignEnd=415357|Gloss=now
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=415357|AlignEnd=415529|Gloss=PUNCT
 3	mutànen	mùtûm	NOUN	_	Number=Plur	5	subj	_	AlignBegin=416324|AlignEnd=416407|Gloss=person.Plur.Cons|wordform=mùtûm
@@ -3402,9 +3403,9 @@
 8	sun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=3	5	conj:dicto	_	AlignBegin=417545|AlignEnd=417770|Gloss=3Plur.Perf
 9	manà	manà	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	8	comp:obl	_	AlignBegin=417770|AlignEnd=417995|Gloss=1Plur.Dat
 10	||	||	PUNCT	_	_	11	punct	_	AlignBegin=417995|AlignEnd=418221|Gloss=PUNCT
-11	sun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=3	8	conj:coord	_	AlignBegin=418221|AlignEnd=418393|Gloss=3Plur.Perf
+11	sun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=3	8	conj:dicto	_	AlignBegin=418221|AlignEnd=418393|Gloss=3Plur.Perf
 12	manà	manà	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	11	comp:obl	_	AlignBegin=418393|AlignEnd=418565|Gloss=1Plur.Dat
-13	gaːtaː	gaːta	NOUN	_	_	11	comp:obj@lvc	_	AlignBegin=418565|AlignEnd=418737|Gloss=pampering
+13	gaːtaː	gaːta	NOUN	_	_	11	comp:obj	_	AlignBegin=418565|AlignEnd=418737|Gloss=pampering
 14	//	//	PUNCT	_	_	5	punct	_	AlignBegin=418737|AlignEnd=418907|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0345-0345
@@ -3416,7 +3417,7 @@
 # text_en =  They have spoilt us.
 1	sun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=418777|AlignEnd=419003|Gloss=3Plur.Perf
 2	manà	manà	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	1	comp:obl	_	AlignBegin=419003|AlignEnd=419229|Gloss=1Plur.Dat
-3	gaːtaː	gaːtaː	NOUN	_	_	1	comp:obj@lvc	_	AlignBegin=419229|AlignEnd=419455|Gloss=pampering
+3	gaːtaː	gaːtaː	NOUN	_	_	1	comp:obj	_	AlignBegin=419229|AlignEnd=419455|Gloss=pampering
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=419455|AlignEnd=419681|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0346-0347
@@ -3945,7 +3946,7 @@
 # text_en = When he had gone for work, we played football.
 1	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	6	mod	_	AlignBegin=487551|AlignEnd=487740|Gloss=3Masc.Perf
 2	fìta	fìt-	VERB	_	_	1	comp:aux	_	AlignBegin=487740|AlignEnd=487929|Gloss=go_out
-3	aikìː	aikìː	NOUN	_	_	2	comp:goal	_	AlignBegin=487929|AlignEnd=488023|Gloss=work
+3	aikìː	aikìː	NOUN	_	_	2	comp:G	_	AlignBegin=487929|AlignEnd=488023|Gloss=work
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=487929|AlignEnd=488023|Gloss=work
 5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=488307|AlignEnd=488507|Gloss=then
 6	mù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=1	0	root	_	AlignBegin=488507|AlignEnd=488707|Gloss=1Plur.Aor
@@ -4153,7 +4154,7 @@
 3	ci	ci	VERB	_	_	2	comp:aux	_	AlignBegin=514601|AlignEnd=514782|Gloss=eat
 4	kà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=514782|AlignEnd=514963|Gloss=2Masc.Aor
 5	tàfi	tàfi	VERB	_	_	4	comp:aux	_	AlignBegin=514963|AlignEnd=515144|Gloss=go
-6	yaːwoː	yaːwoː	NOUN	_	_	5	comp:goal	_	AlignBegin=515144|AlignEnd=515325|Gloss=strolling
+6	yaːwoː	yaːwoː	NOUN	_	_	5	comp:G	_	AlignBegin=515144|AlignEnd=515325|Gloss=strolling
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=515325|AlignEnd=515506|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0432-0432
@@ -4255,7 +4256,7 @@
 2	kòː	kùwa	TopPART	_	_	1	discourse	_	AlignBegin=524380|AlignEnd=524576|Gloss=what
 3	kà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=524576|AlignEnd=524772|Gloss=2Masc.Aor
 4	jeː	jeː	VERB	_	_	3	comp:aux	_	AlignBegin=524772|AlignEnd=524968|Gloss=go
-5	neːman	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:goal	_	AlignBegin=524968|AlignEnd=525066|Gloss=look_for.Vnoun.Cons|wordform=neːmaː
+5	neːman	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:G	_	AlignBegin=524968|AlignEnd=525066|Gloss=look_for.Vnoun.Cons|wordform=neːmaː
 6	karan	karaː	NOUN	_	Definite=Cons	5	udep	_	AlignBegin=525164|AlignEnd=525262|Gloss=stalk.Cons|wordform=karaː
 7	geːroː	geːroː	NOUN	_	_	6	mod	_	AlignBegin=525360|AlignEnd=525556|Gloss=millet
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=525556|AlignEnd=525754|Gloss=PUNCT
@@ -5395,7 +5396,7 @@
 3	cêː	cêː	VERB	_	_	2	unk	_	AlignBegin=663303|AlignEnd=663528|Gloss=say|InIdiom=Yes
 4	kaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=663528|AlignEnd=663753|Gloss=2Masc.Perf
 5	jeː	jeː	VERB	_	_	4	comp:aux	_	AlignBegin=663753|AlignEnd=663978|Gloss=go
-6	goːnan	goːnaː	NOUN	_	Definite=Cons	5	comp:goal	_	AlignBegin=663978|AlignEnd=664090|Gloss=field.Cons|wordform=goːnaː
+6	goːnan	goːnaː	NOUN	_	Definite=Cons	5	comp:G	_	AlignBegin=663978|AlignEnd=664090|Gloss=field.Cons|wordform=goːnaː
 7	bàːbâː	bàːba	NOUN	_	_	6	mod	_	AlignBegin=664203|AlignEnd=664315|Gloss=father.Quest|PartType=Int
 8	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=664428|AlignEnd=664651|Gloss=PUNCT
 
@@ -6755,7 +6756,7 @@
 4	in	in	SCONJ	_	_	9	mod	_	AlignBegin=817914|AlignEnd=818053|Gloss=if
 5	ka	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=2	4	comp:obj	_	AlignBegin=818053|AlignEnd=818192|Background=Yes|Gloss=2Masc.Perf.Bkg
 6	shìga	shìg-	VERB	_	_	5	comp:aux	_	AlignBegin=818192|AlignEnd=818331|Gloss=enter
-7	ɗaːkìː	ɗaːkìː	NOUN	_	_	6	comp:goal	_	AlignBegin=818331|AlignEnd=818470|Gloss=hut
+7	ɗaːkìː	ɗaːkìː	NOUN	_	_	6	comp:G	_	AlignBegin=818331|AlignEnd=818470|Gloss=hut
 8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=818470|AlignEnd=818607|Gloss=PUNCT
 9	zaːkà	zaːsù	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=818607|AlignEnd=818744|Gloss=2Sing.Fut
 10	ji	ji	VERB	_	_	9	comp:aux	_	AlignBegin=818744|AlignEnd=818881|Gloss=hear
@@ -7612,7 +7613,7 @@
 1	in	in	SCONJ	_	_	0	root	_	AlignBegin=916672|AlignEnd=916834|AttachTo=HAUZ_BC_CONV_04_0808-0809|Gloss=if|Rel=mod
 2	mun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=1	1	comp:obj	_	AlignBegin=916834|AlignEnd=916996|Gloss=1Plur.Perf
 3	shìga	shig-	VERB	_	_	2	comp:aux	_	AlignBegin=916996|AlignEnd=917158|Gloss=enter
-4	ruwan	ruwaː	NOUN	_	Definite=Cons	3	comp:goal	_	AlignBegin=917158|AlignEnd=917239|Gloss=water.Cons|wordform=ruwaː
+4	ruwan	ruwaː	NOUN	_	Definite=Cons	3	comp:G	_	AlignBegin=917158|AlignEnd=917239|Gloss=water.Cons|wordform=ruwaː
 5	zaːfiː	zaːfiː	NOUN	_	_	4	mod	_	AlignBegin=917484|AlignEnd=917830|Gloss=heat
 6	//+	//+	PUNCT	_	_	1	punct	_	AlignBegin=917830|AlignEnd=918177|Gloss=PUNCT
 
@@ -9580,7 +9581,7 @@
 9	cêː	cêː	VERB	_	_	8	comp:aux	_	AlignBegin=1143890|AlignEnd=1143980|Gloss=say
 10	zaːtà	zaːsù	AUX	_	Gender=Fem|Person=4|Tense=Fut	9	comp:obj	_	AlignBegin=1144070|AlignEnd=1144260|Gloss=3Fem.Fut
 11	jeː	jeː	VERB	_	_	10	comp:aux	_	AlignBegin=1144260|AlignEnd=1144450|Gloss=go
-12	boːkòː	boːkòː	NOUN	_	_	11	comp:goal	_	AlignBegin=1144450|AlignEnd=1144630|Gloss=school
+12	boːkòː	boːkòː	NOUN	_	_	11	comp:G	_	AlignBegin=1144450|AlignEnd=1144630|Gloss=school
 13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=1144630|AlignEnd=1144820|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1025-1025
@@ -9617,7 +9618,7 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1147220|AlignEnd=114750|Gloss=PUNCT
 3	zân	zaːsù	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=114750|AlignEnd=1147690|Gloss=1Sing.Fut
 4	jeː	jeː	VERB	_	_	3	comp:aux	_	AlignBegin=1147690|AlignEnd=1147890|Gloss=go
-5	boːkòː	boːkòː	NOUN	_	_	4	comp:goal	_	AlignBegin=1147890|AlignEnd=1148090|Gloss=school
+5	boːkòː	boːkòː	NOUN	_	_	4	comp:G	_	AlignBegin=1147890|AlignEnd=1148090|Gloss=school
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=1148090|AlignEnd=1148280|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1029-1029
@@ -9715,6 +9716,7 @@
 # phonetic_text = bàː na yànzu ba / à cikàː matà gishiriː / tà yi r̃uwar̃uwaː / tà yi wannàn //
 # text = bàː na yànzu ba / à cikàː matà gishiriː / tà yi r̃uwa-r̃uwa / tà yi wannàn //
 # text_en =  Today's will be full of salt, runny, whatever.
+# validated_by = B-CARON
 1	bàː	bàː	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=1157320|AlignEnd=1157430|Gloss=Neg
 2	na	na~ta	ADP	_	Definite=Cons	6	dislocated@top	_	AlignBegin=1157430|AlignEnd=1157550|Gloss=of
 3	yànzu	yànzu	ADV	_	_	2	comp:obj	_	AlignBegin=1157550|AlignEnd=1157660|Gloss=now
@@ -9723,7 +9725,7 @@
 6	à	sù	AUX	_	Aspect=Aor|Person=4	0	root	_	AlignBegin=115790|AlignEnd=1158090|Gloss=4.Aor
 7	cikàː	cikàː	VERB	_	_	6	comp:aux	_	AlignBegin=1158090|AlignEnd=1158290|Gloss=fill
 8	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	7	comp:obl	_	AlignBegin=1158290|AlignEnd=1158490|Gloss=3Fem.Dat
-9	gishiriː	gishiriː	NOUN	_	_	7	comp:obj@lvc	_	AlignBegin=1158490|AlignEnd=1158690|Gloss=salt
+9	gishiriː	gishiriː	NOUN	_	_	7	comp:obj	_	AlignBegin=1158490|AlignEnd=1158690|Gloss=salt
 10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=1158690|AlignEnd=1158890|Gloss=PUNCT
 11	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	6	conj:coord	_	AlignBegin=1159510|AlignEnd=115970|Gloss=3Fem.Aor
 12	yi	yi	VERB	_	_	11	comp:aux	_	AlignBegin=115970|AlignEnd=115990|Gloss=do
@@ -10612,7 +10614,7 @@
 16	sai	sai	ADV	_	_	17	mod	_	AlignBegin=126650|AlignEnd=126670|Gloss=must
 17	kaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=126670|AlignEnd=1266890|Gloss=2Masc.Perf
 18	jeː	jeː	VERB	_	_	17	comp:aux	_	AlignBegin=1266890|AlignEnd=1267080|Gloss=go
-19	Tudùn-Wàda	Tudùn-Wàda	PROPN	_	_	18	comp:goal	_	AlignBegin=1267080|AlignEnd=1267280|Gloss=Tudun Wada
+19	Tudùn-Wàda	Tudùn-Wàda	PROPN	_	_	18	comp:G	_	AlignBegin=1267080|AlignEnd=1267280|Gloss=Tudun Wada
 20	//	//	PUNCT	_	_	17	punct	_	AlignBegin=1267280|AlignEnd=1267470|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1134-1134
@@ -10806,7 +10808,7 @@
 3	bà	bà	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=128920|AlignEnd=1289390|Gloss=Neg
 4	zâi	zaːsù	AUX	_	Gender=Masc|Person=3|Tense=Fut	0	root	_	AlignBegin=1289390|AlignEnd=1289570|Gloss=3Masc.Fut
 5	shìgeː	shig-	VERB	_	_	4	comp:aux	_	AlignBegin=1289570|AlignEnd=1289670|Gloss=enter
-6	kà	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	comp:goal	_	AlignBegin=1289760|AlignEnd=1289940|Gloss=2Masc
+6	kà	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	comp:G	_	AlignBegin=1289760|AlignEnd=1289940|Gloss=2Masc
 7	ba	ba	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=1289940|AlignEnd=1290130|Gloss=Neg
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=1290130|AlignEnd=1290310|Gloss=PUNCT
 
@@ -10848,7 +10850,7 @@
 17	ƙàshiː	ƙàshiː	NOUN	_	_	16	mod	_	AlignBegin=129410|AlignEnd=1294230|Gloss=bone
 18	yà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=3	15	comp:obj	_	AlignBegin=1294230|AlignEnd=1294370|Gloss=3Masc.Aor
 19	shìgeː	shig-	VERB	_	_	18	comp:aux	_	AlignBegin=1294370|AlignEnd=1294430|Gloss=enter
-20	kà	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	19	comp:goal	_	AlignBegin=129450|AlignEnd=1294640|Gloss=2Masc
+20	kà	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	19	comp:G	_	AlignBegin=129450|AlignEnd=1294640|Gloss=2Masc
 21	ba	ba	ADV	_	Polarity=Neg	12	mod	_	AlignBegin=1294640|AlignEnd=1294770|Gloss=Neg
 22	//	//	PUNCT	_	_	12	punct	_	AlignBegin=1294770|AlignEnd=129490|Gloss=PUNCT
 
@@ -11554,7 +11556,7 @@
 1	maːtaː	màːtaː	NOUN	_	Number=Plur	2	subj	_	AlignBegin=13760|AlignEnd=1376140|Gloss=wife.Plur|wordform=màːtaː
 2	sun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=1376560|AlignEnd=1376750|Gloss=3Plur.Perf
 3	kai	kai	VERB	_	_	2	comp:aux	_	AlignBegin=1376750|AlignEnd=1376940|Gloss=reach
-4	loːkàcîn	loːkàciː	NOUN	_	_	3	comp:goal	_	AlignBegin=1376940|AlignEnd=1377040|Gloss=time.Def|wordform=loːkàciː
+4	loːkàcîn	loːkàciː	NOUN	_	_	3	comp:obj	_	AlignBegin=1376940|AlignEnd=1377040|Gloss=time.Def|wordform=loːkàciː
 5	dà	dà	SCONJ	_	_	4	mod@relcl	_	AlignBegin=1377130|AlignEnd=1377320|Gloss=COMP
 6	bà	bà	ADV	_	Polarity=Neg	7	mod	_	AlignBegin=1377320|AlignEnd=1377510|Gloss=Neg
 7	zaːsù	zaːsù	AUX	_	Number=Plur|Person=3|Tense=Fut	5	comp:obj	_	AlignBegin=1377510|AlignEnd=137770|Gloss=3Plur.Fut
@@ -11580,13 +11582,14 @@
 # phonetic_text = mazaː -ǹ maː / sun kai wani yanàyiː dà bà zaːsù iyàː juːrèː -wàː ba //
 # text = mazân maː / sun kai wani yanàyiː dà bà zaːsù iyà juːrèːwaː ba //
 # text_en =  Men too, they have come to a situation wherer they have no endurance.
+# validated_by = B-CARON
 1	mazân	mazaː	NOUN	_	_	4	dislocated@subj	_	AlignBegin=1379220|AlignEnd=137930|Gloss=man.pl.Def|wordform=mazaː
 2	maː	maː	TopPART	_	_	1	discourse	_	AlignBegin=1379380|AlignEnd=1379550|Gloss=even
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1379550|AlignEnd=1379720|Gloss=PUNCT
 4	sun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=1379720|AlignEnd=1379890|Gloss=3Plur.Perf
 5	kai	kai	VERB	_	_	4	comp:aux	_	AlignBegin=1379890|AlignEnd=1380060|Gloss=reach
 6	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	7	det	_	AlignBegin=1380060|AlignEnd=1380220|Gloss=some.Masc
-7	yanàyiː	yanàyiː	NOUN	_	_	5	comp:goal	_	AlignBegin=1380220|AlignEnd=1380390|Gloss=situation
+7	yanàyiː	yanàyiː	NOUN	_	_	5	comp:obj	_	AlignBegin=1380220|AlignEnd=1380390|Gloss=situation
 8	dà	dà	SCONJ	_	_	7	mod@relcl	_	AlignBegin=1380390|AlignEnd=1380560|Gloss=COMP
 9	bà	bà	ADV	_	Polarity=Neg	10	mod	_	AlignBegin=1380560|AlignEnd=1380720|Gloss=Neg
 10	zaːsù	zaːsù	AUX	_	Number=Plur|Person=3|Tense=Fut	8	comp:obj	_	AlignBegin=1380720|AlignEnd=1380890|Gloss=3Plur.Fut
@@ -11867,7 +11870,7 @@
 4	yànzu	yànzu	ADV	_	_	2	comp:obj	_	AlignBegin=1417890|AlignEnd=1418040|Gloss=now
 5	ta	sukà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	4	comp:cleft	_	AlignBegin=1418040|AlignEnd=1418190|Background=Yes|Gloss=3Fem.Perf.Bkg
 6	jeː	jeː	VERB	_	_	5	comp:aux	_	AlignBegin=1418190|AlignEnd=1418340|Gloss=go
-7	ɗaːkìn	ɗaːkìː	NOUN	_	Definite=Cons	6	comp:goal	_	AlignBegin=1418340|AlignEnd=1418420|Gloss=hut.Cons|wordform=ɗaːkìː
+7	ɗaːkìn	ɗaːkìː	NOUN	_	Definite=Cons	6	comp:G	_	AlignBegin=1418340|AlignEnd=1418420|Gloss=hut.Cons|wordform=ɗaːkìː
 8	mijìn	mijìː	NOUN	_	Definite=Cons	7	comp:obj	_	AlignBegin=141850|AlignEnd=1418550|Gloss=husband.Cons|wordform=mijìː
 9	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	8	mod:poss	_	AlignBegin=141860|AlignEnd=1418650|Gloss=3Fem.Gen
 10	ba	ba	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=1418650|AlignEnd=141880|Gloss=Neg
@@ -12452,7 +12455,7 @@
 1	an	sun	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=1480790|AlignEnd=1480940|Gloss=4.Perf
 2	shìga	shig-	VERB	_	_	1	comp:aux	_	AlignBegin=1480940|AlignEnd=1481090|Gloss=enter
 3	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	4	det	_	AlignBegin=1481090|AlignEnd=1481240|Gloss=some.Masc
-4	yanàyiː	yanàyiː	NOUN	_	_	2	comp:goal	_	AlignBegin=1481240|AlignEnd=1481380|Gloss=situation
+4	yanàyiː	yanàyiː	NOUN	_	_	2	comp:G	_	AlignBegin=1481240|AlignEnd=1481380|Gloss=situation
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1481380|AlignEnd=1481530|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1340-1340
@@ -12813,7 +12816,7 @@
 7	dà	dà	SCONJ	_	_	6	unk	_	AlignBegin=1522320|AlignEnd=1522560|Gloss=as
 8	mukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=1	0	root	_	AlignBegin=1522790|AlignEnd=1523030|Background=Yes|Gloss=1Plur.Perf.Bkg
 9	kai	kai	VERB	_	_	8	comp:aux	_	AlignBegin=1523030|AlignEnd=1523270|Gloss=reach
-10	ƙarfèː	ƙarfèː	NOUN	_	_	9	comp:goal	_	AlignBegin=1523270|AlignEnd=1523510|Gloss=o'_clock
+10	ƙarfèː	ƙarfèː	NOUN	_	_	9	comp:obj	_	AlignBegin=1523270|AlignEnd=1523510|Gloss=o'_clock
 11	kusan	kusan	ADV	_	_	12	mod	_	AlignBegin=1524040|AlignEnd=1524320|Gloss=almost
 12	tar̃à	tar̃à	NUM	_	_	10	mod:num	_	AlignBegin=1524320|AlignEnd=152460|Gloss=nine|Overlap=[HAUZ_BC_CONV_04_1377-1377][HAUZ_BC_CONV_04_1378-1378]
 13	//+	//+	PUNCT	_	_	8	punct	_	AlignBegin=152460|AlignEnd=1524870|Gloss=PUNCT
@@ -13334,7 +13337,7 @@
 7	cêːwàː	cêː-wàː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	mod	_	AlignBegin=1589280|AlignEnd=1589370|Gloss=say.Vnoun|wordform=cêː
 8	zâː	zâː	PredPART	_	_	7	comp:cleft	_	AlignBegin=1589460|AlignEnd=1589640|Gloss=All
 9	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	subj	_	AlignBegin=1589640|AlignEnd=1589830|Gloss=3Masc
-10	aikìː	aikìː	NOUN	_	_	8	comp:goal	_	AlignBegin=1589830|AlignEnd=1590010|Gloss=work
+10	aikìː	aikìː	NOUN	_	_	8	comp:G	_	AlignBegin=1589830|AlignEnd=1590010|Gloss=work
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=1590010|AlignEnd=159020|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1425-1425
@@ -13389,7 +13392,7 @@
 2	mukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=1	1	comp:obj	_	AlignBegin=1593750|AlignEnd=1593930|Background=Yes|Gloss=1Plur.Perf.Bkg
 3	jeː	jeː	VERB	_	_	2	comp:aux	_	AlignBegin=1593930|AlignEnd=1594120|Gloss=go
 4	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	5	det	_	AlignBegin=1594120|AlignEnd=1594310|Gloss=some.Masc
-5	aikìː	aikìː	NOUN	_	_	3	comp:goal	_	AlignBegin=1594310|AlignEnd=1594490|Gloss=work
+5	aikìː	aikìː	NOUN	_	_	3	comp:G	_	AlignBegin=1594310|AlignEnd=1594490|Gloss=work
 6	//+	//+	PUNCT	_	_	1	punct	_	AlignBegin=1594490|AlignEnd=1594680|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1429-1429
@@ -13652,6 +13655,7 @@
 # phonetic_text = dâː dà zaːʼà kàrɓaː -i goːnaː / taː kai goːnaː / in an yi tsàːdaː -n -tà / jàkaː / bìyar̃ //
 # text = dâː dà zaːʼà kàrɓi goːnaː < taː kai goːnaː in an yi tsàːdan =tà jàkaː bìyar̃ //
 # text_en = Formerly, when you bought a field, it would be a big field if you paid it five quid.
+# validated_by = B-CARON
 1	dâː	dâː	ADV	_	_	7	mod	_	AlignBegin=1621020|AlignEnd=1621320|Gloss=formerly
 2	dà	dà	SCONJ	_	_	7	mod	_	AlignBegin=1621320|AlignEnd=1621610|Gloss=as
 3	zaːʼà	zaːsù	AUX	_	Number=Sing|Person=4|Tense=Fut	2	comp:obj	_	AlignBegin=1621610|AlignEnd=1621910|Gloss=2Sing.Fut
@@ -13660,7 +13664,7 @@
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=1622490|AlignEnd=1622790|Gloss=PUNCT
 7	taː	sun	AUX	_	Aspect=Perf|Gender=Fem|Person=3	0	root	_	AlignBegin=1622790|AlignEnd=162310|Gloss=3Fem.Perf
 8	kai	kai	VERB	_	_	7	comp:aux	_	AlignBegin=162310|AlignEnd=1623420|Gloss=reach
-9	goːnaː	goːnaː	NOUN	_	_	8	comp:goal	_	AlignBegin=1623420|AlignEnd=1623730|Gloss=field
+9	goːnaː	goːnaː	NOUN	_	_	8	comp:G	_	AlignBegin=1623420|AlignEnd=1623730|Gloss=field
 10	in	in	SCONJ	_	_	8	mod	_	AlignBegin=1625290|AlignEnd=1625540|Gloss=if
 11	an	sun	AUX	_	Aspect=Perf|Person=4	10	comp:obj	_	AlignBegin=1625540|AlignEnd=1625780|Gloss=4.Perf
 12	yi	yi	VERB	_	_	11	comp:aux	_	AlignBegin=1625780|AlignEnd=1626030|Gloss=do

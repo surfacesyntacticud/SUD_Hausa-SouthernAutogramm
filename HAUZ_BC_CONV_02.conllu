@@ -630,7 +630,7 @@
 18	nèː	neː/ceː	AUX	_	_	17	discourse@foc	_	AlignBegin=66408|AlignEnd=66586|Gloss=Foc/Ident
 19	sukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=3	15	conj:coord	_	AlignBegin=66586|AlignEnd=66764|Gloss=3Plur.Hab
 20	mukù	mukù	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	19	comp:obl	_	AlignBegin=66764|AlignEnd=66942|Gloss=2.Plur.Dat
-21	tayàː	tay-	VERB	_	_	19	comp:obj@lvc	_	AlignBegin=67261|AlignEnd=67420|Gloss=assist
+21	tayàː	tay-	VERB	_	_	19	comp:obj	_	AlignBegin=67261|AlignEnd=67420|Gloss=assist
 22	ku	ku	PRON	_	Number=Plur|Person=2|PronType=Prs	21	comp:R	_	AlignBegin=67420|AlignEnd=67579|Gloss=2.Plur
 23	aikìː	aikìː	NOUN	_	_	21	comp:T	_	AlignBegin=67579|AlignEnd=67738|Gloss=work
 24	koː	koː	CCONJ	_	_	27	cc	_	AlignBegin=67738|AlignEnd=67897|Gloss=or
@@ -2003,6 +2003,7 @@
 # phonetic_text = ìdan bàn X bàn mântaː ba / zân sòː mù koːmàː wânnan / asaliː -n gàriː dà ka cêː mîn an saːmoː // na -ːːː / basaːwa //
 # text = ìdan bàn || bàn mântaː ba < zân soː mù koːmàː wânnan asalin gàriː dà ka cêː mîn an saːmoː na Basaːwa //
 # text_en =  If I ... I remember well, I would like to go back to the origins of the village that you told me we got. from ... Basawa.
+# validated_by = B-CARON
 1	ìdan	ìdan	SCONJ	_	_	8	mod	_	AlignBegin=206797|AlignEnd=207007|Gloss=if
 2	bàn	bàsù	AUX	_	Aspect=PerfNeg|Number=Sing|Person=1|Polarity=Neg	1	comp:obj	_	AlignBegin=207007|AlignEnd=207217|Gloss=1Sing.Perf.Neg
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=207217|AlignEnd=207428|Gloss=X
@@ -2015,7 +2016,7 @@
 10	mù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=1	9	comp:obj	_	AlignBegin=208476|AlignEnd=208676|Gloss=1Plur.Aor
 11	koːmàː	koːm-	VERB	_	_	10	comp:aux	_	AlignBegin=208676|AlignEnd=208876|Gloss=go_back
 12	wânnan	wânnan	DET	_	Definite=Def	13	det	_	AlignBegin=208876|AlignEnd=209076|Gloss=Def
-13	asalin	asaliː	NOUN	_	Definite=Cons	11	comp:goal	_	AlignBegin=209278|AlignEnd=209358|Gloss=origins.Cons|wordform=asaliː
+13	asalin	asaliː	NOUN	_	Definite=Cons	11	comp:G	_	AlignBegin=209278|AlignEnd=209358|Gloss=origins.Cons|wordform=asaliː
 14	gàriː	gàriː	NOUN	_	_	13	mod	_	AlignBegin=209439|AlignEnd=209600|Gloss=town
 15	dà	dà	SCONJ	_	_	13	mod@relcl	_	AlignBegin=209600|AlignEnd=209761|Gloss=COMP
 16	ka	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=2	15	comp:obj	_	AlignBegin=209761|AlignEnd=209922|Background=Yes|Gloss=2Masc.Perf.Bkg
@@ -2023,7 +2024,7 @@
 18	mîn	mîn	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	17	comp:obl	_	AlignBegin=210083|AlignEnd=210244|Gloss=1Sing.Dat
 19	an	sun	AUX	_	Aspect=Perf|Person=4	17	comp:obj	_	AlignBegin=210244|AlignEnd=210405|Gloss=4.Perf
 20	saːmoː	saːm-	VERB	_	_	19	comp:aux	_	AlignBegin=210405|AlignEnd=210566|Gloss=get.DIR
-21	na	na~ta	ADP	_	Definite=Cons	14	mod	_	AlignBegin=210726|AlignEnd=210872|Gloss=of
+21	na	na~ta	ADP	_	Definite=Cons	20	comp:obl	_	AlignBegin=210726|AlignEnd=210872|Gloss=of
 22	Basaːwa	Basaːwa	PROPN	_	_	21	comp:obj	_	AlignBegin=211309|AlignEnd=211635|Gloss=Basawa
 23	//	//	PUNCT	_	_	8	punct	_	AlignBegin=211635|AlignEnd=211961|Gloss=PUNCT
 
@@ -2510,7 +2511,7 @@
 1	in	in	SCONJ	_	_	11	mod	_	AlignBegin=259896|AlignEnd=260041|Gloss=if
 2	ka	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=260041|AlignEnd=260186|Background=Yes|Gloss=2Masc.Perf.Bkg
 3	jeː	jeː	VERB	_	_	2	comp:aux	_	AlignBegin=260186|AlignEnd=260331|Gloss=go
-4	Basaːwaː	Basaːwaː	PROPN	_	_	3	comp:goal	_	AlignBegin=260331|AlignEnd=260476|Gloss=Basawa|wordform=basaːwa
+4	Basaːwaː	Basaːwaː	PROPN	_	_	3	comp:G	_	AlignBegin=260331|AlignEnd=260476|Gloss=Basawa|wordform=basaːwa
 5	yànzu	yànzu	ADV	_	_	3	mod	_	AlignBegin=260476|AlignEnd=260621|Gloss=now
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=260621|AlignEnd=260766|Gloss=PUNCT
 7	tòː	tòː	INTJ	_	_	11	discourse	_	AlignBegin=260766|AlignEnd=260898|Gloss=well
@@ -2521,7 +2522,7 @@
 12	taːshì	taːs-	VERB	_	_	11	comp:aux	_	AlignBegin=261426|AlignEnd=261558|Gloss=rise
 13	kà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=2	11	conj:svc	_	AlignBegin=261558|AlignEnd=261690|Gloss=2Masc.Aor
 14	jeː	jeː	VERB	_	_	13	comp:aux	_	AlignBegin=261690|AlignEnd=261822|Gloss=go
-15	Basaːwaː	Basaːwaː	PROPN	_	_	14	comp:goal	_	AlignBegin=261822|AlignEnd=261954|Gloss=Basawa|wordform=basaːwa
+15	Basaːwaː	Basaːwaː	PROPN	_	_	14	comp:G	_	AlignBegin=261822|AlignEnd=261954|Gloss=Basawa|wordform=basaːwa
 16	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=261954|AlignEnd=262087|Gloss=PUNCT
 17	zaːkà	zaːsù	AUX	_	Number=Sing|Person=2|Tense=Fut	13	conj:coord	_	AlignBegin=262087|AlignEnd=262239|Gloss=2Sing.Fut
 18	ganiː	ganiː	VERB	_	_	17	comp:aux	_	AlignBegin=262239|AlignEnd=262391|Gloss=see
@@ -2910,7 +2911,7 @@
 14	ìdan	ìdan	SCONJ	_	_	19	mod	_	AlignBegin=299088|AlignEnd=299274|Gloss=if
 15	an	sun	AUX	_	Aspect=Perf|Person=4	14	comp:obj	_	AlignBegin=299274|AlignEnd=299460|Gloss=4.Perf
 16	zoː	zoː	VERB	_	_	15	comp:aux	_	AlignBegin=299460|AlignEnd=299646|Gloss=come
-17	yaːƙìː	yaːƙìː	NOUN	_	_	16	comp:goal	_	AlignBegin=299646|AlignEnd=299832|Gloss=war
+17	yaːƙìː	yaːƙìː	NOUN	_	_	16	comp:G	_	AlignBegin=299646|AlignEnd=299832|Gloss=war
 18	<	<	PUNCT	_	_	14	punct	_	AlignBegin=299832|AlignEnd=300018|Gloss=PUNCT
 19	à	à	ADP	_	_	0	root	_	AlignBegin=300018|AlignEnd=300204|Gloss=at
 20	ita	ita	PRON	_	Gender=Fem|Person=3|PronType=Prs	19	comp:obj	_	AlignBegin=300204|AlignEnd=300390|Gloss=3Fem.Nom
@@ -3300,7 +3301,7 @@
 9	sukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	0	root	_	AlignBegin=339171|AlignEnd=339311|Background=Yes|Gloss=3Plur.Perf.Bkg
 10	zoː	zoː	VERB	_	_	9	comp:aux	_	AlignBegin=339311|AlignEnd=339451|Gloss=come
 11	wânnan	wânnan	DET	_	Definite=Def	12	det	_	AlignBegin=339451|AlignEnd=339591|Gloss=Def
-12	gàriː	gàriː	NOUN	_	_	10	comp:goal	_	AlignBegin=339591|AlignEnd=339731|Gloss=town
+12	gàriː	gàriː	NOUN	_	_	10	comp:G	_	AlignBegin=339591|AlignEnd=339731|Gloss=town
 13	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=339731|AlignEnd=339868|Gloss=PUNCT
 14	sukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	9	conj:svc	_	AlignBegin=339868|AlignEnd=340014|Background=Yes|Gloss=3Plur.Perf.Bkg
 15	zaunàː	zaun-	VERB	_	_	14	comp:aux	_	AlignBegin=340014|AlignEnd=340160|Gloss=sit
@@ -3448,7 +3449,7 @@
 1	wandà	wandà	PRON	_	PronType=Rel	0	root	_	AlignBegin=348022|AlignEnd=348209|Gloss=who|Overlap=HAUZ_BC_CONV_02_380-380
 2	akèː	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	1	udep	_	AlignBegin=348209|AlignEnd=348396|AttachTo=HAUZ_BC_CONV_02_380-380|Background=Yes|Gloss=4.Prog.Bkg|Rel=mod@relcl
 3	cêː	cêː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	2	comp:aux	_	AlignBegin=348396|AlignEnd=348583|Gloss=say.Vnoun
-4	mâi	mâi	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl@expl	_	AlignBegin=348583|AlignEnd=348770|Gloss=3Masc.Dat
+4	mâi	mâi	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	3	comp:obl	_	AlignBegin=348583|AlignEnd=348770|Gloss=3Masc.Dat
 5	Mà'aːzù	Mà'aːzù	PROPN	_	_	3	comp:pred	_	AlignBegin=348770|AlignEnd=348957|Gloss=Ma'azu
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=348957|AlignEnd=349144|Gloss=PUNCT
 
@@ -3524,7 +3525,7 @@
 3	kuma	kuma	TopPART	_	_	2	discourse	_	AlignBegin=354187|AlignEnd=354375|Gloss=too
 4	mukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=1	2	comp:obj	_	AlignBegin=354375|AlignEnd=354563|Background=Yes|Gloss=1Plur.Perf.Bkg
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=354563|AlignEnd=354751|Gloss=do
-6	can	can	ADV	_	_	5	comp:goal	_	AlignBegin=354751|AlignEnd=354939|Gloss=Rmt2
+6	can	can	ADV	_	_	5	comp:G	_	AlignBegin=354751|AlignEnd=354939|Gloss=Rmt2
 7	wajèːjen	wajeː	NOUN	_	Definite=Cons|Number=Plur	6	conj:appos	_	AlignBegin=354939|AlignEnd=355002|Gloss=place.Plur.Cons
 8	ɓangarèn	ɓangarèː	NOUN	_	Definite=Cons	7	mod	_	AlignBegin=355127|AlignEnd=355221|Gloss=group.Cons|wordform=ɓangarèː
 9	gabàs	gabàs	NOUN	_	_	8	mod	_	AlignBegin=355498|AlignEnd=355681|Gloss=east
