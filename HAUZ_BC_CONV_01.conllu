@@ -1213,10 +1213,11 @@
 # phonetic_text = har̃ yà zuwàː yâu tanàː nan koː kùwa ?//
 # text = har̃ yà zuwàː yâu tanàː nan koː kùwa ?//
 # text_en = Up till now, she is still here, or else?
+# validated_by = B-CARON
 1	har̃	hat	ADP	_	ExtPos=ADP	5	mod	_	AlignBegin=149994|AlignEnd=150129|Gloss=up_to|Idiom=Yes
 2	yà	yà	ADP	_	_	1	unk	_	AlignBegin=150129|AlignEnd=150264|Gloss=like|InIdiom=Yes
 3	zuwàː	zuwàː	ADP	_	_	2	unk	_	AlignBegin=150264|AlignEnd=150399|Gloss=towards|InIdiom=Yes
-4	yâu	yâu	ADV	_	_	1	comp:obj	_	AlignBegin=150399|AlignEnd=150534|Gloss=today
+4	yâu	yâu	ADV	_	_	3	comp:obj	_	AlignBegin=150399|AlignEnd=150534|Gloss=today|InIdiom=Yes
 5	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=150534|AlignEnd=150669|Gloss=3Fem.Prog|wordform=nàː
 6	nan	nan	ADV	_	Definite=Def	5	comp:loc	_	AlignBegin=150669|AlignEnd=150804|Gloss=Def
 7	koː	koː	CCONJ	_	_	5	cc	_	AlignBegin=150804|AlignEnd=150939|Gloss=or|PartType=Int
@@ -1809,7 +1810,7 @@
 2	tun	tun	ADP	_	_	24	mod	_	AlignBegin=204448|AlignEnd=204669|Gloss=since
 3	loːkàcin	loːkàciː	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=204669|AlignEnd=204779|Gloss=time.Cons
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=204890|AlignEnd=205111|Gloss=COMP
-5	na	na	AUX	_	Aspect=ProgLocBkg|Number=Sing|Person=1	6	subj	_	AlignBegin=205111|AlignEnd=205332|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg
+5	na	na	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=205111|AlignEnd=205332|Background=Yes|Gloss=1Sing
 6	kè	nàː/kè.Bkg	AUX	_	_	4	comp:obj	_	AlignBegin=205111|AlignEnd=205332|Background=Yes|Gloss=Pred/Loc.Bkg
 7	wajen	wajen	ADP	_	_	6	comp:pred	_	AlignBegin=205332|AlignEnd=205553|Gloss=around
 8	wânnan	wânnan	DET	_	Definite=Def	9	det	_	AlignBegin=205553|AlignEnd=205774|Gloss=Def
@@ -3253,7 +3254,7 @@
 1	ɗan	ɗan	ADJ	_	_	2	mod	_	AlignBegin=400582|AlignEnd=400763|Gloss=little
 2	raːfukàn	ràːfiː	NOUN	_	Definite=Def|Number=Plur	15	dislocated@top	_	AlignBegin=400763|AlignEnd=400823|Gloss=river.Plur.Def
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=400944|AlignEnd=401125|Gloss=COMP
-4	mu	mu	AUX	_	Aspect=ProgLocBkg|Number=Plur|Person=1	5	subj	_	AlignBegin=401125|AlignEnd=401306|Background=Yes|Gloss=1Plur.Pred/Loc.Bkg|wordform=kèː
+4	mu	mu	PRON	_	Number=Plur|Person=1|PronType=Prs	5	subj	_	AlignBegin=401125|AlignEnd=401306|Gloss=1Plur|wordform=kèː
 5	kè	nàː/kè.Bkg	AUX	_	_	3	comp:obj	_	AlignBegin=401125|AlignEnd=401306|Background=Yes|Gloss=Pred/Loc.Bkg|wordform=kèː
 6	dà	dà	ADP	_	_	5	comp:pred	_	AlignBegin=401306|AlignEnd=401487|Gloss=with
 7	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=401487|AlignEnd=401668|Gloss=3Masc.Nom
@@ -4643,16 +4644,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 584150, 586143
 # phonetic_text = sunàː baːya / zaːsù tuːroː su gàba //
-# text = sunàː baːya |c zaːsù tuːroː su gàba //
+# text = su nàː baːya zaːsù tuːroː su gàba //
 # text_en =  They are behind they drive them foreward.
-1	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=2	0	root	_	AlignBegin=584150|AlignEnd=584386|Gloss=2Plur.Prog
-2	baːya	baːya	ADV	_	_	1	comp:loc	_	AlignBegin=584386|AlignEnd=584622|Gloss=behind
-3	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=584622|AlignEnd=584859|Gloss=PUNCT
-4	zaːsù	zaːsù	AUX	_	Number=Plur|Person=3|Tense=Fut	1	conj:coord	_	AlignBegin=585102|AlignEnd=585310|Gloss=3Plur.Fut
+# validated_by = B-CARON
+1	su	su	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	AlignBegin=584150|AlignEnd=584386|Gloss=2Plur
+2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=584150|AlignEnd=584386|Gloss=Pred/Loc
+3	baːya	baːya	ADV	_	_	2	comp:pred	_	AlignBegin=584386|AlignEnd=584622|Gloss=behind
+4	zaːsù	zaːsù	AUX	_	Number=Plur|Person=3|Tense=Fut	2	parataxis	_	AlignBegin=585102|AlignEnd=585310|Gloss=3Plur.Fut
 5	tuːroː	tuːr-	VERB	_	_	4	comp:aux	_	AlignBegin=585310|AlignEnd=585518|Gloss=drive.DIR
 6	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=585518|AlignEnd=585726|Gloss=3Plur
 7	gàba	gàba	ADV	_	_	5	mod	_	AlignBegin=585726|AlignEnd=585934|Gloss=up_front
-8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=585934|AlignEnd=586143|Gloss=PUNCT
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=585934|AlignEnd=586143|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_236-240
 # speaker_id = SP2
