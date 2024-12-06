@@ -247,15 +247,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 30557, 32590
 # phonetic_text = sabòːdà / maːlàmiː piːsìː baː yàː nan koː //
-# text = sabòːdà Maːlàmiː Piːsìː baːyàː nan koː ?//
+# text = sabòːdà Maːlàmiː Piːsìː ba yà nan koː ?//
 # text_en =  Because Mr. P.C. wasn't there, was he?
 1	sabòːdà	sabòːdà	ADV	_	_	4	discourse	_	AlignBegin=30557|AlignEnd=30870|Gloss=because
 2	Maːlàmiː	Maːlàmiː	PROPN	_	_	4	subj	_	AlignBegin=31183|AlignEnd=31417|Gloss=Mister
 3	Piːsìː	Piːsìː	PROPN	_	_	2	flat:name	_	AlignBegin=31417|AlignEnd=31651|Gloss=P.C
-4	baːyàː	baːsàː/baːsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=31651|AlignEnd=31768|Gloss=3Masc.Pred/Loc.Neg
-5	nan	nan	ADV	_	Definite=Def	4	comp:loc	_	AlignBegin=31885|AlignEnd=32119|Gloss=Def
-6	koː	koː	CCONJ	_	_	4	cc	_	AlignBegin=32119|AlignEnd=32353|Gloss=or|PartType=Int
-7	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=32353|AlignEnd=32590|Gloss=PUNCT
+4	ba	ba	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=31651|AlignEnd=31768|Gloss=Pred/Loc.Neg
+5	yà	yà	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=31651|AlignEnd=31768|Gloss=3Masc
+6	nan	nan	ADV	_	Definite=Def	4	comp:pred	_	AlignBegin=31885|AlignEnd=32119|Gloss=Def
+7	koː	koː	CCONJ	_	_	4	cc	_	AlignBegin=32119|AlignEnd=32353|Gloss=or|PartType=Int
+8	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=32353|AlignEnd=32590|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__20
 # speaker_id = SP2
@@ -320,18 +321,20 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 39493, 41291
 # phonetic_text = in dàː yanàː nan ai zaːsù zoː sù koːyar̃ //
-# text = in dàː yanàː nan ai zaːsù zoː sù koːyar̃ //
+# text = in dàː ya nàː nan ai zaːsù zoː sù koːyar̃ //
 # text_en =  If he was there, they would have come to teach.
-1	in	in	SCONJ	_	ExtPos=SCONJ	6	mod	_	AlignBegin=39493|AlignEnd=39673|Gloss=if|Idiom=Yes
+# validated_by = B-CARON
+1	in	in	SCONJ	_	ExtPos=SCONJ	7	mod	_	AlignBegin=39493|AlignEnd=39673|Gloss=if|Idiom=Yes
 2	dàː	dàː	SCONJ	_	_	1	unk	_	AlignBegin=39673|AlignEnd=39853|Gloss=CTF|InIdiom=Yes
-3	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=39853|AlignEnd=40033|Gloss=3Masc.Prog
-4	nan	nan	ADV	_	Definite=Def	3	comp:loc	_	AlignBegin=40033|AlignEnd=40213|Gloss=Def
-5	ai	ai	INTJ	_	_	1	discourse	_	AlignBegin=40213|AlignEnd=40393|Gloss=eh
-6	zaːsù	zaːsù	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=40393|AlignEnd=40573|Gloss=3Plur.Fut
-7	zoː	zoː	VERB	_	_	6	comp:aux	_	AlignBegin=40573|AlignEnd=40753|Gloss=come
-8	sù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=3	6	conj:coord	_	AlignBegin=40753|AlignEnd=40933|Gloss=3Plur.Aor
-9	koːyar̃	koːyar̃	VERB	_	_	8	comp:aux	_	AlignBegin=40933|AlignEnd=41113|Gloss=teach.Cau
-10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=41113|AlignEnd=41291|Gloss=PUNCT
+3	ya	ya	AUX	_	Aspect=Prog|Gender=Masc|Person=3	4	subj	_	AlignBegin=39853|AlignEnd=40033|Gloss=3Masc.Prog
+4	nàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=39853|AlignEnd=40033|Gloss=3Masc.Prog
+5	nan	nan	ADV	_	Definite=Def	4	comp:pred	_	AlignBegin=40033|AlignEnd=40213|Gloss=Def
+6	ai	ai	INTJ	_	_	1	discourse	_	AlignBegin=40213|AlignEnd=40393|Gloss=eh
+7	zaːsù	zaːsù	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=40393|AlignEnd=40573|Gloss=3Plur.Fut
+8	zoː	zoː	VERB	_	_	7	comp:aux	_	AlignBegin=40573|AlignEnd=40753|Gloss=come
+9	sù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=3	7	conj:coord	_	AlignBegin=40753|AlignEnd=40933|Gloss=3Plur.Aor
+10	koːyar̃	koːyar̃	VERB	_	_	9	comp:aux	_	AlignBegin=40933|AlignEnd=41113|Gloss=teach.Cau
+11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=41113|AlignEnd=41291|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__25
 # speaker_id = SP1
@@ -1749,17 +1752,18 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 218412, 219829
 # phonetic_text = dà sunàː nan an kai shi kawài //
-# text = dà sunàː nan an kai shi kawâi //
+# text = dà su nàː nan an kai shi kawài //
 # text_en =  At that time they had just sent him away.
 # validated_by = B-CARON
-1	dà	dà	SCONJ	_	_	4	mod	_	AlignBegin=218412|AlignEnd=218589|Gloss=as
-2	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=218589|AlignEnd=218766|Gloss=3Plur.Prog
-3	nan	nan	ADV	_	Definite=Def	2	comp:loc	_	AlignBegin=218766|AlignEnd=218943|Gloss=Def
-4	an	sun	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=218943|AlignEnd=219120|Gloss=4.Perf
-5	kai	kai	VERB	_	_	4	comp:aux	_	AlignBegin=219120|AlignEnd=219297|Gloss=carry
-6	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=219297|AlignEnd=219474|Gloss=3Masc
-7	kawài	kawài	ADV	_	_	4	mod	_	AlignBegin=219474|AlignEnd=219651|Gloss=merely
-8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=219651|AlignEnd=219829|Gloss=PUNCT
+1	dà	dà	SCONJ	_	_	5	mod	_	AlignBegin=218412|AlignEnd=218589|Gloss=as
+2	su	su	PRON	_	Aspect=Prog|Number=Plur|Person=3	3	subj	_	AlignBegin=218589|AlignEnd=218766|Gloss=3Plur.Prog
+3	nàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=218589|AlignEnd=218766|Gloss=3Plur.Prog
+4	nan	nan	ADV	_	Definite=Def	3	comp:pred	_	AlignBegin=218766|AlignEnd=218943|Gloss=Def
+5	an	sun	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=218943|AlignEnd=219120|Gloss=4.Perf
+6	kai	kai	VERB	_	_	5	comp:aux	_	AlignBegin=219120|AlignEnd=219297|Gloss=carry
+7	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=219297|AlignEnd=219474|Gloss=3Masc
+8	kawài	kawài	ADV	_	_	5	mod	_	AlignBegin=219474|AlignEnd=219651|Gloss=merely
+9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=219651|AlignEnd=219829|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__126
 # speaker_id = SP1

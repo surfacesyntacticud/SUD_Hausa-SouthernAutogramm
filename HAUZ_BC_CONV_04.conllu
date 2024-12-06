@@ -1023,7 +1023,7 @@
 3	kè	nàː/kè	AUX	_	_	1	comp:obj	_	AlignBegin=115787|AlignEnd=115935|Background=Yes|Gloss=Pred/Loc.Bkg
 4-5	bâi	_	_	_	_	_	_	_	_
 4	baː	baː	PredPART	_	Polarity=Neg	1	comp:obj	_	AlignBegin=115935|AlignEnd=116083|Gloss=Pred/Loc.Neg
-5	yà	yà	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	4	subj	_	AlignBegin=115935|AlignEnd=116083|Gloss=3Masc.Pred/Loc.Neg
+5	yà	yà	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=115935|AlignEnd=116083|Gloss=3Masc
 6	dà	dà	ADP	_	_	4	comp:pred	_	AlignBegin=116083|AlignEnd=116231|Gloss=with
 7	aureː	aureː	NOUN	_	_	6	comp:obj	_	AlignBegin=116231|AlignEnd=116379|Gloss=wedding
 8	nèː	neː/ceː	AUX	_	_	4	discourse@foc	_	AlignBegin=116379|AlignEnd=116527|Gloss=Foc/Ident
@@ -3286,12 +3286,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 398183, 399055
 # phonetic_text = ita nèː // dukà sunàː nan // tòː kaː ganiː dukà girmaː -n wuriː -ǹ nan //
-# text = dus sunàː nan //
+# text = dus su nàː nan //
 # text_en = There they are.
-1	dus	dukà	PRON	_	_	2	subj	_	AlignBegin=398526|AlignEnd=398658|Gloss=all
-2	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=398658|AlignEnd=398790|Gloss=3Plur.Imp
-3	nan	nan	ADV	_	Definite=Def	2	comp:loc	_	AlignBegin=398790|AlignEnd=398922|Gloss=Def
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=398922|AlignEnd=399055|Gloss=PUNCT
+# validated_by = B-CARON
+1	dus	dukà	PRON	_	_	3	dislocated@subj	_	AlignBegin=398526|AlignEnd=398658|Gloss=all
+2	su	su	PRON	_	Aspect=Prog|Number=Plur|Person=3	3	subj	_	AlignBegin=398658|AlignEnd=398790|Gloss=3Plur.Imp
+3	nàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=398658|AlignEnd=398790|Gloss=3Plur.Imp
+4	nan	nan	ADV	_	Definite=Def	3	comp:pred	_	AlignBegin=398790|AlignEnd=398922|Gloss=Def
+5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=398922|AlignEnd=399055|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0330-0333
 # speaker_id = SP1
@@ -4687,10 +4689,11 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 583789, 586587
 # phonetic_text = tôː in kòː bàː hakà akà yi ba / anàː nan fa gidaː -n jiyà //
-# text = tôː in kòː bàː hakà akà yi ba / anàː nan fa gidan jiyà //
+# text = tôː in kòː bàː hakà akà yi ba < a nàː nan fa gidan jiyà //
 # text_en =  Well if it was not because of that, things would be the same as yesterday.
-1	tôː	tôː	INTJ	_	_	10	discourse	_	AlignBegin=583789|AlignEnd=583952|Gloss=well
-2	in	in	SCONJ	_	_	10	mod	_	AlignBegin=583952|AlignEnd=584115|Gloss=if
+# validated_by = B-CARON
+1	tôː	tôː	INTJ	_	_	11	discourse	_	AlignBegin=583789|AlignEnd=583952|Gloss=well
+2	in	in	SCONJ	_	_	11	mod	_	AlignBegin=583952|AlignEnd=584115|Gloss=if
 3	kòː	kùwa	TopPART	_	_	2	discourse	_	AlignBegin=584115|AlignEnd=584278|Gloss=as_for
 4	bàː	bàː	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=584278|AlignEnd=584441|Gloss=Neg
 5	hakà	hakà	ADV	_	_	2	comp:obj	_	AlignBegin=584441|AlignEnd=584604|Gloss=like_this
@@ -4698,12 +4701,13 @@
 7	yi	yi	VERB	_	_	6	comp:obj	_	AlignBegin=584767|AlignEnd=584930|Gloss=do
 8	ba	ba	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=584930|AlignEnd=585093|Gloss=Neg
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=585093|AlignEnd=585257|Gloss=PUNCT
-10	anàː	nàː	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=585540|AlignEnd=585714|Gloss=4.Imp
-11	nan	nan	ADV	_	Definite=Def	10	comp:loc	_	AlignBegin=585714|AlignEnd=585888|Gloss=Def
-12	fa	fa	TopPART	_	_	11	discourse	_	AlignBegin=585888|AlignEnd=586062|Gloss=indeed
-13	gidan	gidaː	NOUN	_	Definite=Cons	11	conj:appos	_	AlignBegin=586062|AlignEnd=586149|Gloss=house.Cons|wordform=gidaː
-14	jiyà	jiyà	ADV	_	_	13	mod	_	AlignBegin=586236|AlignEnd=586410|Gloss=yesterday
-15	//	//	PUNCT	_	_	10	punct	_	AlignBegin=586410|AlignEnd=586587|Gloss=PUNCT
+10	a	a	PRON	_	Aspect=Prog|Person=4	11	subj	_	AlignBegin=585540|AlignEnd=585714|Gloss=4.Imp
+11	nàː	nàː	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=585540|AlignEnd=585714|Gloss=4.Imp
+12	nan	nan	ADV	_	Definite=Def	11	comp:pred	_	AlignBegin=585714|AlignEnd=585888|Gloss=Def
+13	fa	fa	TopPART	_	_	12	discourse	_	AlignBegin=585888|AlignEnd=586062|Gloss=indeed
+14	gidan	gidaː	NOUN	_	Definite=Cons	12	conj:appos	_	AlignBegin=586062|AlignEnd=586149|Gloss=house.Cons|wordform=gidaː
+15	jiyà	jiyà	ADV	_	_	14	mod	_	AlignBegin=586236|AlignEnd=586410|Gloss=yesterday
+16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=586410|AlignEnd=586587|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0491-0491
 # speaker_id = SP2
@@ -8021,15 +8025,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 953935, 955123
 # phonetic_text = yanàː nan / dukà dà suː //
-# text = yanàː nan / duk dà suː //
+# text = ya nàː nan > dud dà suː //
 # text_en =  They are there, all of them.
-1	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=953935|AlignEnd=954169|Gloss=3Masc.Imp
-2	nan	nan	ADV	_	Definite=Def	1	comp:loc	_	AlignBegin=954169|AlignEnd=954403|Gloss=Def
-3	>	>	PUNCT	_	_	1	punct	_	AlignBegin=954403|AlignEnd=954637|Gloss=PUNCT
-4	dud	dukà	PRON	_	_	1	dislocated@subj	_	AlignBegin=954637|AlignEnd=954759|Gloss=all
-5	dà	dà	CCONJ	_	_	6	cc	_	AlignBegin=954759|AlignEnd=954881|Gloss=with
-6	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	conj:coord	_	AlignBegin=954881|AlignEnd=955003|Gloss=3Plur.Nom
-7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=955003|AlignEnd=955123|Gloss=PUNCT
+# validated_by = B-CARON
+1	ya	ya	PRON	_	Aspect=Prog|Gender=Masc|Person=3	2	subj	_	AlignBegin=953935|AlignEnd=954169|Gloss=3Masc.Imp
+2	nàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=953935|AlignEnd=954169|Gloss=3Masc.Imp
+3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=954169|AlignEnd=954403|Gloss=Def
+4	>	>	PUNCT	_	_	5	punct	_	AlignBegin=954403|AlignEnd=954637|Gloss=PUNCT
+5	dud	dukà	PRON	_	_	2	dislocated@subj	_	AlignBegin=954637|AlignEnd=954759|Gloss=all
+6	dà	dà	CCONJ	_	_	7	cc	_	AlignBegin=954759|AlignEnd=954881|Gloss=with
+7	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	conj:coord	_	AlignBegin=954881|AlignEnd=955003|Gloss=3Plur.Nom
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=955003|AlignEnd=955123|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0851-0851
 # speaker_id = SP1
@@ -8384,30 +8390,31 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 997628, 1002900
 # phonetic_text = tundà yànzu bàː gàː shi ba &// munàː cikin / sanyiː akèː / àmmaː ruwaː / an faːràː wàhalàː -n ruwaː //
-# text = tundà yànzu bàː gàː shi ba munàː || cikin sanyiː a kè |c àmmaː ruwaː < an faːrà wàhalàn ruwaː //+
+# text = tundà yànzu bàː gàː shi ba mu nàː || cikin sanyiː a kè |c àmmaː ruwaː < an faːrà wàhalàn ruwaː //+
 # text_en =  As now here we are... we are in... in the dry season, but water, we have started suffering from lack of water.
 # validated_by = B-CARON
-1	tundà	tundà	SCONJ	_	_	7	discourse	_	AlignBegin=997628|AlignEnd=997801|Gloss=since
-2	yànzu	yànzu	ADV	_	_	7	mod	_	AlignBegin=997801|AlignEnd=997974|Gloss=now
+1	tundà	tundà	SCONJ	_	_	8	discourse	_	AlignBegin=997628|AlignEnd=997801|Gloss=since
+2	yànzu	yànzu	ADV	_	_	8	mod	_	AlignBegin=997801|AlignEnd=997974|Gloss=now
 3	bàː	bàː	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=997974|AlignEnd=998147|Gloss=Neg
-4	gàː	gàː	PredPART	_	_	7	discourse	_	AlignBegin=998147|AlignEnd=998320|Gloss=here_is
+4	gàː	gàː	PredPART	_	_	8	discourse	_	AlignBegin=998147|AlignEnd=998320|Gloss=here_is
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=998320|AlignEnd=998493|Gloss=3Masc
 6	ba	ba	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=998493|AlignEnd=998666|Gloss=Neg
-7	munàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=1	0	root	_	AlignBegin=999301|AlignEnd=999600|Gloss=1Plur.Pred/Loc
-8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=999301|AlignEnd=999600|Gloss=PUNCT
-9	cikin	cikin	ADP	_	_	7	conj:dicto	_	AlignBegin=999600|AlignEnd=999899|Gloss=inside
-10	sanyiː	sanyiː	NOUN	_	_	9	comp:obj	_	AlignBegin=1000520|AlignEnd=1000780|Gloss=cold_weather
-11	a	a	PRON	_	Person=4|PronType=Prs	12	subj	_	AlignBegin=1000780|AlignEnd=1001030|Background=Yes|Gloss=4
-12	kè	nàː/kè.Bkg	AUX	_	_	9	comp:cleft	_	AlignBegin=1000780|AlignEnd=1001030|Background=Yes|Gloss=Pred/Loc.Bkg
-13	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=1001030|AlignEnd=1001290|Gloss=PUNCT
-14	àmmaː	àmmaː	CCONJ	_	_	17	cc	_	AlignBegin=1001290|AlignEnd=1001470|Gloss=but
-15	ruwaː	ruwaː	NOUN	_	_	17	dislocated@top	_	AlignBegin=1001470|AlignEnd=1001650|Gloss=water
-16	<	<	PUNCT	_	_	15	punct	_	AlignBegin=1001650|AlignEnd=1001830|Gloss=PUNCT
-17	an	sun	AUX	_	Aspect=Perf|Person=4	7	conj:coord	_	AlignBegin=1001830|AlignEnd=1002040|Gloss=4.Perf
-18	faːrà	faːr-	VERB	_	_	17	comp:aux	_	AlignBegin=1002040|AlignEnd=1002260|Gloss=begin|Overlap=HAUZ_BC_CONV_04_0897-0899
-19	wàhalàn	wàhalàː	NOUN	_	Definite=Cons	18	comp:obj	_	AlignBegin=1002260|AlignEnd=1002370|Gloss=trouble.Cons|wordform=wàhalàː
-20	ruwaː	ruwaː	NOUN	_	_	19	mod	_	AlignBegin=1002470|AlignEnd=1002690|Gloss=water
-21	//+	//+	PUNCT	_	_	7	punct	_	AlignBegin=1002690|AlignEnd=100290|Gloss=PUNCT
+7	mu	mu	PRON	_	Number=Plur|Person=1|PronType=Prs	8	subj	_	AlignBegin=999301|AlignEnd=999600|Gloss=1Plur
+8	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=999301|AlignEnd=999600|Gloss=Pred/Loc
+9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=999301|AlignEnd=999600|Gloss=PUNCT
+10	cikin	cikin	ADP	_	_	8	conj:dicto	_	AlignBegin=999600|AlignEnd=999899|Gloss=inside
+11	sanyiː	sanyiː	NOUN	_	_	10	comp:obj	_	AlignBegin=1000520|AlignEnd=1000780|Gloss=cold_weather
+12	a	a	PRON	_	Person=4|PronType=Prs	13	subj	_	AlignBegin=1000780|AlignEnd=1001030|Background=Yes|Gloss=4
+13	kè	nàː/kè.Bkg	AUX	_	_	10	comp:cleft	_	AlignBegin=1000780|AlignEnd=1001030|Background=Yes|Gloss=Pred/Loc.Bkg
+14	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=1001030|AlignEnd=1001290|Gloss=PUNCT
+15	àmmaː	àmmaː	CCONJ	_	_	18	cc	_	AlignBegin=1001290|AlignEnd=1001470|Gloss=but
+16	ruwaː	ruwaː	NOUN	_	_	18	dislocated@top	_	AlignBegin=1001470|AlignEnd=1001650|Gloss=water
+17	<	<	PUNCT	_	_	16	punct	_	AlignBegin=1001650|AlignEnd=1001830|Gloss=PUNCT
+18	an	sun	AUX	_	Aspect=Perf|Person=4	10	conj:coord	_	AlignBegin=1001830|AlignEnd=1002040|Gloss=4.Perf
+19	faːrà	faːr-	VERB	_	_	18	comp:aux	_	AlignBegin=1002040|AlignEnd=1002260|Gloss=begin|Overlap=HAUZ_BC_CONV_04_0897-0899
+20	wàhalàn	wàhalàː	NOUN	_	Definite=Cons	19	comp:obj	_	AlignBegin=1002260|AlignEnd=1002370|Gloss=trouble.Cons|wordform=wàhalàː
+21	ruwaː	ruwaː	NOUN	_	_	20	mod	_	AlignBegin=1002470|AlignEnd=1002690|Gloss=water
+22	//+	//+	PUNCT	_	_	8	punct	_	AlignBegin=1002690|AlignEnd=100290|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0896-0896
 # speaker_id = SP1
@@ -8858,14 +8865,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1054700, 1057177
 # phonetic_text = tanàː nan // tsaːmiyaː -n Dattì //
-# text = wata tsaːmiyaː < tanàː nan //
+# text = wata tsaːmiyaː < ta nàː nan //
 # text_en = A tamarind, It's there.
+# validated_by = B-CARON
 1	wata	wata	DET	_	Gender=Fem	2	det	_	AlignBegin=1053180|AlignEnd=1053550|Gloss=some.Fem
-2	tsaːmiyaː	tsaːmiyaː	NOUN	_	_	4	dislocated@subj	_	AlignBegin=1053550|AlignEnd=1053920|Gloss=tamarind
+2	tsaːmiyaː	tsaːmiyaː	NOUN	_	_	5	dislocated@subj	_	AlignBegin=1053550|AlignEnd=1053920|Gloss=tamarind
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=1053920|AlignEnd=1054290|Gloss=PUNCT
-4	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=105470|AlignEnd=1055110|Gloss=3Fem.Imp
-5	nan	nan	ADV	_	Definite=Def	4	comp:loc	_	AlignBegin=1055110|AlignEnd=1055530|Gloss=Def
-6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=1055530|AlignEnd=1055940|Gloss=PUNCT
+4	ta	ta	PRON	_	Aspect=Prog|Gender=Fem|Person=3	5	subj	_	AlignBegin=105470|AlignEnd=1055110|Gloss=3Fem.Imp
+5	nàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=105470|AlignEnd=1055110|Gloss=3Fem.Imp
+6	nan	nan	ADV	_	Definite=Def	5	comp:pred	_	AlignBegin=1055110|AlignEnd=1055530|Gloss=Def
+7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=1055530|AlignEnd=1055940|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0943-0943
 # speaker_id = SP2

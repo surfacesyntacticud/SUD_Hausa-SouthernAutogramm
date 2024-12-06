@@ -1211,18 +1211,19 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 149994, 151208
 # phonetic_text = har̃ yà zuwàː yâu tanàː nan koː kùwa ?//
-# text = har̃ yà zuwàː yâu tanàː nan koː kùwa ?//
+# text = har̃ yà zuwàː yâu ta nàː nan koː kùwa ?//
 # text_en = Up till now, she is still here, or else?
 # validated_by = B-CARON
-1	har̃	hat	ADP	_	ExtPos=ADP	5	mod	_	AlignBegin=149994|AlignEnd=150129|Gloss=up_to|Idiom=Yes
+1	har̃	hat	ADP	_	ExtPos=ADP	6	mod	_	AlignBegin=149994|AlignEnd=150129|Gloss=up_to|Idiom=Yes
 2	yà	yà	ADP	_	_	1	unk	_	AlignBegin=150129|AlignEnd=150264|Gloss=like|InIdiom=Yes
 3	zuwàː	zuwàː	ADP	_	_	2	unk	_	AlignBegin=150264|AlignEnd=150399|Gloss=towards|InIdiom=Yes
 4	yâu	yâu	ADV	_	_	3	comp:obj	_	AlignBegin=150399|AlignEnd=150534|Gloss=today|InIdiom=Yes
-5	tanàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=150534|AlignEnd=150669|Gloss=3Fem.Prog|wordform=nàː
-6	nan	nan	ADV	_	Definite=Def	5	comp:loc	_	AlignBegin=150669|AlignEnd=150804|Gloss=Def
-7	koː	koː	CCONJ	_	_	5	cc	_	AlignBegin=150804|AlignEnd=150939|Gloss=or|PartType=Int
-8	kùwa	kùwa	TopPART	_	_	7	discourse	_	AlignBegin=150939|AlignEnd=151074|Gloss=as_for|PartType=Int
-9	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=151074|AlignEnd=151208|Gloss=PUNCT
+5	ta	ta	PRON	_	Aspect=Prog|Gender=Fem|Person=3	6	subj	_	AlignBegin=150534|AlignEnd=150669|Gloss=3Fem.Prog|wordform=nàː
+6	nàː	nàː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=150534|AlignEnd=150669|Gloss=3Fem.Prog
+7	nan	nan	ADV	_	Definite=Def	6	comp:pred	_	AlignBegin=150669|AlignEnd=150804|Gloss=Def
+8	koː	koː	CCONJ	_	_	6	cc	_	AlignBegin=150804|AlignEnd=150939|Gloss=or|PartType=Int
+9	kùwa	kùwa	TopPART	_	_	8	discourse	_	AlignBegin=150939|AlignEnd=151074|Gloss=as_for|PartType=Int
+10	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=151074|AlignEnd=151208|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_052-052
 # speaker_id = SP2
