@@ -3290,7 +3290,7 @@
 # text_en = There they are.
 # validated_by = B-CARON
 1	dus	dukà	PRON	_	_	3	dislocated@subj	_	AlignBegin=398526|AlignEnd=398658|Gloss=all
-2	su	su	PRON	_	Number=Plur|Person=3	3	subj	_	AlignBegin=398658|AlignEnd=398790|Gloss=3Plur.Imp
+2	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=398658|AlignEnd=398790|Gloss=3Plur
 3	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=398658|AlignEnd=398790|Gloss=Pred/Loc
 4	nan	nan	ADV	_	Definite=Def	3	comp:pred	_	AlignBegin=398790|AlignEnd=398922|Gloss=Def
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=398922|AlignEnd=399055|Gloss=PUNCT
@@ -4236,7 +4236,7 @@
 # phonetic_text = dukà àbinci nèː //
 # text = duk àbinci nèː //
 # text_en =  It's all food.
-1	dukà	dukà	PRON	_	_	3	subj	_	AlignBegin=522337|AlignEnd=522547|Gloss=all
+1	dukà	dukà	PRON	_	PronType=Prs	3	subj	_	AlignBegin=522337|AlignEnd=522547|Gloss=all
 2	àbinci	àbinci	NOUN	_	_	3	comp:pred	_	AlignBegin=522547|AlignEnd=522757|Gloss=food
 3	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=522757|AlignEnd=522967|Gloss=Foc/Ident
 4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=522967|AlignEnd=523177|Gloss=PUNCT
@@ -4338,7 +4338,7 @@
 # phonetic_text = dukà zaːmàniː nèː fa //
 # text = duk zaːmàniː nèː fa //
 # text_en =  That's our time.
-1	duz	dukà	PRON	_	_	3	subj	_	AlignBegin=533505|AlignEnd=533660|Gloss=all
+1	duz	dukà	PRON	_	PronType=Prs	3	subj	_	AlignBegin=533505|AlignEnd=533660|Gloss=all
 2	zaːmàniː	zaːmàniː	NOUN	_	_	3	comp:pred	_	AlignBegin=533660|AlignEnd=533815|Gloss=present_time
 3	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=533815|AlignEnd=533970|Gloss=Foc/Ident
 4	fa	fa	TopPART	_	_	3	discourse	_	AlignBegin=533970|AlignEnd=534125|Gloss=indeed
@@ -4701,7 +4701,7 @@
 7	yi	yi	VERB	_	_	6	comp:obj	_	AlignBegin=584767|AlignEnd=584930|Gloss=do
 8	ba	ba	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=584930|AlignEnd=585093|Gloss=Neg
 9	<	<	PUNCT	_	_	2	punct	_	AlignBegin=585093|AlignEnd=585257|Gloss=PUNCT
-10	a	a	PRON	_	Person=4	11	subj	_	AlignBegin=585540|AlignEnd=585714|Gloss=4.Imp
+10	a	a	PRON	_	Person=4|PronType=Prs	11	subj	_	AlignBegin=585540|AlignEnd=585714|Gloss=4
 11	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=585540|AlignEnd=585714|Gloss=Pred/Loc
 12	nan	nan	ADV	_	Definite=Def	11	comp:pred	_	AlignBegin=585714|AlignEnd=585888|Gloss=Def
 13	fa	fa	TopPART	_	_	12	discourse	_	AlignBegin=585888|AlignEnd=586062|Gloss=indeed
@@ -5731,9 +5731,10 @@
 # phonetic_text = tòː ai wânnan saːkar̃ai nèː //
 # text = tòː ai wânnan saːkar̃ai nèː //
 # text_en =  He's a fool.
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=695785|AlignEnd=695983|Gloss=well
 2	ai	ai	INTJ	_	_	5	discourse	_	AlignBegin=695983|AlignEnd=696181|Gloss=indeed
-3	wânnan	wânnan	PRON	_	Definite=Def	5	subj	_	AlignBegin=696181|AlignEnd=696379|Gloss=Def
+3	wânnan	wânnan	PRON	_	Definite=Def|PronType=Dem	5	subj	_	AlignBegin=696181|AlignEnd=696379|Gloss=Def
 4	saːkar̃ai	saːkar̃ai	NOUN	_	_	5	comp:pred	_	AlignBegin=696379|AlignEnd=696577|Gloss=fool
 5	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=696577|AlignEnd=696775|Gloss=Foc/Ident
 6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=696775|AlignEnd=696973|Gloss=PUNCT
@@ -5921,7 +5922,7 @@
 1	àmmaː	àmmaː	CCONJ	_	_	5	cc	_	AlignBegin=716863|AlignEnd=717082|Gloss=but
 2	Làːmìndên	Làːmìnde	PROPN	_	_	5	dislocated@subj	_	AlignBegin=717082|AlignEnd=717192|Gloss=Laminde.Def|wordform=Làːmìnde
 3	maː	maː	TopPART	_	_	2	discourse	_	AlignBegin=717301|AlignEnd=717520|Gloss=even
-4	ta	ta	PRON	_	_	5	subj	_	AlignBegin=717520|AlignEnd=717739|Gloss=3Fem
+4	ta	ta	PRON	_	PronType=Prs	5	subj	_	AlignBegin=717520|AlignEnd=717739|Gloss=3Fem
 5	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=717520|AlignEnd=717739|Gloss=Pred/Loc
 6	dàddawaː	dàddawaː	NOUN	_	_	5	comp:pred	_	AlignBegin=717739|AlignEnd=717958|Gloss=seasoning_sp
 7	baːyan	baːyan	ADP	_	_	5	mod	_	AlignBegin=718811|AlignEnd=719019|Gloss=after
@@ -8028,7 +8029,7 @@
 # text = ya nàː nan > dud dà suː //
 # text_en =  They are there, all of them.
 # validated_by = B-CARON
-1	ya	ya	PRON	_	Gender=Masc|Person=3	2	subj	_	AlignBegin=953935|AlignEnd=954169|Gloss=3Masc.Imp
+1	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=953935|AlignEnd=954169|Gloss=3Masc
 2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=953935|AlignEnd=954169|Gloss=Pred/Loc
 3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=954169|AlignEnd=954403|Gloss=Def
 4	>	>	PUNCT	_	_	5	punct	_	AlignBegin=954403|AlignEnd=954637|Gloss=PUNCT
@@ -8871,7 +8872,7 @@
 1	wata	wata	DET	_	Gender=Fem	2	det	_	AlignBegin=1053180|AlignEnd=1053550|Gloss=some.Fem
 2	tsaːmiyaː	tsaːmiyaː	NOUN	_	_	5	dislocated@subj	_	AlignBegin=1053550|AlignEnd=1053920|Gloss=tamarind
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=1053920|AlignEnd=1054290|Gloss=PUNCT
-4	ta	ta	PRON	_	Gender=Fem|Person=3	5	subj	_	AlignBegin=105470|AlignEnd=1055110|Gloss=3Fem.Imp
+4	ta	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	5	subj	_	AlignBegin=105470|AlignEnd=1055110|Gloss=3Fem
 5	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=105470|AlignEnd=1055110|Gloss=Pred/Loc
 6	nan	nan	ADV	_	Definite=Def	5	comp:pred	_	AlignBegin=1055110|AlignEnd=1055530|Gloss=Def
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=1055530|AlignEnd=1055940|Gloss=PUNCT
