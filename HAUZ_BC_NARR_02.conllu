@@ -213,7 +213,7 @@
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=28173|AlignEnd=28384|Gloss=then
 2	tà	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=3	0	root	_	AlignBegin=28384|AlignEnd=28595|Gloss=3Fem.Aor
 3	jeː	jeː	VERB	_	_	2	comp:aux	_	AlignBegin=28595|AlignEnd=28806|Gloss=go
-4	gidaː	gidaː	NOUN	_	_	3	comp:G	_	AlignBegin=28806|AlignEnd=29017|Gloss=home
+4	gidaː	gidaː	NOUN	_	_	3	comp:obj@G	_	AlignBegin=28806|AlignEnd=29017|Gloss=home
 5	à	à	ADP	_	_	3	mod	_	AlignBegin=29017|AlignEnd=29228|Gloss=at
 6	gàrin	gàriː	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=29228|AlignEnd=29298|Gloss=town.Cons|wordform=gàriː
 7	=sù	=sù	PRON	_	Number=Plur|Person=3|PronType=Prs	6	mod:poss	_	AlignBegin=29368|AlignEnd=29439|Gloss=3Plur.Gen
@@ -230,7 +230,7 @@
 1	dà	dà	SCONJ	_	_	7	mod	_	AlignBegin=30370|AlignEnd=30645|Gloss=COMP
 2	ta	sukà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=30645|AlignEnd=30920|Background=Yes|Gloss=3Fem.Perf.Bkg
 3	jeː	jeː	VERB	_	_	2	comp:aux	_	AlignBegin=30920|AlignEnd=31195|Gloss=go
-4	gàrin	gàriː	NOUN	_	Definite=Cons	3	comp:G	_	AlignBegin=31195|AlignEnd=31287|Gloss=town.Cons|wordform=gàriː
+4	gàrin	gàriː	NOUN	_	Definite=Cons	3	comp:obj@G	_	AlignBegin=31195|AlignEnd=31287|Gloss=town.Cons|wordform=gàriː
 5	=sù	=sù	PRON	_	Number=Plur|Person=3|PronType=Prs	4	mod	_	AlignBegin=31379|AlignEnd=31470|Gloss=3Plur
 6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=31745|AlignEnd=32020|Gloss=then
 7	ta	sukà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=32020|AlignEnd=32295|Background=Yes|Gloss=3Fem.Perf.Bkg
@@ -255,7 +255,7 @@
 2	sai	sai	ADV	_	_	3	mod	_	AlignBegin=35645|AlignEnd=35783|Gloss=then
 3	sukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	0	root	_	AlignBegin=35783|AlignEnd=35921|Background=Yes|Gloss=3Plur.Perf.Bkg
 4	baː	baː	VERB	_	_	3	comp:aux	_	AlignBegin=35921|AlignEnd=36059|Gloss=give
-5	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	4	comp:R	_	AlignBegin=36059|AlignEnd=36197|Gloss=3Fem
+5	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	4	comp:obj@R	_	AlignBegin=36059|AlignEnd=36197|Gloss=3Fem
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=41410|AlignEnd=41550|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_02_024
@@ -268,9 +268,9 @@
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=36336|AlignEnd=36537|Gloss=then
 2	sukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	0	root	_	AlignBegin=36537|AlignEnd=36738|Background=Yes|Gloss=3Plur.Perf.Bkg
 3	baː	baː	VERB	_	_	2	comp:aux	_	AlignBegin=36738|AlignEnd=36939|Gloss=give|wordform=bâː
-4	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	comp:R	_	AlignBegin=36939|AlignEnd=37140|Gloss=3Fem
+4	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	comp:obj@R	_	AlignBegin=36939|AlignEnd=37140|Gloss=3Fem
 5	wânnan	wânnan	DET	_	Definite=Def	6	det	_	AlignBegin=37140|AlignEnd=37341|Gloss=Def
-6	ramàː	ramàː	NOUN	_	_	3	comp:T	_	AlignBegin=37341|AlignEnd=37542|Gloss=hemp
+6	ramàː	ramàː	NOUN	_	_	3	comp:obj@T	_	AlignBegin=37341|AlignEnd=37542|Gloss=hemp
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=37542|AlignEnd=37741|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_02_025-26
@@ -283,8 +283,8 @@
 1	dà	dà	SCONJ	_	_	8	mod	_	AlignBegin=38380|AlignEnd=38547|Gloss=COMP
 2	sukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=38547|AlignEnd=38714|Background=Yes|Gloss=3Plur.Perf.Bkg
 3	baː	baː	VERB	_	_	2	comp:aux	_	AlignBegin=38714|AlignEnd=38881|Gloss=give
-4	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	comp:R	_	AlignBegin=38881|AlignEnd=39048|Gloss=3Fem
-5	ramàn	ramàː	NOUN	_	_	3	comp:T	_	AlignBegin=39048|AlignEnd=39132|Gloss=hemp.Def
+4	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	comp:obj@R	_	AlignBegin=38881|AlignEnd=39048|Gloss=3Fem
+5	ramàn	ramàː	NOUN	_	_	3	comp:obj@T	_	AlignBegin=39048|AlignEnd=39132|Gloss=hemp.Def
 6	nan	nan	DET	_	Definite=Def	5	det	_	AlignBegin=39215|AlignEnd=39382|Gloss=Def
 7	sai	sai	ADV	_	_	8	mod	_	AlignBegin=40154|AlignEnd=40363|Gloss=then
 8	ta	sukà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=40363|AlignEnd=40572|Background=Yes|Gloss=3Fem.Perf.Bkg
@@ -561,7 +561,7 @@
 5	nan	nan	DET	_	Definite=Def	4	det	_	AlignBegin=71408|AlignEnd=71617|Gloss=Def
 6	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	2	conj:svc	_	AlignBegin=71617|AlignEnd=71826|Background=Yes|Gloss=3Masc.Perf.Bkg
 7	baː	baː	VERB	_	_	6	comp:aux	_	AlignBegin=71826|AlignEnd=72035|Gloss=give|wordform=bâː
-8	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	7	comp:R	_	AlignBegin=72035|AlignEnd=72244|Gloss=3Fem
+8	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	7	comp:obj@R	_	AlignBegin=72035|AlignEnd=72244|Gloss=3Fem
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=72244|AlignEnd=72450|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_02_059-061
@@ -742,7 +742,7 @@
 3	yâːraː	yaːròː	NOUN	_	Number=Plur	2	comp:obj	_	AlignBegin=92430|AlignEnd=92541|Gloss=child.Plur
 4	à	sù	AUX	_	Aspect=Aor|Person=4	1	conj:svc	_	AlignBegin=93624|AlignEnd=93816|Gloss=4.Aor
 5	baː	baː	VERB	_	_	4	comp:aux	_	AlignBegin=93816|AlignEnd=94008|Gloss=give|wordform=bâː
-6	sù	su	PRON	_	Number=Plur|Person=3|PronType=Prs	5	comp:R	_	AlignBegin=94008|AlignEnd=94200|Gloss=3Plur
+6	sù	su	PRON	_	Number=Plur|Person=3|PronType=Prs	5	comp:obj@R	_	AlignBegin=94008|AlignEnd=94200|Gloss=3Plur
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=94200|AlignEnd=94392|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_02_078
@@ -1363,8 +1363,8 @@
 5	X	X	X	_	_	3	comp:obj	_	AlignBegin=166321|AlignEnd=166485|Gloss=X
 6	naː	sun	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=166485|AlignEnd=166649|Gloss=1Sing.Perf
 7	hanàː	han-	VERB	_	_	6	comp:aux	_	AlignBegin=166649|AlignEnd=166813|Gloss=forbid
-8	ki	ki	PRON	_	Person=2	7	comp:R	_	AlignBegin=166813|AlignEnd=166977|Gloss=ki
-9	kì	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=2	7	comp:T	_	AlignBegin=166977|AlignEnd=167141|Gloss=2Fem.Aor
+8	ki	ki	PRON	_	Person=2	7	comp:obj@R	_	AlignBegin=166813|AlignEnd=166977|Gloss=ki
+9	kì	sù	AUX	_	Aspect=Aor|Gender=Fem|Person=2	7	comp:obj@T	_	AlignBegin=166977|AlignEnd=167141|Gloss=2Fem.Aor
 10	ci	ci	VERB	_	_	9	comp:aux	_	AlignBegin=167141|AlignEnd=167305|Gloss=eat
 11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=167305|AlignEnd=167472|Gloss=PUNCT
 
@@ -1510,7 +1510,7 @@
 3	saːmoː	saːm-	VERB	_	_	2	comp:aux	_	AlignBegin=180288|AlignEnd=180462|Gloss=get.DIR
 4	naː	sun	AUX	_	Aspect=Perf|Number=Sing|Person=1	2	conj:svc	_	AlignBegin=180462|AlignEnd=180636|Gloss=1Sing.Perf
 5	baː	baː	VERB	_	_	4	comp:aux	_	AlignBegin=180636|AlignEnd=180810|Gloss=give|wordform=bâː
-6	kà	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	comp:R	_	AlignBegin=180810|AlignEnd=180984|Gloss=2Masc
+6	kà	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	comp:obj@R	_	AlignBegin=180810|AlignEnd=180984|Gloss=2Masc
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=180984|AlignEnd=181161|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_02_151
