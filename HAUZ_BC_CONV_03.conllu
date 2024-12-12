@@ -1684,7 +1684,7 @@
 16	mài	mài	ADP	_	ExtPos=ADJ|Number=Sing|PronType=Rel	15	mod	_	AlignBegin=211547|AlignEnd=211755|Gloss=having|Idiom=Yes|Linker=Yes
 17	daːɗiː	daːɗiː	NOUN	_	_	16	comp:obj	_	AlignBegin=211755|AlignEnd=211963|Gloss=pleasure|InIdiom=Yes
 18	dai	dai	TopPART	_	_	15	discourse	_	AlignBegin=211963|AlignEnd=212171|Gloss=indeed
-19	ìn	sù	AUX	_	Aspect=Aor|Number=Sing|Person=1	12	parataxis:parenth	_	AlignBegin=212171|AlignEnd=212379|Gloss=1Sing.Aor
+19	ìn	sù	AUX	_	Aspect=Aor|Number=Sing|Person=1	12	parataxis:insert	_	AlignBegin=212171|AlignEnd=212379|Gloss=1Sing.Aor
 20	ji	ji	VERB	_	_	19	comp:obj	_	AlignBegin=212379|AlignEnd=212587|Gloss=hear
 21	sarkìn	sarkiː	NOUN	_	Definite=Def	20	comp:obj	_	AlignBegin=212587|AlignEnd=212691|Gloss=king.Def|wordform=sarkiː
 22	hakà	hakà	ADV	_	_	20	mod	_	AlignBegin=212795|AlignEnd=213003|Gloss=like_this
@@ -2797,7 +2797,7 @@
 2	wân	wâː	NOUN	_	Definite=Def	12	dislocated@subj	_	AlignBegin=340782|AlignEnd=340912|Gloss=elder_brother.Def|wordform=wâː
 3	(	(	PUNCT	_	_	5	punct	_	AlignBegin=341043|AlignEnd=341304|Gloss=PUNCT
 4	ƙanèn	ƙanèː	NOUN	_	Definite=Def	5	subj	_	AlignBegin=341304|AlignEnd=341434|Gloss=younger_brother.Def|wordform=ƙanèː
-5	nàː	nàː/kè	AUX	_	_	2	parataxis@parenth	_	AlignBegin=341565|AlignEnd=341826|Gloss=Pred/Loc
+5	nàː	nàː/kè	AUX	_	_	2	parataxis:insert	_	AlignBegin=341565|AlignEnd=341826|Gloss=Pred/Loc
 6	cikin	cikin	ADP	_	_	5	comp:pred	_	AlignBegin=341826|AlignEnd=342087|Gloss=inside
 7	kallon	kalloː	NOUN	_	Definite=Cons	6	comp:obj	_	AlignBegin=342087|AlignEnd=342217|Gloss=watching.Cons|wordform=kalloː
 8	ƙwalloː	ƙwalloː	NOUN	_	_	7	udep	_	AlignBegin=342348|AlignEnd=342609|Gloss=football
@@ -3221,6 +3221,7 @@
 # phonetic_text = tòː but / bàʼà sàːmaː -eː shi ba ham //
 # text = tòː but < bàʼà sàːmeː shì ba à X //
 # text_en = Well but they did not find him X.
+# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=393114|AlignEnd=393281|Gloss=well
 2	but	but	CCONJ	_	Foreign=Yes	4	discourse	_	AlignBegin=393281|AlignEnd=393448|Gloss=but|Lang=en
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=393448|AlignEnd=393614|Gloss=PUNCT
@@ -3228,8 +3229,8 @@
 5	sàːmeː	saːm-	VERB	_	_	4	comp:aux	_	AlignBegin=393838|AlignEnd=393950|Gloss=find
 6	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=394062|AlignEnd=394286|Gloss=3Masc
 7	ba	ba	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=394286|AlignEnd=394510|Gloss=Neg
-8	à	à	ADP	_	_	4	comp:obl	_	AlignBegin=394286|AlignEnd=394510|Gloss=at
-9	X	X	X	_	_	8	comp:obj	_	AlignBegin=394510|AlignEnd=394734|Gloss=X
+8	à	à	ADP	_	_	4	mod	_	AlignBegin=394286|AlignEnd=394510|Gloss=at
+9	X	X	X	_	_	8	unk@scrap	_	AlignBegin=394510|AlignEnd=394734|Gloss=X
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=394734|AlignEnd=394956|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__215
