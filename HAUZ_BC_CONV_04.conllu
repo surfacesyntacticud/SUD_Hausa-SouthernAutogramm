@@ -466,7 +466,6 @@
 # phonetic_text = noːmaː -ǹ / kà shuːkàː àbù / yànzu kanàː lìssàːfiː dà raːnaː -n dà zaːtà yi //
 # text = noːmân / kà shuːkà àbù / yànzu kanàː lìssàːfiː dà raːnan dà zaːtà yi //
 # text_en = Farming, you sow something, now you count when it will be ready.
-# validated_by = B-CARON
 1	noːmân	noːmaː	NOUN	_	ExtPos=NOUN	3	dislocated@top	_	AlignBegin=51672|AlignEnd=51730|Gloss=farming.Def|wordform=noːmaː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=51787|AlignEnd=51902|Gloss=PUNCT
 3	kà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=51902|AlignEnd=52031|Gloss=2Masc.Aor
@@ -756,7 +755,6 @@
 # phonetic_text = anàː ròːƙoː -n -kà nèː maː kà sàyaː //
 # text = anàː ròːƙonkà neː maː kà sàyaː //
 # text_en = They are begging you to buy it.
-# validated_by = B-CARON
 1	anàː	nàː/kèː	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=78420|AlignEnd=78618|Gloss=4.Prog
 2	ròːƙon	roːƙ-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=78618|AlignEnd=78684|Gloss=beg.Vnoun.Cons|wordform=ròːƙoː
 3	=kà	=kà	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	udep	_	AlignBegin=78750|AlignEnd=78816|Gloss=2Masc
@@ -860,7 +858,6 @@
 # phonetic_text = naː ganiː nèː / àmmaː fa niː bàn XX bàn shaː ba // dan kaː sanìː baː nàː shâː //
 # text = naː ganiː nèː |c àmmaː fa niː bàn || bàn shaː ba dan kaː san baːnàː shâː //
 # text_en = I have seen it but me... I didn't drink any because you know I don't drink.
-# validated_by = B-CARON
 1	naː	sun	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=96786|AlignEnd=96923|Gloss=1Sing.Perf
 2	ganiː	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=96923|AlignEnd=97060|Gloss=see
 3	nèː	neː/ceː	AUX	_	_	1	discourse@foc	_	AlignBegin=97060|AlignEnd=97197|Gloss=Foc/Ident
@@ -933,7 +930,6 @@
 # phonetic_text = in ya shaː fa sai an tuntùɗaː shi //
 # text = àkwai wani wandà ya kè yawàn wucèːwaː ta ƙoːfàr̃ gidan =mù < in ya shaː fa sai an tuntùɗaː shi //
 # text_en = There is somebody who often walks pass our house door, when he drinks, they have to carry him away.
-# validated_by = B-CARON
 1	àkwai	àkwai	PredPART	_	_	18	dislocated	_	AlignBegin=107103|AlignEnd=107284|Gloss=there_is
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	1	subj	_	AlignBegin=107284|AlignEnd=107465|Gloss=some.Masc
 3	wandà	wandà	PRON	_	PronType=Rel	2	mod@relcl	_	AlignBegin=107465|AlignEnd=107646|Gloss=who
@@ -1002,7 +998,6 @@
 # phonetic_text = àbù -n dà kuma bài daːcèː ba //
 # text = àbin dà kuma bài daːcèː ba //
 # text_en = It's not good.
-# validated_by = B-CARON
 1	àbin	àbù	NOUN	_	Definite=Cons	0	root	_	AlignBegin=114485|AlignEnd=114567|Gloss=thing.Cons|wordform=àbù
 2	dà	dà	SCONJ	_	_	1	mod@relcl	_	AlignBegin=114650|AlignEnd=114815|Gloss=COMP
 3	kuma	kuma	TopPART	_	_	2	discourse	_	AlignBegin=114815|AlignEnd=114980|Gloss=too
@@ -1018,10 +1013,9 @@
 # phonetic_text = koːdà yakèː bâi dà aureː nèː kai /
 # text = koːdà ya kè bâi dà aureː nèː kai !//
 # text_en = Although he is not married, wow!
-# validated_by = B-CARON
 1	koːdà	koːdà	SCONJ	_	ExtPos=SCONJ	9	mod	_	AlignBegin=115639|AlignEnd=115787|Gloss=although|Idiom=Yes
-2	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=115787|AlignEnd=115935|Gloss=3Masc
-3	kè	nàː/kè	AUX	_	_	1	comp:obj	_	AlignBegin=115787|AlignEnd=115935|Background=Yes|Gloss=Pred/Loc.Bkg
+2	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=115787|AlignEnd=115935|Gloss=3Masc|InIdiom=Yes
+3	kè	nàː/kè	AUX	_	_	1	comp:obj	_	AlignBegin=115787|AlignEnd=115935|Background=Yes|Gloss=Pred/Loc.Bkg|InIdiom=Yes
 4-5	bâi	_	_	_	_	_	_	_	_
 4	baː	baː	PredPART	_	Polarity=Neg	1	comp:obj	_	AlignBegin=115935|AlignEnd=116083|Gloss=Pred/Loc.Neg
 5	yà	yà	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=115935|AlignEnd=116083|Gloss=3Masc
@@ -1050,7 +1044,6 @@
 # phonetic_text = àmmaː in dàː yanàː dà aureː yaː màllàkaː -i hankàliː -n -shì / dàː dukà bà zâi yi wânnan ba //
 # text = àmmaː indàː ya nàː dà aureː yaː màllàki hankàlin =shì < dàː dukà bà zâi yi wânnan ba //
 # text_en = But if he had married and controled himself, he would not do all these things.
-# validated_by = B-CARON
 1	àmmaː	àmmaː	CCONJ	_	_	15	discourse	_	AlignBegin=118267|AlignEnd=118481|Gloss=but
 2	indàː	indàː	SCONJ	_	_	15	mod	_	AlignBegin=118481|AlignEnd=118695|Gloss=if
 3	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=118909|AlignEnd=119123|Gloss=3Masc
@@ -1078,7 +1071,6 @@
 # phonetic_text = wasu kuma / cikin -sù / cikin -sù / cikin -sù fìtinàː nèː //
 # text = wasu kuma / cikinsù / cikinsù / cikinsù fìtinàː neː //
 # text_en = Some too, inside them, inside them, inside them, there is trouble.
-# validated_by = B-CARON
 1	wasu	wasu	PRON	_	Definite=Spec|Number=Plur|PronType=Ind	13	dislocated@top	_	AlignBegin=122606|AlignEnd=122842|Gloss=some.Plur
 2	kuma	kuma	TopPART	_	_	1	discourse	_	AlignBegin=122842|AlignEnd=123078|Gloss=too
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=123078|AlignEnd=123313|Gloss=PUNCT
@@ -1143,7 +1135,6 @@
 # phonetic_text = tòː gà &// gàː wani maː à nân //
 # text = tòː gàː || gàː wani maː à nân //
 # text_en = Well, there... there's even one here.
-# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=131195|AlignEnd=131447|Gloss=well
 2	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=131447|AlignEnd=131699|Gloss=here_is
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=131699|AlignEnd=131951|GE=|Gloss=PUNCT|nWord=3
@@ -1312,7 +1303,6 @@
 # phonetic_text = shiː kèː nan kanàː zàune sai kà sâː injìː yà yi //
 # text = shiːkèːnan ka nàː zàune sai kà sâː injìː yà yi //
 # text_en = Now, you are sitting, you let an engine do it.
-# validated_by = B-CARON
 1	shiːkèːnan	shiːkèːnan	INTJ	_	_	3	discourse	_	AlignBegin=152384|AlignEnd=152556|Gloss=OK|wordform=shiː
 2	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	3	subj	_	AlignBegin=152900|AlignEnd=153072|Gloss=2Masc
 3	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=152900|AlignEnd=153072|Gloss=Pred/Loc
@@ -1506,7 +1496,6 @@
 # phonetic_text = à gidaː -ǹ yànzu wàː nèː nèː yakèː yîː //
 # text = à gidân yànzu wàː neː neː yakèː yîː ?//
 # text_en = In that house now, who is doing it?
-# validated_by = B-CARON
 1	à	à	ADP	_	_	5	mod	_	AlignBegin=174073|AlignEnd=174254|Gloss=at
 2	gidân	gidaː	NOUN	_	_	1	comp:obj	_	AlignBegin=174254|AlignEnd=174344|Gloss=home.Def|wordform=gidaː
 3	yànzu	yànzu	ADV	_	_	5	mod	_	AlignBegin=174435|AlignEnd=174616|Gloss=now
@@ -1534,7 +1523,6 @@
 # phonetic_text = yaːròː -aː\FH -n yànzu ai sun taːsoː cikin gaːtaː nèː //
 # text = yâːran yànzu ai sun taːsoː cikin gaːtaː nèː //
 # text_en = Today's children are spoilt.
-# validated_by = B-CARON
 1	yâːran	yaːròː	NOUN	_	Definite=Cons|Number=Plur	4	dislocated@subj	_	AlignBegin=176759|AlignEnd=176826|Gloss=child.Plur.Cons|wordform=yaːròː
 2	yànzu	yànzu	ADV	_	_	1	mod	_	AlignBegin=176960|AlignEnd=177161|Gloss=now
 3	ai	ai	INTJ	_	_	4	discourse	_	AlignBegin=177161|AlignEnd=177362|Gloss=indeed
@@ -1650,7 +1638,6 @@
 # phonetic_text = Muːsaː Yàngaː shiː maː yanàː cikin wandà sukà ɗan taɓàː à dâː //
 # text = Muːsaː Yàngaː shiː maː ya nàː cikin wandà sukà ɗan taɓàː à dâː //
 # text_en = Musa Yanga, he's among those who used to do a little in the old days.
-# validated_by = B-CARON
 1	Muːsaː	muːsaː	NOUN	_	_	6	dislocated@subj	_	AlignBegin=190244|AlignEnd=190386|Gloss=Musa
 2	Yàngaː	Yàngaː	PROPN	_	_	1	flat:name	_	AlignBegin=190386|AlignEnd=190528|Gloss=Yanga
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	1	conj:appos	_	AlignBegin=190528|AlignEnd=190670|Gloss=3Masc.Nom
@@ -2192,7 +2179,6 @@
 # phonetic_text = tòː ai / loːkàciː nèː gàː yi nan gàː màːsu furaː nan kawài / jìbge //
 # text = tòː ai / loːkàciː neː gàː ya nan gàː màːsu furaː nan kawâi / jìbge //
 # text_en = Well, at that time you will see plenty or "fura"  gruel peddlers.
-# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=258672|AlignEnd=258766|Gloss=well
 2	ai	ai	INTJ	_	_	6	discourse	_	AlignBegin=258766|AlignEnd=258860|Gloss=indeed
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=258860|AlignEnd=258954|Gloss=PUNCT
@@ -2300,12 +2286,11 @@
 # sent_timecode = 273078, 275724
 # phonetic_text = kâi / Allàː hù âkabar̃ // Allàː ji kâi -n wandà sukà rigaː mù //
 # text_en = My, God almighty, May God have mercy on those who have departed.
-# validated_by = B-CARON
 1	kâi	kâi	INTJ	_	_	8	discourse	_	AlignBegin=273078|AlignEnd=273242|Gloss=my
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=273242|AlignEnd=273406|Gloss=PUNCT
-3	Allàː	Allàː	PROPN	_	Foreign=Yes	8	discourse	_	AlignBegin=273406|AlignEnd=273582|Gloss=Allah|Idiom=Yes|Lang=ar
-4	hù	hù	X	_	Foreign=Yes	3	flat:foreign	_	AlignBegin=273582|AlignEnd=273758|Gloss=X|InIdiom=Yes|Lang=ar
-5	âkabar̃	âkabar̃	X	_	Foreign=Yes	4	flat:foreign	_	AlignBegin=273758|AlignEnd=273934|Gloss=X|InIdiom=Yes|Lang=ar
+3	Allàː	Allàː	PROPN	_	Foreign=Yes	8	discourse	_	AlignBegin=273406|AlignEnd=273582|Gloss=Allah|Lang=ar
+4	hù	hù	X	_	Foreign=Yes	3	flat:foreign	_	AlignBegin=273582|AlignEnd=273758|Gloss=X|Lang=ar
+5	âkabar̃	âkabar̃	X	_	Foreign=Yes	4	flat:foreign	_	AlignBegin=273758|AlignEnd=273934|Gloss=X|Lang=ar
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=273934|AlignEnd=274108|Gloss=PUNCT
 7	Allàː	Allàː	PROPN	_	_	8	subj	_	AlignBegin=274490|AlignEnd=274644|Gloss=God
 8	ji	ji	VERB	_	_	0	root	_	AlignBegin=274644|AlignEnd=274798|Gloss=hear.Jus|Jussive=Yes
@@ -2505,7 +2490,6 @@
 # sent_timecode = 292948, 294585
 # phonetic_text = dukà àbù -uCaː\HL -ǹ sun zoː wandà sukà yi àbù -n nàn //
 # text_en = All the things have gone, (of) when they used to do these.
-# validated_by = B-CARON
 1	du'	dukà	DET	_	_	2	det	_	AlignBegin=292948|AlignEnd=293112|Gloss=all
 2	abuːbuwàn	àbù	NOUN	_	Number=Plur	3	subj	_	AlignBegin=293112|AlignEnd=293167|Gloss=thing.Plur.PUNCT|wordform=àbù
 3	sun	sun	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=293276|AlignEnd=293440|Gloss=3Plur.Perf
@@ -2721,7 +2705,6 @@
 # phonetic_text = inàː ajìː biyu / munàː &// jar̃r̃àbâːwaː akà aikoː yaː ràsu //
 # text = inàː ajìː biyu mu nàː jar̃r̃àbâːwaː akà aikoː yaː ràsu //
 # text_en = I was in second grade, we were... taking the exams when they told me he had died.
-# validated_by = B-CARON
 1-2	inàː	_	_	_	_	_	_	_	_
 1	i	i	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=319569|AlignEnd=319805|Gloss=1Sing
 2	nàː	nàː/kè	AUX	_	_	8	mod	_	AlignBegin=319569|AlignEnd=319805|Gloss=Pred/Loc
@@ -2837,7 +2820,6 @@
 # phonetic_text = tòː yànzu fa < in kuɗin jar̃r̃àbâːwaː nèː mùtûm zâi biyaː nèː //
 # text = tòː yànzu fa < in kuɗin jar̃r̃àbâːwaː nèː mùtûm zâi biyaː nèː //
 # text_en = Well now indeed, if it's exam money, people will pay.
-# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	10	discourse	_	AlignBegin=337817|AlignEnd=338080|Gloss=well
 2	yànzu	yànzu	ADV	_	_	10	mod	_	AlignBegin=338080|AlignEnd=338343|Gloss=now
 3	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=338343|AlignEnd=338606|Gloss=indeed
@@ -3140,7 +3122,6 @@
 # phonetic_text = tundà yànzu zaːkà iyàː bâː shi kuɗiː -ǹ yà &// yà yà &// yà kashèː nan dà nan //
 # text = tundà yànzu zaːkà iyà baː shì kuɗîn yà yà yà yà kashèː nan dà nan //
 # text_en = Because now you will give him money to... to to... to spend on the spot.
-# validated_by = B-CARON
 1	tundà	tundà	SCONJ	_	_	3	discourse	_	AlignBegin=380252|AlignEnd=380425|Gloss=since
 2	yànzu	yànzu	ADV	_	_	3	mod	_	AlignBegin=380425|AlignEnd=380598|Gloss=now
 3	zaːkà	zaːsù	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=380598|AlignEnd=380771|Gloss=2Sing.Fut
@@ -3290,7 +3271,6 @@
 # phonetic_text = ita nèː // dukà sunàː nan // tòː kaː ganiː dukà girmaː -n wuriː -ǹ nan //
 # text = dus su nàː nan //
 # text_en = There they are.
-# validated_by = B-CARON
 1	dus	dukà	PRON	_	_	3	dislocated@subj	_	AlignBegin=398526|AlignEnd=398658|Gloss=all
 2	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=398658|AlignEnd=398790|Gloss=3Plur
 3	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=398658|AlignEnd=398790|Gloss=Pred/Loc
@@ -3399,7 +3379,6 @@
 # phonetic_text = yànzu < mutànen =mù sun iyàːyen =mù sun manà || sun manà gaːtaː //
 # text = yànzu < mutànen =mù sun iyàːyen =mù sun manà || sun manà gaːtaː //
 # text_en = Now, our people have... our parents have... they have spoilt us...
-# validated_by = B-CARON
 1	yànzu	yànzu	ADV	_	_	5	mod	_	AlignBegin=415185|AlignEnd=415357|Gloss=now
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=415357|AlignEnd=415529|Gloss=PUNCT
 3	mutànen	mùtûm	NOUN	_	Number=Plur	5	subj	_	AlignBegin=416324|AlignEnd=416407|Gloss=person.Plur.Cons|wordform=mùtûm
@@ -3434,7 +3413,6 @@
 # phonetic_text = muː nèː dai kawài / bàmù bi yandà sukèː sôː ba //
 # text = muː nèː dai kawâi / bàmù bi yandà sukèː sôː ba //
 # text_en = We are the ones who did not follow the way they wanted us to.
-# validated_by = B-CARON
 1	muː	muː	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	dislocated@subj	_	AlignBegin=419681|AlignEnd=419822|Gloss=1Plur.Nom
 2	nèː	neː/ceː	AUX	_	_	1	discourse@foc	_	AlignBegin=419822|AlignEnd=419963|Gloss=Foc/Ident
 3	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=419963|AlignEnd=420104|Gloss=indeed
@@ -3630,7 +3608,6 @@
 # phonetic_text = ka yi ka ɗaukoː dànkalìː / saː shi à ribìɗiː //
 # text = koː bàː koː ka yi ka ɗaukoː dànkalìː < saː shi à ribìɗiː !//
 # text_en = Or, if you had sweet potatoes, you put them in warm ashes.
-# validated_by = B-CARON
 1	koː	koː	CCONJ	_	_	10	cc	_	AlignBegin=451533|AlignEnd=451693|Gloss=or
 2	bàː	bàː	ADV	_	Polarity=Neg	1	discourse	_	AlignBegin=451693|AlignEnd=451853|Gloss=Neg
 3	koː	koː	SCONJ	_	_	10	mod	_	AlignBegin=451853|AlignEnd=452013|Gloss=or
@@ -3762,7 +3739,6 @@
 # phonetic_text = bâː doːyàː nèː //
 # text = bâː doːyàː neː //
 # text_en = There was no yam.
-# validated_by = B-CARON
 1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=468892|AlignEnd=469054|Gloss=Neg
 2	doːyàː	doːyàː	NOUN	_	_	1	subj	_	AlignBegin=469054|AlignEnd=469216|Gloss=yam
 3	nèː	neː/ceː	AUX	_	_	2	discourse@foc	_	AlignBegin=469216|AlignEnd=469378|Gloss=Foc/Ident
@@ -3931,7 +3907,6 @@
 # sent_timecode = 485414, 487551
 # phonetic_text = wandà dâː munàː ƴan yâːraː < sai mun barìː //
 # text_en = When we were young, we just waited.
-# validated_by = B-CARON
 1	wandà	wandà	PRON	_	PronType=Rel	9	mod	_	AlignBegin=485414|AlignEnd=485614|Gloss=when
 2	dâː	dâː	ADV	_	_	4	mod	_	AlignBegin=485614|AlignEnd=485814|Gloss=formerly
 3	mu	mu	PRON	_	Number=Plur|Person=1|PronType=Prs	4	subj	_	AlignBegin=485814|AlignEnd=486014|Gloss=1Plur
@@ -3968,7 +3943,6 @@
 # phonetic_text = sai mù jeː &// kaː jeː ɗaukoː ƙwalloː /
 # text = kàman taː aukàː wurîn < sai mù jeː //
 # text_en = When it fell there, we went.
-# validated_by = B-CARON
 1	kàman	kàman	SCONJ	_	_	7	mod	_	AlignBegin=489107|AlignEnd=489307|Gloss=like
 2	taː	sun	AUX	_	Aspect=Perf|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=489307|AlignEnd=489507|Gloss=3Fem.Perf
 3	aukàː	aukàː	VERB	_	_	2	comp:aux	_	AlignBegin=489507|AlignEnd=489707|Gloss=happen
@@ -4105,7 +4079,6 @@
 # phonetic_text = wânnan / shiː nèː in akà sâː mà wutaː / sai yà kwaːna huɗu / bìyar̃ yanàː cîː / in ka jeː dà haƙàː -wàː //
 # text = wânnan < shiː nèː in akà sâː mà wutaː < sai yà kwaːna huɗu bìyar̃ yanàː cîː in ka jeː dà haƙàːwaː //
 # text_en = Those sweet potatoes if you put them in the fire, it takes four or five days to cook, before you go to dig them up.
-# validated_by = B-CARON
 1	wânnan	wânnan	PRON	_	Definite=Def	12	dislocated@top	_	AlignBegin=506078|AlignEnd=506302|Gloss=Def
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=506302|AlignEnd=506526|Gloss=PUNCT
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	1	conj:appos	_	AlignBegin=506526|AlignEnd=506687|Gloss=3Masc.Nom
@@ -4276,7 +4249,6 @@
 # phonetic_text = dà mài zaːƙiː dà mài barciː kèː nan /
 # text = dà mài zaːƙiː dà mài bauriː kèː nan /
 # text_en = There is the sweet one, and the acrid one.
-# validated_by = B-CARON
 1	dà	dà	PredPART	_	_	0	root	_	AlignBegin=527393|AlignEnd=527594|Gloss=there_is
 2	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing|PronType=Rel	1	subj	_	AlignBegin=527594|AlignEnd=527795|Gloss=having|Idiom=Yes|Linker=Yes
 3	zaːƙiː	zaːƙiː	NOUN	_	_	2	comp:obj	_	AlignBegin=527795|AlignEnd=527996|Gloss=sweetness|InIdiom=Yes
@@ -4415,7 +4387,6 @@
 # phonetic_text = dâː in / iskàː -n bazaraː ya huːràː / zaːkà ji kàmar̃ / kàmar̃ kaɗà kà taːshì / in kanàː koː &// in kanàː gìndiː -n in -wàː //
 # text = dâː in iskàn bazaraː ya huːràː < zaːkà ji kàman < kàman kaɗà kà taːshì in kanàː koː || in ka nàː gìndin inwàː //
 # text_en = In the old days if the wind of the hot season is blowing, you will feel like like you should not get up if you are... if you are in the shade.
-# validated_by = B-CARON
 1	dâː	dâː	ADV	_	_	8	mod	_	AlignBegin=539996|AlignEnd=540186|Gloss=formerly
 2	in	in	SCONJ	_	_	8	mod	_	AlignBegin=540186|AlignEnd=540376|Gloss=if
 3	iskàn	iskàː	NOUN	_	Definite=Cons	5	subj	_	AlignBegin=540565|AlignEnd=540673|Gloss=wind.Cons|wordform=iskàː
@@ -4469,7 +4440,6 @@
 # phonetic_text = tòː ai yànzu / bàbba -n àbù -n dà dukà yakèː / ƙwàːraː -n -mù nèː / rashìː -n / tattaliː dà baː màː yîː //
 # text = tòː ai yànzu < bàbban àbin dà duy yakèː ƙwàːran =mù nèː < rashìn tattaliː dà baːmàː yîː //
 # text_en = Well now, the main thing that is cheating us is the lack of organization.
-# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	14	discourse	_	AlignBegin=546936|AlignEnd=547131|Gloss=well
 2	ai	ai	INTJ	_	_	14	discourse	_	AlignBegin=547131|AlignEnd=547326|Gloss=indeed
 3	yànzu	yànzu	ADV	_	_	14	mod	_	AlignBegin=547326|AlignEnd=547521|Gloss=now
@@ -4521,7 +4491,6 @@
 # phonetic_text = kuma / kaː ganiː / à yandà / àlʼamàr̃iː -uCaː\HL -ǹ nan sukèː //
 # text = kuma < kaː ga à yandà alʼamur̃àn nan su kè //
 # text_en = And you see how things are.
-# validated_by = B-CARON
 1	kuma	kuma	CCONJ	_	_	3	cc	_	AlignBegin=557794|AlignEnd=558096|Gloss=too
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=558096|AlignEnd=558399|Gloss=PUNCT
 3	kaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=558399|AlignEnd=558643|Gloss=2Masc.Perf
@@ -4693,7 +4662,6 @@
 # phonetic_text = tôː in kòː bàː hakà akà yi ba / anàː nan fa gidaː -n jiyà //
 # text = tôː in kòː bàː hakà akà yi ba < a nàː nan fa gidan jiyà //
 # text_en = Well if it was not because of that, things would be the same as yesterday.
-# validated_by = B-CARON
 1	tôː	tôː	INTJ	_	_	11	discourse	_	AlignBegin=583789|AlignEnd=583952|Gloss=well
 2	in	in	SCONJ	_	_	11	mod	_	AlignBegin=583952|AlignEnd=584115|Gloss=if
 3	kòː	kùwa	TopPART	_	_	2	discourse	_	AlignBegin=584115|AlignEnd=584278|Gloss=as_for
@@ -4831,7 +4799,6 @@
 # phonetic_text = tundà wani zaːmàniː nèː / yànzu dà akà cêː wai nə́m~ / dìmòːkùr̃àːɗiyyàː nèː / koː kòː mèː nèː nèː /
 # text = tundà wani zaːmàniː neː / yànzu dà akà cêː wai nə́m~ / mùr̃kàr̃àːɗiyàː neː / kòː koː mèː neː nèː /
 # text_en = since, this is a time when they say this is a... decromacy sic or isn't it?
-# validated_by = B-CARON
 1	tundà	tundà	SCONJ	_	_	4	discourse	_	AlignBegin=600732|AlignEnd=600968|Gloss=since
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	3	det	_	AlignBegin=600968|AlignEnd=601204|Gloss=some.Masc
 3	zaːmàniː	zaːmàniː	NOUN	_	_	4	comp:pred	_	AlignBegin=601204|AlignEnd=601440|Gloss=present_time
@@ -4906,7 +4873,6 @@
 # phonetic_text = tòː bâː ƴancìː -n &// ƴancìː -n dai ɗan ƙànƙanìː nèː //
 # text = tòː bâː ƴancìn || ƴancìn dai ɗan ƙànƙanìː neː //
 # text_en = Well there is no rights.... rights for poor people.
-# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=608118|AlignEnd=608488|Gloss=well
 2	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=608488|AlignEnd=608858|Gloss=Neg
 3	ƴancìn	ƴancìː	NOUN	_	Definite=Cons	2	subj	_	AlignBegin=608858|AlignEnd=609043|Gloss=freedom.Cons|wordform=ƴancìː
@@ -4925,7 +4891,6 @@
 # phonetic_text = indàː dai am bi yandà àbù -ǹ takèː // anàː dai yîː nèː dai / kawài dukà dai //
 # text = indàː dai an bi yandà àbîn ta kè < anàː dai yîː neː dai > kawài //
 # text_en = If we look at how things are, we can't do anything, at all.
-# validated_by = B-CARON
 1	indàː	indàː	SCONJ	_	_	10	mod	_	AlignBegin=610097|AlignEnd=610312|Gloss=if.IRR
 2	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=610312|AlignEnd=610527|Gloss=indeed
 3	an	sun	AUX	_	Aspect=Perf|Person=3	1	comp:obj	_	AlignBegin=610527|AlignEnd=610742|Gloss=4.Perf
@@ -4997,7 +4962,6 @@
 # phonetic_text = dan yâu / yâu akà cêː makà bâː ka dà shiː //
 # text = dan yâu < yâu akà cêː makà baː kà dà shiː //
 # text_en = Because now, now they say that we don't have anything.
-# validated_by = B-CARON
 1	dan	don	SCONJ	_	_	5	discourse	_	AlignBegin=617468|AlignEnd=617716|Gloss=because
 2	yâu	yâu	ADV	_	_	5	discourse	_	AlignBegin=617716|AlignEnd=617964|Gloss=today
 3	<	<	PUNCT	_	_	4	punct	_	AlignBegin=617964|AlignEnd=618213|Gloss=PUNCT
@@ -5018,7 +4982,6 @@
 # phonetic_text = tòː kai fa / kanàː cikin baƙiː -n / taːshìː -n
 # text = tòː kai fa < ka nàː cikin baƙin || taːshìn râi //
 # text_en = Well and you, you are sad... angry.
-# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=621250|AlignEnd=621342|Gloss=well
 2	kai	kai	PRON	_	Gender=Masc|Person=2|PronType=Prs	6	dislocated@top	_	AlignBegin=621342|AlignEnd=621434|Gloss=2.Masc.Nom
 3	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=621434|AlignEnd=621526|Gloss=indeed
@@ -5083,7 +5046,6 @@
 # phonetic_text = yànzu kà jeː kà cêː / kai waːnè ɗan bàː ni aroː -n àbù -n nàn / yaː toːnàː makà àsiːr̃iː //
 # text = yànzu kà jeː kà cêː [ kai waːnè ɗan bàː ni aron àbin nàn //] sai kà ji yaː toːnàː makà àsiːr̃iː //
 # text_en = now you go and say eh, you, So and So, lend me this, then you will hear that he has betrayed you.
-# validated_by = B-CARON
 1	yànzu	yànzu	ADV	_	_	2	mod	_	AlignBegin=627546|AlignEnd=627703|Gloss=now
 2	kà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=627703|AlignEnd=627860|Gloss=2Masc.Aor
 3	jeː	jeː	VERB	_	_	2	comp:aux	_	AlignBegin=627860|AlignEnd=628017|Gloss=go
@@ -5125,7 +5087,6 @@
 # phonetic_text = sai yà cêː makà / àbù -n dà yakèː dà shiː / shiː maː gàː shi //
 # text = sai yà cêː makà àbin dà ya kè dà shiː < shiː maː gàː shi //
 # text_en = Then he will tell you, this is all he has.
-# validated_by = B-CARON
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=632845|AlignEnd=632944|Gloss=then
 2	yà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=632944|AlignEnd=633043|Gloss=3Masc.Aor
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=633043|AlignEnd=633142|Gloss=say
@@ -5220,7 +5181,6 @@
 # phonetic_text = kà jeː wuriː -n mài màːtaː wai / kanàː neːmaː -n baːshìː //
 # text = kà jeː wurin mài màːtaː wai kanàː neːman baːshìː !//
 # text_en = Go to a married man and ask for a loan!
-# validated_by = B-CARON
 1	kà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=639895|AlignEnd=640023|Gloss=2Masc.Aor
 2	jeː	jeː	VERB	_	_	1	comp:aux	_	AlignBegin=640023|AlignEnd=640151|Gloss=go
 3	wurin	wuriː	NOUN	_	_	2	comp:obj@G	_	AlignBegin=640151|AlignEnd=640215|Gloss=at|wordform=wuriː
@@ -5433,7 +5393,6 @@
 # phonetic_text = dâː zân cêː &// kai dâː zân cêː / ràkeː anàː shuːkàː shi dà sugàː nèː / /
 # text = dâː zân cêː || kai dâː zân cêː ràkeː anàː shuːkàː shi dà sugàː nèː //
 # text_en = I was going to say... er, I was going to say that they must have planted this sugar cane with sugar.
-# validated_by = B-CARON
 1	dâː	dâː	ADV	_	_	2	mod	_	AlignBegin=665197|AlignEnd=665369|Gloss=formerly
 2	zân	zaːsù	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=665369|AlignEnd=665541|Gloss=1Sing.Fut
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=665541|AlignEnd=665713|Gloss=say
@@ -5483,7 +5442,6 @@
 # phonetic_text = sai kà cêː munàː Màƙàrfiː kai //
 # text = sai kà cêː mu nàː Màƙàrfiː kai //
 # text_en = You could say we were in Makarfi.
-# validated_by = B-CARON
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=671178|AlignEnd=671340|Gloss=must
 2	kà	sù	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=671340|AlignEnd=671502|Gloss=2Masc.Aor
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=671502|AlignEnd=671664|Gloss=say
@@ -5684,7 +5642,6 @@
 # phonetic_text = Màːduguː / shiː ya bâː dà ràkeː nèː /
 # text = Màːduguː / shiː ya baː dà ràkeː nèː /
 # text_en = Madugu, he was giving sugarcane.
-# validated_by = B-CARON
 1	Màːduguː	Màːduguː	PROPN	_	_	3	dislocated@top	_	AlignBegin=691420|AlignEnd=691683|Gloss=Madugu
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=691683|AlignEnd=691946|Gloss=PUNCT
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=691946|AlignEnd=692132|Gloss=3Masc.Nom
@@ -5735,7 +5692,6 @@
 # phonetic_text = tòː ai wânnan saːkar̃ai nèː //
 # text = tòː ai wânnan saːkar̃ai nèː //
 # text_en = He's a fool.
-# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=695785|AlignEnd=695983|Gloss=well
 2	ai	ai	INTJ	_	_	5	discourse	_	AlignBegin=695983|AlignEnd=696181|Gloss=indeed
 3	wânnan	wânnan	PRON	_	Definite=Def|PronType=Dem	5	subj	_	AlignBegin=696181|AlignEnd=696379|Gloss=Def
@@ -5888,7 +5844,6 @@
 # phonetic_text = dukà sunàː wàinaː // dà Tìne mài wàinaː / dà Làːmìnde mài wàinaː //
 # text = dus su nàː wàinaː > dà Tìne mài wàinaː |c dà Làːmìnde mài wàinaː //
 # text_en = They all sell pancakes, both Tine the pancake seller, and Laminde the pancake seller.
-# validated_by = B-CARON
 1	dus	dukà	PRON	_	_	3	dislocated@subj	_	AlignBegin=712388|AlignEnd=712578|Gloss=all
 2	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=712578|AlignEnd=712768|Gloss=3Plur
 3	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=712578|AlignEnd=712768|Gloss=Pred/Loc
@@ -5922,7 +5877,6 @@
 # phonetic_text = àmmaː Làːmìnde -ǹ maː tanàː dàddawaː // baːyan wàinaː -ǹ //
 # text = àmmaː Làːmìndên maː ta nàː dàddawaː baːyan wàinân //
 # text_en = But that Laminde, she is selling locust-bean cakes ("daddawa") in addition to those pancakes ("waina")..
-# validated_by = B-CARON
 1	àmmaː	àmmaː	CCONJ	_	_	5	cc	_	AlignBegin=716863|AlignEnd=717082|Gloss=but
 2	Làːmìndên	Làːmìnde	PROPN	_	_	5	dislocated@subj	_	AlignBegin=717082|AlignEnd=717192|Gloss=Laminde.Def|wordform=Làːmìnde
 3	maː	maː	TopPART	_	_	2	discourse	_	AlignBegin=717301|AlignEnd=717520|Gloss=even
@@ -6078,7 +6032,6 @@
 # phonetic_text = ìnaː ka ganiː tazar̃gàdèː nèː //
 # text = ìnaː ka ga tagar̃gàdai neː //
 # text_en = Where did you see "tagargade"?
-# validated_by = B-CARON
 1	ìnaː	ìnaː	ADV	_	PronType=Int	0	root	_	AlignBegin=738245|AlignEnd=738472|Gloss=where
 2	ka	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=2	1	comp:cleft	_	AlignBegin=738472|AlignEnd=738699|Background=Yes|Gloss=2Masc.Perf.Bkg
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=738699|AlignEnd=738926|Gloss=see
@@ -6959,7 +6912,6 @@
 # phonetic_text = mː // tòː bàː gàː shi ba / dâː waːkeː ai / dâː waːkeː ai / kaː sanìː muː / kalàː ɗaya mukèː dà shiː //
 # text = mː < tòː bàː gàː shi ba < dâː waːkeː ai < dâː waːkeː ai < kaː sanìː muː < kalàː ɗaya mu kè dà shiː //
 # text_en = Mm. Isn't it true now, formerly, beans, formerly, beans, you know, we, we only had one type.
-# validated_by = B-CARON
 1	mː	mː	INTJ	_	_	21	discourse	_	AlignBegin=840041|AlignEnd=840341|Gloss=BKL
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=840341|AlignEnd=840642|Gloss=PUNCT
 3	tòː	tòː	INTJ	_	_	21	discourse	_	AlignBegin=841201|AlignEnd=841325|Gloss=well
@@ -7241,7 +7193,6 @@
 # phonetic_text = èː tòː / ai na yi makà na zaːmàni: kèː nan ai / /
 # text = eː tòː < ai na yi makà na zaːmàni: kèːnan ai !//
 # text_en = Well then, I've called it the modern way for you!
-# validated_by = B-CARON
 1	eː	eː	INTJ	_	_	5	discourse	_	AlignBegin=878080|AlignEnd=878250|Gloss=èː|wordform=èː
 2	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=878250|AlignEnd=878420|Gloss=well
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=878420|AlignEnd=878589|Gloss=PUNCT
@@ -7598,7 +7549,6 @@
 # phonetic_text = mː // hm̌ː // ài sai ruwaː yanàː gab dà faːɗìː / ruwan bazaraː /
 # text = ai sai ruwaː ya nàː gab dà faːɗìː > ruwan bazaraː //
 # text_en = Eh, wait until the rain is about to fall, the hot season rains.
-# validated_by = B-CARON
 1	ai	ai	INTJ	_	_	5	discourse	_	AlignBegin=914173|AlignEnd=914337|Gloss=eh
 2	sai	sai	ADV	_	_	5	mod	_	AlignBegin=914337|AlignEnd=914501|Gloss=only
 3	ruwaː	ruwaː	NOUN	_	_	5	dislocated@subj	_	AlignBegin=914501|AlignEnd=914665|Gloss=water
@@ -8032,7 +7982,6 @@
 # phonetic_text = yanàː nan / dukà dà suː //
 # text = ya nàː nan > dud dà suː //
 # text_en = They are there, all of them.
-# validated_by = B-CARON
 1	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=953935|AlignEnd=954169|Gloss=3Masc
 2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=953935|AlignEnd=954169|Gloss=Pred/Loc
 3	nan	nan	ADV	_	Definite=Def	2	comp:pred	_	AlignBegin=954169|AlignEnd=954403|Gloss=Def
@@ -8062,7 +8011,6 @@
 # phonetic_text = àmmaː wajen dà sukèː dà shiː fa //
 # text = àmmaː wajen dà su kè dà shiː fa !//
 # text_en = But there is a place where they have them.
-# validated_by = B-CARON
 1	àmmaː	àmmaː	CCONJ	_	_	2	discourse	_	AlignBegin=956443|AlignEnd=956627|Gloss=but
 2	wajen	wajen	NOUN	_	Definite=Cons	0	root	_	AlignBegin=956627|AlignEnd=956811|Gloss=place.Cons
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=956811|AlignEnd=956995|Gloss=COMP
@@ -8397,7 +8345,6 @@
 # phonetic_text = tundà yànzu bàː gàː shi ba &// munàː cikin / sanyiː akèː / àmmaː ruwaː / an faːràː wàhalàː -n ruwaː //
 # text = tundà yànzu bàː gàː shi ba mu nàː || cikin sanyiː a kè |c àmmaː ruwaː < an faːrà wàhalàn ruwaː //+
 # text_en = As now here we are... we are in... in the dry season, but water, we have started suffering from lack of water.
-# validated_by = B-CARON
 1	tundà	tundà	SCONJ	_	_	8	discourse	_	AlignBegin=997628|AlignEnd=997801|Gloss=since
 2	yànzu	yànzu	ADV	_	_	8	mod	_	AlignBegin=997801|AlignEnd=997974|Gloss=now
 3	bàː	bàː	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=997974|AlignEnd=998147|Gloss=Neg
@@ -8872,7 +8819,6 @@
 # phonetic_text = tanàː nan // tsaːmiyaː -n Dattì //
 # text = wata tsaːmiyaː < ta nàː nan //
 # text_en = A tamarind, It's there.
-# validated_by = B-CARON
 1	wata	wata	DET	_	Gender=Fem	2	det	_	AlignBegin=1053180|AlignEnd=1053550|Gloss=some.Fem
 2	tsaːmiyaː	tsaːmiyaː	NOUN	_	_	5	dislocated@subj	_	AlignBegin=1053550|AlignEnd=1053920|Gloss=tamarind
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=1053920|AlignEnd=1054290|Gloss=PUNCT
@@ -8946,7 +8892,6 @@
 # phonetic_text = wannàn / mèː takèː dà suːnaː // tunàː mîn //
 # text = wannàn < mèː ta kè dà suːnaː ?//
 # text_en = That one, what's its name?
-# validated_by = B-CARON
 1	wannàn	wannàn	PRON	_	PronType=Dem	3	dislocated@top	_	AlignBegin=1062410|AlignEnd=1062650|Deixis=Prox|Gloss=Prox
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1062650|AlignEnd=106290|Gloss=PUNCT
 3	mèː	mèː	PRON	_	_	0	root	_	AlignBegin=1063220|AlignEnd=106340|Gloss=what
@@ -9007,7 +8952,6 @@
 # sent_timecode = 1070304, 1072019
 # phonetic_text = wandà sukèː / geːfeː -n Àngàna //
 # text_en = Those near Angana.
-# validated_by = B-CARON
 1	wandà	wandà	PRON	_	PronType=Rel	0	root	_	AlignBegin=107030|AlignEnd=1070610|Gloss=who|Overlap=HAUZ_BC_CONV_04_0954-0954
 2	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	3	subj	_	AlignBegin=1070610|AlignEnd=1070910|AttachTo=HAUZ_BC_CONV_04_0954-0954|Background=Yes|Gloss=3Plur|Rel=mod@relcl
 3	kè	nàː/kè.Bkg	AUX	_	_	1	mod@relcl	_	AlignBegin=1070610|AlignEnd=1070910|AttachTo=HAUZ_BC_CONV_04_0954-0954|Background=Yes|Gloss=Pred/Loc.Bkg|Rel=mod@relcl
@@ -9255,7 +9199,6 @@
 # phonetic_text = dukà ya zama gidaː / s- sai wani wuriː nèː /
 # text = duk ya zama gidaː / ssai wani wuriː nèː /
 # text_en = It has all been turned into houses, except for one place.
-# validated_by = B-CARON
 1	duy	dukà	PRON	_	PronType=Tot	2	subj	_	AlignBegin=1096280|AlignEnd=1096510|Gloss=all
 2	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=1096510|AlignEnd=1096740|Background=Yes|Gloss=3Masc.Perf.Bkg
 3	zama	zama	VERB	_	_	2	comp:aux	_	AlignBegin=1096740|AlignEnd=1096960|Gloss=become
@@ -9294,7 +9237,6 @@
 # phonetic_text = à ìnaː shi kèː //
 # text = à ìnaː shi kè ?//
 # text_en = Where is it?
-# validated_by = B-CARON
 1	à	à	ADP	_	_	0	root	_	AlignBegin=1100940|AlignEnd=1101110|Gloss=at
 2	ìnaː	ìnaː	ADV	_	PronType=Int	1	comp:obj	_	AlignBegin=1101110|AlignEnd=1101280|Gloss=where
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=1101450|AlignEnd=1101620|Background=Yes|Gloss=3Masc|wordform=kèː
@@ -9740,7 +9682,6 @@
 # phonetic_text = bàː na yànzu ba / à cikàː matà gishiriː / tà yi r̃uwar̃uwaː / tà yi wannàn //
 # text = bàː na yànzu ba / à cikàː matà gishiriː / tà yi r̃uwa-r̃uwa / tà yi wannàn //
 # text_en = Today's will be full of salt, runny, whatever.
-# validated_by = B-CARON
 1	bàː	bàː	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=1157320|AlignEnd=1157430|Gloss=Neg
 2	na	na~ta	ADP	_	Definite=Cons	6	dislocated@top	_	AlignBegin=1157430|AlignEnd=1157550|Gloss=of
 3	yànzu	yànzu	ADV	_	_	2	comp:obj	_	AlignBegin=1157550|AlignEnd=1157660|Gloss=now
@@ -9941,7 +9882,6 @@
 # phonetic_text = tòː / kaː sanìː kuma / tut tu &// kàmar̃ / maƙwàbtaː -n -mù / tundà kaː ganiː munàː dà maƙwàbtaː / Fulàːniː // Fulàːniː //
 # text = tundà kaː ga mu nàː dà maƙwàbtaː //
 # text_en = Because, you see, we have neighbours...
-# validated_by = B-CARON
 1	tundà	tundà	SCONJ	_	_	5	discourse	_	AlignBegin=1178730|AlignEnd=1178980|Gloss=since
 2	kaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	discourse	_	AlignBegin=1178980|AlignEnd=1179240|Gloss=2Masc.Perf
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=1179240|AlignEnd=1179490|Gloss=see
@@ -10167,7 +10107,6 @@
 # sent_timecode = 1203398, 1209723
 # phonetic_text = bà- Fulàːniː -n Gòmbe ba / koː na dòːmà / wandà sâː nàː gudùː / sunàː yankàː -n naːmàː sunàː cîː //
 # text_en = The Fulanis of Gombe too, or those from Doma whose cows are moving around, they kill an animal and eat it.
-# validated_by = B-CARON
 1	Bàfilàːnin	Bàfilàːnin	PROPN	_	Definite=Cons|Number=Plur	14	dislocated@subj	_	AlignBegin=1203510|AlignEnd=1203620|Gloss=Fulani.Plur.Cons|wordform=Fulàːniː
 2	Gòmbe	Gòmbe	PROPN	_	_	1	mod	_	AlignBegin=1203730|AlignEnd=1204060|Gloss=Gombe
 3	ba	ba	TopPART	_	Polarity=Neg	1	discourse	_	AlignBegin=1204060|AlignEnd=120440|Gloss=indeed
@@ -10478,7 +10417,6 @@
 # phonetic_text = in ka sâː àbinci / kà ɗiːbàː -i mâi -n sâː -uː //
 # text = in ka sâː àbinci < kà ɗèːbi mân shaːnuː //
 # text_en = If you put some food, you would take butter.
-# validated_by = B-CARON
 1	in	in	SCONJ	_	_	6	mod	_	AlignBegin=1247960|AlignEnd=1248110|Gloss=if
 2	ka	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=2	1	comp:obj	_	AlignBegin=1248110|AlignEnd=1248270|Background=Yes|Gloss=2Masc.Perf.Bkg
 3	sâː	sâː	VERB	_	_	2	comp:aux	_	AlignBegin=1248270|AlignEnd=1248420|Gloss=put
@@ -10516,7 +10454,6 @@
 # phonetic_text = kâi àbù -ǹ sai wandà ya ci //
 # text = kâi àbîn sai wandà ya ci //
 # text_en = It's something you had to eat.
-# validated_by = B-CARON
 1	kâi	kâi	INTJ	_	_	4	discourse	_	AlignBegin=1253960|AlignEnd=1254080|Gloss=my
 2	àbîn	àbù	NOUN	_	_	4	dislocated@comp	_	AlignBegin=1254080|AlignEnd=1254140|Gloss=thing.Def|wordform=àbù
 3	sai	sai	ADV	_	_	4	mod	_	AlignBegin=125420|AlignEnd=1254320|Gloss=must
@@ -10532,7 +10469,6 @@
 # phonetic_text = niː dà na tunàː maː yànzu / sai na ji inàː jîː -n cîː -n -shì nèː //
 # text = niː dà na tunàː maː yànzu / sai na ji inàː jîn cînshì neː //
 # text_en = Myself, if I think of it now, I feel as if I am still eating it.
-# validated_by = B-CARON
 1	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	dislocated@subj	_	AlignBegin=1254820|AlignEnd=1254920|Gloss=1Sing.Nom
 2	dà	dà	SCONJ	_	_	9	mod	_	AlignBegin=1254920|AlignEnd=1255030|Gloss=as
 3	na	sukà	AUX	_	Aspect=PerfBkg|Number=Sing|Person=1	2	comp:obj	_	AlignBegin=1255030|AlignEnd=1255140|Background=Yes|Gloss=1Sing.Perf.Bkg
@@ -10578,7 +10514,6 @@
 # phonetic_text = sai dai àbù -ǹ nèː / yànzu kuma yaː yi kuɗiː fa //
 # text = sai dai àbîn neː / yànzu kuma yaː yi kuɗiː fa //
 # text_en = It's only that this thing today, it costs a lot.
-# validated_by = B-CARON
 1	sai	sai	ADV	_	_	8	mod	_	AlignBegin=1258370|AlignEnd=1258510|Gloss=only
 2	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=1258510|AlignEnd=1258640|Gloss=indeed
 3	àbîn	àbù	NOUN	_	_	8	subj	_	AlignBegin=1258640|AlignEnd=1258710|Gloss=thing.Def|wordform=àbù
@@ -10856,7 +10791,6 @@
 # phonetic_text = dukà yandà kakèː cîː -n mâi -n sâː -nuː\H / à wannàn zaːmàniː / bâː yandà zaːʼà yi sanyìː -n ƙàshiː yà shìgaː -eː kà ba //
 # text = duy yandà kakèː cîn mân shaːnuː < à wannàn zaːmàniː < bâː yandà zaːʼà yi sanyìn ƙàshiː yà shìgeː kà ba //
 # text_en = Whenever you are eating butter, nowadays, there is no way you will catch polio.
-# validated_by = B-CARON
 1	duy	dukà	DET	_	_	2	det	_	AlignBegin=1291570|AlignEnd=1291740|Gloss=all
 2	yandà	yandà	ADV	_	PronType=Rel	12	mod	_	AlignBegin=1291740|AlignEnd=1291910|Gloss=how
 3	kakèː	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=2	2	mod@relcl	_	AlignBegin=1291910|AlignEnd=1292080|Background=Yes|Gloss=2Masc.Perf.Bkg
@@ -11217,7 +11151,6 @@
 # phonetic_text = tòː yàːyàː kakèː jîː -n làːbaːr̃ìː -n màːtaː -aː\H -n nàn nèː //
 # text = tòː yàː kakèː jîn làːbaːr̃ìn maːtan nàn neː //
 # text_en = Well, what do you make of the situations of women today?
-# validated_by = B-CARON
 1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=1333790|AlignEnd=1333970|Gloss=well
 2	yàːyàː	yàːyàː	ADV	_	PronType=Int	0	root	_	AlignBegin=1333970|AlignEnd=1334150|Gloss=how
 3	kakèː	kèː/kà	AUX	_	Aspect=ProgBkg|Gender=Masc|Person=2	2	comp:cleft	_	AlignBegin=1334150|AlignEnd=1334330|Background=Yes|Gloss=2Masc.Prog.Bkg
@@ -11303,7 +11236,6 @@
 # phonetic_text = yaːròː -aː\FH -n yànzu / in sun ìsa aureː / à yi masù //
 # text = yâːran yànzu / in sun ìsa aureː / à yi masù //
 # text_en = Today's children, if they have reached the age of marriage, they should be married.
-# validated_by = B-CARON
 1	yâːran	yaːròː	NOUN	_	Definite=Cons|Number=Plur	9	subj	_	AlignBegin=1344680|AlignEnd=1344750|Gloss=child.Plur.Cons|wordform=yaːròː
 2	yànzu	yànzu	ADV	_	_	1	mod	_	AlignBegin=134490|AlignEnd=1345130|Gloss=now
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1345130|AlignEnd=1345350|Gloss=PUNCT
@@ -11357,7 +11289,6 @@
 # phonetic_text = sai an yi boːkòː / kuma / boːkòː yanàː dà daːɗiː /
 # text = sai an yi boːkòː |c kuma < boːkòː ya nàː dà daːɗiː //
 # text_en = They must go to school and shool is nice.
-# validated_by = B-CARON
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=1350170|AlignEnd=1350340|Gloss=must
 2	an	sun	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=1350340|AlignEnd=1350520|Gloss=4.Perf
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=1350520|AlignEnd=135070|Gloss=do
@@ -11379,7 +11310,6 @@
 # phonetic_text = yanàː dà illàː //
 # text = ya nàː dà illàː //
 # text_en = It has disadvantgages.
-# validated_by = B-CARON
 1	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=1354450|AlignEnd=1354620|Gloss=3Masc
 2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=1354450|AlignEnd=1354620|Gloss=Pred/Loc
 3	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=1354620|AlignEnd=1354780|Gloss=with
@@ -11393,7 +11323,6 @@
 # phonetic_text = yanàː dà illàː //
 # text = ya nàː dà illàː //
 # text_en = It has disadvantages.
-# validated_by = B-CARON
 1	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=1355630|AlignEnd=1355830|Gloss=3Masc
 2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=1355630|AlignEnd=1355830|Gloss=Pred/Loc
 3	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=1355830|AlignEnd=1356040|Gloss=with
@@ -11609,7 +11538,6 @@
 # phonetic_text = mazaː -ǹ maː / sun kai wani yanàyiː dà bà zaːsù iyàː juːrèː -wàː ba //
 # text = mazân maː / sun kai wani yanàyiː dà bà zaːsù iyà juːrèːwaː ba //
 # text_en = Men too, they have come to a situation wherer they have no endurance.
-# validated_by = B-CARON
 1	mazân	mazaː	NOUN	_	_	4	dislocated@subj	_	AlignBegin=1379220|AlignEnd=137930|Gloss=man.pl.Def|wordform=mazaː
 2	maː	maː	TopPART	_	_	1	discourse	_	AlignBegin=1379380|AlignEnd=1379550|Gloss=even
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1379550|AlignEnd=1379720|Gloss=PUNCT
@@ -11756,7 +11684,6 @@
 # phonetic_text = kai yànzu / kâː ganiː wânnan yaːrinyàː nèː / sôː -n koːwaː / ƙîː -n wandà ya rasàː //
 # text = kai yànzu < kâː ga wânnan yaːrinyàː nèː < kà cêː baːkà sôː //
 # text_en = Well, now you see that girl, you won't like (her).
-# validated_by = B-CARON
 1	kai	kai	INTJ	_	_	10	discourse	_	AlignBegin=1400160|AlignEnd=1400280|Gloss=my!
 2	yànzu	yànzu	ADV	_	_	10	mod	_	AlignBegin=1400280|AlignEnd=1400390|Gloss=now
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=1400390|AlignEnd=1400510|Gloss=PUNCT
@@ -11868,7 +11795,6 @@
 # phonetic_text = wânnan kawài / à cêː yaːrinyàː -n nan / tanàː ɗaːkìː -n mijìː -n -tà //
 # text = wânnan kawài < à cêː yaːrinyàn nan < ta nàː ɗaːkìn mijìn =tà //
 # text_en = That one, it's as if that girl is married.
-# validated_by = B-CARON
 1	wânnan	wânnan	PRON	_	Definite=Def	4	dislocated@top	_	AlignBegin=1414040|AlignEnd=141420|Gloss=Def
 2	kawài	kawài	ADV	_	_	1	mod	_	AlignBegin=141420|AlignEnd=1414360|Gloss=only
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1414360|AlignEnd=1414520|Gloss=PUNCT
@@ -11922,7 +11848,6 @@
 # phonetic_text = dan àbù -uCaː\HL -ǹ hakà su kèː //
 # text = dan abuːbuwàn hakà su kè //
 # text_en = Because that's the way things are.
-# validated_by = B-CARON
 1	dan	don	SCONJ	_	_	3	discourse	_	AlignBegin=1422310|AlignEnd=1422470|Gloss=because
 2	abuːbuwàn	abuːbuwàː	NOUN	_	Definite=Def|Number=Plur	3	dislocated@top	_	AlignBegin=1422470|AlignEnd=1422520|Gloss=thing.Plur.Def
 3	hakà	hakà	ADV	_	_	0	root	_	AlignBegin=1422630|AlignEnd=1422790|Gloss=like_this
@@ -12600,7 +12525,6 @@
 # phonetic_text = baː kà jîː // kanàː iːhùː / kanàː kâi -n //
 # text = kanàː iːhùː //= ka nàː kân //
 # text_en = You are groaning, you are on it.
-# validated_by = B-CARON
 1	kanàː	nàː/kèː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	0	root	_	AlignBegin=1500060|AlignEnd=1500240|Gloss=2Masc.Prog
 2	iːhùː	iːhùː	NOUN	_	_	1	comp:aux	_	AlignBegin=1500240|AlignEnd=1500430|Gloss=shouting
 3	//=	//=	PUNCT	_	_	5	punct	_	AlignBegin=1500430|AlignEnd=1500610|Gloss=PUNCT
@@ -13024,7 +12948,6 @@
 # phonetic_text = munàː ciki munàː saːraː -n ƙasaː /
 # text = mu nàː ciki munàː saːran ƙasaː //
 # text_en = We were inside, we were digging.
-# validated_by = B-CARON
 1	mu	mu	PRON	_	Number=Plur|Person=1|PronType=Prs	2	subj	_	AlignBegin=1545150|AlignEnd=1545480|Gloss=1Plur
 2	nàː	nàː/kè	AUX	_	_	0	root	_	AlignBegin=1545150|AlignEnd=1545480|Gloss=Pred/Loc
 3	ciki	ciki	ADV	_	_	2	comp:pred	_	AlignBegin=1545480|AlignEnd=1545810|Gloss=inside
@@ -13132,7 +13055,6 @@
 # phonetic_text = kaː tunàː mîn dà wani / wai shiː Ɗaːlìbiː // anàː gyaːraː -n hanyàː irìː -n wannàn nèː //
 # text = anàː gyaːran hanyàː irìn wannàn nèː //
 # text_en = We were repairing a road like this.
-# validated_by = B-CARON
 1	anàː	nàː/kèː	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=1563410|AlignEnd=156360|Gloss=4.Prog
 2	gyaːran	gyaːr-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=156360|AlignEnd=156370|Gloss=repair.Vnoun.Cons|wordform=gyaːraː
 3	hanyàː	hanyàː	NOUN	_	_	2	mod	_	AlignBegin=1563790|AlignEnd=1563980|Gloss=road
@@ -13283,7 +13205,6 @@
 # phonetic_text = mùtûm -aːCeː\HLH sukà taːshì anàː duːbaː -n wàː nèː nèː //
 # text = anàː duːban wàː neː nèː //
 # text_en = They were looking to see who it was.
-# validated_by = B-CARON
 1	anàː	nàː/kèː	AUX	_	Aspect=Prog|Person=4	0	root	_	AlignBegin=1579920|AlignEnd=158010|Gloss=4.Prog
 2	duːban	duːbaː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=158010|AlignEnd=158020|Gloss=look.Vnoun.Cons|wordform=duːbaː
 3	wàː	wàː	PRON	_	PronType=Int	4	comp:pred	_	AlignBegin=1580290|AlignEnd=1580480|Gloss=who
@@ -13356,7 +13277,6 @@
 # phonetic_text = dâː ya yi ƙaryaː nèː / cêː -wàː zâː shi aikìː //
 # text = dâː ya yi ƙaryaː nèː / cêːwaː zâː shi aikìː //
 # text_en = He had lied, when he said he was going to work.
-# validated_by = B-CARON
 1	dâː	dâː	ADV	_	_	2	mod	_	AlignBegin=1588290|AlignEnd=1588450|Gloss=formerly
 2	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=1588450|AlignEnd=1588620|Background=Yes|Gloss=3Masc.Perf.Bkg
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=1588620|AlignEnd=1588780|Gloss=do
@@ -13390,7 +13310,6 @@
 # sent_timecode = 1591100, 1593190
 # text = yaː gàji nèː seː ya tseːrèː //
 # text_en = He was tired, then he escaped.
-# validated_by = B-CARON
 1	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	Gloss=3Masc.Perf
 2	gàji	gàji	VERB	_	_	1	comp:aux	_	Gloss=be_tired
 3	nèː	neː/ceː	AUX	_	_	2	discourse@foc	_	Gloss=Foc/Ident
@@ -13523,7 +13442,6 @@
 # sent_timecode = 1608446, 1610135
 # phonetic_text = wandà Àːmadù ya cêː bâi dà laːfiyàː //
 # text_en = (That's) when Amadu said he was not feeling well.
-# validated_by = B-CARON
 1	wandà	wandà	PRON	_	PronType=Rel	0	root	_	AlignBegin=1608450|AlignEnd=1608660|Gloss=which|Overlap=HAUZ_BC_CONV_04_1437-1439
 2	Àːmadù	Àːmadù	PROPN	_	_	3	subj	_	AlignBegin=1608660|AlignEnd=1608870|Gloss=Amadu
 3	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	mod@relcl	_	AlignBegin=1608870|AlignEnd=1609080|AttachTo=HAUZ_BC_CONV_04_1437-1439|Background=Yes|Gloss=3Masc.Perf.Bkg|Rel=mod@relcl
@@ -13542,7 +13460,6 @@
 # phonetic_text = bâi dà laːfiyàː //
 # text = bâi dà laːfiyàː //
 # text_en = He wasn't feeling well.
-# validated_by = B-CARON
 1-2	bâi	_	_	_	_	_	_	_	_
 1	baː	baː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=1610140|AlignEnd=1610280|Gloss=Pred/Loc.Neg
 2	yà	yà	PRON	_	Gender=Masc|Person=3|PronType=Prs	1	subj	_	AlignBegin=1610140|AlignEnd=1610280|Gloss=3Masc
@@ -13684,7 +13601,6 @@
 # phonetic_text = dâː dà zaːʼà kàrɓaː -i goːnaː / taː kai goːnaː / in an yi tsàːdaː -n -tà / jàkaː / bìyar̃ //
 # text = dâː dà zaːʼà kàrɓi goːnaː < taː kai goːnaː in an yi tsàːdan =tà jàkaː bìyar̃ //
 # text_en = Formerly, when you bought a field, it would be a big field if you paid it five quid.
-# validated_by = B-CARON
 1	dâː	dâː	ADV	_	_	7	mod	_	AlignBegin=1621020|AlignEnd=1621320|Gloss=formerly
 2	dà	dà	SCONJ	_	_	7	mod	_	AlignBegin=1621320|AlignEnd=1621610|Gloss=as
 3	zaːʼà	zaːsù	AUX	_	Number=Sing|Person=4|Tense=Fut	2	comp:obj	_	AlignBegin=1621610|AlignEnd=1621910|Gloss=2Sing.Fut
