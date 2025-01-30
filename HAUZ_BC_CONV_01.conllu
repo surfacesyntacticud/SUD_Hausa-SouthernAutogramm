@@ -64,7 +64,7 @@
 6	akà	sukà	AUX	_	Aspect=PerfBkg|Person=4	5	udep	_	AlignBegin=6940|AlignEnd=7231|Background=Yes|Gloss=4.Perf.Bkg
 7	fi	fi	VERB	_	_	6	comp:aux	_	AlignBegin=7231|AlignEnd=7522|Gloss=exceed
 8	kiràn	kiràː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	7	comp:obj	_	AlignBegin=7522|AlignEnd=7619|Gloss=call.Vnoun.Cons
-9	=tà	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	8	comp@expl	_	AlignBegin=7716|AlignEnd=7813|Gloss=3Fem
+9	=tà	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=7716|AlignEnd=7813|Gloss=3Fem
 10	dà	dà	ADP	_	_	8	comp:obl	_	AlignBegin=7813|AlignEnd=8104|Gloss=with
 11	Mài	Mài	PROPN	_	_	10	comp:obj	_	AlignBegin=8395|AlignEnd=8686|Gloss=Mai
 12	Ƙoːsai	Ƙoːsai	PROPN	_	_	11	flat:name	_	AlignBegin=8686|AlignEnd=8977|Gloss=K'osai
@@ -252,7 +252,7 @@
 7	wandà	wandà	PRON	_	PronType=Rel	1	mod@relcl	_	AlignBegin=29930|AlignEnd=30148|Gloss=who
 8	akèː	kèː/kà	AUX	_	Aspect=ProgBkg|Person=4	7	udep	_	AlignBegin=30148|AlignEnd=30366|Background=Yes|Gloss=4.Prog.Bkg
 9	kiràn	kir-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	8	comp:aux	_	AlignBegin=30366|AlignEnd=30439|Gloss=call.Vnoun.Cons
-10	=tà	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	9	comp@expl	_	AlignBegin=30512|AlignEnd=30584|Gloss=3Fem
+10	=tà	=ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	9	comp:obj	_	AlignBegin=30512|AlignEnd=30584|Gloss=3Fem
 11	dà	dà	ADP	_	_	9	comp:obl	_	AlignBegin=30584|AlignEnd=30802|Gloss=with
 12	R̃aːbi	R̃aːbi	PROPN	_	_	11	comp:obj	_	AlignBegin=30802|AlignEnd=31020|Gloss=Rabi
 13	//	//	PUNCT	_	_	1	punct	_	AlignBegin=31020|AlignEnd=31235|Gloss=PUNCT
@@ -2561,8 +2561,8 @@
 7	kasànceː	kasant-	VERB	_	_	6	comp:aux	_	AlignBegin=304118|AlignEnd=304270|Gloss=become
 8	à	à	ADP	_	_	7	mod	_	AlignBegin=304270|AlignEnd=304422|Gloss=at
 9	yànzu	yànzu	ADV	_	_	8	comp:obj	_	AlignBegin=304422|AlignEnd=304574|Gloss=now
-10	kàman	kàman	ADP	_	_	7	comp:pred	_	AlignBegin=304574|AlignEnd=304726|Gloss=like
-11	mèːneː	mèː	PRON	_	PronType=Int	10	comp:obj	_	AlignBegin=304878|AlignEnd=305030|Gloss=what
+10	kàman	kàman	ADP	_	_	11	discourse	_	AlignBegin=304574|AlignEnd=304726|Gloss=like
+11	mèːneː	mèː	PRON	_	PronType=Int	7	comp:pred	_	AlignBegin=304878|AlignEnd=305030|Gloss=what
 12	kèːnan	neː/ceː	AUX	_	_	11	discourse@foc	_	AlignBegin=305030|AlignEnd=305182|Background=Yes|Gloss=Foc/Ident.Bkg
 13	mìsaːlìː	mìsaːlìː	NOUN	_	_	6	discourse	_	AlignBegin=305334|AlignEnd=305486|Gloss=example
 14	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=305486|AlignEnd=305631|Gloss=PUNCT
@@ -2931,7 +2931,7 @@
 13	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	0	root	_	AlignBegin=365250|AlignEnd=365284|Gloss=2Plur.Hab
 14	sar̃r̃àfaː	sar̃r̃àfaː	VERB	_	_	13	comp:aux	_	AlignBegin=365284|AlignEnd=365318|Gloss=manage
 15	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=365318|AlignEnd=365352|Gloss=3Plur
-16	nèː	neː/ceː	AUX	_	_	15	discourse@foc	_	AlignBegin=365352|AlignEnd=365386|Gloss=Foc/Ident
+16	nèː	neː/ceː	AUX	_	_	14	discourse@foc	_	AlignBegin=365352|AlignEnd=365386|Gloss=Foc/Ident
 17	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=365386|AlignEnd=365420|Gloss=PUNCT
 18	kù	sù	AUX	_	Aspect=Aor|Number=Plur|Person=2	13	conj:coord	_	AlignBegin=366439|AlignEnd=366567|Gloss=2Plur.Aor
 19	fitar̃	fitar̃	VERB	_	_	18	comp:aux	_	AlignBegin=366567|AlignEnd=366695|Gloss=take_out.Cau
@@ -3313,11 +3313,11 @@
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=414643|AlignEnd=414841|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP1_100-100
+# text = tòː yànzu indà kukèː noːman raːnîn < kukàn noːmà kàman mèːneː dà mèːneː > à indà kukèː noːmân //
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 415769, 419430
 # phonetic_text = tòː yànzu indà kukèː noːmaː -n raːniː -ǹ / kukàn noːmàː kàman mèː neː dà mèː neː // à indà kukèː noːmaː -ǹ //
-# text = tòː yànzu indà kukèː noːman raːnîn > kukàn noːmà kàman mèː neː dà mèː neː </ à indà kukèː noːmân //
 # text_en = Well now when you do dry season farming, what do you farm where you farm.
 1	tòː	tòː	INTJ	_	_	8	discourse	_	AlignBegin=415769|AlignEnd=415937|Gloss=well
 2	yànzu	yànzu	ADV	_	_	8	mod	_	AlignBegin=415937|AlignEnd=416105|Gloss=now
@@ -3327,19 +3327,17 @@
 6	raːnîn	raːniː	NOUN	_	Definite=Def	5	compound	_	AlignBegin=416609|AlignEnd=416693|Gloss=dry_season.Def
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=416777|AlignEnd=416945|Gloss=PUNCT
 8	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	0	root	_	AlignBegin=416945|AlignEnd=417113|Gloss=2Plur.Hab
-9	noːmàː	noːm-	VERB	_	_	8	comp:aux	_	AlignBegin=417113|AlignEnd=417281|Gloss=farm
-10	kàman	kàman	ADP	_	_	9	mod	_	AlignBegin=417281|AlignEnd=417449|Gloss=like
-11	mèː	mèː	PRON	_	_	10	comp:obj	_	AlignBegin=417449|AlignEnd=417617|Gloss=what
-12	neː	neː/ceː	AUX	_	_	11	discourse@foc	_	AlignBegin=417617|AlignEnd=417785|Gloss=Foc/Ident
-13	dà	dà	CCONJ	_	_	14	cc	_	AlignBegin=417785|AlignEnd=417953|Gloss=and
-14	mèː	mèː	PRON	_	_	11	conj:coord	_	AlignBegin=417953|AlignEnd=418121|Gloss=what
-15	neː	neː/ceː	AUX	_	_	14	discourse@foc	_	AlignBegin=418121|AlignEnd=418289|Gloss=Foc/Ident
-16	>	>	PUNCT	_	_	17	punct	_	AlignBegin=418289|AlignEnd=418463|Gloss=PUNCT
-17	à	à	ADP	_	_	8	mod	_	AlignBegin=418710|AlignEnd=418854|Gloss=at
-18	indà	indà	ADV	_	_	17	comp:obj	_	AlignBegin=418854|AlignEnd=418998|Gloss=COMP.LOC
-19	kukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=2	18	mod@relcl	_	AlignBegin=418998|AlignEnd=419142|Background=Yes|Gloss=2Plur.Prog.Bkg
-20	noːmân	noːmaː	NOUN	_	_	19	comp:aux	_	AlignBegin=419142|AlignEnd=419214|Gloss=farming
-21	//	//	PUNCT	_	_	8	punct	_	AlignBegin=419286|AlignEnd=419430|Gloss=PUNCT
+9	noːmà	noːm-	VERB	_	_	8	comp:aux	_	AlignBegin=417113|AlignEnd=417281|Gloss=farm
+10	kàman	kàman	ADP	_	_	11	discourse	_	AlignBegin=417281|AlignEnd=417449|Gloss=like
+11	mèːneː	mèːneː	PRON	_	PronType=Int	9	comp:obj	_	Gloss=what
+12	dà	dà	CCONJ	_	_	13	cc	_	AlignBegin=417785|AlignEnd=417953|Gloss=and
+13	mèːneː	mèːneː	PRON	_	PronType=Int	11	conj:coord	_	Gloss=what
+14	>	>	PUNCT	_	_	15	punct	_	AlignBegin=418289|AlignEnd=418463|Gloss=PUNCT
+15	à	à	ADP	_	_	9	mod	_	AlignBegin=418710|AlignEnd=418854|Gloss=at
+16	indà	indà	ADV	_	_	15	comp:obj	_	AlignBegin=418854|AlignEnd=418998|Gloss=COMP.LOC
+17	kukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=2	16	mod@relcl	_	AlignBegin=418998|AlignEnd=419142|Background=Yes|Gloss=2Plur.Prog.Bkg
+18	noːmân	noːmaː	NOUN	_	_	17	comp:aux	_	AlignBegin=419142|AlignEnd=419214|Gloss=farming
+19	//	//	PUNCT	_	_	8	punct	_	AlignBegin=419286|AlignEnd=419430|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_152-152
 # speaker_id = SP2
