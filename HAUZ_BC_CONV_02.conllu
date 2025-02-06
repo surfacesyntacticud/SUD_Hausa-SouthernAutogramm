@@ -524,11 +524,11 @@
 # phonetic_text = noːmaː dà kiːwòː / shiː nèː mùtûm eː //
 # text = noːmaː dà kiːwòː < shiː nèː mùtûm eː !//
 # text_en = Farming and rearing, that's life!
-1	noːmaː	noːm-	VERB	_	ExtPos=NOUN	6	subj	_	AlignBegin=57104|AlignEnd=57248|Gloss=farming
+1	noːmaː	noːm-	VERB	_	ExtPos=NOUN	6	dislocated@subj	_	AlignBegin=57104|AlignEnd=57248|Gloss=farming
 2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=57248|AlignEnd=57392|Gloss=and
 3	kiːwòː	kiːwòː	NOUN	_	_	1	conj:coord	_	AlignBegin=57392|AlignEnd=57536|Gloss=cattle_breeding
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=57536|AlignEnd=57679|Gloss=PUNCT
-5	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=57679|AlignEnd=57834|Gloss=3Masc.Nom
+5	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	comp:pred	_	AlignBegin=57679|AlignEnd=57834|Gloss=3Masc.Nom
 6	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=57834|AlignEnd=57989|Gloss=Ident
 7	mùtûm	mùtûm	NOUN	_	_	6	comp:cleft	_	AlignBegin=57989|AlignEnd=58144|Gloss=person
 8	eː	eː	INTJ	_	_	6	discourse	_	AlignBegin=58144|AlignEnd=58299|Gloss=yes
@@ -1931,7 +1931,7 @@
 # text_en = Since he is the younger brother, the younger brother of this woman.
 1	tundà	tundà	SCONJ	_	_	8	discourse	_	AlignBegin=199282|AlignEnd=199482|Gloss=since
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	subj	_	AlignBegin=199482|AlignEnd=199682|Gloss=3Masc.Nom
-3	ƙanèn	ƙanèː	NOUN	_	Definite=Cons	8	subj	_	AlignBegin=199682|AlignEnd=199782|Gloss=younger_brother.Cons|wordform=ƙanèː
+3	ƙanèn	ƙanèː	NOUN	_	Definite=Cons	8	comp:pred	_	AlignBegin=199682|AlignEnd=199782|Gloss=younger_brother.Cons|wordform=ƙanèː
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=199882|AlignEnd=200082|Gloss=PUNCT
 5	ƙanèn	nèː	NOUN	_	Definite=Cons	3	conj:dicto	_	AlignBegin=200082|AlignEnd=200168|Gloss=younger_brother.Cons|wordform=ƙanèː
 6	àbin	àbù	NOUN	_	Definite=Def	5	mod	_	AlignBegin=200253|AlignEnd=200339|Gloss=thing.Def|wordform=àbù
