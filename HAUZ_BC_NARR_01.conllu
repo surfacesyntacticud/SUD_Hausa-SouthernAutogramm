@@ -120,14 +120,14 @@
 # phonetic_text = zoːmoː / ìnaː nèː hanyàː -n -mù na ràːfiː //
 # text = zoːmoː / ìnaː nèː hanyànmù na ràːfiː ?//
 # text_en = Rabbit, where is the way to the river?
-1	zoːmoː	zoːmoː	NOUN	_	_	3	vocative	_	AlignBegin=21251|AlignEnd=21433|Gloss=Rabbit
-2	ìnaː	ìnaː	ADV	_	PronType=Int	3	subj	_	AlignBegin=21615|AlignEnd=21873|Gloss=where
-3	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=21873|AlignEnd=22131|AttachTo=HAUZ_BC_NARR_01_010-011|Gloss=Ident|Overlap=HAUZ_BC_NARR_01_012-012|Rel=comp:obj
-4	hanyàn	hanyàː	NOUN	_	Definite=Cons	3	comp:cleft	_	AlignBegin=22131|AlignEnd=22217|Gloss=road.Cons|wordform=hanyàː
+1	zoːmoː	zoːmoː	NOUN	_	_	2	vocative	_	AlignBegin=21251|AlignEnd=21433|Gloss=Rabbit
+2	ìnaː	ìnaː	ADV	_	PronType=Int	0	root	_	AlignBegin=21615|AlignEnd=21873|Gloss=where
+3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=21873|AlignEnd=22131|AttachTo=HAUZ_BC_NARR_01_010-011|Gloss=Foc|Overlap=HAUZ_BC_NARR_01_012-012|Rel=comp:obj
+4	hanyàn	hanyàː	NOUN	_	Definite=Cons	2	comp:cleft	_	AlignBegin=22131|AlignEnd=22217|Gloss=road.Cons|wordform=hanyàː
 5	=mù	=mù	PRON	_	Number=Plur|Person=1|PronType=Prs	4	mod:poss	_	AlignBegin=22303|AlignEnd=22389|Gloss=1Plur.Gen
 6	na	na~ta	ADP	_	Definite=Cons	4	mod	_	AlignBegin=22389|AlignEnd=22647|Gloss=of
 7	ràːfiː	ràːfiː	NOUN	_	_	6	comp:obj	_	AlignBegin=22647|AlignEnd=22905|Gloss=river
-8	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=22905|AlignEnd=23165|Gloss=PUNCT
+8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=22905|AlignEnd=23165|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_015-015
 # speaker_id = SP1
@@ -148,14 +148,14 @@
 # phonetic_text = zoːmoː / ìnaː nèː hanyàː -n -mù na ràːfiː /
 # text = zoːmoː / ìnaː nèː hanyànmù na ràːfiː /
 # text_en = Rabbit, where is the way to the river?
-1	zoːmoː	zoːmoː	NOUN	_	_	3	vocative	_	AlignBegin=25550|AlignEnd=25771|Gloss=Rabbit
-2	ìnaː	ìnaː	ADV	_	PronType=Int	3	subj	_	AlignBegin=25992|AlignEnd=26190|Gloss=where
-3	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=26190|AlignEnd=26388|Gloss=Ident
-4	hanyàn	hanyàː	NOUN	_	Definite=Cons	3	comp:cleft	_	AlignBegin=26388|AlignEnd=26454|Gloss=road.Cons|wordform=hanyàː
+1	zoːmoː	zoːmoː	NOUN	_	_	2	vocative	_	AlignBegin=25550|AlignEnd=25771|Gloss=Rabbit
+2	ìnaː	ìnaː	ADV	_	PronType=Int	0	root	_	AlignBegin=25992|AlignEnd=26190|Gloss=where
+3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=26190|AlignEnd=26388|Gloss=Foc
+4	hanyàn	hanyàː	NOUN	_	Definite=Cons	2	comp:cleft	_	AlignBegin=26388|AlignEnd=26454|Gloss=road.Cons|wordform=hanyàː
 5	=mù	=mù	PRON	_	Number=Plur|Person=1|PronType=Prs	4	mod:poss	_	AlignBegin=26520|AlignEnd=26586|Gloss=1Plur.Gen
 6	na	na~ta	ADP	_	Definite=Cons	4	mod	_	AlignBegin=26586|AlignEnd=26784|Gloss=of
 7	ràːfiː	ràːfiː	NOUN	_	_	6	comp:obj	_	AlignBegin=26784|AlignEnd=26982|Gloss=river
-8	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=26982|AlignEnd=27180|Gloss=PUNCT
+8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=26982|AlignEnd=27180|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_018-018
 # speaker_id = SP1
@@ -1879,11 +1879,11 @@
 # text_en = He said Gwanjo, where is Gwanjo?
 1	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=230273|AlignEnd=230370|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=230370|AlignEnd=230467|Gloss=say
-3	gàrin	gàriː	NOUN	_	Definite=Cons	6	dislocated	_	AlignBegin=230565|AlignEnd=230684|Gloss=town.Cons|wordform=gàriː
+3	gàrin	gàriː	NOUN	_	Definite=Cons	5	dislocated	_	AlignBegin=230565|AlignEnd=230684|Gloss=town.Cons|wordform=gàriː
 4	Gwànjoː	Gwànjoː	PROPN	_	_	3	compound	_	AlignBegin=230803|AlignEnd=231041|Gloss=Gwanjo
-5	ìnaː	ìnaː	ADV	_	PronType=Int	6	subj	_	AlignBegin=231279|AlignEnd=231424|Gloss=where
-6	nèː	neː/ceː	AUX	_	_	2	comp:obj	_	AlignBegin=231424|AlignEnd=231569|Gloss=Ident
-7	gàrin	gàriː	NOUN	_	Definite=Cons	6	comp:cleft	_	AlignBegin=231713|AlignEnd=231863|Gloss=town.Cons|wordform=gàriː
+5	ìnaː	ìnaː	ADV	_	PronType=Int	2	root	_	AlignBegin=231279|AlignEnd=231424|Gloss=where
+6	nèː	neː/ceː	FocPART	_	_	5	discourse@foc	_	AlignBegin=231424|AlignEnd=231569|Gloss=Foc
+7	gàrin	gàriː	NOUN	_	Definite=Cons	5	comp:cleft	_	AlignBegin=231713|AlignEnd=231863|Gloss=town.Cons|wordform=gàriː
 8	Gwànjoː	Gwànjoː	PROPN	_	_	7	compound	_	AlignBegin=232013|AlignEnd=232313|Gloss=Gwanjo
 9	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=232313|AlignEnd=232612|Gloss=PUNCT
 

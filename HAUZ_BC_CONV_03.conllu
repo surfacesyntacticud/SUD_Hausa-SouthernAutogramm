@@ -3182,16 +3182,16 @@
 # phonetic_text = shiː nèː ya sâː akà jeː akà kashèː àboːkiː -ǹ /
 # text = shiː nèː ya sâː akà jeː akà kashè àboːkîn /
 # text_en = that's why he sent people to kill the friend.
-1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=391408|AlignEnd=391579|Gloss=3Masc.Nom
-2	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=391579|AlignEnd=391750|Gloss=Ident
-3	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	2	comp:cleft	_	AlignBegin=391750|AlignEnd=391921|Background=Yes|Gloss=3Masc.Perf.Bkg
+1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=391408|AlignEnd=391579|Gloss=3Masc.Nom
+2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=391579|AlignEnd=391750|Gloss=Foc
+3	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	comp:cleft	_	AlignBegin=391750|AlignEnd=391921|Background=Yes|Gloss=3Masc.Perf.Bkg
 4	sâː	sâː	VERB	_	_	3	comp:aux	_	AlignBegin=391921|AlignEnd=392092|Gloss=put
 5	akà	sukà	AUX	_	Aspect=PerfBkg|Person=4	4	comp:obj	_	AlignBegin=392092|AlignEnd=392263|Background=Yes|Gloss=4.Perf.Bkg
 6	jeː	jeː	VERB	_	_	5	comp:aux	_	AlignBegin=392263|AlignEnd=392434|Gloss=go
 7	akà	sukà	AUX	_	Aspect=PerfBkg|Person=4	5	conj:svc	_	AlignBegin=392434|AlignEnd=392605|Background=Yes|Gloss=4.Perf.Bkg
 8	kashè	kas-	VERB	_	_	7	comp:aux	_	AlignBegin=392605|AlignEnd=392776|Gloss=kill
 9	àboːkîn	àboːkiː	NOUN	_	Definite=Def	8	comp:obj	_	AlignBegin=392776|AlignEnd=392862|Gloss=friend.Def|wordform=àboːkiː
-10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=392947|AlignEnd=393114|Gloss=PUNCT
+10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=392947|AlignEnd=393114|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__214
 # speaker_id = SP1
