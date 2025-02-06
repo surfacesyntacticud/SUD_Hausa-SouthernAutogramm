@@ -1295,11 +1295,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 169060, 170000
 # phonetic_text = yàːyàː ya kèː //
-# text = yàːyàː yakè ?//
+# text = yàːyàː ya kè ?//
 # text_en = How is it?
 1	yàːyàː	yàːyàː	ADV	_	_	0	root	_	AlignBegin=169060|AlignEnd=169295|Gloss=how
-2	yakè	nàː/kè.Bkg	AUX	_	Gender=Masc	1	comp:cleft	_	AlignBegin=169295|AlignEnd=169530|Background=Yes|Gloss=Pred/Loc.Bkg
-3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=169765|AlignEnd=170000|Gloss=PUNCT
+2	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=169295|AlignEnd=169530|Gloss=3Sing
+3	kè	kè	AUX	_	Gender=Masc	1	comp:cleft	_	AlignBegin=169295|AlignEnd=169530|Background=Yes|Gloss=Pred/Loc.Bkg
+4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=169765|AlignEnd=170000|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__94
 # speaker_id = SP1
