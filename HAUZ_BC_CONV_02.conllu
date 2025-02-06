@@ -524,12 +524,12 @@
 # phonetic_text = noːmaː dà kiːwòː / shiː nèː mùtûm eː //
 # text = noːmaː dà kiːwòː < shiː nèː mùtûm eː !//
 # text_en = Farming and rearing, that's life!
-1	noːmaː	noːm-	VERB	_	ExtPos=NOUN	6	comp:pred	_	AlignBegin=57104|AlignEnd=57248|Gloss=farming
+1	noːmaː	noːm-	VERB	_	ExtPos=NOUN	6	subj	_	AlignBegin=57104|AlignEnd=57248|Gloss=farming
 2	dà	dà	CCONJ	_	_	3	cc	_	AlignBegin=57248|AlignEnd=57392|Gloss=and
 3	kiːwòː	kiːwòː	NOUN	_	_	1	conj:coord	_	AlignBegin=57392|AlignEnd=57536|Gloss=cattle_breeding
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=57536|AlignEnd=57679|Gloss=PUNCT
 5	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=57679|AlignEnd=57834|Gloss=3Masc.Nom
-6	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=57834|AlignEnd=57989|Gloss=Foc/Ident
+6	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=57834|AlignEnd=57989|Gloss=Ident
 7	mùtûm	mùtûm	NOUN	_	_	6	comp:cleft	_	AlignBegin=57989|AlignEnd=58144|Gloss=person
 8	eː	eː	INTJ	_	_	6	discourse	_	AlignBegin=58144|AlignEnd=58299|Gloss=yes
 9	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=58299|AlignEnd=58455|Gloss=PUNCT
@@ -1063,9 +1063,9 @@
 9	>	>	PUNCT	_	_	10	punct	_	AlignBegin=117597|AlignEnd=117664|Gloss=PUNCT
 10	tundà	tundà	SCONJ	_	_	6	mod	_	AlignBegin=117664|AlignEnd=117802|Gloss=since
 11	bàː	bàː	ADV	_	Polarity=Neg	12	mod	_	AlignBegin=117802|AlignEnd=117940|Gloss=Neg
-12	àmfàːniː	àmfàːniː	NOUN	_	_	14	comp:pred	_	AlignBegin=117940|AlignEnd=118078|Gloss=use
+12	àmfàːniː	àmfàːniː	NOUN	_	_	14	subj	_	AlignBegin=117940|AlignEnd=118078|Gloss=use
 13	ba	ba	ADV	_	Polarity=Neg	12	mod	_	AlignBegin=118078|AlignEnd=118216|Gloss=Neg
-14	nèː	neː/ceː	AUX	_	_	10	comp:obj	_	AlignBegin=118216|AlignEnd=118354|Gloss=Foc/Ident
+14	nèː	neː/ceː	AUX	_	_	10	comp:obj	_	AlignBegin=118216|AlignEnd=118354|Gloss=Ident
 15	wandà	wandà	PRON	_	PronType=Rel	12	mod@relcl	_	AlignBegin=118354|AlignEnd=118492|Gloss=which
 16	mu	mu	PRON	_	Number=Plur|Person=1|PronType=Prs	17	subj	_	AlignBegin=118492|AlignEnd=118630|Background=Yes|Gloss=1Plur
 17	kè	kè	AUX	_	_	15	comp:obj	_	AlignBegin=118492|AlignEnd=118630|Background=Yes|Gloss=Pred/Loc.Bkg
@@ -1864,9 +1864,9 @@
 11	wancàn	wancàː	DET	_	PronType=Dem	12	det	_	AlignBegin=194349|AlignEnd=194677|Deixis=Remt|Gloss=Rmt
 12	kàːkaː	kàːkaː	NOUN	_	_	10	comp:obj	_	AlignBegin=194677|AlignEnd=195005|Gloss=grand-parent
 13	<	<	PUNCT	_	_	8	punct	_	AlignBegin=195005|AlignEnd=195334|Gloss=PUNCT
-14	ƙanèn	ƙanèː	NOUN	_	Definite=Cons	16	comp:pred	_	AlignBegin=195334|AlignEnd=195411|Gloss=younger_brother.Cons|wordform=ƙanèː
+14	ƙanèn	ƙanèː	NOUN	_	Definite=Cons	16	subj	_	AlignBegin=195334|AlignEnd=195411|Gloss=younger_brother.Cons|wordform=ƙanèː
 15	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	14	mod:poss	_	AlignBegin=195488|AlignEnd=195566|Gloss=3Fem.Gen
-16	neː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=195566|AlignEnd=195798|Gloss=Foc/Ident
+16	neː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=195566|AlignEnd=195798|Gloss=Ident
 17	//	//	PUNCT	_	_	16	punct	_	AlignBegin=195798|AlignEnd=196029|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_213-213
@@ -1931,12 +1931,12 @@
 # text_en = Since he is the younger brother, the younger brother of this woman.
 1	tundà	tundà	SCONJ	_	_	8	discourse	_	AlignBegin=199282|AlignEnd=199482|Gloss=since
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	subj	_	AlignBegin=199482|AlignEnd=199682|Gloss=3Masc.Nom
-3	ƙanèn	ƙanèː	NOUN	_	Definite=Cons	8	comp:pred	_	AlignBegin=199682|AlignEnd=199782|Gloss=younger_brother.Cons|wordform=ƙanèː
+3	ƙanèn	ƙanèː	NOUN	_	Definite=Cons	8	subj	_	AlignBegin=199682|AlignEnd=199782|Gloss=younger_brother.Cons|wordform=ƙanèː
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=199882|AlignEnd=200082|Gloss=PUNCT
 5	ƙanèn	nèː	NOUN	_	Definite=Cons	3	conj:dicto	_	AlignBegin=200082|AlignEnd=200168|Gloss=younger_brother.Cons|wordform=ƙanèː
 6	àbin	àbù	NOUN	_	Definite=Def	5	mod	_	AlignBegin=200253|AlignEnd=200339|Gloss=thing.Def|wordform=àbù
 7	nàn	nàn	DET	_	PronType=Dem	6	det	_	AlignBegin=200424|AlignEnd=200595|Deixis=Prox|Gloss=Prox
-8	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=200595|AlignEnd=200766|Gloss=Foc/Ident
+8	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=200595|AlignEnd=200766|Gloss=Ident
 9	kèːnan	neː/kèːnan	FocPART	_	_	8	discourse@foc	_	AlignBegin=200766|AlignEnd=200937|Gloss=Foc
 10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=201108|AlignEnd=201278|Gloss=PUNCT
 

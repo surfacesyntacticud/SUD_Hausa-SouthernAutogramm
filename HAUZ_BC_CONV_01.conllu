@@ -7,10 +7,10 @@
 # text_en = Bashir, where do you live?
 1	Bashìr̃	Bashìr̃	PROPN	_	_	6	vocative	_	AlignBegin=627|AlignEnd=737|Gloss=Bashir
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=737|AlignEnd=846|Gloss=PUNCT
-3	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	6	subj	_	AlignBegin=912|AlignEnd=1082|Gloss=2Masc.Nom
-4	mazàunin	mazàuniː	NOUN	_	Definite=Cons	6	comp:pred	_	AlignBegin=1124|AlignEnd=1166|Gloss=inhabitant.Cons
+3	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=2|PronType=Prs	6	dislocated@subj	_	AlignBegin=912|AlignEnd=1082|Gloss=2Masc.Nom
+4	mazàunin	mazàuniː	NOUN	_	Definite=Cons	6	subj	_	AlignBegin=1124|AlignEnd=1166|Gloss=inhabitant.Cons
 5	ìnaː	ìnaː	ADV	_	PronType=Int	4	mod	_	AlignBegin=1252|AlignEnd=1422|Gloss=where
-6	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=1422|AlignEnd=1592|Gloss=Foc/Ident
+6	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=1422|AlignEnd=1592|Gloss=Ident
 7	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=1592|AlignEnd=1760|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_001-001
@@ -1479,9 +1479,9 @@
 3	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	subj	_	AlignBegin=175927|AlignEnd=176117|Gloss=farm.Vnoun
 4	nèː	neː/ceː	AUX	_	_	1	comp:obj	_	AlignBegin=176117|AlignEnd=176307|Gloss=Ident
 5	<	<	PUNCT	_	_	8	punct	_	AlignBegin=176307|AlignEnd=176497|Gloss=PUNCT
-6	har̃kàn	har̃kàː	NOUN	_	Definite=Cons|ExtPos=NOUN	8	comp:pred	_	AlignBegin=176497|AlignEnd=176592|Gloss=profession.Cons
+6	har̃kàn	har̃kàː	NOUN	_	Definite=Cons|ExtPos=NOUN	8	subj	_	AlignBegin=176497|AlignEnd=176592|Gloss=profession.Cons
 7	noːmaː	noːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	mod	_	AlignBegin=176687|AlignEnd=176877|Gloss=farm.Vnoun
-8	nèː	neː/ceː	AUX	_	_	4	conj:dicto	_	AlignBegin=176877|AlignEnd=177067|Gloss=Foc/Ident
+8	nèː	neː/ceː	AUX	_	_	4	conj:dicto	_	AlignBegin=176877|AlignEnd=177067|Gloss=Ident
 9	<	<	PUNCT	_	_	1	punct	_	AlignBegin=177067|AlignEnd=177257|Gloss=PUNCT
 10	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	11	subj	_	AlignBegin=177257|AlignEnd=177447|Gloss=3Masc|wordform=nàː
 11	nàː	nàː	AUX	_	_	0	root	_	AlignBegin=177257|AlignEnd=177447|Gloss=Pred/Loc
@@ -2766,10 +2766,10 @@
 # text = dòːmin shiː shiː kaɗai nèː >+ ya || ya shuːkà wânnan geːroː //
 # text_en = Because it's him alone who who sowed this millet.
 1	dòːmin	dòːmin	SCONJ	_	_	5	discourse	_	AlignBegin=340151|AlignEnd=340373|Gloss=because
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	comp:pred	_	AlignBegin=340373|AlignEnd=340595|Gloss=3Masc.Nom
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	subj	_	AlignBegin=340373|AlignEnd=340595|Gloss=3Masc.Nom
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	conj:dicto	_	AlignBegin=340595|AlignEnd=340817|Gloss=3Masc.Nom
 4	kaɗai	kaɗai	ADV	_	_	3	mod	_	AlignBegin=340817|AlignEnd=341039|Gloss=only
-5	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=341039|AlignEnd=341261|Gloss=Foc/Ident
+5	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=341039|AlignEnd=341261|Gloss=Ident
 6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=341261|AlignEnd=341483|Gloss=PUNCT
 7	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	5	comp:cleft	_	AlignBegin=341483|AlignEnd=341705|Background=Yes|Gloss=3Masc.Perf.Bkg
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=341705|AlignEnd=341927|Gloss=PUNCT
@@ -2787,10 +2787,10 @@
 # text = kuma shiː shiː kaɗai nèː loː~ &//
 # text_en = Because it's him alone..
 1	kuma	kuma	TopPART	_	_	5	discourse	_	AlignBegin=343256|AlignEnd=343403|Gloss=also
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	comp:pred	_	AlignBegin=343403|AlignEnd=343550|Gloss=3Masc.Nom
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	subj	_	AlignBegin=343403|AlignEnd=343550|Gloss=3Masc.Nom
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	conj:appos	_	AlignBegin=343550|AlignEnd=343697|Gloss=3Masc.Nom
 4	kaɗai	kaɗai	ADV	_	_	3	mod	_	AlignBegin=343697|AlignEnd=343844|Gloss=only
-5	nèː	neː/ceː	AUX	_	_	0	root@scrap	_	AlignBegin=343844|AlignEnd=343991|Gloss=Foc/Ident
+5	nèː	neː/ceː	AUX	_	_	0	root@scrap	_	AlignBegin=343844|AlignEnd=343991|Gloss=Ident
 6	loː~	loː~	X	_	_	5	comp:cleft	_	AlignBegin=343991|AlignEnd=344138|Gloss=X
 7	&//	&//	PUNCT	_	_	5	punct	_	AlignBegin=343991|AlignEnd=344138|Gloss=loː
 
@@ -3270,9 +3270,9 @@
 4	na	na~ta	ADP	_	Definite=Cons	3	mod	_	AlignBegin=409745|AlignEnd=409915|Gloss=of
 5	raːniː	raːniː	NOUN	_	_	4	comp:obj	_	AlignBegin=409915|AlignEnd=410085|Gloss=dry_season
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=410085|AlignEnd=410255|Gloss=PUNCT
-7	dà	dà	ADP	_	_	9	comp:pred	_	AlignBegin=410255|AlignEnd=410425|Gloss=with
+7	dà	dà	ADP	_	_	9	subj	_	AlignBegin=410255|AlignEnd=410425|Gloss=with
 8	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=410425|AlignEnd=410595|Gloss=3Masc.Nom
-9	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=410595|AlignEnd=410765|Gloss=Foc/Ident
+9	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=410595|AlignEnd=410765|Gloss=Ident
 10	mukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=1	9	comp:cleft	_	AlignBegin=410765|AlignEnd=410935|Background=Yes|Gloss=1Plur.Prog.Bkg
 11	saːmùː	saːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	10	comp:aux	_	AlignBegin=410935|AlignEnd=411105|Gloss=get.Vnoun
 12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=411105|AlignEnd=411275|Gloss=PUNCT
@@ -3849,9 +3849,9 @@
 4	wânnan	wânnan	DET	_	Definite=Def	5	det	_	AlignBegin=485092|AlignEnd=485287|Gloss=Def
 5	Bàːsân	Bàːsa	PROPN	_	Definite=Def	3	conj:appos	_	AlignBegin=485287|AlignEnd=485385|Gloss=Basa.Def
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=485482|AlignEnd=485677|Gloss=PUNCT
-7	ta	ta	ADP	_	_	9	comp:pred	_	AlignBegin=485677|AlignEnd=485872|Gloss=via
+7	ta	ta	ADP	_	_	9	subj	_	AlignBegin=485677|AlignEnd=485872|Gloss=via
 8	nan	nan	ADV	_	Definite=Def	7	comp:obj	_	AlignBegin=485872|AlignEnd=486067|Gloss=Def
-9	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=486067|AlignEnd=486262|Gloss=Foc/Ident
+9	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=486067|AlignEnd=486262|Gloss=Ident
 10	akà	sukà	AUX	_	Aspect=PerfBkg|Person=4	9	comp:cleft	_	AlignBegin=486262|AlignEnd=486457|Background=Yes|Gloss=4.Perf.Bkg
 11	saːmoː	saːmoː	VERB	_	_	10	comp:aux	_	AlignBegin=486457|AlignEnd=486652|Gloss=get.DIR
 12	Basaːwa	Basaːwa	PROPN	_	_	11	comp:obj	_	AlignBegin=486652|AlignEnd=486847|Gloss=Basawa
@@ -4296,9 +4296,9 @@
 3	wânnan	wânnan	DET	_	Definite=Def	4	det	_	AlignBegin=542417|AlignEnd=542622|Gloss=Def
 4	ruwaː	ruwaː	NOUN	_	_	8	dislocated	_	AlignBegin=542622|AlignEnd=542827|Gloss=water
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=542827|AlignEnd=543034|Gloss=PUNCT
-6	dà	dà	ADP	_	_	8	comp:pred	_	AlignBegin=543034|AlignEnd=543190|Gloss=with
+6	dà	dà	ADP	_	_	8	subj	_	AlignBegin=543034|AlignEnd=543190|Gloss=with
 7	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=543190|AlignEnd=543346|Gloss=3Masc.Nom
-8	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=543346|AlignEnd=543502|Gloss=Foc/Ident
+8	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=543346|AlignEnd=543502|Gloss=Ident
 9	mukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Number=Plur|Person=1	8	comp:cleft	_	AlignBegin=543502|AlignEnd=543658|Background=Yes|Gloss=1Plur.Prog.Bkg
 10	àmfàːniː	àmfàːniː	NOUN	_	_	9	comp:aux	_	AlignBegin=543658|AlignEnd=543814|Gloss=using
 11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=543814|AlignEnd=543967|Gloss=PUNCT
