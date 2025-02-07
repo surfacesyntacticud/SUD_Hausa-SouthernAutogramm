@@ -1019,9 +1019,9 @@
 # text = su soːjoːjîn kèːnan //
 # text_en = Those soldiers!
 1	su	su	DET	_	Number=Plur	2	det	_	AlignBegin=133071|AlignEnd=133241|Gloss=Plur
-2	soːjoːjîn	soːjà	NOUN	_	Number=Plur	3	subj	_	AlignBegin=133241|AlignEnd=133298|Gloss=soldier.Plur
-3	kèːnan	kèːnan	IdPART	_	_	0	root	_	AlignBegin=133411|AlignEnd=133581|Background=Yes|Gloss=be.Emp
-4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=133751|AlignEnd=133920|Gloss=PUNCT
+2	soːjoːjîn	soːjà	NOUN	_	Number=Plur	0	root	_	AlignBegin=133241|AlignEnd=133298|Gloss=soldier.Plur
+3	kèːnan	kèːnan	IdPART	_	_	2	cop	_	AlignBegin=133411|AlignEnd=133581|Background=Yes|Gloss=be.Emp
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=133751|AlignEnd=133920|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_044-044_split1
 # speaker_id = SP2
@@ -1041,14 +1041,14 @@
 # text = su soːjoːjîn < loːkàcin dà sukà zoː kèːnan //
 # text_en = They the soldiers, that was the time when they arrived.
 1	su	su	DET	_	Number=Plur	2	det	_	AlignBegin=134190|AlignEnd=134258|Gloss=Plur
-2	soːjoːjîn	soːjà	NOUN	_	Definite=Def|Number=Plur	8	dislocated	_	AlignBegin=134258|AlignEnd=134325|Gloss=soldier.Plur.Def
+2	soːjoːjîn	soːjà	NOUN	_	Definite=Def|Number=Plur	4	dislocated	_	AlignBegin=134258|AlignEnd=134325|Gloss=soldier.Plur.Def
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=134415|AlignEnd=134460|Gloss=PUNCT
-4	loːkàcin	loːkàciː	NOUN	_	Definite=Cons	8	subj	_	AlignBegin=134595|AlignEnd=134663|Gloss=time.Cons
+4	loːkàcin	loːkàciː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=134595|AlignEnd=134663|Gloss=time.Cons
 5	dà	dà	SCONJ	_	_	4	mod@relcl	_	AlignBegin=134730|AlignEnd=134865|Gloss=COMP
 6	sukà	sukà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	5	comp:obj	_	AlignBegin=134865|AlignEnd=135000|Background=Yes|Gloss=3Plur.Perf.Bkg
 7	zoː	zoː	VERB	_	_	6	comp:aux	_	AlignBegin=135000|AlignEnd=135135|Gloss=come
-8	kèːnan	kèːnan	IdPART	_	_	0	root	_	AlignBegin=135135|AlignEnd=135270|Background=Yes|Gloss=be.Emp
-9	//	//	PUNCT	_	_	8	punct	_	AlignBegin=135405|AlignEnd=135537|Gloss=PUNCT
+8	kèːnan	kèːnan	IdPART	_	_	4	cop	_	AlignBegin=135135|AlignEnd=135270|Background=Yes|Gloss=be.Emp
+9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=135405|AlignEnd=135537|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_045-045
 # speaker_id = SP2
@@ -1233,15 +1233,15 @@
 # phonetic_text = kìːmaːnìː -n shèːkaràː -u -n -tà / biyu kèː nan dà ràsu -waː //
 # text = kìːmaːnìn shèːkàruːrun =tà < biyu kèːnan dà ràsuwaː //
 # text_en = The number of years since she's been dead is two.
-1	kìːmaːnìn	kìːmaːnìː	NOUN	_	Definite=Cons	6	dislocated@subj	_	AlignBegin=152542|AlignEnd=152666|Gloss=sum.Cons
+1	kìːmaːnìn	kìːmaːnìː	NOUN	_	Definite=Cons	5	dislocated@subj	_	AlignBegin=152542|AlignEnd=152666|Gloss=sum.Cons
 2	shèːkàruːrun	shèːkaràː	NOUN	_	Definite=Cons|Number=Plur	1	mod	_	AlignBegin=152791|AlignEnd=152853|Gloss=year.Plur.Cons
 3	=tà	=tà	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	mod:poss	_	AlignBegin=152977|AlignEnd=153040|Gloss=3Fem.Gen
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=153040|AlignEnd=153289|Gloss=PUNCT
-5	biyu	biyu	NUM	_	_	6	subj	_	AlignBegin=153289|AlignEnd=153538|Gloss=two
-6	kèːnan	kèːnan	IdPART	_	_	0	root	_	AlignBegin=153538|AlignEnd=153787|Background=Yes|Gloss=be.Emp
-7	dà	dà	ADP	_	_	6	comp:cleft	_	AlignBegin=154036|AlignEnd=154285|Gloss=with
+5	biyu	biyu	NUM	_	_	0	root	_	AlignBegin=153289|AlignEnd=153538|Gloss=two
+6	kèːnan	kèːnan	IdPART	_	_	5	cop	_	AlignBegin=153538|AlignEnd=153787|Background=Yes|Gloss=be.Emp
+7	dà	dà	ADP	_	_	5	comp:cleft	_	AlignBegin=154036|AlignEnd=154285|Gloss=with
 8	ràsuwaː	ras-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:obj	_	AlignBegin=154285|AlignEnd=154409|Gloss=die.Vnoun
-9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=154534|AlignEnd=154779|Gloss=PUNCT
+9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=154534|AlignEnd=154779|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP1_020-020
 # speaker_id = SP1
@@ -1250,9 +1250,9 @@
 # phonetic_text = yànzu kèːnan ?//
 # text = yànzu kèːnan ?//
 # text_en = From now ?
-1	yànzu	yànzu	ADV	_	_	2	subj	_	AlignBegin=154892|AlignEnd=155034|Gloss=now
-2	kèːnan	kèːnan	IdPART	_	_	0	root	_	AlignBegin=155034|AlignEnd=155176|Background=Yes|Gloss=be.Emp|PartType=Int
-3	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=155318|AlignEnd=155459|Gloss=PUNCT
+1	yànzu	yànzu	ADV	_	_	0	root	_	AlignBegin=154892|AlignEnd=155034|Gloss=now
+2	kèːnan	kèːnan	IdPART	_	_	1	cop	_	AlignBegin=155034|AlignEnd=155176|Background=Yes|Gloss=be.Emp|PartType=Int
+3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=155318|AlignEnd=155459|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_054-054
 # speaker_id = SP2
