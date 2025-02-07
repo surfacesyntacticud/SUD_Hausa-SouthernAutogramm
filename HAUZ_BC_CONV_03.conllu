@@ -375,7 +375,7 @@
 # text = weekend neː fa //
 # text_en = But it's the week-end!
 1	weekend	weekend	NOUN	_	Foreign=Yes	2	subj	_	AlignBegin=45380|AlignEnd=45579|Gloss=weekend|Lang=en
-2	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=45579|AlignEnd=45778|Gloss=Ident
+2	nèː	neː/ceː	IdPART	_	_	0	root	_	AlignBegin=45579|AlignEnd=45778|Gloss=be
 3	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=45778|AlignEnd=45977|Gloss=indeed
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=45977|AlignEnd=46177|Gloss=PUNCT
 
@@ -723,7 +723,7 @@
 # text_en = What's going on?
 1	sai	sai	ADV	_	_	3	mod	_	AlignBegin=93100|AlignEnd=93231|Gloss=then
 2	mèː	mèː	PRON	_	_	3	subj	_	AlignBegin=93231|AlignEnd=93362|Gloss=what
-3	neː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=93362|AlignEnd=93493|Gloss=Ident
+3	neː	neː/ceː	IdPART	_	_	0	root	_	AlignBegin=93362|AlignEnd=93493|Gloss=be
 4	kuma	kuma	TopPART	_	_	3	discourse	_	AlignBegin=93493|AlignEnd=93624|Gloss=too
 5	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=93624|AlignEnd=93753|Gloss=PUNCT
 
@@ -989,12 +989,12 @@
 # phonetic_text = dukà na kâi -n wànnan nèː /
 # text = duk na kân wànnan nèː /
 # text_en = It's all because of that.
-1	dun	dukà	PRON	_	PronType=Tot	5	subj	_	AlignBegin=127201|AlignEnd=127389|Gloss=all
-2	na	na~ta	ADP	_	Definite=Cons	5	comp:pred	_	AlignBegin=127389|AlignEnd=127577|Gloss=of
+1	dun	dukà	PRON	_	PronType=Tot	2	subj	_	AlignBegin=127201|AlignEnd=127389|Gloss=all
+2	na	na~ta	ADP	_	Definite=Cons	0	root	_	AlignBegin=127389|AlignEnd=127577|Gloss=of
 3	kân	kân	ADP	_	_	2	comp:obj	_	AlignBegin=127577|AlignEnd=127671|Gloss=top|wordform=kâi
 4	wànnan	wànnan	PRON	_	Definite=Def	3	comp:obj	_	AlignBegin=127765|AlignEnd=127953|Gloss=Def
-5	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=127953|AlignEnd=128141|Gloss=Ident
-6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=128141|AlignEnd=128330|Gloss=PUNCT
+5	nèː	neː/ceː	IdPART	_	_	2	cop	_	AlignBegin=127953|AlignEnd=128141|Gloss=be
+6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=128141|AlignEnd=128330|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__71
 # speaker_id = SP2
@@ -1041,10 +1041,10 @@
 # phonetic_text = doːlè nèː sàːfaː -ǹ // in na jeː zân ròːƙaː -eː shi yà yi hàƙuriː //
 # text = doːlè nèː sàːfân ?//
 # text_en = Are socks compulsory?
-1	doːlè	doːlè	ADV	_	_	2	comp:pred	_	AlignBegin=130776|AlignEnd=130969|Gloss=must
-2	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=130969|AlignEnd=131162|Gloss=Ident
-3	sàːfân	sàːfaː	NOUN	_	Definite=Def	2	dislocated@subj	_	AlignBegin=131162|AlignEnd=131258|Gloss=socks.Def|wordform=sàːfaː
-4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=131355|AlignEnd=131548|Gloss=PUNCT
+1	doːlè	doːlè	ADV	_	_	0	root	_	AlignBegin=130776|AlignEnd=130969|Gloss=must
+2	nèː	neː/ceː	IdPART	_	_	1	cop	_	AlignBegin=130969|AlignEnd=131162|Gloss=be
+3	sàːfân	sàːfaː	NOUN	_	Definite=Def	1	dislocated@subj	_	AlignBegin=131162|AlignEnd=131258|Gloss=socks.Def|wordform=sàːfaː
+4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=131355|AlignEnd=131548|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__74_split2
 # speaker_id = SP1
@@ -1484,7 +1484,7 @@
 # text = shiː nèː ya hàɗu dà wasu muːgàːyen mutàːneː //
 # text_en = Then he met bad people.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=188113|AlignEnd=188357|Gloss=3Masc.Nom
-2	nèː	neː/ceː	AUX	_	_	3	mod	_	AlignBegin=188357|AlignEnd=188601|Gloss=Ident
+2	nèː	neː/ceː	IdPART	_	_	3	mod	_	AlignBegin=188357|AlignEnd=188601|Gloss=be
 3	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=188601|AlignEnd=188845|Background=Yes|Gloss=3Masc.Perf.Bkg
 4	hàɗu	haɗ-	VERB	_	_	3	comp:aux	_	AlignBegin=188845|AlignEnd=189089|Gloss=gather
 5	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=189089|AlignEnd=189333|Gloss=with
@@ -1542,7 +1542,7 @@
 # text = shiː nèː dà &//
 # text_en = That's why..
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=196012|AlignEnd=196203|Gloss=3Masc.Nom
-2	nèː	neː/ceː	AUX	_	_	0	root@scrap	_	AlignBegin=196203|AlignEnd=196394|Gloss=Ident
+2	nèː	neː/ceː	IdPART	_	_	0	root@scrap	_	AlignBegin=196203|AlignEnd=196394|Gloss=be
 3	dà	dà	ADP	_	_	2	unk@scrap	_	AlignBegin=196394|AlignEnd=196585|Gloss=with
 4	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=196585|AlignEnd=196776|Gloss=PUNCT
 
@@ -1807,7 +1807,7 @@
 # text = shiː nèː ta jeː kaːwoː masù àbinci //
 # text_en = Then she went to take food to them.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=227013|AlignEnd=227217|Gloss=3Masc.Nom
-2	nèː	neː/ceː	AUX	_	_	3	mod	_	AlignBegin=227217|AlignEnd=227421|Gloss=Ident
+2	nèː	neː/ceː	IdPART	_	_	3	mod	_	AlignBegin=227217|AlignEnd=227421|Gloss=be
 3	ta	sukà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=227421|AlignEnd=227625|Background=Yes|Gloss=3Fem.Perf.Bkg
 4	jeː	jeː	VERB	_	_	3	comp:aux	_	AlignBegin=227625|AlignEnd=227829|Gloss=go
 5	kaːwoː	kaːwoː	VERB	_	_	4	compound:svc	_	AlignBegin=227829|AlignEnd=228033|Gloss=carry.DIR
@@ -1884,7 +1884,7 @@
 # text = shiː nèː wata mùmmuːnaː ta zoː //
 # text_en = Then something ugly happened.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=236156|AlignEnd=236345|Gloss=3Masc.Nom
-2	nèː	neː/ceː	AUX	_	_	5	discourse	_	AlignBegin=236345|AlignEnd=236534|Gloss=Ident
+2	nèː	neː/ceː	IdPART	_	_	5	discourse	_	AlignBegin=236345|AlignEnd=236534|Gloss=be
 3	wata	wata	DET	_	Gender=Fem	4	det	_	AlignBegin=236534|AlignEnd=236723|Gloss=some.Fem
 4	mùmmuːnaː	mùmmuːnaː	NOUN	_	_	5	subj	_	AlignBegin=236723|AlignEnd=236912|Gloss=ugly
 5	ta	sukà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=236912|AlignEnd=237101|Background=Yes|Gloss=3Fem.Perf.Bkg
@@ -1955,7 +1955,7 @@
 # text = shiː nèː ta jeː ta faɗàː mà sarkîn wai gàː shi wai yaːrinyàn |c tanàː kai mishì < tà kai mà su Èmeːka àbinci //
 # text_en = Then she went to tell the chief well, here she is, she is bringing him (food) and she wants to take (some) to Emeka.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=243596|AlignEnd=243729|Gloss=3Masc.Nom
-2	nèː	neː/ceː	AUX	_	_	3	mod	_	AlignBegin=243729|AlignEnd=243862|Gloss=Ident
+2	nèː	neː/ceː	IdPART	_	_	3	mod	_	AlignBegin=243729|AlignEnd=243862|Gloss=be
 3	ta	sukà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	0	root	_	AlignBegin=243862|AlignEnd=243995|Background=Yes|Gloss=3Fem.Perf.Bkg
 4	jeː	jeː	VERB	_	_	3	comp:aux	_	AlignBegin=243995|AlignEnd=244128|Gloss=go
 5	ta	sukà	AUX	_	Aspect=PerfBkg|Gender=Fem|Person=3	3	conj:svc	_	AlignBegin=244128|AlignEnd=244261|Background=Yes|Gloss=3Fem.Perf.Bkg
@@ -2165,7 +2165,7 @@
 # text_en = Well she was preparing some... orange juice in the room.
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=274100|AlignEnd=274306|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=274306|AlignEnd=274512|Gloss=3Masc.Nom
-3	nèː	neː/ceː	AUX	_	_	4	mod	_	AlignBegin=274512|AlignEnd=274718|Gloss=Ident
+3	nèː	neː/ceː	IdPART	_	_	4	mod	_	AlignBegin=274512|AlignEnd=274718|Gloss=be
 4	tanàː	nàː/kèː	AUX	_	Aspect=Prog|Gender=Fem|Person=3	0	root	_	AlignBegin=274718|AlignEnd=274924|Gloss=3Fem.Prog
 5	haɗàː	haɗàː	VERB	_	_	4	comp:aux	_	AlignBegin=274924|AlignEnd=275130|Gloss=join
 6	orange	orange	NOUN	_	Foreign=Yes	5	comp:obj	_	AlignBegin=275876|AlignEnd=276136|Gloss=orange|Lang=en
@@ -2322,7 +2322,7 @@
 4	<	<	PUNCT	_	_	7	punct	_	AlignBegin=290631|AlignEnd=290825|Gloss=PUNCT
 5	tòː	tòː	INTJ	_	_	7	discourse	_	AlignBegin=291520|AlignEnd=291701|Gloss=well
 6	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	subj	_	AlignBegin=291701|AlignEnd=291882|Gloss=3Masc.Nom
-7	nèː	neː/ceː	AUX	_	_	0	root@scrap	_	AlignBegin=291882|AlignEnd=292063|Gloss=Ident
+7	nèː	neː/ceː	IdPART	_	_	0	root@scrap	_	AlignBegin=291882|AlignEnd=292063|Gloss=be
 8	&//	&//	PUNCT	_	_	7	punct	_	AlignBegin=292063|AlignEnd=292243|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__160
@@ -2400,7 +2400,7 @@
 # text_en = OK.
 1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=301455|AlignEnd=301605|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=301605|AlignEnd=301755|Gloss=3Masc.Nom
-3	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=301755|AlignEnd=301905|Gloss=Ident
+3	nèː	neː/ceː	IdPART	_	_	0	root	_	AlignBegin=301755|AlignEnd=301905|Gloss=be
 4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=301905|AlignEnd=302055|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__165
@@ -2472,7 +2472,7 @@
 # text_en = Well, that's it.
 1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=308481|AlignEnd=308631|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=308631|AlignEnd=308781|Gloss=3Masc.Nom
-3	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=308781|AlignEnd=308931|Gloss=Ident
+3	nèː	neː/ceː	IdPART	_	_	0	root	_	AlignBegin=308781|AlignEnd=308931|Gloss=be
 4	fa	fa	TopPART	_	_	3	discourse	_	AlignBegin=308931|AlignEnd=309081|Gloss=indeed
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=309081|AlignEnd=309229|Gloss=PUNCT
 
@@ -2531,7 +2531,7 @@
 # text = shiː nèː akà kiraː matà police / sai ta gudù //
 # text_en = Then they called the police for her, then she ran away.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=314956|AlignEnd=315149|Gloss=3Masc.Nom
-2	nèː	neː/ceː	AUX	_	_	3	mod	_	AlignBegin=315149|AlignEnd=315342|Gloss=Ident
+2	nèː	neː/ceː	IdPART	_	_	3	mod	_	AlignBegin=315149|AlignEnd=315342|Gloss=be
 3	akà	sukà	AUX	_	Aspect=PerfBkg|Person=4	0	root	_	AlignBegin=315342|AlignEnd=315535|Background=Yes|Gloss=4.Perf.Bkg
 4	kiraː	kiraː	VERB	_	_	3	comp:aux	_	AlignBegin=315535|AlignEnd=315728|Gloss=call
 5	matà	matà	PRON	_	Case=Dat|Gender=Fem|Person=3|PronType=Prs	4	comp:obl@R	_	AlignBegin=315728|AlignEnd=315921|Gloss=3Fem.Dat
@@ -2639,12 +2639,12 @@
 # phonetic_text = kin sanìː ita bàːƙuwaː cèː //
 # text = kin san ita bàːƙuwaː cèː //
 # text_en = You know, she was a stranger.
-1	kin	sun	AUX	_	Aspect=Perf|Gender=Fem|Person=2	5	discourse	_	AlignBegin=325965|AlignEnd=326160|Gloss=2Fem.Perf
+1	kin	sun	AUX	_	Aspect=Perf|Gender=Fem|Person=2	4	discourse	_	AlignBegin=325965|AlignEnd=326160|Gloss=2Fem.Perf
 2	sanìː	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=326160|AlignEnd=326355|Gloss=know
-3	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	5	subj	_	AlignBegin=326355|AlignEnd=326550|Gloss=3Fem.Nom
-4	bàːƙuwaː	bàːƙuwaː	NOUN	_	Gender=Fem	5	comp:pred	_	AlignBegin=326550|AlignEnd=326745|Gloss=stranger.Fem
-5	cèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=326745|AlignEnd=326940|Gloss=Ident
-6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=326940|AlignEnd=327136|Gloss=PUNCT
+3	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	4	subj	_	AlignBegin=326355|AlignEnd=326550|Gloss=3Fem.Nom
+4	bàːƙuwaː	bàːƙuwaː	NOUN	_	Gender=Fem	0	root	_	AlignBegin=326550|AlignEnd=326745|Gloss=stranger.Fem
+5	cèː	neː/ceː	IdPART	_	_	4	cop	_	AlignBegin=326745|AlignEnd=326940|Gloss=be
+6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=326940|AlignEnd=327136|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__182
 # speaker_id = SP2
@@ -2764,7 +2764,7 @@
 # text_en = Well that's it.
 1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=339470|AlignEnd=339614|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=339614|AlignEnd=339758|Gloss=3Masc.Nom
-3	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=339758|AlignEnd=339902|Gloss=Ident
+3	nèː	neː/ceː	IdPART	_	_	0	root	_	AlignBegin=339758|AlignEnd=339902|Gloss=be
 4	fa	fa	TopPART	_	_	3	discourse	_	AlignBegin=339902|AlignEnd=340046|Gloss=indeed
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=340046|AlignEnd=340191|Gloss=PUNCT
 
@@ -2847,7 +2847,7 @@
 4	gidan	gidaː	NOUN	_	Definite=Cons	7	subj	_	AlignBegin=350464|AlignEnd=350522|Gloss=house.Cons|wordform=gidaː
 5	=shì	=shì	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	mod:poss	_	AlignBegin=350580|AlignEnd=350637|Gloss=3Masc.Gen
 6	ba	ba	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=350637|AlignEnd=350810|Gloss=Neg
-7	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=350810|AlignEnd=350983|Gloss=Ident
+7	nèː	neː/ceː	IdPART	_	_	0	root	_	AlignBegin=350810|AlignEnd=350983|Gloss=be
 8	yànzu	yànzu	ADV	_	_	7	mod	_	AlignBegin=350983|AlignEnd=351156|Gloss=now
 9	//	//	PUNCT	_	_	7	punct	_	AlignBegin=351156|AlignEnd=351329|Gloss=PUNCT
 
@@ -2893,7 +2893,7 @@
 # text = shiː nèː ya bar̃̃ gidân //
 # text_en = Then he left the house.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=355591|AlignEnd=355745|Gloss=3Masc.Nom
-2	nèː	neː/ceː	AUX	_	_	3	mod	_	AlignBegin=355745|AlignEnd=355899|Gloss=Ident
+2	nèː	neː/ceː	IdPART	_	_	3	mod	_	AlignBegin=355745|AlignEnd=355899|Gloss=be
 3	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=355899|AlignEnd=356053|Background=Yes|Gloss=3Masc.Perf.Bkg
 4	bar̃	barìː	VERB	_	_	3	comp:aux	_	AlignBegin=356053|AlignEnd=356207|Gloss=leave
 5	gidân	gidaː	NOUN	_	Definite=Def	4	mod	_	AlignBegin=356207|AlignEnd=356284|Gloss=house.Def|wordform=gidaː
@@ -3069,7 +3069,7 @@
 # text_en = Well then the elder brother said he would not give him.
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=377980|AlignEnd=378068|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=378068|AlignEnd=378156|Gloss=3Masc.Nom
-3	nèː	neː/ceː	AUX	_	_	4	mod	_	AlignBegin=378156|AlignEnd=378244|Gloss=Ident
+3	nèː	neː/ceː	IdPART	_	_	4	mod	_	AlignBegin=378156|AlignEnd=378244|Gloss=be
 4	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=378244|AlignEnd=378332|Background=Yes|Gloss=3Masc.Perf.Bkg
 5	||	||	PUNCT	_	_	7	punct	_	AlignBegin=378332|AlignEnd=378420|Gloss=PUNCT
 6	wân	wâː	NOUN	_	Definite=Def	7	subj	_	AlignBegin=378801|AlignEnd=378909|Gloss=elder_brother.Def|wordform=wâː
@@ -3138,7 +3138,7 @@
 # text_en = Well that's it.
 1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=385743|AlignEnd=385880|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=385880|AlignEnd=386017|Gloss=3Masc.Nom
-3	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=386017|AlignEnd=386154|Gloss=Ident
+3	nèː	neː/ceː	IdPART	_	_	0	root	_	AlignBegin=386017|AlignEnd=386154|Gloss=be
 4	fa	fa	TopPART	_	_	3	discourse	_	AlignBegin=386154|AlignEnd=386291|Gloss=indeed
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=386291|AlignEnd=386428|Gloss=PUNCT
 
@@ -3317,7 +3317,7 @@
 # text = shiː nèː //
 # text_en = That's it.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=407428|AlignEnd=407526|Gloss=3Masc.Nom
-2	nèː	neː/ceː	AUX	_	_	0	root	_	AlignBegin=407526|AlignEnd=407624|Gloss=Ident
+2	nèː	neː/ceː	IdPART	_	_	0	root	_	AlignBegin=407526|AlignEnd=407624|Gloss=be
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=407624|AlignEnd=407721|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__222
@@ -3424,7 +3424,7 @@
 # text_en = Well then they went .
 1	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=417876|AlignEnd=418034|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=418034|AlignEnd=418192|Gloss=3Masc.Nom
-3	nèː	neː/ceː	AUX	_	_	5	discourse	_	AlignBegin=418192|AlignEnd=418350|Gloss=Ident
+3	nèː	neː/ceː	IdPART	_	_	5	discourse	_	AlignBegin=418192|AlignEnd=418350|Gloss=be
 4	fa	fa	TopPART	_	_	3	discourse	_	AlignBegin=418350|AlignEnd=418508|Gloss=indeed
 5	akà	sukà	AUX	_	Aspect=PerfBkg|Person=4	0	root	_	AlignBegin=418508|AlignEnd=418666|Background=Yes|Gloss=4.Perf.Bkg
 6	jeː	jeː	VERB	_	_	5	comp:aux	_	AlignBegin=418666|AlignEnd=418824|Gloss=go
