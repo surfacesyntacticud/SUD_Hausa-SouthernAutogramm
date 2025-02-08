@@ -431,7 +431,7 @@
 8	wandà	wandà	PRON	_	ExtPos=PRON|PronType=Rel	5	mod@relcl	_	AlignBegin=48597|AlignEnd=48828|Gloss=which
 9	ya	ya	PRON	_	Gender=Masc|Person=3|PronType=Prs	10	subj	_	AlignBegin=48828|AlignEnd=49059|Gloss=3Masc
 10	kè	kè	AUX	_	_	8	cop	_	AlignBegin=48828|AlignEnd=49059|Background=Yes|Gloss=Pred/Loc.Bkg
-11	wânnan	wânnan	PRON	_	Definite=Def|PronType=Dem	12	subj	_	AlignBegin=49059|AlignEnd=49290|Gloss=Def
+11	wânnan	wânnan	PRON	_	Definite=Def|PronType=Dem	12	dislocated	_	AlignBegin=49059|AlignEnd=49290|Gloss=Def
 12	nàːwaː	nàːwaː	PRON	_	Number=Sing|Person=1|PronType=Prs	8	comp:obj	_	AlignBegin=49290|AlignEnd=49406|Gloss=1Sing.Gen
 13	nèː	neː/ceː	IdPART	_	_	12	cop	_	AlignBegin=49521|AlignEnd=49752|Gloss=be
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=49752|AlignEnd=49980|Gloss=PUNCT
@@ -1318,7 +1318,7 @@
 8	mù	mu	PRON	_	Number=Plur|Person=1|PronType=Prs	7	comp:obj@R	_	AlignBegin=141265|AlignEnd=141390|Gloss=1Plur
 9	dai	dai	TopPART	_	_	6	discourse	_	AlignBegin=141390|AlignEnd=141515|Gloss=indeed
 10	<	<	PUNCT	_	_	1	punct	_	AlignBegin=141515|AlignEnd=141640|Gloss=PUNCT
-11	loːkàciː	loːkàciː	NOUN	_	_	12	subj	_	AlignBegin=141640|AlignEnd=141963|Gloss=time
+11	loːkàciː	loːkàciː	NOUN	_	_	12	dislocated	_	AlignBegin=141640|AlignEnd=141963|Gloss=time
 12	zaːmàniː	zaːmàniː	NOUN	_	_	0	root	_	AlignBegin=141963|AlignEnd=142286|Gloss=present_time
 13	nèː	neː/ceː	IdPART	_	_	12	cop	_	AlignBegin=142286|AlignEnd=142609|Gloss=be
 14	//	//	PUNCT	_	_	12	punct	_	AlignBegin=142609|AlignEnd=142933|Gloss=PUNCT
@@ -1931,7 +1931,7 @@
 # text = tundà shiː ƙanèn || ƙanèn àbin nàn nèː kèːnan //
 # text_en = Since he is the younger brother, the younger brother of this woman.
 1	tundà	tundà	SCONJ	_	_	3	discourse	_	AlignBegin=199282|AlignEnd=199482|Gloss=since
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=199482|AlignEnd=199682|Gloss=3Masc.Nom
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	dislocated	_	AlignBegin=199482|AlignEnd=199682|Gloss=3Masc.Nom
 3	ƙanèn	ƙanèː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=199682|AlignEnd=199782|Gloss=younger_brother.Cons|wordform=ƙanèː
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=199882|AlignEnd=200082|Gloss=PUNCT
 5	ƙanèn	nèː	NOUN	_	Definite=Cons	3	conj:dicto	_	AlignBegin=200082|AlignEnd=200168|Gloss=younger_brother.Cons|wordform=ƙanèː
@@ -2628,10 +2628,10 @@
 2	gàrin	gàriː	NOUN	_	Definite=Cons	9	dislocated	_	AlignBegin=270416|AlignEnd=270514|Gloss=town.Cons|wordform=gàriː
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=270613|AlignEnd=270810|Gloss=COMP
 4	àkwai	àkwai	PredPART	_	_	3	comp:obj	_	AlignBegin=270810|AlignEnd=271007|Gloss=there_is
-5	g~	g~	NOUN	_	_	4	subj	_	AlignBegin=271007|AlignEnd=271204|Gloss=HESIT
+5	g~	gaːnuwaː	NOUN	_	_	4	subj	_	AlignBegin=271007|AlignEnd=271204|Gloss=HESIT
 6	gaːnuwaː	gaːnuwaː	NOUN	_	_	5	conj:dicto	_	AlignBegin=271204|AlignEnd=271401|Gloss=rampart
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=271401|AlignEnd=271600|Gloss=PUNCT
-8	kuma	kuma	CCONJ	_	_	9	cc	_	AlignBegin=271882|AlignEnd=272108|Gloss=too
+8	kuma	kuma	ADV	_	_	9	discourse	_	AlignBegin=271882|AlignEnd=272108|Gloss=too
 9	àkwai	àkwai	PredPART	_	_	0	root	_	AlignBegin=272108|AlignEnd=272334|Gloss=there_is
 10	kuːkoːkiː	kuːkàː	NOUN	_	Number=Plur	9	subj	_	AlignBegin=272334|AlignEnd=272447|Gloss=baobab.Plur
 11	//	//	PUNCT	_	_	9	punct	_	AlignBegin=272560|AlignEnd=272786|Gloss=PUNCT
@@ -2656,7 +2656,7 @@
 1	zaːkà	zaːsù	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=272911|AlignEnd=273080|Gloss=2Sing.Fut
 2	ga	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=273080|AlignEnd=273249|Gloss=see
 3	wânnan	wânnan	DET	_	Definite=Def	4	det	_	AlignBegin=273249|AlignEnd=273418|Gloss=Def
-4	gàriː	gàriː	NOUN	_	_	6	subj	_	AlignBegin=273418|AlignEnd=273587|Gloss=town
+4	gàriː	gàriː	NOUN	_	_	6	dislocated	_	AlignBegin=273418|AlignEnd=273587|Gloss=town
 5	tsoːhon	tsoːhoː	ADJ	_	Definite=Cons	6	mod	_	AlignBegin=273754|AlignEnd=273831|Gloss=old.Cons|wordform=tsoːhoː
 6	gàriː	gàriː	NOUN	_	_	2	comp:obj	_	AlignBegin=273908|AlignEnd=274062|Gloss=town
 7	nèː	neː/ceː	IdPART	_	_	6	cop	_	AlignBegin=274062|AlignEnd=274216|Gloss=be
