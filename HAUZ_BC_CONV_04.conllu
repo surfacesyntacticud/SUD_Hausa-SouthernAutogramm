@@ -1428,7 +1428,7 @@
 1	eː	eː	INTJ	_	_	4	discourse	_	AlignBegin=167039|AlignEnd=167200|Gloss=èː|wordform=èː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=167200|AlignEnd=167361|Gloss=PUNCT
 3	had	hat	ADV	_	_	4	mod	_	AlignBegin=167361|AlignEnd=167537|Gloss=even
-4	dà	dà	PredPART	_	_	0	root	_	AlignBegin=167537|AlignEnd=167713|Gloss=with
+4	dà	dà	PredPART	_	_	0	root	_	AlignBegin=167537|AlignEnd=167713|Gloss=there_is
 5	kiɗàː	kiɗàː	NOUN	_	_	4	subj	_	AlignBegin=167713|AlignEnd=167889|Gloss=beating_drum
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=167889|AlignEnd=168063|Gloss=PUNCT
 
@@ -1440,9 +1440,9 @@
 # text = had dà kiɗàː dà jiːmàː / àmmaː yànzu gàː shi !//
 # text_en = There were even drums when tanning, but now, here we are!
 1	had	hat	ADV	_	_	2	mod	_	AlignBegin=168947|AlignEnd=169173|Gloss=even
-2	dà	dà	PredPART	_	_	0	root	_	AlignBegin=169173|AlignEnd=169399|Gloss=with
+2	dà	dà	PredPART	_	_	0	root	_	AlignBegin=169173|AlignEnd=169399|Gloss=there_is
 3	kiɗàː	kiɗàː	NOUN	_	_	2	subj	_	AlignBegin=169399|AlignEnd=169625|Gloss=beating_drum
-4	dà	dà	ADP	_	_	2	mod	_	AlignBegin=169625|AlignEnd=169851|Gloss=with
+4	dà	dà	SCONJ	_	_	2	mod	_	AlignBegin=169625|AlignEnd=169851|Gloss=when
 5	jiːmàː	jiːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=169851|AlignEnd=170077|Gloss=tan.Vnoun
 6	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=170077|AlignEnd=170301|Gloss=PUNCT
 7	àmmaː	àmmaː	CCONJ	_	_	9	cc	_	AlignBegin=170301|AlignEnd=170486|Gloss=but
@@ -1552,7 +1552,7 @@
 # text_en = Among all of them, there isn't one who is doing it.
 1	ciccìkaː	cik-	VERB	_	Number=Plur	3	mod	_	AlignBegin=179930|AlignEnd=180163|Gloss=fill.Plur
 2	musù	sù	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	1	comp:obl@R	_	AlignBegin=180163|AlignEnd=180396|Gloss=3Plur.Dat
-3	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=180396|AlignEnd=180629|Gloss=Neg
+3	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=180396|AlignEnd=180629|Gloss=there_is.Neg
 4	wandà	wandà	PRON	_	PronType=Rel	3	subj	_	AlignBegin=180629|AlignEnd=180862|Gloss=who
 5	zâi	zaːsù	AUX	_	Gender=Masc|Person=3|Tense=Fut	4	mod@relcl	_	AlignBegin=180862|AlignEnd=181095|Gloss=3Masc.Fut
 6	iyà	iyàː	VERB	_	_	5	comp:aux	_	AlignBegin=181095|AlignEnd=181328|Gloss=can
@@ -2347,12 +2347,12 @@
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=279278|AlignEnd=279637|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0232-0235
+# text = mài furan || furan &// furan shìnkaːfaː / dà kân kiːfiː /
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 279637, 282591
 # phonetic_text = mài furaː -n &// furaː -n shìnkaːfaː / dà kâi -n kiːfiː /
-# text = mài furan || furan &// furan shìnkaːfaː / dà kân kiːfiː /
-# text_en = She was selling fura ... fura.. rice fura with fish heads.
+# text_en = She was selling fura ... rice fura with fish heads.
 1	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing|PronType=Rel	0	root	_	AlignBegin=279637|AlignEnd=279888|Gloss=having|Idiom=Yes|Linker=Yes
 2	furan	furaː	NOUN	_	Definite=Cons	1	comp:obj	_	AlignBegin=279888|AlignEnd=280014|Gloss=gruel.Cons|InIdiom=Yes|wordform=furaː
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=280139|AlignEnd=280389|GE=|Gloss=PUNCT|nWord=3
@@ -3739,7 +3739,7 @@
 # phonetic_text = bâː doːyàː nèː //
 # text = bâː doːyàː neː //
 # text_en = There was no yam.
-1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=468892|AlignEnd=469054|Gloss=Neg
+1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=468892|AlignEnd=469054|Gloss=there_is.Neg
 2	doːyàː	doːyàː	NOUN	_	_	1	subj	_	AlignBegin=469054|AlignEnd=469216|Gloss=yam
 3	nèː	neː/ceː	FocPART	_	_	2	cop	_	AlignBegin=469216|AlignEnd=469378|Gloss=be
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=469378|AlignEnd=469538|Gloss=PUNCT
@@ -4040,7 +4040,7 @@
 6	gàː	gàː	PredPART	_	_	9	discourse	_	AlignBegin=500172|AlignEnd=500347|Gloss=here_is
 7	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=500347|AlignEnd=500522|Gloss=3Masc
 8	<	<	PUNCT	_	_	9	punct	_	AlignBegin=500522|AlignEnd=500697|Gloss=PUNCT
-9	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=500697|AlignEnd=500935|Gloss=Neg
+9	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=500697|AlignEnd=500935|Gloss=there_is.Neg
 10	karan	karaː	NOUN	_	Definite=Cons	9	subj	_	AlignBegin=500935|AlignEnd=501054|Gloss=stalk.Cons|wordform=karaː
 11	geːroː	geːroː	NOUN	_	_	10	mod	_	AlignBegin=501173|AlignEnd=501411|Gloss=millet
 12	maː	maː	TopPART	_	_	10	discourse	_	AlignBegin=501411|AlignEnd=501649|Gloss=even
@@ -4875,7 +4875,7 @@
 # text = tòː bâː ƴancìn || ƴancìn dai ɗan ƙànƙanìː neː //
 # text_en = Well there is no rights.... rights for poor people.
 1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=608118|AlignEnd=608488|Gloss=well
-2	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=608488|AlignEnd=608858|Gloss=Neg
+2	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=608488|AlignEnd=608858|Gloss=there_is.Neg
 3	ƴancìn	ƴancìː	NOUN	_	Definite=Cons	2	subj	_	AlignBegin=608858|AlignEnd=609043|Gloss=freedom.Cons|wordform=ƴancìː
 4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=609228|AlignEnd=609598|Gloss=PUNCT
 5	ƴancìn	ƴancìː	NOUN	_	Definite=Cons	3	conj:dicto	_	AlignBegin=609598|AlignEnd=609783|Gloss=freedom.Cons|wordform=ƴancìː
@@ -5017,7 +5017,7 @@
 # text_en = If indeed you don't have anything, that's why.
 1	in	in	SCONJ	_	_	8	mod	_	AlignBegin=624903|AlignEnd=625051|Gloss=if
 2	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=625051|AlignEnd=625199|Gloss=indeed
-3	bâː	bâː	PredPART	_	Polarity=Neg	1	comp:obj	_	AlignBegin=625199|AlignEnd=625347|Gloss=Neg
+3	bâː	bâː	PredPART	_	Polarity=Neg	1	comp:obj	_	AlignBegin=625199|AlignEnd=625347|Gloss=there_is.Neg
 4	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	3	subj	_	AlignBegin=625347|AlignEnd=625495|Gloss=2Masc
 5	dà	dà	ADP	_	_	3	comp:pred	_	AlignBegin=625495|AlignEnd=625643|Gloss=with
 6	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=625643|AlignEnd=625791|Gloss=3Masc.Nom
@@ -6405,7 +6405,7 @@
 # text = ai bâː yandà zaːʼà yi kà ƙi gidankù //
 # text_en = There is no way you will reject your home.
 1	ai	ai	INTJ	_	_	2	discourse	_	AlignBegin=781090|AlignEnd=781219|Gloss=indeed
-2	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=781219|AlignEnd=781348|Gloss=Neg
+2	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=781219|AlignEnd=781348|Gloss=there_is.Neg
 3	yandà	yandà	ADV	_	PronType=Rel	2	subj	_	AlignBegin=781348|AlignEnd=781477|Gloss=how
 4	zaːʼà	zaːsù	AUX	_	Number=Sing|Person=2|Tense=Fut	3	comp:obj	_	AlignBegin=781477|AlignEnd=781606|Gloss=2Sing.Fut
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=781606|AlignEnd=781735|Gloss=do
@@ -6520,7 +6520,7 @@
 # phonetic_text = bâː shakkàː //
 # text = bâː shakkàː //
 # text_en = There's no doubt.
-1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=793766|AlignEnd=794014|Gloss=Neg
+1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=793766|AlignEnd=794014|Gloss=there_is.Neg
 2	shakkàː	shakkàː	NOUN	_	_	1	subj	_	AlignBegin=794014|AlignEnd=794262|Gloss=doubt
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=794262|AlignEnd=794509|Gloss=PUNCT
 
@@ -6951,7 +6951,7 @@
 1	eː	eː	INTJ	_	_	4	discourse	_	AlignBegin=846492|AlignEnd=846905|Gloss=yes
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=846905|AlignEnd=847318|Gloss=PUNCT
 3	kuma	kuma	CCONJ	_	_	4	cc	_	AlignBegin=847318|AlignEnd=847518|Gloss=too
-4	dà	dà	PredPART	_	_	0	root	_	AlignBegin=847518|AlignEnd=847718|Gloss=with
+4	dà	dà	PredPART	_	_	0	root	_	AlignBegin=847518|AlignEnd=847718|Gloss=there_is
 5	wânnan	wânnan	PRON	_	Definite=Def	4	subj	_	AlignBegin=847718|AlignEnd=847918|Gloss=Def
 6	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=847918|AlignEnd=848116|Gloss=PUNCT
 7	àmmaː	àmmaː	CCONJ	_	_	12	discourse	_	AlignBegin=849451|AlignEnd=849615|Gloss=but
@@ -7097,11 +7097,11 @@
 # text = koː bâː màːgiː / koː bâː gishiriː / zaːkà ci //
 # text_en = Whether there is no Magi, or no salt, you will eat them.
 1	koː	koː	CCONJ	_	_	2	cc@preconj	_	AlignBegin=865764|AlignEnd=865951|Gloss=or
-2	bâː	bâː	PredPART	_	Polarity=Neg	9	mod	_	AlignBegin=865951|AlignEnd=866138|Gloss=Neg
+2	bâː	bâː	PredPART	_	Polarity=Neg	9	mod	_	AlignBegin=865951|AlignEnd=866138|Gloss=there_is.Neg
 3	màːgiː	màːgiː	NOUN	_	_	2	subj	_	AlignBegin=866138|AlignEnd=866325|Gloss=Magi_cube
 4	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=866325|AlignEnd=866511|Gloss=PUNCT
 5	koː	koː	CCONJ	_	_	6	cc	_	AlignBegin=866511|AlignEnd=866667|Gloss=or
-6	bâː	bâː	PredPART	_	Polarity=Neg	2	conj:coord	_	AlignBegin=866667|AlignEnd=866823|Gloss=Neg
+6	bâː	bâː	PredPART	_	Polarity=Neg	2	conj:coord	_	AlignBegin=866667|AlignEnd=866823|Gloss=there_is.Neg
 7	gishiriː	gishiriː	NOUN	_	_	6	subj	_	AlignBegin=866823|AlignEnd=866979|Gloss=salt
 8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=866979|AlignEnd=867133|Gloss=PUNCT
 9	zaːkà	zaːsù	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=867133|AlignEnd=867280|Gloss=2Sing.Fut
@@ -9757,7 +9757,7 @@
 # phonetic_text = bâː àbù -n dà akà yi //
 # text = bâː àbin dà akà yi //
 # text_en = There was no problem.
-1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=1165040|AlignEnd=1165160|Gloss=Neg
+1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=1165040|AlignEnd=1165160|Gloss=there_is.Neg
 2	àbin	àbù	NOUN	_	Definite=Cons	1	subj	_	AlignBegin=1165160|AlignEnd=1165220|Gloss=thing.Cons|wordform=àbù
 3	dà	dà	SCONJ	_	_	2	mod@relcl	_	AlignBegin=1165280|AlignEnd=116540|Gloss=COMP
 4	akà	sukà	AUX	_	Aspect=PerfBkg|Person=4	3	comp:obj	_	AlignBegin=116540|AlignEnd=1165520|Background=Yes|Gloss=4.Perf.Bkg
@@ -10802,7 +10802,7 @@
 9	wannàn	wannàn	DET	_	PronType=Dem	10	det	_	AlignBegin=1292930|AlignEnd=1293090|Deixis=Prox|Gloss=Prox
 10	zaːmàniː	zaːmàn	NOUN	_	_	8	comp:obj	_	AlignBegin=1293090|AlignEnd=1293260|Gloss=present_time
 11	<	<	PUNCT	_	_	8	punct	_	AlignBegin=1293260|AlignEnd=1293430|Gloss=PUNCT
-12	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=1293430|AlignEnd=1293560|Gloss=Neg
+12	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=1293430|AlignEnd=1293560|Gloss=there_is.Neg
 13	yandà	yandà	ADV	_	PronType=Rel	12	subj	_	AlignBegin=1293560|AlignEnd=129370|Gloss=how
 14	zaːʼà	zaːsù	AUX	_	Number=Sing|Person=4|Tense=Fut	13	mod@relcl	_	AlignBegin=129370|AlignEnd=1293830|Gloss=2Sing.Fut
 15	yi	yi	VERB	_	_	14	comp:aux	_	AlignBegin=1293830|AlignEnd=1293960|Gloss=do
@@ -11610,7 +11610,7 @@
 2	kuma	kuma	TopPART	_	_	1	discourse	_	AlignBegin=1387250|AlignEnd=1387410|Gloss=too
 3	duk	dukà	DET	_	_	1	det	_	AlignBegin=1387410|AlignEnd=1387560|Gloss=all
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1387560|AlignEnd=1387720|Gloss=PUNCT
-5	bâː	bâː	PredPART	_	Polarity=Neg	16	discourse	_	AlignBegin=1387720|AlignEnd=1387930|Gloss=Neg
+5	bâː	bâː	PredPART	_	Polarity=Neg	16	discourse	_	AlignBegin=1387720|AlignEnd=1387930|Gloss=there_is.Neg
 6	shakkàː	shakkàː	NOUN	_	_	5	subj	_	AlignBegin=1387930|AlignEnd=1388150|Gloss=doubt
 7	<	<	PUNCT	_	_	5	punct	_	AlignBegin=1388150|AlignEnd=1388360|Gloss=PUNCT
 8	in	in	SCONJ	_	_	16	mod	_	AlignBegin=1388360|AlignEnd=138850|Gloss=if

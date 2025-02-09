@@ -2054,19 +2054,19 @@
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=255245|AlignEnd=255715|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_242-243
+# text = dà ya faːɗìn nan dàgà nan //+
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_01.WAV
 # sent_timecode = 255715, 258240
 # phonetic_text = dà ya faːɗì -n nan / dàgà nan /
-# text = dà ya faːɗìn nan / dàgà nan /
-# text_en = When he fell / from there /
-1	dà	dà	SCONJ	_	_	0	root	_	AlignBegin=255715|AlignEnd=255966|Gloss=COMP
+# text_en = When he fell, from there...
+1	dà	dà	SCONJ	_	_	0	root	_	AlignBegin=255715|AlignEnd=255966|AttachTo=HAUZ_BC_NARR_01_244-244|Gloss=COMP|Rel=mod
 2	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=255966|AlignEnd=256217|Background=Yes|Gloss=3Masc.Perf.Bkg
 3	faːɗìn	faːɗ-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	2	comp:obj	_	AlignBegin=256217|AlignEnd=256343|Gloss=fall.Vnoun.Def
 4	nan	nan	DET	_	Definite=Def	3	det	_	AlignBegin=256468|AlignEnd=256719|Gloss=Def
-5	dàgà	dàgà	ADP	_	_	3	comp:obl	_	AlignBegin=256968|AlignEnd=257392|Gloss=from
-6	nan	nan	ADV	_	Definite=Def	5	comp:obj	_	AlignBegin=257392|AlignEnd=257816|Gloss=Def
-7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=257816|AlignEnd=258240|Gloss=PUNCT
+5	dàgà	dàgà	ADP	_	_	3	comp:obl	_	AlignBegin=256968|AlignEnd=257392|AttachTo=HAUZ_BC_NARR_01_244-244|Gloss=from|Rel=mod
+6	nan	nan	ADV	_	Definite=Def	5	comp:obj	_	AlignBegin=257392|AlignEnd=257816|Gloss=Def|Overlap=HAUZ_BC_NARR_01_244-244
+7	//+	//+	PUNCT	_	_	1	punct	_	AlignBegin=257816|AlignEnd=258240|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_244-244
 # speaker_id = SP2
@@ -2075,7 +2075,7 @@
 # phonetic_text = zoːmoː ya kaːsàː taːshì //
 # text = zoːmoː ya kaːsà taːshìː //
 # text_en = Rabbit could not get up.
-1	zoːmoː	zoːmoː	NOUN	_	_	2	subj	_	AlignBegin=257106|AlignEnd=257333|Gloss=Rabbit
+1	zoːmoː	zoːmoː	NOUN	_	_	2	subj	_	AlignBegin=257106|AlignEnd=257333|Gloss=Rabbit|Overlap=HAUZ_BC_NARR_01_242-243
 2	ya	sukà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=257333|AlignEnd=257560|Background=Yes|Gloss=3Masc.Perf.Bkg
 3	kaːsà	kaːs-	VERB	_	_	2	comp:aux	_	AlignBegin=257560|AlignEnd=257787|Gloss=fail
 4	taːshìː	taːs-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:obj	_	AlignBegin=257787|AlignEnd=258014|Gloss=get_up.Vnoun
@@ -2094,15 +2094,15 @@
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=259230|AlignEnd=259560|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_246-246
+# text = yaː yi //&
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_01.WAV
 # sent_timecode = 259560, 260130
 # phonetic_text = yaː yi /
-# text = yaː yi /
-# text_en = He tried
-1	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=259560|AlignEnd=259750|Gloss=3Masc.Perf
+# text_en = He tried...
+1	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root@scrap	_	AlignBegin=259560|AlignEnd=259750|Gloss=3Masc.Perf
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=259750|AlignEnd=259940|Gloss=do
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=259940|AlignEnd=260130|Gloss=PUNCT
+3	//&	//&	PUNCT	_	_	1	punct	_	AlignBegin=259940|AlignEnd=260130|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_247-247
 # speaker_id = SP2
@@ -2240,7 +2240,7 @@
 # text = tòː bâː shi dà kuma mài tàimakoː //
 # text_en = And he doesn't have anyone to help him.
 1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=270530|AlignEnd=270734|Gloss=well
-2	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=270734|AlignEnd=270938|Gloss=Neg
+2	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=270734|AlignEnd=270938|Gloss=there_is.Neg
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=270938|AlignEnd=271142|Gloss=3Masc
 4	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=271142|AlignEnd=271346|Gloss=with
 5	kuma	kuma	TopPART	_	_	4	discourse	_	AlignBegin=271346|AlignEnd=271550|Gloss=also
@@ -2255,7 +2255,7 @@
 # phonetic_text = bâː mài tàimakoː -n -shi //
 # text = bâː mài tàimakonshì //
 # text_en = There's noone to help him.
-1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=271955|AlignEnd=272204|Gloss=Neg
+1	bâː	bâː	PredPART	_	Polarity=Neg	0	root	_	AlignBegin=271955|AlignEnd=272204|Gloss=there_is.Neg
 2	mài	mài	ADP	_	Number=Sing|PronType=Rel	1	subj	_	AlignBegin=272204|AlignEnd=272453|Gloss=having|Linker=Yes
 3	tàimakon	tàimakoː	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=272453|AlignEnd=272536|Gloss=help.Cons|wordform=tàimakoː
 4	=shi	=shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	udep	_	AlignBegin=272619|AlignEnd=272702|Gloss=3Masc..Gen
