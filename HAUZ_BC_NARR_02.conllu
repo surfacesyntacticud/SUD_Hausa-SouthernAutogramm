@@ -360,18 +360,19 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_02.WAV
 # sent_timecode = 48800, 50640
 # phonetic_text = gàː shi fa àbù -ǹ dà kakèː sôː kaː saːmù //
-# text = gàː shi fa àbin dà kakèː sôː kaː saːmù //
+# text = gàː shi fa //= àbin dà kakèː sôː kaː saːmù //
 # text_en = Here you are, you got what you wanted.
-1	gàː	gàː	PredPART	_	_	8	discourse	_	AlignBegin=48800|AlignEnd=48984|Gloss=here_is
+1	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=48800|AlignEnd=48984|Gloss=here_is
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	1	subj	_	AlignBegin=48984|AlignEnd=49168|Gloss=3Masc
 3	fa	fa	TopPART	_	_	1	discourse	_	AlignBegin=49168|AlignEnd=49352|Gloss=indeed
-4	àbin	àbù	NOUN	_	Definite=Cons	8	dislocated@comp	_	AlignBegin=49352|AlignEnd=49444|Gloss=thing.Cons
-5	dà	dà	SCONJ	_	_	4	mod@relcl	_	AlignBegin=49536|AlignEnd=49720|Gloss=COMP
-6	kakèː	kèː/kà	AUX	_	Aspect=ProgBkg|Gender=Masc|Person=2	5	comp:obj	_	AlignBegin=49720|AlignEnd=49904|Background=Yes|Gloss=2Masc.Prog.Bkg
-7	sôː	soː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=49904|AlignEnd=50088|Gloss=want.Vnoun
-8	kaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=50088|AlignEnd=50272|Gloss=2Masc.Perf
-9	saːmù	saːm-	VERB	_	_	8	comp:aux	_	AlignBegin=50272|AlignEnd=50456|Gloss=get
-10	//	//	PUNCT	_	_	8	punct	_	AlignBegin=50456|AlignEnd=50640|Gloss=PUNCT
+4	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=49168|AlignEnd=49352|Gloss=PUNCT
+5	àbin	àbù	NOUN	_	Definite=Cons	9	dislocated@comp	_	AlignBegin=49352|AlignEnd=49444|Gloss=thing.Cons
+6	dà	dà	SCONJ	_	_	5	mod@relcl	_	AlignBegin=49536|AlignEnd=49720|Gloss=COMP
+7	kakèː	kèː/kà	AUX	_	Aspect=ProgBkg|Gender=Masc|Person=2	6	comp:obj	_	AlignBegin=49720|AlignEnd=49904|Background=Yes|Gloss=2Masc.Prog.Bkg
+8	sôː	soː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=49904|AlignEnd=50088|Gloss=want.Vnoun
+9	kaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	parataxis	_	AlignBegin=50088|AlignEnd=50272|Gloss=2Masc.Perf
+10	saːmù	saːm-	VERB	_	_	9	comp:aux	_	AlignBegin=50272|AlignEnd=50456|Gloss=get
+11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=50456|AlignEnd=50640|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_02_036
 # speaker_id = SP2
@@ -1372,14 +1373,14 @@
 # phonetic_text = tòː / gàː shi àlhakiː yaː kaːmàː ni //
 # text = tòː / gàː shi àlhakiː yaː kaːmàː ni //
 # text_en = Well, here we are, my sins have been visited on me.
-1	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=167472|AlignEnd=167544|Gloss=well
-2	gàː	gàː	PredPART	_	_	5	discourse	_	AlignBegin=167617|AlignEnd=167824|Gloss=here_is
+1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=167472|AlignEnd=167544|Gloss=well
+2	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=167617|AlignEnd=167824|Gloss=here_is
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=167824|AlignEnd=168031|Gloss=3Masc
 4	àlhakiː	àlhakiː	NOUN	_	_	5	subj	_	AlignBegin=168031|AlignEnd=168238|Gloss=sin
-5	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=168238|AlignEnd=168445|Gloss=3Masc.Perf
+5	yaː	sun	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	parataxis	_	AlignBegin=168238|AlignEnd=168445|Gloss=3Masc.Perf
 6	kaːmàː	kaːm-	VERB	_	_	5	comp:aux	_	AlignBegin=168445|AlignEnd=168652|Gloss=catch
 7	ni	ni	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	comp:obj	_	AlignBegin=168652|AlignEnd=168859|Gloss=1Sing
-8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=168859|AlignEnd=169067|Gloss=PUNCT
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=168859|AlignEnd=169067|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_02_138
 # speaker_id = SP2
