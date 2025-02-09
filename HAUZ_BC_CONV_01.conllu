@@ -2821,12 +2821,12 @@
 18	//	//	PUNCT	_	_	10	punct	_	AlignBegin=347912|AlignEnd=348142|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_129-129
+# text = tòː loːkàcîn < shiː nèː ya zoː ya shuːkàː //
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 348385, 349676
 # phonetic_text = tòː loːkàciː -ǹ / shiː nèː ya zoː ya shuːkàː //
-# text = tòː loːkàcîn < shiː nèː ya zoː ya shuːkàː //
-# text_en = Well at that time he is the one who sowed it.
+# text_en = Well at that time it's him who sowed it.
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=348385|AlignEnd=348514|Gloss=well
 2	loːkàcîn	loːkàciː	NOUN	_	Definite=Def	4	mod	_	AlignBegin=348514|AlignEnd=348578|Gloss=time.Def
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=348643|AlignEnd=348772|Gloss=PUNCT
@@ -4098,25 +4098,25 @@
 11	irìː-irìː	irìː-irìː	ADJ	_	_	9	comp:cleft	_	AlignBegin=514986|AlignEnd=515194|Gloss=all_sorts
 12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=515402|AlignEnd=515607|Gloss=PUNCT
 
-# sent_id = HAUZ_BC_CONV_01_SP2_190
-# text = sai dà irìn tsòːfàffin tùmaːtìr̃ //= dà irìn su joːgaleː //= irìn su ramàː |c dà dai sauran =sù //
+# sent_id = HAUZ_BC_CONV_01_SP2_190-190
+# text = sai dà irìn tsòːfàffin tùmaːtìr̃ //= dà irìn su joːgaleː |c irìn su ramàː |c dà dai sauran =sù //
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 515607, 520029
 # phonetic_text = sai dà irìː -ǹ / tsoːhoː -n tùmaːtìr̃ / dà irìː -n su joːgaleː / irìː -n su ramàː / dà dai sauraː -n -sù //
 # text_en = There are like old tomatoes, like zogale, like hemp, etc.
-1	sai	sai	ADV	_	_	2	discourse	_	AlignBegin=515607|AlignEnd=515840|Gloss=then
-2	dà	dà	CCONJ	_	_	0	root	_	AlignBegin=515607|AlignEnd=515840|Gloss=and
-3	irìn	irìn	ADP	_	_	5	discourse	_	AlignBegin=515840|AlignEnd=515956|Gloss=like
+1	sai	sai	ADV	_	_	3	discourse	_	AlignBegin=515607|AlignEnd=515840|Gloss=then
+2	dà	dà	CCONJ	_	_	3	cc@preconj	_	AlignBegin=515607|AlignEnd=515840|Gloss=and
+3	irìn	irìn	ADP	_	_	0	root	_	AlignBegin=515840|AlignEnd=515956|Gloss=like
 4	tsòːfàffin	tsoːhoː	ADJ	_	Definite=Cons|Number=Plur	5	mod	_	AlignBegin=516306|AlignEnd=516364|Gloss=old.Plur.Cons
-5	tùmaːtìr̃	tùmaːtìr̃	NOUN	_	_	2	subj	_	AlignBegin=516480|AlignEnd=516539|Gloss=tomato
-6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=516772|AlignEnd=517005|Gloss=PUNCT
-7	dà	dà	CCONJ	_	_	2	parataxis	_	AlignBegin=517005|AlignEnd=517238|Gloss=and
-8	irìn	irìn	ADP	_	Definite=Cons	7	subj	_	AlignBegin=517238|AlignEnd=517354|Gloss=like
+5	tùmaːtìr̃	tùmaːtìr̃	NOUN	_	_	3	mod	_	AlignBegin=516480|AlignEnd=516539|Gloss=tomato
+6	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=516772|AlignEnd=517005|Gloss=PUNCT
+7	dà	dà	CCONJ	_	_	8	cc	_	AlignBegin=517005|AlignEnd=517238|Gloss=and
+8	irìn	irìn	ADP	_	Definite=Cons	3	conj:coord	_	AlignBegin=517238|AlignEnd=517354|Gloss=like
 9	su	su	DET	_	Number=Plur	10	det	_	AlignBegin=517471|AlignEnd=517704|Gloss=Plur
 10	joːgaleː	joːgaleː	NOUN	_	_	8	mod	_	AlignBegin=517704|AlignEnd=517937|Gloss=bitterleaf
-11	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=517937|AlignEnd=518170|Gloss=PUNCT
-12	irìn	irìn	ADP	_	Definite=Cons	7	parataxis	_	AlignBegin=518170|AlignEnd=518286|Gloss=like|wordform=irìː
+11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=517937|AlignEnd=518170|Gloss=PUNCT
+12	irìn	irìn	ADP	_	Definite=Cons	8	conj:coord	_	AlignBegin=518170|AlignEnd=518286|Gloss=like|wordform=irìː
 13	su	su	DET	_	Number=Plur	14	det	_	AlignBegin=518403|AlignEnd=518636|Gloss=Plur
 14	ramàː	ramàː	NOUN	_	_	12	mod	_	AlignBegin=518636|AlignEnd=518869|Gloss=hemp
 15	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=518869|AlignEnd=519102|Gloss=PUNCT
@@ -4124,7 +4124,7 @@
 17	dai	dai	TopPART	_	_	16	discourse	_	AlignBegin=519335|AlignEnd=519568|Gloss=indeed
 18	sauran	saura	NOUN	_	Definite=Cons	12	conj:coord	_	AlignBegin=519568|AlignEnd=519646|Gloss=remainder.Cons|wordform=sauraː
 19	=sù	=sù	PRON	_	Number=Plur|Person=3|PronType=Prs	18	mod	_	AlignBegin=519724|AlignEnd=519801|Gloss=3Plur
-20	//	//	PUNCT	_	_	2	punct	_	AlignBegin=519801|AlignEnd=520029|Gloss=PUNCT
+20	//	//	PUNCT	_	_	3	punct	_	AlignBegin=519801|AlignEnd=520029|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP1_106-106
 # speaker_id = SP1
@@ -4199,7 +4199,7 @@
 1	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root@scrap	_	AlignBegin=528135|AlignEnd=528406|Gloss=1Plur.Hab
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=528406|AlignEnd=528677|Gloss=do
 3	àmfàːniː	àmfàːniː	NOUN	_	_	2	comp:obj	_	AlignBegin=528677|AlignEnd=528948|Gloss=use
-4	dà	dà	ADP	_	_	3	comp:obl	_	AlignBegin=528948|AlignEnd=529219|Gloss=with
+4	dà	dà	ADP	_	_	2	comp:obl	_	AlignBegin=528948|AlignEnd=529219|Gloss=with
 5	wânnan	wânnan	PRON	_	Definite=Def	4	comp:obj	_	AlignBegin=529219|AlignEnd=529490|Gloss=Def
 6	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=529490|AlignEnd=529760|Gloss=PUNCT
 
