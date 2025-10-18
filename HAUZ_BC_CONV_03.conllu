@@ -50,7 +50,7 @@
 # phonetic_text = bài shìga ba //
 # text = bài shìga ba //
 # text_en = He didn't.
-1	bài	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=7076|AlignEnd=7260|Gloss=3Masc.Perf.Neg
+1	bài	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=7076|AlignEnd=7260|Gloss=3Masc.PerfNeg
 2	shìga	shig-	VERB	_	_	1	comp:aux	_	AlignBegin=7260|AlignEnd=7444|Gloss=enter
 3	ba	ba	ADV	_	Polarity=Neg	1	mod	_	AlignBegin=7444|AlignEnd=7628|Gloss=Neg
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=7628|AlignEnd=7810|Gloss=PUNCT
@@ -64,7 +64,7 @@
 # text_en = He never intended to go to into the classroom.
 1	dâː	dâː	ADV	_	_	3	discourse	_	AlignBegin=9340|AlignEnd=9556|Gloss=formerly
 2	maː	maː	TopPART	_	_	1	discourse	_	AlignBegin=9556|AlignEnd=9772|Gloss=even
-3	bâi	baːsàː/baːsù	AUX	_	Aspect=ProgNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=9772|AlignEnd=9988|Gloss=3Masc.Prog.Neg
+3	bâi	baːsàː/baːsù	AUX	_	Aspect=ProgNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=9772|AlignEnd=9988|Gloss=3Masc.ProgNeg
 4	jîn	ji	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	mod	_	AlignBegin=9988|AlignEnd=10096|Gloss=hear.Vnoun.Cons|wordform=jîː
 5	shigôːwaː	shig-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=10204|AlignEnd=10312|Gloss=enter.DIR.Vnoun|wordform=shigoː
 6	kilaːs	kilaːs	NOUN	_	Foreign=Yes	5	comp:obj@G	_	AlignBegin=10420|AlignEnd=10636|Gloss=class|Lang=en
@@ -221,7 +221,7 @@
 # text_en = She did not come either.
 1	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=28141|AlignEnd=28288|Gloss=3Fem.Nom
 2	maː	maː	TopPART	_	_	1	discourse	_	AlignBegin=28288|AlignEnd=28435|Gloss=even
-3	bàtà	bàsù	AUX	_	Aspect=PerfNeg|Gender=Fem|Person=3|Polarity=Neg	0	root	_	AlignBegin=28435|AlignEnd=28582|Gloss=3Fem.Perf.Neg
+3	bàtà	bàsù	AUX	_	Aspect=PerfNeg|Gender=Fem|Person=3|Polarity=Neg	0	root	_	AlignBegin=28435|AlignEnd=28582|Gloss=3Fem.PerfNeg
 4	shìga	shig-	VERB	_	_	3	comp:aux	_	AlignBegin=28582|AlignEnd=28729|Gloss=enter
 5	ba	ba	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=28729|AlignEnd=28876|Gloss=Neg
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=28876|AlignEnd=29023|Gloss=PUNCT
@@ -233,7 +233,7 @@
 # phonetic_text = bàtà shigoː ba //
 # text = bàtà shigoː ba ?//
 # text_en = Didn't she come?
-1	bàtà	bàsù	AUX	_	Aspect=PerfNeg|Gender=Fem|Person=3|Polarity=Neg	0	root	_	AlignBegin=29244|AlignEnd=29408|Gloss=3Fem.Perf.Neg
+1	bàtà	bàsù	AUX	_	Aspect=PerfNeg|Gender=Fem|Person=3|Polarity=Neg	0	root	_	AlignBegin=29244|AlignEnd=29408|Gloss=3Fem.PerfNeg
 2	shigoː	shig-	VERB	_	_	1	comp:aux	_	AlignBegin=29408|AlignEnd=29572|Gloss=enter.DIR
 3	ba	ba	ADV	_	Polarity=Neg	1	mod	_	AlignBegin=29572|AlignEnd=29736|Gloss=Neg|PartType=Int
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=29736|AlignEnd=29898|Gloss=PUNCT
@@ -292,7 +292,7 @@
 3	bàː	bàː	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=35082|AlignEnd=35313|Gloss=Neg
 4	dan	don	ADP	_	_	6	mod	_	AlignBegin=35313|AlignEnd=35544|Gloss=because
 5	Allàː	Allàː	PROPN	_	_	4	comp:obj	_	AlignBegin=35544|AlignEnd=35775|Gloss=God|wordform=allàː
-6	sukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Background=Yes|Number=Plur|Person=3	0	root	_	AlignBegin=35775|AlignEnd=36006|Gloss=3Plur.Prog.Bkg
+6	sukèː	kèː/kà	AUX	_	Aspect=ProgBkg|Background=Yes|Number=Plur|Person=3	0	root	_	AlignBegin=35775|AlignEnd=36006|Gloss=3Plur.ProgBkg
 7	yîː	yi	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=36006|AlignEnd=36237|Gloss=do.Vnoun
 8	ba	ba	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=36237|AlignEnd=36468|Gloss=Neg
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=36468|AlignEnd=36700|Gloss=PUNCT
@@ -307,7 +307,7 @@
 1	aːʔàː	aːʔàː	INTJ	_	_	4	discourse	_	AlignBegin=37110|AlignEnd=37297|Gloss=no
 2	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	dislocated@subj	_	AlignBegin=37297|AlignEnd=37484|Gloss=1Sing.Nom
 3	dai	dai	TopPART	_	_	2	discourse	_	AlignBegin=37484|AlignEnd=37671|Gloss=indeed
-4	bàn	bàsù	AUX	_	Aspect=PerfNeg|Number=Sing|Person=1|Polarity=Neg	0	root	_	AlignBegin=37671|AlignEnd=37858|Gloss=1Sing.Perf.Neg
+4	bàn	bàsù	AUX	_	Aspect=PerfNeg|Number=Sing|Person=1|Polarity=Neg	0	root	_	AlignBegin=37671|AlignEnd=37858|Gloss=1Sing.PerfNeg
 5	cêː	cêː	VERB	_	_	4	comp:obj	_	AlignBegin=37858|AlignEnd=38045|Gloss=say
 6	ba	ba	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=38045|AlignEnd=38232|Gloss=Neg
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=38232|AlignEnd=38422|Gloss=PUNCT
@@ -650,7 +650,7 @@
 5	jeː	jeː	VERB	_	_	4	comp:aux	_	AlignBegin=78330|AlignEnd=78475|Gloss=go
 6	ba	ba	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=78475|AlignEnd=78620|Gloss=Neg
 7	tundà	tundà	SCONJ	_	_	4	mod	_	AlignBegin=78620|AlignEnd=78765|Gloss=since
-8	bàn	bàsù	AUX	_	Aspect=PerfNeg|Number=Sing|Person=1|Polarity=Neg	7	comp:obj	_	AlignBegin=78765|AlignEnd=78910|Gloss=1Sing.Perf.Neg
+8	bàn	bàsù	AUX	_	Aspect=PerfNeg|Number=Sing|Person=1|Polarity=Neg	7	comp:obj	_	AlignBegin=78765|AlignEnd=78910|Gloss=1Sing.PerfNeg
 9	yi	yi	VERB	_	_	8	comp:obj	_	AlignBegin=78910|AlignEnd=79055|Gloss=do
 10	ba	ba	ADV	_	Polarity=Neg	8	mod	_	AlignBegin=79055|AlignEnd=79200|Gloss=Neg
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=79200|AlignEnd=79340|Gloss=PUNCT
@@ -1001,7 +1001,7 @@
 # text = kuma bàkì saːwoː sàːfaː ba //
 # text_en = Because you did not wear socks.
 1	kuma	kuma	CCONJ	_	_	2	cc	_	AlignBegin=128330|AlignEnd=128582|Gloss=too
-2	bàkì	bàsù	AUX	_	Aspect=PerfNeg|Gender=Fem|Person=2|Polarity=Neg	0	root	_	AlignBegin=128582|AlignEnd=128834|Gloss=2Fem.Perf.Neg
+2	bàkì	bàsù	AUX	_	Aspect=PerfNeg|Gender=Fem|Person=2|Polarity=Neg	0	root	_	AlignBegin=128582|AlignEnd=128834|Gloss=2Fem.PerfNeg
 3	saːwoː	saː	VERB	_	_	2	comp:aux	_	AlignBegin=128834|AlignEnd=129086|Gloss=put.DIR
 4	sàːfaː	sàːfaː	NOUN	_	_	3	comp:obj	_	AlignBegin=129086|AlignEnd=129338|Gloss=socks
 5	ba	ba	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=129338|AlignEnd=129590|Gloss=Neg
@@ -1014,7 +1014,7 @@
 # phonetic_text = bàn saːwoː sàːfaː ba /
 # text = bàn saːwoː sàːfaː ba /
 # text_en = I did not wear socks.
-1	bàn	bàsù	AUX	_	Aspect=PerfNeg|Number=Sing|Person=1|Polarity=Neg	0	root	_	AlignBegin=129841|AlignEnd=130028|Gloss=1Sing.Perf.Neg
+1	bàn	bàsù	AUX	_	Aspect=PerfNeg|Number=Sing|Person=1|Polarity=Neg	0	root	_	AlignBegin=129841|AlignEnd=130028|Gloss=1Sing.PerfNeg
 2	saːwoː	saːw-	VERB	_	_	1	comp:aux	_	AlignBegin=130028|AlignEnd=130215|Gloss=put.DIR
 3	sàːfaː	sàːfaː	NOUN	_	_	2	comp:obj	_	AlignBegin=130215|AlignEnd=130402|Gloss=socks
 4	ba	ba	ADV	_	Polarity=Neg	1	mod	_	AlignBegin=130402|AlignEnd=130589|Gloss=Neg
@@ -1282,7 +1282,7 @@
 # phonetic_text = bàkì kàllaː ba ?//
 # text = bàkì kàllaː ba ?//
 # text_en = Didn't you watch it?
-1	bàkì	bàsù	AUX	_	Aspect=PerfNeg|Gender=Fem|Person=2|Polarity=Neg	0	root	_	AlignBegin=167820|AlignEnd=168006|Gloss=2Fem.Perf.Neg
+1	bàkì	bàsù	AUX	_	Aspect=PerfNeg|Gender=Fem|Person=2|Polarity=Neg	0	root	_	AlignBegin=167820|AlignEnd=168006|Gloss=2Fem.PerfNeg
 2	kàllaː	kall-	VERB	_	_	1	comp:aux	_	AlignBegin=168006|AlignEnd=168192|Gloss=watch
 3	ba	ba	ADV	_	Polarity=Neg	1	mod	_	AlignBegin=168192|AlignEnd=168378|Gloss=Neg|PartType=Int
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=168378|AlignEnd=168565|Gloss=PUNCT
@@ -1919,7 +1919,7 @@
 # text = sai bàsù àmsaː ba //
 # text_en = Then they refused to take it.
 1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=240904|AlignEnd=241101|Gloss=then
-2	bàsù	bàsù	AUX	_	Aspect=PerfNeg|Number=Plur|Person=2|Polarity=Neg	0	root	_	AlignBegin=241101|AlignEnd=241298|Gloss=2Plur.Perf.Neg
+2	bàsù	bàsù	AUX	_	Aspect=PerfNeg|Number=Plur|Person=2|Polarity=Neg	0	root	_	AlignBegin=241101|AlignEnd=241298|Gloss=2Plur.PerfNeg
 3	àmsaː	ams-	VERB	_	_	2	mod	_	AlignBegin=241298|AlignEnd=241495|Gloss=collect
 4	ba	ba	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=241495|AlignEnd=241692|Gloss=Neg
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=241692|AlignEnd=241887|Gloss=PUNCT
@@ -2204,7 +2204,7 @@
 2	ta	sukà	AUX	_	Aspect=PerfBkg|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=280430|AlignEnd=280542|Gloss=3Fem.Perf.Bkg
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=280542|AlignEnd=280654|Gloss=say
 4	mèː	mèː	PRON	_	_	3	comp:obj	_	AlignBegin=280767|AlignEnd=280948|Gloss=what
-5	yakèː	kèː/kà	AUX	_	Aspect=ProgBkg|Background=Yes|Gender=Masc|Person=3	4	comp:cleft	_	AlignBegin=280948|AlignEnd=281129|Gloss=3Masc.Prog.Bkg
+5	yakèː	kèː/kà	AUX	_	Aspect=ProgBkg|Background=Yes|Gender=Masc|Person=3	4	comp:cleft	_	AlignBegin=280948|AlignEnd=281129|Gloss=3Masc.ProgBkg
 6	checking	checking	VERB	_	Foreign=Yes	5	comp:aux	_	AlignBegin=281129|AlignEnd=281310|Gloss=checking|Lang=en
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=281310|AlignEnd=281491|Gloss=PUNCT
 
@@ -2471,7 +2471,7 @@
 # text = ƙanèn bài yàdda ba //
 # text_en = The younger brother did not agree.
 1	ƙanèn	ƙanèː	NOUN	_	Definite=Def	2	subj	_	AlignBegin=309229|AlignEnd=309333|Gloss=younger_brother.Def|wordform=ƙanèː
-2	bài	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=309437|AlignEnd=309645|Gloss=3Masc.Perf.Neg
+2	bài	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=309437|AlignEnd=309645|Gloss=3Masc.PerfNeg
 3	yàdda	yar̃d-	VERB	_	_	2	comp:aux	_	AlignBegin=309645|AlignEnd=309853|Gloss=agree
 4	ba	ba	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=309853|AlignEnd=310061|Gloss=Neg
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=309853|AlignEnd=310061|Gloss=PUNCT
@@ -3181,7 +3181,7 @@
 1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=393114|AlignEnd=393281|Gloss=well
 2	but	but	CCONJ	_	Foreign=Yes	4	discourse	_	AlignBegin=393281|AlignEnd=393448|Gloss=but|Lang=en
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=393448|AlignEnd=393614|Gloss=PUNCT
-4	bàʼà	bàsù	AUX	_	Aspect=PerfNeg|Person=4|Polarity=Neg	0	root	_	AlignBegin=393614|AlignEnd=393838|Gloss=4.Perf.Neg
+4	bàʼà	bàsù	AUX	_	Aspect=PerfNeg|Person=4|Polarity=Neg	0	root	_	AlignBegin=393614|AlignEnd=393838|Gloss=4.PerfNeg
 5	sàːmeː	saːm-	VERB	_	_	4	comp:aux	_	AlignBegin=393838|AlignEnd=393950|Gloss=find
 6	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=394062|AlignEnd=394286|Gloss=3Masc
 7	ba	ba	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=394286|AlignEnd=394510|Gloss=Neg
@@ -3268,7 +3268,7 @@
 10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=403844|AlignEnd=404040|Gloss=PUNCT
 11	wai	wai	ADV	_	_	13	discourse	_	AlignBegin=404040|AlignEnd=404244|Gloss=EVD
 12	<	<	PUNCT	_	_	11	punct	_	AlignBegin=404244|AlignEnd=404448|Gloss=PUNCT
-13	baːtà	baːsàː/baːsù	AUX	_	Aspect=ProgNeg|Gender=Fem|Person=3|Polarity=Neg	4	comp:obj	_	AlignBegin=404861|AlignEnd=405055|Gloss=3Fem.Prog.Neg
+13	baːtà	baːsàː/baːsù	AUX	_	Aspect=ProgNeg|Gender=Fem|Person=3|Polarity=Neg	4	comp:obj	_	AlignBegin=404861|AlignEnd=405055|Gloss=3Fem.ProgNeg
 14	iyàː	iyàː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=405055|AlignEnd=405249|Gloss=can.Vnoun
 15	ba	ba	ADV	_	Polarity=Neg	13	mod	_	AlignBegin=405249|AlignEnd=405443|Gloss=Neg
 16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=405443|AlignEnd=405636|Gloss=PUNCT
@@ -3282,7 +3282,7 @@
 # text_en = He said she was no good.
 1	ya	sukà	AUX	_	Aspect=PerfBkg|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=406475|AlignEnd=406548|Gloss=3Masc.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=406548|AlignEnd=406621|Gloss=say
-3	baːtà	baːsàː/baːsù	AUX	_	Aspect=ProgNeg|Number=Plur|Person=3|Polarity=Neg	2	comp:obj	_	AlignBegin=406694|AlignEnd=406878|Gloss=3Plur.Prog.Neg
+3	baːtà	baːsàː/baːsù	AUX	_	Aspect=ProgNeg|Number=Plur|Person=3|Polarity=Neg	2	comp:obj	_	AlignBegin=406694|AlignEnd=406878|Gloss=3Plur.ProgNeg
 4	iyàː	iyàː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=406878|AlignEnd=407062|Gloss=can.Vnoun
 5	ba	ba	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=407062|AlignEnd=407246|Gloss=Neg
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=407246|AlignEnd=407428|Gloss=PUNCT

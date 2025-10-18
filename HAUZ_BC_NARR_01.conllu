@@ -135,7 +135,7 @@
 # phonetic_text = bài tankàː ba //
 # text = bài tankàː ba //
 # text_en = He did not answer.
-1	bài	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=24470|AlignEnd=24740|Gloss=3Masc.Perf.Neg
+1	bài	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=24470|AlignEnd=24740|Gloss=3Masc.PerfNeg
 2	tankàː	tank-	VERB	_	_	1	comp:aux	_	AlignBegin=24740|AlignEnd=25010|Gloss=answer
 3	ba	ba	ADV	_	Polarity=Neg	1	mod	_	AlignBegin=25010|AlignEnd=25280|Gloss=Neg
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=25280|AlignEnd=25550|Gloss=PUNCT
@@ -162,7 +162,7 @@
 # phonetic_text = bài tankàː ba //
 # text = bài tankàː ba //
 # text_en = he did not answer.
-1	bài	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=27180|AlignEnd=27423|Gloss=Gloss=3Masc.Perf.Neg
+1	bài	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=27180|AlignEnd=27423|Gloss=Gloss=3Masc.PerfNeg
 2	tankàː	tank-	VERB	_	_	1	comp:aux	_	AlignBegin=27423|AlignEnd=27666|Gloss=answer
 3	ba	ba	ADV	_	Polarity=Neg	1	mod	_	AlignBegin=27666|AlignEnd=27909|Gloss=Neg
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=27909|AlignEnd=28151|Gloss=PUNCT
@@ -231,7 +231,7 @@
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=33598|AlignEnd=33724|Gloss=say
 4	keː	keː	PRON	_	Gender=Fem|Person=2|PronType=Prs	5	vocative	_	AlignBegin=33852|AlignEnd=34080|Gloss=2Fem.Nom
 5	mèː	mèː	PRON	_	PronType=Int	3	comp:obj	_	AlignBegin=34309|AlignEnd=34535|Gloss=what
-6	kikèː	kèː/kà	AUX	_	Aspect=ProgBkg|Background=Yes|Gender=Fem|Person=2	5	comp:cleft	_	AlignBegin=34535|AlignEnd=34761|Gloss=2Fem.Prog.Bkg
+6	kikèː	kèː/kà	AUX	_	Aspect=ProgBkg|Background=Yes|Gender=Fem|Person=2	5	comp:cleft	_	AlignBegin=34535|AlignEnd=34761|Gloss=2Fem.ProgBkg
 7	neːmaː	neːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=34761|AlignEnd=34987|Gloss=look_for.Vnoun
 8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=34987|AlignEnd=35214|Gloss=PUNCT
 
@@ -387,7 +387,7 @@
 # phonetic_text = bàsù ci koːmeː ba //
 # text = bàsù ci koːmeː ba //
 # text_en = They hadn't eaten anything.
-1	bàsù	bàsù	AUX	_	Aspect=PerfNeg|Number=Plur|Person=2|Polarity=Neg	0	root	_	AlignBegin=51690|AlignEnd=51876|Gloss=3Plur.Perf.Neg
+1	bàsù	bàsù	AUX	_	Aspect=PerfNeg|Number=Plur|Person=2|Polarity=Neg	0	root	_	AlignBegin=51690|AlignEnd=51876|Gloss=3Plur.PerfNeg
 2	ci	ci	VERB	_	_	1	comp:aux	_	AlignBegin=51876|AlignEnd=52062|Gloss=eat
 3	koːmeː	koːmeː	PRON	_	PronType=Ind	2	comp:obj	_	AlignBegin=52062|AlignEnd=52248|Gloss=anything
 4	ba	ba	ADV	_	Polarity=Neg	1	mod	_	AlignBegin=52248|AlignEnd=52434|Gloss=Neg
@@ -435,7 +435,7 @@
 10	sunàː	nàː/kèː	AUX	_	Aspect=Prog|Number=Plur|Person=3	7	conj:redup	_	AlignBegin=56681|AlignEnd=56875|Gloss=3Plur.Prog
 11	tàfe	taf-	VERB	_	_	10	comp:aux	_	AlignBegin=56875|AlignEnd=57069|Gloss=go.Stat
 12	dai	dai	TopPART	_	_	10	discourse	_	AlignBegin=57069|AlignEnd=57263|Gloss=indeed
-13	bàsù	bàsù	AUX	_	Aspect=PerfNeg|Number=Plur|Person=2|Polarity=Neg	10	parataxis	_	AlignBegin=58029|AlignEnd=58249|Gloss=3Plur.Perf.Neg
+13	bàsù	bàsù	AUX	_	Aspect=PerfNeg|Number=Plur|Person=2|Polarity=Neg	10	parataxis	_	AlignBegin=58029|AlignEnd=58249|Gloss=3Plur.PerfNeg
 14	ga	ganiː	VERB	_	_	13	comp:aux	_	AlignBegin=58249|AlignEnd=58469|Gloss=see
 15	hanyàn	hanyàː	NOUN	_	Definite=Cons	14	comp:obj	_	AlignBegin=58469|AlignEnd=58579|Gloss=road.Cons|wordform=hanyàː
 16	ràːfiː	ràːfiː	NOUN	_	_	15	mod	_	AlignBegin=58689|AlignEnd=58909|Gloss=river
@@ -999,7 +999,7 @@
 # text_en = Going , for him, that's what he wants.
 1	tàfiyàː	taf-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	0	root	_	AlignBegin=129437|AlignEnd=129671|Gloss=go.Vnoun
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=129904|AlignEnd=130068|Gloss=3Masc.Nom
-3	yakèː	kèː/kà	AUX	_	Aspect=ProgBkg|Background=Yes|Gender=Masc|Person=3	1	comp:cleft	_	AlignBegin=130068|AlignEnd=130232|Gloss=3Masc.Prog.Bkg
+3	yakèː	kèː/kà	AUX	_	Aspect=ProgBkg|Background=Yes|Gender=Masc|Person=3	1	comp:cleft	_	AlignBegin=130068|AlignEnd=130232|Gloss=3Masc.ProgBkg
 4	sôː	sôː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=130232|AlignEnd=130396|Gloss=want.Vnoun
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=130396|AlignEnd=130562|Gloss=PUNCT
 
@@ -1321,7 +1321,7 @@
 # phonetic_text = bài zama naːmàː -ǹ ba //
 # text = bài zama naːmàn ba //
 # text_en = he did not turn into meat!
-1	bài	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=166469|AlignEnd=166663|Gloss=Gloss=3Masc.Perf.Neg
+1	bài	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=166469|AlignEnd=166663|Gloss=Gloss=3Masc.PerfNeg
 2	zama	zama	VERB	_	_	1	comp:aux	_	AlignBegin=166663|AlignEnd=166857|Gloss=become
 3	naːmàn	naːmàː	NOUN	_	_	2	comp:pred	_	AlignBegin=166857|AlignEnd=166954|Gloss=meat.Def
 4	ba	ba	ADV	_	Polarity=Neg	1	mod	_	AlignBegin=167051|AlignEnd=167245|Gloss=Neg
@@ -1481,7 +1481,7 @@
 # text_en = He said I did not eat anything.
 1	ya	sukà	AUX	_	Aspect=PerfBkg|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=184772|AlignEnd=184875|Gloss=3Masc.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=184875|AlignEnd=184978|Gloss=say
-3	bàn	bàsù	AUX	_	Aspect=PerfNeg|Number=Sing|Person=1|Polarity=Neg	2	comp:obj	_	AlignBegin=185080|AlignEnd=185230|Gloss=1Sing.Perf.Neg
+3	bàn	bàsù	AUX	_	Aspect=PerfNeg|Number=Sing|Person=1|Polarity=Neg	2	comp:obj	_	AlignBegin=185080|AlignEnd=185230|Gloss=1Sing.PerfNeg
 4	ci	ci	VERB	_	_	3	comp:aux	_	AlignBegin=185230|AlignEnd=185380|Gloss=eat
 5	koːmeː	koːmeː	PRON	_	PronType=Ind	4	comp:obj	_	AlignBegin=185380|AlignEnd=185530|Gloss=anything
 6	ba	ba	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=185530|AlignEnd=185680|Gloss=Neg
@@ -1585,7 +1585,7 @@
 # text = shiː / bài ci koːmeː ba / à ruwaː ba //
 # text_en = As for him, he did not eat anything in the water.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	dislocated@subj	_	AlignBegin=193656|AlignEnd=193754|Gloss=3Masc.Nom
-2	bài	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=193853|AlignEnd=194004|Gloss=Gloss=3Masc.Perf.Neg
+2	bài	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=3|Polarity=Neg	0	root	_	AlignBegin=193853|AlignEnd=194004|Gloss=Gloss=3Masc.PerfNeg
 3	ci	ci	VERB	_	_	2	comp:aux	_	AlignBegin=194004|AlignEnd=194155|Gloss=eat
 4	koːmeː	koːmeː	PRON	_	PronType=Ind	3	comp:obj	_	AlignBegin=194155|AlignEnd=194306|Gloss=anything
 5	ba	ba	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=194306|AlignEnd=194457|Gloss=Neg
@@ -1879,7 +1879,7 @@
 1	ya	sukà	AUX	_	Aspect=PerfBkg|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=232820|AlignEnd=232917|Gloss=3Masc.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=232917|AlignEnd=233014|Gloss=say
 3	kai	kai	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	vocative	_	AlignBegin=233111|AlignEnd=233325|Gloss=2Masc.Nom
-4	bàkà	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=2|Polarity=Neg	2	comp:obj	_	AlignBegin=233325|AlignEnd=233539|Gloss=2Masc.Perf.Neg
+4	bàkà	bàsù	AUX	_	Aspect=PerfNeg|Gender=Masc|Person=2|Polarity=Neg	2	comp:obj	_	AlignBegin=233325|AlignEnd=233539|Gloss=2Masc.PerfNeg
 5	san	sanìː	VERB	_	_	4	comp:aux	_	AlignBegin=233539|AlignEnd=233753|Gloss=know
 6	gàrin	gàriː	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=233753|AlignEnd=233860|Gloss=town.Cons|wordform=gàriː
 7	Gwànjoː	Gwànjoː	PROPN	_	_	6	compound	_	AlignBegin=233967|AlignEnd=234181|Gloss=Gwanjo
