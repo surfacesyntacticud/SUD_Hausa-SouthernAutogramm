@@ -1530,10 +1530,10 @@
 # phonetic_text = shiː nèː dà &//
 # text = shiː nèː dà &//
 # text_en = That's why..
-1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root@scrap	_	AlignBegin=196012|AlignEnd=196203|Gloss=3Masc.Nom
-2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=196203|AlignEnd=196394|Gloss=be
-3	dà	dà	ADP	_	_	1	unk@scrap	_	AlignBegin=196394|AlignEnd=196585|Gloss=with
-4	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=196585|AlignEnd=196776|Gloss=PUNCT
+1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	comp:pred	_	AlignBegin=196012|AlignEnd=196203|Gloss=3Masc.Nom
+2	nèː	neː/ceː	FocPART	_	_	0	root@scrap	_	AlignBegin=196203|AlignEnd=196394|Gloss=be
+3	dà	dà	ADP	_	_	2	unk@scrap	_	AlignBegin=196394|AlignEnd=196585|Gloss=with
+4	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=196585|AlignEnd=196776|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__113
 # speaker_id = SP2
@@ -2295,14 +2295,14 @@
 # phonetic_text = dà ya juːyàː / tòː shiː nèː &//
 # text = dà ya juːyàː / tòː shiː nèː &//
 # text_en = As he substituted, well, OK...
-1	dà	dà	SCONJ	_	_	6	mod	_	AlignBegin=290052|AlignEnd=290245|Gloss=as
+1	dà	dà	SCONJ	_	_	7	mod	_	AlignBegin=290052|AlignEnd=290245|Gloss=as
 2	ya	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Gender=Masc|Person=3	1	comp:obj	_	AlignBegin=290245|AlignEnd=290438|Gloss=3Masc.Perf.Bkg
 3	juːyàː	juːy-	VERB	_	_	2	comp:aux	_	AlignBegin=290438|AlignEnd=290631|Gloss=change
-4	<	<	PUNCT	_	_	6	punct	_	AlignBegin=290631|AlignEnd=290825|Gloss=PUNCT
-5	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=291520|AlignEnd=291701|Gloss=well
-6	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root@scrap	_	AlignBegin=291701|AlignEnd=291882|Gloss=3Masc.Nom
-7	nèː	neː/ceː	FocPART	_	_	6	discourse@foc	_	AlignBegin=291882|AlignEnd=292063|Gloss=be
-8	&//	&//	PUNCT	_	_	6	punct	_	AlignBegin=292063|AlignEnd=292243|Gloss=PUNCT
+4	<	<	PUNCT	_	_	7	punct	_	AlignBegin=290631|AlignEnd=290825|Gloss=PUNCT
+5	tòː	tòː	INTJ	_	_	7	discourse	_	AlignBegin=291520|AlignEnd=291701|Gloss=well
+6	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	comp:pred	_	AlignBegin=291701|AlignEnd=291882|Gloss=3Masc.Nom
+7	nèː	neː/ceː	FocPART	_	_	0	root@scrap	_	AlignBegin=291882|AlignEnd=292063|Gloss=be
+8	&//	&//	PUNCT	_	_	7	punct	_	AlignBegin=292063|AlignEnd=292243|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__160
 # speaker_id = SP1
@@ -2376,10 +2376,10 @@
 # phonetic_text = tòː shiː nèː //
 # text = tòː shiː nèː //
 # text_en = OK.
-1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=301455|AlignEnd=301605|Gloss=well
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=301605|AlignEnd=301755|Gloss=3Masc.Nom
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=301755|AlignEnd=301905|Gloss=be
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=301905|AlignEnd=302055|Gloss=PUNCT
+1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=301455|AlignEnd=301605|Gloss=well
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=301605|AlignEnd=301755|Gloss=3Masc.Nom
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=301755|AlignEnd=301905|Gloss=be
+4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=301905|AlignEnd=302055|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__165
 # speaker_id = SP1
@@ -2448,11 +2448,11 @@
 # phonetic_text = tòː shiː nèː fa //
 # text = tòː shiː nèː fa //
 # text_en = Well, that's it.
-1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=308481|AlignEnd=308631|Gloss=well
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=308631|AlignEnd=308781|Gloss=3Masc.Nom
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=308781|AlignEnd=308931|Gloss=be
-4	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=308931|AlignEnd=309081|Gloss=indeed
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=309081|AlignEnd=309229|Gloss=PUNCT
+1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=308481|AlignEnd=308631|Gloss=well
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=308631|AlignEnd=308781|Gloss=3Masc.Nom
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=308781|AlignEnd=308931|Gloss=be
+4	fa	fa	TopPART	_	_	3	discourse	_	AlignBegin=308931|AlignEnd=309081|Gloss=indeed
+5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=309081|AlignEnd=309229|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__170
 # speaker_id = SP1
@@ -2616,12 +2616,12 @@
 # phonetic_text = kin sanìː ita bàːƙuwaː cèː //
 # text = kin san ita bàːƙuwaː cèː //
 # text_en = You know, she was a stranger.
-1	kin	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=2	4	discourse	_	AlignBegin=325965|AlignEnd=326160|Gloss=2Fem.Perf
+1	kin	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=2	5	discourse	_	AlignBegin=325965|AlignEnd=326160|Gloss=2Fem.Perf
 2	sanìː	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=326160|AlignEnd=326355|Gloss=know
-3	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	4	dislocated	_	AlignBegin=326355|AlignEnd=326550|Gloss=3Fem.Nom
-4	bàːƙuwaː	bàːƙuwaː	NOUN	_	Gender=Fem	0	root	_	AlignBegin=326550|AlignEnd=326745|Gloss=stranger.Fem
-5	cèː	neː/ceː	FocPART	_	_	4	discourse@foc	_	AlignBegin=326745|AlignEnd=326940|Gloss=be
-6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=326940|AlignEnd=327136|Gloss=PUNCT
+3	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	5	dislocated	_	AlignBegin=326355|AlignEnd=326550|Gloss=3Fem.Nom
+4	bàːƙuwaː	bàːƙuwaː	NOUN	_	Gender=Fem	5	comp:pred	_	AlignBegin=326550|AlignEnd=326745|Gloss=stranger.Fem
+5	cèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=326745|AlignEnd=326940|Gloss=be
+6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=326940|AlignEnd=327136|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__182
 # speaker_id = SP2
@@ -2737,11 +2737,11 @@
 # phonetic_text = tòː shiː nèː fa //
 # text = tòː shiː nèː fa //
 # text_en = Well that's it.
-1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=339470|AlignEnd=339614|Gloss=well
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=339614|AlignEnd=339758|Gloss=3Masc.Nom
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=339758|AlignEnd=339902|Gloss=be
-4	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=339902|AlignEnd=340046|Gloss=indeed
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=340046|AlignEnd=340191|Gloss=PUNCT
+1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=339470|AlignEnd=339614|Gloss=well
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=339614|AlignEnd=339758|Gloss=3Masc.Nom
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=339758|AlignEnd=339902|Gloss=be
+4	fa	fa	TopPART	_	_	3	discourse	_	AlignBegin=339902|AlignEnd=340046|Gloss=indeed
+5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=340046|AlignEnd=340191|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__189
 # speaker_id = SP1

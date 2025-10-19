@@ -350,13 +350,13 @@
 # phonetic_text = koː / Najùːmi nèː koː wàː nèː nèː // koː Muːsa aːʼàː / bàːba -n -sù wannàn Hamiːdù //
 # text = koː Najùːmi nèː koː wǎːi neː ?//
 # text_en = Is it Najumi, or who?
-1	koː	koː	CCONJ	_	_	2	cc	_	AlignBegin=42474|AlignEnd=42635|Gloss=or|PartType=Int
-2	Najùːmi	Najùːmi	PROPN	_	_	0	root	_	AlignBegin=42796|AlignEnd=42957|Gloss=Cons
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=42957|AlignEnd=43118|Gloss=be
-4	koː	koː	CCONJ	_	_	5	cc	_	AlignBegin=43118|AlignEnd=43279|Gloss=or
-5	wǎːi	wàːneː	PRON	_	PronType=Int	2	conj:coord	_	AlignBegin=43279|AlignEnd=43440|Gloss=who
-6	neː	neː/ceː	FocPART	_	_	5	discourse@foc	_	AlignBegin=43440|AlignEnd=43601|Gloss=be
-7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=43762|AlignEnd=43922|Gloss=PUNCT
+1	koː	koː	CCONJ	_	_	3	cc@preconj	_	AlignBegin=42474|AlignEnd=42635|Gloss=or|PartType=Int
+2	Najùːmi	Najùːmi	PROPN	_	_	3	comp:pred	_	AlignBegin=42796|AlignEnd=42957|Gloss=Cons
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=42957|AlignEnd=43118|Gloss=be
+4	koː	koː	CCONJ	_	_	6	cc	_	AlignBegin=43118|AlignEnd=43279|Gloss=or
+5	wǎːi	wàːneː	PRON	_	PronType=Int	6	comp:pred	_	AlignBegin=43279|AlignEnd=43440|Gloss=who
+6	neː	neː/ceː	FocPART	_	_	3	conj:coord	_	AlignBegin=43440|AlignEnd=43601|Gloss=be
+7	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=43762|AlignEnd=43922|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0037-0037
 # speaker_id = SP1
@@ -400,10 +400,10 @@
 # phonetic_text = shiː nèː koː //
 # text = shiː nèː koː ?//
 # text_en = Is it him?
-1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=46477|AlignEnd=46629|Gloss=3Masc.Nom
-2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=46629|AlignEnd=46781|Gloss=be
-3	koː	koː	CCONJ	_	_	1	cc	_	AlignBegin=46781|AlignEnd=46933|Gloss=or|PartType=Int
-4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=46933|AlignEnd=47085|Gloss=PUNCT
+1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	comp:pred	_	AlignBegin=46477|AlignEnd=46629|Gloss=3Masc.Nom
+2	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=46629|AlignEnd=46781|Gloss=be
+3	koː	koː	CCONJ	_	_	2	discourse	_	AlignBegin=46781|AlignEnd=46933|Gloss=or|PartType=Int
+4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=46933|AlignEnd=47085|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0041-0041
 # speaker_id = SP2
@@ -663,10 +663,10 @@
 # phonetic_text = wânnan ita nèː /
 # text = wânnan ita nèː /
 # text_en = That one, that's it.
-1	wânnan	wânnan	DET	_	Definite=Def	2	dislocated	_	AlignBegin=73015|AlignEnd=73165|Gloss=Def
-2	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	0	root	_	AlignBegin=73165|AlignEnd=73315|Gloss=3Fem.Nom
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=73315|AlignEnd=73465|Gloss=be
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=73465|AlignEnd=73613|Gloss=PUNCT
+1	wânnan	wânnan	DET	_	Definite=Def	3	subj	_	AlignBegin=73015|AlignEnd=73165|Gloss=Def
+2	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=73165|AlignEnd=73315|Gloss=3Fem.Nom
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=73315|AlignEnd=73465|Gloss=be
+4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=73465|AlignEnd=73613|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0068-0068
 # speaker_id = SP1
@@ -1061,17 +1061,17 @@
 # phonetic_text = wasu kuma / cikin -sù / cikin -sù / cikin -sù fìtinàː nèː //
 # text = wasu kuma / cikinsù / cikinsù / cikinsù fìtinàː neː //
 # text_en = Some too, inside them, inside them, inside them, there is trouble.
-1	wasu	wasu	PRON	_	Definite=Spec|Number=Plur|PronType=Ind	9	dislocated	_	AlignBegin=122606|AlignEnd=122842|Gloss=some.Plur
+1	wasu	wasu	PRON	_	Definite=Spec|Number=Plur|PronType=Ind	10	dislocated@top	_	AlignBegin=122606|AlignEnd=122842|Gloss=some.Plur
 2	kuma	kuma	TopPART	_	_	1	discourse	_	AlignBegin=122842|AlignEnd=123078|Gloss=too
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=123078|AlignEnd=123313|Gloss=PUNCT
-4	cikinsù	cikin	ADP	_	_	9	dislocated@mod	_	AlignBegin=123313|AlignEnd=123507|Gloss=inside.3Plur.Gen|wordform=cikin
+4	cikinsù	cikin	ADP	_	_	10	mod	_	AlignBegin=123313|AlignEnd=123507|Gloss=inside.3Plur.Gen|wordform=cikin
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=123701|AlignEnd=124090|Gloss=PUNCT
 6	cikinsù	cikin	ADP	_	_	4	conj:dicto	_	AlignBegin=124090|AlignEnd=124232|Gloss=inside.3Plur.Gen|wordform=cikin
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=124374|AlignEnd=124658|Gloss=PUNCT
 8	cikinsù	cikin	ADP	_	_	6	conj:dicto	_	AlignBegin=124658|AlignEnd=124770|Gloss=inside.3Plur.Gen|wordform=cikin
-9	fìtinàː	fìtinàː	NOUN	_	_	0	root	_	AlignBegin=124883|AlignEnd=125108|Gloss=disturbance
-10	nèː	neː/ceː	FocPART	_	_	9	discourse@foc	_	AlignBegin=125108|AlignEnd=125333|Gloss=be
-11	//	//	PUNCT	_	_	9	punct	_	AlignBegin=125333|AlignEnd=125557|Gloss=PUNCT
+9	fìtinàː	fìtinàː	NOUN	_	_	10	comp:pred	_	AlignBegin=124883|AlignEnd=125108|Gloss=disturbance
+10	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=125108|AlignEnd=125333|Gloss=be
+11	//	//	PUNCT	_	_	10	punct	_	AlignBegin=125333|AlignEnd=125557|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0107-0107
 # speaker_id = SP1
@@ -1080,9 +1080,9 @@
 # phonetic_text = gubàː nèː //
 # text = gubàː neː //
 # text_en = It's poison.
-1	gubàː	gubàː	NOUN	_	_	0	root	_	AlignBegin=125880|AlignEnd=126065|Gloss=poison
-2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=126065|AlignEnd=126250|Gloss=be
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=126250|AlignEnd=126435|Gloss=PUNCT
+1	gubàː	gubàː	NOUN	_	_	2	comp:pred	_	AlignBegin=125880|AlignEnd=126065|Gloss=poison
+2	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=126065|AlignEnd=126250|Gloss=be
+3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=126250|AlignEnd=126435|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0108-0108
 # speaker_id = SP2
@@ -1452,14 +1452,14 @@
 # phonetic_text = dan irìː -n -sù / kuma suː nèː màːsu ɗan kaːwoː kuɗiː -ǹ //
 # text = kuma suː nèː màːsu ɗan kaːwoː kuɗîn //
 # text_en = And it's them who attract the money.
-1	kuma	kuma	TopPART	_	_	2	discourse	_	AlignBegin=172664|AlignEnd=172840|Gloss=too
-2	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	0	root	_	AlignBegin=172840|AlignEnd=173016|Gloss=3Plur.Nom
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=173016|AlignEnd=173192|Gloss=be
-4	màːsu	màːsu	ADP	_	Number=Plur|PronType=Rel	2	dislocated@subj	_	AlignBegin=173192|AlignEnd=173368|Gloss=having.Plur|Linker=Yes
+1	kuma	kuma	TopPART	_	_	3	discourse	_	AlignBegin=172664|AlignEnd=172840|Gloss=too
+2	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	comp:pred	_	AlignBegin=172840|AlignEnd=173016|Gloss=3Plur.Nom
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=173016|AlignEnd=173192|Gloss=be
+4	màːsu	màːsu	ADP	_	Number=Plur|PronType=Rel	3	dislocated@subj	_	AlignBegin=173192|AlignEnd=173368|Gloss=having.Plur|Linker=Yes
 5	ɗan	ɗan	ADV	_	_	6	mod	_	AlignBegin=173368|AlignEnd=173544|Gloss=DIM
 6	kaːwoː	kay	VERB	_	_	4	comp:obj	_	AlignBegin=173544|AlignEnd=173720|Gloss=carry.DIR
 7	kuɗîn	kuɗiː	NOUN	_	_	6	comp:obj	_	AlignBegin=173720|AlignEnd=173808|Gloss=money.Def|wordform=kuɗiː
-8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=173896|AlignEnd=174073|Gloss=PUNCT
+8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=173896|AlignEnd=174073|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0146-0146
 # speaker_id = SP2
@@ -1567,11 +1567,11 @@
 # phonetic_text = tòː shiː nèː maː in an ɗan jeː an saːmù -i kaːyaː -n haɗìː -n //
 # text = tòː shiː nèː maː in an ɗan jeː an sàːmi kaːyan haɗîn //
 # text_en = Well, that's if you go and get the ingredients (yourself).
-1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=185339|AlignEnd=185502|Gloss=well
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=185502|AlignEnd=185665|Gloss=3Masc.Nom
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=185665|AlignEnd=185828|Gloss=be
-4	maː	maː	TopPART	_	_	2	discourse	_	AlignBegin=185828|AlignEnd=185991|Gloss=even
-5	in	in	SCONJ	_	_	2	mod	_	AlignBegin=185991|AlignEnd=186154|Gloss=if
+1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=185339|AlignEnd=185502|Gloss=well
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=185502|AlignEnd=185665|Gloss=3Masc.Nom
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=185665|AlignEnd=185828|Gloss=be
+4	maː	maː	TopPART	_	_	3	discourse	_	AlignBegin=185828|AlignEnd=185991|Gloss=even
+5	in	in	SCONJ	_	_	3	mod	_	AlignBegin=185991|AlignEnd=186154|Gloss=if
 6	an	yaː	AUX	_	Aspect=Perf|Person=4	5	comp:obj	_	AlignBegin=186154|AlignEnd=186317|Gloss=4.Perf
 7	ɗan	ɗan	ADV	_	_	8	mod	_	AlignBegin=186317|AlignEnd=186480|Gloss=DIM
 8	jeː	jeː	VERB	_	_	6	comp:aux	_	AlignBegin=186480|AlignEnd=186643|Gloss=go
@@ -1579,7 +1579,7 @@
 10	sàːmi	saːm-	VERB	_	_	9	comp:aux	_	AlignBegin=186806|AlignEnd=186888|Gloss=get
 11	kaːyan	kaːyaː	NOUN	_	Definite=Cons	10	comp:obj	_	AlignBegin=186969|AlignEnd=187051|Gloss=things.Cons|wordform=kaːyaː
 12	haɗîn	haɗ-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	11	mod	_	AlignBegin=187132|AlignEnd=187214|Gloss=mix.Vnoun.Def|wordform=haɗìː
-13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=187295|AlignEnd=187457|Gloss=PUNCT
+13	//	//	PUNCT	_	_	3	punct	_	AlignBegin=187295|AlignEnd=187457|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0155-0156
 # speaker_id = SP1
@@ -1605,13 +1605,13 @@
 # phonetic_text = koː bàː Muːsaː Yàngaː ba nèː //
 # text = koː bàː Muːsaː Yàngaː ba nèː ?//
 # text_en = Or isn't it Musa Yanga?
-1	koː	koː	CCONJ	_	_	3	cc	_	AlignBegin=189283|AlignEnd=189420|Gloss=or
+1	koː	koː	CCONJ	_	_	6	discourse	_	AlignBegin=189283|AlignEnd=189420|Gloss=or
 2	bàː	bàː	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=189420|AlignEnd=189557|Gloss=Neg
-3	Muːsaː	Muːsaː	PROPN	_	_	0	root	_	AlignBegin=189557|AlignEnd=189694|Gloss=Musa
+3	Muːsaː	Muːsaː	PROPN	_	_	6	comp:pred	_	AlignBegin=189557|AlignEnd=189694|Gloss=Musa
 4	Yàngaː	Yàngaː	PROPN	_	_	3	flat@name	_	AlignBegin=189694|AlignEnd=189831|Gloss=Yanga
 5	ba	ba	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=189831|AlignEnd=189968|Gloss=Neg
-6	nèː	neː/ceː	FocPART	_	_	3	discourse@foc	_	AlignBegin=189968|AlignEnd=190105|Gloss=be
-7	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=190105|AlignEnd=190244|Gloss=PUNCT
+6	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=189968|AlignEnd=190105|Gloss=be
+7	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=190105|AlignEnd=190244|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0158-0158
 # speaker_id = SP1
@@ -1678,15 +1678,15 @@
 # phonetic_text = tundà kaː sanìː / dâː ai / sâiwaː -oːCiː\H nèː //
 # text = tundà kaː san < dâː ai saiwoːyiː nèː //
 # text_en = Since as you know, in the old days, there were roots.
-1	tundà	tundà	SCONJ	_	_	7	discourse	_	AlignBegin=194914|AlignEnd=195123|Gloss=since
-2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	discourse	_	AlignBegin=195123|AlignEnd=195332|Gloss=2Masc.Perf
+1	tundà	tundà	SCONJ	_	_	8	discourse	_	AlignBegin=194914|AlignEnd=195123|Gloss=since
+2	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	8	discourse	_	AlignBegin=195123|AlignEnd=195332|Gloss=2Masc.Perf
 3	san	sanìː	VERB	_	_	2	comp:aux	_	AlignBegin=195332|AlignEnd=195541|Gloss=know
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=195541|AlignEnd=195750|Gloss=PUNCT
-5	dâː	dâː	ADV	_	_	7	discourse	_	AlignBegin=195750|AlignEnd=195959|Gloss=formerly
+5	dâː	dâː	ADV	_	_	8	discourse	_	AlignBegin=195750|AlignEnd=195959|Gloss=formerly
 6	ai	ai	INTJ	_	_	5	discourse	_	AlignBegin=195959|AlignEnd=196168|Gloss=indeed
-7	saiwoːyiː	sâiwaː	NOUN	_	Number=Plur	0	root	_	AlignBegin=196377|AlignEnd=196481|Gloss=root.Plur|wordform=sâiwaː
-8	nèː	neː/ceː	FocPART	_	_	7	discourse@foc	_	AlignBegin=196586|AlignEnd=196795|Gloss=be
-9	//	//	PUNCT	_	_	7	punct	_	AlignBegin=196795|AlignEnd=197000|Gloss=PUNCT
+7	saiwoːyiː	sâiwaː	NOUN	_	Number=Plur	8	comp:pred	_	AlignBegin=196377|AlignEnd=196481|Gloss=root.Plur|wordform=sâiwaː
+8	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=196586|AlignEnd=196795|Gloss=be
+9	//	//	PUNCT	_	_	8	punct	_	AlignBegin=196795|AlignEnd=197000|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0163-0164
 # speaker_id = SP1
@@ -2250,14 +2250,14 @@
 # phonetic_text = loːkàciː -ǹ / kwabòː nèː ai kuɗiː -n  //
 # text = loːkàcîn / kwabòː neː ai kuɗin bìr̃êːk //
 # text_en = At that time, breakfast used to cost one kobo.
-1	loːkàcîn	loːkàciː	NOUN	_	_	3	mod	_	AlignBegin=270194|AlignEnd=270319|Gloss=time.Def|wordform=loːkàciː
+1	loːkàcîn	loːkàciː	NOUN	_	_	4	mod	_	AlignBegin=270194|AlignEnd=270319|Gloss=time.Def|wordform=loːkàciː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=270444|AlignEnd=270694|Gloss=PUNCT
-3	kwabòː	kwabòː	NOUN	_	_	0	root	_	AlignBegin=271811|AlignEnd=272022|Gloss=kobo
-4	nèː	neː/ceː	FocPART	_	_	3	discourse@foc	_	AlignBegin=272022|AlignEnd=272233|Gloss=be
-5	ai	ai	INTJ	_	_	3	discourse	_	AlignBegin=272233|AlignEnd=272444|Gloss=indeed
-6	kuɗin	kuɗiː	NOUN	_	Definite=Cons	3	dislocated@subj	_	AlignBegin=272444|AlignEnd=272550|Gloss=money.Cons|wordform=kuɗiː
+3	kwabòː	kwabòː	NOUN	_	_	4	comp:pred	_	AlignBegin=271811|AlignEnd=272022|Gloss=kobo
+4	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=272022|AlignEnd=272233|Gloss=be
+5	ai	ai	INTJ	_	_	4	discourse	_	AlignBegin=272233|AlignEnd=272444|Gloss=indeed
+6	kuɗin	kuɗiː	NOUN	_	Definite=Cons	4	dislocated@subj	_	AlignBegin=272444|AlignEnd=272550|Gloss=money.Cons|wordform=kuɗiː
 7	bìr̃êːk	bìr̃êːk	NOUN	_	Foreign=Yes	6	mod	_	AlignBegin=272655|AlignEnd=272866|Gloss=breakfast|Lang=en
-8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=272866|AlignEnd=273078|Gloss=PUNCT
+8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=272866|AlignEnd=273078|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0224-0226
 # text = kâi / Àllaː hù âkabar̃ < Allàː ji ƙân wandà sukà rigaː mù //
@@ -2448,10 +2448,10 @@
 # phonetic_text = zaːmàniː nèː fa //
 # text = zaːmàniː nèː fa //
 # text_en = That's (our) time indeed.
-1	zaːmàniː	zaːmàniː	NOUN	_	_	0	root	_	AlignBegin=291145|AlignEnd=291355|Gloss=present_time
-2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=291355|AlignEnd=291565|Gloss=be
-3	fa	fa	TopPART	_	_	1	discourse	_	AlignBegin=291565|AlignEnd=291775|Gloss=indeed
-4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=291775|AlignEnd=291983|Gloss=PUNCT
+1	zaːmàniː	zaːmàniː	NOUN	_	_	2	comp:pred	_	AlignBegin=291145|AlignEnd=291355|Gloss=present_time
+2	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=291355|AlignEnd=291565|Gloss=be
+3	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=291565|AlignEnd=291775|Gloss=indeed
+4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=291775|AlignEnd=291983|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0247-0247
 # speaker_id = SP2
@@ -2831,14 +2831,14 @@
 # phonetic_text = kaː ga shiː nèː dubuː biyu kèː nan //
 # text = kaː ga shiː nèː dubuː biyu kèː nan //
 # text_en = You see, now, that's two thousand (naira).
-1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	discourse	_	AlignBegin=346250|AlignEnd=346407|Gloss=2Masc.Perf
+1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	4	discourse	_	AlignBegin=346250|AlignEnd=346407|Gloss=2Masc.Perf
 2	ganiː	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=346407|AlignEnd=346564|Gloss=see
-3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	dislocated	_	AlignBegin=346564|AlignEnd=346721|Gloss=3Masc.Nom
-4	nèː	neː/ceː	FocPART	_	_	5	discourse@foc	_	AlignBegin=346721|AlignEnd=346878|Gloss=be
-5	dubuː	dubuː	NUM	_	_	0	root	_	AlignBegin=346878|AlignEnd=347035|Gloss=thousand
+3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	comp:pred	_	AlignBegin=346564|AlignEnd=346721|Gloss=3Masc.Nom
+4	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=346721|AlignEnd=346878|Gloss=be
+5	dubuː	dubuː	NUM	_	_	4	comp:cleft	_	AlignBegin=346878|AlignEnd=347035|Gloss=thousand
 6	biyu	biyu	NUM	_	_	5	flat@num	_	AlignBegin=347035|AlignEnd=347192|Gloss=two
 7	kèːnan	kèːnan	FocPART	_	_	5	discourse@foc	_	AlignBegin=347192|AlignEnd=347349|Gloss=be.Emp|wordform=kèː
-8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=347506|AlignEnd=347661|Gloss=PUNCT
+8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=347506|AlignEnd=347661|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0288-0288
 # speaker_id = SP2
@@ -3049,12 +3049,12 @@
 # phonetic_text = àmmaː bàː shiː nèː ba //
 # text = àmmaː bàː shiː nèː ba //
 # text_en = But that's not good.
-1	àmmaː	àmmaː	CCONJ	_	_	3	discourse	_	AlignBegin=375854|AlignEnd=375995|Gloss=but
-2	bàː	bàː	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=375995|AlignEnd=376136|Gloss=Neg
-3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=376136|AlignEnd=376277|Gloss=3Masc.Nom
-4	nèː	neː/ceː	FocPART	_	_	3	discourse@foc	_	AlignBegin=376277|AlignEnd=376418|Gloss=be
-5	ba	ba	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=376418|AlignEnd=376559|Gloss=Neg
-6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=376559|AlignEnd=376699|Gloss=PUNCT
+1	àmmaː	àmmaː	CCONJ	_	_	4	discourse	_	AlignBegin=375854|AlignEnd=375995|Gloss=but
+2	bàː	bàː	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=375995|AlignEnd=376136|Gloss=Neg
+3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	comp:pred	_	AlignBegin=376136|AlignEnd=376277|Gloss=3Masc.Nom
+4	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=376277|AlignEnd=376418|Gloss=be
+5	ba	ba	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=376418|AlignEnd=376559|Gloss=Neg
+6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=376559|AlignEnd=376699|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0312-0312
 # speaker_id = SP1
@@ -3220,12 +3220,12 @@
 # phonetic_text = Dàsòːtoː nèː / koː X //
 # text = Dàsòːtoː nèː / koː X &//
 # text_en = Is it Dasoto, or [not transcribed]?
-1	Dàsòːtoː	Dàsòːtoː	PROPN	_	_	0	root@scrap	_	AlignBegin=396961|AlignEnd=397151|Gloss=Dasoto
-2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=397151|AlignEnd=397341|Gloss=be
-3	|c	|c	PUNCT	_	_	1	punct	_	AlignBegin=397341|AlignEnd=397530|Gloss=PUNCT
+1	Dàsòːtoː	Dàsòːtoː	PROPN	_	_	2	comp:pred	_	AlignBegin=396961|AlignEnd=397151|Gloss=Dasoto
+2	nèː	neː/ceː	FocPART	_	_	0	root@scrap	_	AlignBegin=397151|AlignEnd=397341|Gloss=be
+3	|c	|c	PUNCT	_	_	2	punct	_	AlignBegin=397341|AlignEnd=397530|Gloss=PUNCT
 4	koː	koː	CCONJ	_	_	5	cc	_	AlignBegin=397530|AlignEnd=397748|Gloss=or
-5	X	X	X	_	_	1	conj:coord	_	AlignBegin=397748|AlignEnd=397966|Gloss=X
-6	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=397966|AlignEnd=398183|Gloss=PUNCT
+5	X	X	X	_	_	2	conj:coord	_	AlignBegin=397748|AlignEnd=397966|Gloss=X
+6	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=397966|AlignEnd=398183|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0328-0328
 # speaker_id = SP2
@@ -3234,9 +3234,9 @@
 # phonetic_text = ita nèː // dukà sunàː nan // tòː kaː ganiː dukà girmaː -n wuriː -ǹ nan //
 # text = ita nèː //
 # text_en = That's the one.
-1	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	0	root	_	AlignBegin=397706|AlignEnd=397865|Gloss=3Fem.Nom
-2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=397865|AlignEnd=398024|Gloss=be
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=398024|AlignEnd=398183|Gloss=PUNCT
+1	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	2	comp:pred	_	AlignBegin=397706|AlignEnd=397865|Gloss=3Fem.Nom
+2	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=397865|AlignEnd=398024|Gloss=be
+3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=398024|AlignEnd=398183|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0329-0329
 # speaker_id = SP2
@@ -3633,11 +3633,11 @@
 # phonetic_text = tòː shiː nèː ai //
 # text = tòː shiː nèː ai //
 # text_en = That's all!
-1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=457911|AlignEnd=458115|Gloss=well
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=458115|AlignEnd=458319|Gloss=3Masc.Nom
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=458319|AlignEnd=458523|Gloss=be
-4	ai	ai	INTJ	_	_	2	discourse	_	AlignBegin=458523|AlignEnd=458727|Gloss=indeed
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=458727|AlignEnd=458933|Gloss=PUNCT
+1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=457911|AlignEnd=458115|Gloss=well
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=458115|AlignEnd=458319|Gloss=3Masc.Nom
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=458319|AlignEnd=458523|Gloss=be
+4	ai	ai	INTJ	_	_	3	discourse	_	AlignBegin=458523|AlignEnd=458727|Gloss=indeed
+5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=458727|AlignEnd=458933|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0379-0382
 # speaker_id = SP1
@@ -4181,10 +4181,10 @@
 # phonetic_text = dukà àbinci nèː //
 # text = duk àbinci nèː //
 # text_en = It's all food.
-1	dukà	dukà	PRON	_	PronType=Prs	2	dislocated	_	AlignBegin=522337|AlignEnd=522547|Gloss=all
-2	àbinci	àbinci	NOUN	_	_	0	root	_	AlignBegin=522547|AlignEnd=522757|Gloss=food
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=522757|AlignEnd=522967|Gloss=be
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=522967|AlignEnd=523177|Gloss=PUNCT
+1	dukà	dukà	PRON	_	PronType=Prs	3	subj	_	AlignBegin=522337|AlignEnd=522547|Gloss=all
+2	àbinci	àbinci	NOUN	_	_	3	comp:pred	_	AlignBegin=522547|AlignEnd=522757|Gloss=food
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=522757|AlignEnd=522967|Gloss=be
+4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=522967|AlignEnd=523177|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0438-0438
 # speaker_id = SP2
@@ -4282,11 +4282,11 @@
 # phonetic_text = dukà zaːmàniː nèː fa //
 # text = duk zaːmàniː nèː fa //
 # text_en = That's our time.
-1	duz	dukà	PRON	_	PronType=Prs	2	dislocated	_	AlignBegin=533505|AlignEnd=533660|Gloss=all
-2	zaːmàniː	zaːmàniː	NOUN	_	_	0	root	_	AlignBegin=533660|AlignEnd=533815|Gloss=present_time
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=533815|AlignEnd=533970|Gloss=be
-4	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=533970|AlignEnd=534125|Gloss=indeed
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=534125|AlignEnd=534280|Gloss=PUNCT
+1	duz	dukà	PRON	_	PronType=Prs	3	subj	_	AlignBegin=533505|AlignEnd=533660|Gloss=all
+2	zaːmàniː	zaːmàniː	NOUN	_	_	3	comp:pred	_	AlignBegin=533660|AlignEnd=533815|Gloss=present_time
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=533815|AlignEnd=533970|Gloss=be
+4	fa	fa	TopPART	_	_	3	discourse	_	AlignBegin=533970|AlignEnd=534125|Gloss=indeed
+5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=534125|AlignEnd=534280|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0447-0447
 # speaker_id = SP2
@@ -4708,9 +4708,9 @@
 # phonetic_text = gaskiyaː nèː //
 # text = gaskiyaː nèː //
 # text_en = It's true.
-1	gaskiyaː	gaskiyaː	NOUN	_	_	0	root	_	AlignBegin=596182|AlignEnd=596386|Gloss=truth
-2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=596386|AlignEnd=596590|Gloss=be
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=596590|AlignEnd=596794|Gloss=PUNCT
+1	gaskiyaː	gaskiyaː	NOUN	_	_	2	comp:pred	_	AlignBegin=596182|AlignEnd=596386|Gloss=truth
+2	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=596386|AlignEnd=596590|Gloss=be
+3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=596590|AlignEnd=596794|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0498-0499
 # speaker_id = SP2
@@ -5644,12 +5644,12 @@
 # phonetic_text = tòː ai wânnan saːkar̃ai nèː //
 # text = tòː ai wânnan saːkar̃ai nèː //
 # text_en = He's a fool.
-1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=695785|AlignEnd=695983|Gloss=well
-2	ai	ai	INTJ	_	_	4	discourse	_	AlignBegin=695983|AlignEnd=696181|Gloss=indeed
-3	wânnan	wânnan	PRON	_	Definite=Def|PronType=Dem	4	dislocated	_	AlignBegin=696181|AlignEnd=696379|Gloss=Def
-4	saːkar̃ai	saːkar̃ai	NOUN	_	_	0	root	_	AlignBegin=696379|AlignEnd=696577|Gloss=fool
-5	nèː	neː/ceː	FocPART	_	_	4	discourse@foc	_	AlignBegin=696577|AlignEnd=696775|Gloss=be
-6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=696775|AlignEnd=696973|Gloss=PUNCT
+1	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=695785|AlignEnd=695983|Gloss=well
+2	ai	ai	INTJ	_	_	5	discourse	_	AlignBegin=695983|AlignEnd=696181|Gloss=indeed
+3	wânnan	wânnan	PRON	_	Definite=Def|PronType=Dem	5	subj	_	AlignBegin=696181|AlignEnd=696379|Gloss=Def
+4	saːkar̃ai	saːkar̃ai	NOUN	_	_	5	comp:pred	_	AlignBegin=696379|AlignEnd=696577|Gloss=fool
+5	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=696577|AlignEnd=696775|Gloss=be
+6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=696775|AlignEnd=696973|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0598-0598
 # speaker_id = SP1
@@ -6395,10 +6395,10 @@
 # phonetic_text = tuwoː tuwoː nèː //
 # text = tuwoː tuwoː nèː //
 # text_en = "Tuwo" is "tuwo".
-1	tuwoː	tuwoː	NOUN	_	_	2	dislocated	_	AlignBegin=786211|AlignEnd=786424|Gloss=food
-2	tuwoː	tuwoː	NOUN	_	_	0	root	_	AlignBegin=786424|AlignEnd=786637|Gloss=food
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=786637|AlignEnd=786850|Gloss=be
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=786850|AlignEnd=787063|Gloss=PUNCT
+1	tuwoː	tuwoː	NOUN	_	_	3	subj	_	AlignBegin=786211|AlignEnd=786424|Gloss=food
+2	tuwoː	tuwoː	NOUN	_	_	3	comp:pred	_	AlignBegin=786424|AlignEnd=786637|Gloss=food
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=786637|AlignEnd=786850|Gloss=be
+4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=786850|AlignEnd=787063|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0676-0676
 # speaker_id = SP2
@@ -6407,10 +6407,10 @@
 # phonetic_text = tuwoː tuwoː nèː //
 # text = tuwoː tuwoː nèː //
 # text_en = "Tuwo" is "tuwo".
-1	tuwoː	tuwoː	NOUN	_	_	2	dislocated	_	AlignBegin=787063|AlignEnd=787269|Gloss=food
-2	tuwoː	tuwoː	NOUN	_	_	0	root	_	AlignBegin=787269|AlignEnd=787475|Gloss=food
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=787475|AlignEnd=787681|Gloss=be
-4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=787681|AlignEnd=787887|Gloss=PUNCT
+1	tuwoː	tuwoː	NOUN	_	_	3	subj	_	AlignBegin=787063|AlignEnd=787269|Gloss=food
+2	tuwoː	tuwoː	NOUN	_	_	3	comp:pred	_	AlignBegin=787269|AlignEnd=787475|Gloss=food
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=787475|AlignEnd=787681|Gloss=be
+4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=787681|AlignEnd=787887|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0677-0677
 # speaker_id = SP1
@@ -6427,26 +6427,24 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 788118, 793044
 # phonetic_text = au tuwoː -n masàr̃aː nèː / koː tuwoː -n shìnkaːfaː nèː / koː na geːroː nèː / dai tuwoː nèː //
-# text = au tuwon masàr̃aː nèː |c koː tuwon shìnkaːfaː nèː |c koː na geːroː nèː dai tuwoː nèː //
+# text = au tuwon masàr̃aː nèː koː tuwon shìnkaːfaː nèː koː na geːroː nèː dai tuwoː nèː //
 # text_en = Whether maize "tuwo", or rice "tuwo" or millet "tuwo", it is still "tuwo".
-1	au	au	SCONJ	_	_	16	mod	_	AlignBegin=788118|AlignEnd=788372|Gloss=whether
-2	tuwon	tuwoː	NOUN	_	Definite=Cons	1	comp:obj	_	AlignBegin=788372|AlignEnd=788499|Gloss=food.Cons|wordform=tuwoː
+1	au	au	SCONJ	_	_	15	mod	_	AlignBegin=788118|AlignEnd=788372|Gloss=whether
+2	tuwon	tuwoː	NOUN	_	Definite=Cons	4	comp:pred	_	AlignBegin=788372|AlignEnd=788499|Gloss=food.Cons|wordform=tuwoː
 3	masàr̃aː	masàr̃aː	NOUN	_	_	2	mod	_	AlignBegin=788626|AlignEnd=788880|Gloss=maize
-4	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=788880|AlignEnd=789134|Gloss=be
-5	|c	|c	PUNCT	_	_	7	punct	_	AlignBegin=789134|AlignEnd=789388|Gloss=PUNCT
-6	koː	koː	CCONJ	_	_	7	cc	_	AlignBegin=789688|AlignEnd=789941|Gloss=or
-7	tuwon	tuwoː	NOUN	_	Definite=Cons	2	conj:coord	_	AlignBegin=789941|AlignEnd=790067|Gloss=food.Cons|wordform=tuwoː
-8	shìnkaːfaː	shìnkaːfaː	NOUN	_	_	7	mod	_	AlignBegin=790194|AlignEnd=790447|Gloss=rice
-9	nèː	neː/ceː	FocPART	_	_	7	discourse@foc	_	AlignBegin=790447|AlignEnd=790700|Gloss=be
-10	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=790700|AlignEnd=790954|Gloss=PUNCT
-11	koː	koː	CCONJ	_	_	12	cc	_	AlignBegin=791186|AlignEnd=791359|Gloss=or
-12	na	na~ta	ADP	_	Definite=Cons	7	conj:coord	_	AlignBegin=791359|AlignEnd=791532|Gloss=of
-13	geːroː	geːroː	NOUN	_	_	12	comp:obj	_	AlignBegin=791532|AlignEnd=791705|Gloss=millet
-14	nèː	neː/ceː	FocPART	_	_	12	discourse@foc	_	AlignBegin=791705|AlignEnd=791878|Gloss=be
-15	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=792346|AlignEnd=792520|Gloss=indeed
-16	tuwoː	tuwoː	NOUN	_	_	0	root	_	AlignBegin=792520|AlignEnd=792694|Gloss=food
-17	nèː	neː/ceː	FocPART	_	_	16	discourse@foc	_	AlignBegin=792694|AlignEnd=792868|Gloss=be
-18	//	//	PUNCT	_	_	16	punct	_	AlignBegin=792868|AlignEnd=793044|Gloss=PUNCT
+4	nèː	neː/ceː	FocPART	_	_	1	comp:obj	_	AlignBegin=788880|AlignEnd=789134|Gloss=be
+5	koː	koː	CCONJ	_	_	8	cc	_	AlignBegin=789688|AlignEnd=789941|Gloss=or
+6	tuwon	tuwoː	NOUN	_	Definite=Cons	8	comp:pred	_	AlignBegin=789941|AlignEnd=790067|Gloss=food.Cons|wordform=tuwoː
+7	shìnkaːfaː	shìnkaːfaː	NOUN	_	_	6	mod	_	AlignBegin=790194|AlignEnd=790447|Gloss=rice
+8	nèː	neː/ceː	FocPART	_	_	4	conj:coord	_	AlignBegin=790447|AlignEnd=790700|Gloss=be
+9	koː	koː	CCONJ	_	_	12	cc	_	AlignBegin=791186|AlignEnd=791359|Gloss=or
+10	na	na~ta	ADP	_	Definite=Cons	12	comp:pred	_	AlignBegin=791359|AlignEnd=791532|Gloss=of
+11	geːroː	geːroː	NOUN	_	_	10	comp:obj	_	AlignBegin=791532|AlignEnd=791705|Gloss=millet
+12	nèː	neː/ceː	FocPART	_	_	8	conj:coord	_	AlignBegin=791705|AlignEnd=791878|Gloss=be
+13	dai	dai	TopPART	_	_	12	discourse	_	AlignBegin=792346|AlignEnd=792520|Gloss=indeed
+14	tuwoː	tuwoː	NOUN	_	_	15	comp:pred	_	AlignBegin=792520|AlignEnd=792694|Gloss=food
+15	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=792694|AlignEnd=792868|Gloss=be
+16	//	//	PUNCT	_	_	15	punct	_	AlignBegin=792868|AlignEnd=793044|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0682-0682
 # speaker_id = SP2
@@ -6455,9 +6453,9 @@
 # phonetic_text = tuwoː nèː //
 # text = tuwoː nèː //
 # text_en = It's "tuwo".
-1	tuwoː	tuwoː	NOUN	_	_	0	root	_	AlignBegin=793044|AlignEnd=793285|Gloss=food
-2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=793285|AlignEnd=793526|Gloss=be
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=793526|AlignEnd=793766|Gloss=PUNCT
+1	tuwoː	tuwoː	NOUN	_	_	2	comp:pred	_	AlignBegin=793044|AlignEnd=793285|Gloss=food
+2	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=793285|AlignEnd=793526|Gloss=be
+3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=793526|AlignEnd=793766|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0683-0683
 # speaker_id = SP1
@@ -7610,13 +7608,13 @@
 # phonetic_text = eː / kuma / hakà nèː //
 # text = eː / kuma / hakà neː //
 # text_en = Yes, and that's how it is.
-1	eː	eː	INTJ	_	_	5	discourse	_	AlignBegin=925014|AlignEnd=925195|Gloss=yes
+1	eː	eː	INTJ	_	_	6	discourse	_	AlignBegin=925014|AlignEnd=925195|Gloss=yes
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=925195|AlignEnd=925376|Gloss=PUNCT
-3	kuma	kuma	TopPART	_	_	5	discourse	_	AlignBegin=925376|AlignEnd=925522|Gloss=too
-4	<	<	PUNCT	_	_	5	punct	_	AlignBegin=925522|AlignEnd=925667|Gloss=PUNCT
-5	hakà	hakà	ADV	_	_	0	root	_	AlignBegin=925667|AlignEnd=925778|Gloss=like_this
-6	nèː	neː/ceː	FocPART	_	_	5	discourse@foc	_	AlignBegin=925778|AlignEnd=925889|Gloss=be
-7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=925889|AlignEnd=926001|Gloss=PUNCT
+3	kuma	kuma	TopPART	_	_	6	discourse	_	AlignBegin=925376|AlignEnd=925522|Gloss=too
+4	<	<	PUNCT	_	_	6	punct	_	AlignBegin=925522|AlignEnd=925667|Gloss=PUNCT
+5	hakà	hakà	ADV	_	_	6	comp:pred	_	AlignBegin=925667|AlignEnd=925778|Gloss=like_this
+6	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=925778|AlignEnd=925889|Gloss=be
+7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=925889|AlignEnd=926001|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0815-0815
 # speaker_id = SP2
@@ -9962,14 +9960,14 @@
 # phonetic_text = kaː sanìː Fulàːniː -ǹ maː / kalàː kalàː nèː //
 # text = kaː sanìː Fulàːnîn maː < kalàː-kalàː neː //
 # text_en = You know, those Fulanis, they are of all sorts.
-1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	discourse	_	AlignBegin=1186290|AlignEnd=118650|Gloss=2Masc.Perf
+1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	discourse	_	AlignBegin=1186290|AlignEnd=118650|Gloss=2Masc.Perf
 2	sanìː	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=118650|AlignEnd=1186720|Gloss=know
-3	Fulàːnîn	Fulàːniː	PROPN	_	Definite=Def|Number=Plur	6	dislocated	_	AlignBegin=1186720|AlignEnd=1186820|Gloss=Fulani.Plur.Def|wordform=Fulàːniː
+3	Fulàːnîn	Fulàːniː	PROPN	_	Definite=Def|Number=Plur	7	dislocated	_	AlignBegin=1186720|AlignEnd=1186820|Gloss=Fulani.Plur.Def|wordform=Fulàːniː
 4	maː	maː	TopPART	_	_	3	discourse	_	AlignBegin=1186930|AlignEnd=1187140|Gloss=even
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=1187140|AlignEnd=1187360|Gloss=PUNCT
-6	kalàː-kalàː	kalàː-kalàː	ADJ	_	_	0	root	_	AlignBegin=1187360|AlignEnd=1187570|Gloss=various
-7	neː	neː/ceː	FocPART	_	_	6	discourse@foc	_	AlignBegin=1187780|AlignEnd=1187990|Gloss=be
-8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=1187990|AlignEnd=118820|Gloss=PUNCT
+6	kalàː-kalàː	kalàː-kalàː	ADJ	_	_	7	comp:pred	_	AlignBegin=1187360|AlignEnd=1187570|Gloss=various
+7	neː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=1187780|AlignEnd=1187990|Gloss=be
+8	//	//	PUNCT	_	_	7	punct	_	AlignBegin=1187990|AlignEnd=118820|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1071-1071
 # speaker_id = SP1
@@ -10669,12 +10667,12 @@
 # phonetic_text = eː tòː ai kàːsuwaː nèː //
 # text = eː tòː ai kàːsuwaː nèː //
 # text_en = Eh, well, that's business.
-1	eː	eː	INTJ	_	_	4	discourse	_	AlignBegin=1283910|AlignEnd=1284040|Gloss=yes
-2	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=1284040|AlignEnd=1284180|Gloss=well
-3	ai	ai	INTJ	_	_	4	discourse	_	AlignBegin=1284180|AlignEnd=1284310|Gloss=indeed
-4	kàːsuwaː	kàːsuwaː	NOUN	_	_	0	root	_	AlignBegin=1284310|AlignEnd=1284450|Gloss=market
-5	nèː	neː/ceː	FocPART	_	_	4	discourse@foc	_	AlignBegin=1284450|AlignEnd=1284580|Gloss=be
-6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=1284580|AlignEnd=1284720|Gloss=PUNCT
+1	eː	eː	INTJ	_	_	5	discourse	_	AlignBegin=1283910|AlignEnd=1284040|Gloss=yes
+2	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=1284040|AlignEnd=1284180|Gloss=well
+3	ai	ai	INTJ	_	_	5	discourse	_	AlignBegin=1284180|AlignEnd=1284310|Gloss=indeed
+4	kàːsuwaː	kàːsuwaː	NOUN	_	_	5	comp:pred	_	AlignBegin=1284310|AlignEnd=1284450|Gloss=market
+5	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=1284450|AlignEnd=1284580|Gloss=be
+6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=1284580|AlignEnd=1284720|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1149-1149
 # speaker_id = SP2
@@ -10696,10 +10694,10 @@
 # phonetic_text = kàːsuwaː nèː / tundà &// kuma mâi -n sâː -uː\H nàː gyaːràː jìkiː //
 # text = kàːsuwaː nèː tundà &//
 # text_en = That's business since...
-1	kàːsuwaː	kàːsuwaː	NOUN	_	_	0	root@scrap	_	AlignBegin=1286140|AlignEnd=1286290|Gloss=market
-2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=1286290|AlignEnd=1286440|Gloss=be
-3	tundà	tundà	SCONJ	_	_	1	mod	_	AlignBegin=1286590|AlignEnd=1286790|Gloss=since
-4	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=1286790|AlignEnd=1286990|Gloss=PUNCT
+1	kàːsuwaː	kàːsuwaː	NOUN	_	_	2	comp:pred	_	AlignBegin=1286140|AlignEnd=1286290|Gloss=market
+2	nèː	neː/ceː	FocPART	_	_	0	root@scrap	_	AlignBegin=1286290|AlignEnd=1286440|Gloss=be
+3	tundà	tundà	SCONJ	_	_	2	mod	_	AlignBegin=1286590|AlignEnd=1286790|Gloss=since
+4	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=1286790|AlignEnd=1286990|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1151-1152
 # speaker_id = SP1
@@ -11191,14 +11189,14 @@
 # phonetic_text = tòː / àbù nèː dai na zaːmàniː //
 # text = tòː / àbù neː dai na zaːmàniː //
 # text_en = Well that's a thing of today.
-1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=1343110|AlignEnd=1343190|Gloss=well
+1	tòː	tòː	INTJ	_	_	4	discourse	_	AlignBegin=1343110|AlignEnd=1343190|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1343190|AlignEnd=1343260|Gloss=PUNCT
-3	àbù	àbù	NOUN	_	_	0	root	_	AlignBegin=1343260|AlignEnd=134350|Gloss=thing
-4	nèː	neː/ceː	FocPART	_	_	3	discourse@foc	_	AlignBegin=134350|AlignEnd=1343730|Gloss=be
-5	dai	dai	TopPART	_	_	3	discourse	_	AlignBegin=1343730|AlignEnd=1343970|Gloss=indeed
-6	na	na~ta	ADP	_	Definite=Cons	3	dislocated@mod	_	AlignBegin=1343970|AlignEnd=134420|Gloss=of
+3	àbù	àbù	NOUN	_	_	4	comp:pred	_	AlignBegin=1343260|AlignEnd=134350|Gloss=thing
+4	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=134350|AlignEnd=1343730|Gloss=be
+5	dai	dai	TopPART	_	_	4	discourse	_	AlignBegin=1343730|AlignEnd=1343970|Gloss=indeed
+6	na	na~ta	ADP	_	Definite=Cons	3	mod	_	AlignBegin=1343970|AlignEnd=134420|Gloss=of
 7	zaːmàniː	zaːmàniː	NOUN	_	_	6	comp:obj	_	AlignBegin=134420|AlignEnd=1344440|Gloss=present_time
-8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=1344440|AlignEnd=1344680|Gloss=PUNCT
+8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=1344440|AlignEnd=1344680|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1202-1204
 # speaker_id = SP1
