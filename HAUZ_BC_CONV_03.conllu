@@ -368,12 +368,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 45380, 46177
 # phonetic_text = weekend nèː fa //
-# text = weekend neː fa //
+# text = weekend nèː fa !//
 # text_en = But it's the week-end!
-1	weekend	weekend	NOUN	_	Foreign=Yes	0	root	_	AlignBegin=45380|AlignEnd=45579|Gloss=weekend|Lang=en
-2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=45579|AlignEnd=45778|Gloss=be
-3	fa	fa	TopPART	_	_	1	discourse	_	AlignBegin=45778|AlignEnd=45977|Gloss=indeed
-4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=45977|AlignEnd=46177|Gloss=PUNCT
+1	weekend	weekend	NOUN	_	Foreign=Yes	2	comp:pred	_	AlignBegin=45380|AlignEnd=45579|Gloss=weekend|Lang=en
+2	nèː	neː/ceː	PredPART	_	_	0	root	_	AlignBegin=45579|AlignEnd=45778|Gloss=be
+3	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=45778|AlignEnd=45977|Gloss=indeed
+4	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=45977|AlignEnd=46177|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__29
 # speaker_id = SP2
@@ -717,11 +717,11 @@
 # phonetic_text = sai mèː nèː kuma ?//
 # text = sai mèː neː kuma ?//
 # text_en = What's going on?
-1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=93100|AlignEnd=93231|Gloss=then
-2	mèː	mèː	PRON	_	_	0	root	_	AlignBegin=93231|AlignEnd=93362|Gloss=what
-3	neː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=93362|AlignEnd=93493|Gloss=be
-4	kuma	kuma	TopPART	_	_	2	discourse	_	AlignBegin=93493|AlignEnd=93624|Gloss=too
-5	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=93624|AlignEnd=93753|Gloss=PUNCT
+1	sai	sai	ADV	_	_	3	mod	_	AlignBegin=93100|AlignEnd=93231|Gloss=then
+2	mèː	mèː	PRON	_	_	3	comp:pred	_	AlignBegin=93231|AlignEnd=93362|Gloss=what
+3	neː	neː/ceː	PredPART	_	_	0	root	_	AlignBegin=93362|AlignEnd=93493|Gloss=be
+4	kuma	kuma	TopPART	_	_	3	discourse	_	AlignBegin=93493|AlignEnd=93624|Gloss=too
+5	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=93624|AlignEnd=93753|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__53
 # speaker_id = SP2
@@ -819,7 +819,7 @@
 2	dai	dai	TopPART	_	_	1	discourse	_	AlignBegin=104565|AlignEnd=104722|Gloss=indeed
 3	zân	zaːsù	AUX	_	Number=Sing|Person=1|Tense=Fut	0	root	_	AlignBegin=104722|AlignEnd=104879|Gloss=1Sing.Fut
 4	jeː	jeː	VERB	_	_	3	comp:aux	_	AlignBegin=104879|AlignEnd=105036|Gloss=go
-5	nèː	neː/ceː	FocPART	_	_	3	discourse@foc	_	AlignBegin=105036|AlignEnd=105193|Gloss=be
+5	nèː	neː/ceː	FocPART	_	_	4	discourse@foc	_	AlignBegin=105036|AlignEnd=105193|Gloss=be
 6	kawài	kawài	ADV	_	_	3	mod	_	AlignBegin=105193|AlignEnd=105350|Gloss=only
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=105350|AlignEnd=105506|Gloss=PUNCT
 
@@ -983,12 +983,12 @@
 # phonetic_text = dukà na kâi -n wànnan nèː /
 # text = duk na kân wànnan nèː /
 # text_en = It's all because of that.
-1	dun	dukà	PRON	_	PronType=Tot	2	dislocated	_	AlignBegin=127201|AlignEnd=127389|Gloss=all
-2	na	na~ta	ADP	_	Definite=Cons	0	root	_	AlignBegin=127389|AlignEnd=127577|Gloss=of
+1	dun	dukà	PRON	_	PronType=Tot	5	subj	_	AlignBegin=127201|AlignEnd=127389|Gloss=all
+2	na	na~ta	ADP	_	Definite=Cons	5	comp:pred	_	AlignBegin=127389|AlignEnd=127577|Gloss=of
 3	kân	kân	ADP	_	_	2	comp:obj	_	AlignBegin=127577|AlignEnd=127671|Gloss=top|wordform=kâi
 4	wànnan	wànnan	PRON	_	Definite=Def	3	comp:obj	_	AlignBegin=127765|AlignEnd=127953|Gloss=Def
-5	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=127953|AlignEnd=128141|Gloss=be
-6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=128141|AlignEnd=128330|Gloss=PUNCT
+5	nèː	neː/ceː	PredPART	_	_	0	root	_	AlignBegin=127953|AlignEnd=128141|Gloss=be
+6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=128141|AlignEnd=128330|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__71
 # speaker_id = SP2
@@ -1035,10 +1035,10 @@
 # phonetic_text = doːlè nèː sàːfaː -ǹ // in na jeː zân ròːƙaː -eː shi yà yi hàƙuriː //
 # text = doːlè nèː sàːfân ?//
 # text_en = Are socks compulsory?
-1	doːlè	doːlè	ADV	_	_	0	root	_	AlignBegin=130776|AlignEnd=130969|Gloss=must
-2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=130969|AlignEnd=131162|Gloss=be
-3	sàːfân	sàːfaː	NOUN	_	Definite=Def	1	dislocated@subj	_	AlignBegin=131162|AlignEnd=131258|Gloss=socks.Def|wordform=sàːfaː
-4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=131355|AlignEnd=131548|Gloss=PUNCT
+1	doːlè	doːlè	ADV	_	_	2	comp:pred	_	AlignBegin=130776|AlignEnd=130969|Gloss=must
+2	nèː	neː/ceː	PredPART	_	_	0	root	_	AlignBegin=130969|AlignEnd=131162|Gloss=be
+3	sàːfân	sàːfaː	NOUN	_	Definite=Def	2	dislocated@subj	_	AlignBegin=131162|AlignEnd=131258|Gloss=socks.Def|wordform=sàːfaː
+4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=131355|AlignEnd=131548|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__74_split2
 # speaker_id = SP1
@@ -2814,14 +2814,14 @@
 # phonetic_text = wai ai bàː gidaː -n -shì ba nèː yànzu /
 # text = wai ai bàː gidanshì ba nèː yànzu /
 # text_en = He said it was no longer his house.
-1	wai	wai	ADV	_	_	4	discourse	_	AlignBegin=349945|AlignEnd=350118|Gloss=EVD
-2	ai	ai	INTJ	_	_	4	discourse	_	AlignBegin=350118|AlignEnd=350291|Gloss=indeed
+1	wai	wai	ADV	_	_	6	discourse	_	AlignBegin=349945|AlignEnd=350118|Gloss=EVD
+2	ai	ai	INTJ	_	_	6	discourse	_	AlignBegin=350118|AlignEnd=350291|Gloss=indeed
 3	bàː	bàː	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=350291|AlignEnd=350464|Gloss=Neg
-4	gidanshì	gidaː	NOUN	_	Definite=Cons	0	root	_	AlignBegin=350464|AlignEnd=350522|Gloss=house.Cons.3Masc.Gen|wordform=gidaː
+4	gidanshì	gidaː	NOUN	_	Definite=Cons	6	comp:pred	_	AlignBegin=350464|AlignEnd=350522|Gloss=house.Cons.3Masc.Gen|wordform=gidaː
 5	ba	ba	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=350637|AlignEnd=350810|Gloss=Neg
-6	nèː	neː/ceː	FocPART	_	_	4	discourse@foc	_	AlignBegin=350810|AlignEnd=350983|Gloss=be
-7	yànzu	yànzu	ADV	_	_	4	mod	_	AlignBegin=350983|AlignEnd=351156|Gloss=now
-8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=351156|AlignEnd=351329|Gloss=PUNCT
+6	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=350810|AlignEnd=350983|Gloss=be
+7	yànzu	yànzu	ADV	_	_	6	mod	_	AlignBegin=350983|AlignEnd=351156|Gloss=now
+8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=351156|AlignEnd=351329|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__194
 # speaker_id = SP1
@@ -3104,11 +3104,11 @@
 # phonetic_text = tòː shiː nèː fa //
 # text = tòː shiː nèː fa //
 # text_en = Well that's it.
-1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=385743|AlignEnd=385880|Gloss=well
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=385880|AlignEnd=386017|Gloss=3Masc.Nom
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=386017|AlignEnd=386154|Gloss=be
-4	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=386154|AlignEnd=386291|Gloss=indeed
-5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=386291|AlignEnd=386428|Gloss=PUNCT
+1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=385743|AlignEnd=385880|Gloss=well
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=385880|AlignEnd=386017|Gloss=3Masc.Nom
+3	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=386017|AlignEnd=386154|Gloss=be
+4	fa	fa	TopPART	_	_	3	discourse	_	AlignBegin=386154|AlignEnd=386291|Gloss=indeed
+5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=386291|AlignEnd=386428|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__211
 # speaker_id = SP1
@@ -3284,9 +3284,9 @@
 # phonetic_text = shiː nèː //
 # text = shiː nèː //
 # text_en = That's it.
-1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=407428|AlignEnd=407526|Gloss=3Masc.Nom
-2	nèː	neː/ceː	FocPART	_	_	1	discourse@foc	_	AlignBegin=407526|AlignEnd=407624|Gloss=be
-3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=407624|AlignEnd=407721|Gloss=PUNCT
+1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	comp:pred	_	AlignBegin=407428|AlignEnd=407526|Gloss=3Masc.Nom
+2	nèː	neː/ceː	PredPART	_	_	0	root	_	AlignBegin=407526|AlignEnd=407624|Gloss=be
+3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=407624|AlignEnd=407721|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__222
 # speaker_id = SP1
@@ -3390,13 +3390,13 @@
 # phonetic_text = tòː shiː nèː fa akà jeː /
 # text = tòː shiː nèː fa akà jeː /
 # text_en = Well then they went .
-1	tòː	tòː	INTJ	_	_	5	discourse	_	AlignBegin=417876|AlignEnd=418034|Gloss=well
-2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	discourse	_	AlignBegin=418034|AlignEnd=418192|Gloss=3Masc.Nom
-3	nèː	neː/ceː	FocPART	_	_	2	discourse@foc	_	AlignBegin=418192|AlignEnd=418350|Gloss=be
-4	fa	fa	TopPART	_	_	2	discourse	_	AlignBegin=418350|AlignEnd=418508|Gloss=indeed
-5	akà	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Person=4	0	root	_	AlignBegin=418508|AlignEnd=418666|Gloss=4.Perf.Bkg
+1	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=417876|AlignEnd=418034|Gloss=well
+2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	comp:pred	_	AlignBegin=418034|AlignEnd=418192|Gloss=3Masc.Nom
+3	nèː	neː/ceː	PredPART	_	_	0	root	_	AlignBegin=418192|AlignEnd=418350|Gloss=be
+4	fa	fa	TopPART	_	_	3	discourse	_	AlignBegin=418350|AlignEnd=418508|Gloss=indeed
+5	akà	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Person=4	3	comp:cleft	_	AlignBegin=418508|AlignEnd=418666|Gloss=4.Perf.Bkg
 6	jeː	jeː	VERB	_	_	5	comp:aux	_	AlignBegin=418666|AlignEnd=418824|Gloss=go
-7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=418824|AlignEnd=418985|Gloss=PUNCT
+7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=418824|AlignEnd=418985|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__229
 # speaker_id = SP1

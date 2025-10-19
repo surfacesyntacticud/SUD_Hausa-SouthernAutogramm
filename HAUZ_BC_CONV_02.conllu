@@ -179,8 +179,8 @@
 17	mukà	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Number=Plur|Person=1	16	comp:obj	_	AlignBegin=26435|AlignEnd=26563|Gloss=1Plur.Perf.Bkg
 18	saːmù	saː-	VERB	_	_	17	comp:aux	_	AlignBegin=26563|AlignEnd=26691|Gloss=get
 19	tun	tun	SCONJ	_	_	18	mod	_	AlignBegin=26691|AlignEnd=26819|Gloss=since
-20	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	comp:obj	_	AlignBegin=26950|AlignEnd=27137|Gloss=1Sing.Nom
-21	nèː	neː/ceː	FocPART	_	_	20	discourse@foc	_	AlignBegin=27137|AlignEnd=27324|Gloss=be
+20	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	comp:pred	_	AlignBegin=26950|AlignEnd=27137|Gloss=1Sing.Nom
+21	nèː	neː/ceː	PredPART	_	_	19	comp:obj	_	AlignBegin=27137|AlignEnd=27324|Gloss=be
 22	dà	dà	CCONJ	_	_	24	cc	_	AlignBegin=27324|AlignEnd=27418|Gloss=COMP
 23	ainihin	ainihiː	ADJ	_	Definite=Cons	24	discourse	_	AlignBegin=27661|AlignEnd=27767|Gloss=real.Cons|wordform=ainihiː
 24	Àlhajì	Àlhajì	PROPN	_	_	20	conj:coord	_	AlignBegin=27873|AlignEnd=28085|Gloss=Alhaji
@@ -586,7 +586,7 @@
 13	kukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=2	5	comp:obj	_	AlignBegin=61456|AlignEnd=61647|Gloss=2Plur.Hab
 14	sar̃r̃àfaː	sar̃r̃àfaː	VERB	_	_	13	comp:aux	_	AlignBegin=61647|AlignEnd=61838|Gloss=invest
 15	su	su	PRON	_	Number=Plur|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=61838|AlignEnd=62029|Gloss=3Plur
-16	nèː	neː/ceː	FocPART	_	_	14	discourse@foc	_	AlignBegin=62029|AlignEnd=62220|Gloss=be
+16	nèː	neː/ceː	FocPART	_	_	15	discourse@foc	_	AlignBegin=62029|AlignEnd=62220|Gloss=be
 17	wajen	wajen	ADP	_	_	14	comp:obl	_	AlignBegin=62220|AlignEnd=62411|Gloss=by
 18	sayoː	say-	VERB	_	_	17	comp:obj	_	AlignBegin=62411|AlignEnd=62602|Gloss=sell.DIR
 19	dabboːbiː	dabboːbiː	NOUN	_	Number=Plur	18	comp:obj	_	AlignBegin=62602|AlignEnd=62698|Gloss=cattle.Plur
@@ -627,7 +627,7 @@
 16	sayoː	sayoː	VERB	_	_	15	comp:aux	_	AlignBegin=66052|AlignEnd=66230|Gloss=sell.DIR
 17	dabboːbiː	dabboːbiː	NOUN	_	Number=Plur	16	comp:obj	_	AlignBegin=66230|AlignEnd=66319|Gloss=cattle.Plur
 18	nèː	neː/ceː	FocPART	_	_	17	discourse@foc	_	AlignBegin=66408|AlignEnd=66586|Gloss=be
-19	sukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=3	15	conj:coord	_	AlignBegin=66586|AlignEnd=66764|Gloss=3Plur.Hab
+19	sukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=3	17	mod@relcl	_	AlignBegin=66586|AlignEnd=66764|Gloss=3Plur.Hab
 20	mukù	mukù	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	19	comp:obl	_	AlignBegin=66764|AlignEnd=66942|Gloss=2.Plur.Dat
 21	tayàː	tay-	VERB	_	_	19	comp:aux	_	AlignBegin=67261|AlignEnd=67420|Gloss=assist
 22	ku	ku	PRON	_	Number=Plur|Person=2|PronType=Prs	21	comp:obj@R	_	AlignBegin=67420|AlignEnd=67579|Gloss=2.Plur
@@ -3305,7 +3305,7 @@
 # text = suː nèː asalin ƴan gàriː kèː nan //
 # text_en = They are the real children of this town.
 1	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	comp:pred	_	AlignBegin=342929|AlignEnd=343037|Gloss=3Plur.Nom
-2	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=343037|AlignEnd=343145|Gloss=be
+2	nèː	neː/ceː	PredPART	_	_	0	root	_	AlignBegin=343037|AlignEnd=343145|Gloss=be
 3	asalin	asaliː	NOUN	_	Definite=Cons	2	comp:cleft	_	AlignBegin=343145|AlignEnd=343199|Gloss=origins.Cons|wordform=asaliː
 4	ƴan	ɗaː	NOUN	_	Definite=Cons|Number=Plur	3	mod	_	AlignBegin=343253|AlignEnd=343307|Gloss=child.Plur.Cons|wordform=ƴaː
 5	gàriː	gàriː	NOUN	_	_	4	compound	_	AlignBegin=343361|AlignEnd=343469|Gloss=town
