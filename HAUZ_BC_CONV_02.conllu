@@ -253,35 +253,43 @@
 1	mm	mm	INTJ	_	_	0	root	_	AlignBegin=33096|AlignEnd=33270|Gloss=FILL
 2	//	//	PUNCT	_	_	1	punct	_	AlignBegin=33270|AlignEnd=33445|Gloss=PUNCT
 
-# sent_id = HAUZ_BC_CONV_02_030-030
+# sent_id = HAUZ_BC_CONV_02_030_1
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 33096, 38049
-# phonetic_text = mukà sayoː -ːːː / wasu ɗan dabbàː -oːCiː\H muː maː / kàman àkwiyàː -iː\LH hakà -ːːː /
-# text = shiː nèː mukà sàyaː || sai akà sayoː || mukà sayoː wasu ɗan dabboːbiː > muː maː > kàman àwàːkiː hakà //
-# text_en = We then bought.. bought... bought some animals,like goats like that.
+# phonetic_text = shiː nèː mukà sàya~ X
+# text = shiː nèː mukà sàyaː &//
+# text_en = We then bought...
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	comp:pred	_	AlignBegin=33096|AlignEnd=33236|Gloss=3Masc.Nom
-2	nèː	neː/ceː	FocPART	_	_	0	root	_	AlignBegin=33236|AlignEnd=33376|Gloss=be
+2	nèː	neː/ceː	FocPART	_	_	0	root@scrap	_	AlignBegin=33236|AlignEnd=33376|Gloss=be
 3	mukà	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Number=Plur|Person=1	2	comp:cleft	_	AlignBegin=33376|AlignEnd=33516|Gloss=1Plur.Perf.Bkg
 4	sàyaː	say-	VERB	_	_	3	comp:aux	_	AlignBegin=33516|AlignEnd=33656|Gloss=buy
-5	||	||	PUNCT	_	_	7	punct	_	AlignBegin=33656|AlignEnd=33798|Gloss=X
-6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=33798|AlignEnd=33981|Gloss=then
-7	akà	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Person=4	3	conj:dicto	_	AlignBegin=33981|AlignEnd=34164|Gloss=4.Perf.Bkg
-8	sayoː	sayoː	VERB	_	_	7	comp:aux	_	AlignBegin=34164|AlignEnd=34347|Gloss=sell.DIR
-9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=34347|AlignEnd=34529|Gloss=X
-10	mukà	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Number=Plur|Person=1	7	conj:dicto	_	AlignBegin=34529|AlignEnd=34807|Gloss=1Plur.Perf.Bkg
-11	sayoː	sayoː	VERB	_	_	10	comp:aux	_	AlignBegin=34807|AlignEnd=34946|Gloss=sell.DIR
-12	wasu	wasu	DET	_	Number=Plur	14	det	_	AlignBegin=35364|AlignEnd=35581|Gloss=some.Plur
-13	ɗan	ɗan	ADV	_	_	14	mod	_	AlignBegin=35581|AlignEnd=35798|Gloss=little
-14	dabboːbiː	dabboːbiː	NOUN	_	Number=Plur	11	comp:obj	_	AlignBegin=35798|AlignEnd=35906|Gloss=cattle.Plur
-15	>	>	PRON	_	_	16	dislocated@subj	_	AlignBegin=36015|AlignEnd=36232|Gloss=PUNCT
-16	muː	muː	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	dislocated@subj	_	AlignBegin=36015|AlignEnd=36232|Gloss=1Plur.Nom
-17	maː	maː	TopPART	_	_	16	discourse	_	AlignBegin=36232|AlignEnd=36449|Gloss=even
-18	>	>	PUNCT	_	_	19	punct	_	AlignBegin=36449|AlignEnd=36665|Gloss=PUNCT
-19	kàman	kàman	ADP	_	_	14	mod	_	AlignBegin=36822|AlignEnd=37129|Gloss=like
-20	àwàːkiː	àwàːkiː	NOUN	_	Number=Plur	19	comp:obj	_	AlignBegin=37129|AlignEnd=37283|Gloss=goat.Plur
-21	hakà	hakà	ADV	_	_	20	mod	_	AlignBegin=37436|AlignEnd=37590|Gloss=like_this
-22	//	//	PUNCT	_	_	2	punct	_	AlignBegin=37743|AlignEnd=38049|Gloss=PUNCT
+5	&//	&//	PUNCT	_	_	2	punct	_	AlignBegin=33516|AlignEnd=33656|Gloss=PUNCT
+
+# sent_id = HAUZ_BC_CONV_02_030-030_split2
+# text = sai akà sayoː || mukà sayoː wasu ɗan dabboːbiː > muː maː > kàman àwàːkiː hakà //
+# speaker_id = SP2
+# sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
+# sent_timecode = 33656, 38049
+# phonetic_text = mukà sayoː -ːːː / wasu ɗan dabbàː -oːCiː\H muː maː / kàman àkwiyàː -iː\LH hakà -ːːː /
+# text_en = We bought... bought some animals,like goats like that.
+1	sai	sai	ADV	_	_	2	mod	_	AlignBegin=33798|AlignEnd=33981|Gloss=then
+2	akà	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Person=4	0	root	_	AlignBegin=33981|AlignEnd=34164|Gloss=4.Perf.Bkg
+3	sayoː	sayoː	VERB	_	_	2	comp:aux	_	AlignBegin=34164|AlignEnd=34347|Gloss=sell.DIR
+4	||	||	PUNCT	_	_	5	punct	_	AlignBegin=34347|AlignEnd=34529|Gloss=X
+5	mukà	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Number=Plur|Person=1	2	conj:dicto	_	AlignBegin=34529|AlignEnd=34807|Gloss=1Plur.Perf.Bkg
+6	sayoː	sayoː	VERB	_	_	5	comp:aux	_	AlignBegin=34807|AlignEnd=34946|Gloss=sell.DIR
+7	wasu	wasu	DET	_	Number=Plur	9	det	_	AlignBegin=35364|AlignEnd=35581|Gloss=some.Plur
+8	ɗan	ɗan	ADV	_	_	9	mod	_	AlignBegin=35581|AlignEnd=35798|Gloss=little
+9	dabboːbiː	dabboːbiː	NOUN	_	Number=Plur	6	comp:obj	_	AlignBegin=35798|AlignEnd=35906|Gloss=cattle.Plur
+10	>	>	PRON	_	_	11	dislocated@subj	_	AlignBegin=36015|AlignEnd=36232|Gloss=PUNCT
+11	muː	muː	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	dislocated@subj	_	AlignBegin=36015|AlignEnd=36232|Gloss=1Plur.Nom
+12	maː	maː	TopPART	_	_	11	discourse	_	AlignBegin=36232|AlignEnd=36449|Gloss=even
+13	>	>	PUNCT	_	_	14	punct	_	AlignBegin=36449|AlignEnd=36665|Gloss=PUNCT
+14	kàman	kàman	ADP	_	_	9	mod	_	AlignBegin=36822|AlignEnd=37129|Gloss=like
+15	àwàːkiː	àwàːkiː	NOUN	_	Number=Plur	14	comp:obj	_	AlignBegin=37129|AlignEnd=37283|Gloss=goat.Plur
+16	hakà	hakà	ADV	_	_	15	mod	_	AlignBegin=37436|AlignEnd=37590|Gloss=like_this
+17	//	//	PUNCT	_	_	2	_	_	AlignBegin=37743|AlignEnd=38049|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_035-035
 # speaker_id = SP1
