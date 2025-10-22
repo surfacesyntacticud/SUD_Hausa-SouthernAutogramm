@@ -428,7 +428,7 @@
 3	san	sanìː	VERB	_	_	2	comp:aux	_	AlignBegin=52469|AlignEnd=52648|Gloss=know
 4	wasu	wasu	DET	_	Number=Plur	5	det	_	AlignBegin=52648|AlignEnd=52827|Gloss=some.Plur
 5	abuːbuwàː	àbù	NOUN	_	Number=Plur	3	comp:obj	_	AlignBegin=52827|AlignEnd=52917|Gloss=thing.Plur
-6	naːtà	naːtà	PRON	_	Gender=Fem|Person=3|PronType=Prs	5	mod:poss	_	AlignBegin=52917|AlignEnd=53006|Gloss=3Fem.Gen
+6	naːtà	naːtà	PRON	_	Gender=Fem|Person=3|PronType=Prs	5	mod@poss	_	AlignBegin=52917|AlignEnd=53006|Gloss=3Fem.Gen
 7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=53185|AlignEnd=53361|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP1_010-010
@@ -453,7 +453,7 @@
 2	san	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=53609|AlignEnd=53857|Gloss=know
 3	wasu	wasu	DET	_	Definite=Spec|Number=Plur|PronType=Ind	4	det	_	AlignBegin=53857|AlignEnd=54105|Gloss=some.Plur
 4	abuːbuwàː	àbù	NOUN	_	Number=Plur	2	comp:obj	_	AlignBegin=54105|AlignEnd=54229|Gloss=thing.Plur
-5	naːtà	naːtà	PRON	_	Gender=Fem|Person=3|PronType=Prs	4	mod:poss	_	AlignBegin=54353|AlignEnd=54601|Gloss=3Fem.Gen
+5	naːtà	naːtà	PRON	_	Gender=Fem|Person=3|PronType=Prs	4	mod@poss	_	AlignBegin=54353|AlignEnd=54601|Gloss=3Fem.Gen
 6	sòːsai	sòːsai	ADV	_	_	2	mod	_	AlignBegin=54601|AlignEnd=54849|Gloss=quite
 7	kùwa	kùwa	PART	_	_	6	discourse@top	_	AlignBegin=54849|AlignEnd=55097|Gloss=as_for|PartType=Top
 8	don	don	SCONJ	_	_	2	mod	_	AlignBegin=55345|AlignEnd=55593|Gloss=because
@@ -1104,7 +1104,7 @@
 5	maː	maː	PART	_	_	4	discourse@top	_	AlignBegin=142806|AlignEnd=142993|Gloss=even|PartType=Top
 6	à	à	ADP	_	_	11	mod	_	AlignBegin=143180|AlignEnd=143367|Gloss=at
 7	gidàːjên	gidaː	NOUN	_	Definite=Def|Number=Plur	6	comp:obj	_	AlignBegin=143367|AlignEnd=143429|Gloss=house.Plur.Def
-8	naːmù	naːmù	PRON	_	Number=Plur|Person=1|PronType=Prs	7	mod:poss	_	AlignBegin=143554|AlignEnd=143741|Gloss=1Plur.Gen
+8	naːmù	naːmù	PRON	_	Number=Plur|Person=1|PronType=Prs	7	mod@poss	_	AlignBegin=143554|AlignEnd=143741|Gloss=1Plur.Gen
 9	<	<	PUNCT	_	_	6	punct	_	AlignBegin=143741|AlignEnd=143928|Gloss=PUNCT
 10	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	11	comp:pred	_	AlignBegin=143928|AlignEnd=144115|Gloss=3Masc.Nom
 11	nèː	neː/ceː	PredPART	_	_	0	root	_	AlignBegin=144115|AlignEnd=144302|Gloss=be
@@ -1261,9 +1261,9 @@
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=156772|AlignEnd=156920|Gloss=PUNCT
 6	kanàː	nàː	PredPART	_	Gender=Masc|Person=2|PronType=Prs	0	root	_	AlignBegin=157068|AlignEnd=157216|Gloss=2Masc.Pred/Loc|wordform=nàː
 7	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	6	comp:pred	_	AlignBegin=157216|AlignEnd=157364|Gloss=stay.Stat
-8	à	à	ADP	_	ExtPos=ADP	6	comp:pred	_	AlignBegin=157364|AlignEnd=157512|Gloss=at|Idiom=Yes
-9	wajen	wajen	ADP	_	_	8	compound	_	AlignBegin=157512|AlignEnd=157660|Gloss=around|InIdiom=Yes
-10	wàːneːnèː	wàːneːnèː	PRON	_	PronType=Int	8	comp:obj	_	AlignBegin=157660|AlignEnd=157808|Gloss=who
+8	à	à	ADP	_	ExtPos=ADP	7	comp:obl	_	AlignBegin=157364|AlignEnd=157512|Gloss=at|Idiom=Yes
+9	wajen	wajen	ADP	_	_	8	comp:obj	_	AlignBegin=157512|AlignEnd=157660|Gloss=around|InIdiom=Yes
+10	wàːneːnèː	wàːneːnèː	PRON	_	PronType=Int	9	comp:obj	_	AlignBegin=157660|AlignEnd=157808|Gloss=who
 11	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=157808|AlignEnd=157961|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_055-055
@@ -1278,9 +1278,9 @@
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=158361|AlignEnd=158561|Gloss=PUNCT
 4	inàː	nàː	PredPART	_	Number=Sing|Person=1|PronType=Prs	0	root	_	AlignBegin=158561|AlignEnd=158761|Gloss=1Sing.Pred/Loc|wordform=i
 5	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	4	comp:pred	_	AlignBegin=158761|AlignEnd=158961|Gloss=stay.Stat
-6	à	à	ADP	_	ExtPos=ADP	4	comp:pred	_	AlignBegin=158961|AlignEnd=159161|Gloss=at|Idiom=Yes
-7	wajen	wajen	ADP	_	_	6	compound	_	AlignBegin=159161|AlignEnd=159361|Gloss=around|InIdiom=Yes
-8	kàːwuːnaː	kàːwu	NOUN	_	_	6	comp:obj	_	AlignBegin=159361|AlignEnd=159461|Gloss=uncle.Cons.+1Sing.Gen|wordform=kàːwuː
+6	à	à	ADP	_	ExtPos=ADP	5	comp:obl	_	AlignBegin=158961|AlignEnd=159161|Gloss=at|Idiom=Yes
+7	wajen	wajen	ADP	_	_	6	comp:obj	_	AlignBegin=159161|AlignEnd=159361|Gloss=around|InIdiom=Yes
+8	kàːwuːnaː	kàːwu	NOUN	_	_	7	comp:obj	_	AlignBegin=159361|AlignEnd=159461|Gloss=uncle.Cons.+1Sing.Gen|wordform=kàːwuː
 9	nèː	neː/ceː	PART	_	_	8	discourse@foc	_	AlignBegin=159561|AlignEnd=159761|Gloss=Emph|PartType=Foc
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=159761|AlignEnd=159960|Gloss=PUNCT
 
@@ -1292,7 +1292,7 @@
 # text = kàːwûn naːkà ya nàː shiː maː à Ùngwan Fulàːni ?//
 # text_en = Your uncle, is he at the Fulanis' quarter too?
 1	kàːwûn	kàːwu	NOUN	_	Definite=Def	3	dislocated@subj	_	AlignBegin=160401|AlignEnd=160471|Gloss=uncle.Def
-2	naːkà	naːkà	PRON	_	Gender=Masc|Person=2|PronType=Prs	1	mod:poss	_	AlignBegin=160540|AlignEnd=160679|Gloss=2Masc.Gen
+2	naːkà	naːkà	PRON	_	Gender=Masc|Person=2|PronType=Prs	1	mod@poss	_	AlignBegin=160540|AlignEnd=160679|Gloss=2Masc.Gen
 3	yanàː	nàː	PredPART	_	Gender=Masc|Person=3|PronType=Prs	0	root	_	AlignBegin=160679|AlignEnd=160818|Gloss=3Masc.Pred/Loc|wordform=ya
 4	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=160818|AlignEnd=160957|Gloss=3Masc.Nom
 5	maː	maː	PART	_	_	4	discourse@top	_	AlignBegin=160957|AlignEnd=161096|Gloss=even|PartType=Top
@@ -1737,7 +1737,7 @@
 6	wajen	wajen	ADP	_	_	5	comp:pred	_	AlignBegin=205332|AlignEnd=205553|Gloss=around
 7	wânnan	wânnan	DET	_	Definite=Def	8	det	_	AlignBegin=205553|AlignEnd=205774|Gloss=Def
 8	kàːkaː	kàːkaː	NOUN	_	_	6	comp:obj	_	AlignBegin=205774|AlignEnd=205995|Gloss=grand-mother
-9	nàːwa	nàːwa	PRON	_	Number=Sing|Person=1|PronType=Prs	8	mod:poss	_	AlignBegin=205995|AlignEnd=206216|Gloss=1Sing.Gen
+9	nàːwa	nàːwa	PRON	_	Number=Sing|Person=1|PronType=Prs	8	mod@poss	_	AlignBegin=205995|AlignEnd=206216|Gloss=1Sing.Gen
 10	mài	mài	ADP	_	Number=Sing|PronType=Rel	8	mod	_	AlignBegin=206437|AlignEnd=206547|Extpos=NOUN|Gloss=having|Linker=Yes
 11	suːnaː	suːnaː	NOUN	_	_	10	comp:obj	_	AlignBegin=206547|AlignEnd=206658|Gloss=name
 12	Taːbi	Taːbi	PROPN	_	_	11	mod	_	AlignBegin=206879|AlignEnd=206989|Gloss=Tabi
@@ -3167,7 +3167,7 @@
 19	à	à	ADP	_	ExtPos=ADP	14	comp:obl	_	AlignBegin=404745|AlignEnd=404926|Gloss=at|Idiom=Yes
 20	wajen	wajen	ADP	_	_	19	compound	_	AlignBegin=404926|AlignEnd=405107|Gloss=around|InIdiom=Yes
 21	gòːnàkîn	goːnaː	NOUN	_	Definite=Def|Number=Plur	19	comp:obj	_	AlignBegin=405288|AlignEnd=405348|Gloss=field.Plur.Def
-22	naːmù	naːmù	PRON	_	Number=Plur|Person=1|PronType=Prs	21	mod:poss	_	AlignBegin=405469|AlignEnd=405650|Gloss=1Plur.Gen
+22	naːmù	naːmù	PRON	_	Number=Plur|Person=1|PronType=Prs	21	mod@poss	_	AlignBegin=405469|AlignEnd=405650|Gloss=1Plur.Gen
 23	//	//	PUNCT	_	_	13	punct	_	AlignBegin=405650|AlignEnd=405830|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_149-149
@@ -3360,7 +3360,7 @@
 2	wânnan	wânnan	DET	_	Definite=Def	1	conj:appos	_	AlignBegin=430382|AlignEnd=430580|Gloss=Def
 3	ainihin	ainihiː	ADJ	_	Definite=Cons	4	mod	_	AlignBegin=430580|AlignEnd=430679|Gloss=real.Cons
 4	kàːwûn	kàːwu	NOUN	_	Definite=Def	0	root	_	AlignBegin=430778|AlignEnd=430877|Gloss=uncle.Def
-5	nàːwa	nàːwa	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	mod:poss	_	AlignBegin=430976|AlignEnd=431174|Gloss=1Sing.Gen
+5	nàːwa	nàːwa	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	mod@poss	_	AlignBegin=430976|AlignEnd=431174|Gloss=1Sing.Gen
 6	wandà	wandà	PRON	_	PronType=Rel	4	mod@relcl	_	AlignBegin=431174|AlignEnd=431372|Gloss=who
 7	mukèː	kèː	AUX	_	Aspect=ProgBkg|Number=Plur|Person=1	6	udep	_	AlignBegin=431372|AlignEnd=431570|Background=Yes|Gloss=1Plur.ProgBkg
 8	zamaː	zaun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	comp:aux	_	AlignBegin=431570|AlignEnd=431768|Gloss=stay.Vnoun
@@ -3849,7 +3849,7 @@
 1	suː	suː	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	comp:pred	_	AlignBegin=492726|AlignEnd=492896|Gloss=2Plur.Nom
 2	nèː	neː/ceː	PredPART	_	_	0	root	_	AlignBegin=492896|AlignEnd=493066|Gloss=be
 3	ƴaːƴân	ɗaː	NOUN	_	Definite=Def|Number=Plur	2	comp:cleft	_	AlignBegin=493066|AlignEnd=493123|Gloss=child.Plur.Def
-4	naːtà	naːtà	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	mod:poss	_	AlignBegin=493236|AlignEnd=493406|Gloss=3Fem.Gen
+4	naːtà	naːtà	PRON	_	Gender=Fem|Person=3|PronType=Prs	3	mod@poss	_	AlignBegin=493236|AlignEnd=493406|Gloss=3Fem.Gen
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=493406|AlignEnd=493578|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_180_split1
@@ -3868,7 +3868,7 @@
 7	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	comp:pred	_	AlignBegin=495052|AlignEnd=495245|Gloss=3Masc.Nom
 8	nèː	neː/ceː	PredPART	_	_	0	root	_	AlignBegin=495245|AlignEnd=495438|Gloss=be
 9	suːnân	suːnaː	NOUN	_	Definite=Def	8	comp:cleft	_	AlignBegin=495631|AlignEnd=495727|Gloss=name.Def
-10	naːtà	naːtà	PRON	_	Gender=Fem|Person=3|PronType=Prs	9	mod:poss	_	AlignBegin=495824|AlignEnd=496017|Gloss=3Fem.Gen
+10	naːtà	naːtà	PRON	_	Gender=Fem|Person=3|PronType=Prs	9	mod@poss	_	AlignBegin=495824|AlignEnd=496017|Gloss=3Fem.Gen
 11	//	//	PUNCT	_	_	8	punct	_	AlignBegin=496017|AlignEnd=496210|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_180-split2
