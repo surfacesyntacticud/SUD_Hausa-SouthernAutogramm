@@ -1121,7 +1121,7 @@
 # text = tòː gàː || gàː wani maː à nân //
 # text_en = Well, there... there's even one here.
 1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=131195|AlignEnd=131447|Gloss=well
-2	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=131447|AlignEnd=131699|Gloss=here_is
+2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=131447|AlignEnd=131699|Gloss=here_is|PartType=Pred
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=131699|AlignEnd=131951|GE=|Gloss=PUNCT|nWord=3
 4	gàː	gàː	PART	_	_	2	conj:dicto	_	AlignBegin=131951|AlignEnd=132203|Gloss=here_is|PartType=Pred
 5	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	4	subj	_	AlignBegin=132203|AlignEnd=132455|Gloss=some.Masc
@@ -4215,16 +4215,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 527393, 529201
 # phonetic_text = dà mài zaːƙiː dà mài barciː kèː nan /
-# text = dà mài zaːƙiː dà mài bauriː kèː nan /
+# text = dà mài zaːƙiː dà mài bauriː kèːnan //
 # text_en = There is the sweet one, and the acrid one.
-1	dà	dà	PredPART	_	_	0	root	_	AlignBegin=527393|AlignEnd=527594|Gloss=there_is
-2	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing|PronType=Rel	1	dislocated	_	AlignBegin=527594|AlignEnd=527795|Gloss=having|Idiom=Yes|Linker=Yes
+1	dà	dà	PART	_	_	0	root	_	AlignBegin=527393|AlignEnd=527594|Gloss=there_is|PartType=Pred
+2	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing|PronType=Rel	1	subj	_	AlignBegin=527594|AlignEnd=527795|Gloss=having|Idiom=Yes|Linker=Yes
 3	zaːƙiː	zaːƙiː	NOUN	_	_	2	comp:obj	_	AlignBegin=527795|AlignEnd=527996|Gloss=sweetness|InIdiom=Yes
 4	dà	dà	PART	_	_	1	parataxis	_	AlignBegin=527996|AlignEnd=528197|Gloss=there_is|PartType=Pred
 5	mài	mài	ADP	_	ExtPos=ADJ|Number=Sing|PronType=Rel	4	subj	_	AlignBegin=528197|AlignEnd=528398|Gloss=having|Idiom=Yes|Linker=Yes
 6	bauriː	bauriː	NOUN	_	_	5	comp:obj	_	AlignBegin=528398|AlignEnd=528599|Gloss=acridity|InIdiom=Yes
 7	kèːnan	kèːnan	PART	_	_	1	discourse@foc	_	AlignBegin=528599|AlignEnd=528800|Gloss=Emph|PartType=Foc|wordform=kèː
-8	<	<	PUNCT	_	_	1	punct	_	AlignBegin=529001|AlignEnd=529201|Gloss=PUNCT
+8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=529001|AlignEnd=529201|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0442-0442
 # speaker_id = SP2
@@ -7882,7 +7882,7 @@
 # phonetic_text = gàː &// gàː àbù -ǹ nan //
 # text = gàː || gàː àbîn nan //
 # text_en = That's... that's what d'you call it?
-1	gàː	gàː	PredPART	_	_	0	root	_	AlignBegin=949909|AlignEnd=950124|Gloss=here_is
+1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=949909|AlignEnd=950124|Gloss=here_is|PartType=Pred
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=950124|AlignEnd=950339|Gloss=PUNCT
 3	gàː	gàː	PART	_	_	1	conj:dicto	_	AlignBegin=950339|AlignEnd=950458|Gloss=here_is|PartType=Pred
 4	àbîn	àbù	NOUN	_	Definite=Def	3	subj	_	AlignBegin=950458|AlignEnd=950518|Gloss=thing.Def|wordform=àbù
@@ -8987,7 +8987,7 @@
 # phonetic_text = àkwai &// àkwai tsaːmiyaː -n Dattì //
 # text = àkwai || àkwai tsaːmiyan Dattì //
 # text_en = There is ... there is Datti's tamarind.
-1	àkwai	àkwai	PredPART	_	_	0	root	_	AlignBegin=1076650|AlignEnd=1076840|Gloss=there_is
+1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=1076650|AlignEnd=1076840|Gloss=there_is|PartType=Pred
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=1076840|AlignEnd=1077040|Gloss=PUNCT
 3	àkwai	àkwai	PART	_	_	1	conj:dicto	_	AlignBegin=1077910|AlignEnd=1078130|Gloss=there_is|PartType=Pred
 4	tsaːmiyan	tsaːmiyaː	NOUN	_	Definite=Cons	3	subj	_	AlignBegin=1078130|AlignEnd=1078240|Gloss=tamarind.Cons|wordform=tsaːmiyaː
