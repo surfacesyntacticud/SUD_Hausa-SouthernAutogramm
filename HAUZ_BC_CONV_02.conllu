@@ -187,7 +187,7 @@
 25	wandà	wandà	PRON	_	PronType=Rel	24	mod@relcl	_	AlignBegin=28085|AlignEnd=28297|Gloss=who
 26	nikè	kè	PredPART	_	Number=Sing|Person=1|PronType=Prs	25	udep	_	AlignBegin=28297|AlignEnd=28509|Background=Yes|Gloss=1Sing.Pred/Loc.Bkg|wordform=ni
 27	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	26	comp:pred	_	AlignBegin=28509|AlignEnd=28721|Gloss=stay.Stat
-28	à	à	ADP	_	ExtPos=ADP	26	comp:pred	_	AlignBegin=28721|AlignEnd=28933|Gloss=at|Idiom=Yes
+28	à	à	ADP	_	ExtPos=ADP	27	comp:obl	_	AlignBegin=28721|AlignEnd=28933|Gloss=at|Idiom=Yes
 29	wajenshì	wajeː	NOUN	_	Definite=Cons	28	compound	_	AlignBegin=28933|AlignEnd=29039|Gloss=side.Cons.3Masc.Gen|InIdiom=Yes|wordform=wajen
 30	|a	|a	PUNCT	_	_	32	punct	_	AlignBegin=29145|AlignEnd=29358|Gloss=PUNCT
 31	wânnan	wânnan	DET	_	Definite=Def	32	det	_	AlignBegin=29358|AlignEnd=29531|Gloss=Def
@@ -1535,7 +1535,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 162156, 166872
 # phonetic_text = tòː shiː zamaː -ǹ dà kukèː dà shiː yànzu / yaː tsuːfa nèː yànzu / koː kòː shiː har̃ yànzu yanàː dà dai àː -ːːː / àbù -ǹ nan ɗin -shì nèː //
-# text = tòː shiː zaman dà ku kè dà shiː yànzu < yaː tsuːfa nèː yànzu |c koː kòː shiː har̃ yànzu ya nàː dà dai àː àbîn nan ɗin =shì neː //
+# text = tòː shiː zaman dà kukè dà shiː yànzu < yaː tsuːfa nèː yànzu |c koː kòː shiː har̃ yànzu yanàː dà dai àː àbîn nan ɗinshì neː //
 # text_en = Well the way you are staying with him now, is he old now, or now, does he have er... that thing of his ?
 1	tòː	tòː	INTJ	_	_	10	discourse	_	AlignBegin=162156|AlignEnd=162325|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	dislocated@top	_	AlignBegin=162325|AlignEnd=162494|Gloss=3Masc.Nom
@@ -1552,7 +1552,7 @@
 13	yànzu	yànzu	ADV	_	_	10	mod	_	AlignBegin=164407|AlignEnd=164583|Gloss=now
 14	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=164583|AlignEnd=164761|Gloss=PUNCT
 15	koː	koː	CCONJ	_	_	20	cc	_	AlignBegin=164761|AlignEnd=164894|Gloss=or
-16	kòː	kùwa	CCONJ	_	_	15	conj:redup	_	AlignBegin=164894|AlignEnd=165027|Gloss=else
+16	kòː	kùwa	PART	_	_	15	discourse@top	_	AlignBegin=164894|AlignEnd=165027|Gloss=else|PartType=Top
 17	shiː	shiː	PRON	_	Gender=Masc|Person=3|PronType=Prs	20	dislocated@subj	_	AlignBegin=165027|AlignEnd=165160|Gloss=3Masc.Nom
 18	har̃	hat	ADP	_	_	20	mod	_	AlignBegin=165160|AlignEnd=165293|Gloss=up_to
 19	yànzu	yànzu	ADV	_	_	18	comp:obj	_	AlignBegin=165293|AlignEnd=165426|Gloss=now
