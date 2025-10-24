@@ -1811,15 +1811,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 188553, 192203
 # phonetic_text = kà mîn ƙaːrìː -ǹ bàyaːnìː / à kâi -n dàngàntakàː -n -shì dà wancàn kàːkaː taːkù dà allàː ya makà r̃àsu -wàː //
-# text = kà mîn ƙaːrìn bàyaːnìː à kân dàngàntakàn =shì dà wancàn kàːkaː taːkù dà Allàː ya makà r̃àsuwaː //
+# text = kà mîn ƙaːrìn bàyaːnìː à kân dàngàntakànshì dà wancàn kàːkaː taːkù dà Allàː ya makà r̃àsuwaː //
 # text_en = Give me more explanation concerning his relationship with that grand-mother of yours who has died?
 1	kà	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=2	0	root	_	AlignBegin=188553|AlignEnd=188734|Gloss=2Masc.Aor
 2	mîn	mîn	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	comp:aux	_	AlignBegin=188734|AlignEnd=188915|Gloss=1Sing.Dat
 3	ƙaːrìn	ƙaːr-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	1	comp:aux	_	AlignBegin=188915|AlignEnd=189005|Gloss=increase.Vnoun.Cons|wordform=ƙaːrìː
 4	bàyaːnìː	bàyaːnìː	NOUN	_	_	3	udep	_	AlignBegin=189096|AlignEnd=189277|Gloss=explanation
-5	à	à	ADP	_	ExtPos=ADP	1	parataxis@conj	_	AlignBegin=189458|AlignEnd=189669|Gloss=at|Idiom=Yes
-6	kân	kâi	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=189669|AlignEnd=189775|Gloss=head.Cons|InIdiom=Yes|wordform=kâi
-7	dàngàntakànshì	dàngàntakàː	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=189880|AlignEnd=189950|Gloss=relationship.Cons.3Masc|wordform=dàngàntakàː
+5	à	à	ADP	_	_	1	parataxis@conj	_	AlignBegin=189458|AlignEnd=189669|Gloss=at
+6	kân	kâi	ADP	_	Definite=Cons	5	comp:obj	_	AlignBegin=189669|AlignEnd=189775|Gloss=head.Cons|wordform=kâi
+7	dàngàntakànshì	dàngàntakàː	NOUN	_	Definite=Cons	6	comp:obj	_	AlignBegin=189880|AlignEnd=189950|Gloss=relationship.Cons.3Masc|wordform=dàngàntakàː
 8	dà	dà	ADP	_	_	7	comp:obl	_	AlignBegin=190091|AlignEnd=190302|Gloss=with
 9	wancàn	wancàn	DET	_	PronType=Dem	10	det	_	AlignBegin=190302|AlignEnd=190513|Deixis=Remt|Gloss=Rmt
 10	kàːkaː	kàːkaː	NOUN	_	_	8	comp:obj	_	AlignBegin=190513|AlignEnd=190724|Gloss=grand-parent
@@ -2202,10 +2202,10 @@
 10	saːmoː	saːmoː	VERB	_	_	9	comp:aux	_	AlignBegin=229400|AlignEnd=229644|Gloss=get.DIR
 11	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=229644|AlignEnd=229888|Gloss=3Fem
 12	nèː	neː/ceː	PART	_	_	11	discourse@foc	_	AlignBegin=229888|AlignEnd=230132|Gloss=Emph|PartType=Foc
-13	ta	ta	ADP	_	ExtPos=ADP	10	comp:obl	_	AlignBegin=230914|AlignEnd=231188|Gloss=via|Idiom=Yes
-14	dàliːlì	dàliːlìː	NOUN	_	_	13	comp:obj	_	AlignBegin=231188|AlignEnd=231462|Gloss=cause|InIdiom=Yes
+13	ta	ta	ADP	_	_	10	comp:obl	_	AlignBegin=230914|AlignEnd=231188|Gloss=via
+14	dàliːlì	dàliːlìː	ADP	_	_	13	comp:obj	_	AlignBegin=231188|AlignEnd=231462|Gloss=cause
 15	wânnan	wânnan	DET	_	Definite=Def	16	det	_	AlignBegin=231462|AlignEnd=231736|Gloss=Def
-16	tsoːhuwaː	tsoːhuwaː	NOUN	_	_	13	comp:obj	_	AlignBegin=231736|AlignEnd=232010|Gloss=old_woman
+16	tsoːhuwaː	tsoːhuwaː	NOUN	_	_	14	comp:obj	_	AlignBegin=231736|AlignEnd=232010|Gloss=old_woman
 17	Bàːsa	Bàːsa	PROPN	_	_	16	conj:appos	_	AlignBegin=232010|AlignEnd=232284|Gloss=Basa
 18	//	//	PUNCT	_	_	9	punct	_	AlignBegin=232284|AlignEnd=232559|Gloss=PUNCT
 

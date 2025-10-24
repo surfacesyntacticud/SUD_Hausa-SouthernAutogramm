@@ -690,9 +690,9 @@
 1	zaːkà	zâi	AUX	_	Number=Sing|Person=2|Tense=Fut	0	root	_	AlignBegin=74042|AlignEnd=74185|Gloss=2Sing.Fut
 2	gan	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=74185|AlignEnd=74328|Gloss=see
 3	tà	ta	PRON	_	Gender=Fem|Person=3|PronType=Prs	2	comp:obj	_	AlignBegin=74328|AlignEnd=74471|Gloss=3Fem
-4	à	à	ADP	_	ExtPos=ADP	2	comp:obl	_	AlignBegin=74471|AlignEnd=74614|Gloss=at|Idiom=Yes
-5	geːfèn	geːfèː	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=74614|AlignEnd=74686|Gloss=side.Cons|InIdiom=Yes|wordform=geːfèː
-6	tiːtìː	tiːtìː	NOUN	_	_	4	comp:obj	_	AlignBegin=74757|AlignEnd=74900|Gloss=street
+4	à	à	ADP	_	_	2	comp:obl	_	AlignBegin=74471|AlignEnd=74614|Gloss=at
+5	geːfèn	geːfèː	NOUN	_	Definite=Cons	4	comp:obj	_	AlignBegin=74614|AlignEnd=74686|Gloss=side.Cons|wordform=geːfèː
+6	tiːtìː	tiːtìː	NOUN	_	_	5	mod	_	AlignBegin=74757|AlignEnd=74900|Gloss=street
 7	maː	maː	PART	_	_	4	discourse@top	_	AlignBegin=74900|AlignEnd=75043|Gloss=even|PartType=Top
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=75043|AlignEnd=75188|Gloss=PUNCT
 
@@ -1004,16 +1004,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 115639, 116822
 # phonetic_text = koːdà yakèː bâi dà aureː nèː kai /
-# text = koːdà yakè baːyà dà aureː nèː kai !//
+# text = koːdàyakè baːyà dà aureː nèː kâi !//
 # text_en = Although he is not married, wow!
-1	koːdà	koːdà	SCONJ	_	ExtPos=SCONJ	7	mod	_	AlignBegin=115639|AlignEnd=115787|Gloss=although|Idiom=Yes
-2	yakè	kè	AUX	_	Gender=Masc|Person=3|PronType=Prs	1	comp:obj	_	AlignBegin=115787|AlignEnd=115935|Gloss=3Masc.Pred/Loc.Bkg|InIdiom=Yes|wordform=ya
-3	baːyà	bâi	AUX	_	Polarity=Neg	1	comp:obj	_	AlignBegin=115935|AlignEnd=116083|Gloss=Pred/Loc.Neg.3Masc
-4	dà	dà	ADP	_	_	3	comp:pred	_	AlignBegin=116083|AlignEnd=116231|Gloss=with
-5	aureː	aureː	NOUN	_	_	4	comp:obj	_	AlignBegin=116231|AlignEnd=116379|Gloss=wedding
-6	nèː	neː/ceː	PART	_	_	3	discourse@foc	_	AlignBegin=116379|AlignEnd=116527|Gloss=Emph|PartType=Foc
-7	kai	kai	PRON	_	_	0	root	_	AlignBegin=116527|AlignEnd=116675|Gloss=eh
-8	!//	!//	PUNCT	_	_	7	punct	_	AlignBegin=116675|AlignEnd=116822|Gloss=PUNCT
+1	koːdàyakè	koːdàyakè	SCONJ	_	_	6	mod	_	AlignBegin=115639|AlignEnd=115787|Gloss=although
+2	baːyà	bâi	AUX	_	Polarity=Neg	1	comp:obj	_	AlignBegin=115935|AlignEnd=116083|Gloss=Pred/Loc.Neg.3Masc
+3	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=116083|AlignEnd=116231|Gloss=with
+4	aureː	aureː	NOUN	_	_	3	comp:obj	_	AlignBegin=116231|AlignEnd=116379|Gloss=wedding
+5	nèː	neː/ceː	PART	_	_	2	discourse@foc	_	AlignBegin=116379|AlignEnd=116527|Gloss=Emph|PartType=Foc
+6	kâi	kâi	INTJ	_	_	0	root	_	AlignBegin=116527|AlignEnd=116675|Gloss=wow!
+7	!//	!//	PUNCT	_	_	6	punct	_	AlignBegin=116675|AlignEnd=116822|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0100-0100
 # speaker_id = SP1
