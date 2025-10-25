@@ -290,7 +290,7 @@
 # phonetic_text = wànneː kakèː taːɗìː à ciki //
 # text = wànneː kakèː taːɗìː à ciki ?//
 # text_en = Which one are you talking about?
-1	wànneː	wànneː	DET	_	_	2	subj	_	AlignBegin=34853|AlignEnd=35023|Gloss=which
+1	wànneː	wànneː	DET	_	PronType=Int	2	subj	_	AlignBegin=34853|AlignEnd=35023|Gloss=which
 2	kakèː	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=2	0	root	_	AlignBegin=35023|AlignEnd=35193|Background=Yes|Gloss=2Masc.Perf.Bkg
 3	taːɗìː	taːɗìː	NOUN	_	_	2	comp:aux	_	AlignBegin=35193|AlignEnd=35363|Gloss=chatting
 4	à	à	ADP	_	_	3	comp:obl	_	AlignBegin=35363|AlignEnd=35533|Gloss=at
@@ -3456,10 +3456,10 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 430201, 431120
 # phonetic_text = na wànneː kèː nan //
-# text = na wànneː kèː nan ?//
+# text = na wànneː kèːnan ?//
 # text_en = Which one?
 1	na	na/ta	ADP	_	Definite=Cons	0	root	_	AlignBegin=430201|AlignEnd=430385|Gloss=of
-2	wànneː	wànneː	DET	_	Definite=Def	1	comp:obj	_	AlignBegin=430385|AlignEnd=430569|Gloss=which
+2	wànneː	wànneː	DET	_	PronType=Int	1	comp:obj	_	AlignBegin=430385|AlignEnd=430569|Gloss=which
 3	kèːnan	kèːnan	PART	_	_	1	discourse@foc	_	AlignBegin=430569|AlignEnd=430753|Background=Yes|Gloss=Emph|PartType=Foc|wordform=kèː
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=430937|AlignEnd=431120|Gloss=PUNCT
 
@@ -6713,7 +6713,7 @@
 13	gaudaː	gaudaː	NOUN	_	_	12	comp:obj	_	AlignBegin=822554|AlignEnd=822686|Gloss=cakes_sp
 14	zaːʼà	zâi	AUX	_	Person=4|Tense=Fut	0	root	_	AlignBegin=822686|AlignEnd=822818|Gloss=4.Fut
 15	cêː	cêː	VERB	_	_	14	comp:aux	_	AlignBegin=822818|AlignEnd=822950|Gloss=say
-16	wànè	wànè	DET	_	Definite=Def|PronType=Int	17	det	_	AlignBegin=823081|AlignEnd=823342|Gloss=which
+16	wànè	wànè	DET	_	PronType=Int	17	det	_	AlignBegin=823081|AlignEnd=823342|Gloss=which
 17	gaudâː	gaudaː	NOUN	_	_	15	comp:obj	_	AlignBegin=823342|AlignEnd=823472|Gloss=cakes_sp.Quest|PartType=Int
 18	//	//	PUNCT	_	_	14	punct	_	AlignBegin=823603|AlignEnd=823864|Gloss=PUNCT
 
@@ -7193,7 +7193,7 @@
 # phonetic_text = wànè ƙwai -n bà- Hausa -èː //
 # text = wànè ƙwan Bàhawshèː ?//
 # text_en = Which Hausa eggs?
-1	wànè	wànè	DET	_	Definite=Def|PronType=Int	2	det	_	AlignBegin=883749|AlignEnd=883939|Gloss=which
+1	wànè	wànè	DET	_	PronType=Int	2	det	_	AlignBegin=883749|AlignEnd=883939|Gloss=which
 2	ƙwan	ƙwai	NOUN	_	Definite=Cons	0	root	_	AlignBegin=883939|AlignEnd=884034|Gloss=egg.Cons|wordform=ƙwai
 3	Bàhawshèː	Bàhawshèː	PROPN	_	_	2	mod	_	AlignBegin=884192|AlignEnd=884255|Gloss=Hausa
 4	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=884319|AlignEnd=884509|Gloss=PUNCT
@@ -8371,7 +8371,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1004415, 1007539
 # phonetic_text = tun bàʼà shìga maː cikin àbù -n nàn / tsantsan wannàn ɗîn ba kèː nan //
-# text = tun bàʼà shìga maː cikin àbin nàn / tsantsan wannàn ɗîn ba kèː nan //
+# text = tun bàʼà shìga maː cikin àbin nàn || tsantsan wannàn ɗîn ba kèːnan //
 # text_en = since we are not yet in that er... serious something.
 1	tun	tundà	SCONJ	_	_	2	discourse	_	AlignBegin=1004420|AlignEnd=1004580|AttachTo=HAUZ_BC_CONV_04_0891-0895|Gloss=since|Rel=mod
 2	bàʼà	bài	AUX	_	Aspect=PerfNeg|Person=2|Polarity=Neg	0	root	_	AlignBegin=1004580|AlignEnd=1004760|Gloss=4.PerfNeg
@@ -8382,7 +8382,7 @@
 7	nàn	nàn	DET	_	Deixis=Prox|PronType=Dem	6	det	_	AlignBegin=1005440|AlignEnd=100560|Gloss=Prox
 8	||	||	PUNCT	_	_	10	punct	_	AlignBegin=100560|AlignEnd=1005770|Gloss=PUNCT
 9	tsantsan	tsantsaː	ADJ	_	Definite=Cons	10	mod	_	AlignBegin=1005770|AlignEnd=1006030|Gloss=tight
-10	wannàn	wannàn	PRON	_	Definite=Def|Deixis=Prox|PronType=Dem	6	conj:dicto	_	AlignBegin=1006030|AlignEnd=1006280|Gloss=Prox
+10	wannàn	wannàn	PRON	_	Deixis=Prox|PronType=Dem	6	conj:dicto	_	AlignBegin=1006030|AlignEnd=1006280|Gloss=Prox
 11	ɗîn	ɗin	DET	_	Definite=Def	10	det	_	AlignBegin=1006280|AlignEnd=1006530|Gloss=of.Def
 12	ba	ba	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=1006530|AlignEnd=1006780|Gloss=Neg
 13	kèːnan	kèːnan	PART	_	_	2	discourse@foc	_	AlignBegin=1006780|AlignEnd=1007030|Gloss=Emph|PartType=Foc|wordform=kèː
@@ -9649,7 +9649,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1157317, 1160749
 # phonetic_text = bàː na yànzu ba / à cikàː matà gishiriː / tà yi r̃uwar̃uwaː / tà yi wannàn //
-# text = bàː na yànzu ba / à cikàː matà gishiriː / tà yi r̃uwa-r̃uwa / tà yi wannàn //
+# text = bàː na yànzu ba < à cikàː matà gishiriː |c tà yi r̃uwa-r̃uwa |c tà yi wannàn //
 # text_en = Today's will be full of salt, runny, whatever.
 1	bàː	bàː	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=1157320|AlignEnd=1157430|Gloss=Neg
 2	na	na/ta	ADP	_	Definite=Cons	6	dislocated	_	AlignBegin=1157430|AlignEnd=1157550|Gloss=of
@@ -9667,7 +9667,7 @@
 14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=116010|AlignEnd=116030|Gloss=PUNCT
 15	tà	ø	AUX	_	Aspect=Aor|Gender=Fem|Person=3	11	conj:coord	_	AlignBegin=116030|AlignEnd=1160410|Gloss=3Fem.Aor
 16	yi	yi	VERB	_	_	15	comp:aux	_	AlignBegin=1160410|AlignEnd=1160520|Gloss=do
-17	wannàn	wannàn	PRON	_	Definite=Def|Deixis=Prox|PronType=Dem	16	comp:pred	_	AlignBegin=1160520|AlignEnd=1160640|Gloss=Prox
+17	wannàn	wannàn	PRON	_	Deixis=Prox|PronType=Dem	16	comp:pred	_	AlignBegin=1160520|AlignEnd=1160640|Gloss=Prox
 18	//	//	PUNCT	_	_	6	punct	_	AlignBegin=1160640|AlignEnd=1160750|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1040-1040
