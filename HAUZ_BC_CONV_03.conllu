@@ -480,7 +480,7 @@
 # text = dàgà nân fa < bà zâː ki makar̃antaː ba ?//
 # text_en = From now on, won't you go to school?
 1	dàgà	dàgà	ADP	_	_	6	mod	_	AlignBegin=62072|AlignEnd=62228|Gloss=from
-2	nân	nân	ADV	_	PronType=Dem	1	comp:obj	_	AlignBegin=62228|AlignEnd=62384|Deixis=Prox|Gloss=Prox
+2	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	1	comp:obj	_	AlignBegin=62228|AlignEnd=62384|Gloss=Prox
 3	fa	fa	PART	_	_	1	discourse@top	_	AlignBegin=62384|AlignEnd=62540|Gloss=indeed|PartType=Top
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=62540|AlignEnd=62697|Gloss=PUNCT
 5	bà	bà	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=62697|AlignEnd=62874|Gloss=Neg
@@ -2951,9 +2951,9 @@
 # text_en = His intimate friend knew his secret.
 1	àboːkinshì	àboːkiː	NOUN	_	Definite=Cons	6	subj	_	AlignBegin=367034|AlignEnd=367107|Gloss=friend.Cons.3Masc.Gen|wordform=àboːkiː
 2	na	na/ta	ADP	_	Definite=Cons	1	mod	_	AlignBegin=367254|AlignEnd=367474|Gloss=of
-3	ƙut	ƙut	IDEO	_	_	2	mod	_	AlignBegin=367474|AlignEnd=367694|Gloss=intimate
+3	ƙut	ƙut	ADV	_	_	2	mod	_	AlignBegin=367474|AlignEnd=367694|Gloss=intimate|Ideo=Yes
 4	dà	dà	CCONJ	_	_	5	cc	_	AlignBegin=367694|AlignEnd=367914|Gloss=and
-5	ƙut	ƙut	IDEO	_	_	3	conj:coord	_	AlignBegin=367914|AlignEnd=368134|Gloss=intimate
+5	ƙut	ƙut	ADV	_	_	3	conj:coord	_	AlignBegin=367914|AlignEnd=368134|Gloss=intimate|Ideo=Yes
 6	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=368134|AlignEnd=368354|Gloss=3Masc.Perf
 7	san	sanìː	VERB	_	_	6	comp:aux	_	AlignBegin=368354|AlignEnd=368574|Gloss=know
 8	sir̃r̃ìnshì	sir̃r̃ìː	NOUN	_	Definite=Cons	6	comp:aux	_	AlignBegin=368574|AlignEnd=368647|Gloss=secret.Cons.3Masc.Gen|wordform=sir̃r̃ìː
@@ -3044,7 +3044,7 @@
 10	zâi	zâi	AUX	_	Gender=Masc|Person=3|Tense=Fut	8	comp:obj	_	AlignBegin=379665|AlignEnd=379881|Gloss=3Masc.Fut
 11	saːmar̃	saːm-	VERB	_	_	10	mod	_	AlignBegin=379881|AlignEnd=380097|Gloss=give_out.Cau
 12	ba	ba	ADV	_	Polarity=Neg	10	mod	_	AlignBegin=380097|AlignEnd=380313|Gloss=Neg
-13	sam	sam	IDEO	_	_	10	mod	_	AlignBegin=380313|AlignEnd=380529|Gloss=at_all
+13	sam	sam	ADV	_	_	10	mod	_	AlignBegin=380313|AlignEnd=380529|Gloss=at_all|Ideo=Yes
 14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=380529|AlignEnd=380741|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__207
@@ -3184,7 +3184,7 @@
 # text = à nân X akà sàːmeː shi //
 # text_en = they found him here at X.
 1	à	à	ADP	_	_	0	root	_	AlignBegin=394956|AlignEnd=395188|Gloss=at
-2	nân	nân	ADV	_	PronType=Dem	1	comp:obj	_	AlignBegin=395188|AlignEnd=395420|Deixis=Prox|Gloss=Prox
+2	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	1	comp:obj	_	AlignBegin=395188|AlignEnd=395420|Gloss=Prox
 3	X	x	X	_	_	2	conj:appos	_	AlignBegin=395420|AlignEnd=395652|Gloss=X
 4	akà	(n)kà	AUX	_	Aspect=PerfBkg|Person=4	1	comp:cleft	_	AlignBegin=395652|AlignEnd=395884|Background=Yes|Gloss=4.Perf.Bkg
 5	sàːmeː	saːm-	VERB	_	_	4	comp:aux	_	AlignBegin=395884|AlignEnd=396000|Gloss=find
@@ -3251,7 +3251,7 @@
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=403143|AlignEnd=403250|Gloss=PUNCT
 7	iyàː	iyàː	VERB	_	_	13	dislocated	_	AlignBegin=403250|AlignEnd=403448|Gloss=can
 8	lalleː	lalleː	INTJ	_	_	13	discourse	_	AlignBegin=403448|AlignEnd=403646|Gloss=certainly
-9	wannàn	wannàn	PRON	_	PronType=Dem	13	dislocated@subj	_	AlignBegin=403646|AlignEnd=403844|Deixis=Prox|Gloss=Prox
+9	wannàn	wannàn	PRON	_	Deixis=Prox|PronType=Dem	13	dislocated@subj	_	AlignBegin=403646|AlignEnd=403844|Gloss=Prox
 10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=403844|AlignEnd=404040|Gloss=PUNCT
 11	wai	wai	ADV	_	_	13	discourse	_	AlignBegin=404040|AlignEnd=404244|Gloss=EVD
 12	<	<	PUNCT	_	_	11	punct	_	AlignBegin=404244|AlignEnd=404448|Gloss=PUNCT
