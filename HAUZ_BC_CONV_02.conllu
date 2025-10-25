@@ -3,7 +3,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 2009, 6774
 # phonetic_text = tòː shiː wânnan ƙasaː indà kukèː noːmaː -n raːniː / yaː kasànceː kunàː noːmaː -ǹ kunàː saːmùː -n àlbar̃kàː sòːsai à wuriː -ǹ kèː nan //
-# text = tòː shiː wânnan ƙasaː indà kukèː noːman raːniː / yaː kasàncè kunàː noːmân kunàː saːmùn àlbar̃kàː sòːsai à wurîn kèːnan ?//
+# text = tòː shiː wânnan ƙasaː indà kukèː noːman raːniː < yaː kasàncè kunàː noːmân kunàː saːmùn àlbar̃kàː sòːsai à wurîn kèːnan ?//
 # text_en = Well, that soil where you do your dry season farming, where you happen to be farming, is the place fertile?
 1	tòː	tòː	INTJ	_	_	10	discourse	_	AlignBegin=2009|AlignEnd=2203|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	dislocated@subj	_	AlignBegin=2203|AlignEnd=2397|Gloss=3Masc.Nom
@@ -17,7 +17,7 @@
 10	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=4018|AlignEnd=4230|Gloss=3Masc.Perf
 11	kasàncè	kasànceː	VERB	_	_	10	comp:aux	_	AlignBegin=4230|AlignEnd=4442|Gloss=become
 12	kunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=2	11	comp:obj	_	AlignBegin=4442|AlignEnd=4654|Gloss=2Plur.Prog
-13	noːmân	noːm-	VERB	_	Definite=Def|ExtPos=NOUN|VerbForm=Vnoun	12	comp:aux	_	AlignBegin=4654|AlignEnd=4760|Gloss=farm.Vnoun.Def
+13	noːmân	noːm-	NOUN	_	Definite=Def|ExtPos=NOUN	12	comp:aux	_	AlignBegin=4654|AlignEnd=4760|Gloss=farming.Def
 14	kunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=2	12	parataxis@conj	_	AlignBegin=4866|AlignEnd=5078|Gloss=2Plur.Prog
 15	saːmùn	saːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	14	comp:aux	_	AlignBegin=5078|AlignEnd=5184|Gloss=get.Vnoun.Cons
 16	àlbar̃kàː	àlbar̃kàː	NOUN	_	_	15	udep	_	AlignBegin=5290|AlignEnd=5502|Gloss=blessing
@@ -944,7 +944,7 @@
 # phonetic_text = wàːtòː -ǹ / shiː wânnan noːmaː dà kukàn yi / kukàn yi dà -ːːː / àmfàːniː dà taːkìː -ǹ / bàtuːr̃èː nèː koː / kukàn yi àmfàːniː dà taːkìː nèː na gar̃gajiyaː //
 # text = wàːtòn < shiː wânnan noːmaː dà kukàn yi < kukàn yi dà àmfàːniː dà taːkìn Bàtuːr̃èː nèː koː kukàn yi àmfàːniː dà taːkìː nèː na gar̃gajiyaː ?//
 # text_en = I mean, that farming that you are doing, do you do it with... chemical fertilizers or do you use manure?
-1	wàːtòn	wàːtòː	CCONJ	_	Definite=Def	10	cc	_	AlignBegin=103036|AlignEnd=103093|Gloss=that_is.Def|wordform=wàːtòː
+1	wàːtòn	wàːtòː	CCONJ	_	_	10	cc	_	AlignBegin=103036|AlignEnd=103093|Gloss=that_is|wordform=wàːtòː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=103150|AlignEnd=103265|Gloss=PUNCT
 3	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	dislocated@comp	_	AlignBegin=103265|AlignEnd=103419|Gloss=3Masc.Nom
 4	wânnan	wânnan	DET	_	Definite=Def	5	det	_	AlignBegin=103419|AlignEnd=103573|Gloss=Def
@@ -1491,7 +1491,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 157535, 161459
 # phonetic_text = tòː shiː wânnan wandà kakèː zàune à wuriː -n -shì yànzu / wàːtòː -ǹ gaskiyaː kanàː jîː -n daːɗiː -n zamaː dà shiː kèː nan //
-# text = tòː shiː wânnan wandà ka kè zàune à wurin =shì yànzu < wàːtòn gaskiyaː kanàː jîn daːɗin zamaː dà shiː kèːnan //
+# text = tòː shiː wânnan wandà kakè zàune à wurinshì yànzu < wàːtòn gaskiyaː kanàː jîn daːɗin zamaː dà shiː kèːnan //
 # text_en = Well he that you are staying with now, that is, really, are you happy staying with him ?
 1	tòː	tòː	INTJ	_	_	13	discourse	_	AlignBegin=157535|AlignEnd=157722|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	13	dislocated	_	AlignBegin=157722|AlignEnd=157909|Gloss=3Masc.Nom
@@ -1503,7 +1503,7 @@
 8	wurinshì	wuriː	NOUN	_	Definite=Cons	7	compound	_	AlignBegin=158844|AlignEnd=158906|Gloss=place.Cons.3Masc.Gen|InIdiom=Yes|wordform=wuriː
 9	yànzu	yànzu	ADV	_	_	5	mod	_	AlignBegin=159031|AlignEnd=159218|Gloss=now
 10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=159218|AlignEnd=159405|Gloss=PUNCT
-11	wàːtòn	wàːtòː	CCONJ	_	Definite=Def	13	cc	_	AlignBegin=159405|AlignEnd=159499|Gloss=that_is.Def|wordform=wàːtòː
+11	wàːtòn	wàːtòː	CCONJ	_	_	13	cc	_	AlignBegin=159405|AlignEnd=159499|Gloss=that_is|wordform=wàːtòː
 12	gaskiyaː	gaskiyaː	INTJ	_	_	13	discourse	_	AlignBegin=159592|AlignEnd=159779|Gloss=truth
 13	kanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	0	root	_	AlignBegin=159779|AlignEnd=159966|Gloss=2Masc.Prog
 14	jîn	ji	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	13	comp:aux	_	AlignBegin=159966|AlignEnd=160060|Gloss=hear.Vnoun.Cons|wordform=jîː
@@ -2453,7 +2453,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 257518, 259896
 # phonetic_text = ita wânnan bàːsa -ǹ / ìdan ka lùːr̃a / ai gàriː -ǹ zaːkà jeː //
-# text = ita wânnan bàːsân < ìdan ka lùːr̃a < ai gàrîn zaːkà jeː //
+# text = ita wânnan Bàːsân < ìdan ka lùːr̃a < ai gàrîn zaːkà jeː //
 # text_en = She, that Basa, if you are interested, you will go to the village.
 1	ita	ita	PRON	_	Case=Nom|Gender=Fem|Person=3|PronType=Prs	10	dislocated	_	AlignBegin=257518|AlignEnd=257750|Gloss=3Fem.Nom
 2	wânnan	wânnan	DET	_	Definite=Def	3	det	_	AlignBegin=257750|AlignEnd=257982|Gloss=Def
