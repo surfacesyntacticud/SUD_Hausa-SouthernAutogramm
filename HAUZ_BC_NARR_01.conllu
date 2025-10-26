@@ -5,7 +5,7 @@
 # phonetic_text = dà zoːmoː / dà bàreːwàː /
 # text = dà zoːmoː / dà bàreːwàː /
 # text_en = There was Rabbit. and Gazelle.
-1	dà	dà	PART	_	_	0	root	_	AlignBegin=620|AlignEnd=1025|Gloss=there_is
+1	dà	dà	PART	_	PartType=Pred	0	root	_	AlignBegin=620|AlignEnd=1025|Gloss=there_is
 2	zoːmoː	zoːmoː	NOUN	_	Definite=Ind	1	subj	_	AlignBegin=1025|AlignEnd=1430|Gloss=Rabbit
 3	dà	dà	CCONJ	_	_	4	cc	_	AlignBegin=1835|AlignEnd=2240|Gloss=with/exist
 4	bàreːwàː	bàreːwàː	NOUN	_	Definite=Ind	2	conj:coord	_	AlignBegin=2240|AlignEnd=2645|Gloss=Gazelle
@@ -18,7 +18,7 @@
 # phonetic_text = dà zoːmoː dà bàreːwàː //
 # text = dà zoːmoː dà bàreːwàː //
 # text_en = There was Rabbit and Gazelle.
-1	dà	dà	PART	_	_	0	root	_	AlignBegin=1343|AlignEnd=1594|Gloss=there_is
+1	dà	dà	PART	_	PartType=Pred	0	root	_	AlignBegin=1343|AlignEnd=1594|Gloss=there_is
 2	zoːmoː	zoːmoː	NOUN	_	Definite=Ind	1	subj	_	AlignBegin=1594|AlignEnd=1845|Gloss=Rabbit
 3	dà	dà	CCONJ	_	_	4	cc	_	AlignBegin=1845|AlignEnd=2096|Gloss=with/exist
 4	bàreːwàː	bàreːwàː	NOUN	_	Definite=Ind	2	conj:coord	_	AlignBegin=2096|AlignEnd=2347|Gloss=Gazelle
@@ -248,7 +248,7 @@
 6	hanyàn	hanyàː	NOUN	_	Definite=Cons	5	udep	_	AlignBegin=36493|AlignEnd=36606|Gloss=road.Cons|wordform=hanyàː
 7	ràːfiː	ràːfiː	NOUN	_	Definite=Ind	6	mod	_	AlignBegin=36719|AlignEnd=36945|Gloss=river
 8	nèː	neː/ceː	PART	_	PartType=Foc	6	discourse@foc	_	AlignBegin=36945|AlignEnd=37171|Gloss=Emph
-9	zâː	zâː	PART	_	_	4	parataxis	_	AlignBegin=37400|AlignEnd=37548|Gloss=go_to
+9	zâː	zâː	PART	_	PartType=Pred	4	parataxis	_	AlignBegin=37400|AlignEnd=37548|Gloss=go_to
 10	mu	mu	PRON	_	Number=Plur|Person=1|PronType=Prs	9	subj	_	AlignBegin=37548|AlignEnd=37696|Gloss=1Plur
 11	mù	ø	AUX	_	Aspect=Aor|Number=Plur|Person=1	9	mod	_	AlignBegin=37696|AlignEnd=37844|Gloss=1Plur.Aor
 12	shaː	shaː	VERB	_	_	11	comp:aux	_	AlignBegin=37844|AlignEnd=37992|Gloss=drink
@@ -341,7 +341,7 @@
 # text_en = He too he will go to look for something to eat.
 1	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	dislocated@subj	_	AlignBegin=47903|AlignEnd=48076|Gloss=3Masc.Nom
 2	maː	maː	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=48076|AlignEnd=48249|Gloss=even
-3	zâː	zâː	PART	_	_	0	root	_	AlignBegin=48249|AlignEnd=48422|Gloss=go_to
+3	zâː	zâː	PART	_	PartType=Pred	0	root	_	AlignBegin=48249|AlignEnd=48422|Gloss=go_to
 4	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=48422|AlignEnd=48595|Gloss=3Masc
 5	neːman	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	comp:obj@G	_	AlignBegin=48595|AlignEnd=48681|Gloss=look_for.Vnoun.Cons|wordform=neːmaː
 6	àbin	àbù	NOUN	_	Definite=Cons	5	udep	_	AlignBegin=48768|AlignEnd=48854|Gloss=thing.Cons|wordform=àbù
@@ -488,7 +488,7 @@
 4	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=62737|AlignEnd=62893|Gloss=3Masc.Perf
 5	yi	yi	VERB	_	_	4	comp:aux	_	AlignBegin=62893|AlignEnd=63049|Gloss=do
 6	nân	nân	ADV	_	Deixis=Prox|PronType=Dem	5	comp:pred	_	AlignBegin=63049|AlignEnd=63205|Gloss=Prox
-7	dà	dà	PART	_	_	4	parataxis	_	AlignBegin=63205|AlignEnd=63361|Gloss=there_is
+7	dà	dà	PART	_	PartType=Pred	4	parataxis	_	AlignBegin=63205|AlignEnd=63361|Gloss=there_is
 8	àbù	àbù	NOUN	_	Definite=Ind	7	subj	_	AlignBegin=63517|AlignEnd=63669|Gloss=thing
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=63669|AlignEnd=63820|Gloss=PUNCT
 
@@ -502,7 +502,7 @@
 1	yâu	yâu	ADV	_	PartType=Foc	4	discourse	_	AlignBegin=63820|AlignEnd=63968|Gloss=today
 2	shiːkèːnan	shiːkèːnaː	INTJ	_	PartType=Foc	4	discourse	_	AlignBegin=64117|AlignEnd=64225|Gloss=OK|wordform=shiː
 3	sai	sai	ADV	_	_	4	mod	_	AlignBegin=64551|AlignEnd=64816|Gloss=then
-4	gàː	gàː	PART	_	_	0	root	_	AlignBegin=64816|AlignEnd=65081|Gloss=here_is
+4	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=64816|AlignEnd=65081|Gloss=here_is
 5	kùreːgeː	kùreːgeː	NOUN	_	Definite=Ind	4	subj	_	AlignBegin=65081|AlignEnd=65346|Gloss=Squirrel
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=65346|AlignEnd=65610|Gloss=PUNCT
 
@@ -519,7 +519,7 @@
 4	ya	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=66846|AlignEnd=66998|Background=Yes|Gloss=3Masc.Perf.Bkg
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=66998|AlignEnd=67150|Gloss=say
 6	ìnaː	ìnaː	ADV	_	PronType=Int	5	comp:obj	_	AlignBegin=67305|AlignEnd=67613|Gloss=where
-7	zâː	zâː	PART	_	_	6	comp:cleft	_	AlignBegin=67613|AlignEnd=67921|Gloss=go_to
+7	zâː	zâː	PART	_	PartType=Pred	6	comp:cleft	_	AlignBegin=67613|AlignEnd=67921|Gloss=go_to
 8	ku	ku	PRON	_	Number=Plur|Person=2|PronType=Prs	7	subj	_	AlignBegin=67921|AlignEnd=68229|Gloss=2.Plur
 9	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=68229|AlignEnd=68539|Gloss=PUNCT
 
@@ -532,7 +532,7 @@
 # text_en = They said we are going to drink water.
 1	sukà	(n)kà	AUX	_	Aspect=PerfBkg|Number=Plur|Person=3	0	root	_	AlignBegin=68539|AlignEnd=68705|Background=Yes|Gloss=3Plur.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=68705|AlignEnd=68871|Gloss=say
-3	zâː	zâː	PART	_	_	2	comp:obj	_	AlignBegin=69036|AlignEnd=69358|Gloss=go_to
+3	zâː	zâː	PART	_	PartType=Pred	2	comp:obj	_	AlignBegin=69036|AlignEnd=69358|Gloss=go_to
 4	mu	mu	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=69358|AlignEnd=69680|Gloss=1Plur
 5	shân	shâ	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	comp:obj@G	_	AlignBegin=69680|AlignEnd=69841|Gloss=drink.Vnoun.Cons|wordform=shâː
 6	ruwaː	ruwaː	NOUN	_	Definite=Ind	5	udep	_	AlignBegin=70002|AlignEnd=70324|Gloss=water
@@ -552,7 +552,7 @@
 4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=71301|AlignEnd=71420|Gloss=3Masc.Nom
 5	dai	dai	PART	_	PartType=Top	4	discourse@top	_	AlignBegin=71420|AlignEnd=71539|Gloss=indeed
 6	bà	bà	ADV	_	Polarity=Neg	7	mod	_	AlignBegin=71658|AlignEnd=71826|Gloss=Neg
-7	zâː	zâː	PART	_	_	3	comp:obj	_	AlignBegin=71826|AlignEnd=71994|Gloss=go_to
+7	zâː	zâː	PART	_	PartType=Pred	3	comp:obj	_	AlignBegin=71826|AlignEnd=71994|Gloss=go_to
 8	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	subj	_	AlignBegin=71994|AlignEnd=72162|Gloss=3Masc
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=72162|AlignEnd=72330|Gloss=PUNCT
 
@@ -564,7 +564,7 @@
 # text = bà zâː shi Mângajàː ba yà shaː ruwaː //
 # text_en = He will not go to Mangaja to drink water.
 1	bà	bà	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=72330|AlignEnd=72514|Gloss=Neg
-2	zâː	zâː	PART	_	_	0	root	_	AlignBegin=72514|AlignEnd=72698|Gloss=go_to
+2	zâː	zâː	PART	_	PartType=Pred	0	root	_	AlignBegin=72514|AlignEnd=72698|Gloss=go_to
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=72698|AlignEnd=72882|Gloss=3Masc
 4	Mângajàː	Mângajàː	PROPN	_	_	2	comp:obj@G	_	AlignBegin=72882|AlignEnd=73066|Gloss=Mangaja
 5	ba	ba	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=73066|AlignEnd=73250|Gloss=Neg
@@ -610,7 +610,7 @@
 4	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	dislocated@subj	_	AlignBegin=77075|AlignEnd=77310|Gloss=3Masc.Nom
 5	dai	dai	PART	_	PartType=Top	4	discourse@top	_	AlignBegin=77310|AlignEnd=77545|Gloss=indeed
 6	bà	bà	ADV	_	Polarity=Neg	7	mod	_	AlignBegin=77781|AlignEnd=77975|Gloss=Neg
-7	zâː	zâː	PART	_	_	3	comp:obj	_	AlignBegin=77975|AlignEnd=78169|Gloss=go_to
+7	zâː	zâː	PART	_	PartType=Pred	3	comp:obj	_	AlignBegin=77975|AlignEnd=78169|Gloss=go_to
 8	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	7	subj	_	AlignBegin=78169|AlignEnd=78363|Gloss=3Masc
 9	Mângajàː	Mângajàː	PROPN	_	_	7	comp:obj@G	_	AlignBegin=78363|AlignEnd=78557|Gloss=Mangaja
 10	ba	ba	ADV	_	Polarity=Neg	7	mod	_	AlignBegin=78557|AlignEnd=78751|Gloss=Neg
@@ -763,7 +763,7 @@
 1	zuwàː	zuwàː	ADP	_	_	6	mod	_	AlignBegin=98383|AlignEnd=98644|Gloss=towards
 2	can	can	ADV	_	Deixis=Remt|PronType=Dem	1	comp:obj	_	AlignBegin=98644|AlignEnd=98905|Gloss=Remt+
 3	sai	sai	ADV	_	_	6	mod	_	AlignBegin=99167|AlignEnd=99349|Gloss=then
-4	gàː	gàː	PART	_	_	6	dislocated@subj	_	AlignBegin=99349|AlignEnd=99531|Gloss=here_is
+4	gàː	gàː	PART	_	PartType=Pred	6	dislocated@subj	_	AlignBegin=99349|AlignEnd=99531|Gloss=here_is
 5	ɓeːr̃aː	ɓeːr̃aː	NOUN	_	Definite=Ind	4	subj	_	AlignBegin=99531|AlignEnd=99713|Gloss=Rat
 6	ya	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=99713|AlignEnd=99895|Background=Yes|Gloss=3Masc.Perf.Bkg
 7	zoː	zoː	VERB	_	_	6	comp:aux	_	AlignBegin=99895|AlignEnd=100077|Gloss=come
@@ -886,7 +886,7 @@
 1	ya	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=118628|AlignEnd=118727|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=118727|AlignEnd=118826|Gloss=say
 3	ìnaː	ìnaː	ADV	_	PronType=Int	2	comp:obj	_	AlignBegin=118925|AlignEnd=119061|Gloss=where
-4	zâː	zâː	PART	_	_	3	comp:cleft	_	AlignBegin=119061|AlignEnd=119197|Gloss=go_to
+4	zâː	zâː	PART	_	PartType=Pred	3	comp:cleft	_	AlignBegin=119061|AlignEnd=119197|Gloss=go_to
 5	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	4	subj	_	AlignBegin=119197|AlignEnd=119333|Gloss=2Masc
 6	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=119333|AlignEnd=119471|Gloss=PUNCT
 
@@ -899,7 +899,7 @@
 # text_en = he said "I'm going to Mangaja. to drink rater (sic)."
 1	ya	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=3	0	root	_	AlignBegin=119471|AlignEnd=119572|Background=Yes|Gloss=3Masc.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=119572|AlignEnd=119673|Gloss=say
-3	zâː	zâː	PART	_	_	2	comp:obj	_	AlignBegin=119775|AlignEnd=119963|Gloss=go_to
+3	zâː	zâː	PART	_	PartType=Pred	2	comp:obj	_	AlignBegin=119775|AlignEnd=119963|Gloss=go_to
 4	ni	ni	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=119963|AlignEnd=120151|Gloss=1Sing
 5	Mângajàː	Mângajàː	PROPN	_	_	3	comp:obj@G	_	AlignBegin=120151|AlignEnd=120339|Gloss=Mangaja
 6	nèː	neː/ceː	PART	_	PartType=Foc	5	discourse@foc	_	AlignBegin=120339|AlignEnd=120527|Gloss=Emph
@@ -919,7 +919,7 @@
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=121848|AlignEnd=121951|Gloss=say
 3	aːʔàː	aːʔàː	INTJ	_	PartType=Foc	5	discourse	_	AlignBegin=122053|AlignEnd=122253|Gloss=no
 4	bà	bà	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=122454|AlignEnd=122650|Gloss=Neg
-5	zâː	zâː	PART	_	_	2	comp:obj	_	AlignBegin=122650|AlignEnd=122846|Gloss=go_to
+5	zâː	zâː	PART	_	PartType=Pred	2	comp:obj	_	AlignBegin=122650|AlignEnd=122846|Gloss=go_to
 6	ka	ka	PRON	_	Gender=Masc|Person=2|PronType=Prs	5	subj	_	AlignBegin=122846|AlignEnd=123042|Gloss=2Masc
 7	Mângajàː	Mângajàː	PROPN	_	_	5	comp:obj@G	_	AlignBegin=123042|AlignEnd=123238|Gloss=Mangaja
 8	ba	ba	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=123238|AlignEnd=123434|Gloss=Neg
@@ -1721,7 +1721,7 @@
 # text = tòː gàː shi yànzu wàhalàː yaː ìsheː kà //
 # text_en = Well here you are, now you are in trouble.
 1	tòː	tòː	INTJ	_	PartType=Foc	2	discourse	_	AlignBegin=213740|AlignEnd=213918|Gloss=well
-2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=213918|AlignEnd=214096|Gloss=here_is
+2	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=213918|AlignEnd=214096|Gloss=here_is
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=214096|AlignEnd=214274|Gloss=3Masc
 4	yànzu	yànzu	ADV	_	_	6	mod	_	AlignBegin=214274|AlignEnd=214452|Gloss=now
 5	wàhalàː	wàhalàː	NOUN	_	Definite=Ind	6	subj	_	AlignBegin=214452|AlignEnd=214630|Gloss=trouble
@@ -1737,7 +1737,7 @@
 # phonetic_text = gàː shi kaː tunàː //
 # text = gàː shi kaː tunàː //
 # text_en = Now you remember.
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=216341|AlignEnd=216514|Gloss=here_is
+1	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=216341|AlignEnd=216514|Gloss=here_is
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	1	subj	_	AlignBegin=216514|AlignEnd=216687|Gloss=3Masc
 3	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	1	parataxis	_	AlignBegin=216687|AlignEnd=216860|Gloss=2Masc.Perf
 4	tunàː	tun-	VERB	_	_	3	comp:aux	_	AlignBegin=216860|AlignEnd=217033|Gloss=think
@@ -1754,7 +1754,7 @@
 2	yànzu	yànzu	ADV	_	_	4	mod	_	AlignBegin=217999|AlignEnd=218220|Gloss=now
 3	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	4	det	_	AlignBegin=218220|AlignEnd=218441|Gloss=some.Masc
 4	asìbitì	asìbitì	NOUN	_	Definite=Ind	0	root	_	AlignBegin=218441|AlignEnd=218662|Gloss=hospital
-5	zâː	zâː	PART	_	_	4	comp:cleft	_	AlignBegin=218662|AlignEnd=218883|Gloss=go_to
+5	zâː	zâː	PART	_	PartType=Pred	4	comp:cleft	_	AlignBegin=218662|AlignEnd=218883|Gloss=go_to
 6	mu	mu	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	subj	_	AlignBegin=218883|AlignEnd=219104|Gloss=1Plur
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=218883|AlignEnd=219104|Gloss=PUNCT
 

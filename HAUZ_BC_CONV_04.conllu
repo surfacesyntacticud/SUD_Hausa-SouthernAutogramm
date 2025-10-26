@@ -263,11 +263,11 @@
 # phonetic_text = àkwai kwaːnaː àr̃bàʼin àkwai kwaːnaː sìttin //
 # text = àkwai kwaːnaː àr̃bàʼin //= àkwai kwaːnaː sìttin //
 # text_en = There is the one that grows in forty days and the one that takes sixty.
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=32408|AlignEnd=32656|Gloss=there_is
+1	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=32408|AlignEnd=32656|Gloss=there_is
 2	kwaːnaː	kwaːnaː	NOUN	_	Definite=Ind	1	subj	_	AlignBegin=32656|AlignEnd=32904|Gloss=night
 3	àr̃bàʼin	àr̃bàʼin	NUM	_	_	2	det	_	AlignBegin=32904|AlignEnd=33152|Gloss=forty
 4	//=	//=	PUNCT	_	_	5	punct	_	AlignBegin=32904|AlignEnd=33152|Gloss=PUNCT
-5	àkwai	àkwai	PART	_	_	1	parataxis	_	AlignBegin=33152|AlignEnd=33400|Gloss=there_is
+5	àkwai	àkwai	PART	_	PartType=Pred	1	parataxis	_	AlignBegin=33152|AlignEnd=33400|Gloss=there_is
 6	kwaːnaː	kwaːnaː	NOUN	_	Definite=Ind	5	subj	_	AlignBegin=33400|AlignEnd=33648|Gloss=night
 7	sìttin	sìttin	NUM	_	_	6	mod	_	AlignBegin=33648|AlignEnd=33896|Gloss=sixty
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=33896|AlignEnd=34144|Gloss=PUNCT
@@ -491,7 +491,7 @@
 3	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	2	det	_	AlignBegin=54443|AlignEnd=54690|Gloss=some.Masc
 4	tòː	tòː	INTJ	_	PartType=Foc	6	discourse	_	AlignBegin=54690|AlignEnd=54937|Gloss=well
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=54937|AlignEnd=55185|Gloss=PUNCT
-6	gàː	gàː	PART	_	_	0	root	_	AlignBegin=55185|AlignEnd=55336|Gloss=here_is
+6	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=55185|AlignEnd=55336|Gloss=here_is
 7	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=55336|AlignEnd=55487|Gloss=3Masc
 8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=55487|AlignEnd=55638|Gloss=PUNCT
 
@@ -925,7 +925,7 @@
 # phonetic_text = in ya shaː fa sai an tuntùɗaː shi //
 # text = àkwai wani wandà ya kè yawàn wucèːwaː ta ƙoːfàr̃ gidan =mù //= in ya shaː fa sai an tuntùɗaː shi //
 # text_en = There is somebody who often walks pass our house door, when he drinks, they have to carry him away.
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=107103|AlignEnd=107284|Gloss=there_is
+1	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=107103|AlignEnd=107284|Gloss=there_is
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	1	subj	_	AlignBegin=107284|AlignEnd=107465|Gloss=some.Masc
 3	wandà	wandà	PRON	_	PronType=Rel	2	mod@relcl	_	AlignBegin=107465|AlignEnd=107646|Gloss=who
 4	yakè	kè	AUX	_	Gender=Masc|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=107646|AlignEnd=107827|Gloss=3Masc.Pred/Loc.Bkg|wordform=ya
@@ -1120,7 +1120,7 @@
 # text = tòː gàː || gàː wani maː à nân //
 # text_en = Well, there... there's even one here.
 1	tòː	tòː	INTJ	_	PartType=Foc	2	discourse	_	AlignBegin=131195|AlignEnd=131447|Gloss=well
-2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=131447|AlignEnd=131699|Gloss=here_is
+2	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=131447|AlignEnd=131699|Gloss=here_is
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=131699|AlignEnd=131951|GE=|Gloss=PUNCT|nWord=3
 4	gàː	gàː	PART	_	PartType=Pred	2	conj:dicto	_	AlignBegin=131951|AlignEnd=132203|Gloss=here_is
 5	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	4	subj	_	AlignBegin=132203|AlignEnd=132455|Gloss=some.Masc
@@ -1171,7 +1171,7 @@
 # text = tòː gàː wani àbù maː /
 # text_en = Well here is one thing.
 1	tòː	tòː	INTJ	_	PartType=Foc	2	discourse	_	AlignBegin=136915|AlignEnd=137077|Gloss=well
-2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=137077|AlignEnd=137239|Gloss=here_is
+2	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=137077|AlignEnd=137239|Gloss=here_is
 3	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	4	det	_	AlignBegin=137239|AlignEnd=137401|Gloss=some.Masc
 4	àbù	àbù	NOUN	_	Definite=Ind	2	subj	_	AlignBegin=137401|AlignEnd=137563|Gloss=thing
 5	maː	maː	PART	_	PartType=Top	4	discourse@top	_	AlignBegin=137563|AlignEnd=137725|Gloss=even
@@ -1339,7 +1339,7 @@
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=157991|AlignEnd=158223|Gloss=PUNCT
 5	yànzu	yànzu	ADV	_	_	12	mod	_	AlignBegin=158457|AlignEnd=158725|Gloss=now
 6	dâː	dâː	ADV	_	_	12	mod	_	AlignBegin=158725|AlignEnd=158993|Gloss=formerly
-7	gàː	gàː	PART	_	_	12	dislocated	_	AlignBegin=158993|AlignEnd=159261|Gloss=here_is
+7	gàː	gàː	PART	_	PartType=Pred	12	dislocated	_	AlignBegin=158993|AlignEnd=159261|Gloss=here_is
 8	jiːmàː	jeːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	7	subj	_	AlignBegin=159261|AlignEnd=159529|Gloss=tan.Vnoun
 9	maː	maː	PART	_	PartType=Top	7	discourse@top	_	AlignBegin=159529|AlignEnd=159797|Gloss=even
 10	<	<	PUNCT	_	_	12	punct	_	AlignBegin=159797|AlignEnd=160067|Gloss=PUNCT
@@ -1408,7 +1408,7 @@
 1	eː	eː	INTJ	_	PartType=Foc	4	discourse	_	AlignBegin=167039|AlignEnd=167200|Gloss=èː|wordform=èː
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=167200|AlignEnd=167361|Gloss=PUNCT
 3	had	hat	ADV	_	_	4	mod	_	AlignBegin=167361|AlignEnd=167537|Gloss=even
-4	dà	dà	PART	_	_	0	root	_	AlignBegin=167537|AlignEnd=167713|Gloss=there_is
+4	dà	dà	PART	_	PartType=Pred	0	root	_	AlignBegin=167537|AlignEnd=167713|Gloss=there_is
 5	kiɗàː	kiɗàː	NOUN	_	Definite=Ind	4	subj	_	AlignBegin=167713|AlignEnd=167889|Gloss=beating_drum
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=167889|AlignEnd=168063|Gloss=PUNCT
 
@@ -1420,14 +1420,14 @@
 # text = had dà kiɗàː dà jiːmàː / àmmaː yànzu gàː shi !//
 # text_en = There were even drums when tanning, but now, here we are!
 1	had	hat	ADV	_	_	2	mod	_	AlignBegin=168947|AlignEnd=169173|Gloss=even
-2	dà	dà	PART	_	_	0	root	_	AlignBegin=169173|AlignEnd=169399|Gloss=there_is
+2	dà	dà	PART	_	PartType=Pred	0	root	_	AlignBegin=169173|AlignEnd=169399|Gloss=there_is
 3	kiɗàː	kiɗàː	NOUN	_	Definite=Ind	2	subj	_	AlignBegin=169399|AlignEnd=169625|Gloss=beating_drum
 4	dà	dà	SCONJ	_	_	2	mod	_	AlignBegin=169625|AlignEnd=169851|Gloss=when
 5	jiːmàː	jiːm-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	comp:obj	_	AlignBegin=169851|AlignEnd=170077|Gloss=tan.Vnoun
 6	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=170077|AlignEnd=170301|Gloss=PUNCT
 7	àmmaː	àmmaː	CCONJ	_	_	9	cc	_	AlignBegin=170301|AlignEnd=170486|Gloss=but
 8	yànzu	yànzu	ADV	_	_	9	mod	_	AlignBegin=170486|AlignEnd=170671|Gloss=now
-9	gàː	gàː	PART	_	_	2	conj:coord	_	AlignBegin=170671|AlignEnd=170856|Gloss=here_is
+9	gàː	gàː	PART	_	PartType=Pred	2	conj:coord	_	AlignBegin=170671|AlignEnd=170856|Gloss=here_is
 10	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	9	subj	_	AlignBegin=170856|AlignEnd=171041|Gloss=3Masc
 11	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=171041|AlignEnd=171228|Gloss=PUNCT
 
@@ -2225,7 +2225,7 @@
 # text_en = Well isn't it when our late sister used to go to the primary school?
 1	tòː	tòː	INTJ	_	PartType=Foc	3	discourse	_	AlignBegin=266723|AlignEnd=266839|Gloss=well
 2	bàː	bàː	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=266839|AlignEnd=266955|Gloss=Neg
-3	gàː	gàː	PART	_	_	0	root	_	AlignBegin=266955|AlignEnd=267071|Gloss=here_is
+3	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=266955|AlignEnd=267071|Gloss=here_is
 4	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=267071|AlignEnd=267187|Gloss=3Masc
 5	ba	ba	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=267187|AlignEnd=267303|Gloss=Neg
 6	>	>	PUNCT	_	_	3	punct	_	AlignBegin=267187|AlignEnd=267303|Gloss=PUNCT
@@ -3132,7 +3132,7 @@
 # phonetic_text = dà mèː kuma // can goːnaː -n daːjìː kèː nan //
 # text = dà mèː kuma ?//
 # text_en = What ?
-1	dà	dà	PART	_	_	0	root	_	AlignBegin=385918|AlignEnd=386095|Gloss=there_is
+1	dà	dà	PART	_	PartType=Pred	0	root	_	AlignBegin=385918|AlignEnd=386095|Gloss=there_is
 2	mèː	mèː	PRON	_	PronType=Int	1	subj	_	AlignBegin=386095|AlignEnd=386272|Gloss=what
 3	kuma	kuma	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=386272|AlignEnd=386449|Gloss=too
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=386449|AlignEnd=386627|Gloss=PUNCT
@@ -3259,7 +3259,7 @@
 3	wânnan	wânnan	DET	_	Definite=Def|PronType=Dem	4	det	_	AlignBegin=399834|AlignEnd=400036|Gloss=Def
 4	mangòr̃òn	mangòr̃ò	NOUN	_	Definite=Cons	6	dislocated	_	AlignBegin=400036|AlignEnd=400137|Gloss=mango.Cons|wordform=mangòr̃ò
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=400238|AlignEnd=400440|Gloss=PUNCT
-6	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=400440|AlignEnd=400603|Gloss=there_is
+6	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=400440|AlignEnd=400603|Gloss=there_is
 7	zaːƙiː	zaːƙiː	NOUN	_	Definite=Ind	6	subj	_	AlignBegin=400603|AlignEnd=400766|Gloss=sweetness
 8	yandà	yandà	ADV	_	PronType=Rel	9	mod	_	AlignBegin=400930|AlignEnd=401132|Gloss=how
 9	ka	(n)kà	AUX	_	Aspect=PerfBkg|Gender=Masc|Person=2	7	mod@relcl	_	AlignBegin=401132|AlignEnd=401334|Background=Yes|Gloss=2Masc.Perf.Bkg
@@ -4004,7 +4004,7 @@
 3	ganiː	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=499579|AlignEnd=499789|Gloss=see
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=499789|AlignEnd=499997|Gloss=PUNCT
 5	yànzu	yànzu	ADV	_	_	6	mod	_	AlignBegin=499997|AlignEnd=500172|Gloss=now
-6	gàː	gàː	PART	_	_	0	root	_	AlignBegin=500172|AlignEnd=500347|Gloss=here_is
+6	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=500172|AlignEnd=500347|Gloss=here_is
 7	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	6	subj	_	AlignBegin=500347|AlignEnd=500522|Gloss=3Masc
 8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=500522|AlignEnd=500697|Gloss=PUNCT
 9	bâː	baːbù	PART	_	PartType=Neg|Polarity=Neg	6	parataxis	_	AlignBegin=500697|AlignEnd=500935|Gloss=there_is.Neg
@@ -4216,10 +4216,10 @@
 # phonetic_text = dà mài zaːƙiː dà mài barciː kèː nan /
 # text = dà mài zaːƙiː dà mài bauriː kèːnan //
 # text_en = There is the sweet one, and the acrid one.
-1	dà	dà	PART	_	_	0	root	_	AlignBegin=527393|AlignEnd=527594|Gloss=there_is
+1	dà	dà	PART	_	PartType=Pred	0	root	_	AlignBegin=527393|AlignEnd=527594|Gloss=there_is
 2	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing|PronType=Rel	1	subj	_	AlignBegin=527594|AlignEnd=527795|Gloss=having|Idiom=Yes|Linker=Yes
 3	zaːƙiː	zaːƙiː	NOUN	_	Definite=Ind	2	comp:obj	_	AlignBegin=527795|AlignEnd=527996|Gloss=sweetness|InIdiom=Yes
-4	dà	dà	PART	_	_	1	parataxis	_	AlignBegin=527996|AlignEnd=528197|Gloss=there_is
+4	dà	dà	PART	_	PartType=Pred	1	parataxis	_	AlignBegin=527996|AlignEnd=528197|Gloss=there_is
 5	mài	mài	ADP	_	ExtPos=ADJ|Number=Sing|PronType=Rel	4	subj	_	AlignBegin=528197|AlignEnd=528398|Gloss=having|Idiom=Yes|Linker=Yes
 6	bauriː	bauriː	NOUN	_	Definite=Ind	5	comp:obj	_	AlignBegin=528398|AlignEnd=528599|Gloss=acridity|InIdiom=Yes
 7	kèːnan	kèːnan	PART	_	PartType=Foc	1	discourse@foc	_	AlignBegin=528599|AlignEnd=528800|Gloss=Emph|wordform=kèː
@@ -5052,7 +5052,7 @@
 10	<	<	PUNCT	_	_	5	punct	_	AlignBegin=633890|AlignEnd=634000|Gloss=PUNCT
 11	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	13	dislocated@subj	_	AlignBegin=634000|AlignEnd=634132|Gloss=3Masc.Nom
 12	maː	maː	PART	_	PartType=Top	11	discourse@top	_	AlignBegin=634132|AlignEnd=634264|Gloss=even
-13	gàː	gàː	PART	_	_	3	comp:obj	_	AlignBegin=634264|AlignEnd=634396|Gloss=here_is
+13	gàː	gàː	PART	_	PartType=Pred	3	comp:obj	_	AlignBegin=634264|AlignEnd=634396|Gloss=here_is
 14	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	13	subj	_	AlignBegin=634396|AlignEnd=634528|Gloss=3Masc
 15	//	//	PUNCT	_	_	2	punct	_	AlignBegin=634528|AlignEnd=634659|Gloss=PUNCT
 
@@ -5295,7 +5295,7 @@
 # phonetic_text = àkwai wani ràkeː dà na shaː / sai dà ya taɓoː mîn kwanyaː //
 # text = àkwai wani ràkeː dà na shaː //= sai dà ya taɓoː mîn kwanyaː //
 # text_en = There is one sugar cane, when I ate it, it blew my mind.
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=658948|AlignEnd=659098|Gloss=there_is
+1	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=658948|AlignEnd=659098|Gloss=there_is
 2	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	3	det	_	AlignBegin=659098|AlignEnd=659248|Gloss=some.Masc
 3	ràkeː	ràkeː	NOUN	_	Definite=Ind	1	subj	_	AlignBegin=659248|AlignEnd=659398|Gloss=sugar-cane
 4	dà	dà	SCONJ	_	_	3	mod@relcl	_	AlignBegin=659398|AlignEnd=659548|Gloss=COMP
@@ -6040,7 +6040,7 @@
 11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=745799|AlignEnd=746017|Gloss=PUNCT
 12	jàːkiː	jàːkiː	NOUN	_	Definite=Ind	0	root	_	AlignBegin=746376|AlignEnd=746576|Gloss=donkey
 13	fa	fa	PART	_	PartType=Top	12	discourse@top	_	AlignBegin=746576|AlignEnd=746776|Gloss=indeed
-14	zâː	zâː	PART	_	_	12	comp:cleft	_	AlignBegin=746776|AlignEnd=746976|Gloss=go_to
+14	zâː	zâː	PART	_	PartType=Pred	12	comp:cleft	_	AlignBegin=746776|AlignEnd=746976|Gloss=go_to
 15	mu	mu	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	subj	_	AlignBegin=746976|AlignEnd=747176|Gloss=1Plur
 16	//	//	PUNCT	_	_	12	punct	_	AlignBegin=747176|AlignEnd=747376|Gloss=PUNCT
 
@@ -6482,7 +6482,7 @@
 # text = tòː gàː wani //= wai shiː gaudàː //
 # text_en = Well there's what they call "gauda*". (* type of cake)
 1	tòː	tòː	INTJ	_	PartType=Foc	2	discourse	_	AlignBegin=795645|AlignEnd=795785|Gloss=well
-2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=795785|AlignEnd=795925|Gloss=here_is
+2	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=795785|AlignEnd=795925|Gloss=here_is
 3	wani	wani	PRON	_	Definite=Spec|Gender=Masc|PronType=Ind	2	subj	_	AlignBegin=795925|AlignEnd=796065|Gloss=some.Masc
 4	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=796065|AlignEnd=796205|Gloss=PUNCT
 5	wai	wai	ADV	_	PartType=Foc	7	discourse	_	AlignBegin=796205|AlignEnd=796480|Gloss=EVD
@@ -6629,7 +6629,7 @@
 # text_en = Eh, that's something!
 1	ai	ai	INTJ	_	PartType=Foc	3	discourse	_	AlignBegin=814840|AlignEnd=815027|Gloss=indeed
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=815027|AlignEnd=815214|Gloss=PUNCT
-3	gàː	gàː	PART	_	_	0	root	_	AlignBegin=815214|AlignEnd=815475|Gloss=here_is
+3	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=815214|AlignEnd=815475|Gloss=here_is
 4	aikìn	aikìː	NOUN	_	Definite=Ind	3	subj	_	AlignBegin=815475|AlignEnd=815605|Gloss=work.Def|wordform=aikìː
 5	nan	nan	DET	_	Definite=Def|PronType=Dem	4	det	_	AlignBegin=815736|AlignEnd=815997|Gloss=Def
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=815997|AlignEnd=816259|Gloss=PUNCT
@@ -6856,7 +6856,7 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=840341|AlignEnd=840642|Gloss=PUNCT
 3	tòː	tòː	INTJ	_	PartType=Foc	5	discourse	_	AlignBegin=841201|AlignEnd=841325|Gloss=well
 4	bàː	bàː	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=841325|AlignEnd=841449|Gloss=Neg
-5	gàː	gàː	PART	_	_	0	root	_	AlignBegin=841449|AlignEnd=841573|Gloss=here_is
+5	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=841449|AlignEnd=841573|Gloss=here_is
 6	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	5	subj	_	AlignBegin=841573|AlignEnd=841697|Gloss=3Masc
 7	ba	ba	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=841697|AlignEnd=841821|Gloss=Neg
 8	//=	//=	PUNCT	_	_	5	punct	_	AlignBegin=841821|AlignEnd=841948|Gloss=PUNCT
@@ -6889,7 +6889,7 @@
 1	eː	eː	INTJ	_	PartType=Foc	4	discourse	_	AlignBegin=846492|AlignEnd=846905|Gloss=yes
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=846905|AlignEnd=847318|Gloss=PUNCT
 3	kuma	kuma	CCONJ	_	_	4	cc	_	AlignBegin=847318|AlignEnd=847518|Gloss=too
-4	dà	dà	PART	_	_	0	root	_	AlignBegin=847518|AlignEnd=847718|Gloss=there_is
+4	dà	dà	PART	_	PartType=Pred	0	root	_	AlignBegin=847518|AlignEnd=847718|Gloss=there_is
 5	wânnan	wânnan	PRON	_	Definite=Def|PronType=Dem	4	subj	_	AlignBegin=847718|AlignEnd=847918|Gloss=Def
 6	|c	|c	PUNCT	_	_	4	punct	_	AlignBegin=847918|AlignEnd=848116|Gloss=PUNCT
 7	àmmaː	àmmaː	CCONJ	_	PartType=Foc	12	discourse	_	AlignBegin=849451|AlignEnd=849615|Gloss=but
@@ -6923,7 +6923,7 @@
 1	yànzu	yànzu	ADV	_	_	4	mod	_	AlignBegin=851606|AlignEnd=851784|Gloss=now
 2	kòː	kùwa	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=851784|AlignEnd=851962|Gloss=as_for
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=851962|AlignEnd=852141|Gloss=PUNCT
-4	gàː	gàː	PART	_	_	0	root	_	AlignBegin=852141|AlignEnd=852364|Gloss=here_is
+4	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=852141|AlignEnd=852364|Gloss=here_is
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=852364|AlignEnd=852587|Gloss=3Masc
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=852364|AlignEnd=852587|Gloss=PUNCT
 
@@ -6937,7 +6937,7 @@
 1	waːkeː	waːkeː	NOUN	_	Definite=Ind	4	dislocated	_	AlignBegin=852587|AlignEnd=852810|Gloss=beans
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=852810|AlignEnd=853034|Gloss=PUNCT
 3	yànzu	yànzu	ADV	_	_	4	mod	_	AlignBegin=853034|AlignEnd=853233|Gloss=now
-4	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=853233|AlignEnd=853432|Gloss=there_is
+4	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=853233|AlignEnd=853432|Gloss=there_is
 5	ɗan	ɗan	NOUN	_	Definite=Cons	4	subj	_	AlignBegin=853432|AlignEnd=853631|Gloss=son.Cons
 6	kwaːnaː	kwaːnaː	NOUN	_	Definite=Ind	5	compound	_	AlignBegin=853631|AlignEnd=853830|Gloss=night
 7	maː	maː	PART	_	PartType=Top	6	discourse@top	_	AlignBegin=853830|AlignEnd=854029|Gloss=even
@@ -7000,7 +7000,7 @@
 # phonetic_text = àkwai jaː -n waːkeː /
 # text = àkwai jan waːkeː /
 # text_en = There are red beans.
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=859928|AlignEnd=860222|Gloss=there_is
+1	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=859928|AlignEnd=860222|Gloss=there_is
 2	jan	jaː	ADJ	_	_	3	mod	_	AlignBegin=860222|AlignEnd=860369|Gloss=red.Cons|wordform=jaː
 3	waːkeː	waːkeː	NOUN	_	Definite=Ind	1	subj	_	AlignBegin=860516|AlignEnd=860810|Gloss=beans
 4	<	<	PUNCT	_	_	1	punct	_	AlignBegin=860810|AlignEnd=861105|Gloss=PUNCT
@@ -7090,7 +7090,7 @@
 # phonetic_text = gàː kuma wai àbù wai shiː / dànkalìː -n Tuːr̃ai -aːwaː\H //
 # text = gàː kuma wai àbù wai shiː < dànkalìn Tuːr̃aːwaː //
 # text_en = There also that thing called European potatoes.
-1	gàː	gàː	PART	_	_	8	dislocated	_	AlignBegin=869175|AlignEnd=869304|Gloss=here_is
+1	gàː	gàː	PART	_	PartType=Pred	8	dislocated	_	AlignBegin=869175|AlignEnd=869304|Gloss=here_is
 2	kuma	kuma	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=869304|AlignEnd=869433|Gloss=too
 3	wai	wai	ADV	_	PartType=Foc	1	discourse	_	AlignBegin=869433|AlignEnd=869562|Gloss=EVD
 4	àbù	àbù	NOUN	_	Definite=Ind	1	subj	_	AlignBegin=869562|AlignEnd=869691|Gloss=thing
@@ -7870,7 +7870,7 @@
 # phonetic_text = gàː zaːƙiː //
 # text = gàː zaːƙiː //
 # text_en = That's really sweet!
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=948988|AlignEnd=949295|Gloss=here_is
+1	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=948988|AlignEnd=949295|Gloss=here_is
 2	zaːƙiː	zaːƙiː	NOUN	_	Definite=Ind	1	subj	_	AlignBegin=949295|AlignEnd=949602|Gloss=sweetness
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=949602|AlignEnd=949909|Gloss=PUNCT
 
@@ -7881,9 +7881,9 @@
 # phonetic_text = gàː &// gàː àbù -ǹ nan //
 # text = gàː || gàː àbîn nan //
 # text_en = That's... that's what d'you call it?
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=949909|AlignEnd=950124|Gloss=here_is
+1	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=949909|AlignEnd=950124|Gloss=here_is
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=950124|AlignEnd=950339|Gloss=PUNCT
-3	gàː	gàː	PART	_	_	1	conj:dicto	_	AlignBegin=950339|AlignEnd=950458|Gloss=here_is
+3	gàː	gàː	PART	_	PartType=Pred	1	conj:dicto	_	AlignBegin=950339|AlignEnd=950458|Gloss=here_is
 4	àbîn	àbù	NOUN	_	Definite=Cons	3	subj	_	AlignBegin=950458|AlignEnd=950518|Gloss=thing.Cons|wordform=àbù
 5	nan	nan	DET	_	Definite=Def|PronType=Dem	4	det	_	AlignBegin=950577|AlignEnd=950696|Gloss=Def
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=950696|AlignEnd=950816|Gloss=PUNCT
@@ -8130,7 +8130,7 @@
 # text = wandà gàː ruwaː nan kòː baːyàː sakèː-wàː à ràːfin Basaːwa |a Àugànân |a Àugàna ràːfin Basaːwa kèːnan //
 # text_en = The one who has water there never gives up in the Basawa valley, in Auga there, Auga in the Basawa valley.
 1	wandà	wandà	PRON	_	PronType=Rel	6	dislocated@subj	_	AlignBegin=977531|AlignEnd=977724|Gloss=who
-2	gàː	gàː	PART	_	_	1	mod@relcl	_	AlignBegin=977724|AlignEnd=977917|Gloss=here_is
+2	gàː	gàː	PART	_	PartType=Pred	1	mod@relcl	_	AlignBegin=977724|AlignEnd=977917|Gloss=here_is
 3	ruwaː	ruwaː	NOUN	_	Definite=Ind	2	subj	_	AlignBegin=977917|AlignEnd=978110|Gloss=water
 4	nan	nan	DET	_	Definite=Def|PronType=Dem	2	mod	_	AlignBegin=978110|AlignEnd=978303|Gloss=Def
 5	kòː	kùwa	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=978303|AlignEnd=978496|Gloss=as_for
@@ -8169,7 +8169,7 @@
 # phonetic_text = dukà gàː shi
 # text_en = It's all here.
 1	dug	dukà	PRON	_	_	2	dislocated@subj	_	AlignBegin=983777|AlignEnd=983967|Gloss=all
-2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=983967|AlignEnd=984157|Gloss=here_is
+2	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=983967|AlignEnd=984157|Gloss=here_is
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=984157|AlignEnd=984347|Gloss=3Masc
 4	//	//	PUNCT	_	_	2	punct	_	AlignBegin=984157|AlignEnd=984347|Gloss=PUNCT
 
@@ -8278,10 +8278,10 @@
 # text_en = Well, there's the river banks and the present situation too!
 1	tôː	tôː	INTJ	_	PartType=Foc	3	discourse	_	AlignBegin=992497|AlignEnd=992645|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=992645|AlignEnd=992794|Gloss=PUNCT
-3	dà	dà	PART	_	_	0	root	_	AlignBegin=992794|AlignEnd=993018|Gloss=there_is
+3	dà	dà	PART	_	PartType=Pred	0	root	_	AlignBegin=992794|AlignEnd=993018|Gloss=there_is
 4	gaːɓàː	gaːɓàː	NOUN	_	Definite=Ind	3	subj	_	AlignBegin=993018|AlignEnd=993242|Gloss=river_bank
 5	dai	dai	PART	_	PartType=Top	3	discourse@top	_	AlignBegin=993242|AlignEnd=993466|Gloss=indeed
-6	dà	dà	PART	_	_	3	conj:coord	_	AlignBegin=993466|AlignEnd=993690|Gloss=there_is
+6	dà	dà	PART	_	PartType=Pred	3	conj:coord	_	AlignBegin=993466|AlignEnd=993690|Gloss=there_is
 7	kuma	kuma	PART	_	PartType=Top	6	discourse@top	_	AlignBegin=993690|AlignEnd=993914|Gloss=too
 8	dai	dai	PART	_	PartType=Top	6	discourse@top	_	AlignBegin=993914|AlignEnd=994138|Gloss=indeed
 9	zaːmàniː	zaːmàniː	NOUN	_	Definite=Ind	6	subj	_	AlignBegin=994593|AlignEnd=994935|Gloss=present_time
@@ -8318,7 +8318,7 @@
 1	tundà	tundà	SCONJ	_	PartType=Foc	4	discourse	_	AlignBegin=997628|AlignEnd=997801|Gloss=since
 2	yànzu	yànzu	ADV	_	_	4	mod	_	AlignBegin=997801|AlignEnd=997974|Gloss=now
 3	bàː	bàː	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=997974|AlignEnd=998147|Gloss=Neg
-4	gàː	gàː	PART	_	_	0	root	_	AlignBegin=998147|AlignEnd=998320|Gloss=here_is
+4	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=998147|AlignEnd=998320|Gloss=here_is
 5	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	4	subj	_	AlignBegin=998320|AlignEnd=998493|Gloss=3Masc
 6	ba	ba	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=998493|AlignEnd=998666|Gloss=Neg
 7	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=998493|AlignEnd=998666|Gloss=PUNCT
@@ -8970,11 +8970,11 @@
 # phonetic_text = àkwai kanyàː -n / Ɗambàːba / àkwai tsaːmiyaː -n Dattì //
 # text = àkwai kanyàn Ɗambàːba //= àkwai tsaːmiyan Dattì //
 # text_en = There is Danbaba's ebony, there is Datti's tamarind.
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=1074840|AlignEnd=1075120|Gloss=there_is
+1	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=1074840|AlignEnd=1075120|Gloss=there_is
 2	kanyàn	kanyàː	NOUN	_	Definite=Cons	1	subj	_	AlignBegin=1075120|AlignEnd=1075250|Gloss=ebony_tree.Cons|wordform=kanyàː
 3	Ɗambàːba	Ɗambàːba	PROPN	_	_	2	mod	_	AlignBegin=1075660|AlignEnd=1076150|Gloss=Dambaba
 4	//=	//=	PUNCT	_	_	5	punct	_	AlignBegin=1076150|AlignEnd=1076650|Gloss=PUNCT
-5	àkwai	àkwai	PART	_	_	1	parataxis	_	AlignBegin=1076650|AlignEnd=1076970|Gloss=there_is
+5	àkwai	àkwai	PART	_	PartType=Pred	1	parataxis	_	AlignBegin=1076650|AlignEnd=1076970|Gloss=there_is
 6	tsaːmiyan	tsaːmiyaː	NOUN	_	Definite=Cons	5	subj	_	AlignBegin=1076970|AlignEnd=1077130|Gloss=tamarind.Cons|wordform=tsaːmiyaː
 7	Dattì	Dattì	PROPN	_	_	6	mod	_	AlignBegin=1077280|AlignEnd=107760|Gloss=Datti
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=107760|AlignEnd=1077910|Gloss=PUNCT
@@ -8986,9 +8986,9 @@
 # phonetic_text = àkwai &// àkwai tsaːmiyaː -n Dattì //
 # text = àkwai || àkwai tsaːmiyan Dattì //
 # text_en = There is ... there is Datti's tamarind.
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=1076650|AlignEnd=1076840|Gloss=there_is
+1	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=1076650|AlignEnd=1076840|Gloss=there_is
 2	||	||	PUNCT	_	_	3	punct	_	AlignBegin=1076840|AlignEnd=1077040|Gloss=PUNCT
-3	àkwai	àkwai	PART	_	_	1	conj:dicto	_	AlignBegin=1077910|AlignEnd=1078130|Gloss=there_is
+3	àkwai	àkwai	PART	_	PartType=Pred	1	conj:dicto	_	AlignBegin=1077910|AlignEnd=1078130|Gloss=there_is
 4	tsaːmiyan	tsaːmiyaː	NOUN	_	Definite=Cons	3	subj	_	AlignBegin=1078130|AlignEnd=1078240|Gloss=tamarind.Cons|wordform=tsaːmiyaː
 5	Dattì	Dattì	PROPN	_	_	4	mod	_	AlignBegin=1078360|AlignEnd=1078580|Gloss=Datti
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1078580|AlignEnd=107880|Gloss=PUNCT
@@ -9022,7 +9022,7 @@
 # phonetic_text = àkwai mangwàr̃ò -n / ɗaː -n sarkiː /
 # text = àkwai mangwàr̃òn ɗan sarkiː //
 # text_en = There the mango tree of the Chief's son.
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=1080010|AlignEnd=1080320|Gloss=there_is
+1	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=1080010|AlignEnd=1080320|Gloss=there_is
 2	mangwàr̃òn	mangwàr̃òː	NOUN	_	Definite=Cons	1	subj	_	AlignBegin=1080320|AlignEnd=1080480|Gloss=mango_tree.Cons|wordform=mangwàr̃ò
 3	ɗan	ɗaː	NOUN	_	Definite=Cons	2	mod	_	AlignBegin=1081250|AlignEnd=1081360|Gloss=son.Cons|wordform=ɗaː
 4	sarkiː	sarkiː	NOUN	_	Definite=Ind	3	mod	_	AlignBegin=1081470|AlignEnd=1081690|Gloss=king
@@ -9347,7 +9347,7 @@
 # phonetic_text = gàː cinyàː -n -mù in mukà bùgaː -i mùtûm / kàmar̃ yà faːɗì //
 # text = gàː cinyàn =mù //
 # text_en = See our thighs, if we kick somebody he will fall.
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=112390|AlignEnd=1124080|Gloss=here_is
+1	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=112390|AlignEnd=1124080|Gloss=here_is
 2	cinyànmù	cinyàː	NOUN	_	Definite=Cons|Number=Plur|Person=1	1	subj	_	AlignBegin=1124080|AlignEnd=1124140|Gloss=thigh.Cons.1Plur|wordform=cinyàː
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1124260|AlignEnd=1124440|Gloss=PUNCT
 
@@ -9565,7 +9565,7 @@
 # text_en = Well now, is there a woman whom you will tell to prepare "tukurkusu" for you and who will be able to do it?
 1	tòː	tòː	INTJ	_	PartType=Foc	3	discourse	_	AlignBegin=1147930|AlignEnd=1148130|Gloss=well
 2	yànzu	yànzu	ADV	_	_	3	mod	_	AlignBegin=1148130|AlignEnd=1148330|Gloss=now
-3	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=1148330|AlignEnd=1148530|Gloss=there_is
+3	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=1148330|AlignEnd=1148530|Gloss=there_is
 4	màːtan	màːtaː	NOUN	_	Definite=Cons	3	subj	_	AlignBegin=1148530|AlignEnd=1148630|Gloss=wife.Cons|wordform=màːtaː
 5	dà	dà	SCONJ	_	_	4	mod@relcl	_	AlignBegin=1148730|AlignEnd=1148930|Gloss=COMP
 6	zaːkà	zâi	AUX	_	Number=Sing|Person=2|Tense=Fut	5	comp:obj	_	AlignBegin=1148930|AlignEnd=1149130|Gloss=2Sing.Fut
@@ -9986,7 +9986,7 @@
 # phonetic_text = àkwai na Zaːriya / Zagèːzàgiː //
 # text = àkwai na Zaːriya / Zagèːzàgiː //
 # text_en = There are those of Zaria, the "Zagezagi".
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=1189670|AlignEnd=1189990|Gloss=there_is
+1	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=1189670|AlignEnd=1189990|Gloss=there_is
 2	na	na/ta	ADP	_	Definite=Cons	1	subj	_	AlignBegin=1189990|AlignEnd=1190320|Gloss=of
 3	Zaːriya	Zaːriya	PROPN	_	_	2	comp:obj	_	AlignBegin=1190320|AlignEnd=1190640|Gloss=Zaria
 4	|a	|a	PUNCT	_	_	5	punct	_	a=|AlignBegin=1190640|AlignEnd=1190970|Gloss=PUNCT|wordform=
@@ -10017,7 +10017,7 @@
 # text_en = Yes, those too.
 1	eː	eː	INTJ	_	PartType=Foc	3	discourse	_	AlignBegin=1193920|AlignEnd=1194140|Gloss=yes
 2	kuma	kuma	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=1194140|AlignEnd=1194370|Gloss=too
-3	dà	dà	PART	_	_	0	root	_	AlignBegin=1194370|AlignEnd=119460|Gloss=there_is
+3	dà	dà	PART	_	PartType=Pred	0	root	_	AlignBegin=1194370|AlignEnd=119460|Gloss=there_is
 4	wânnan	wânnan	PRON	_	Definite=Def|PronType=Dem	3	subj	_	AlignBegin=119460|AlignEnd=1194830|Gloss=Def
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=1194830|AlignEnd=1195060|Gloss=PUNCT
 
@@ -10028,12 +10028,12 @@
 # phonetic_text = àkwai kuma / na Katsina -aːwaː\H / àkwai na kanòː -aːwaː\H / sakkwato -aːwaː\H /
 # text = àkwai kuma na Katsinaːwaː //= àkwai na Kanaːwaː |c Sakkwataːwaː //
 # text_en = There are those from Katsina, there are those from Kano, from Sokoto.
-1	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=1194540|AlignEnd=1194880|Gloss=there_is
+1	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=1194540|AlignEnd=1194880|Gloss=there_is
 2	kuma	kuma	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=1194880|AlignEnd=1195220|Gloss=too
 3	na	na/ta	ADP	_	Definite=Cons	1	subj	_	AlignBegin=1196920|AlignEnd=1197220|Gloss=of
 4	Katsinaːwaː	Katsina	PROPN	_	_	3	comp:obj	_	AlignBegin=1197220|AlignEnd=1197370|Gloss=Katsina
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=1197520|AlignEnd=1197820|Gloss=PUNCT
-6	àkwai	àkwai	PART	_	_	1	parataxis	_	AlignBegin=1197820|AlignEnd=1198110|Gloss=there_is
+6	àkwai	àkwai	PART	_	PartType=Pred	1	parataxis	_	AlignBegin=1197820|AlignEnd=1198110|Gloss=there_is
 7	na	na/ta	ADP	_	Definite=Cons	6	subj	_	AlignBegin=1198110|AlignEnd=119840|Gloss=of
 8	Kanaːwaː	Kanaːwaː	PROPN	_	Number=Plur	7	comp:obj	_	AlignBegin=119840|AlignEnd=1198540|Gloss=Kano.Plur|wordform=kanòː
 9	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=1198690|AlignEnd=1198980|Gloss=PUNCT
@@ -10400,15 +10400,15 @@
 # phonetic_text = gàː shi yaːjìː àlbasàː // gàː ƙanshîː / gàː ar̃mashiː //
 # text = gàː shi yaːjìː àlbasàː //= gàː ƙanshî / gàː ar̃mashiː //
 # text_en = There was pepper, onion. It smelt good, it was excellent.
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=1250|AlignEnd=1250150|Gloss=here_is
+1	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=1250|AlignEnd=1250150|Gloss=here_is
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	1	subj	_	AlignBegin=1250150|AlignEnd=125030|Gloss=3Masc
 3	yaːjìː	yaːjìː	NOUN	_	Definite=Ind	2	conj:appos	_	AlignBegin=125030|AlignEnd=1250460|Gloss=red_pepper
 4	àlbasàː	àlbasàː	NOUN	_	Definite=Ind	3	conj:coord	_	AlignBegin=1250460|AlignEnd=1250610|Gloss=onion
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=1250610|AlignEnd=1250760|Gloss=PUNCT
-6	gàː	gàː	PART	_	_	1	parataxis	_	AlignBegin=1251530|AlignEnd=1251890|Gloss=here_is
+6	gàː	gàː	PART	_	PartType=Pred	1	parataxis	_	AlignBegin=1251530|AlignEnd=1251890|Gloss=here_is
 7	ƙanshîː	ƙanshîː	NOUN	_	Definite=Ind	6	subj	_	AlignBegin=1251890|AlignEnd=1252260|Gloss=nice_smell
 8	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=1252260|AlignEnd=1252620|Gloss=PUNCT
-9	gàː	gàː	PART	_	_	6	parataxis	_	AlignBegin=1252620|AlignEnd=1252790|Gloss=here_is
+9	gàː	gàː	PART	_	PartType=Pred	6	parataxis	_	AlignBegin=1252620|AlignEnd=1252790|Gloss=here_is
 10	ar̃mashiː	ar̃mashiː	NOUN	_	Definite=Ind	9	subj	_	AlignBegin=1252790|AlignEnd=1252960|Gloss=excellence
 11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1252960|AlignEnd=1253140|Gloss=PUNCT
 
@@ -11051,7 +11051,7 @@
 # text = yànzu gàː shi //= duz zaːmàniː yaː zoː //= du' àbù yaː canzàː //
 # text_en = Now here we are, with the situation that has arrived, everything has changed.
 1	yànzu	yànzu	ADV	_	_	2	mod	_	AlignBegin=1325970|AlignEnd=1326120|Gloss=now
-2	gàː	gàː	PART	_	_	0	root	_	AlignBegin=1326120|AlignEnd=1326270|Gloss=here_is
+2	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=1326120|AlignEnd=1326270|Gloss=here_is
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=1326270|AlignEnd=1326420|Gloss=3Masc
 4	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=1326270|AlignEnd=1326420|Gloss=PUNCT
 5	duz	dukà	DET	_	_	6	det	_	AlignBegin=1326580|AlignEnd=1326780|Gloss=all
@@ -11956,7 +11956,7 @@
 # phonetic_text = gàː mài kiɗàː / yà yi ta mulmùlaː -wàː / yanàː jeːfàː -wàː //
 # text = gàː mài kiɗàː / yà yi ta mulmùlâːwaː / yanàː jeːfàːwaː //
 # text_en = Here were the drummers, he was digging with a hoe throwing the earth away.
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=1438360|AlignEnd=1438520|Gloss=here_is
+1	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=1438360|AlignEnd=1438520|Gloss=here_is
 2	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing|PronType=Rel	1	subj	_	AlignBegin=1438520|AlignEnd=1438680|Gloss=having|Idiom=Yes|Linker=Yes
 3	kiɗàː	kiɗ-	VERB	_	VerbForm=Vnoun	2	comp:obj	_	AlignBegin=1438680|AlignEnd=1438830|Gloss=beat_drum.Vnoun|InIdiom=Yes
 4	//=	//=	PUNCT	_	_	1	punct	_	AlignBegin=1438830|AlignEnd=1438990|Gloss=PUNCT
@@ -12031,7 +12031,7 @@
 6	fasàː	fas-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=1447640|AlignEnd=1447790|Gloss=split.Vnoun
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=1447790|AlignEnd=1447950|Gloss=PUNCT
 8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=1447950|AlignEnd=1448140|Gloss=then
-9	dà	dà	PART	_	_	0	root	_	AlignBegin=1448140|AlignEnd=1448320|Gloss=there_is
+9	dà	dà	PART	_	PartType=Pred	0	root	_	AlignBegin=1448140|AlignEnd=1448320|Gloss=there_is
 10	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing|PronType=Rel	9	subj	_	AlignBegin=1448320|AlignEnd=1448510|Gloss=having|Idiom=Yes|Linker=Yes
 11	gàngaː	gàngaː	NOUN	_	Definite=Ind	10	comp:obj	_	AlignBegin=1448510|AlignEnd=144870|Gloss=drum|InIdiom=Yes
 12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=144870|AlignEnd=1448880|Gloss=PUNCT
@@ -12575,7 +12575,7 @@
 # phonetic_text = gàː shi baːkà kàː sôː à taːshì /
 # text = gàː shi baːkàː sôː à taːshì //
 # text_en = Here you are, you don't want to leave.
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=1505510|AlignEnd=1505650|Gloss=here_is
+1	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=1505510|AlignEnd=1505650|Gloss=here_is
 2	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	1	subj	_	AlignBegin=1505650|AlignEnd=1505780|Gloss=3Masc
 3	baːkàː	bâi	AUX	_	Aspect=ProgNeg|Gender=Masc|Person=2|Polarity=Neg	1	parataxis	_	AlignBegin=1505780|AlignEnd=1505920|Gloss=2Masc.ProgNeg
 4	sôː	soː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	3	comp:aux	_	AlignBegin=1506050|AlignEnd=1506190|Gloss=want.Vnoun
@@ -12676,7 +12676,7 @@
 # text_en = Yes, the moon was shining.
 1	eː	eː	INTJ	_	PartType=Foc	3	discourse	_	AlignBegin=1513850|AlignEnd=1514020|Gloss=yes
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=1514020|AlignEnd=1514190|Gloss=PUNCT
-3	gàː	gàː	PART	_	_	0	root	_	AlignBegin=1514190|AlignEnd=1514350|Gloss=here_is
+3	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=1514190|AlignEnd=1514350|Gloss=here_is
 4	farin	fariː	ADJ	_	Definite=Cons	5	compound	_	AlignBegin=1514350|AlignEnd=1514440|Gloss=white.Cons|wordform=fariː
 5	watàː	watàː	NOUN	_	Definite=Ind	3	subj	_	AlignBegin=1514520|AlignEnd=1514690|Gloss=moon
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=1514690|AlignEnd=1514860|Gloss=PUNCT
@@ -12688,7 +12688,7 @@
 # phonetic_text = gàː fariː -n watàː //
 # text = gàː farin watàː //
 # text_en = The moon was shining.
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=1514860|AlignEnd=1515120|Gloss=here_is
+1	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=1514860|AlignEnd=1515120|Gloss=here_is
 2	farin	fariː	ADJ	_	Definite=Cons	3	compound	_	AlignBegin=1515120|AlignEnd=1515250|Gloss=white.Cons|wordform=fariː
 3	watàː	watàː	NOUN	_	Definite=Ind	1	subj	_	AlignBegin=1515380|AlignEnd=1515630|Gloss=moon
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1515630|AlignEnd=1515890|Gloss=PUNCT
@@ -12711,7 +12711,7 @@
 # text = tòː àkwai wani loːkàciː //= niː < bà zân taɓà mântaːwàː ba ai //
 # text_en = Well, there is a time, myself, I cannot forget it.
 1	tòː	tòː	INTJ	_	PartType=Foc	2	discourse	_	AlignBegin=151660|AlignEnd=151690|Gloss=well
-2	àkwai	àkwai	PART	_	_	0	root	_	AlignBegin=151690|AlignEnd=151720|Gloss=there_is
+2	àkwai	àkwai	PART	_	PartType=Pred	0	root	_	AlignBegin=151690|AlignEnd=151720|Gloss=there_is
 3	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	4	det	_	AlignBegin=151720|AlignEnd=1517510|Gloss=some.Masc
 4	loːkàciː	loːkàciː	NOUN	_	Definite=Ind	2	subj	_	AlignBegin=1517510|AlignEnd=1517810|Gloss=time
 5	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=1517810|AlignEnd=1518120|Gloss=PUNCT
@@ -12808,10 +12808,10 @@
 # phonetic_text = gàː gàngaː / gàː àbinci /
 # text = gàː gàngaː / gàː àbinci /
 # text_en = There were drums, there was food.
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=1530140|AlignEnd=153040|Gloss=here_is
+1	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=1530140|AlignEnd=153040|Gloss=here_is
 2	gàngaː	gàngaː	NOUN	_	Definite=Ind	1	subj	_	AlignBegin=153040|AlignEnd=1530660|Gloss=drum
 3	//=	//=	PUNCT	_	_	4	punct	_	AlignBegin=1530660|AlignEnd=1530930|Gloss=PUNCT
-4	gàː	gàː	PART	_	_	1	parataxis	_	AlignBegin=1531940|AlignEnd=1532210|Gloss=here_is|Overlap=HAUZ_BC_CONV_04_1384-1384
+4	gàː	gàː	PART	_	PartType=Pred	1	parataxis	_	AlignBegin=1531940|AlignEnd=1532210|Gloss=here_is|Overlap=HAUZ_BC_CONV_04_1384-1384
 5	àbinci	àbinci	NOUN	_	Definite=Ind	4	subj	_	AlignBegin=1532210|AlignEnd=1532480|Gloss=food
 6	//+	//+	PUNCT	_	_	1	punct	_	AlignBegin=1532480|AlignEnd=1532750|Gloss=PUNCT
 
@@ -12836,7 +12836,7 @@
 # phonetic_text = gàː ƙwàːyaː /
 # text = gàː ƙwàːyaː /
 # text_en = ...there were drugs.
-1	gàː	gàː	PART	_	_	0	root	_	AlignBegin=153350|AlignEnd=1533770|AttachTo=HAUZ_BC_CONV_04_1381-1382|Gloss=here_is|Rel=parataxis
+1	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=153350|AlignEnd=1533770|AttachTo=HAUZ_BC_CONV_04_1381-1382|Gloss=here_is|Rel=parataxis
 2	ƙwàːyaː	ƙwàːyaː	NOUN	_	Definite=Ind	1	subj	_	AlignBegin=1533770|AlignEnd=1534040|Gloss=drugs
 3	//	//	PUNCT	_	_	1	punct	_	AlignBegin=1534040|AlignEnd=1534310|Gloss=PUNCT
 
@@ -13255,7 +13255,7 @@
 5	nèː	neː/ceː	PART	_	PartType=Foc	4	discourse@foc	_	AlignBegin=1588950|AlignEnd=1589110|Gloss=Emph
 6	>	<	PUNCT	_	_	7	punct	_	AlignBegin=1589110|AlignEnd=1589280|Gloss=PUNCT
 7	cêːwàː	cêː-wàː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	mod	_	AlignBegin=1589280|AlignEnd=1589370|Gloss=say.Vnoun|wordform=cêː
-8	zâː	zâː	PART	_	_	7	comp:cleft	_	AlignBegin=1589460|AlignEnd=1589640|Gloss=go_to
+8	zâː	zâː	PART	_	PartType=Pred	7	comp:cleft	_	AlignBegin=1589460|AlignEnd=1589640|Gloss=go_to
 9	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	8	subj	_	AlignBegin=1589640|AlignEnd=1589830|Gloss=3Masc
 10	aikìː	aikìː	NOUN	_	Definite=Ind	8	comp:obj@G	_	AlignBegin=1589830|AlignEnd=1590010|Gloss=work
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=1590010|AlignEnd=159020|Gloss=PUNCT
