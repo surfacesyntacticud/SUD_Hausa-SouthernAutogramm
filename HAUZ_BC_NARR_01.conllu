@@ -499,7 +499,7 @@
 # phonetic_text = yâu / shiː kèː nan / sai gàː kùreːgeː //
 # text = yâu / shiː kèː nan / sai gàː kùreːgeː //
 # text_en = Now, that's it, then Squirrel arrived.
-1	yâu	yâu	ADV	_	PartType=Foc	4	discourse	_	AlignBegin=63820|AlignEnd=63968|Gloss=today
+1	yâu	yâu	ADV	_	_	4	discourse	_	AlignBegin=63820|AlignEnd=63968|Gloss=today
 2	shiːkèːnan	shiːkèːnaː	INTJ	_	_	4	discourse	_	AlignBegin=64117|AlignEnd=64225|Gloss=OK|wordform=shiː
 3	sai	sai	ADV	_	_	4	mod	_	AlignBegin=64551|AlignEnd=64816|Gloss=then
 4	gàː	gàː	PART	_	PartType=Pred	0	root	_	AlignBegin=64816|AlignEnd=65081|Gloss=here_is
@@ -2222,7 +2222,7 @@
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=270938|AlignEnd=271142|Gloss=3Masc
 4	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=271142|AlignEnd=271346|Gloss=with
 5	kuma	kuma	PART	_	PartType=Top	4	discourse@top	_	AlignBegin=271346|AlignEnd=271550|Gloss=also
-6	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing|PronType=Rel	4	comp:obj	_	AlignBegin=271550|AlignEnd=271754|Gloss=having|Idiom=Yes|Linker=Yes
+6	mài	mài	ADP	_	ExtPos=NOUN|Number=Sing	4	comp:obj	_	AlignBegin=271550|AlignEnd=271754|Gloss=having|Idiom=Yes|Linker=Yes
 7	tàimakoː	tàimakoː	NOUN	_	Definite=Ind	6	comp:obj	_	AlignBegin=271754|AlignEnd=271958|Gloss=helping|InIdiom=Yes
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=271958|AlignEnd=272159|Gloss=PUNCT
 
@@ -2234,7 +2234,7 @@
 # text = bâː mài tàimakonshì //
 # text_en = There's noone to help him.
 1	bâː	baːbù	PART	_	PartType=Neg|Polarity=Neg	0	root	_	AlignBegin=271955|AlignEnd=272204|Gloss=there_is.Neg
-2	mài	mài	ADP	_	Number=Sing|PronType=Rel	1	subj	_	AlignBegin=272204|AlignEnd=272453|Gloss=having|Linker=Yes
+2	mài	mài	ADP	_	Number=Sing	1	subj	_	AlignBegin=272204|AlignEnd=272453|Gloss=having|Linker=Yes
 3	tàimakonshi	tàimakoː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=272453|AlignEnd=272536|Gloss=help.Cons.3Masc..Gen|wordform=tàimakoː
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=272702|AlignEnd=272950|Gloss=PUNCT
 
