@@ -158,7 +158,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 23244, 30050
 # phonetic_text = wânnan kàːwuː -ǹ nàːwa //
-# text = tòː shiː wânnan àmfàːnîn dà na saːmù || dà mukà saːmù |c koː ìn cêː dà mukà saːmù tun niː nèː dà ainihin Àlhajì wandà ni kè zàune à wajen =shì |a wânnan kàːwûn nàːwa &//
+# text = tòː shiː wânnan àmfàːnîn dà na saːmù || dà mukà saːmù |c koː ìn cêː dà mukà saːmù tun niː nèː dà ainihin Àlhajì wandà nikè zàune à wajenshì |a wânnan kàːwûn nàːwa &//
 # text_en = Well those crops that I got, that we got, or should I say that we got since.. it was me and.. the very Alhaji with whom I am staying, that uncle of mine.
 1	tòː	tòː	INTJ	_	_	2	discourse	_	AlignBegin=23244|AlignEnd=23451|Gloss=well
 2	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	0	root@scrap	_	AlignBegin=23451|AlignEnd=23658|Gloss=3Masc.Nom
@@ -182,13 +182,13 @@
 20	niː	niː	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	comp:pred	_	AlignBegin=26950|AlignEnd=27137|Gloss=1Sing.Nom
 21	nèː	neː/ceː	AUX	_	Gender=Masc|Number=Plur	19	comp:obj	_	AlignBegin=27137|AlignEnd=27324|Gloss=be.Masc/Plur
 22	dà	dà	CCONJ	_	_	24	cc	_	AlignBegin=27324|AlignEnd=27418|Gloss=COMP
-23	ainihin	ainihiː	ADJ	_	Definite=Cons|PartType=Foc	24	discourse	_	AlignBegin=27661|AlignEnd=27767|Gloss=real.Cons|wordform=ainihiː
+23	ainihin	ainihiː	ADJ	_	Definite=Cons	24	discourse	_	AlignBegin=27661|AlignEnd=27767|Gloss=real.Cons|wordform=ainihiː
 24	Àlhajì	Àlhajì	PROPN	_	_	20	conj:coord	_	AlignBegin=27873|AlignEnd=28085|Gloss=Alhaji
-25	wandà	wandà	PRON	_	PronType=Rel	24	mod@relcl	_	AlignBegin=28085|AlignEnd=28297|Gloss=who
-26	nikè	nàː/kè	AUX	_	Background=Yes|Number=Sing|Person=1	25	udep	_	AlignBegin=28297|AlignEnd=28509|Gloss=1Sing.Pred/Loc.Bkg|wordform=ni
+25	wandà	wandà	PRON	_	PronType=Rel	28	comp:obj	_	AlignBegin=28085|AlignEnd=28297|Gloss=who
+26	nikè	nàː/kè	AUX	_	Background=Yes|Number=Sing|Person=1	24	mod@relcl	_	AlignBegin=28297|AlignEnd=28509|Gloss=1Sing.Pred/Loc.Bkg|wordform=ni
 27	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	26	comp:pred	_	AlignBegin=28509|AlignEnd=28721|Gloss=stay.Stat
 28	à	à	ADP	_	ExtPos=ADP	27	comp:obl	_	AlignBegin=28721|AlignEnd=28933|Gloss=at|Idiom=Yes
-29	wajenshì	wajeː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	28	compound	_	AlignBegin=28933|AlignEnd=29039|Gloss=side.Cons.3Masc.Gen|InIdiom=Yes|wordform=wajen
+29	wajenshì	wajeː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	28	comp:obj	_	AlignBegin=28933|AlignEnd=29039|Gloss=side.Cons.3Masc.Gen|InIdiom=Yes|wordform=wajen
 30	|a	|a	PUNCT	_	_	32	punct	_	AlignBegin=29145|AlignEnd=29358|Gloss=PUNCT
 31	wânnan	wânnan	DET	_	Definite=Def|PronType=Dem	32	det	_	AlignBegin=29358|AlignEnd=29531|Gloss=Def
 32	kàːwûn	kàːwuː	NOUN	_	Definite=Cons	24	conj:appos	_	AlignBegin=29531|AlignEnd=29617|Gloss=uncle.Cons
