@@ -1250,7 +1250,7 @@
 # text_en = Did you watch that film called X ?
 1	kin	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=2	0	root	_	AlignBegin=163595|AlignEnd=163863|Gloss=2Fem.Perf
 2	kàlli	kall-	VERB	_	_	1	comp:aux	_	AlignBegin=163863|AlignEnd=163997|Gloss=watch
-3	wânnan	wânnan	DET	_	Definite=Def|PronType=Dem	4	det	_	AlignBegin=164131|AlignEnd=164399|Gloss=Def
+3	wânnan	wânnan	DET	_	Definite=Def|Number=Plur|PronType=Dem	4	det	_	AlignBegin=164131|AlignEnd=164399|Gloss=Def.Plur
 4	fîːm	fî-	VERB	_	_	2	comp:obj	_	AlignBegin=164399|AlignEnd=164667|Gloss=film
 5	ɗîn	ɗin	DET	_	Definite=Def|PronType=Dem	4	det	_	AlignBegin=164667|AlignEnd=164935|Gloss=of.Def
 6	nan	nan	DET	_	Definite=Def|PronType=Dem	4	det	_	AlignBegin=164935|AlignEnd=165203|Gloss=Def
@@ -1505,7 +1505,7 @@
 # text = wai wânnan mut~ &//
 # text_en = Apparently, that man...
 1	wai	wai	ADV	_	_	3	discourse	_	AlignBegin=192403|AlignEnd=192703|Gloss=EVD
-2	wânnan	wânnan	DET	_	Definite=Def|PronType=Dem	3	det	_	AlignBegin=192703|AlignEnd=193003|Gloss=Def
+2	wânnan	wânnan	DET	_	Definite=Def|Number=Plur|PronType=Dem	3	det	_	AlignBegin=192703|AlignEnd=193003|Gloss=Def.Plur
 3	mut~	X	X	_	_	0	root@scrap	_	AlignBegin=193560|AlignEnd=193714|Gloss=X
 4	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=193714|AlignEnd=193868|Gloss=PUNCT
 
@@ -2125,7 +2125,7 @@
 3	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=271315|AlignEnd=271512|Gloss=3Masc.Perf
 4	daːwoː	daːwoː	VERB	_	_	3	comp:aux	_	AlignBegin=271512|AlignEnd=271709|Gloss=return.DIR
 5	dà	dà	ADP	_	_	4	comp:obl	_	AlignBegin=271709|AlignEnd=271906|Gloss=with
-6	wânnan	wânnan	DET	_	Definite=Def|PronType=Dem	7	det	_	AlignBegin=271906|AlignEnd=272103|Gloss=Def
+6	wânnan	wânnan	DET	_	Definite=Def|Number=Plur|PronType=Dem	7	det	_	AlignBegin=271906|AlignEnd=272103|Gloss=Def.Plur
 7	bùdurwân	bùdurwaː	NOUN	_	Definite=Def	5	comp:obj	_	AlignBegin=272103|AlignEnd=272201|Gloss=girlfriend.Def|wordform=bùdurwaː
 8	naːshì	naːshì	PRON	_	Case=Gen|Gender=Masc|Person=3|PronType=Prs	7	mod@poss	_	AlignBegin=272300|AlignEnd=272398|Gloss=3Masc.Gen
 9	dà	dà	SCONJ	_	_	7	mod@relcl	_	AlignBegin=272694|AlignEnd=272873|Gloss=COMP
@@ -2201,9 +2201,9 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_03.WAV
 # sent_timecode = 281491, 283626
 # phonetic_text = sai dà / ya cêː matà wai / ai maːgàniː -n -shì //
-# text = sai dà < ya cêː matà wai ai maːgànin =shì //
+# text = sai dà < ya cêː matà wai ai maːgàninshì //
 # text_en = Then he told her, eh his poison.
-1	sai	sai	ADV	_	ExtPos=ADV	4	mod	_	AlignBegin=281491|AlignEnd=281572|Gloss=then|Idiom=Yes
+1	sai	sai	ADV	_	_	4	mod	_	AlignBegin=281491|AlignEnd=281572|Gloss=then
 2	dà	dà	SCONJ	_	_	1	unk	_	AlignBegin=281572|AlignEnd=281653|Gloss=as|InIdiom=Yes
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=281653|AlignEnd=281734|Gloss=PUNCT
 4	ya	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=281734|AlignEnd=281926|Gloss=3Masc.Perf.Bkg
@@ -2844,13 +2844,13 @@
 2	bà	bà	PART	_	PartType=Neg|Polarity=Neg	1	discourse	_	AlignBegin=353520|AlignEnd=353610|Gloss=indeed
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=353610|AlignEnd=353701|Gloss=PUNCT
 4	tundà	tundà	SCONJ	_	_	9	mod	_	AlignBegin=353701|AlignEnd=353872|Gloss=since
-5	bàːbân	bàːba	NOUN	_	Definite=Def	6	comp:aux	_	AlignBegin=353872|AlignEnd=353958|Gloss=father.Def|wordform=bàːba
+5	bàːbân	bàːba	NOUN	_	Definite=Def	6	subj	_	AlignBegin=353872|AlignEnd=353958|Gloss=father.Def|wordform=bàːba
 6	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	4	comp:obj	_	AlignBegin=354043|AlignEnd=354214|Gloss=3Masc.Perf
 7	mutù	mutù	VERB	_	_	6	comp:aux	_	AlignBegin=354214|AlignEnd=354385|Gloss=die
 8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=354385|AlignEnd=354557|Gloss=PUNCT
 9	yà	ø	AUX	_	Aspect=Aor|Gender=Masc|Person=3	0	root	_	AlignBegin=354557|AlignEnd=354716|Gloss=3Masc.Aor
 10	bar̃	barìː	VERB	_	_	9	comp:aux	_	AlignBegin=354716|AlignEnd=354875|Gloss=leave
-11	gidân	gidaː	NOUN	_	Definite=Def	10	comp:pred	_	AlignBegin=354875|AlignEnd=354955|Gloss=house.Def|wordform=gidaː
+11	gidân	gidaː	NOUN	_	Definite=Def	10	comp:obj	_	AlignBegin=354875|AlignEnd=354955|Gloss=house.Def|wordform=gidaː
 12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=355034|AlignEnd=355192|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__196
@@ -2951,12 +2951,12 @@
 # text_en = His intimate friend knew his secret.
 1	àboːkinshì	àboːkiː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	6	subj	_	AlignBegin=367034|AlignEnd=367107|Gloss=friend.Cons.3Masc.Gen|wordform=àboːkiː
 2	na	na/ta	ADP	_	Definite=Cons	1	mod	_	AlignBegin=367254|AlignEnd=367474|Gloss=of
-3	ƙut	ƙut	ADV	_	_	2	mod	_	AlignBegin=367474|AlignEnd=367694|Gloss=intimate|Ideo=Yes
+3	ƙut	ƙut	ADV	_	_	2	comp:obj	_	AlignBegin=367474|AlignEnd=367694|Gloss=intimate|Ideo=Yes
 4	dà	dà	CCONJ	_	_	5	cc	_	AlignBegin=367694|AlignEnd=367914|Gloss=and
 5	ƙut	ƙut	ADV	_	_	3	conj:coord	_	AlignBegin=367914|AlignEnd=368134|Gloss=intimate|Ideo=Yes
 6	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=368134|AlignEnd=368354|Gloss=3Masc.Perf
 7	san	sanìː	VERB	_	_	6	comp:aux	_	AlignBegin=368354|AlignEnd=368574|Gloss=know
-8	sir̃r̃ìnshì	sir̃r̃ìː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	6	comp:aux	_	AlignBegin=368574|AlignEnd=368647|Gloss=secret.Cons.3Masc.Gen|wordform=sir̃r̃ìː
+8	sir̃r̃ìnshì	sir̃r̃ìː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	7	comp:obj	_	AlignBegin=368574|AlignEnd=368647|Gloss=secret.Cons.3Masc.Gen|wordform=sir̃r̃ìː
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=368794|AlignEnd=369011|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__202
@@ -3011,7 +3011,7 @@
 23	wandà	wandà	PRON	_	PronType=Rel	22	mod@relcl	_	AlignBegin=375944|AlignEnd=376181|Gloss=which
 24	ya	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Gender=Masc|Person=3	23	comp:obj	_	AlignBegin=376181|AlignEnd=376418|Gloss=3Masc.Perf.Bkg
 25	fi	fi	VERB	_	_	24	comp:aux	_	AlignBegin=376418|AlignEnd=376655|Gloss=exceed
-26	wânnan	wânnan	PRON	_	Definite=Def|PronType=Dem	25	comp:obj	_	AlignBegin=376655|AlignEnd=376892|Gloss=Def
+26	wânnan	wânnan	PRON	_	Definite=Def|Number=Plur|PronType=Dem	25	comp:obj	_	AlignBegin=376655|AlignEnd=376892|Gloss=Def.Plur
 27	girmaː	girmaː	NOUN	_	Definite=Ind	25	mod	_	AlignBegin=376892|AlignEnd=377129|Gloss=size
 28	//	//	PUNCT	_	_	11	punct	_	AlignBegin=377129|AlignEnd=377365|Gloss=PUNCT
 
@@ -3316,7 +3316,7 @@
 # text_en = he said that that one had said they should go and kill him.
 1	ya	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Gender=Masc|Person=3	0	root	_	AlignBegin=411214|AlignEnd=411354|Gloss=3Masc.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=411354|AlignEnd=411494|Gloss=say
-3	wânnan	wânnan	PRON	_	Definite=Def|PronType=Dem	4	subj	_	AlignBegin=411494|AlignEnd=411634|Gloss=Def
+3	wânnan	wânnan	PRON	_	Definite=Def|Number=Plur|PronType=Dem	4	subj	_	AlignBegin=411494|AlignEnd=411634|Gloss=Def.Plur
 4	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=411634|AlignEnd=411774|Gloss=3Masc.Perf
 5	cêː	cêː	VERB	_	_	4	comp:aux	_	AlignBegin=411774|AlignEnd=411914|Gloss=say
 6	wai	wai	SCONJ	_	_	5	comp:obj	_	AlignBegin=411914|AlignEnd=412054|Gloss=COMP
