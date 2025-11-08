@@ -91,7 +91,7 @@
 2	ta	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Gender=Fem|Person=3	1	comp:obj	_	AlignBegin=14786|AlignEnd=15032|Gloss=3Fem.Perf.Bkg
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=15032|AlignEnd=15278|Gloss=see
 4	zoːmoː	zoːmoː	NOUN	_	Definite=Ind	5	subj	_	AlignBegin=15278|AlignEnd=15524|Gloss=Rabbit
-5	yanàː	kè	AUX	_	Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=15524|AlignEnd=15770|Gloss=3Masc.Pred/Loc|wordform=ya
+5	yanàː	kè	AUX	_	Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=15524|AlignEnd=15770|Copula=Yes|Gloss=3Masc.Pred/Loc|wordform=ya
 6	kwànce	kwant-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	5	comp:pred	_	AlignBegin=15770|AlignEnd=16016|Gloss=lie.Part
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=16016|AlignEnd=16262|Gloss=PUNCT
 8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=17100|AlignEnd=17302|Gloss=then
@@ -121,7 +121,7 @@
 # text_en = Rabbit, where is the way to the river?
 1	zoːmoː	zoːmoː	NOUN	_	Definite=Ind	3	vocative	_	AlignBegin=21251|AlignEnd=21433|Gloss=Rabbit
 2	ìnaː	ìnaː	ADV	_	PronType=Int	3	comp:pred	_	AlignBegin=21615|AlignEnd=21873|Gloss=where
-3	nèː	neː	AUX	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=21873|AlignEnd=22131|AttachTo=HAUZ_BC_NARR_01_010-011|Gloss=be.Masc/Plur|Overlap=HAUZ_BC_NARR_01_012-012|Rel=comp:obj
+3	nèː	neː	AUX	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=21873|AlignEnd=22131|AttachTo=HAUZ_BC_NARR_01_010-011|Copula=Yes|Gloss=be.Masc/Plur|Overlap=HAUZ_BC_NARR_01_012-012|Rel=comp:obj
 4	hanyànmù	hanyàː	NOUN	_	Case=Gen|Definite=Cons|Number=Plur|Person=1	3	comp:cleft	_	AlignBegin=22131|AlignEnd=22217|Gloss=road.Cons.1Plur.Gen|wordform=hanyàː
 5	na	na/ta	ADP	_	Definite=Cons	4	mod	_	AlignBegin=22389|AlignEnd=22647|Gloss=of
 6	ràːfiː	ràːfiː	NOUN	_	Definite=Ind	5	comp:obj	_	AlignBegin=22647|AlignEnd=22905|Gloss=river
@@ -148,7 +148,7 @@
 # text_en = Rabbit, where is the way to the river?
 1	zoːmoː	zoːmoː	NOUN	_	Definite=Ind	3	vocative	_	AlignBegin=25550|AlignEnd=25771|Gloss=Rabbit
 2	ìnaː	ìnaː	ADV	_	PronType=Int	3	comp:pred	_	AlignBegin=25992|AlignEnd=26190|Gloss=where
-3	nèː	neː	AUX	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=26190|AlignEnd=26388|Gloss=be.Masc/Plur
+3	nèː	neː	AUX	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=26190|AlignEnd=26388|Copula=Yes|Gloss=be.Masc/Plur
 4	hanyànmù	hanyàː	NOUN	_	Case=Gen|Definite=Cons|Number=Plur|Person=1	3	comp:cleft	_	AlignBegin=26388|AlignEnd=26454|Gloss=road.Cons.1Plur.Gen|wordform=hanyàː
 5	na	na/ta	ADP	_	Definite=Cons	4	mod	_	AlignBegin=26586|AlignEnd=26784|Gloss=of
 6	ràːfiː	ràːfiː	NOUN	_	Definite=Ind	5	comp:obj	_	AlignBegin=26784|AlignEnd=26982|Gloss=river
@@ -204,7 +204,7 @@
 1	ta	(n)kà	AUX	_	Aspect=PerfBkg|Background=Yes|Gender=Fem|Person=3	0	root	_	AlignBegin=31869|AlignEnd=32101|Gloss=3Fem.Perf.Bkg
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=32101|AlignEnd=32333|Gloss=say
 3	dàke	dak-	VERB	_	_	2	comp:obj	_	AlignBegin=32333|AlignEnd=32565|Gloss=pound.Stat
-4	nakè	kè	AUX	_	Background=Yes|Number=Sing|Person=1	3	comp:cleft	_	AlignBegin=32565|AlignEnd=32797|Gloss=1Sing.Pred/Loc.Bkg|wordform=na
+4	nakè	kè	AUX	_	Background=Yes|Number=Sing|Person=1	3	comp:cleft	_	AlignBegin=32565|AlignEnd=32797|Copula=Yes|Gloss=1Sing.Pred/Loc.Bkg|wordform=na
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=32797|AlignEnd=33030|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_022-022
@@ -646,7 +646,7 @@
 # text = àsheː ya nàː nan yanàː jiran ɓeːr̃aː yà zoː //
 # text_en = Indeed he is there waiting for.. Rat to arrive.
 1	àsheː	àsheː	INTJ	_	_	2	discourse	_	AlignBegin=83460|AlignEnd=83709|Gloss=indeed
-2	yanàː	kè	AUX	_	Gender=Masc|Person=3	0	root	_	AlignBegin=83709|AlignEnd=83958|Gloss=3Masc.Pred/Loc|wordform=ya
+2	yanàː	kè	AUX	_	Gender=Masc|Person=3	0	root	_	AlignBegin=83709|AlignEnd=83958|Copula=Yes|Gloss=3Masc.Pred/Loc|wordform=ya
 3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	AlignBegin=83958|AlignEnd=84207|Gloss=Def
 4	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	parataxis	_	AlignBegin=84207|AlignEnd=84456|Gloss=3Masc.Prog
 5	jiran	jiraː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=84456|AlignEnd=84580|Gloss=wait.Vnoun.Cons|wordform=yiraː
@@ -856,7 +856,7 @@
 # text = zoːmoː nàː nan yanàː jir̃ànshì //
 # text_en = Rabbit is there waiting for him.
 1	zoːmoː	zoːmoː	NOUN	_	Definite=Ind	2	subj	_	AlignBegin=113310|AlignEnd=113537|Gloss=Rabbit
-2	nàː	kè	AUX	_	_	0	root	_	AlignBegin=113537|AlignEnd=113764|Gloss=Pred/Loc|Overlap=HAUZ_BC_NARR_01_102-102
+2	nàː	kè	AUX	_	_	0	root	_	AlignBegin=113537|AlignEnd=113764|Copula=Yes|Gloss=Pred/Loc|Overlap=HAUZ_BC_NARR_01_102-102
 3	nan	nan	ADV	_	Definite=Def|PronType=Dem	2	comp:pred	_	AlignBegin=113764|AlignEnd=113991|Gloss=Def
 4	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	parataxis	_	AlignBegin=113991|AlignEnd=114218|Gloss=3Masc.Prog
 5	jiranshi	jiraː	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|Person=3|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=114218|AlignEnd=114294|Gloss=wait.Vnoun.Cons.3Masc|wordform=jir̃àː
@@ -1861,7 +1861,7 @@
 3	gàrin	gàriː	NOUN	_	Definite=Cons	6	dislocated@top	_	AlignBegin=230565|AlignEnd=230684|Gloss=town.Cons|wordform=gàriː
 4	Gwànjoː	Gwànjoː	PROPN	_	_	3	compound	_	AlignBegin=230803|AlignEnd=231041|Gloss=Gwanjo
 5	ìnaː	ìnaː	ADV	_	PronType=Int	6	comp:pred	_	AlignBegin=231279|AlignEnd=231424|Gloss=where
-6	nèː	neː	AUX	_	Gender=Masc|Number=Plur	2	comp:obj	_	AlignBegin=231424|AlignEnd=231569|Gloss=be.Masc/Plur
+6	nèː	neː	AUX	_	Gender=Masc|Number=Plur	2	comp:obj	_	AlignBegin=231424|AlignEnd=231569|Copula=Yes|Gloss=be.Masc/Plur
 7	gàrin	gàriː	NOUN	_	Definite=Cons	6	comp:cleft	_	AlignBegin=231713|AlignEnd=231863|Gloss=town.Cons|wordform=gàriː
 8	Gwànjoː	Gwànjoː	PROPN	_	_	7	compound	_	AlignBegin=232013|AlignEnd=232313|Gloss=Gwanjo
 9	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=232313|AlignEnd=232612|Gloss=PUNCT
