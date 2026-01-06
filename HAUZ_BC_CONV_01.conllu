@@ -347,8 +347,8 @@
 # text_en = She goes to the Federal (College).
 1	takàn	kàn	AUX	_	Aspect=Hab|Gender=Fem|Person=3	0	root	_	AlignBegin=44009|AlignEnd=44241|Gloss=3Fem.Hab
 2	kai	kai	VERB	_	_	1	comp:aux	_	AlignBegin=44241|AlignEnd=44357|Gloss=reach
-3	à	à	ADP	_	_	2	comp:obl	_	AlignBegin=44705|AlignEnd=44821|Gloss=at
-4	cikin	cikin	ADP	_	_	3	compound	_	AlignBegin=45169|AlignEnd=45285|Gloss=inside
+3	à	à	ADP	_	ExtPos=ADP	2	comp:obl	_	AlignBegin=44705|AlignEnd=44821|Gloss=at|Idiom=Yes
+4	cikin	cikiː	NOUN	_	Definite=Cons|Gender=Masc	3	compound	_	AlignBegin=45169|AlignEnd=45285|Gloss=inside.Masc.Cons|InIdiom=Yes
 5	Feːdar̃al	Feːdar̃al	PROPN	_	Foreign=Yes	3	comp:obj	_	AlignBegin=45865|AlignEnd=46097|Gloss=Federal|Lang=en
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=46329|AlignEnd=46566|Gloss=PUNCT
 
@@ -1253,7 +1253,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 156180, 157961
 # phonetic_text = tòː baːyan ràsuwan =tà dai / ka nàː zàune à wajen wàːneːnèː ?//
-# text = tòː baːyan ràsuwan =tà dai < ka nàː zàune à wajen wàːneːnèː ?//
+# text = tòː baːyan ràsuwantà dai < kanàː zàune à wajen wàːneːnèː ?//
 # text_en = Well, after she died, where did you stay?
 1	tòː	tòː	INTJ	_	_	6	discourse	_	AlignBegin=156180|AlignEnd=156328|Gloss=well
 2	baːyan	baːyan	ADP	_	_	6	mod	_	AlignBegin=156328|AlignEnd=156476|Gloss=after
@@ -1262,9 +1262,9 @@
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=156772|AlignEnd=156920|Gloss=PUNCT
 6	kanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=2	0	root	_	AlignBegin=157068|AlignEnd=157216|Gloss=2Masc.Prog|wordform=nàː
 7	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Stat	6	comp:pred	_	AlignBegin=157216|AlignEnd=157364|Gloss=stay.Stat
-8	à	à	ADP	_	_	7	comp:obl	_	AlignBegin=157364|AlignEnd=157512|Gloss=at
-9	wajen	wajen	ADP	_	_	8	comp:obj	_	AlignBegin=157512|AlignEnd=157660|Gloss=around
-10	wàːneːnèː	wàːneːnèː	PRON	_	PronType=Int	9	comp:obj	_	AlignBegin=157660|AlignEnd=157808|Gloss=who
+8	à	à	ADP	_	ExtPos=ADP	7	comp:obl	_	AlignBegin=157364|AlignEnd=157512|Gloss=at|Idiom=Yes
+9	wajen	wajeː	NOUN	_	Definite=Cons|Gender=Masc	8	compound	_	AlignBegin=157512|AlignEnd=157660|Gloss=direction.Masc.Cons|InIdiom=Yes
+10	wàːneːnèː	wàːneːnèː	PRON	_	PronType=Int	8	comp:obj	_	AlignBegin=157660|AlignEnd=157808|Gloss=who
 11	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=157808|AlignEnd=157961|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_055-055
@@ -1272,16 +1272,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 157961, 159960
 # phonetic_text = baːyan ràsu -waː -n -tà / inàː zàune à wajen kàːwuː -naː nèː //
-# text = baːyan ràsuwan =tà < nàː zàune à wajen kàːwuː =naː nèː //
+# text = baːyan ràsuwantà < inàː zàune à wajen kàːwuːnaː nèː //
 # text_en = After her death I lived with my uncle.
 1	baːyan	baːyaː	ADP	_	_	4	mod	_	AlignBegin=157961|AlignEnd=158161|Gloss=after
 2	ràsuwantà	ras-	VERB	_	Case=Gen|Definite=Cons|ExtPos=NOUN|Gender=Fem|Person=3|VerbForm=Vnoun	1	comp:obj	_	AlignBegin=158161|AlignEnd=158211|Gloss=die.Vnoun.Cons.3Fem.Gen|wordform=ràsuwan
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=158361|AlignEnd=158561|Gloss=PUNCT
 4	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	0	root	_	AlignBegin=158561|AlignEnd=158761|Gloss=1Sing.Prog|wordform=i
 5	zàune	zaun-	VERB	_	ExtPos=ADV|VerbForm=Stat	4	comp:pred	_	AlignBegin=158761|AlignEnd=158961|Gloss=stay.Stat
-6	à	à	ADP	_	_	5	comp:obl	_	AlignBegin=158961|AlignEnd=159161|Gloss=at
-7	wajen	wajen	ADP	_	_	6	comp:obj	_	AlignBegin=159161|AlignEnd=159361|Gloss=around
-8	kàːwuːnaː	kàːwu	NOUN	_	Case=Gen|Definite=Ind|Person=1	7	comp:obj	_	AlignBegin=159361|AlignEnd=159461|Gloss=uncle.Cons.+1Sing.Gen|wordform=kàːwuː
+6	à	à	ADP	_	ExtPos=ADP	5	comp:obl	_	AlignBegin=158961|AlignEnd=159161|Gloss=at|Idiom=Yes
+7	wajen	wajeː	NOUN	_	Definite=Cons|Gender=Masc	6	compound	_	AlignBegin=159161|AlignEnd=159361|Gloss=direction.Masc.Cons|InIdiom=Yes
+8	kàːwuːnaː	kàːwu	NOUN	_	Case=Gen|Definite=Ind|Person=1	6	comp:obj	_	AlignBegin=159361|AlignEnd=159461|Gloss=uncle.Cons.+1Sing.Gen|wordform=kàːwuː
 9	nèː	neː	PART	_	PartType=Foc	8	discourse@foc	_	AlignBegin=159561|AlignEnd=159761|Gloss=Emph
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=159761|AlignEnd=159960|Gloss=PUNCT
 
@@ -1335,7 +1335,7 @@
 # phonetic_text = mài suːnaː / àlhaːjì iːdi //
 # text = mài suːnaː Àlhaːjì Iːdi //
 # text_en = His is called Alhaji Idi.
-1	mài	mài	ADP	_	Number=Sing	0	root	_	AlignBegin=163272|AlignEnd=163438|Gloss=having|Linker=Yes
+1	mài	mài	PART	_	Number=Sing|PartType=Der	0	root	_	AlignBegin=163272|AlignEnd=163438|Gloss=having|Linker=Yes
 2	suːnaː	suːnaː	NOUN	_	Definite=Ind	1	comp:obj	_	AlignBegin=163438|AlignEnd=163604|Gloss=name
 3	Àlhaːjì	Àlhaːjì	PROPN	_	_	2	mod	_	AlignBegin=163770|AlignEnd=163936|Gloss=Alhaji|Overlap=HAUZ_BC_CONV_01_SP2_060-60
 4	Iːdi	Iːdi	PROPN	_	_	3	flat@name	_	AlignBegin=163936|AlignEnd=164102|Gloss=Idi
@@ -1739,7 +1739,7 @@
 7	wânnan	wânnan	DET	_	Definite=Def|Number=Plur|PronType=Dem	8	det	_	AlignBegin=205553|AlignEnd=205774|Gloss=Def.Plur
 8	kàːkaː	kàːkaː	NOUN	_	Definite=Ind	6	comp:obj	_	AlignBegin=205774|AlignEnd=205995|Gloss=grand-mother
 9	nàːwa	nàːwa	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	mod@poss	_	AlignBegin=205995|AlignEnd=206216|Gloss=1Sing.Gen
-10	mài	mài	ADP	_	Number=Sing	8	mod	_	AlignBegin=206437|AlignEnd=206547|Extpos=NOUN|Gloss=having|Linker=Yes
+10	mài	mài	PART	_	Number=Sing|PartType=Der	8	mod	_	AlignBegin=206437|AlignEnd=206547|Extpos=NOUN|Gloss=having|Linker=Yes
 11	suːnaː	suːnaː	NOUN	_	Definite=Ind	10	comp:obj	_	AlignBegin=206547|AlignEnd=206658|Gloss=name
 12	Taːbi	Taːbi	PROPN	_	_	11	mod	_	AlignBegin=206879|AlignEnd=206989|Gloss=Tabi
 13	wandà	wandà	PRON	_	PronType=Rel	8	mod@relcl	_	AlignBegin=206989|AlignEnd=207100|Gloss=whom
@@ -1765,9 +1765,9 @@
 33	ɗaukoː	ɗaukoː	VERB	_	_	32	comp:aux	_	AlignBegin=212576|AlignEnd=212754|Gloss=take.DIR
 34	nì	ni	PRON	_	Number=Sing|Person=1|PronType=Prs	33	comp:obj	_	AlignBegin=212754|AlignEnd=212932|Gloss=1Sing
 35	tun	tun	ADV	_	_	33	mod	_	AlignBegin=213110|AlignEnd=213288|Gloss=since
-36	à	à	ADP	_	_	33	comp:obl	_	AlignBegin=213288|AlignEnd=213466|Gloss=at
-37	wajen	wajen	ADP	_	_	36	comp:obj	_	AlignBegin=213466|AlignEnd=213644|Gloss=around
-38	iyàːyeːnaː	iyàːyeː	NOUN	_	Case=Gen|Definite=Ind|Person=1	37	comp:obj	_	AlignBegin=213644|AlignEnd=213733|Gloss=relatives.Cons.+1Sing.Gen|wordform=iyàːyeː
+36	à	à	ADP	_	ExtPos=ADP	33	comp:obl	_	AlignBegin=213288|AlignEnd=213466|Gloss=at|Idiom=Yes
+37	wajen	wajeː	NOUN	_	Definite=Cons|Gender=Masc	36	compound	_	AlignBegin=213466|AlignEnd=213644|Gloss=direction.Masc.Cons|InIdiom=Yes
+38	iyàːyeːnaː	iyàːyeː	NOUN	_	Case=Gen|Definite=Ind|Person=1	36	comp:obj	_	AlignBegin=213644|AlignEnd=213733|Gloss=relatives.Cons.+1Sing.Gen|wordform=iyàːyeː
 39	//	//	PUNCT	_	_	22	punct	_	AlignBegin=213822|AlignEnd=214003|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_082-082
@@ -1994,12 +1994,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 245882, 247642
 # phonetic_text = yanàː kwànce à cikin / ganyeː //
-# text = ya nàː kwànce à cikin ganyeː //
+# text = yanàː kwànce à cikin ganyeː //
 # text_en = He was lying in.. the grass.
 1	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=245882|AlignEnd=246133|Gloss=3Masc.Prog|wordform=nàː
 2	kwànce	kwant-	VERB	_	ExtPos=ADV|VerbForm=Stat	1	comp:pred	_	AlignBegin=246133|AlignEnd=246384|Gloss=lie.Stat
-3	à	à	ADP	_	_	1	mod	_	AlignBegin=246384|AlignEnd=246635|Gloss=at
-4	cikin	cikin	ADP	_	_	3	compound	_	AlignBegin=246635|AlignEnd=246886|Gloss=inside
+3	à	à	ADP	_	ExtPos=ADP	1	mod	_	AlignBegin=246384|AlignEnd=246635|Gloss=at|Idiom=Yes
+4	cikin	cikiː	NOUN	_	Definite=Cons|Gender=Masc	3	compound	_	AlignBegin=246635|AlignEnd=246886|Gloss=inside.Masc.Cons|InIdiom=Yes
 5	ganyeː	ganyeː	NOUN	_	Definite=Ind	3	comp:obj	_	AlignBegin=247137|AlignEnd=247388|Gloss=foliage
 6	//	//	PUNCT	_	_	1	punct	_	AlignBegin=247388|AlignEnd=247642|Gloss=PUNCT
 
@@ -2301,8 +2301,8 @@
 # phonetic_text = à cikin wânnan daːjìː / akà daːwoː dà niː //
 # text = à cikin wânnan daːjìː >+ akà daːwoː dà niː //
 # text_en = In that bush, they rescued me.
-1	à	à	ADP	_	_	0	root	_	AlignBegin=277066|AlignEnd=277214|Gloss=at
-2	cikin	cikin	ADP	_	_	1	compound	_	AlignBegin=277214|AlignEnd=277362|Gloss=inside
+1	à	à	ADP	_	ExtPos=ADP	0	root	_	AlignBegin=277066|AlignEnd=277214|Gloss=at|Idiom=Yes
+2	cikin	cikiː	NOUN	_	Definite=Cons|Gender=Masc	1	compound	_	AlignBegin=277214|AlignEnd=277362|Gloss=inside.Masc.Cons|InIdiom=Yes
 3	wânnan	wânnan	DET	_	Definite=Def|Number=Plur|PronType=Dem	4	det	_	AlignBegin=277362|AlignEnd=277510|Gloss=Def.Plur
 4	daːjìː	daːjìː	NOUN	_	Definite=Ind	1	comp:obj	_	AlignBegin=277510|AlignEnd=277658|Gloss=bush
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=277658|AlignEnd=277806|Gloss=PUNCT
@@ -2446,11 +2446,11 @@
 7	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3|Relative=Yes	6	comp:obj	_	AlignBegin=295553|AlignEnd=295769|Gloss=3Masc.Perf..Rel
 8	ganiː	ganiː	VERB	_	_	7	comp:aux	_	AlignBegin=295769|AlignEnd=295985|Gloss=see
 9	hakà	hakà	ADV	_	_	8	mod	_	AlignBegin=295985|AlignEnd=296201|Gloss=like_this
-10	mài	mài	ADP	_	Number=Sing	8	mod	_	AlignBegin=296201|AlignEnd=296417|Gloss=having|Linker=Yes
+10	mài	mài	PART	_	Number=Sing|PartType=Der	8	mod	_	AlignBegin=296201|AlignEnd=296417|Gloss=having|Linker=Yes
 11	àrhaː	àrhaː	NOUN	_	Definite=Ind	10	comp:obj	_	AlignBegin=296417|AlignEnd=296633|Gloss=cheapness
 12	<	<	PUNCT	_	_	6	punct	_	AlignBegin=296633|AlignEnd=296849|Gloss=PUNCT
 13	wajen	wajen	ADP	_	_	18	mod	_	AlignBegin=296849|AlignEnd=297065|Gloss=around
-14	màːsu	màːsu	ADP	_	Number=Plur	13	comp:obj	_	AlignBegin=297065|AlignEnd=297281|Gloss=having.Plur|Linker=Yes
+14	màːsu	mài	PART	_	Number=Plur|PartType=Der	13	comp:obj	_	AlignBegin=297065|AlignEnd=297281|Gloss=having.Plur|Linker=Yes
 15	moːtòː	moːtòː	NOUN	_	Definite=Ind	14	comp:obj	_	AlignBegin=297281|AlignEnd=297497|Gloss=car
 16	<	<	PUNCT	_	_	13	punct	_	AlignBegin=297497|AlignEnd=297713|Gloss=PUNCT
 17	sai	sai	ADV	_	_	18	mod	_	AlignBegin=297713|AlignEnd=297929|Gloss=then
@@ -2779,14 +2779,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 349929, 354996
 # phonetic_text = àmmaː àlhamdù lìllaːhì / àkân noːmaː -n -mù mukàn noːmàː / waːkeː / mukàn noːmàː masàr̃aː / mukàn noːmàː daːwàː //
-# text = àmmaː àlhamdù lìllaːhì < à kân noːman =mù mukàn noːmà waːkeː |c mukàn noːmà masàr̃aː |c mukàn noːmà daːwàː //
+# text = àmmaː àlhamdù lìllaːhì < à kân noːmanmù mukàn noːmà waːkeː |c mukàn noːmà masàr̃aː |c mukàn noːmà daːwàː //
 # text_en = But thank God as for our farming, we farm.. beans, we farm maize, we farm guinea-corn.
 1	àmmaː	àmmaː	CCONJ	_	_	8	discourse	_	AlignBegin=349929|AlignEnd=350196|Gloss=but
 2	àlhamdù	àlhamdù	INTJ	_	Foreign=Yes	8	discourse	_	AlignBegin=350196|AlignEnd=350463|Gloss=alhamdu|Lang=ar
 3	lìllaːhì	lìllaːhì	INTJ	_	Foreign=Yes	2	flat@foreign	_	AlignBegin=350463|AlignEnd=350730|Gloss=lìllaːhì|Lang=ar
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=350730|AlignEnd=350997|Gloss=PUNCT
-5	à	à	ADP	_	_	8	dislocated	_	AlignBegin=350997|AlignEnd=351264|Gloss=on
-6	kân	kân	ADP	_	_	5	compound	_	AlignBegin=350997|AlignEnd=351264|Gloss=top
+5	à	à	ADP	_	ExtPos=ADP	8	dislocated	_	AlignBegin=350997|AlignEnd=351264|Gloss=on|Idiom=Yes
+6	kân	kâː	NOUN	_	Definite=Cons|Gender=Masc	5	compound	_	AlignBegin=350997|AlignEnd=351264|Gloss=head.Masc.Cons|InIdiom=Yes
 7	noːmanmù	noːm-	VERB	_	Definite=Cons|ExtPos=NOUN|Number=Plur|Person=1|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=351264|AlignEnd=351353|Gloss=farm.Vnoun.Cons.1Plur|wordform=noːman
 8	mukàn	kàn	AUX	_	Aspect=Hab|Number=Plur|Person=1	0	root	_	AlignBegin=351531|AlignEnd=351798|Gloss=1Plur.Hab
 9	noːmà	noːm-	VERB	_	_	8	mod	_	AlignBegin=351798|AlignEnd=352065|Gloss=farm
@@ -3082,8 +3082,8 @@
 # phonetic_text = à kàːfin wânnan loːkàciː / mukàn yi noːmaː -n raːniː //
 # text = à kàːfin wânnan loːkàciː < mukàn yi noːman raːniː //
 # text_en = Before then, we do some dry season farming.
-1	à	à	ADP	_	_	6	mod	_	AlignBegin=391582|AlignEnd=391838|Gloss=at
-2	kàːfin	kàːfin	ADP	_	_	1	compound	_	AlignBegin=391838|AlignEnd=392094|Gloss=before
+1	à	à	ADP	_	ExtPos=ADP	6	mod	_	AlignBegin=391582|AlignEnd=391838|Gloss=at|Idiom=Yes
+2	kàːfin	kàːfin	ADP	_	_	1	compound	_	AlignBegin=391838|AlignEnd=392094|Gloss=before|InIdiom=Yes
 3	wânnan	wânnan	DET	_	Definite=Def|Number=Plur|PronType=Dem	4	det	_	AlignBegin=392094|AlignEnd=392350|Gloss=Def.Plur
 4	loːkàciː	loːkàciː	NOUN	_	Definite=Ind	1	comp:obj	_	AlignBegin=392350|AlignEnd=392606|Gloss=time
 5	<	<	PUNCT	_	_	1	punct	_	AlignBegin=392606|AlignEnd=392862|Gloss=PUNCT
@@ -3144,7 +3144,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 400582, 405830
 # phonetic_text = ɗan ràːfiː -uka -ǹ dà mukèː dà shiː / duk ruwaː -n dà mukèː dà shiː / mukàn yi / ʔèʔè / riːjìyaː -oCi nèː hakà / à wajen / goːnaː \Plur -ǹ naːmù //
-# text = ɗan raːfukàn dà mu kè dà shiː dun ruwan dà mu kè dà shiː mukàn yi ʔèʔè riːjiyoːyiː nèː hakà à wajen gòːnàkîn naːmù //
+# text = ɗan raːfukàn dà mukè dà shiː dun ruwan dà mukè dà shiː mukàn yi ʔèʔè riːjiyoːyiː nèː hakà à wajen gòːnàkîn naːmù //
 # text_en = The little rivers that we have, all the water that we have, we do.. er.. wells, near our fields.
 1	ɗan	ɗan	ADJ	_	_	2	mod	_	AlignBegin=400582|AlignEnd=400763|Gloss=little
 2	raːfukàn	ràːfiː	NOUN	_	Definite=Cons|Number=Plur	13	dislocated	_	AlignBegin=400763|AlignEnd=400823|Gloss=river.Plur.Cons
@@ -3164,8 +3164,8 @@
 16	riːjiyoːyiː	riːjìyaː	NOUN	_	Definite=Ind|Number=Plur	14	comp:obj	_	AlignBegin=404021|AlignEnd=404111|Gloss=well.Plur
 17	nèː	neː	PART	_	PartType=Foc	16	discourse@foc	_	AlignBegin=404202|AlignEnd=404383|Gloss=Emph
 18	hakà	hakà	ADV	_	_	14	mod	_	AlignBegin=404383|AlignEnd=404564|Gloss=like_this
-19	à	à	ADP	_	_	14	comp:obl	_	AlignBegin=404745|AlignEnd=404926|Gloss=at
-20	wajen	wajen	ADP	_	_	19	compound	_	AlignBegin=404926|AlignEnd=405107|Gloss=around
+19	à	à	ADP	_	ExtPos=ADP	14	comp:obl	_	AlignBegin=404745|AlignEnd=404926|Gloss=at|Idiom=Yes
+20	wajen	wajeː	NOUN	_	Definite=Cons|Gender=Masc	19	compound	_	AlignBegin=404926|AlignEnd=405107|Gloss=direction.Masc.Cons|InIdiom=Yes
 21	gòːnàkîn	goːnaː	NOUN	_	Definite=Cons|Number=Plur	19	comp:obj	_	AlignBegin=405288|AlignEnd=405348|Gloss=field.Plur.Cons
 22	naːmù	naːmù	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	21	mod@poss	_	AlignBegin=405469|AlignEnd=405650|Gloss=1Plur.Gen
 23	//	//	PUNCT	_	_	13	punct	_	AlignBegin=405650|AlignEnd=405830|Gloss=PUNCT
@@ -3344,7 +3344,7 @@
 5	iyà	iyàː	VERB	_	_	4	mod@relcl	_	AlignBegin=428660|AlignEnd=428878|Gloss=can
 6	tunàːwaː	tun-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	comp:obj	_	AlignBegin=428878|AlignEnd=428987|Gloss=think.Vnoun
 7	loːkàcin	loːkàciː	NOUN	_	Definite=Cons	6	comp:obj	_	AlignBegin=429096|AlignEnd=429205|Gloss=time.Cons
-8	mài	mài	ADP	_	Number=Sing	7	mod	_	AlignBegin=429314|AlignEnd=429532|Gloss=having|Linker=Yes
+8	mài	mài	PART	_	Number=Sing|PartType=Der	7	mod	_	AlignBegin=429314|AlignEnd=429532|Gloss=having|Linker=Yes
 9	gidanmù	gidaː	NOUN	_	Case=Gen|Definite=Cons|Number=Plur|Person=1	8	comp:obj	_	AlignBegin=429532|AlignEnd=429605|Gloss=home.Cons.1Plur.Gen|wordform=gidan
 10	sòːsai	sòːsai	ADV	_	_	6	mod	_	AlignBegin=429750|AlignEnd=429968|Gloss=quite
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=429968|AlignEnd=430184|Gloss=PUNCT
@@ -4417,12 +4417,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 570426, 571691
 # phonetic_text = akàn saːmù matsalaː irìː -ǹ na wânnan //
-# text = akàn sàːmu matsalaː irìn na wânnan //
+# text = akàn sàːmi matsalaː irìn na wânnan //
 # text_en = We usually get that kind of problem.
 1	akàn	kàn	AUX	_	Aspect=Hab|Person=4	0	root	_	AlignBegin=570426|AlignEnd=570607|Gloss=4.Hab
 2	sàːmi	saːm-	VERB	_	_	1	comp:aux	_	AlignBegin=570607|AlignEnd=570788|Gloss=get
 3	matsalaː	matsalaː	NOUN	_	Definite=Ind	2	mod	_	AlignBegin=570788|AlignEnd=570969|Gloss=problem
-4	irìn	irìn	ADP	_	_	3	mod	_	AlignBegin=570969|AlignEnd=571059|Gloss=like
+4	irìn	irìː	NOUN	_	Definite=Cons|Gender=Masc	3	mod	_	AlignBegin=570969|AlignEnd=571059|Gloss=type.Masc.Cons
 5	na	na/ta	ADP	_	Definite=Cons	4	mod	_	AlignBegin=571150|AlignEnd=571331|Gloss=of
 6	wânnan	wânnan	PRON	_	Definite=Def|Number=Plur|PronType=Dem	5	comp:obj	_	AlignBegin=571331|AlignEnd=571512|Gloss=Def.Plur
 7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=571512|AlignEnd=571691|Gloss=PUNCT
@@ -4498,7 +4498,7 @@
 # text_en = You know, cattle drivers they are not really careful.
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	parataxis@discourse	_	AlignBegin=581782|AlignEnd=581941|Gloss=2Masc.Perf
 2	sanìː	sanìː	VERB	_	_	1	comp:aux	_	AlignBegin=581941|AlignEnd=582100|Gloss=know
-3	màːsu	màːsu	ADP	_	Number=Plur	7	dislocated@subj	_	AlignBegin=582100|AlignEnd=582259|Gloss=having.Plur|Linker=Yes
+3	màːsu	mài	PART	_	Number=Plur|PartType=Der	7	dislocated@subj	_	AlignBegin=582100|AlignEnd=582259|Gloss=having.Plur|Linker=Yes
 4	kiːwòn	kiːwòː	NOUN	_	Definite=Ind	3	comp:obj	_	AlignBegin=582259|AlignEnd=582339|Gloss=cattle_breeding.def
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=582418|AlignEnd=582577|Gloss=PUNCT
 6	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	7	mod	_	AlignBegin=582779|AlignEnd=582925|Gloss=Neg
@@ -4568,7 +4568,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 592606, 595777
 # phonetic_text = dà mukà saːmù rìkiciː / sai mukà ɗan ɗaukàː / mukà jeː mukà kai mà sarkiː -n -sù //
-# text = dà mukà sàːmi rìkiciː < sai mukà ɗan ɗaukàː |c mukà jeː mukà kai mà sarkin -sù //
+# text = dà mukà sàːmi rìkiciː < sai mukà ɗan ɗaukàː |c mukà jeː mukà kai mà sarkinsù //
 # text_en = When the trouble started, then we took we went and took (the complaint) to their chief.
 1	dà	dà	ADP	_	_	7	mod	_	AlignBegin=592606|AlignEnd=592807|Gloss=as
 2	mukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1|Relative=Yes	1	comp:obj	_	AlignBegin=592807|AlignEnd=593008|Gloss=1Plur.Perf..Rel
@@ -4584,7 +4584,7 @@
 12	jeː	jeː	VERB	_	_	11	comp:aux	_	AlignBegin=594749|AlignEnd=594920|Gloss=go
 13	mukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1|Relative=Yes	11	conj:coord	_	AlignBegin=594920|AlignEnd=595091|Gloss=1Plur.Perf..Rel
 14	kai	kai	VERB	_	_	13	comp:aux	_	AlignBegin=595091|AlignEnd=595262|Gloss=carry
-15	mà	mà	ADP	_	_	14	comp:obl	_	AlignBegin=595262|AlignEnd=595433|Gloss=Dat
+15	mà	mà	ADP	_	Case=Dat	14	comp:obl	_	AlignBegin=595262|AlignEnd=595433|Gloss=Dat
 16	sarkinsù	sarkiː	NOUN	_	Case=Gen|Definite=Cons|Number=Plur|Person=3	15	comp:obj	_	AlignBegin=595433|AlignEnd=595490|Gloss=Cons.3Plur.Gen|wordform=sarkin
 17	//	//	PUNCT	_	_	7	punct	_	AlignBegin=595604|AlignEnd=595777|Gloss=PUNCT
 

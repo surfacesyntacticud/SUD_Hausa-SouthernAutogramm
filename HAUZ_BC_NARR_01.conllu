@@ -50,8 +50,8 @@
 5	dà	dà	SCONJ	_	_	4	mod@relcl	_	AlignBegin=6465|AlignEnd=6645|Gloss=COMP
 6	zaːsù	zâi	AUX	_	Number=Plur|Person=3|Tense=Fut	5	comp:obj	_	AlignBegin=6645|AlignEnd=6825|Gloss=3Plur.Fut
 7	ci	ci	VERB	_	_	6	comp:aux	_	AlignBegin=6825|AlignEnd=7005|Gloss=eat
-8	à	à	ADP	_	_	3	mod	_	AlignBegin=7920|AlignEnd=8200|Gloss=at
-9	cikin	cikin	ADP	_	_	8	compound	_	AlignBegin=8200|AlignEnd=8480|Gloss=inside
+8	à	à	ADP	_	ExtPos=ADP	3	mod	_	AlignBegin=7920|AlignEnd=8200|Gloss=at|Idiom=Yes
+9	cikin	cikiː	NOUN	_	Definite=Cons|Gender=Masc	8	compound	_	AlignBegin=8200|AlignEnd=8480|Gloss=inside.Masc.Cons|InIdiom=Yes
 10	daːjìː	daːjìː	NOUN	_	Definite=Ind	8	comp:obj	_	AlignBegin=8480|AlignEnd=8760|Gloss=bush
 11	//	//	PUNCT	_	_	1	punct	_	AlignBegin=8760|AlignEnd=9042|Gloss=PUNCT
 
@@ -92,7 +92,7 @@
 3	ga	ganiː	VERB	_	_	2	comp:aux	_	AlignBegin=15032|AlignEnd=15278|Gloss=see
 4	zoːmoː	zoːmoː	NOUN	_	Definite=Ind	5	subj	_	AlignBegin=15278|AlignEnd=15524|Gloss=Rabbit
 5	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	3	comp:obj	_	AlignBegin=15524|AlignEnd=15770|Gloss=3Masc.Prog|wordform=ya
-6	kwànce	kwant-	VERB	_	ExtPos=ADV|VerbForm=Part|Voice=Stat	5	comp:pred	_	AlignBegin=15770|AlignEnd=16016|Gloss=lie.Part
+6	kwànce	kwant-	VERB	_	ExtPos=ADV|VerbForm=Stat	5	comp:pred	_	AlignBegin=15770|AlignEnd=16016|Gloss=lie.Part
 7	<	<	PUNCT	_	_	1	punct	_	AlignBegin=16016|AlignEnd=16262|Gloss=PUNCT
 8	sai	sai	ADV	_	_	9	mod	_	AlignBegin=17100|AlignEnd=17302|Gloss=then
 9	ta	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	AlignBegin=17302|AlignEnd=17504|Gloss=3Fem.Perf..Rel
@@ -203,7 +203,7 @@
 # text_en = She said I am beating (you).
 1	ta	yaː	AUX	_	Aspect=Perf|Gender=Fem|Person=3|Relative=Yes	0	root	_	AlignBegin=31869|AlignEnd=32101|Gloss=3Fem.Perf..Rel
 2	cêː	cêː	VERB	_	_	1	comp:aux	_	AlignBegin=32101|AlignEnd=32333|Gloss=say
-3	dàke	dak-	VERB	_	_	2	comp:obj	_	AlignBegin=32333|AlignEnd=32565|Gloss=pound.Stat
+3	dàke	dak-	VERB	_	ExtPos=ADV|VerbForm=Stat	2	comp:obj	_	AlignBegin=32333|AlignEnd=32565|Gloss=pound.Stat
 4	nakè	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1|Relative=Yes	3	comp:cleft	_	AlignBegin=32565|AlignEnd=32797|Gloss=1Sing.Prog.Rel2|wordform=na
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=32797|AlignEnd=33030|Gloss=PUNCT
 
@@ -425,13 +425,13 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=54171|AlignEnd=54342|Gloss=PUNCT
 3	shiːkèːnan	shiːkèːnaː	INTJ	_	_	4	discourse	_	AlignBegin=54939|AlignEnd=55050|Gloss=OK|wordform=shiː
 4	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	0	root	_	AlignBegin=55383|AlignEnd=55542|Gloss=3Plur.Prog
-5	tàfe	taf-	VERB	_	_	4	comp:aux	_	AlignBegin=55542|AlignEnd=55701|Gloss=go.Stat
+5	tàfe	taf-	VERB	_	ExtPos=ADV|VerbForm=Stat	4	comp:aux	_	AlignBegin=55542|AlignEnd=55701|Gloss=go.Stat
 6	dai	dai	PART	_	PartType=Top	4	discourse@top	_	AlignBegin=55701|AlignEnd=55860|Gloss=indeed
 7	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	4	conj:redup	_	AlignBegin=56019|AlignEnd=56185|Gloss=3Plur.Prog
-8	tàfe	taf-	VERB	_	_	7	comp:aux	_	AlignBegin=56185|AlignEnd=56351|Gloss=go.Stat
+8	tàfe	taf-	VERB	_	ExtPos=ADV|VerbForm=Stat	7	comp:aux	_	AlignBegin=56185|AlignEnd=56351|Gloss=go.Stat
 9	dai	dai	PART	_	PartType=Top	7	discourse@top	_	AlignBegin=56351|AlignEnd=56517|Gloss=indeed
 10	sunàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=3	7	conj:redup	_	AlignBegin=56681|AlignEnd=56875|Gloss=3Plur.Prog
-11	tàfe	taf-	VERB	_	_	10	comp:aux	_	AlignBegin=56875|AlignEnd=57069|Gloss=go.Stat
+11	tàfe	taf-	VERB	_	ExtPos=ADV|VerbForm=Stat	10	comp:aux	_	AlignBegin=56875|AlignEnd=57069|Gloss=go.Stat
 12	dai	dai	PART	_	PartType=Top	10	discourse@top	_	AlignBegin=57069|AlignEnd=57263|Gloss=indeed
 13	bàsù	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=2|Polarity=Neg	10	parataxis	_	AlignBegin=58029|AlignEnd=58249|Gloss=3Plur.PerfNeg
 14	ga	ganiː	VERB	_	_	13	comp:aux	_	AlignBegin=58249|AlignEnd=58469|Gloss=see
@@ -1525,12 +1525,12 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_01.WAV
 # sent_timecode = 189836, 192305
 # phonetic_text = koː kuma / à cikin ruwaː -ǹ nan / kaː ci wani àbù //
-# text = koː kuma / à cikin ruwân nan / kaː ci wani àbù //
+# text = koː kuma à cikin ruwân nan kaː ci wani àbù //
 # text_en = Or else in that water you ate something.
 1	koː	koː	CCONJ	_	_	7	cc	_	AlignBegin=189836|AlignEnd=189951|Gloss=or
 2	kuma	kuma	PART	_	PartType=Top	1	discourse@top	_	AlignBegin=189951|AlignEnd=190066|Gloss=also
-3	à	à	ADP	_	_	7	mod	_	AlignBegin=190181|AlignEnd=190331|Gloss=at
-4	cikin	cikin	ADP	_	_	3	compound	_	AlignBegin=190331|AlignEnd=190481|Gloss=inside
+3	à	à	ADP	_	ExtPos=ADP	7	mod	_	AlignBegin=190181|AlignEnd=190331|Gloss=at|Idiom=Yes
+4	cikin	cikiː	NOUN	_	Definite=Cons|Gender=Masc	3	compound	_	AlignBegin=190331|AlignEnd=190481|Gloss=inside.Masc.Cons|InIdiom=Yes
 5	ruwân	ruwaː	NOUN	_	Definite=Cons	3	comp:obj	_	AlignBegin=190481|AlignEnd=190556|Gloss=water.Cons
 6	nan	nan	DET	_	Definite=Def|PronType=Dem	5	det	_	AlignBegin=190631|AlignEnd=190781|Gloss=Def
 7	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	0	root	_	AlignBegin=190929|AlignEnd=191204|Gloss=2Masc.Perf
@@ -2222,7 +2222,7 @@
 3	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	2	subj	_	AlignBegin=270938|AlignEnd=271142|Gloss=3Masc
 4	dà	dà	ADP	_	_	2	comp:pred	_	AlignBegin=271142|AlignEnd=271346|Gloss=with
 5	kuma	kuma	PART	_	PartType=Top	4	discourse@top	_	AlignBegin=271346|AlignEnd=271550|Gloss=also
-6	mài	mài	ADP	_	Number=Sing	4	comp:obj	_	AlignBegin=271550|AlignEnd=271754|Gloss=having|Linker=Yes
+6	mài	mài	PART	_	Number=Sing|PartType=Der	4	comp:obj	_	AlignBegin=271550|AlignEnd=271754|Gloss=having|Linker=Yes
 7	tàimakoː	tàimakoː	NOUN	_	Definite=Ind	6	comp:obj	_	AlignBegin=271754|AlignEnd=271958|Gloss=helping
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=271958|AlignEnd=272159|Gloss=PUNCT
 
@@ -2234,7 +2234,7 @@
 # text = bâː mài tàimakonshì //
 # text_en = There's noone to help him.
 1	bâː	baːbù	PART	_	PartType=Pred|Polarity=Neg	0	root	_	AlignBegin=271955|AlignEnd=272204|Gloss=there_is.Neg
-2	mài	mài	ADP	_	Number=Sing	1	subj	_	AlignBegin=272204|AlignEnd=272453|Gloss=having|Linker=Yes
+2	mài	mài	PART	_	Number=Sing|PartType=Der	1	subj	_	AlignBegin=272204|AlignEnd=272453|Gloss=having|Linker=Yes
 3	tàimakonshi	tàimakoː	NOUN	_	Case=Gen|Definite=Cons|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=272453|AlignEnd=272536|Gloss=help.Cons.3Masc..Gen|wordform=tàimakoː
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=272702|AlignEnd=272950|Gloss=PUNCT
 
