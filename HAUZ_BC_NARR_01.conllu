@@ -46,7 +46,7 @@
 1	zaːsù	zâi	AUX	_	Number=Plur|Person=3|Tense=Fut	0	root	_	AlignBegin=4475|AlignEnd=4762|Gloss=3Plur.Fut
 2	tàfi	tàf-	VERB	_	_	1	comp:aux	_	AlignBegin=4762|AlignEnd=5049|Gloss=go
 3	neːman	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	2	comp:obj@G	_	AlignBegin=5702|AlignEnd=5848|Gloss=look_for.Vnoun.Cons|wordform=neːmaː
-4	àbin	àbù	NOUN	_	Definite=Cons	3	udep	_	AlignBegin=6285|AlignEnd=6375|Gloss=thing.Cons
+4	àbin	àbù	NOUN	_	Definite=Cons	3	comp:obj	_	AlignBegin=6285|AlignEnd=6375|Gloss=thing.Cons
 5	dà	dà	SCONJ	_	_	4	mod@relcl	_	AlignBegin=6465|AlignEnd=6645|Gloss=COMP
 6	zaːsù	zâi	AUX	_	Number=Plur|Person=3|Tense=Fut	5	comp:obj	_	AlignBegin=6645|AlignEnd=6825|Gloss=3Plur.Fut
 7	ci	ci	VERB	_	_	6	comp:aux	_	AlignBegin=6825|AlignEnd=7005|Gloss=eat
@@ -123,7 +123,7 @@
 2	ìnaː	ìnaː	ADV	_	PronType=Int	3	comp:pred	_	AlignBegin=21615|AlignEnd=21873|Gloss=where
 3	nèː	neː	AUX	_	Copula=Yes|Gender=Masc|Number=Plur	0	root	_	AlignBegin=21873|AlignEnd=22131|AttachTo=HAUZ_BC_NARR_01_010-011|Gloss=be.Masc/Plur|Overlap=HAUZ_BC_NARR_01_012-012|Rel=comp:obj
 4	hanyànmù	hanyàː	NOUN	_	Case=Gen|Definite=Cons|Number=Plur|Person=1	3	comp:cleft	_	AlignBegin=22131|AlignEnd=22217|Gloss=road.Cons.1Plur.Gen|wordform=hanyàː
-5	na	na/ta	ADP	_	Definite=Cons	4	mod	_	AlignBegin=22389|AlignEnd=22647|Gloss=of
+5	na	na	ADP	_	Definite=Cons	4	mod	_	AlignBegin=22389|AlignEnd=22647|Gloss=of
 6	ràːfiː	ràːfiː	NOUN	_	Definite=Ind	5	comp:obj	_	AlignBegin=22647|AlignEnd=22905|Gloss=river
 7	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=22905|AlignEnd=23165|Gloss=PUNCT
 
@@ -150,7 +150,7 @@
 2	ìnaː	ìnaː	ADV	_	PronType=Int	3	comp:pred	_	AlignBegin=25992|AlignEnd=26190|Gloss=where
 3	nèː	neː	AUX	_	Copula=Yes|Gender=Masc|Number=Plur	0	root	_	AlignBegin=26190|AlignEnd=26388|Gloss=be.Masc/Plur
 4	hanyànmù	hanyàː	NOUN	_	Case=Gen|Definite=Cons|Number=Plur|Person=1	3	comp:cleft	_	AlignBegin=26388|AlignEnd=26454|Gloss=road.Cons.1Plur.Gen|wordform=hanyàː
-5	na	na/ta	ADP	_	Definite=Cons	4	mod	_	AlignBegin=26586|AlignEnd=26784|Gloss=of
+5	na	na	ADP	_	Definite=Cons	4	mod	_	AlignBegin=26586|AlignEnd=26784|Gloss=of
 6	ràːfiː	ràːfiː	NOUN	_	Definite=Ind	5	comp:obj	_	AlignBegin=26784|AlignEnd=26982|Gloss=river
 7	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=26982|AlignEnd=27180|Gloss=PUNCT
 
@@ -245,7 +245,7 @@
 3	cêː	cêː	VERB	_	_	2	comp:aux	_	AlignBegin=35858|AlignEnd=35950|Gloss=say
 4	munàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=1	3	comp:obj	_	AlignBegin=36041|AlignEnd=36267|Gloss=1Plur.Prog
 5	neːman	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=36267|AlignEnd=36380|Gloss=look_for.Vnoun.Cons|wordform=neːmaː
-6	hanyàn	hanyàː	NOUN	_	Definite=Cons	5	udep	_	AlignBegin=36493|AlignEnd=36606|Gloss=road.Cons|wordform=hanyàː
+6	hanyàn	hanyàː	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=36493|AlignEnd=36606|Gloss=road.Cons|wordform=hanyàː
 7	ràːfiː	ràːfiː	NOUN	_	Definite=Ind	6	mod	_	AlignBegin=36719|AlignEnd=36945|Gloss=river
 8	nèː	neː	PART	_	PartType=Foc	6	discourse@foc	_	AlignBegin=36945|AlignEnd=37171|Gloss=Emph
 9	zâː	zâː	PART	_	PartType=Pred	4	parataxis	_	AlignBegin=37400|AlignEnd=37548|Gloss=go_to
@@ -344,7 +344,7 @@
 3	zâː	zâː	PART	_	PartType=Pred	0	root	_	AlignBegin=48249|AlignEnd=48422|Gloss=go_to
 4	shi	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	3	subj	_	AlignBegin=48422|AlignEnd=48595|Gloss=3Masc
 5	neːman	neːm-	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	comp:obj@G	_	AlignBegin=48595|AlignEnd=48681|Gloss=look_for.Vnoun.Cons|wordform=neːmaː
-6	àbin	àbù	NOUN	_	Definite=Cons	5	udep	_	AlignBegin=48768|AlignEnd=48854|Gloss=thing.Cons|wordform=àbù
+6	àbin	àbù	NOUN	_	Definite=Cons	5	comp:obj	_	AlignBegin=48768|AlignEnd=48854|Gloss=thing.Cons|wordform=àbù
 7	dà	dà	SCONJ	_	_	6	mod@relcl	_	AlignBegin=48941|AlignEnd=49114|Gloss=COMP
 8	zâi	zâi	AUX	_	Gender=Masc|Person=3|Tense=Fut	7	comp:obj	_	AlignBegin=49114|AlignEnd=49287|Gloss=3Masc..Fut
 9	ci	ci	VERB	_	_	8	comp:aux	_	AlignBegin=49287|AlignEnd=49460|Gloss=eat
@@ -401,7 +401,7 @@
 1	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3|Relative=Yes	0	root	_	AlignBegin=52412|AlignEnd=52605|Gloss=3Plur.Perf..Rel
 2	jeː	jeː	VERB	_	_	1	comp:aux	_	AlignBegin=52605|AlignEnd=52798|Gloss=go
 3	shân	shaː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	2	comp:obj@G	_	AlignBegin=52798|AlignEnd=52894|Gloss=drink.Vnoun.Cons|wordform=shâː
-4	ruwân	ruwaː	NOUN	_	Definite=Def	3	udep	_	AlignBegin=52991|AlignEnd=53087|Gloss=water.Def
+4	ruwân	ruwaː	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=52991|AlignEnd=53087|Gloss=water.Def
 5	//	//	PUNCT	_	_	1	punct	_	AlignBegin=53184|AlignEnd=53376|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_045-045
@@ -535,7 +535,7 @@
 3	zâː	zâː	PART	_	PartType=Pred	2	comp:obj	_	AlignBegin=69036|AlignEnd=69358|Gloss=go_to
 4	mu	mu	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	AlignBegin=69358|AlignEnd=69680|Gloss=1Plur
 5	shân	shâ	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	3	comp:obj@G	_	AlignBegin=69680|AlignEnd=69841|Gloss=drink.Vnoun.Cons|wordform=shâː
-6	ruwaː	ruwaː	NOUN	_	Definite=Ind	5	udep	_	AlignBegin=70002|AlignEnd=70324|Gloss=water
+6	ruwaː	ruwaː	NOUN	_	Definite=Ind	5	comp:obj	_	AlignBegin=70002|AlignEnd=70324|Gloss=water
 7	nèː	neː	PART	_	PartType=Foc	6	discourse@foc	_	AlignBegin=70324|AlignEnd=70646|Gloss=Emph
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=70646|AlignEnd=70970|Gloss=PUNCT
 
@@ -651,7 +651,7 @@
 4	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	2	parataxis	_	AlignBegin=84207|AlignEnd=84456|Gloss=3Masc.Prog
 5	jiran	jiraː	VERB	_	Definite=Cons|ExtPos=NOUN|VerbForm=Vnoun	4	comp:aux	_	AlignBegin=84456|AlignEnd=84580|Gloss=wait.Vnoun.Cons|wordform=yiraː
 6	ɓeːr̃aː	ɓeːr̃aː	NOUN	_	Definite=Ind	7	subj	_	AlignBegin=85343|AlignEnd=85508|Gloss=Rat
-7	yà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	5	udep	_	AlignBegin=85508|AlignEnd=85673|Gloss=3Masc.Sub
+7	yà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	5	comp:obj	_	AlignBegin=85508|AlignEnd=85673|Gloss=3Masc.Sub
 8	zoː	zoː	VERB	_	_	7	comp:aux	_	AlignBegin=85673|AlignEnd=85838|Gloss=come
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=85838|AlignEnd=86004|Gloss=PUNCT
 
