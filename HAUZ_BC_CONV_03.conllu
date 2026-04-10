@@ -116,7 +116,7 @@
 # text_en = I did my best.
 1	naː	yaː	AUX	_	Aspect=Perf|Number=Sing|Person=1	0	root	_	AlignBegin=14898|AlignEnd=15137|Gloss=1Sing.Perf
 2	yi	yi	VERB	_	_	1	comp:aux	_	AlignBegin=15137|AlignEnd=15376|Gloss=do
-3	iyàːkân	iyàːkaː	NOUN	_	Definite=Cons	2	comp:obj	_	AlignBegin=15376|AlignEnd=15496|Gloss=limit.Def|wordform=iyàːkaː
+3	iyàːkân	iyàːkaː	NOUN	_	Definite=Cons	2	comp:pred	_	AlignBegin=15376|AlignEnd=15496|Gloss=limit.Def|wordform=iyàːkaː
 4	wandà	wandà	PRON	_	PronType=Rel	3	mod@relcl	_	AlignBegin=15615|AlignEnd=15854|Gloss=which
 5	zân	zâi	AUX	_	Number=Sing|Person=1|Tense=Fut	4	comp:obj	_	AlignBegin=15854|AlignEnd=16093|Gloss=1Sing.Fut
 6	iyàː	iyàː	VERB	_	_	5	comp:obj	_	AlignBegin=16093|AlignEnd=16332|Gloss=can
@@ -181,7 +181,7 @@
 2	in	in	SCONJ	_	_	6	mod	_	AlignBegin=21321|AlignEnd=21558|Gloss=if
 3	mukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=1|Relative=Yes	2	comp:obj	_	AlignBegin=21558|AlignEnd=21795|Gloss=1Plur.Perf..Rel
 4	yi	yi	VERB	_	_	3	comp:aux	_	AlignBegin=21795|AlignEnd=22032|Gloss=do
-5	lâifiː	lâifiː	NOUN	_	Definite=Ind	4	comp:obj	_	AlignBegin=22032|AlignEnd=22269|Gloss=fault
+5	lâifiː	lâifiː	NOUN	_	Definite=Ind	4	comp:pred	_	AlignBegin=22032|AlignEnd=22269|Gloss=fault
 6	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root	_	AlignBegin=22269|AlignEnd=22506|Gloss=3Masc.Prog
 7	duːkànmù	duːk-	VERB	_	Definite=Cons|ExtPos=NOUN|Number=Plur|Person=1|VerbForm=Vnoun	6	comp:aux	_	AlignBegin=22506|AlignEnd=22585|Gloss=beat.Vnoun.Cons.1Plur|wordform=duːkàː
 8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=22743|AlignEnd=22978|Gloss=PUNCT
@@ -679,7 +679,7 @@
 4	cêː	cêː	VERB	_	_	3	comp:aux	_	AlignBegin=81974|AlignEnd=82152|Gloss=say
 5	ìn	yà	AUX	_	Mood=Sub|Number=Sing|Person=1	4	comp:obj	_	AlignBegin=82152|AlignEnd=82330|Gloss=1Sing.Sub
 6	yi	yi	VERB	_	_	5	comp:obj	_	AlignBegin=82330|AlignEnd=82508|Gloss=do
-7	girkìː	girk-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:obj	_	AlignBegin=82508|AlignEnd=82686|Gloss=cook.Vnoun
+7	girkìː	girk-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	6	comp:pred	_	AlignBegin=82508|AlignEnd=82686|Gloss=cook.Vnoun
 8	à	à	ADP	_	_	6	mod	_	AlignBegin=82686|AlignEnd=82864|Gloss=at
 9	gidaː	gidaː	NOUN	_	Definite=Ind	8	comp:obj	_	AlignBegin=82864|AlignEnd=83042|Gloss=home
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=83042|AlignEnd=83220|Gloss=PUNCT
@@ -1054,7 +1054,7 @@
 6	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	5	comp:obj@R	_	AlignBegin=133156|AlignEnd=133316|Gloss=3Masc
 7	yà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	5	comp:obj@T	_	AlignBegin=133316|AlignEnd=133476|Gloss=3Masc.Sub
 8	yi	yi	VERB	_	_	7	comp:aux	_	AlignBegin=133476|AlignEnd=133636|Gloss=do
-9	hàƙuriː	hàƙuriː	NOUN	_	Definite=Ind	8	comp:obj	_	AlignBegin=133636|AlignEnd=133796|Gloss=patience
+9	hàƙuriː	hàƙuriː	NOUN	_	Definite=Ind	8	comp:pred	_	AlignBegin=133636|AlignEnd=133796|Gloss=patience
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=133796|AlignEnd=133954|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__75
@@ -3461,10 +3461,10 @@
 3	mà	mà	ADP	_	Case=Dat	2	comp:obl	_	AlignBegin=424877|AlignEnd=424990|Gloss=Dat
 4	ƙanèn	ƙanèː	NOUN	_	Definite=Def	3	comp:obj	_	AlignBegin=424990|AlignEnd=425046|Gloss=younger_brother.Def|wordform=ƙanèː
 5	wai	wai	SCONJ	_	_	2	comp:obj	_	AlignBegin=425216|AlignEnd=425370|Gloss=COMP
-6	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	2	comp:obj	_	AlignBegin=425370|AlignEnd=425524|Gloss=3Masc.Perf
+6	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	5	comp:obj	_	AlignBegin=425370|AlignEnd=425524|Gloss=3Masc.Perf
 7	kashè	kas-	VERB	_	_	6	comp:aux	_	AlignBegin=425524|AlignEnd=425678|Gloss=kill
 8	bàːbanshì	bàːba	NOUN	_	Definite=Cons|Gender=Masc|Person=3	7	comp:obj	_	AlignBegin=425678|AlignEnd=425729|Gloss=father.Cons.3Masc|wordform=bàːba
-9	mêː-mêː-mêː	mêː-mêː-mêː	X	_	_	6	conj:coord	_	AlignBegin=425986|AlignEnd=426063|Gloss=etc
+9	mêː-mêː-mêː	mêː-mêː-mêː	INTJ	_	_	6	conj:coord	_	AlignBegin=425986|AlignEnd=426063|Gloss=etc
 10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=426602|AlignEnd=426756|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_03__234
