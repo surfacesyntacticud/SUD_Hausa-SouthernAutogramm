@@ -2093,7 +2093,7 @@
 3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=218391|AlignEnd=218586|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_241-243
-# text = shiː || shiː tòː wânnan gàriː Basaːwa < gùndumàː naːmù kèːnan //
+# text = shiː || shiː tòː wânnan gàriː Basaːwa < gùndumàː naː -mù kèːnan //
 # speaker_id = SP2
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 218586, 221803
@@ -2108,9 +2108,10 @@
 7	Basaːwa	Basaːwa	PROPN	_	_	6	compound	_	AlignBegin=219868|AlignEnd=220145|Gloss=Basawa
 8	<	<	PUNCT	_	_	6	punct	_	AlignBegin=220145|AlignEnd=220420|Gloss=PUNCT
 9	gùndumàː	gùndumàː	NOUN	_	Definite=Ind	0	root	_	AlignBegin=220819|AlignEnd=221016|Gloss=district
-10	naːmù	naːmù	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	9	mod@poss	_	AlignBegin=221016|AlignEnd=221213|Gloss=1Plur.Gen
-11	kèːnan	kèːnan	PART	_	PartType=Foc	9	discourse@foc	_	AlignBegin=221213|AlignEnd=221410|Gloss=Ident.Emph
-12	//	//	PUNCT	_	_	9	punct	_	AlignBegin=221607|AlignEnd=221803|Gloss=PUNCT
+10	naː	naː	PART	_	Case=Gen|Gender=Masc|PartType=Case	9	mod@poss	_	AlignBegin=221016|AlignEnd=221213|Gloss=Gen.Masc|wordform=naːmù
+11	-mù	-mù	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	mod/m	_	Gloss=-1Plur.Gen
+12	kèːnan	kèːnan	PART	_	PartType=Foc	9	discourse@foc	_	AlignBegin=221213|AlignEnd=221410|Gloss=Ident.Emph
+13	//	//	PUNCT	_	_	9	punct	_	AlignBegin=221607|AlignEnd=221803|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_244-244
 # speaker_id = SP1
@@ -3148,7 +3149,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 324121, 329296
 # phonetic_text = kaː ganiː dai na farkoː / àkwai shiː / ainihin wânnan gidaː naːmù / wandà akèː cêː mashì gidaː -n / àlhajì iːdi //
-# text = kaː ganiː dai na farkoː < àkwai shi |a ainihin wânnan gidaː naːmù > wandà akèː cêː mashì gidan Àlhajì Iːdi //
+# text = kaː ganiː dai na farkoː < àkwai shi |a ainihin wânnan gidaː naː -mù > wandà akèː cêː mashì gidan Àlhajì Iːdi //
 # text_en = You see, the first one, is really our own ward which they call the ward of Alhaji Idi.
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	7	parataxis@discourse	_	AlignBegin=324121|AlignEnd=324346|Gloss=2Masc.Perf
 2	ganiː	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=324346|AlignEnd=324571|Gloss=see
@@ -3162,16 +3163,17 @@
 10	ainihin	ainihiː	ADJ	_	Definite=Cons	12	mod	_	AlignBegin=326146|AlignEnd=326371|Gloss=real.Cons
 11	wânnan	wânnan	DET	_	Definite=Def|Number=Plur|PronType=Dem	12	det	_	AlignBegin=326371|AlignEnd=326596|Gloss=Def.Plur
 12	gidaː	gidaː	NOUN	_	Definite=Ind	8	conj:appos	_	AlignBegin=326596|AlignEnd=326821|Gloss=house
-13	naːmù	naːmù	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	12	mod@poss	_	AlignBegin=326821|AlignEnd=327046|Gloss=1Plur.Gen
-14	>	>	PUNCT	_	_	15	punct	_	AlignBegin=327046|AlignEnd=327271|Gloss=PUNCT
-15	wandà	wandà	PRON	_	PronType=Rel	12	mod@relcl	_	AlignBegin=327271|AlignEnd=327496|Gloss=which
-16	akèː	nàː	AUX	_	Aspect=Prog|Person=4	15	comp:obj	_	AlignBegin=327496|AlignEnd=327721|Gloss=4.Prog.Rel|Relative=Yes
-17	cêː	cêː	VERB	_	_	16	comp:aux	_	AlignBegin=327721|AlignEnd=327946|Gloss=say
-18	mashì	mashì	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	17	comp:obl	_	AlignBegin=327946|AlignEnd=328171|Gloss=3Masc.Dat
-19	gidan	gidaː	NOUN	_	Definite=Cons	17	comp:pred	_	AlignBegin=328171|AlignEnd=328283|Gloss=house.Cons|wordform=gidaː
-20	Àlhajì	Àlhajì	PROPN	_	_	19	mod	_	AlignBegin=328621|AlignEnd=328733|Gloss=Alhaji
-21	Iːdi	Iːdi	PROPN	_	_	20	flat@name	_	AlignBegin=328733|AlignEnd=328846|Gloss=Idi
-22	//	//	PUNCT	_	_	7	punct	_	AlignBegin=329071|AlignEnd=329296|Gloss=PUNCT
+13	naː	naː	PART	_	Case=Gen|Gender=Masc|PartType=Case	12	mod@poss	_	AlignBegin=326821|AlignEnd=327046|Gloss=Gen.Masc|wordform=naːmù
+14	-mù	-mù	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	mod/m	_	Gloss=-1Plur.Gen
+15	>	>	PUNCT	_	_	16	punct	_	AlignBegin=327046|AlignEnd=327271|Gloss=PUNCT
+16	wandà	wandà	PRON	_	PronType=Rel	12	mod@relcl	_	AlignBegin=327271|AlignEnd=327496|Gloss=which
+17	akèː	nàː	AUX	_	Aspect=Prog|Person=4	16	comp:obj	_	AlignBegin=327496|AlignEnd=327721|Gloss=4.Prog.Rel|Relative=Yes
+18	cêː	cêː	VERB	_	_	17	comp:aux	_	AlignBegin=327721|AlignEnd=327946|Gloss=say
+19	mashì	mashì	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	18	comp:obl	_	AlignBegin=327946|AlignEnd=328171|Gloss=3Masc.Dat
+20	gidan	gidaː	NOUN	_	Definite=Cons	18	comp:pred	_	AlignBegin=328171|AlignEnd=328283|Gloss=house.Cons|wordform=gidaː
+21	Àlhajì	Àlhajì	PROPN	_	_	20	mod	_	AlignBegin=328621|AlignEnd=328733|Gloss=Alhaji
+22	Iːdi	Iːdi	PROPN	_	_	21	flat@name	_	AlignBegin=328733|AlignEnd=328846|Gloss=Idi
+23	//	//	PUNCT	_	_	7	punct	_	AlignBegin=329071|AlignEnd=329296|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_355-355
 # speaker_id = SP1
@@ -3297,7 +3299,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 341694, 342929
 # phonetic_text = kaː ganiː suː maː sun zama ƴan'uwaː -ǹ naːmù //
-# text = kaː ga suː maː sun zama ƴan'uwân naːmù //
+# text = kaː ganiː suː maː sun zama ƴan'uwân naː -mù //
 # text_en = You see, they too have become our brothers.
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	5	parataxis@discourse	_	AlignBegin=341694|AlignEnd=341831|Gloss=2Masc.Perf
 2	ganiː	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=341831|AlignEnd=341968|Gloss=see
@@ -3306,8 +3308,9 @@
 5	sun	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=342242|AlignEnd=342379|Gloss=3Plur.Perf
 6	zama	zama	VERB	_	_	5	comp:aux	_	AlignBegin=342379|AlignEnd=342516|Gloss=become
 7	ƴan'uwân	ɗan'uwaː	NOUN	_	Definite=Def|Number=Plur	6	comp:pred	_	AlignBegin=342516|AlignEnd=342584|Gloss=brother.Plur.Def|wordform=ƴan'uwaː
-8	naːmù	naːmù	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	7	mod@poss	_	AlignBegin=342653|AlignEnd=342790|Gloss=1Plur.Gen
-9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=342790|AlignEnd=342929|Gloss=PUNCT
+8	naː	naː	PART	_	Case=Gen|Gender=Masc|PartType=Case	7	mod@poss	_	AlignBegin=342653|AlignEnd=342790|Gloss=Gen.Masc|wordform=naːmù
+9	-mù	-mù	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	mod/m	_	Gloss=-1Plur.Gen
+10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=342790|AlignEnd=342929|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_372-372
 # speaker_id = SP1

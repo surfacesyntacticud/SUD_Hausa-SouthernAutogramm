@@ -2970,15 +2970,16 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 364422, 366140
 # phonetic_text = tun dà dar̃ajàː -n kuɗiː -ǹ naːmù yaː sàuka //
-# text = tundà dar̃ajàn kuɗîn naːmù yaː sàuka //
+# text = tundà dar̃ajàn kuɗîn naː -mù yaː sàuka //
 # text_en = Because the value of that money of ours has gone down.
-1	tundà	tundà	SCONJ	_	_	5	discourse	_	AlignBegin=364422|AlignEnd=364637|Gloss=since
-2	dar̃ajàn	dar̃ajàː	NOUN	_	Definite=Cons	5	subj	_	AlignBegin=364852|AlignEnd=364960|Gloss=value.Cons|wordform=dar̃ajàː
+1	tundà	tundà	SCONJ	_	_	6	discourse	_	AlignBegin=364422|AlignEnd=364637|Gloss=since
+2	dar̃ajàn	dar̃ajàː	NOUN	_	Definite=Cons	6	subj	_	AlignBegin=364852|AlignEnd=364960|Gloss=value.Cons|wordform=dar̃ajàː
 3	kuɗîn	kuɗiː	NOUN	_	Definite=Cons	2	mod	_	AlignBegin=365067|AlignEnd=365175|Gloss=money.Def|wordform=kuɗiː
-4	naːmù	naːmù	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	mod@poss	_	AlignBegin=365282|AlignEnd=365497|Gloss=1Plur.Gen
-5	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=365497|AlignEnd=365712|Gloss=3Masc.Perf
-6	sàuka	sauk-	VERB	_	_	5	comp:aux	_	AlignBegin=365712|AlignEnd=365927|Gloss=come_down
-7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=365927|AlignEnd=366140|Gloss=PUNCT
+4	naː	naː	PART	_	Case=Gen|Gender=Masc|PartType=Case	3	mod@poss	_	AlignBegin=365282|AlignEnd=365497|Gloss=Gen.Masc|wordform=naːmù
+5	-mù	-mù	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	mod/m	_	Gloss=-1Plur.Gen
+6	yaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=365497|AlignEnd=365712|Gloss=3Masc.Perf
+7	sàuka	sauk-	VERB	_	_	6	comp:aux	_	AlignBegin=365712|AlignEnd=365927|Gloss=come_down
+8	//	//	PUNCT	_	_	6	punct	_	AlignBegin=365927|AlignEnd=366140|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0303-0303
 # speaker_id = SP2
@@ -3866,23 +3867,24 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 481198, 484570
 # phonetic_text = kâi wannàn bàːba naːmù Allàː yà tsarèː |a shiː ya haƙà wani raːmìn dànkalìː //
-# text = kâi wannàn bàːba naːmù Allàː yà tsarèː < shiː ya haƙà wani raːmìn dànkalìː //
+# text = kâi wannàn bàːba naː -mù Allàː yà tsarèː < shiː ya haƙà wani raːmìn dànkalìː //
 # text_en = My! that father of ours, May God protect him, he dug a hole for potatoes.
-1	kâi	kâi	INTJ	_	_	10	discourse	_	AlignBegin=481198|AlignEnd=481372|Gloss=my
+1	kâi	kâi	INTJ	_	_	11	discourse	_	AlignBegin=481198|AlignEnd=481372|Gloss=my
 2	wannàn	wannàn	DET	_	Deixis=Prox|PronType=Dem	3	det	_	AlignBegin=481372|AlignEnd=481546|Gloss=Prox
-3	bàːba	bàːba	NOUN	_	Definite=Ind	10	dislocated@subj	_	AlignBegin=481721|AlignEnd=481903|Gloss=father
-4	naːmù	naːmù	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	mod@poss	_	AlignBegin=481903|AlignEnd=482085|Gloss=1Plur.Gen
-5	Allàː	Allàː	PROPN	_	_	6	subj	_	AlignBegin=482085|AlignEnd=482267|Gloss=God
-6	yà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	3	parataxis@insert	_	AlignBegin=482267|AlignEnd=482449|Gloss=3Masc.Sub
-7	tsarèː	tsarèː	VERB	_	_	6	comp:obj	_	AlignBegin=482449|AlignEnd=482631|Gloss=protect
-8	<	<	PUNCT	_	_	3	punct	_	AlignBegin=482631|AlignEnd=482812|Gloss=PUNCT
-9	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	10	dislocated@subj	_	AlignBegin=483070|AlignEnd=483284|Gloss=3Masc.Nom
-10	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=483284|AlignEnd=483498|Gloss=3Masc.Perf..Rel|Relative=Yes
-11	haƙà	haƙ-	VERB	_	_	10	comp:aux	_	AlignBegin=483498|AlignEnd=483712|Gloss=dig
-12	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	13	det	_	AlignBegin=483712|AlignEnd=483926|Gloss=some.Masc
-13	raːmìn	raːmìː	NOUN	_	Definite=Cons	11	comp:obj	_	AlignBegin=483926|AlignEnd=484033|Gloss=hole.Cons|wordform=raːmìː
-14	dànkalìː	dànkalìː	NOUN	_	Definite=Ind	13	mod	_	AlignBegin=484140|AlignEnd=484354|Gloss=sweet_potatoes
-15	//	//	PUNCT	_	_	10	punct	_	AlignBegin=484354|AlignEnd=484570|Gloss=PUNCT
+3	bàːba	bàːba	NOUN	_	Definite=Ind	11	dislocated@subj	_	AlignBegin=481721|AlignEnd=481903|Gloss=father
+4	naː	naː	PART	_	Case=Gen|Gender=Masc|PartType=Case	3	mod@poss	_	AlignBegin=481903|AlignEnd=482085|Gloss=Gen.Masc|wordform=naːmù
+5	-mù	-mù	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	mod/m	_	Gloss=-1Plur.Gen
+6	Allàː	Allàː	PROPN	_	_	7	subj	_	AlignBegin=482085|AlignEnd=482267|Gloss=God
+7	yà	yà	AUX	_	Gender=Masc|Mood=Sub|Person=3	3	parataxis@insert	_	AlignBegin=482267|AlignEnd=482449|Gloss=3Masc.Sub
+8	tsarèː	tsarèː	VERB	_	_	7	comp:obj	_	AlignBegin=482449|AlignEnd=482631|Gloss=protect
+9	<	<	PUNCT	_	_	3	punct	_	AlignBegin=482631|AlignEnd=482812|Gloss=PUNCT
+10	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	11	dislocated@subj	_	AlignBegin=483070|AlignEnd=483284|Gloss=3Masc.Nom
+11	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	0	root	_	AlignBegin=483284|AlignEnd=483498|Gloss=3Masc.Perf..Rel|Relative=Yes
+12	haƙà	haƙ-	VERB	_	_	11	comp:aux	_	AlignBegin=483498|AlignEnd=483712|Gloss=dig
+13	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	14	det	_	AlignBegin=483712|AlignEnd=483926|Gloss=some.Masc
+14	raːmìn	raːmìː	NOUN	_	Definite=Cons	12	comp:obj	_	AlignBegin=483926|AlignEnd=484033|Gloss=hole.Cons|wordform=raːmìː
+15	dànkalìː	dànkalìː	NOUN	_	Definite=Ind	14	mod	_	AlignBegin=484140|AlignEnd=484354|Gloss=sweet_potatoes
+16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=484354|AlignEnd=484570|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0404-0404
 # text = wandà dâː mu nàː ƴan yâːraː < sai mun barìː //
@@ -9218,7 +9220,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1100936, 1101991
 # phonetic_text = à màːtaː -a:\H -n -mù na dâː /
-# text = kaː ganiː / dâː / à maːtanmù na dâː /
+# text = kaː ganiː < dâː < à maːtam -mù na dâː //
 # text_en = At our wifes' place in the old days.
 1	kaː	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=2	6	parataxis@discourse	_	AlignBegin=1099640|AlignEnd=1099880|Gloss=2Masc.Perf
 2	ganiː	ganiː	VERB	_	_	1	comp:aux	_	AlignBegin=1099880|AlignEnd=1100120|Gloss=see
@@ -9226,10 +9228,11 @@
 4	dâː	dâː	ADV	_	_	6	mod	_	AlignBegin=1100360|AlignEnd=110050|Gloss=formerly
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=110050|AlignEnd=1100650|Gloss=PUNCT
 6	à	à	ADP	_	_	0	root	_	AlignBegin=1100940|AlignEnd=1101150|Gloss=FILL
-7	maːtammù	màːtaː	NOUN	_	Case=Gen|Definite=Ind|Number=Plur|Person=1	6	comp:obj	_	AlignBegin=1101150|AlignEnd=110120|Gloss=wife.Plur.Cons.Gen.1Plur.Gen|wordform=màːtaː
-8	na	na	ADP	_	Definite=Cons	6	mod	_	AlignBegin=1101360|AlignEnd=1101570|Gloss=of
-9	dâː	dâː	ADV	_	_	8	comp:obj	_	AlignBegin=1101570|AlignEnd=1101780|Gloss=formerly
-10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=1101780|AlignEnd=1101990|Gloss=PUNCT
+7	maːtam	màːtaː	NOUN	_	Definite=Cons|Number=Plur	6	comp:obj	_	AlignBegin=1101150|AlignEnd=110120|Gloss=wife.Plur.Cons|wordform=màːtaː
+8	-mù	-mù	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	mod/m	_	Gloss=-1Plur.Gen
+9	na	na	ADP	_	Definite=Cons	6	mod	_	AlignBegin=1101360|AlignEnd=1101570|Gloss=of
+10	dâː	dâː	ADV	_	_	9	comp:obj	_	AlignBegin=1101570|AlignEnd=1101780|Gloss=formerly
+11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=1101780|AlignEnd=1101990|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_0988-0988
 # speaker_id = SP1
@@ -9435,13 +9438,14 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_04.WAV
 # sent_timecode = 1133263, 1133947
 # phonetic_text = bà~ tòː bàː naːmù &//
-# text = bà~ tòː bàː naːmù &//
+# text = bà~ tòː bàː naː -mù &//
 # text_en = It's not, well ours.
 1	bà~	bàː	PART	_	PartType=Neg|Polarity=Neg	4	mod	_	AlignBegin=1133260|AlignEnd=113340|Gloss=HESIT
 2	tòː	tòː	INTJ	_	_	3	discourse	_	AlignBegin=113340|AlignEnd=1133540|Gloss=well
 3	bàː	bàː	PART	_	PartType=Neg|Polarity=Neg	1	conj:dicto	_	AlignBegin=1133540|AlignEnd=1133670|Gloss=Neg
-4	naːmù	naːmù	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	0	root@scrap	_	AlignBegin=1133670|AlignEnd=1133810|Gloss=1Plur.Gen
-5	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=1133810|AlignEnd=1133950|Gloss=PUNCT
+4	naː	naː	PART	_	Case=Gen|Gender=Masc|PartType=Case	0	root@scrap	_	AlignBegin=1133670|AlignEnd=1133810|Gloss=Gen.Masc|wordform=naːmù
+5	-mù	-mù	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	mod/m	_	Gloss=-1Plur.Gen
+6	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=1133810|AlignEnd=1133950|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_04_1014-1014
 # speaker_id = SP1

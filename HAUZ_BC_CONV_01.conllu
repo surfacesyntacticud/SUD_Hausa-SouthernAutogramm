@@ -1101,24 +1101,25 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 142058, 145418
 # phonetic_text = tòː // wani zubìː -ǹ maː / à gidaː -a_e -ǹ naːmù / shiː nèː akèː bâː su / hayàː //
-# text = tòː < wani zubìn maː / à gidàːjên naːmù < shiː nèː akèː baː sù hayàː //
+# text = tòː < wani zubìn maː à gidàːjên naː -mù < shiː nèː akèː baː sù hayàː //
 # text_en = Well some time, in our house, that's when gave them (rooms) for rent.
-1	tòː	tòː	INTJ	_	_	11	discourse	_	AlignBegin=142058|AlignEnd=142245|Gloss=well
+1	tòː	tòː	INTJ	_	_	12	discourse	_	AlignBegin=142058|AlignEnd=142245|Gloss=well
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=142245|AlignEnd=142432|Gloss=PUNCT
 3	wani	wani	DET	_	Definite=Spec|Gender=Masc|PronType=Ind	4	det	_	AlignBegin=142432|AlignEnd=142619|Gloss=some.Masc
-4	zubìn	zubìː	NOUN	_	Definite=Def	11	mod	_	AlignBegin=142619|AlignEnd=142713|Gloss=time.Def
+4	zubìn	zubìː	NOUN	_	Definite=Def	12	mod	_	AlignBegin=142619|AlignEnd=142713|Gloss=time.Def
 5	maː	maː	PART	_	PartType=Top	4	discourse@top	_	AlignBegin=142806|AlignEnd=142993|Gloss=even
-6	à	à	ADP	_	_	11	mod	_	AlignBegin=143180|AlignEnd=143367|Gloss=at
+6	à	à	ADP	_	_	12	mod	_	AlignBegin=143180|AlignEnd=143367|Gloss=at
 7	gidàːjên	gidaː	NOUN	_	Definite=Def|Number=Plur	6	comp:obj	_	AlignBegin=143367|AlignEnd=143429|Gloss=house.Plur.Def
-8	naːmù	naːmù	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	7	mod@poss	_	AlignBegin=143554|AlignEnd=143741|Gloss=1Plur.Gen
-9	<	<	PUNCT	_	_	6	punct	_	AlignBegin=143741|AlignEnd=143928|Gloss=PUNCT
-10	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	11	comp:pred	_	AlignBegin=143928|AlignEnd=144115|Gloss=3Masc.Nom
-11	nèː	neː	AUX	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=144115|AlignEnd=144302|Copula=Yes|Gloss=be.Masc/Plur
-12	akèː	nàː	AUX	_	Aspect=Prog|Person=4	11	comp:cleft	_	AlignBegin=144302|AlignEnd=144489|Gloss=4.Prog.Rel|Relative=Yes
-13	baː	baː	VERB	_	_	12	comp:aux	_	AlignBegin=144489|AlignEnd=144676|Gloss=give|wordform=bâː
-14	sù	su	PRON	_	Number=Plur|Person=3|PronType=Prs	13	comp:obj@R	_	AlignBegin=144676|AlignEnd=144863|Gloss=3Plur
-15	hayàː	hay-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	13	comp:obj@T	_	AlignBegin=145050|AlignEnd=145237|Gloss=rent.Vnoun
-16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=145237|AlignEnd=145418|Gloss=PUNCT
+8	naː	naː	PART	_	Case=Gen|Gender=Masc|PartType=Case	7	mod@poss	_	AlignBegin=143554|AlignEnd=143741|Gloss=Gen.Masc|wordform=naːmù
+9	-mù	-mù	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	mod/m	_	Gloss=-1Plur.Gen
+10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=143741|AlignEnd=143928|Gloss=PUNCT
+11	shiː	shiː	PRON	_	Case=Nom|Gender=Masc|Person=3|PronType=Prs	12	comp:pred	_	AlignBegin=143928|AlignEnd=144115|Gloss=3Masc.Nom
+12	nèː	neː	AUX	_	Gender=Masc|Number=Plur	0	root	_	AlignBegin=144115|AlignEnd=144302|Copula=Yes|Gloss=be.Masc/Plur
+13	akèː	nàː	AUX	_	Aspect=Prog|Person=4	12	comp:cleft	_	AlignBegin=144302|AlignEnd=144489|Gloss=4.Prog.Rel|Relative=Yes
+14	baː	baː	VERB	_	_	13	comp:aux	_	AlignBegin=144489|AlignEnd=144676|Gloss=give|wordform=bâː
+15	sù	su	PRON	_	Number=Plur|Person=3|PronType=Prs	14	comp:obj@R	_	AlignBegin=144676|AlignEnd=144863|Gloss=3Plur
+16	hayàː	hay-	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	14	comp:obj@T	_	AlignBegin=145050|AlignEnd=145237|Gloss=rent.Vnoun
+17	//	//	PUNCT	_	_	12	punct	_	AlignBegin=145237|AlignEnd=145418|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_049-049
 # speaker_id = SP2
@@ -3162,7 +3163,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_01.WAV
 # sent_timecode = 400582, 405830
 # phonetic_text = ɗan ràːfiː -uka -ǹ dà mukèː dà shiː / duk ruwaː -n dà mukèː dà shiː / mukàn yi / ʔèʔè / riːjìyaː -oCi nèː hakà / à wajen / goːnaː \Plur -ǹ naːmù //
-# text = ɗan raːfukàn dà mukè dà shiː dun ruwan dà mukè dà shiː mukàn yi ʔèʔè riːjiyoːyiː nèː hakà à wajen gòːnàkîn naːmù //
+# text = ɗan raːfukàn dà mukè dà shiː dun ruwan dà mukè dà shiː mukàn yi ʔèʔè riːjiyoːyiː nèː hakà à wajen gòːnàkîn naː -mù //
 # text_en = The little rivers that we have, all the water that we have, we do.. er.. wells, near our fields.
 1	ɗan	ɗan	ADJ	_	_	2	mod	_	AlignBegin=400582|AlignEnd=400763|Gloss=little
 2	raːfukàn	ràːfiː	NOUN	_	Definite=Cons|Number=Plur	13	dislocated	_	AlignBegin=400763|AlignEnd=400823|Gloss=river.Plur.Cons
@@ -3185,8 +3186,9 @@
 19	à	à	ADP	_	ExtPos=ADP	14	comp:obl	_	AlignBegin=404745|AlignEnd=404926|Gloss=at|Idiom=Yes
 20	wajen	wajeː	NOUN	_	Definite=Cons|Gender=Masc	19	compound	_	AlignBegin=404926|AlignEnd=405107|Gloss=direction.Masc.Cons|InIdiom=Yes
 21	gòːnàkîn	goːnaː	NOUN	_	Definite=Cons|Number=Plur	19	comp:obj	_	AlignBegin=405288|AlignEnd=405348|Gloss=field.Plur.Cons
-22	naːmù	naːmù	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	21	mod@poss	_	AlignBegin=405469|AlignEnd=405650|Gloss=1Plur.Gen
-23	//	//	PUNCT	_	_	13	punct	_	AlignBegin=405650|AlignEnd=405830|Gloss=PUNCT
+22	naː	naː	PART	_	Case=Gen|Gender=Masc|PartType=Case	21	mod@poss	_	AlignBegin=405469|AlignEnd=405650|Gloss=Gen.Masc|wordform=naːmù
+23	-mù	-mù	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	mod/m	_	Gloss=-1Plur.Gen
+24	//	//	PUNCT	_	_	13	punct	_	AlignBegin=405650|AlignEnd=405830|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_01_SP2_149-149
 # speaker_id = SP2
