@@ -248,13 +248,12 @@
 2	akà	yaː	AUX	_	Aspect=Perf|Person=4	0	root	_	AlignBegin=42875|AlignEnd=43088|Gloss=4.Perf.Rel|Relative=Yes
 3	yi	yi	VERB	_	_	2	comp:aux	_	AlignBegin=43088|AlignEnd=43301|Gloss=do
 4	ta	ta	PART	_	Aspect=Iter|PartType=Adv	3	compound:prt	_	AlignBegin=43301|AlignEnd=43514|Gloss=Iter
-5	duːkàn	doːk-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|Person=3|VerbForm=Vnoun	3	comp:pred	_	AlignBegin=43514|AlignEnd=43585|Gloss=beat.Vnoun.Cons.|wordform=duːkàː
-6	-shì	-shì	PRON	_	Case=Gen|Gender=Masc|Person=3|Poss=Yes|PronType=Prs	5	mod/m	_	Gloss=-3MascGen
-7	akà	yaː	AUX	_	Aspect=Perf|Person=4	2	parataxis@conj	_	AlignBegin=44170|AlignEnd=44400|Gloss=4.Perf.Rel|Relative=Yes
-8	ji	ji	VERB	_	_	7	comp:aux	_	AlignBegin=44400|AlignEnd=44630|Gloss=feel
-9	mishì	mishì	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	8	comp:obl	_	AlignBegin=44630|AlignEnd=44860|Gloss=3Masc.Dat
-10	ciːwòː	ciːwòː	NOUN	_	Definite=Ind	8	comp:obj	_	AlignBegin=44860|AlignEnd=45090|Gloss=wound
-11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=45090|AlignEnd=45317|Gloss=PUNCT
+5	duːkànshì	doːk-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|Person=3|Poss=Yes|VerbForm=Vnoun	3	comp:pred	_	AlignBegin=43514|AlignEnd=43585|CaseAf=Gen|GenderAf=Masc|Gloss=beat.Vnoun.Cons.-3MascGen|MSeg=duːkàn-shì|PersonAf=3|wordform=duːkàː
+6	akà	yaː	AUX	_	Aspect=Perf|Person=4	2	parataxis@conj	_	AlignBegin=44170|AlignEnd=44400|Gloss=4.Perf.Rel|Relative=Yes
+7	ji	ji	VERB	_	_	6	comp:aux	_	AlignBegin=44400|AlignEnd=44630|Gloss=feel
+8	mishì	mishì	PRON	_	Case=Dat|Gender=Masc|Person=3|PronType=Prs	7	comp:obl	_	AlignBegin=44630|AlignEnd=44860|Gloss=3Masc.Dat
+9	ciːwòː	ciːwòː	NOUN	_	Definite=Ind	7	comp:obj	_	AlignBegin=44860|AlignEnd=45090|Gloss=wound
+10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=45090|AlignEnd=45317|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_03_29-29
 # speaker_id = SP
@@ -263,12 +262,11 @@
 # phonetic_text = sai iyàːyeː -n -shì sukà zoː //
 # text = sai iyàːyen -shì sukà zoː //
 # text_en = Then his parents came.
-1	sai	sai	ADV	_	_	4	mod	_	AlignBegin=46007|AlignEnd=46276|Gloss=then
-2	iyàːyen	iyàːyeː	NOUN	_	Definite=Cons	4	dislocated@subj	_	AlignBegin=46276|AlignEnd=46366|Gloss=relatives.Cons.
-3	-shì	-shì	PRON	_	Case=Gen|Gender=Masc|Person=3|Poss=Yes|PronType=Prs	2	mod/m	_	Gloss=-3MascGen
-4	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=46545|AlignEnd=46814|Gloss=3Plur.Perf.Rel|Relative=Yes
-5	zoː	zoː	VERB	_	_	4	comp:aux	_	AlignBegin=46814|AlignEnd=47083|Gloss=come
-6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=47083|AlignEnd=47350|Gloss=PUNCT
+1	sai	sai	ADV	_	_	3	mod	_	AlignBegin=46007|AlignEnd=46276|Gloss=then
+2	iyàːyenshì	iyàːyeː	NOUN	_	Definite=Cons|Poss=Yes	3	dislocated@subj	_	AlignBegin=46276|AlignEnd=46366|CaseAf=Gen|GenderAf=Masc|Gloss=relatives.Cons.-3MascGen|MSeg=iyàːyen-shì|PersonAf=3|wordform=iyàːyen
+3	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=46545|AlignEnd=46814|Gloss=3Plur.Perf.Rel|Relative=Yes
+4	zoː	zoː	VERB	_	_	3	comp:aux	_	AlignBegin=46814|AlignEnd=47083|Gloss=come
+5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=47083|AlignEnd=47350|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_03_30-31
 # speaker_id = SP
@@ -277,22 +275,21 @@
 # phonetic_text = dà iyàːyeː -n -shì sukà zoː / sai sukà / cêː mèː ya yi hakà akà dùːkaː -eː shi //
 # text = dà iyàːyen -shì sukà zoː / sai sukà / cêː mèː ya yi hakà akà dòːkeː -eː shì ?//
 # text_en = When his parents arrived, then they asked why are they beating him like this?
-1	dà	dà	SCONJ	_	_	7	mod	_	AlignBegin=49023|AlignEnd=49258|Gloss=as
-2	iyàːyen	iyàːyeː	NOUN	_	Definite=Cons	4	subj	_	AlignBegin=49258|AlignEnd=49336|Gloss=relatives.Cons.
-3	-shì	-shì	PRON	_	Case=Gen|Gender=Masc|Person=3|Poss=Yes|PronType=Prs	2	mod/m	_	Gloss=-3MascGen
-4	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=49493|AlignEnd=49728|Gloss=3Plur.Perf.Rel|Relative=Yes
-5	zoː	zoː	VERB	_	_	4	comp:aux	_	AlignBegin=49728|AlignEnd=49963|Gloss=come
-6	sai	sai	ADV	_	_	7	mod	_	AlignBegin=51160|AlignEnd=51368|Gloss=then
-7	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=51368|AlignEnd=51576|Gloss=3Plur.Perf.Rel|Relative=Yes
-8	cêː	cêː	VERB	_	_	7	comp:aux	_	AlignBegin=51784|AlignEnd=51992|Gloss=say
-9	mèː	mèː	PRON	_	_	8	comp:obj	_	AlignBegin=51992|AlignEnd=52200|Gloss=what
-10	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	9	comp:cleft	_	AlignBegin=52200|AlignEnd=52408|Gloss=3Masc.Perf.Rel|Relative=Yes
-11	yi	yi	VERB	_	_	10	comp:aux	_	AlignBegin=52408|AlignEnd=52616|Gloss=do
-12	hakà	hakà	ADV	_	_	11	mod	_	AlignBegin=52616|AlignEnd=52824|Gloss=like_this
-13	akà	yaː	AUX	_	Aspect=Perf|Person=4	10	parataxis	_	AlignBegin=52824|AlignEnd=53032|Gloss=4.Perf.Rel|Relative=Yes
-14	dòːkeː	doːk-	VERB	_	_	13	comp:aux	_	AlignBegin=53032|AlignEnd=53136|Gloss=beat
-15	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=53240|AlignEnd=53448|Gloss=3Masc
-16	?//	?//	PUNCT	_	_	7	punct	_	AlignBegin=53448|AlignEnd=53652|Gloss=PUNCT
+1	dà	dà	SCONJ	_	_	6	mod	_	AlignBegin=49023|AlignEnd=49258|Gloss=as
+2	iyàːyenshì	iyàːyeː	NOUN	_	Definite=Cons|Poss=Yes	3	subj	_	AlignBegin=49258|AlignEnd=49336|CaseAf=Gen|GenderAf=Masc|Gloss=relatives.Cons.-3MascGen|MSeg=iyàːyen-shì|PersonAf=3|wordform=iyàːyen
+3	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	1	comp:obj	_	AlignBegin=49493|AlignEnd=49728|Gloss=3Plur.Perf.Rel|Relative=Yes
+4	zoː	zoː	VERB	_	_	3	comp:aux	_	AlignBegin=49728|AlignEnd=49963|Gloss=come
+5	sai	sai	ADV	_	_	6	mod	_	AlignBegin=51160|AlignEnd=51368|Gloss=then
+6	sukà	yaː	AUX	_	Aspect=Perf|Number=Plur|Person=3	0	root	_	AlignBegin=51368|AlignEnd=51576|Gloss=3Plur.Perf.Rel|Relative=Yes
+7	cêː	cêː	VERB	_	_	6	comp:aux	_	AlignBegin=51784|AlignEnd=51992|Gloss=say
+8	mèː	mèː	PRON	_	_	7	comp:obj	_	AlignBegin=51992|AlignEnd=52200|Gloss=what
+9	ya	yaː	AUX	_	Aspect=Perf|Gender=Masc|Person=3	8	comp:cleft	_	AlignBegin=52200|AlignEnd=52408|Gloss=3Masc.Perf.Rel|Relative=Yes
+10	yi	yi	VERB	_	_	9	comp:aux	_	AlignBegin=52408|AlignEnd=52616|Gloss=do
+11	hakà	hakà	ADV	_	_	10	mod	_	AlignBegin=52616|AlignEnd=52824|Gloss=like_this
+12	akà	yaː	AUX	_	Aspect=Perf|Person=4	9	parataxis	_	AlignBegin=52824|AlignEnd=53032|Gloss=4.Perf.Rel|Relative=Yes
+13	dòːkeː	doːk-	VERB	_	_	12	comp:aux	_	AlignBegin=53032|AlignEnd=53136|Gloss=beat
+14	shì	shi	PRON	_	Gender=Masc|Person=3|PronType=Prs	13	comp:obj	_	AlignBegin=53240|AlignEnd=53448|Gloss=3Masc
+15	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=53448|AlignEnd=53652|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_03_32-32
 # speaker_id = SP
