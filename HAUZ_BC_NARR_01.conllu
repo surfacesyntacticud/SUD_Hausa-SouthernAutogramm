@@ -1146,10 +1146,10 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_01.WAV
 # sent_timecode = 146986, 147557
 # phonetic_text = yanàː ta /
-# text = yanàː ta /
+# text = yanàː ta &//
 # text_en = He is..
 1	yanàː	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	0	root@scrap	_	AlignBegin=146986|AlignEnd=147176|Gloss=3Masc.Prog
-2	ta	ta	PRON	_	Aspect=Iter|PartType=Aspect|Person=3	1	unk@scrap	_	AlignBegin=147176|AlignEnd=147366|Gloss=Iter
+2	ta	ta	PART	_	Aspect=Iter|PartType=Aspect	1	unk@scrap	_	AlignBegin=147176|AlignEnd=147366|Gloss=Iter
 3	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=147366|AlignEnd=147557|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_140-140
@@ -2231,11 +2231,11 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_NARR_01.WAV
 # sent_timecode = 271955, 272950
 # phonetic_text = bâː mài tàimakoː -n -shi //
-# text = bâː mài tàimakon -shi //
+# text = bâː mài tàimakonshi //
 # text_en = There's noone to help him.
 1	bâː	baːbù	PART	_	PartType=Pred|Polarity=Neg	0	root	_	AlignBegin=271955|AlignEnd=272204|Gloss=there_is.Neg
 2	mài	mài	PART	_	Number=Sing|PartType=Der	1	subj	_	AlignBegin=272204|AlignEnd=272453|Gloss=owner_of.Sing|Linker=Yes
-3	tàimakonshi	taimak-	NOUN	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	compound	_	AlignBegin=272453|AlignEnd=272536|CaseAf=Gen|Gloss=help.Vnoun.Masc.Cons-3MascGen|MSeg=tàimakon-shi|NumberAf=Sing|PersonAf=3|Poss=Yes|wordform=tàimakoː
+3	tàimakonshi	taimak-	VERB	_	Definite=Cons|ExtPos=NOUN|Gender=Masc|VerbForm=Vnoun	2	compound	_	AlignBegin=272453|AlignEnd=272536|CaseAf=Gen|Gloss=help.Vnoun.Masc.Cons-3MascGen|MSeg=tàimakon-shi|NumberAf=Sing|PersonAf=3|Poss=Yes|wordform=tàimakoː
 4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=272702|AlignEnd=272950|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_NARR_01_262-263
