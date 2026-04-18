@@ -424,7 +424,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 47051, 49980
 # phonetic_text = tun inàː dà -ːːː / àkwiyàː -ai\LH maː yànzu wandà yakèː wânnan nàː -wàː nèː //
-# text = tun inàː dà àwàːkai maː yànzu wandà ya kè wânnan nàːwaː nèː //
+# text = tun inàː dà àwàːkai maː yànzu wandà yakè wânnan nàːwaː nèː //
 # text_en = Since I have .. goats that now are mine.
 1	tun	tun	SCONJ	_	_	2	discourse	_	AlignBegin=47051|AlignEnd=47264|Gloss=since
 2	inàː	nàː	AUX	_	Aspect=Prog|Number=Sing|Person=1	0	root	_	AlignBegin=47264|AlignEnd=47477|Gloss=1Sing.Prog|wordform=i
@@ -432,11 +432,11 @@
 4	àwàːkai	àkwiyàː	NOUN	_	Definite=Ind|Number=Plur	3	comp:obj	_	AlignBegin=47904|AlignEnd=48020|Gloss=goat.Plur
 5	maː	maː	PART	_	PartType=Top	4	discourse@top	_	AlignBegin=48135|AlignEnd=48366|Gloss=even
 6	yànzu	yànzu	ADV	_	_	2	mod	_	AlignBegin=48366|AlignEnd=48597|Gloss=now
-7	wandà	wandà	PRON	_	ExtPos=PRON|PronType=Rel	11	dislocated@subj	_	AlignBegin=48597|AlignEnd=48828|Gloss=which
+7	wandà	wandà	PRON	_	PronType=Rel	4	mod@relcl	_	AlignBegin=48597|AlignEnd=48828|Gloss=which
 8	yakè	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	7	discourse@foc	_	AlignBegin=48828|AlignEnd=49059|Gloss=3Masc.Prog.Rel2|Relative=Yes|wordform=ya
 9	wânnan	wânnan	PRON	_	Definite=Def|Number=Plur|PronType=Dem	11	subj	_	AlignBegin=49059|AlignEnd=49290|Gloss=Def.Plur
 10	nàːwaː	nàːwaː	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	11	comp:pred	_	AlignBegin=49290|AlignEnd=49406|Gloss=1SingGen
-11	nèː	neː	AUX	_	_	4	mod@relcl	_	AlignBegin=49521|AlignEnd=49752|Copula=Yes|Gloss=be
+11	nèː	neː	AUX	_	_	7	comp:obj	_	AlignBegin=49521|AlignEnd=49752|Copula=Yes|Gloss=be
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=49752|AlignEnd=49980|Gloss=PUNCT
 
 # sent_id = HAUZ_BC_CONV_02_051-051
@@ -728,7 +728,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/HAUZ/WAV/HAUZ_BC_CONV_02.WAV
 # sent_timecode = 80339, 90250
 # phonetic_text = tundà yànzu munàː dà sâː -uː\H / wandà -ːːː / àː -ːːː / mukèː àmfàːniː dà suː / wajen hùːɗaː -n farkoː / dà kuma hùːɗaː na kàrkeː X /
-# text = yànzu mu nàː dà gàrmaː na || wandà ya kè munàː haɗàːwaː dà shaːnuː yà manà àbîn nàn tundà yànzu mu nàː dà shaːnuː wandà àː mukèː àmfàːniː dà suː wajen hùːɗan farkoː dà kuma hùːɗaː na kàrkeː //
+# text = yànzu munàː dà gàrmaː na || wandà yakè munàː haɗàːwaː dà shaːnuː yà manà àbîn nàn tundà yànzu munàː dà shaːnuː wandà àː mukèː àmfàːniː dà suː wajen hùːɗan farkoː dà kuma hùːɗaː na kàrkeː //
 # text_en = Now, we have a plough that we use with cows, to do that thing, since now, we have cattle, that er.. we use for the first billowing and also for the final billowing.
 1	yànzu	yànzu	ADV	_	_	2	mod	_	AlignBegin=80339|AlignEnd=80527|Gloss=now
 2	munàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=1	0	root	_	AlignBegin=80527|AlignEnd=80715|Gloss=1Plur.Prog|wordform=nàː
@@ -736,7 +736,7 @@
 4	gàrmaː	gàrmaː	NOUN	_	Definite=Ind	3	comp:obj	_	AlignBegin=81093|AlignEnd=81359|Gloss=plough
 5	na	na	PART	_	Case=Gen|PartType=Case	4	mod	_	AlignBegin=81850|AlignEnd=81924|Gloss=Gen
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=81998|AlignEnd=82146|Gloss=PUNCT
-7	wandà	wandà	PRON	_	ExtPos=PRON|PronType=Rel	5	conj:dicto	_	AlignBegin=82146|AlignEnd=82358|Gloss=which
+7	wandà	wandà	PRON	_	PronType=Rel	5	conj:dicto	_	AlignBegin=82146|AlignEnd=82358|Gloss=which
 8	yakè	nàː	AUX	_	Aspect=Prog|Gender=Masc|Person=3	7	discourse@foc	_	AlignBegin=82358|AlignEnd=82570|Gloss=3Masc.Prog.Rel2|Relative=Yes|wordform=ya
 9	munàː	nàː	AUX	_	Aspect=Prog|Number=Plur|Person=1	7	comp:obj	_	AlignBegin=82570|AlignEnd=82782|Gloss=1Plur.Prog
 10	haɗàːwaː	haɗàːwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	9	comp:aux	_	AlignBegin=82782|AlignEnd=82888|Gloss=join.Vnoun
